@@ -1,0 +1,40 @@
+Updated Timeline (1/27)
+Right now we can
+ download real experimental NMR data from the BMRB
+extract hundreds of 13C / 15N chemical shifts correctly
+ aggregate them into meaningful statistics
+generate a reference CSV that reflects real chemistry
+
+
+Final Project is 
+
+    1. Prediction
+    > Given a 3D protein model (PDB), predict what its 13C NMR spectrum should look like.
+    2. Assignment
+    > Given an experimental spectrum, automatically guess which peak belongs to which atom.
+
+Updated Timeline:
+
+    PHASE 1 — Build the chemical shift knowledge base (COMPLETE WOOO)
+        “I’ve built a system that learns chemical shift behavior from real NMR data, and I’m now adding structural awareness so it can predict and assign spectra.”
+    PHASE 2 — Make the statistics structure-aware
+        • Get DSSP working reliably
+        • Ensure residue numbering matches BMRB
+        • Recompute statistics split by secondary structure
+    PHASE 3 — Turn statistics into a predictor
+        Input:
+            • PDB file
+            • amino acid sequence
+            • secondary structure
+        Output:
+            • predicted chemical shifts for each atom
+    PHASE 4 — Simulate an NMR spectrum
+        • add peak broadening
+        • add relative intensities
+        • generate 1D spectra
+    PHASE 5 — Automated assignment (the hard part)
+        take an experimental spectrum
+        • compare it to predictions
+        • score all possible assignments
+        • pick the most likely ones
+    

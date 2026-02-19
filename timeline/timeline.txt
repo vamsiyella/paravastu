@@ -1,0 +1,148 @@
+Timeline
+TECHNICAL ROADMAP
+
+1. Clean and validate BMRB+DSSP shift database
+2. Use DSSP + statistics to predict shifts from PDB models
+3. Compare predictions to experiments to validate structures
+4. Match experimental peaks to database distributions
+5. Automate assignments using optimization and constraints
+
+
+PHASE 1 — CLEAN & TRUST THE DATABASE (QUALITY CONTROL)
+
+Before prediction, you must trust the data.
+COOKIE VERSION
+Before learning how chips melt, you throw out burned cookies, half-baked ones, and weird experimental recipes.
+WHAT TO DO
+
+1. Filter bad data
+2. • Remove entries with missing atoms
+3. • Remove residues labeled “unknown” structure
+4. • Optionally keep only high-resolution PDBs
+5. Separate by structure clearly
+6. • Helix
+7. • Beta-sheet
+8. • Coil
+9. Verify distributions visually
+10. • Histograms for CA/CB per residue
+11. • Confirm beta-sheet distributions are narrower (they usually are)
+
+OUTPUT
+A trusted reference database you believe in.
+
+----------
+PHASE 2 — STRUCTURE → SHIFT PREDICTION (GOAL 1)
+
+Now prediction begins.
+COOKIE VERSION
+Someone hands you a cookie drawing and asks:
+“If it looks like this, how melted should the chips be?”
+WHAT TO DO
+
+1. Input: a PDB file
+2. • Could be real
+3. • Could be wrong
+4. • Doesn’t matter
+5. Run DSSP on it
+6. • Label every residue as helix / sheet / coil
+7. Walk residue by residue
+8. For each amino acid:
+9. • Look up its CA, CB, etc. distributions
+10. • Choose the correct one based on structure
+11. Predict shifts
+12. Options:
+13. • Mean shift
+14. • Mean ± std
+15. • Sample from distribution
+16. Output:
+17. • Table of predicted shifts
+18. • Optional simulated 13C spectrum
+
+OUTPUT
+A predicted 13C chemical shift list for the PDB model.
+This already lets you test:
+“Does this structure make sense given my spectrum?”
+
+----------
+PHASE 3 — COMPARE PREDICTION TO EXPERIMENT (MODEL TESTING)
+
+COOKIE VERSION
+You predicted how chips should melt.
+Now you taste the real cookie and compare.
+WHAT TO DO
+
+1. Overlay predicted peaks on experimental spectrum
+2. Measure errors (ppm differences)
+3. Identify mismatches:
+4. • Wrong structure?
+5. • Wrong residue placement?
+6. • Dynamics or disorder?
+7. Score models
+8. • RMSD between predicted and experimental shifts
+
+OUTPUT
+A structure validation tool.
+This is extremely powerful:
+You can now say whether a PDB model agrees with solid-state NMR data.
+
+----------
+PHASE 4 — PEAK IDENTIFICATION (PRE-ASSIGNMENT)
+
+Now we reverse the logic.
+COOKIE VERSION
+You have melted chips on a plate.
+You ask: “What ingredient could have made this?”
+WHAT TO DO
+
+1. Take experimental peaks (1D or 2D)
+2. For each peak:
+3. • Compare against all database distributions
+4. • Compute likelihoods
+
+Example:
+“Peak at 56.8 ppm is:
+70% Ser-CA (sheet)
+20% Lys-CA
+10% something else”
+
+3. Use sequence knowledge
+4. • Only allow residues present
+5. • Use counts (e.g., 6 Ser, 6 Leu)
+
+OUTPUT
+A ranked list of candidate assignments per peak.
+
+----------
+PHASE 5 — AUTOMATED ASSIGNMENT ENGINE (GOAL 2)
+
+COOKIE VERSION
+Now the computer assigns chips automatically — no human guessing.
+WHAT TO DO
+
+1. Treat assignment as a matching problem
+2. • Peaks ↔ residue-atom slots
+3. Add constraints
+4. • Sequence composition
+5. • Expected counts
+6. • Peak intensities
+7. • Structural context (beta-sheet only)
+8. Use scoring / optimization
+9. • Hungarian algorithm
+10. • Greedy matching
+11. • Probabilistic inference
+12. Output final assignments with confidence scores
+13. • “Peak A → Ser-CA (95%)”
+
+OUTPUT
+A fully automated assignment system for most 13C sites.
+
+----------
+PHASE 6 — EXTENSIONS (OPTIONAL BUT NATURAL)
+
+Once the core works, you can add:
+• 2D correlations (CA–CB pairs = huge accuracy boost)
+• Side-chain carbons
+• Dynamics (multiple conformations)
+• Disorder detection
+• Bayesian models
+• Machine learning (later, optional)
