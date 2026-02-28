@@ -29,6 +29,7 @@ def fetch_bmrb_star(bmr_id):
     resp = requests.get(url, timeout=30)
     resp.raise_for_status()
     return resp.text
+    
 
 def parse_shifts(nmrstar_text):
     entry = pynmrstar.Entry.from_string(nmrstar_text)

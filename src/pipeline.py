@@ -1,6 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
+from dssp_module import download_pdb, extract_dssp  
 
 def load_sequence():
     """
@@ -26,7 +27,11 @@ def load_coverage_data():
 
 
 def compute_average_atoms(df):
-    return df["n_atoms"].mean()
+    """
+    Computes average number of unique atom types observed per residue.
+    """
+    residue_atom_counts = df.groupby("residue")["atom"].nunique()
+    return residue_atom_counts.mean()
 
 
 def summarize_coverage(df):
@@ -46,6 +51,19 @@ def main():
     df = load_coverage_data()
     summarize_coverage(df)
 
+    
+    pdb_id = "2LBH"
+
+    print("\nDownloading PDB...")
+    pdb_path = download_pdb(pdb_id)
+
+    print("Extracting DSSP...")
+    ss_map = extract_dssp(pdb_path)
+
+    print("\nFirst 10 DSSP assignments:")
+    for k in list(ss_map.keys())[:10]:
+        print(k, ss_map[k])
 
 if __name__ == "__main__":
     main()
+     
