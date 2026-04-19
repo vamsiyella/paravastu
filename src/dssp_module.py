@@ -13,8 +13,9 @@ import pandas as pd
 from pathlib import Path
 from typing import Optional, Dict, List, Tuple
 
-from Bio.PDB import PDBParser, DSSP
+from Bio.PDB import PDBParser
 from Bio.Align import PairwiseAligner
+import subprocess
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -131,49 +132,130 @@ def download_pdb(pdb_id: str, data_dir: Path) -> str:
 # DSSP extraction
 # ---------------------------------------------------------------------------
 
+def _run_mkdssp_direct(pdb_path: str, mkdssp_path: str) -> str:
+    """
+    Call mkdssp directly via subprocess and return raw text output.
+    Tries multiple command variants to handle mkdssp 4.x on Windows,
+    where the mmcif_pdbx.dic dictionary may not be installed.
+    """
+    # Try these command variants in order until one produces output
+    cmd_variants = [
+        # Variant 1: explicit input + output format (best for mkdssp 4.x)
+        [mkdssp_path, "--output-format", "dssp", "--input-format", "pdb", pdb_path],
+        # Variant 2: output format only (mkdssp auto-detects input)
+        [mkdssp_path, "--output-format", "dssp", pdb_path],
+        # Variant 3: equals-sign syntax
+        [mkdssp_path, "--output-format=dssp", pdb_path],
+        # Variant 4: legacy syntax (mkdssp 3.x)
+        [mkdssp_path, pdb_path],
+    ]
+
+    last_error = None
+    for cmd in cmd_variants:
+        print(f"[DSSP] Trying: {' '.join(cmd)}")
+        result = subprocess.run(
+            cmd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+        )
+        if result.stderr.strip():
+            print(f"[DSSP] stderr: {result.stderr.strip()[:200]}")
+
+        if result.stdout.strip():
+            print(f"[DSSP] Success with variant: {cmd[1]}")
+            return result.stdout
+
+        last_error = (cmd, result.returncode, result.stderr)
+
+    # All variants failed — give actionable error message
+    cmd, rc, stderr = last_error
+    raise RuntimeError(
+        f"mkdssp failed on all command variants.\n"
+        f"Last command: {cmd}\n"
+        f"Return code: {rc}\n"
+        f"Stderr: {stderr[:500]}\n"
+        f"\nFIX OPTIONS:\n"
+        f"  1. Install missing dictionary: conda install -c conda-forge libcifpp\n"
+        f"  2. Re-install DSSP:           conda install -c salilab dssp --force-reinstall\n"
+        f"  3. Try a different conda env: conda create -n nmr python=3.10 && conda activate nmr\n"
+        f"     then: conda install -c salilab dssp && pip install biopython pynmrstar pandas"
+    )
+
+
+def _parse_dssp_output(dssp_text: str, chain_id: Optional[str] = None) -> pd.DataFrame:
+    """
+    Parse raw mkdssp text output into a DataFrame.
+    Handles the fixed-width DSSP format directly.
+    """
+    rows = []
+    in_data = False
+
+    for line in dssp_text.splitlines():
+        if '#  RESIDUE' in line:
+            in_data = True
+            continue
+        if not in_data or len(line) < 17:
+            continue
+
+        try:
+            res_seq = line[0:5].strip()
+            chain   = line[11].strip() if len(line) > 11 else ''
+            aa      = line[13].strip() if len(line) > 13 else ''
+            ss_raw  = line[16] if len(line) > 16 else ' '
+
+            if not res_seq or aa in ('!', '*', ''):
+                continue  # chain break / missing residue markers
+
+            if chain_id and chain != chain_id:
+                continue
+
+            try:
+                acc = int(line[34:38].strip()) if len(line) > 38 else None
+            except ValueError:
+                acc = None
+
+            try:
+                phi = float(line[103:109].strip()) if len(line) > 109 else None
+                psi = float(line[109:115].strip()) if len(line) > 115 else None
+            except ValueError:
+                phi = psi = None
+
+            rows.append({
+                'residue_number': int(res_seq),
+                'chain_id':       chain,
+                'aa':             aa,
+                'ss_raw':         ss_raw,
+                'ss_class':       DSSP_RAW_TO_CLASS.get(ss_raw, 'coil'),
+                'accessibility':  acc,
+                'phi':            phi,
+                'psi':            psi,
+            })
+        except (ValueError, IndexError):
+            continue
+
+    if not rows:
+        raise RuntimeError("DSSP output parsed but no residue records found. Check PDB file.")
+
+    return pd.DataFrame(rows).sort_values('residue_number').reset_index(drop=True)
+
+
 def extract_dssp(pdb_path: str, chain_id: Optional[str] = None) -> Dict[int, str]:
     """
     Run DSSP on a PDB file.
     Returns: {residue_number (int) -> coarse_ss_class ('helix'/'strand'/'coil')}
-
-    chain_id: restrict to this chain. If None, uses first chain found.
+    Uses direct subprocess call to avoid Biopython Windows stderr bug.
     """
     mkdssp_path = find_mkdssp()
     if mkdssp_path is None:
         raise EnvironmentError(
             "mkdssp executable not found.\n"
-            "Fix: conda install -c salilab dssp\n"
-            "Or install from: https://swift.cmbi.umcn.nl/gv/dssp/"
+            "Fix: conda install -c salilab dssp"
         )
-    print(f"[DSSP] Using executable: {mkdssp_path}")
 
-    parser = PDBParser(QUIET=True)
-    structure = parser.get_structure("protein", pdb_path)
-    model = structure[0]
-
-    if chain_id is None:
-        chains = list(model.get_chains())
-        if not chains:
-            raise ValueError("No chains found in PDB structure.")
-        chain_id = chains[0].id
-        print(f"[DSSP] Using chain: {chain_id}")
-
-    # Run DSSP - pass executable path explicitly for Windows compatibility
-    try:
-        dssp = DSSP(model, pdb_path, dssp=mkdssp_path)
-    except Exception as e:
-        raise RuntimeError(f"DSSP failed: {e}\nPDB: {pdb_path}\nExecutable: {mkdssp_path}")
-
-    ss_map = {}
-    for key in dssp.keys():
-        ch, res_id = key
-        if ch != chain_id:
-            continue
-        residue_number = res_id[1]
-        ss_raw = dssp[key][2]  # character code
-        ss_class = DSSP_RAW_TO_CLASS.get(ss_raw, 'coil')
-        ss_map[residue_number] = ss_class
-
+    dssp_text = _run_mkdssp_direct(pdb_path, mkdssp_path)
+    df = _parse_dssp_output(dssp_text, chain_id=chain_id)
+    ss_map = dict(zip(df['residue_number'], df['ss_class']))
     print(f"[DSSP] Extracted {len(ss_map)} residue assignments.")
     return ss_map
 
@@ -181,45 +263,17 @@ def extract_dssp(pdb_path: str, chain_id: Optional[str] = None) -> Dict[int, str
 def extract_dssp_full(pdb_path: str, chain_id: Optional[str] = None) -> pd.DataFrame:
     """
     Run DSSP and return full DataFrame with columns:
-        residue_number | chain_id | ss_raw | ss_class
+        residue_number | chain_id | aa | ss_raw | ss_class | phi | psi | accessibility
+    Uses direct subprocess call to avoid Biopython Windows stderr bug.
     """
     mkdssp_path = find_mkdssp()
     if mkdssp_path is None:
         raise EnvironmentError("mkdssp not found. Run: conda install -c salilab dssp")
 
-    parser = PDBParser(QUIET=True)
-    structure = parser.get_structure("protein", pdb_path)
-    model = structure[0]
-
-    if chain_id is None:
-        chain_id = list(model.get_chains())[0].id
-
-    dssp = DSSP(model, pdb_path, dssp=mkdssp_path)
-
-    rows = []
-    for key in dssp.keys():
-        ch, res_id = key
-        if ch != chain_id:
-            continue
-        resnum = res_id[1]
-        dssp_data = dssp[key]
-        ss_raw   = dssp_data[2]
-        aa       = dssp_data[1]
-        phi      = dssp_data[4]
-        psi      = dssp_data[5]
-        acc      = dssp_data[3]  # solvent accessibility
-        rows.append({
-            'residue_number': resnum,
-            'chain_id':       ch,
-            'aa':             aa,
-            'ss_raw':         ss_raw,
-            'ss_class':       DSSP_RAW_TO_CLASS.get(ss_raw, 'coil'),
-            'phi':            phi,
-            'psi':            psi,
-            'accessibility':  acc,
-        })
-
-    return pd.DataFrame(rows).sort_values('residue_number').reset_index(drop=True)
+    dssp_text = _run_mkdssp_direct(pdb_path, mkdssp_path)
+    df = _parse_dssp_output(dssp_text, chain_id=chain_id)
+    print(f"[DSSP] Extracted {len(df)} residues across chains: {sorted(df['chain_id'].unique())}")
+    return df
 
 
 # ---------------------------------------------------------------------------
@@ -251,6 +305,100 @@ def build_ss_segments(ss_map: Dict[int, str]) -> List[dict]:
 
     segments.append({'start': start, 'end': prev, 'ss_class': current_ss, 'length': prev - start + 1})
     return segments
+
+
+# ---------------------------------------------------------------------------
+# Pure-Python PDB fallback (when mkdssp is unavailable/broken)
+# ---------------------------------------------------------------------------
+
+def extract_ss_from_pdb_records(pdb_path: str) -> pd.DataFrame:
+    """
+    Extract secondary structure from HELIX and SHEET records in the PDB file.
+    This is a fallback when mkdssp cannot run.
+
+    Less detailed than DSSP (no phi/psi/accessibility) but works with zero
+    external dependencies. PDB HELIX/SHEET records are deposited by the
+    structure authors and are generally reliable.
+
+    Returns DataFrame with same columns as extract_dssp_full.
+    """
+    helix_ranges = []   # list of (chain, start_res, end_res)
+    sheet_ranges = []
+
+    with open(pdb_path, 'r') as f:
+        for line in f:
+            rec = line[:6].strip()
+            if rec == 'HELIX':
+                try:
+                    chain = line[19].strip()
+                    start = int(line[21:25].strip())
+                    end   = int(line[33:37].strip())
+                    helix_ranges.append((chain, start, end))
+                except (ValueError, IndexError):
+                    continue
+            elif rec == 'SHEET':
+                try:
+                    chain = line[21].strip()
+                    start = int(line[22:26].strip())
+                    end   = int(line[33:37].strip())
+                    sheet_ranges.append((chain, start, end))
+                except (ValueError, IndexError):
+                    continue
+
+    print(f"[PDB records] Found {len(helix_ranges)} helix ranges, {len(sheet_ranges)} sheet ranges")
+
+    # Parse all residues from ATOM records
+    residues = {}  # (chain, resnum) -> aa
+    with open(pdb_path, 'r') as f:
+        for line in f:
+            if line[:4] != 'ATOM':
+                continue
+            try:
+                chain  = line[21].strip()
+                resnum = int(line[22:26].strip())
+                resname = line[17:20].strip()
+                key = (chain, resnum)
+                if key not in residues:
+                    THREE_TO_ONE = {
+                        'ALA':'A','CYS':'C','ASP':'D','GLU':'E','PHE':'F','GLY':'G',
+                        'HIS':'H','ILE':'I','LYS':'K','LEU':'L','MET':'M','ASN':'N',
+                        'PRO':'P','GLN':'Q','ARG':'R','SER':'S','THR':'T','VAL':'V',
+                        'TRP':'W','TYR':'Y',
+                    }
+                    residues[key] = THREE_TO_ONE.get(resname, 'X')
+            except (ValueError, IndexError):
+                continue
+
+    if not residues:
+        raise RuntimeError(f"No ATOM records found in {pdb_path}")
+
+    def get_ss(chain, resnum):
+        for (c, s, e) in helix_ranges:
+            if c == chain and s <= resnum <= e:
+                return 'H', 'helix'
+        for (c, s, e) in sheet_ranges:
+            if c == chain and s <= resnum <= e:
+                return 'E', 'strand'
+        return 'C', 'coil'
+
+    rows = []
+    for i, ((chain, resnum), aa) in enumerate(sorted(residues.items())):
+        ss_raw, ss_class = get_ss(chain, resnum)
+        rows.append({
+            'residue_number': i + 1,   # sequential numbering like DSSP
+            'pdb_resnum':     resnum,
+            'chain_id':       chain,
+            'aa':             aa,
+            'ss_raw':         ss_raw,
+            'ss_class':       ss_class,
+            'accessibility':  None,
+            'phi':            None,
+            'psi':            None,
+        })
+
+    df = pd.DataFrame(rows)
+    print(f"[PDB records] SS distribution: {df['ss_class'].value_counts().to_dict()}")
+    return df
 
 
 # ---------------------------------------------------------------------------

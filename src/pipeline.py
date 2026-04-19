@@ -32,6 +32,7 @@ from dssp_module import (
     download_pdb,
     extract_dssp,
     extract_dssp_full,
+    extract_ss_from_pdb_records,
     build_ss_segments,
     align_and_map,
     get_pdb_sequence_from_file,
@@ -182,26 +183,38 @@ def run_pipeline(
             run_dssp = False
 
     if run_dssp and pdb_id:
+        pdb_path = download_pdb(pdb_id, DATA_DIR)
+            
+        # Try mkdssp first, fall back to PDB HELIX/SHEET records
+        dssp_df = None
         try:
-            pdb_path = download_pdb(pdb_id, DATA_DIR)
-
-            # Full DSSP with phi/psi/accessibility
             dssp_df = extract_dssp_full(pdb_path)
-            print(f"\nDSSP assignments (first 10):")
+            print(f"[DSSP] mkdssp succeeded.")
+        except Exception as e:
+            print(f"[DSSP] mkdssp failed: {e}")
+            print("[DSSP] Falling back to PDB HELIX/SHEET records...")
+            try:
+                dssp_df = extract_ss_from_pdb_records(pdb_path)
+                print("[DSSP] PDB record fallback succeeded.")
+                print("NOTE: To get full DSSP data: conda install -c conda-forge libcifpp")
+            except Exception as e2:
+                print(f"[DSSP] PDB fallback also failed: {e2}")
+                print("Continuing without structural labels.")
+
+        if dssp_df is not None and not dssp_df.empty:
+            print(f"\nSS assignments (first 10):")
             print(dssp_df.head(10).to_string())
             print(f"\nSS distribution:\n{dssp_df['ss_class'].value_counts()}")
 
             dssp_map = dict(zip(dssp_df['residue_number'], dssp_df['ss_class']))
             results['dssp_df'] = dssp_df
 
-            # Build segments
             segments = build_ss_segments(dssp_map)
             print(f"\nSS segments:")
             for seg in segments:
                 print(f"  {seg['ss_class']:7s} res {seg['start']:3d}-{seg['end']:3d}  ({seg['length']} aa)")
             results['segments'] = segments
 
-            # Sequence alignment (BMRB seq vs PDB seq)
             if sequence:
                 pdb_seq = get_pdb_sequence_from_file(pdb_path)
                 print(f"\nBMRB seq ({len(sequence)} aa): {sequence[:40]}...")
@@ -211,10 +224,6 @@ def run_pipeline(
 
             if save_results:
                 dssp_df.to_csv(RESULTS_DIR / f"dssp_{pdb_id}.csv", index=False)
-
-        except Exception as e:
-            print(f"DSSP step failed: {e}")
-            print("Continuing without structural labels.")
 
     # ── Step 5: Merge shifts + DSSP ───────────────────────────────────────
     print_section("STEP 5 — Merging shifts with structural labels")
@@ -371,21 +380,54 @@ def run_pipeline_from_csv(
             lambda x: THREE_TO_ONE.get(str(x).upper(), x[0] if len(str(x)) == 1 else 'X')
         )
 
-    print(f"Loaded {len(shifts_df)} shift records")
-    print(f"Columns: {list(shifts_df.columns)}")
-    print(f"SS classes: {shifts_df['ss_class'].unique().tolist()}")
+    # ── Detect CSV type ───────────────────────────────────────────────────
+    # Two valid CSV formats:
+    #   STATS CSV:  columns = residue, atom, ss_class, count, mean, median, std, min, max
+    #               (output of the stats step — already aggregated, no seq_id)
+    #   RAW CSV:    columns = seq_id, residue, atom, shift, ss_class
+    #               (one row per observed shift)
+    lbl = bmrb_id or Path(csv_path).stem
+    is_stats_csv = 'mean' in shifts_df.columns and 'seq_id' not in shifts_df.columns
+
+    if is_stats_csv:
+        print("Detected: STATS CSV (pre-aggregated — mean/std per residue/atom)")
+        print(f"  Rows: {len(shifts_df)}, atoms: {sorted(shifts_df['atom'].unique())}")
+        print(f"  Residues: {sorted(shifts_df['residue'].unique())}")
+        stats_df = shifts_df.copy()
+        # Normalise ss_class
+        coarse = {'H':'helix','G':'helix','I':'helix','E':'strand','B':'strand',
+                  'C':'coil','T':'coil','S':'coil','-':'coil',' ':'coil',
+                  'helix':'helix','strand':'strand','coil':'coil','unknown':'unknown'}
+        stats_df['ss_class'] = stats_df['ss_class'].map(coarse).fillna('unknown')
+        merged_df = None   # no raw rows to merge
+        coverage_df = None
+    else:
+        print("Detected: RAW SHIFTS CSV (one row per observed shift)")
+        # Normalise ss_class
+        coarse = {'H':'helix','G':'helix','I':'helix','E':'strand','B':'strand',
+                  'C':'coil','T':'coil','S':'coil','-':'coil',' ':'coil',
+                  'helix':'helix','strand':'strand','coil':'coil','unknown':'unknown'}
+        if 'ss_class' in shifts_df.columns:
+            shifts_df['ss_class'] = shifts_df['ss_class'].map(coarse).fillna('unknown')
+        else:
+            shifts_df['ss_class'] = 'unknown'
+        print(f"  Rows: {len(shifts_df)}, SS: {shifts_df['ss_class'].unique().tolist()}")
+        stats_df = None
+        merged_df = None
+        coverage_df = None
+
     results['shifts_df'] = shifts_df
     results['sequence']  = sequence
     results['pdb_id']    = pdb_id
 
-    # ── Coverage ──────────────────────────────────────────────────────────
-    print_section("Coverage analysis")
-    coverage_df = compute_coverage(shifts_df)
-    print(f"Residues with data: {len(coverage_df)}, avg atoms/res: {coverage_df['n_atoms'].mean():.2f}")
-    results['coverage_df'] = coverage_df
-    if save_results:
-        lbl = bmrb_id or Path(csv_path).stem
-        coverage_df.to_csv(RESULTS_DIR / f"coverage_{lbl}.csv", index=False)
+    # ── Coverage (raw CSV only) ────────────────────────────────────────────
+    if not is_stats_csv:
+        print_section("Coverage analysis")
+        coverage_df = compute_coverage(shifts_df)
+        print(f"Residues with data: {len(coverage_df)}, avg atoms/res: {coverage_df['n_atoms'].mean():.2f}")
+        results['coverage_df'] = coverage_df
+        if save_results:
+            coverage_df.to_csv(RESULTS_DIR / f"coverage_{lbl}.csv", index=False)
 
     # ── DSSP ──────────────────────────────────────────────────────────────
     dssp_map = {}
@@ -397,66 +439,96 @@ def run_pipeline_from_csv(
         if mkdssp is None:
             print("WARNING: mkdssp not found. Run: conda install -c salilab dssp")
         else:
+            pdb_path_dl = download_pdb(pdb_id, DATA_DIR)
+
+            # Try mkdssp first, fall back to PDB HELIX/SHEET records
+            dssp_df = None
             try:
-                pdb_path = download_pdb(pdb_id, DATA_DIR)
-                dssp_df  = extract_dssp_full(pdb_path)
-                dssp_map = dict(zip(dssp_df['residue_number'], dssp_df['ss_class']))
-                segments = build_ss_segments(dssp_map)
+                dssp_df = extract_dssp_full(pdb_path_dl)
+                print(f"[DSSP] mkdssp succeeded.")
+            except Exception as e:
+                print(f"[DSSP] mkdssp failed: {e}")
+                print("[DSSP] Falling back to PDB HELIX/SHEET records...")
+                try:
+                    dssp_df = extract_ss_from_pdb_records(pdb_path_dl)
+                    print("[DSSP] PDB record fallback succeeded.")
+                    print("NOTE: PDB fallback gives helix/strand/coil only (no phi/psi/accessibility).")
+                    print("      For full DSSP data, fix mkdssp with:")
+                    print("        conda install -c conda-forge libcifpp")
+                    print("      then re-run the pipeline.")
+                except Exception as e2:
+                    print(f"[DSSP] PDB fallback also failed: {e2}")
+
+            if dssp_df is not None and not dssp_df.empty:
+                dssp_map    = dict(zip(dssp_df['residue_number'], dssp_df['ss_class']))
+                segments    = build_ss_segments(dssp_map)
                 results['dssp_df']  = dssp_df
                 results['segments'] = segments
-                print(f"DSSP: {len(dssp_map)} residues")
+                print(f"SS labels: {len(dssp_map)} residues")
                 print(dssp_df['ss_class'].value_counts().to_string())
                 for seg in segments:
                     print(f"  {seg['ss_class']:7s} {seg['start']:3d}-{seg['end']:3d} ({seg['length']} aa)")
                 if sequence:
-                    pdb_seq = get_pdb_sequence_from_file(pdb_path)
+                    pdb_seq     = get_pdb_sequence_from_file(pdb_path_dl)
                     seq_mapping = align_and_map(sequence, pdb_seq)
                 if save_results:
                     dssp_df.to_csv(RESULTS_DIR / f"dssp_{pdb_id}.csv", index=False)
-            except Exception as e:
-                print(f"DSSP failed: {e}")
 
-    # ── Merge ─────────────────────────────────────────────────────────────
-    print_section("Merging shifts with structural labels")
-    merged_df = merge_shifts_with_dssp(shifts_df, dssp_map, seq_mapping)
-    results['merged_df'] = merged_df
-    if save_results:
-        lbl = bmrb_id or Path(csv_path).stem
-        merged_df.to_csv(RESULTS_DIR / f"merged_shifts_{lbl}.csv", index=False)
-    print(merged_df['ss_class'].value_counts().to_string())
+    # ── Merge (raw CSV) / annotate stats (stats CSV) ──────────────────────
+    if not is_stats_csv:
+        print_section("Merging shifts with structural labels")
+        merged_df = merge_shifts_with_dssp(shifts_df, dssp_map, seq_mapping)
+        results['merged_df'] = merged_df
+        if save_results:
+            merged_df.to_csv(RESULTS_DIR / f"merged_shifts_{lbl}.csv", index=False)
+        print(merged_df['ss_class'].value_counts().to_string())
 
-    # ── Stats ─────────────────────────────────────────────────────────────
-    print_section("Shift statistics by SS class")
-    stats_df = stats_compute(merged_df)
-    stats_df = add_random_coil_deviation(stats_df)
-    results['stats_df'] = stats_df
-    if save_results:
-        lbl = bmrb_id or Path(csv_path).stem
-        stats_df.to_csv(RESULTS_DIR / f"stats_{lbl}.csv", index=False)
-    print(f"{len(stats_df)} stat rows")
+        print_section("Computing shift statistics by SS class")
+        stats_df = stats_compute(merged_df)
+        stats_df = add_random_coil_deviation(stats_df)
+        results['stats_df'] = stats_df
+        if save_results:
+            stats_df.to_csv(RESULTS_DIR / f"stats_{lbl}.csv", index=False)
+        print(f"{len(stats_df)} stat rows")
+
+    else:
+        # Stats CSV: if DSSP ran, we can annotate which residues belong to which SS
+        # and tell the user to re-run from BMRB for full integration.
+        # For now use the stats as-is for prediction.
+        print_section("Using pre-computed statistics")
+        stats_df = add_random_coil_deviation(stats_df)
+        results['stats_df'] = stats_df
+        if save_results:
+            stats_df.to_csv(RESULTS_DIR / f"stats_{lbl}.csv", index=False)
+        print(f"{len(stats_df)} stat rows (all ss_class=unknown)")
+        if dssp_map:
+            print("NOTE: DSSP ran successfully. To get SS-aware stats, run:")
+            print(f"  python src/pipeline.py --bmrb {bmrb_id or 17561} --pdb {pdb_id}")
+            print("  This will fetch raw shifts from BMRB and merge with DSSP labels.")
 
     # ── Prediction ────────────────────────────────────────────────────────
-    if sequence and not stats_df.empty:
+    if sequence and stats_df is not None and not stats_df.empty:
         print_section("Shift prediction")
         predictor = ShiftPredictor(stats_df)
-        ss_map_for_pred = dssp_map if dssp_map else {i+1: 'coil' for i in range(len(sequence))}
-        preds = predictor.predict(sequence, ss_map_for_pred)
+        ss_map_for_pred = dssp_map if dssp_map else {i+1: 'unknown' for i in range(len(sequence))}
+        preds = predictor.predict(sequence, ss_map_for_pred, atoms=['CA', 'N'])
         preds_dev = preds.rename(columns={'predicted_shift': 'shift'})
         preds_dev = add_random_coil_deviation(preds_dev)
         preds_dev.rename(columns={'shift': 'predicted_shift'}, inplace=True)
         results['predictions'] = preds_dev
         if save_results:
-            lbl = bmrb_id or Path(csv_path).stem
             preds_dev.to_csv(RESULTS_DIR / f"predictions_{lbl}.csv", index=False)
+        print(f"Predicted shifts for {len(preds_dev)} (residue, atom) pairs")
+        print(preds_dev.head(10).to_string())
 
     # ── Summary ───────────────────────────────────────────────────────────
     print_section("PIPELINE COMPLETE")
     print(f"  Source CSV:     {csv_path}")
+    print(f"  CSV type:       {'stats (pre-aggregated)' if is_stats_csv else 'raw shifts'}")
     print(f"  PDB:            {pdb_id or 'none'}")
-    print(f"  Shift records:  {len(shifts_df)}")
     print(f"  DSSP residues:  {len(dssp_map)}")
-    print(f"  Stat rows:      {len(stats_df)}")
-    print(f"  Results → {RESULTS_DIR}")
+    print(f"  Stat rows:      {len(stats_df) if stats_df is not None else 0}")
+    print(f"  Results saved → {RESULTS_DIR}")
 
     return results
 
