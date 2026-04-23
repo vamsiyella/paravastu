@@ -44,6 +44,8 @@ from stats_module import (
     add_random_coil_deviation,
     ShiftPredictor,
 )
+from viz_module import generate_all_plots
+from ml_module import run_ml_pipeline
 
 
 # ---------------------------------------------------------------------------
@@ -280,6 +282,32 @@ def run_pipeline(
             predictions.to_csv(RESULTS_DIR / f"predictions_{bmrb_id}.csv", index=False)
             print(f"Saved predictions → results/predictions_{bmrb_id}.csv")
 
+    # ── Step 8: Visualizations (auto-generated every run) ────────────────
+    print_section("STEP 8 — Generating plots")
+    try:
+        results['bmrb_id'] = bmrb_id
+        generate_all_plots(results, output_dir=RESULTS_DIR)
+    except Exception as e:
+        print(f"[VIZ] Plot generation failed: {e}")
+
+    # ── Step 9: ML model training ──────────────────────────────────────────
+    if merged_df is not None and not merged_df.empty:
+        labeled = merged_df[merged_df['ss_class'].isin(['helix','strand','coil'])]
+        if len(labeled) >= 15 and labeled['ss_class'].nunique() >= 2:
+            print_section("STEP 9 — Training ML models")
+            try:
+                ml_results = run_ml_pipeline(merged_df, results_dir=RESULTS_DIR)
+                results['ml'] = ml_results
+                if ml_results:
+                    print(f"  RF  CV: {ml_results['rf']['cv_scores'].mean():.3f}")
+                    print(f"  XGB CV: {ml_results['xgb']['cv_scores'].mean():.3f}")
+                    print(f"  Top features: {', '.join(ml_results['rf']['feature_importance'].head(5).index.tolist())}")
+            except Exception as e:
+                print(f"[ML] Training failed: {e}")
+        else:
+            print_section("STEP 9 — ML skipped (not enough labeled samples)")
+            print(f"  Run batch mode with more BMRB entries to build training data.")
+
     # ── Summary ───────────────────────────────────────────────────────────
     print_section("PIPELINE COMPLETE")
     print(f"  BMRB entry:      {bmrb_id}")
@@ -288,6 +316,9 @@ def run_pipeline(
     print(f"  Sequence length: {len(sequence) if sequence else 'unknown'}")
     print(f"  DSSP residues:   {len(dssp_map)}")
     print(f"  Stats rows:      {len(stats_df) if stats_df is not None else 0}")
+    print(f"  Plots:    {len(list(RESULTS_DIR.glob('*.png')))} PNG files")
+    print(f"  CSVs:     {len(list(RESULTS_DIR.glob('*.csv')))} CSV files")
+    print(f"  Models:   {len(list(RESULTS_DIR.glob('*.joblib')))} trained models")
     print(f"\nOutputs saved to: {RESULTS_DIR}")
 
     return results
@@ -542,6 +573,25 @@ def run_pipeline_from_csv(
         print(f"Predicted shifts for {len(preds_dev)} (residue, atom) pairs")
         print(preds_dev.head(10).to_string())
 
+    # ── Visualizations ────────────────────────────────────────────────────
+    print_section("Generating plots")
+    try:
+        results['bmrb_id'] = lbl
+        generate_all_plots(results, output_dir=RESULTS_DIR)
+    except Exception as e:
+        print(f"[VIZ] Plot generation failed: {e}")
+
+    # ── ML (raw CSV only — needs per-shift rows) ───────────────────────────
+    if not is_stats_csv and merged_df is not None:
+        labeled = merged_df[merged_df['ss_class'].isin(['helix','strand','coil'])]
+        if len(labeled) >= 15 and labeled['ss_class'].nunique() >= 2:
+            print_section("Training ML models")
+            try:
+                ml_results = run_ml_pipeline(merged_df, results_dir=RESULTS_DIR)
+                results['ml'] = ml_results
+            except Exception as e:
+                print(f"[ML] Training failed: {e}")
+
     # ── Summary ───────────────────────────────────────────────────────────
     print_section("PIPELINE COMPLETE")
     print(f"  Source CSV:     {csv_path}")
@@ -549,7 +599,8 @@ def run_pipeline_from_csv(
     print(f"  PDB:            {pdb_id or 'none'}")
     print(f"  DSSP residues:  {len(dssp_map)}")
     print(f"  Stat rows:      {len(stats_df) if stats_df is not None else 0}")
-    print(f"  Results saved → {RESULTS_DIR}")
+    print(f"  Plots:    {len(list(RESULTS_DIR.glob('*.png')))} PNG files")
+    print(f"  Results → {RESULTS_DIR}")
 
     return results
 
