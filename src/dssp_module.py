@@ -95,36 +95,58 @@ def find_mkdssp() -> Optional[str]:
 def download_pdb(pdb_id: str, data_dir: Path) -> str:
     """
     Download PDB file from RCSB (or EBI as fallback).
-    Returns local file path string.
+    Returns local file path string (prefers .cif for mkdssp 4.x compatibility).
     """
     data_dir = Path(data_dir)
     data_dir.mkdir(parents=True, exist_ok=True)
 
+    # Prefer .cif — mkdssp 4.x requires mmCIF format (PDB triggers dictionary error)
+    cif_path = data_dir / f"{pdb_id}.cif"
     pdb_path = data_dir / f"{pdb_id}.pdb"
+
+    if cif_path.exists():
+        print(f"[PDB] Using cached CIF: {cif_path}")
+        return str(cif_path)
     if pdb_path.exists():
-        print(f"[PDB] Using cached: {pdb_path}")
+        print(f"[PDB] Using cached PDB: {pdb_path}")
         return str(pdb_path)
 
-    urls = [
+    # Try CIF first (native mkdssp 4.x format)
+    cif_urls = [
+        f"https://files.rcsb.org/download/{pdb_id}.cif",
+        f"https://www.ebi.ac.uk/pdbe/entry-files/download/{pdb_id.lower()}.cif",
+    ]
+    for url in cif_urls:
+        try:
+            print(f"[PDB] Downloading CIF: {url}")
+            resp = requests.get(url, timeout=30)
+            resp.raise_for_status()
+            cif_path.write_text(resp.text)
+            print(f"[PDB] Saved CIF to {cif_path}")
+            return str(cif_path)
+        except Exception as e:
+            print(f"[PDB] CIF failed: {e}")
+
+    # Fall back to PDB format
+    pdb_urls = [
         RCSB_URL.format(pdb_id=pdb_id),
         EBI_URL.format(pdb_id_lower=pdb_id.lower()),
     ]
-
-    for url in urls:
+    for url in pdb_urls:
         try:
-            print(f"[PDB] Downloading {url}")
+            print(f"[PDB] Downloading PDB: {url}")
             resp = requests.get(url, timeout=30)
             resp.raise_for_status()
             pdb_path.write_text(resp.text)
-            print(f"[PDB] Saved to {pdb_path}")
+            print(f"[PDB] Saved PDB to {pdb_path}")
             return str(pdb_path)
         except Exception as e:
-            print(f"[PDB] Failed {url}: {e}")
-            continue
+            print(f"[PDB] PDB failed: {e}")
 
     raise RuntimeError(
-        f"Could not download PDB {pdb_id}. "
-        "Place {pdb_id}.pdb manually in the data/ directory and retry."
+        f"Could not download {pdb_id} in any format.\n"
+        f"Manually download from https://www.rcsb.org/structure/{pdb_id}\n"
+        f"Save as data/{pdb_id}.cif (preferred) or data/{pdb_id}.pdb"
     )
 
 
@@ -138,17 +160,25 @@ def _run_mkdssp_direct(pdb_path: str, mkdssp_path: str) -> str:
     Tries multiple command variants to handle mkdssp 4.x on Windows,
     where the mmcif_pdbx.dic dictionary may not be installed.
     """
+    # Detect file format from extension
+    is_cif = str(pdb_path).lower().endswith('.cif')
+
     # Try these command variants in order until one produces output
-    cmd_variants = [
-        # Variant 1: explicit input + output format (best for mkdssp 4.x)
-        [mkdssp_path, "--output-format", "dssp", "--input-format", "pdb", pdb_path],
-        # Variant 2: output format only (mkdssp auto-detects input)
-        [mkdssp_path, "--output-format", "dssp", pdb_path],
-        # Variant 3: equals-sign syntax
-        [mkdssp_path, "--output-format=dssp", pdb_path],
-        # Variant 4: legacy syntax (mkdssp 3.x)
-        [mkdssp_path, pdb_path],
-    ]
+    if is_cif:
+        # mmCIF: mkdssp 4.x native format — no --input-format flag needed
+        cmd_variants = [
+            [mkdssp_path, "--output-format", "dssp", pdb_path],
+            [mkdssp_path, "--output-format=dssp", pdb_path],
+            [mkdssp_path, pdb_path],
+        ]
+    else:
+        # PDB format: try explicit flag first, then fallbacks
+        cmd_variants = [
+            [mkdssp_path, "--output-format", "dssp", "--input-format", "pdb", pdb_path],
+            [mkdssp_path, "--output-format", "dssp", pdb_path],
+            [mkdssp_path, "--output-format=dssp", pdb_path],
+            [mkdssp_path, pdb_path],
+        ]
 
     last_error = None
     for cmd in cmd_variants:
@@ -313,61 +343,160 @@ def build_ss_segments(ss_map: Dict[int, str]) -> List[dict]:
 
 def extract_ss_from_pdb_records(pdb_path: str) -> pd.DataFrame:
     """
-    Extract secondary structure from HELIX and SHEET records in the PDB file.
-    This is a fallback when mkdssp cannot run.
-
-    Less detailed than DSSP (no phi/psi/accessibility) but works with zero
-    external dependencies. PDB HELIX/SHEET records are deposited by the
-    structure authors and are generally reliable.
+    Extract secondary structure from HELIX/SHEET records (PDB) or
+    _struct_conf/_struct_sheet_range (mmCIF).
+    Fallback when mkdssp cannot run.
 
     Returns DataFrame with same columns as extract_dssp_full.
     """
     helix_ranges = []   # list of (chain, start_res, end_res)
     sheet_ranges = []
+    is_cif = str(pdb_path).lower().endswith('.cif')
 
-    with open(pdb_path, 'r') as f:
-        for line in f:
-            rec = line[:6].strip()
-            if rec == 'HELIX':
-                try:
-                    chain = line[19].strip()
-                    start = int(line[21:25].strip())
-                    end   = int(line[33:37].strip())
-                    helix_ranges.append((chain, start, end))
-                except (ValueError, IndexError):
+    if is_cif:
+        # --- mmCIF: parse _struct_conf (helices) and _struct_sheet_range (strands) ---
+        current_category = None
+        col_names = []
+        in_loop = False
+
+        with open(pdb_path, 'r') as f:
+            for line in f:
+                line = line.rstrip()
+
+                if line.startswith('loop_'):
+                    in_loop = True
+                    col_names = []
+                    current_category = None
                     continue
-            elif rec == 'SHEET':
-                try:
-                    chain = line[21].strip()
-                    start = int(line[22:26].strip())
-                    end   = int(line[33:37].strip())
-                    sheet_ranges.append((chain, start, end))
-                except (ValueError, IndexError):
+
+                if line.startswith('_struct_conf.'):
+                    current_category = 'struct_conf'
+                    col = line.split('.')[1].strip().split()[0]
+                    col_names.append(col)
                     continue
+
+                if line.startswith('_struct_sheet_range.'):
+                    current_category = 'struct_sheet_range'
+                    col = line.split('.')[1].strip().split()[0]
+                    col_names.append(col)
+                    continue
+
+                if line.startswith('_') and current_category:
+                    # Different category started — reset
+                    current_category = None
+                    col_names = []
+                    in_loop = False
+                    continue
+
+                if not line or line.startswith('#'):
+                    continue
+
+                if current_category and col_names and in_loop:
+                    parts = line.split()
+                    if not parts or parts[0].startswith('_'):
+                        continue
+                    ci = {c: i for i, c in enumerate(col_names)}
+
+                    if current_category == 'struct_conf':
+                        try:
+                            conf_type = parts[ci['conf_type_id']]
+                            chain = parts[ci['beg_label_asym_id']]
+                            start = int(parts[ci['beg_label_seq_id']])
+                            end   = int(parts[ci['end_label_seq_id']])
+                            if 'HELX' in conf_type.upper():
+                                helix_ranges.append((chain, start, end))
+                        except (KeyError, ValueError, IndexError):
+                            pass
+
+                    elif current_category == 'struct_sheet_range':
+                        try:
+                            chain = parts[ci['beg_label_asym_id']]
+                            start = int(parts[ci['beg_label_seq_id']])
+                            end   = int(parts[ci['end_label_seq_id']])
+                            sheet_ranges.append((chain, start, end))
+                        except (KeyError, ValueError, IndexError):
+                            pass
+    else:
+        # --- PDB format: HELIX and SHEET records ---
+        with open(pdb_path, 'r') as f:
+            for line in f:
+                rec = line[:6].strip()
+                if rec == 'HELIX':
+                    try:
+                        chain = line[19].strip()
+                        start = int(line[21:25].strip())
+                        end   = int(line[33:37].strip())
+                        helix_ranges.append((chain, start, end))
+                    except (ValueError, IndexError):
+                        continue
+                elif rec == 'SHEET':
+                    try:
+                        chain = line[21].strip()
+                        start = int(line[22:26].strip())
+                        end   = int(line[33:37].strip())
+                        sheet_ranges.append((chain, start, end))
+                    except (ValueError, IndexError):
+                        continue
 
     print(f"[PDB records] Found {len(helix_ranges)} helix ranges, {len(sheet_ranges)} sheet ranges")
 
+    THREE_TO_ONE = {
+        'ALA':'A','CYS':'C','ASP':'D','GLU':'E','PHE':'F','GLY':'G',
+        'HIS':'H','ILE':'I','LYS':'K','LEU':'L','MET':'M','ASN':'N',
+        'PRO':'P','GLN':'Q','ARG':'R','SER':'S','THR':'T','VAL':'V',
+        'TRP':'W','TYR':'Y',
+    }
+
     # Parse all residues from ATOM records
-    residues = {}  # (chain, resnum) -> aa
-    with open(pdb_path, 'r') as f:
-        for line in f:
-            if line[:4] != 'ATOM':
-                continue
-            try:
-                chain  = line[21].strip()
-                resnum = int(line[22:26].strip())
-                resname = line[17:20].strip()
-                key = (chain, resnum)
-                if key not in residues:
-                    THREE_TO_ONE = {
-                        'ALA':'A','CYS':'C','ASP':'D','GLU':'E','PHE':'F','GLY':'G',
-                        'HIS':'H','ILE':'I','LYS':'K','LEU':'L','MET':'M','ASN':'N',
-                        'PRO':'P','GLN':'Q','ARG':'R','SER':'S','THR':'T','VAL':'V',
-                        'TRP':'W','TYR':'Y',
-                    }
-                    residues[key] = THREE_TO_ONE.get(resname, 'X')
-            except (ValueError, IndexError):
-                continue
+    residues = {}  # (chain, seq_id_int) -> aa
+
+    if is_cif:
+        # Parse _atom_site loop directly — more reliable than Biopython for minimal CIFs
+        atom_cols = []
+        in_atom_loop = False
+        with open(pdb_path, 'r') as f:
+            for line in f:
+                line = line.rstrip()
+                if line.startswith('_atom_site.'):
+                    col = line.split('.')[1].strip().split()[0]
+                    atom_cols.append(col)
+                    in_atom_loop = True
+                    continue
+                if in_atom_loop and not line.startswith('_') and not line.startswith('#') and line.strip():
+                    parts = line.split()
+                    if not parts or parts[0].startswith('_') or parts[0] == 'loop_':
+                        in_atom_loop = False
+                        continue
+                    if not atom_cols:
+                        continue
+                    ci = {c: i for i, c in enumerate(atom_cols)}
+                    try:
+                        group   = parts[ci.get('group_PDB', 0)]
+                        if group not in ('ATOM', 'ATOM?'):
+                            continue
+                        chain   = parts[ci['label_asym_id']]
+                        seq_id  = int(parts[ci['label_seq_id']])
+                        resname = parts[ci['label_comp_id']]
+                        key = (chain, seq_id)
+                        if key not in residues:
+                            residues[key] = THREE_TO_ONE.get(resname, 'X')
+                    except (KeyError, ValueError, IndexError):
+                        continue
+    else:
+        # PDB format: fixed-width ATOM records
+        with open(pdb_path, 'r') as f:
+            for line in f:
+                if line[:4] != 'ATOM':
+                    continue
+                try:
+                    chain   = line[21].strip()
+                    resnum  = int(line[22:26].strip())
+                    resname = line[17:20].strip()
+                    key = (chain, resnum)
+                    if key not in residues:
+                        residues[key] = THREE_TO_ONE.get(resname, 'X')
+                except (ValueError, IndexError):
+                    continue
 
     if not residues:
         raise RuntimeError(f"No ATOM records found in {pdb_path}")
@@ -399,6 +528,63 @@ def extract_ss_from_pdb_records(pdb_path: str) -> pd.DataFrame:
     df = pd.DataFrame(rows)
     print(f"[PDB records] SS distribution: {df['ss_class'].value_counts().to_dict()}")
     return df
+
+
+# ---------------------------------------------------------------------------
+# Build BMRB-indexed SS map for predictions
+# ---------------------------------------------------------------------------
+
+def build_prediction_ss_map(
+    dssp_df: pd.DataFrame,
+    seq_mapping: Dict[int, int],
+    sequence_length: int,
+) -> Dict[int, str]:
+    """
+    Build a {bmrb_seq_id -> ss_class} map for use with ShiftPredictor.
+
+    dssp_df:        output of extract_dssp_full or extract_ss_from_pdb_records
+                    must have columns: pdb_resnum (or residue_number), ss_class
+    seq_mapping:    {bmrb_seq_id -> pdb_aligned_position (1-based)}
+                    output of align_and_map()
+    sequence_length: length of the BMRB sequence
+
+    Without this, predictions use the raw DSSP sequential numbering which
+    doesn't match BMRB residue numbering when PDB has multiple chains or
+    non-sequential residue numbers.
+    """
+    # Build pdb_position -> ss_class lookup
+    # Use pdb_resnum if available, else fall back to residue_number
+    pos_col = 'pdb_resnum' if 'pdb_resnum' in dssp_df.columns else 'residue_number'
+
+    # For multi-chain PDB (like 2LBH with 2 identical chains), restrict to chain A
+    if 'chain_id' in dssp_df.columns and dssp_df['chain_id'].nunique() > 1:
+        first_chain = sorted(dssp_df['chain_id'].unique())[0]
+        df_chain = dssp_df[dssp_df['chain_id'] == first_chain].copy()
+        print(f"[SS MAP] Multi-chain PDB — using chain {first_chain} for mapping")
+    else:
+        df_chain = dssp_df.copy()
+
+    # Map: pdb_position -> ss_class
+    # Re-index as sequential position within the chosen chain
+    df_chain = df_chain.reset_index(drop=True)
+    df_chain['chain_pos'] = range(1, len(df_chain) + 1)
+    pos_to_ss = dict(zip(df_chain['chain_pos'], df_chain['ss_class']))
+
+    # Apply seq_mapping: bmrb_id -> pdb_position -> ss_class
+    ss_map = {}
+    for bmrb_id in range(1, sequence_length + 1):
+        pdb_pos = seq_mapping.get(bmrb_id)
+        if pdb_pos is not None:
+            ss_map[bmrb_id] = pos_to_ss.get(pdb_pos, 'coil')
+        else:
+            ss_map[bmrb_id] = 'coil'  # unmapped residues default to coil
+
+    mapped = sum(1 for v in ss_map.values() if v != 'coil')
+    ss_counts = {}
+    for v in ss_map.values():
+        ss_counts[v] = ss_counts.get(v, 0) + 1
+    print(f"[SS MAP] Built prediction map: {ss_counts}")
+    return ss_map
 
 
 # ---------------------------------------------------------------------------
@@ -461,19 +647,27 @@ def align_and_map(bmrb_seq: str, pdb_seq: str) -> Dict[int, int]:
 
 
 def get_pdb_sequence_from_file(pdb_path: str, chain_id: Optional[str] = None) -> str:
-    """Extract amino acid sequence from a PDB file."""
+    """Extract amino acid sequence from a PDB or mmCIF file."""
     THREE_TO_ONE = {
         'ALA': 'A', 'CYS': 'C', 'ASP': 'D', 'GLU': 'E', 'PHE': 'F',
         'GLY': 'G', 'HIS': 'H', 'ILE': 'I', 'LYS': 'K', 'LEU': 'L',
         'MET': 'M', 'ASN': 'N', 'PRO': 'P', 'GLN': 'Q', 'ARG': 'R',
         'SER': 'S', 'THR': 'T', 'VAL': 'V', 'TRP': 'W', 'TYR': 'Y',
     }
-    parser = PDBParser(QUIET=True)
+
+    is_cif = str(pdb_path).lower().endswith('.cif')
+
+    if is_cif:
+        from Bio.PDB.MMCIFParser import MMCIFParser
+        parser = MMCIFParser(QUIET=True)
+    else:
+        parser = PDBParser(QUIET=True)
+
     structure = parser.get_structure("protein", pdb_path)
     model = structure[0]
 
     if chain_id is None:
-        chain_id = list(model.get_chains())[0].id
+        chain_id = sorted(c.id for c in model.get_chains())[0]
 
     chain = model[chain_id]
     seq = ''

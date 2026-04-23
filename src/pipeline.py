@@ -34,6 +34,7 @@ from dssp_module import (
     extract_dssp_full,
     extract_ss_from_pdb_records,
     build_ss_segments,
+    build_prediction_ss_map,
     align_and_map,
     get_pdb_sequence_from_file,
     find_mkdssp,
@@ -255,7 +256,18 @@ def run_pipeline(
         print_section("STEP 7 — Shift prediction demo")
 
         predictor = ShiftPredictor(stats_df)
-        ss_map_for_pred = dssp_map if dssp_map else {i+1: 'coil' for i in range(len(sequence))}
+        # Build properly aligned BMRB-indexed SS map using sequence alignment
+        seq_mapping_local = results.get('seq_mapping')
+        dssp_df_local     = results.get('dssp_df')
+        if dssp_map and dssp_df_local is not None and seq_mapping_local:
+            ss_map_for_pred = build_prediction_ss_map(
+                dssp_df_local, seq_mapping_local, len(sequence)
+            )
+        elif dssp_map:
+            ss_map_for_pred = {i+1: dssp_map.get(i+1, 'coil') for i in range(len(sequence))}
+        else:
+            ss_map_for_pred = {i+1: 'coil' for i in range(len(sequence))}
+        print(f"Prediction SS map: { {k: list(ss_map_for_pred.values()).count(k) for k in ['coil','strand','helix'] if k in ss_map_for_pred.values()} }")
         predictions = predictor.predict(sequence, ss_map_for_pred)
         predictions = add_random_coil_deviation(predictions.rename(columns={'predicted_shift': 'shift'}))
         predictions.rename(columns={'shift': 'predicted_shift'}, inplace=True)
@@ -510,7 +522,16 @@ def run_pipeline_from_csv(
     if sequence and stats_df is not None and not stats_df.empty:
         print_section("Shift prediction")
         predictor = ShiftPredictor(stats_df)
-        ss_map_for_pred = dssp_map if dssp_map else {i+1: 'unknown' for i in range(len(sequence))}
+        # Build a properly aligned BMRB-indexed SS map
+        # (dssp_map keys are DSSP sequential numbers, not BMRB seq_ids)
+        if dssp_map and results.get('dssp_df') is not None and seq_mapping:
+            ss_map_for_pred = build_prediction_ss_map(
+                results['dssp_df'], seq_mapping, len(sequence)
+            )
+        elif dssp_map:
+            ss_map_for_pred = {i+1: dssp_map.get(i+1, 'coil') for i in range(len(sequence))}
+        else:
+            ss_map_for_pred = {i+1: 'unknown' for i in range(len(sequence))}
         preds = predictor.predict(sequence, ss_map_for_pred, atoms=['CA', 'N'])
         preds_dev = preds.rename(columns={'predicted_shift': 'shift'})
         preds_dev = add_random_coil_deviation(preds_dev)
