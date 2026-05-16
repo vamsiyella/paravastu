@@ -2,9 +2,12 @@
 pipeline.py — Main orchestrator for the Paravastu NMR structural annotation pipeline.
 
 Usage:
-    python pipeline.py                    # run default (BMRB 17561 + PDB 2LBH)
-    python pipeline.py --bmrb 17561 --pdb 2LBH
-    python pipeline.py --bmrb 17561 --no-dssp   # skip DSSP if not installed
+    python src/pipeline.py --bmrb 17561 --pdb 2LBH          # single entry (Phase 1/2)
+    python src/pipeline.py --batch                            # Phase 3: batch all curated entries
+    python src/pipeline.py --batch --entries 17561:2LBH 15409:2KIB  # batch with custom pairs
+    python src/pipeline.py --list-entries                     # show curated entry list
+    python src/pipeline.py --csv data/my_shifts.csv --pdb 2LBH      # from CSV
+    python src/pipeline.py --bmrb 17561 --no-dssp            # skip DSSP
 """
 
 import sys
@@ -73,7 +76,6 @@ def merge_shifts_with_dssp(
     """
     df = shifts_df.copy()
 
-    # If no DSSP data but CSV already had real labels, keep them
     if not dssp_map:
         if 'ss_class' in df.columns and df['ss_class'].nunique() > 1:
             print("[MERGE] No DSSP map supplied — keeping existing ss_class labels from CSV.")
@@ -94,7 +96,7 @@ def merge_shifts_with_dssp(
 
 
 # ---------------------------------------------------------------------------
-# Main pipeline
+# Main pipeline (single entry)
 # ---------------------------------------------------------------------------
 
 def run_pipeline(
@@ -104,7 +106,7 @@ def run_pipeline(
     save_results: bool = True,
 ) -> dict:
     """
-    Full pipeline run. Returns dict with all results.
+    Full pipeline run for a single BMRB entry. Returns dict with all results.
     """
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
@@ -114,7 +116,6 @@ def run_pipeline(
     # ── Step 1: Load BMRB data ─────────────────────────────────────────────
     print_section(f"STEP 1 — Loading BMRB {bmrb_id}")
 
-    # Try local cache first — validate it's real NMR-STAR, not a stale error page
     local_str = DATA_DIR / f"bmr{bmrb_id}_3.str"
     nmrstar_text = None
 
@@ -134,7 +135,6 @@ def run_pipeline(
             print(f"ERROR: {e}")
             print(f"  Manual download: https://bmrb.io/ftp/pub/bmrb/entry_directories/bmr{bmrb_id}/bmr{bmrb_id}_3.str")
             print(f"  Save to: {local_str}")
-            print("  Or call: run_pipeline_from_csv(csv_path, pdb_id=...)")
             return {}
 
     # ── Step 2: Parse shifts + sequence ───────────────────────────────────
@@ -150,7 +150,6 @@ def run_pipeline(
     else:
         print("WARNING: Could not extract sequence")
 
-    # Auto-detect PDB ID if not specified
     if pdb_id is None:
         pdb_id = extract_pdb_id(nmrstar_text)
         print(f"PDB ID from BMRB: {pdb_id}")
@@ -171,14 +170,12 @@ def run_pipeline(
     if save_results:
         coverage_df.to_csv(RESULTS_DIR / f"coverage_{bmrb_id}.csv", index=False)
 
-    # ── Step 4: DSSP (optional) ────────────────────────────────────────────
+    # ── Step 4: DSSP ──────────────────────────────────────────────────────
     dssp_map = {}
     seq_mapping = None
 
     if run_dssp:
         print_section(f"STEP 4 — DSSP from PDB {pdb_id}")
-
-        # Check DSSP available
         mkdssp = find_mkdssp()
         if mkdssp is None:
             print("WARNING: mkdssp not found. Skipping DSSP.")
@@ -187,21 +184,19 @@ def run_pipeline(
 
     if run_dssp and pdb_id:
         pdb_path = download_pdb(pdb_id, DATA_DIR)
-            
-        # Try mkdssp first, fall back to PDB HELIX/SHEET records
+
         dssp_df = None
         try:
             dssp_df = extract_dssp_full(pdb_path)
             print(f"[DSSP] mkdssp succeeded.")
         except Exception as e:
             print(f"[DSSP] mkdssp failed: {e}")
-            print("[DSSP] Falling back to PDB HELIX/SHEET records...")
+            print("[DSSP] Falling back to CIF HELIX/SHEET records...")
             try:
                 dssp_df = extract_ss_from_pdb_records(pdb_path)
-                print("[DSSP] PDB record fallback succeeded.")
-                print("NOTE: To get full DSSP data: conda install -c conda-forge libcifpp")
+                print("[DSSP] CIF fallback succeeded.")
             except Exception as e2:
-                print(f"[DSSP] PDB fallback also failed: {e2}")
+                print(f"[DSSP] Fallback also failed: {e2}")
                 print("Continuing without structural labels.")
 
         if dssp_df is not None and not dssp_df.empty:
@@ -258,7 +253,6 @@ def run_pipeline(
         print_section("STEP 7 — Shift prediction demo")
 
         predictor = ShiftPredictor(stats_df)
-        # Build properly aligned BMRB-indexed SS map using sequence alignment
         seq_mapping_local = results.get('seq_mapping')
         dssp_df_local     = results.get('dssp_df')
         if dssp_map and dssp_df_local is not None and seq_mapping_local:
@@ -269,6 +263,7 @@ def run_pipeline(
             ss_map_for_pred = {i+1: dssp_map.get(i+1, 'coil') for i in range(len(sequence))}
         else:
             ss_map_for_pred = {i+1: 'coil' for i in range(len(sequence))}
+
         print(f"Prediction SS map: { {k: list(ss_map_for_pred.values()).count(k) for k in ['coil','strand','helix'] if k in ss_map_for_pred.values()} }")
         predictions = predictor.predict(sequence, ss_map_for_pred)
         predictions = add_random_coil_deviation(predictions.rename(columns={'predicted_shift': 'shift'}))
@@ -282,7 +277,7 @@ def run_pipeline(
             predictions.to_csv(RESULTS_DIR / f"predictions_{bmrb_id}.csv", index=False)
             print(f"Saved predictions → results/predictions_{bmrb_id}.csv")
 
-    # ── Step 8: Visualizations (auto-generated every run) ────────────────
+    # ── Step 8: Visualizations ────────────────────────────────────────────
     print_section("STEP 8 — Generating plots")
     try:
         results['bmrb_id'] = bmrb_id
@@ -292,7 +287,7 @@ def run_pipeline(
 
     # ── Step 9: ML model training ──────────────────────────────────────────
     if merged_df is not None and not merged_df.empty:
-        labeled = merged_df[merged_df['ss_class'].isin(['helix','strand','coil'])]
+        labeled = merged_df[merged_df['ss_class'].isin(['helix', 'strand', 'coil'])]
         if len(labeled) >= 15 and labeled['ss_class'].nunique() >= 2:
             print_section("STEP 9 — Training ML models")
             try:
@@ -306,7 +301,7 @@ def run_pipeline(
                 print(f"[ML] Training failed: {e}")
         else:
             print_section("STEP 9 — ML skipped (not enough labeled samples)")
-            print(f"  Run batch mode with more BMRB entries to build training data.")
+            print(f"  Run --batch to build a larger training set.")
 
     # ── Summary ───────────────────────────────────────────────────────────
     print_section("PIPELINE COMPLETE")
@@ -325,44 +320,228 @@ def run_pipeline(
 
 
 # ---------------------------------------------------------------------------
-# Batch processing (multiple BMRB entries)
+# Phase 3: Batch processing
 # ---------------------------------------------------------------------------
 
-def run_batch(bmrb_ids: list, pdb_map: dict = None, run_dssp: bool = True) -> pd.DataFrame:
-    """
-    Run pipeline on multiple BMRB entries and aggregate statistics.
-    pdb_map: {bmrb_id -> pdb_id} — optional override for PDB lookups.
-    Returns combined statistics DataFrame.
-    """
-    all_stats = []
+# Curated solid-state NMR BMRB entries with linked PDB structures.
+# Selection criteria: ssNMR, 13C/15N shifts deposited, PDB structure available.
+SOLID_STATE_ENTRIES = [
+    # (bmrb_id, pdb_id, description)
+    (17561, "2LBH", "EETI-II knottin — beta-sheet + coil (Phase 1/2 entry)"),
+    (15409, "2KIB", "HET-s prion domain — beta-solenoid"),
+    (16318, "2JWU", "ubiquitin microcrystals — alpha/beta mixed"),
+    (15380, "1LY2", "GB1 protein — alpha/beta mixed"),
+    (15865, "1M8M", "SH3 domain — all beta"),
+    (6838,  "1YMZ", "fd coat protein — helix-rich"),
+    (17557, "2KSF", "M2 proton channel — helix bundle"),
+    (16299, "2JSV", "thioredoxin microcrystals — alpha/beta"),
+    (5969,  "1H4W", "BPTI — disulfide-rich beta"),
+    (17948, "2NUZ", "calmodulin — helix-rich"),
+]
 
-    for bmrb_id in bmrb_ids:
-        pdb_id = (pdb_map or {}).get(bmrb_id)
-        print(f"\n{'#'*60}")
-        print(f"# Processing BMRB {bmrb_id}")
-        print(f"{'#'*60}")
+
+def run_pipeline_batch(
+    custom_pairs=None,
+    no_ml: bool = False,
+    verbose: bool = True,
+) -> pd.DataFrame:
+    """
+    Phase 3: Process multiple BMRB entries and build a merged reference database.
+
+    Parameters
+    ----------
+    custom_pairs : list of (bmrb_id, pdb_id) or None
+        If None, uses the built-in SOLID_STATE_ENTRIES list.
+        Pass your own: [(17561, '2LBH'), (15409, '2KIB')]
+    no_ml : bool
+        Skip ML re-training after batch (faster when just rebuilding the DB).
+    verbose : bool
+        Print per-entry progress.
+
+    Returns
+    -------
+    pd.DataFrame  — merged reference_db.csv
+    """
+    import time
+
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    cache_dir = DATA_DIR / "batch_cache"
+    cache_dir.mkdir(exist_ok=True)
+
+    pairs = custom_pairs or [(e[0], e[1]) for e in SOLID_STATE_ENTRIES]
+
+    print_section("PHASE 3 — BATCH REFERENCE DATABASE BUILD")
+    print(f"  Entries to process: {len(pairs)}")
+    print(f"  Cache directory:    {cache_dir}")
+    print(f"  Output:             {DATA_DIR / 'reference_db.csv'}")
+
+    all_raw = []
+    log = []
+
+    for bmrb_id, pdb_id in pairs:
+        cache_file = cache_dir / f"bmr{bmrb_id}_{pdb_id}_raw.csv"
+
+        # Use cached raw shifts if available
+        if cache_file.exists():
+            if verbose:
+                print(f"\n  [{bmrb_id}/{pdb_id}] Loading from cache...")
+            try:
+                df = pd.read_csv(cache_file)
+                all_raw.append(df)
+                ss = df['ss_class'].value_counts().to_dict()
+                log.append({"bmrb": bmrb_id, "pdb": pdb_id, "status": "cached",
+                             "shifts": len(df), **ss})
+                if verbose:
+                    print(f"    {len(df)} shifts — {ss}")
+                continue
+            except Exception as e:
+                if verbose:
+                    print(f"    Cache read failed ({e}), re-processing...")
+
+        if verbose:
+            print(f"\n  [{bmrb_id}/{pdb_id}] Processing...")
+
         try:
-            res = run_pipeline(bmrb_id, pdb_id=pdb_id, run_dssp=run_dssp, save_results=False)
-            if 'stats_df' in res:
-                df = res['stats_df'].copy()
-                df['bmrb_id'] = bmrb_id
-                all_stats.append(df)
+            res = run_pipeline(
+                bmrb_id=bmrb_id,
+                pdb_id=pdb_id,
+                run_dssp=True,
+                save_results=False,
+            )
+
+            merged = res.get('merged_df')
+            if merged is None or merged.empty:
+                if verbose:
+                    print(f"    No usable data.")
+                log.append({"bmrb": bmrb_id, "pdb": pdb_id, "status": "no_data", "shifts": 0})
+                continue
+
+            # Tag with source identifiers and cache
+            merged['bmrb_id'] = bmrb_id
+            merged['pdb_id']  = pdb_id
+            merged.to_csv(cache_file, index=False)
+            all_raw.append(merged)
+
+            ss = merged['ss_class'].value_counts().to_dict()
+            log.append({"bmrb": bmrb_id, "pdb": pdb_id, "status": "ok",
+                         "shifts": len(merged), **ss})
+            if verbose:
+                print(f"    ✓ {len(merged)} shifts — {ss}")
+
+            time.sleep(0.3)  # be polite to BMRB/RCSB
+
         except Exception as e:
-            print(f"ERROR on BMRB {bmrb_id}: {e}")
+            if verbose:
+                print(f"    ERROR: {e}")
+            log.append({"bmrb": bmrb_id, "pdb": pdb_id, "status": f"error: {e}", "shifts": 0})
             continue
 
-    if not all_stats:
+    # ── Aggregate ────────────────────────────────────────────────────────
+    if not all_raw:
+        print("\n[BATCH] No entries processed successfully.")
         return pd.DataFrame()
 
-    combined = pd.concat(all_stats, ignore_index=True)
-    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
-    combined.to_csv(RESULTS_DIR / "combined_stats.csv", index=False)
-    print(f"\nBatch complete. Combined stats: {len(combined)} rows")
-    return combined
+    combined = pd.concat(all_raw, ignore_index=True)
+
+    print_section("BATCH AGGREGATION")
+    print(f"  Total raw shifts: {len(combined)}")
+    print(f"  SS breakdown:     {combined['ss_class'].value_counts().to_dict()}")
+
+    # Build merged reference stats
+    reference_df = _compute_reference_stats(combined)
+    ref_path = DATA_DIR / "reference_db.csv"
+    reference_df.to_csv(ref_path, index=False)
+    print(f"  Reference DB:     {len(reference_df)} rows → {ref_path}")
+
+    # Save batch log
+    log_df = pd.DataFrame(log)
+    log_df.to_csv(DATA_DIR / "batch_log.csv", index=False)
+
+    # Print summary
+    ok = log_df[log_df['status'].isin(['ok', 'cached'])]
+    err = log_df[~log_df['status'].isin(['ok', 'cached', 'no_data'])]
+    print(f"\n  Processed: {len(ok)} entries")
+    if len(err):
+        print(f"  Errors:    {len(err)} entries")
+        for _, row in err.iterrows():
+            print(f"    BMRB {row['bmrb']} / {row['pdb']}: {row['status']}")
+
+    # Validate secondary chemical shift effect
+    ala_ca = reference_df[(reference_df['residue'] == 'A') & (reference_df['atom'] == 'CA')]
+    if len(ala_ca) > 1:
+        print(f"\n  Secondary chemical shift check (Ala CA):")
+        for _, row in ala_ca.iterrows():
+            print(f"    [{row['ss_class']:6s}] mean={row['mean']:.2f} ppm  n={row['count']}")
+
+    # ── ML training on full combined dataset ─────────────────────────────
+    if not no_ml:
+        labeled = combined[combined['ss_class'].isin(['helix', 'strand', 'coil'])]
+        if len(labeled) >= 30 and labeled['ss_class'].nunique() >= 2:
+            print_section("PHASE 3 — ML TRAINING ON REFERENCE DB")
+            print(f"  Training on {len(labeled)} labeled shifts from {len(ok)} entries")
+            try:
+                ml_results = run_ml_pipeline(combined, results_dir=RESULTS_DIR)
+                if ml_results:
+                    print(f"\n  RF  CV accuracy: {ml_results['rf']['cv_scores'].mean():.1%}")
+                    print(f"  XGB CV accuracy: {ml_results['xgb']['cv_scores'].mean():.1%}")
+                    print(f"  Models saved → {RESULTS_DIR}/")
+            except Exception as e:
+                print(f"  ML training failed: {e}")
+        else:
+            print("\n[BATCH] Not enough labeled data for ML training.")
+            print("  Need at least 30 labeled shifts across 2+ SS classes.")
+
+    print_section("PHASE 3 COMPLETE")
+    print(f"  Reference DB:  {ref_path}")
+    print(f"  Batch log:     {DATA_DIR / 'batch_log.csv'}")
+    print(f"  Cached shifts: {cache_dir}/")
+    print(f"\n  Next: run --bmrb 17561 --pdb 2LBH to use the new reference DB for predictions.")
+
+    return reference_df
+
+
+def _compute_reference_stats(combined_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Aggregate shift statistics across all entries in the batch.
+    Groups by (residue, atom, ss_class). Adds entry_count column.
+    Only includes backbone atoms most useful for structure analysis.
+    """
+    import numpy as np
+
+    KEEP_ATOMS = {'CA', 'CB', 'C', 'N', 'H', 'HA'}
+    df = combined_df[combined_df['atom'].isin(KEEP_ATOMS)].copy()
+    df = df[df['ss_class'].isin(['helix', 'strand', 'coil'])].copy()
+
+    rows = []
+    for (res, atom, ss), group in df.groupby(['residue', 'atom', 'ss_class']):
+        shifts = group['shift'].dropna().values
+        if len(shifts) == 0:
+            continue
+        entry_count = group['bmrb_id'].nunique() if 'bmrb_id' in group.columns else 1
+        rows.append({
+            'residue':     res,
+            'atom':        atom,
+            'ss_class':    ss,
+            'count':       len(shifts),
+            'entry_count': int(entry_count),
+            'mean':        float(np.mean(shifts)),
+            'median':      float(np.median(shifts)),
+            'std':         float(np.std(shifts)),
+            'min':         float(np.min(shifts)),
+            'max':         float(np.max(shifts)),
+        })
+
+    stats_df = pd.DataFrame(rows)
+    if not stats_df.empty:
+        stats_df = add_random_coil_deviation(stats_df.rename(columns={'mean': 'shift'}))
+        stats_df = stats_df.rename(columns={'shift': 'mean'})
+        stats_df = stats_df.sort_values(['residue', 'atom', 'ss_class']).reset_index(drop=True)
+    return stats_df
 
 
 # ---------------------------------------------------------------------------
-# CSV-based entry point (when .str file is unavailable or you already have a CSV)
+# CSV-based entry point
 # ---------------------------------------------------------------------------
 
 def run_pipeline_from_csv(
@@ -376,42 +555,29 @@ def run_pipeline_from_csv(
     """
     Run the pipeline starting from an already-parsed shift CSV.
 
-    csv_path: path to CSV with columns: seq_id, residue, atom, shift
-              (ss_class column optional — will be added from DSSP if run_dssp=True)
-
-    Use this when:
-    - BMRB is unreachable (network issues)
-    - You already have your shifts exported to CSV
-    - You want to use data from a different source
-
-    Example:
-        results = run_pipeline_from_csv(
-            csv_path='data/my_shifts.csv',
-            pdb_id='2LBH',
-            sequence='VLDLDVRT...',
-        )
+    Accepts two CSV formats:
+    - STATS CSV:  residue, atom, ss_class, count, mean, median, std, min, max
+    - RAW CSV:    seq_id, residue, atom, shift, ss_class
     """
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
     results = {'bmrb_id': bmrb_id}
 
-    # ── Load CSV ──────────────────────────────────────────────────────────
     print_section(f"Loading shifts from CSV: {csv_path}")
     shifts_df = pd.read_csv(csv_path)
 
-    # Normalise ss_class codes if present (H→helix, E→strand, C→coil)
+    COARSE = {'H': 'helix', 'G': 'helix', 'I': 'helix',
+              'E': 'strand', 'B': 'strand',
+              'C': 'coil', 'T': 'coil', 'S': 'coil', '-': 'coil', ' ': 'coil',
+              'helix': 'helix', 'strand': 'strand', 'coil': 'coil',
+              'unknown': 'unknown'}
+
     if 'ss_class' in shifts_df.columns:
-        coarse = {'H': 'helix', 'G': 'helix', 'I': 'helix',
-                  'E': 'strand', 'B': 'strand',
-                  'C': 'coil', 'T': 'coil', 'S': 'coil', '-': 'coil',
-                  'helix': 'helix', 'strand': 'strand', 'coil': 'coil',
-                  'unknown': 'unknown'}
-        shifts_df['ss_class'] = shifts_df['ss_class'].map(coarse).fillna('unknown')
+        shifts_df['ss_class'] = shifts_df['ss_class'].map(COARSE).fillna('unknown')
     else:
         shifts_df['ss_class'] = 'unknown'
 
-    # Ensure residue one-letter column exists
     if 'residue' not in shifts_df.columns and 'residue_name' in shifts_df.columns:
         THREE_TO_ONE = {
             'ALA':'A','CYS':'C','ASP':'D','GLU':'E','PHE':'F','GLY':'G',
@@ -420,40 +586,22 @@ def run_pipeline_from_csv(
             'TRP':'W','TYR':'Y',
         }
         shifts_df['residue'] = shifts_df['residue_name'].apply(
-            lambda x: THREE_TO_ONE.get(str(x).upper(), x[0] if len(str(x)) == 1 else 'X')
+            lambda x: THREE_TO_ONE.get(str(x).upper(), 'X')
         )
 
-    # ── Detect CSV type ───────────────────────────────────────────────────
-    # Two valid CSV formats:
-    #   STATS CSV:  columns = residue, atom, ss_class, count, mean, median, std, min, max
-    #               (output of the stats step — already aggregated, no seq_id)
-    #   RAW CSV:    columns = seq_id, residue, atom, shift, ss_class
-    #               (one row per observed shift)
     lbl = bmrb_id or Path(csv_path).stem
     is_stats_csv = 'mean' in shifts_df.columns and 'seq_id' not in shifts_df.columns
 
     if is_stats_csv:
-        print("Detected: STATS CSV (pre-aggregated — mean/std per residue/atom)")
+        print("Detected: STATS CSV (pre-aggregated)")
         print(f"  Rows: {len(shifts_df)}, atoms: {sorted(shifts_df['atom'].unique())}")
-        print(f"  Residues: {sorted(shifts_df['residue'].unique())}")
         stats_df = shifts_df.copy()
-        # Normalise ss_class
-        coarse = {'H':'helix','G':'helix','I':'helix','E':'strand','B':'strand',
-                  'C':'coil','T':'coil','S':'coil','-':'coil',' ':'coil',
-                  'helix':'helix','strand':'strand','coil':'coil','unknown':'unknown'}
-        stats_df['ss_class'] = stats_df['ss_class'].map(coarse).fillna('unknown')
-        merged_df = None   # no raw rows to merge
+        stats_df['ss_class'] = stats_df['ss_class'].map(COARSE).fillna('unknown')
+        merged_df = None
         coverage_df = None
     else:
         print("Detected: RAW SHIFTS CSV (one row per observed shift)")
-        # Normalise ss_class
-        coarse = {'H':'helix','G':'helix','I':'helix','E':'strand','B':'strand',
-                  'C':'coil','T':'coil','S':'coil','-':'coil',' ':'coil',
-                  'helix':'helix','strand':'strand','coil':'coil','unknown':'unknown'}
-        if 'ss_class' in shifts_df.columns:
-            shifts_df['ss_class'] = shifts_df['ss_class'].map(coarse).fillna('unknown')
-        else:
-            shifts_df['ss_class'] = 'unknown'
+        shifts_df['ss_class'] = shifts_df['ss_class'].map(COARSE).fillna('unknown')
         print(f"  Rows: {len(shifts_df)}, SS: {shifts_df['ss_class'].unique().tolist()}")
         stats_df = None
         merged_df = None
@@ -463,11 +611,10 @@ def run_pipeline_from_csv(
     results['sequence']  = sequence
     results['pdb_id']    = pdb_id
 
-    # ── Coverage (raw CSV only) ────────────────────────────────────────────
     if not is_stats_csv:
         print_section("Coverage analysis")
         coverage_df = compute_coverage(shifts_df)
-        print(f"Residues with data: {len(coverage_df)}, avg atoms/res: {coverage_df['n_atoms'].mean():.2f}")
+        print(f"Residues: {len(coverage_df)}, avg atoms/res: {coverage_df['n_atoms'].mean():.2f}")
         results['coverage_df'] = coverage_df
         if save_results:
             coverage_df.to_csv(RESULTS_DIR / f"coverage_{lbl}.csv", index=False)
@@ -483,41 +630,33 @@ def run_pipeline_from_csv(
             print("WARNING: mkdssp not found. Run: conda install -c salilab dssp")
         else:
             pdb_path_dl = download_pdb(pdb_id, DATA_DIR)
-
-            # Try mkdssp first, fall back to PDB HELIX/SHEET records
             dssp_df = None
             try:
                 dssp_df = extract_dssp_full(pdb_path_dl)
                 print(f"[DSSP] mkdssp succeeded.")
             except Exception as e:
                 print(f"[DSSP] mkdssp failed: {e}")
-                print("[DSSP] Falling back to PDB HELIX/SHEET records...")
+                print("[DSSP] Falling back to CIF records...")
                 try:
                     dssp_df = extract_ss_from_pdb_records(pdb_path_dl)
-                    print("[DSSP] PDB record fallback succeeded.")
-                    print("NOTE: PDB fallback gives helix/strand/coil only (no phi/psi/accessibility).")
-                    print("      For full DSSP data, fix mkdssp with:")
-                    print("        conda install -c conda-forge libcifpp")
-                    print("      then re-run the pipeline.")
+                    print("[DSSP] CIF fallback succeeded.")
                 except Exception as e2:
-                    print(f"[DSSP] PDB fallback also failed: {e2}")
+                    print(f"[DSSP] Fallback also failed: {e2}")
 
             if dssp_df is not None and not dssp_df.empty:
-                dssp_map    = dict(zip(dssp_df['residue_number'], dssp_df['ss_class']))
-                segments    = build_ss_segments(dssp_map)
+                dssp_map = dict(zip(dssp_df['residue_number'], dssp_df['ss_class']))
+                segments = build_ss_segments(dssp_map)
                 results['dssp_df']  = dssp_df
                 results['segments'] = segments
                 print(f"SS labels: {len(dssp_map)} residues")
                 print(dssp_df['ss_class'].value_counts().to_string())
-                for seg in segments:
-                    print(f"  {seg['ss_class']:7s} {seg['start']:3d}-{seg['end']:3d} ({seg['length']} aa)")
                 if sequence:
                     pdb_seq     = get_pdb_sequence_from_file(pdb_path_dl)
                     seq_mapping = align_and_map(sequence, pdb_seq)
                 if save_results:
                     dssp_df.to_csv(RESULTS_DIR / f"dssp_{pdb_id}.csv", index=False)
 
-    # ── Merge (raw CSV) / annotate stats (stats CSV) ──────────────────────
+    # ── Merge / stats ─────────────────────────────────────────────────────
     if not is_stats_csv:
         print_section("Merging shifts with structural labels")
         merged_df = merge_shifts_with_dssp(shifts_df, dssp_map, seq_mapping)
@@ -533,28 +672,21 @@ def run_pipeline_from_csv(
         if save_results:
             stats_df.to_csv(RESULTS_DIR / f"stats_{lbl}.csv", index=False)
         print(f"{len(stats_df)} stat rows")
-
     else:
-        # Stats CSV: if DSSP ran, we can annotate which residues belong to which SS
-        # and tell the user to re-run from BMRB for full integration.
-        # For now use the stats as-is for prediction.
         print_section("Using pre-computed statistics")
         stats_df = add_random_coil_deviation(stats_df)
         results['stats_df'] = stats_df
         if save_results:
             stats_df.to_csv(RESULTS_DIR / f"stats_{lbl}.csv", index=False)
-        print(f"{len(stats_df)} stat rows (all ss_class=unknown)")
+        print(f"{len(stats_df)} stat rows")
         if dssp_map:
-            print("NOTE: DSSP ran successfully. To get SS-aware stats, run:")
+            print(f"\nNOTE: DSSP ran. For SS-aware stats, run:")
             print(f"  python src/pipeline.py --bmrb {bmrb_id or 17561} --pdb {pdb_id}")
-            print("  This will fetch raw shifts from BMRB and merge with DSSP labels.")
 
     # ── Prediction ────────────────────────────────────────────────────────
     if sequence and stats_df is not None and not stats_df.empty:
         print_section("Shift prediction")
         predictor = ShiftPredictor(stats_df)
-        # Build a properly aligned BMRB-indexed SS map
-        # (dssp_map keys are DSSP sequential numbers, not BMRB seq_ids)
         if dssp_map and results.get('dssp_df') is not None and seq_mapping:
             ss_map_for_pred = build_prediction_ss_map(
                 results['dssp_df'], seq_mapping, len(sequence)
@@ -564,14 +696,14 @@ def run_pipeline_from_csv(
         else:
             ss_map_for_pred = {i+1: 'unknown' for i in range(len(sequence))}
         preds = predictor.predict(sequence, ss_map_for_pred, atoms=['CA', 'N'])
-        preds_dev = preds.rename(columns={'predicted_shift': 'shift'})
-        preds_dev = add_random_coil_deviation(preds_dev)
-        preds_dev.rename(columns={'shift': 'predicted_shift'}, inplace=True)
-        results['predictions'] = preds_dev
+        preds = preds.rename(columns={'predicted_shift': 'shift'})
+        preds = add_random_coil_deviation(preds)
+        preds.rename(columns={'shift': 'predicted_shift'}, inplace=True)
+        results['predictions'] = preds
         if save_results:
-            preds_dev.to_csv(RESULTS_DIR / f"predictions_{lbl}.csv", index=False)
-        print(f"Predicted shifts for {len(preds_dev)} (residue, atom) pairs")
-        print(preds_dev.head(10).to_string())
+            preds.to_csv(RESULTS_DIR / f"predictions_{lbl}.csv", index=False)
+        print(f"Predicted shifts for {len(preds)} (residue, atom) pairs")
+        print(preds.head(10).to_string())
 
     # ── Visualizations ────────────────────────────────────────────────────
     print_section("Generating plots")
@@ -581,9 +713,9 @@ def run_pipeline_from_csv(
     except Exception as e:
         print(f"[VIZ] Plot generation failed: {e}")
 
-    # ── ML (raw CSV only — needs per-shift rows) ───────────────────────────
+    # ── ML ────────────────────────────────────────────────────────────────
     if not is_stats_csv and merged_df is not None:
-        labeled = merged_df[merged_df['ss_class'].isin(['helix','strand','coil'])]
+        labeled = merged_df[merged_df['ss_class'].isin(['helix', 'strand', 'coil'])]
         if len(labeled) >= 15 and labeled['ss_class'].nunique() >= 2:
             print_section("Training ML models")
             try:
@@ -592,14 +724,13 @@ def run_pipeline_from_csv(
             except Exception as e:
                 print(f"[ML] Training failed: {e}")
 
-    # ── Summary ───────────────────────────────────────────────────────────
     print_section("PIPELINE COMPLETE")
-    print(f"  Source CSV:     {csv_path}")
-    print(f"  CSV type:       {'stats (pre-aggregated)' if is_stats_csv else 'raw shifts'}")
-    print(f"  PDB:            {pdb_id or 'none'}")
-    print(f"  DSSP residues:  {len(dssp_map)}")
-    print(f"  Stat rows:      {len(stats_df) if stats_df is not None else 0}")
-    print(f"  Plots:    {len(list(RESULTS_DIR.glob('*.png')))} PNG files")
+    print(f"  Source CSV:    {csv_path}")
+    print(f"  CSV type:      {'stats (pre-aggregated)' if is_stats_csv else 'raw shifts'}")
+    print(f"  PDB:           {pdb_id or 'none'}")
+    print(f"  DSSP residues: {len(dssp_map)}")
+    print(f"  Stat rows:     {len(stats_df) if stats_df is not None else 0}")
+    print(f"  Plots:   {len(list(RESULTS_DIR.glob('*.png')))} PNG files")
     print(f"  Results → {RESULTS_DIR}")
 
     return results
@@ -613,13 +744,66 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Paravastu NMR Structural Annotation Pipeline"
     )
-    parser.add_argument("--bmrb",     type=int,  default=17561, help="BMRB entry ID")
-    parser.add_argument("--pdb",      type=str,  default="2LBH", help="PDB ID (or 'auto')")
-    parser.add_argument("--csv",      type=str,  default=None,  help="Path to shifts CSV (bypasses BMRB fetch)")
-    parser.add_argument("--seq",      type=str,  default=None,  help="Protein sequence (one-letter, used with --csv)")
-    parser.add_argument("--no-dssp",  action="store_true",      help="Skip DSSP extraction")
-    parser.add_argument("--no-save",  action="store_true",      help="Don't save result files")
+
+    # Single-entry args
+    parser.add_argument("--bmrb",    type=int, default=17561, help="BMRB entry ID")
+    parser.add_argument("--pdb",     type=str, default="2LBH", help="PDB ID (or 'auto')")
+    parser.add_argument("--csv",     type=str, default=None,   help="Path to shifts CSV")
+    parser.add_argument("--seq",     type=str, default=None,   help="Protein sequence (one-letter)")
+    parser.add_argument("--no-dssp", action="store_true",      help="Skip DSSP extraction")
+    parser.add_argument("--no-save", action="store_true",      help="Don't write output files")
+
+    # Phase 3 batch args
+    batch_group = parser.add_argument_group("Phase 3 — Batch processing")
+    batch_group.add_argument(
+        "--batch", action="store_true",
+        help="Run Phase 3: process curated BMRB entries and build reference DB"
+    )
+    batch_group.add_argument(
+        "--entries", nargs="+", metavar="BMRB:PDB",
+        help="Custom entry pairs for batch, e.g. --entries 17561:2LBH 15409:2KIB"
+    )
+    batch_group.add_argument(
+        "--list-entries", action="store_true",
+        help="List all curated solid-state BMRB entries and exit"
+    )
+    batch_group.add_argument(
+        "--no-ml", action="store_true",
+        help="Skip ML training after batch (faster)"
+    )
+
     args = parser.parse_args()
+
+    # ── Dispatch ────────────────────────────────────────────────────────
+    if args.list_entries:
+        print("\nCurated solid-state NMR entries:")
+        print(f"  {'BMRB':>6}  {'PDB':<6}  Description")
+        print(f"  {'-'*6}  {'-'*6}  {'-'*45}")
+        for entry in SOLID_STATE_ENTRIES:
+            bmrb_id, pdb_id, desc = entry
+            print(f"  {bmrb_id:>6}  {pdb_id:<6}  {desc}")
+        print(f"\n  Total: {len(SOLID_STATE_ENTRIES)} entries")
+        sys.exit(0)
+
+    if args.batch or args.entries:
+        custom_pairs = None
+        if args.entries:
+            custom_pairs = []
+            for pair in args.entries:
+                parts = pair.split(":")
+                if len(parts) != 2:
+                    print(f"Error: --entries format is BMRB_ID:PDB_ID, got '{pair}'")
+                    sys.exit(1)
+                try:
+                    custom_pairs.append((int(parts[0]), parts[1].upper()))
+                except ValueError:
+                    print(f"Error: BMRB ID must be an integer, got '{parts[0]}'")
+                    sys.exit(1)
+        run_pipeline_batch(
+            custom_pairs=custom_pairs,
+            no_ml=args.no_ml,
+        )
+        sys.exit(0)
 
     pdb_id = None if args.pdb == 'auto' else args.pdb
 
