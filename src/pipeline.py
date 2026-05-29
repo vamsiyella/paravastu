@@ -822,3 +822,42 @@ if __name__ == "__main__":
             run_dssp=not args.no_dssp,
             save_results=not args.no_save,
         )
+
+
+def run_batch(bmrb_ids: list, pdb_map: dict = None, run_dssp: bool = True) -> pd.DataFrame:
+    """
+    Run pipeline on multiple BMRB entries and aggregate statistics.
+    pdb_map: {bmrb_id -> pdb_id}
+    Also saves per-entry raw merged CSVs to data/batch_cache/ for ML retraining.
+    """
+    import os
+    cache_dir = DATA_DIR / "batch_cache"
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    all_stats = []
+
+    for bmrb_id in bmrb_ids:
+        pdb_id = (pdb_map or {}).get(bmrb_id)
+        print(f"\n{'#'*60}\n# Processing BMRB {bmrb_id}\n{'#'*60}")
+        try:
+            res = run_pipeline(bmrb_id, pdb_id=pdb_id, run_dssp=run_dssp, save_results=False)
+            if 'stats_df' in res:
+                df = res['stats_df'].copy()
+                df['bmrb_id'] = bmrb_id
+                all_stats.append(df)
+            if 'merged_df' in res:
+                raw_path = cache_dir / f"bmr{bmrb_id}_raw.csv"
+                res['merged_df'].to_csv(raw_path, index=False)
+                print(f"  Cached raw shifts → {raw_path}")
+        except Exception as e:
+            print(f"ERROR on BMRB {bmrb_id}: {e}")
+            continue
+
+    if not all_stats:
+        return pd.DataFrame()
+
+    combined = pd.concat(all_stats, ignore_index=True)
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    out_path = RESULTS_DIR / "combined_stats.csv"
+    combined.to_csv(out_path, index=False)
+    print(f"\nBatch complete. Combined stats: {len(combined)} rows → {out_path}")
+    return combined
