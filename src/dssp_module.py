@@ -401,18 +401,40 @@ def extract_ss_from_pdb_records(pdb_path: str) -> pd.DataFrame:
                         try:
                             conf_type = parts[ci['conf_type_id']]
                             chain = parts[ci['beg_label_asym_id']]
-                            start = int(parts[ci['beg_label_seq_id']])
-                            end   = int(parts[ci['end_label_seq_id']])
+                            start = end = None
+                            for sk, ek in [('beg_label_seq_id','end_label_seq_id'),
+                                        ('beg_auth_seq_id','end_auth_seq_id')]:
+                                if sk in ci and ek in ci:
+                                    try:
+                                        start = int(parts[ci[sk]])
+                                        end   = int(parts[ci[ek]])
+                                        break
+                                    except (ValueError, IndexError):
+                                        pass
+                            if start is None:
+                                continue
                             if 'HELX' in conf_type.upper():
                                 helix_ranges.append((chain, start, end))
+                            elif 'STRN' in conf_type.upper():   # beta-solenoid strands
+                                sheet_ranges.append((chain, start, end))
                         except (KeyError, ValueError, IndexError):
                             pass
 
                     elif current_category == 'struct_sheet_range':
                         try:
                             chain = parts[ci['beg_label_asym_id']]
-                            start = int(parts[ci['beg_label_seq_id']])
-                            end   = int(parts[ci['end_label_seq_id']])
+                            start = end = None
+                            for sk, ek in [('beg_label_seq_id','end_label_seq_id'),
+                                        ('beg_auth_seq_id','end_auth_seq_id')]:
+                                if sk in ci and ek in ci:
+                                    try:
+                                        start = int(parts[ci[sk]])
+                                        end   = int(parts[ci[ek]])
+                                        break
+                                    except (ValueError, IndexError):
+                                        pass
+                            if start is None:
+                                continue
                             sheet_ranges.append((chain, start, end))
                         except (KeyError, ValueError, IndexError):
                             pass
@@ -439,7 +461,27 @@ def extract_ss_from_pdb_records(pdb_path: str) -> pd.DataFrame:
                         continue
 
     print(f"[PDB records] Found {len(helix_ranges)} helix ranges, {len(sheet_ranges)} sheet ranges")
-
+    # If CIF gave nothing, try the .pdb counterpart (some NMR structures
+    # have HELIX/SHEET in .pdb but not in .cif)
+    if len(helix_ranges) + len(sheet_ranges) == 0:
+        pdb_counterpart = str(pdb_path).replace('.cif', '.pdb')
+        if Path(pdb_counterpart).exists():
+            print(f"[PDB records] CIF empty → trying .pdb: {pdb_counterpart}")
+            with open(pdb_counterpart, 'r') as f:
+                for line in f:
+                    rec = line[:6].strip()
+                    if rec == 'HELIX':
+                        try:
+                            helix_ranges.append((line[19].strip(),
+                                int(line[21:25]), int(line[33:37])))
+                        except (ValueError, IndexError): pass
+                    elif rec == 'SHEET':
+                        try:
+                            sheet_ranges.append((line[21].strip(),
+                                int(line[22:26]), int(line[33:37])))
+                        except (ValueError, IndexError): pass
+            print(f"[PDB records] .pdb fallback: {len(helix_ranges)} helix, {len(sheet_ranges)} sheet")
+            
     THREE_TO_ONE = {
         'ALA':'A','CYS':'C','ASP':'D','GLU':'E','PHE':'F','GLY':'G',
         'HIS':'H','ILE':'I','LYS':'K','LEU':'L','MET':'M','ASN':'N',

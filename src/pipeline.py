@@ -50,6 +50,7 @@ from stats_module import (
 from viz_module import generate_all_plots
 from viz_module_phase4 import generate_phase4_plots
 from ml_module import run_ml_pipeline
+from assignment_engine import run_assignment_engine
 
 
 # ---------------------------------------------------------------------------
@@ -310,20 +311,31 @@ def run_pipeline(
             print_section("STEP 9 — ML skipped (not enough labeled samples)")
             print(f"  Run --batch to build a larger training set.")
 
-    # ── Summary ───────────────────────────────────────────────────────────
-    print_section("PIPELINE COMPLETE")
-    print(f"  BMRB entry:      {bmrb_id}")
-    print(f"  PDB structure:   {pdb_id or 'none'}")
-    print(f"  Shift records:   {len(shifts_df)}")
-    print(f"  Sequence length: {len(sequence) if sequence else 'unknown'}")
-    print(f"  DSSP residues:   {len(dssp_map)}")
-    print(f"  Stats rows:      {len(stats_df) if stats_df is not None else 0}")
-    print(f"  Plots:    {len(list(RESULTS_DIR.glob('*.png')))} PNG files")
-    print(f"  CSVs:     {len(list(RESULTS_DIR.glob('*.csv')))} CSV files")
-    print(f"  Models:   {len(list(RESULTS_DIR.glob('*.joblib')))} trained models")
-    print(f"\nOutputs saved to: {RESULTS_DIR}")
+    # ── Step 10: Phase 5 Assignment Engine ───────────────────────────────────
+    print_section("STEP 10 — Assignment Engine (Phase 5)")
+    if stats_df is not None and sequence and dssp_map:
+        # Placeholder: replace with real experimental peaks when you have them
+        # Format: {'CA': [list of ppm values], 'CB': [...], 'N': [...]}
+        # ca_cb_pairs: [(ca_ppm, cb_ppm), ...] for 2D joint assignment
+        print("  [Phase 5] Pass experimental_peaks dict to run_assignment_engine()")
+        print("  Example:")
+        print("    from assignment_engine import run_assignment_engine")
+        print("    run_assignment_engine({'CA': [55.3, 62.1, 45.0, ...]}, stats_df, sequence, ss_map, RESULTS_DIR)")
 
-    return results
+        # ── Summary ───────────────────────────────────────────────────────────
+        print_section("PIPELINE COMPLETE")
+        print(f"  BMRB entry:      {bmrb_id}")
+        print(f"  PDB structure:   {pdb_id or 'none'}")
+        print(f"  Shift records:   {len(shifts_df)}")
+        print(f"  Sequence length: {len(sequence) if sequence else 'unknown'}")
+        print(f"  DSSP residues:   {len(dssp_map)}")
+        print(f"  Stats rows:      {len(stats_df) if stats_df is not None else 0}")
+        print(f"  Plots:    {len(list(RESULTS_DIR.glob('*.png')))} PNG files")
+        print(f"  CSVs:     {len(list(RESULTS_DIR.glob('*.csv')))} CSV files")
+        print(f"  Models:   {len(list(RESULTS_DIR.glob('*.joblib')))} trained models")
+        print(f"\nOutputs saved to: {RESULTS_DIR}")
+
+        return results
 
 
 # ---------------------------------------------------------------------------
@@ -341,9 +353,9 @@ SOLID_STATE_ENTRIES = [
     (15865, "1M8M", "SH3 domain — all beta"),
     (6838,  "1YMZ", "fd coat protein — helix-rich"),
     (17557, "2KSF", "M2 proton channel — helix bundle"),
-    (16299, "2JSV", "thioredoxin microcrystals — alpha/beta"),
-    (5969,  "1H4W", "BPTI — disulfide-rich beta"),
-    (17948, "2NUZ", "calmodulin — helix-rich"),
+    (16299, "2JSV", "thioredoxin microcrystals — alpha/beta")
+    #(5969,  "1H4W", "BPTI — disulfide-rich beta"),
+    #(17948, "2NUZ", "calmodulin — helix-rich"),
 ]
 
 
@@ -760,7 +772,7 @@ if __name__ == "__main__":
     parser.add_argument("--no-dssp", action="store_true",      help="Skip DSSP extraction")
     parser.add_argument("--no-save", action="store_true",      help="Don't write output files")
     parser.add_argument("--phase4", action="store_true",       help="Run Phase 4 enhanced spectrum simulation (Voigt, 2D CA-CB, NMRPipe export)")
-
+    parser.add_argument("--assign-peaks", type=str, default=None, help="Path to CSV with experimental peaks (columns: atom, shift) for Phase 5 assignment")
     # Phase 3 batch args
     batch_group = parser.add_argument_group("Phase 3 — Batch processing")
     batch_group.add_argument(
