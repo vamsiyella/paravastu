@@ -48,6 +48,7 @@ from stats_module import (
     ShiftPredictor,
 )
 from viz_module import generate_all_plots
+from viz_module_phase4 import generate_phase4_plots
 from ml_module import run_ml_pipeline
 
 
@@ -284,6 +285,12 @@ def run_pipeline(
         generate_all_plots(results, output_dir=RESULTS_DIR)
     except Exception as e:
         print(f"[VIZ] Plot generation failed: {e}")
+
+    print_section("STEP 8b — Phase 4 spectrum simulation")
+    try:
+        generate_phase4_plots(results, output_dir=RESULTS_DIR, bmrb_id=str(bmrb_id))
+    except Exception as e:
+        print(f"[Phase 4] {e}")
 
     # ── Step 9: ML model training ──────────────────────────────────────────
     if merged_df is not None and not merged_df.empty:
@@ -752,6 +759,7 @@ if __name__ == "__main__":
     parser.add_argument("--seq",     type=str, default=None,   help="Protein sequence (one-letter)")
     parser.add_argument("--no-dssp", action="store_true",      help="Skip DSSP extraction")
     parser.add_argument("--no-save", action="store_true",      help="Don't write output files")
+    parser.add_argument("--phase4", action="store_true",       help="Run Phase 4 enhanced spectrum simulation (Voigt, 2D CA-CB, NMRPipe export)")
 
     # Phase 3 batch args
     batch_group = parser.add_argument_group("Phase 3 — Batch processing")

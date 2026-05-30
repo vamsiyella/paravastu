@@ -12,6 +12,7 @@ import pandas as pd
 from pathlib import Path
 import sys
 
+
 # Find cache directory
 cache_dir = Path("data/batch_cache")
 if not cache_dir.exists():
