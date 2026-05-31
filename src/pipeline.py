@@ -347,11 +347,11 @@ def run_pipeline(
 SOLID_STATE_ENTRIES = [
     # (bmrb_id, pdb_id, description)
     (17561, "2LBH", "EETI-II knottin — beta-sheet + coil (Phase 1/2 entry)"),
-    (15409, "2KIB", "HET-s prion domain — beta-solenoid"),
+    #(15409, "2KIB", "HET-s prion domain — beta-solenoid"),
     (16318, "2JWU", "ubiquitin microcrystals — alpha/beta mixed"),
     (15380, "1LY2", "GB1 protein — alpha/beta mixed"),
-    (15865, "1M8M", "SH3 domain — all beta"),
-    (6838,  "1YMZ", "fd coat protein — helix-rich"),
+    #(15865, "1M8M", "SH3 domain — all beta"),
+    #(6838,  "1YMZ", "fd coat protein — helix-rich"),
     (17557, "2KSF", "M2 proton channel — helix bundle"),
     (16299, "2JSV", "thioredoxin microcrystals — alpha/beta")
     #(5969,  "1H4W", "BPTI — disulfide-rich beta"),
