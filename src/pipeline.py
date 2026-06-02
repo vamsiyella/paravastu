@@ -345,179 +345,144 @@ def run_pipeline(
 # Curated solid-state NMR BMRB entries with linked PDB structures.
 # Selection criteria: ssNMR, 13C/15N shifts deposited, PDB structure available.
 SOLID_STATE_ENTRIES = [
-    # (bmrb_id, pdb_id, description)
-    (17561, "2LBH", "EETI-II knottin — beta-sheet + coil (Phase 1/2 entry)"),
-    #(15409, "2KIB", "HET-s prion domain — beta-solenoid"),
-    (16318, "2JWU", "ubiquitin microcrystals — alpha/beta mixed"),
-    (15380, "1LY2", "GB1 protein — alpha/beta mixed"),
-    #(15865, "1M8M", "SH3 domain — all beta"),
-    #(6838,  "1YMZ", "fd coat protein — helix-rich"),
-    (17557, "2KSF", "M2 proton channel — helix bundle"),
-    (16299, "2JSV", "thioredoxin microcrystals — alpha/beta")
-    #(5969,  "1H4W", "BPTI — disulfide-rich beta"),
-    #(17948, "2NUZ", "calmodulin — helix-rich"),
+    # ── Confirmed PASS (run validate_pairs.py first to confirm new ones) ──
+    (25123, "1UBQ",  "Ubiquitin MPD crystal"),        # PASS ✓
+    (15156, "2LGI",  "GB1 MAS structure"),             # WARN: no helix in CIF, valid
+    (15283, "2OED",  "GB3 domain"),                    # WARN: no helix in CIF, valid
+    (19025, "2M02",  "CAP-Gly 19.9T dataset"),         # WARN: Δ=1, no helix in CIF
+    (17937, "2M02",  "CAP-Gly primary dataset"),       # Δ=17, likely expression tag
+ 
+    # ── Pending correct PDB — run validate_pairs.py to find right PDB ────
+    # These are commented out until validate_pairs confirms the right PDB:
+    # (16318, "????", "Ubiquitin microcrystals"),      # try 3ONS or 2K39
+    # (15380, "1PGB", "GB1 crystal"),                  # 1LY2 was wrong protein
+    # (16299, "1XOB", "Thioredoxin"),                  # 2JSV chain A too short
+    # (5969,  "1BPI", "BPTI"),                         # try 1BPI (58 res)
+    # (17948, "1LB3", "Calmodulin"),                   # 2NUZ was fibril form
+    # (17561, "2LBH", "EETI-II knottin"),              # CB=0, needs no-CB mode
 ]
+ 
+# Entries to skip even if listed — add IDs here after validate confirms fails
+SKIP_ENTRIES: set = set()
+
 
 
 def run_pipeline_batch(
-    custom_pairs=None,
-    no_ml: bool = False,
-    verbose: bool = True,
+    entries: list = None,
+    skip: set = None,
+    run_dssp: bool = True,
 ) -> pd.DataFrame:
     """
-    Phase 3: Process multiple BMRB entries and build a merged reference database.
-
-    Parameters
-    ----------
-    custom_pairs : list of (bmrb_id, pdb_id) or None
-        If None, uses the built-in SOLID_STATE_ENTRIES list.
-        Pass your own: [(17561, '2LBH'), (15409, '2KIB')]
-    no_ml : bool
-        Skip ML re-training after batch (faster when just rebuilding the DB).
-    verbose : bool
-        Print per-entry progress.
-
-    Returns
-    -------
-    pd.DataFrame  — merged reference_db.csv
+    Run the pipeline on all SOLID_STATE_ENTRIES and cache results.
+ 
+    Outputs per-entry files to data/batch_cache/:
+        merged_shifts_{bmrb_id}.csv   — shifts + SS labels
+        stats_{bmrb_id}.csv           — aggregated statistics
+ 
+    Also writes:
+        data/reference_db.csv         — combined stats across all entries
+        data/batch_log.csv            — run summary with success/fail per entry
+ 
+    After this completes, run:
+        python src/retrainModel.py
+    to rebuild the ML models from the full cached dataset.
     """
     import time
-
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
-    cache_dir = DATA_DIR / "batch_cache"
-    cache_dir.mkdir(exist_ok=True)
-
-    pairs = custom_pairs or [(e[0], e[1]) for e in SOLID_STATE_ENTRIES]
-
-    print_section("PHASE 3 — BATCH REFERENCE DATABASE BUILD")
-    print(f"  Entries to process: {len(pairs)}")
-    print(f"  Cache directory:    {cache_dir}")
-    print(f"  Output:             {DATA_DIR / 'reference_db.csv'}")
-
-    all_raw = []
-    log = []
-
-    for bmrb_id, pdb_id in pairs:
-        cache_file = cache_dir / f"bmr{bmrb_id}_{pdb_id}_raw.csv"
-
-        # Use cached raw shifts if available
-        if cache_file.exists():
-            if verbose:
-                print(f"\n  [{bmrb_id}/{pdb_id}] Loading from cache...")
-            try:
-                df = pd.read_csv(cache_file)
-                all_raw.append(df)
-                ss = df['ss_class'].value_counts().to_dict()
-                log.append({"bmrb": bmrb_id, "pdb": pdb_id, "status": "cached",
-                             "shifts": len(df), **ss})
-                if verbose:
-                    print(f"    {len(df)} shifts — {ss}")
-                continue
-            except Exception as e:
-                if verbose:
-                    print(f"    Cache read failed ({e}), re-processing...")
-
-        if verbose:
-            print(f"\n  [{bmrb_id}/{pdb_id}] Processing...")
-
+    if entries is None:
+        entries = SOLID_STATE_ENTRIES
+    if skip is None:
+        skip = SKIP_ENTRIES
+ 
+    batch_cache = DATA_DIR / "batch_cache"
+    batch_cache.mkdir(parents=True, exist_ok=True)
+ 
+    all_stats = []
+    log_rows = []
+ 
+    print(f"\n{'='*60}")
+    print(f"  BATCH RUN — {len(entries)} entries ({len(skip)} skipped)")
+    print(f"{'='*60}")
+ 
+    for bmrb_id, pdb_id, label in entries:
+        if bmrb_id in skip:
+            print(f"\n[SKIP] BMRB {bmrb_id} ({label})")
+            continue
+ 
+        print(f"\n{'#'*60}")
+        print(f"# BMRB {bmrb_id} / PDB {pdb_id}  — {label}")
+        print(f"{'#'*60}")
+ 
+        t0 = time.time()
         try:
             res = run_pipeline(
                 bmrb_id=bmrb_id,
                 pdb_id=pdb_id,
-                run_dssp=True,
+                run_dssp=run_dssp,
                 save_results=False,
             )
-
-            merged = res.get('merged_df')
-            if merged is None or merged.empty:
-                if verbose:
-                    print(f"    No usable data.")
-                log.append({"bmrb": bmrb_id, "pdb": pdb_id, "status": "no_data", "shifts": 0})
-                continue
-
-            # Tag with source identifiers and cache
-            merged['bmrb_id'] = bmrb_id
-            merged['pdb_id']  = pdb_id
-            merged.to_csv(cache_file, index=False)
-            all_raw.append(merged)
-
-            ss = merged['ss_class'].value_counts().to_dict()
-            log.append({"bmrb": bmrb_id, "pdb": pdb_id, "status": "ok",
-                         "shifts": len(merged), **ss})
-            if verbose:
-                print(f"    ✓ {len(merged)} shifts — {ss}")
-
-            time.sleep(0.3)  # be polite to BMRB/RCSB
-
+ 
+            if not res or 'merged_df' not in res:
+                raise ValueError("Pipeline returned no merged_df")
+ 
+            merged = res['merged_df']
+            labeled_frac = (
+                merged[merged['ss_class'].isin(['helix','strand','coil'])].shape[0]
+                / max(len(merged), 1)
+            )
+ 
+            # Cache per-entry files
+            merged.to_csv(batch_cache / f"merged_shifts_{bmrb_id}.csv", index=False)
+ 
+            if 'stats_df' in res:
+                stats = res['stats_df'].copy()
+                stats['bmrb_id'] = bmrb_id
+                stats.to_csv(batch_cache / f"stats_{bmrb_id}.csv", index=False)
+                all_stats.append(stats)
+ 
+            elapsed = time.time() - t0
+            ss_dist = merged['ss_class'].value_counts().to_dict()
+            status = "ok" if labeled_frac >= 0.50 else "warn:low_labels"
+ 
+            log_rows.append({
+                'bmrb_id': bmrb_id, 'pdb_id': pdb_id, 'label': label,
+                'status': status, 'n_shifts': len(merged),
+                'labeled_frac': round(labeled_frac, 3),
+                'helix': ss_dist.get('helix', 0),
+                'strand': ss_dist.get('strand', 0),
+                'coil': ss_dist.get('coil', 0),
+                'elapsed_s': round(elapsed, 1),
+            })
+            print(f"  ✓ Done in {elapsed:.0f}s  |  labeled: {labeled_frac:.0%}  |  SS: {ss_dist}")
+ 
         except Exception as e:
-            if verbose:
-                print(f"    ERROR: {e}")
-            log.append({"bmrb": bmrb_id, "pdb": pdb_id, "status": f"error: {e}", "shifts": 0})
-            continue
-
-    # ── Aggregate ────────────────────────────────────────────────────────
-    if not all_raw:
-        print("\n[BATCH] No entries processed successfully.")
-        return pd.DataFrame()
-
-    combined = pd.concat(all_raw, ignore_index=True)
-
-    print_section("BATCH AGGREGATION")
-    print(f"  Total raw shifts: {len(combined)}")
-    print(f"  SS breakdown:     {combined['ss_class'].value_counts().to_dict()}")
-
-    # Build merged reference stats
-    reference_df = _compute_reference_stats(combined)
-    ref_path = DATA_DIR / "reference_db.csv"
-    reference_df.to_csv(ref_path, index=False)
-    print(f"  Reference DB:     {len(reference_df)} rows → {ref_path}")
-
+            elapsed = time.time() - t0
+            print(f"  ✗ FAILED: {e}")
+            log_rows.append({
+                'bmrb_id': bmrb_id, 'pdb_id': pdb_id, 'label': label,
+                'status': f'error:{type(e).__name__}', 'n_shifts': 0,
+                'labeled_frac': 0, 'helix': 0, 'strand': 0, 'coil': 0,
+                'elapsed_s': round(elapsed, 1),
+            })
+ 
     # Save batch log
-    log_df = pd.DataFrame(log)
+    log_df = pd.DataFrame(log_rows)
     log_df.to_csv(DATA_DIR / "batch_log.csv", index=False)
-
-    # Print summary
-    ok = log_df[log_df['status'].isin(['ok', 'cached'])]
-    err = log_df[~log_df['status'].isin(['ok', 'cached', 'no_data'])]
-    print(f"\n  Processed: {len(ok)} entries")
-    if len(err):
-        print(f"  Errors:    {len(err)} entries")
-        for _, row in err.iterrows():
-            print(f"    BMRB {row['bmrb']} / {row['pdb']}: {row['status']}")
-
-    # Validate secondary chemical shift effect
-    ala_ca = reference_df[(reference_df['residue'] == 'A') & (reference_df['atom'] == 'CA')]
-    if len(ala_ca) > 1:
-        print(f"\n  Secondary chemical shift check (Ala CA):")
-        for _, row in ala_ca.iterrows():
-            print(f"    [{row['ss_class']:6s}] mean={row['mean']:.2f} ppm  n={row['count']}")
-
-    # ── ML training on full combined dataset ─────────────────────────────
-    if not no_ml:
-        labeled = combined[combined['ss_class'].isin(['helix', 'strand', 'coil'])]
-        if len(labeled) >= 30 and labeled['ss_class'].nunique() >= 2:
-            print_section("PHASE 3 — ML TRAINING ON REFERENCE DB")
-            print(f"  Training on {len(labeled)} labeled shifts from {len(ok)} entries")
-            try:
-                ml_results = run_ml_pipeline(combined, results_dir=RESULTS_DIR)
-                if ml_results:
-                    print(f"\n  RF  CV accuracy: {ml_results['rf']['cv_scores'].mean():.1%}")
-                    print(f"  XGB CV accuracy: {ml_results['xgb']['cv_scores'].mean():.1%}")
-                    print(f"  Models saved → {RESULTS_DIR}/")
-            except Exception as e:
-                print(f"  ML training failed: {e}")
-        else:
-            print("\n[BATCH] Not enough labeled data for ML training.")
-            print("  Need at least 30 labeled shifts across 2+ SS classes.")
-
-    print_section("PHASE 3 COMPLETE")
-    print(f"  Reference DB:  {ref_path}")
-    print(f"  Batch log:     {DATA_DIR / 'batch_log.csv'}")
-    print(f"  Cached shifts: {cache_dir}/")
-    print(f"\n  Next: run --bmrb 17561 --pdb 2LBH to use the new reference DB for predictions.")
-
-    return reference_df
+    print(f"\n[BATCH] Log saved → data/batch_log.csv")
+ 
+    # Save combined reference DB
+    if all_stats:
+        combined = pd.concat(all_stats, ignore_index=True)
+        combined.to_csv(DATA_DIR / "reference_db.csv", index=False)
+        n_ok = log_df[log_df['status'] == 'ok'].shape[0]
+        n_fail = log_df[log_df['status'].str.startswith('error')].shape[0]
+        print(f"[BATCH] Reference DB: {len(combined)} stat rows from {len(all_stats)} entries")
+        print(f"[BATCH] {n_ok} succeeded / {n_fail} failed")
+        print(f"[BATCH] Saved → data/reference_db.csv")
+        print(f"\nNext step: python src/retrainModel.py")
+        return combined
+ 
+    print("[BATCH] No stats collected — check errors above.")
+    return pd.DataFrame()
 
 
 def _compute_reference_stats(combined_df: pd.DataFrame) -> pd.DataFrame:
@@ -764,6 +729,7 @@ if __name__ == "__main__":
         description="Paravastu NMR Structural Annotation Pipeline"
     )
 
+
     # Single-entry args
     parser.add_argument("--bmrb",    type=int, default=17561, help="BMRB entry ID")
     parser.add_argument("--pdb",     type=str, default="2LBH", help="PDB ID (or 'auto')")
@@ -773,14 +739,19 @@ if __name__ == "__main__":
     parser.add_argument("--no-save", action="store_true",      help="Don't write output files")
     parser.add_argument("--phase4", action="store_true",       help="Run Phase 4 enhanced spectrum simulation (Voigt, 2D CA-CB, NMRPipe export)")
     parser.add_argument("--assign-peaks", type=str, default=None, help="Path to CSV with experimental peaks (columns: atom, shift) for Phase 5 assignment")
-    # Phase 3 batch args
+
+    
+
+
+
+    # Phase  batch args
     batch_group = parser.add_argument_group("Phase 3 — Batch processing")
     batch_group.add_argument(
         "--batch", action="store_true",
         help="Run Phase 3: process curated BMRB entries and build reference DB"
     )
     batch_group.add_argument(
-        "--entries", nargs="+", metavar="BMRB:PDB",
+        "--entries", nargs="*", metavar="BMRB:PDB",
         help="Custom entry pairs for batch, e.g. --entries 17561:2LBH 15409:2KIB"
     )
     batch_group.add_argument(
@@ -825,6 +796,20 @@ if __name__ == "__main__":
         )
         sys.exit(0)
 
+    if args.list_entries:
+         print(f"\n{'BMRB':>6}  {'PDB':>6}  Label")
+         print("-" * 45)
+         for bmrb_id, pdb_id, label in SOLID_STATE_ENTRIES:
+             skip_flag = " [SKIP]" if bmrb_id in SKIP_ENTRIES else ""
+             print(f"{bmrb_id:>6}  {pdb_id:>6}  {label}{skip_flag}")
+         sys.exit(0)
+    
+    elif args.batch:
+         subset = None
+         if args.entries:
+             subset = [(b, p, l) for b, p, l in SOLID_STATE_ENTRIES if b in args.entries]
+         run_pipeline_batch(entries=subset)
+ 
     pdb_id = None if args.pdb == 'auto' else args.pdb
 
     if args.csv:
