@@ -1,0 +1,2380 @@
+data_26805
+
+#######################
+#  Entry information  #
+#######################
+
+
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             26805
+   _Entry.Title
+;
+13C,15N chemical shifts of human Aquaporin-1
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2016-05-22
+   _Entry.Accession_date                 2016-05-22
+   _Entry.Last_release_date              2016-10-13
+   _Entry.Original_release_date          2016-10-13
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.2.6
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Shenlin       Wang          .   .    .   .   26805
+      2   Christopher   Ing           .   .    .   .   26805
+      3   Sanaz         Emami         .   .    .   .   26805
+      4   Yunjiang      Jiang         .   .    .   .   26805
+      5   Hongjun       Liang         .   .    .   .   26805
+      6   Regis         Pomes         .   .    .   .   26805
+      7   Leonid        Brown         .   S.   .   .   26805
+      8   vladimir      Ladizhansky   .   .    .   .   26805
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   26805
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   744   26805
+      '15N chemical shifts'   207   26805
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1   .   .   2016-10-13   .   original   BMRB   .   26805
+   stop_
+save_
+
+###############
+#  Citations  #
+###############
+
+
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     26805
+   _Citation.ID                           1
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    27583975
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Structure and Dynamics of Extracellular Loops in Human Aquaporin-1 from Solid-State NMR and Molecular Dynamics
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'J Phys Chem B.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               120
+   _Citation.Journal_issue                37
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   9887
+   _Citation.Page_last                    9902
+   _Citation.Year                         2016
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Shenlin       Wang          .   .    .   .   26805   1
+      2   Christopher   Ing           .   .    .   .   26805   1
+      3   Sanaz         Emami         .   .    .   .   26805   1
+      4   Yunjiang      Jiang         .   .    .   .   26805   1
+      5   Hongjun       Liang         .   .    .   .   26805   1
+      6   Regis         Pomes         .   .    .   .   26805   1
+      7   Leonid        Brown         .   S.   .   .   26805   1
+      8   Vladimir      Ladizhansky   .   .    .   .   26805   1
+   stop_
+
+   loop_
+      _Citation_keyword.Keyword
+      _Citation_keyword.Entry_ID
+      _Citation_keyword.Citation_ID
+
+      'Human Aquaporin 1'               26805   1
+      'chemical shifts'                 26805   1
+      'hydrogen-deuterium exchange'     26805   1
+      'magic angle spinning'            26805   1
+      'multidimensional spectroscopy'   26805   1
+      'solid-state NMR'                 26805   1
+   stop_
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          26805
+   _Assembly.ID                                1
+   _Assembly.Name                              'human aquaporin 1'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   'human aquaporin 1'   1   $human_aquaporin_1   A   .   yes   native   no   no   .   .   .   26805   1
+   stop_
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+
+
+save_human_aquaporin_1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      human_aquaporin_1
+   _Entity.Entry_ID                          26805
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              human_aquaporin_1
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+masefkkklfwravvaefla
+ttlfvfisigsalgfkypvg
+nnqtavqdnvkvslafglsi
+atlaqsvghisgahlnpavt
+lglllscqisifralmyiia
+qcvgaivatailsgitsslt
+gnslgrndladgvnsgqglg
+ieiigtlqlvlcvlattdrr
+rrdlggsaplaiglsvalgh
+llaidytgcginparsfgsa
+vithnfsnhwifwvgpfigg
+alavliydfilaprssdltd
+rvkvwtsgqveeydldaddi
+nsrvemkpkaleqkliseed
+lnsavdhhhhhh
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                292
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'all free'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1     1     MET   .   26805   1
+      2     2     ALA   .   26805   1
+      3     3     SER   .   26805   1
+      4     4     GLU   .   26805   1
+      5     5     PHE   .   26805   1
+      6     6     LYS   .   26805   1
+      7     7     LYS   .   26805   1
+      8     8     LYS   .   26805   1
+      9     9     LEU   .   26805   1
+      10    10    PHE   .   26805   1
+      11    11    TRP   .   26805   1
+      12    12    ARG   .   26805   1
+      13    13    ALA   .   26805   1
+      14    14    VAL   .   26805   1
+      15    15    VAL   .   26805   1
+      16    16    ALA   .   26805   1
+      17    17    GLU   .   26805   1
+      18    18    PHE   .   26805   1
+      19    19    LEU   .   26805   1
+      20    20    ALA   .   26805   1
+      21    21    THR   .   26805   1
+      22    22    THR   .   26805   1
+      23    23    LEU   .   26805   1
+      24    24    PHE   .   26805   1
+      25    25    VAL   .   26805   1
+      26    26    PHE   .   26805   1
+      27    27    ILE   .   26805   1
+      28    28    SER   .   26805   1
+      29    29    ILE   .   26805   1
+      30    30    GLY   .   26805   1
+      31    31    SER   .   26805   1
+      32    32    ALA   .   26805   1
+      33    33    LEU   .   26805   1
+      34    34    GLY   .   26805   1
+      35    35    PHE   .   26805   1
+      36    36    LYS   .   26805   1
+      37    37    TYR   .   26805   1
+      38    38    PRO   .   26805   1
+      39    39    VAL   .   26805   1
+      40    40    GLY   .   26805   1
+      41    41    ASN   .   26805   1
+      42    42    ASN   .   26805   1
+      43    43    GLN   .   26805   1
+      44    44    THR   .   26805   1
+      45    45    ALA   .   26805   1
+      46    46    VAL   .   26805   1
+      47    47    GLN   .   26805   1
+      48    48    ASP   .   26805   1
+      49    49    ASN   .   26805   1
+      50    50    VAL   .   26805   1
+      51    51    LYS   .   26805   1
+      52    52    VAL   .   26805   1
+      53    53    SER   .   26805   1
+      54    54    LEU   .   26805   1
+      55    55    ALA   .   26805   1
+      56    56    PHE   .   26805   1
+      57    57    GLY   .   26805   1
+      58    58    LEU   .   26805   1
+      59    59    SER   .   26805   1
+      60    60    ILE   .   26805   1
+      61    61    ALA   .   26805   1
+      62    62    THR   .   26805   1
+      63    63    LEU   .   26805   1
+      64    64    ALA   .   26805   1
+      65    65    GLN   .   26805   1
+      66    66    SER   .   26805   1
+      67    67    VAL   .   26805   1
+      68    68    GLY   .   26805   1
+      69    69    HIS   .   26805   1
+      70    70    ILE   .   26805   1
+      71    71    SER   .   26805   1
+      72    72    GLY   .   26805   1
+      73    73    ALA   .   26805   1
+      74    74    HIS   .   26805   1
+      75    75    LEU   .   26805   1
+      76    76    ASN   .   26805   1
+      77    77    PRO   .   26805   1
+      78    78    ALA   .   26805   1
+      79    79    VAL   .   26805   1
+      80    80    THR   .   26805   1
+      81    81    LEU   .   26805   1
+      82    82    GLY   .   26805   1
+      83    83    LEU   .   26805   1
+      84    84    LEU   .   26805   1
+      85    85    LEU   .   26805   1
+      86    86    SER   .   26805   1
+      87    87    CYS   .   26805   1
+      88    88    GLN   .   26805   1
+      89    89    ILE   .   26805   1
+      90    90    SER   .   26805   1
+      91    91    ILE   .   26805   1
+      92    92    PHE   .   26805   1
+      93    93    ARG   .   26805   1
+      94    94    ALA   .   26805   1
+      95    95    LEU   .   26805   1
+      96    96    MET   .   26805   1
+      97    97    TYR   .   26805   1
+      98    98    ILE   .   26805   1
+      99    99    ILE   .   26805   1
+      100   100   ALA   .   26805   1
+      101   101   GLN   .   26805   1
+      102   102   CYS   .   26805   1
+      103   103   VAL   .   26805   1
+      104   104   GLY   .   26805   1
+      105   105   ALA   .   26805   1
+      106   106   ILE   .   26805   1
+      107   107   VAL   .   26805   1
+      108   108   ALA   .   26805   1
+      109   109   THR   .   26805   1
+      110   110   ALA   .   26805   1
+      111   111   ILE   .   26805   1
+      112   112   LEU   .   26805   1
+      113   113   SER   .   26805   1
+      114   114   GLY   .   26805   1
+      115   115   ILE   .   26805   1
+      116   116   THR   .   26805   1
+      117   117   SER   .   26805   1
+      118   118   SER   .   26805   1
+      119   119   LEU   .   26805   1
+      120   120   THR   .   26805   1
+      121   121   GLY   .   26805   1
+      122   122   ASN   .   26805   1
+      123   123   SER   .   26805   1
+      124   124   LEU   .   26805   1
+      125   125   GLY   .   26805   1
+      126   126   ARG   .   26805   1
+      127   127   ASN   .   26805   1
+      128   128   ASP   .   26805   1
+      129   129   LEU   .   26805   1
+      130   130   ALA   .   26805   1
+      131   131   ASP   .   26805   1
+      132   132   GLY   .   26805   1
+      133   133   VAL   .   26805   1
+      134   134   ASN   .   26805   1
+      135   135   SER   .   26805   1
+      136   136   GLY   .   26805   1
+      137   137   GLN   .   26805   1
+      138   138   GLY   .   26805   1
+      139   139   LEU   .   26805   1
+      140   140   GLY   .   26805   1
+      141   141   ILE   .   26805   1
+      142   142   GLU   .   26805   1
+      143   143   ILE   .   26805   1
+      144   144   ILE   .   26805   1
+      145   145   GLY   .   26805   1
+      146   146   THR   .   26805   1
+      147   147   LEU   .   26805   1
+      148   148   GLN   .   26805   1
+      149   149   LEU   .   26805   1
+      150   150   VAL   .   26805   1
+      151   151   LEU   .   26805   1
+      152   152   CYS   .   26805   1
+      153   153   VAL   .   26805   1
+      154   154   LEU   .   26805   1
+      155   155   ALA   .   26805   1
+      156   156   THR   .   26805   1
+      157   157   THR   .   26805   1
+      158   158   ASP   .   26805   1
+      159   159   ARG   .   26805   1
+      160   160   ARG   .   26805   1
+      161   161   ARG   .   26805   1
+      162   162   ARG   .   26805   1
+      163   163   ASP   .   26805   1
+      164   164   LEU   .   26805   1
+      165   165   GLY   .   26805   1
+      166   166   GLY   .   26805   1
+      167   167   SER   .   26805   1
+      168   168   ALA   .   26805   1
+      169   169   PRO   .   26805   1
+      170   170   LEU   .   26805   1
+      171   171   ALA   .   26805   1
+      172   172   ILE   .   26805   1
+      173   173   GLY   .   26805   1
+      174   174   LEU   .   26805   1
+      175   175   SER   .   26805   1
+      176   176   VAL   .   26805   1
+      177   177   ALA   .   26805   1
+      178   178   LEU   .   26805   1
+      179   179   GLY   .   26805   1
+      180   180   HIS   .   26805   1
+      181   181   LEU   .   26805   1
+      182   182   LEU   .   26805   1
+      183   183   ALA   .   26805   1
+      184   184   ILE   .   26805   1
+      185   185   ASP   .   26805   1
+      186   186   TYR   .   26805   1
+      187   187   THR   .   26805   1
+      188   188   GLY   .   26805   1
+      189   189   CYS   .   26805   1
+      190   190   GLY   .   26805   1
+      191   191   ILE   .   26805   1
+      192   192   ASN   .   26805   1
+      193   193   PRO   .   26805   1
+      194   194   ALA   .   26805   1
+      195   195   ARG   .   26805   1
+      196   196   SER   .   26805   1
+      197   197   PHE   .   26805   1
+      198   198   GLY   .   26805   1
+      199   199   SER   .   26805   1
+      200   200   ALA   .   26805   1
+      201   201   VAL   .   26805   1
+      202   202   ILE   .   26805   1
+      203   203   THR   .   26805   1
+      204   204   HIS   .   26805   1
+      205   205   ASN   .   26805   1
+      206   206   PHE   .   26805   1
+      207   207   SER   .   26805   1
+      208   208   ASN   .   26805   1
+      209   209   HIS   .   26805   1
+      210   210   TRP   .   26805   1
+      211   211   ILE   .   26805   1
+      212   212   PHE   .   26805   1
+      213   213   TRP   .   26805   1
+      214   214   VAL   .   26805   1
+      215   215   GLY   .   26805   1
+      216   216   PRO   .   26805   1
+      217   217   PHE   .   26805   1
+      218   218   ILE   .   26805   1
+      219   219   GLY   .   26805   1
+      220   220   GLY   .   26805   1
+      221   221   ALA   .   26805   1
+      222   222   LEU   .   26805   1
+      223   223   ALA   .   26805   1
+      224   224   VAL   .   26805   1
+      225   225   LEU   .   26805   1
+      226   226   ILE   .   26805   1
+      227   227   TYR   .   26805   1
+      228   228   ASP   .   26805   1
+      229   229   PHE   .   26805   1
+      230   230   ILE   .   26805   1
+      231   231   LEU   .   26805   1
+      232   232   ALA   .   26805   1
+      233   233   PRO   .   26805   1
+      234   234   ARG   .   26805   1
+      235   235   SER   .   26805   1
+      236   236   SER   .   26805   1
+      237   237   ASP   .   26805   1
+      238   238   LEU   .   26805   1
+      239   239   THR   .   26805   1
+      240   240   ASP   .   26805   1
+      241   241   ARG   .   26805   1
+      242   242   VAL   .   26805   1
+      243   243   LYS   .   26805   1
+      244   244   VAL   .   26805   1
+      245   245   TRP   .   26805   1
+      246   246   THR   .   26805   1
+      247   247   SER   .   26805   1
+      248   248   GLY   .   26805   1
+      249   249   GLN   .   26805   1
+      250   250   VAL   .   26805   1
+      251   251   GLU   .   26805   1
+      252   252   GLU   .   26805   1
+      253   253   TYR   .   26805   1
+      254   254   ASP   .   26805   1
+      255   255   LEU   .   26805   1
+      256   256   ASP   .   26805   1
+      257   257   ALA   .   26805   1
+      258   258   ASP   .   26805   1
+      259   259   ASP   .   26805   1
+      260   260   ILE   .   26805   1
+      261   261   ASN   .   26805   1
+      262   262   SER   .   26805   1
+      263   263   ARG   .   26805   1
+      264   264   VAL   .   26805   1
+      265   265   GLU   .   26805   1
+      266   266   MET   .   26805   1
+      267   267   LYS   .   26805   1
+      268   268   PRO   .   26805   1
+      269   269   LYS   .   26805   1
+      270   270   ALA   .   26805   1
+      271   271   LEU   .   26805   1
+      272   272   GLU   .   26805   1
+      273   273   GLN   .   26805   1
+      274   274   LYS   .   26805   1
+      275   275   LEU   .   26805   1
+      276   276   ILE   .   26805   1
+      277   277   SER   .   26805   1
+      278   278   GLU   .   26805   1
+      279   279   GLU   .   26805   1
+      280   280   ASP   .   26805   1
+      281   281   LEU   .   26805   1
+      282   282   ASN   .   26805   1
+      283   283   SER   .   26805   1
+      284   284   ALA   .   26805   1
+      285   285   VAL   .   26805   1
+      286   286   ASP   .   26805   1
+      287   287   HIS   .   26805   1
+      288   288   HIS   .   26805   1
+      289   289   HIS   .   26805   1
+      290   290   HIS   .   26805   1
+      291   291   HIS   .   26805   1
+      292   292   HIS   .   26805   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   MET   1     1     26805   1
+      .   ALA   2     2     26805   1
+      .   SER   3     3     26805   1
+      .   GLU   4     4     26805   1
+      .   PHE   5     5     26805   1
+      .   LYS   6     6     26805   1
+      .   LYS   7     7     26805   1
+      .   LYS   8     8     26805   1
+      .   LEU   9     9     26805   1
+      .   PHE   10    10    26805   1
+      .   TRP   11    11    26805   1
+      .   ARG   12    12    26805   1
+      .   ALA   13    13    26805   1
+      .   VAL   14    14    26805   1
+      .   VAL   15    15    26805   1
+      .   ALA   16    16    26805   1
+      .   GLU   17    17    26805   1
+      .   PHE   18    18    26805   1
+      .   LEU   19    19    26805   1
+      .   ALA   20    20    26805   1
+      .   THR   21    21    26805   1
+      .   THR   22    22    26805   1
+      .   LEU   23    23    26805   1
+      .   PHE   24    24    26805   1
+      .   VAL   25    25    26805   1
+      .   PHE   26    26    26805   1
+      .   ILE   27    27    26805   1
+      .   SER   28    28    26805   1
+      .   ILE   29    29    26805   1
+      .   GLY   30    30    26805   1
+      .   SER   31    31    26805   1
+      .   ALA   32    32    26805   1
+      .   LEU   33    33    26805   1
+      .   GLY   34    34    26805   1
+      .   PHE   35    35    26805   1
+      .   LYS   36    36    26805   1
+      .   TYR   37    37    26805   1
+      .   PRO   38    38    26805   1
+      .   VAL   39    39    26805   1
+      .   GLY   40    40    26805   1
+      .   ASN   41    41    26805   1
+      .   ASN   42    42    26805   1
+      .   GLN   43    43    26805   1
+      .   THR   44    44    26805   1
+      .   ALA   45    45    26805   1
+      .   VAL   46    46    26805   1
+      .   GLN   47    47    26805   1
+      .   ASP   48    48    26805   1
+      .   ASN   49    49    26805   1
+      .   VAL   50    50    26805   1
+      .   LYS   51    51    26805   1
+      .   VAL   52    52    26805   1
+      .   SER   53    53    26805   1
+      .   LEU   54    54    26805   1
+      .   ALA   55    55    26805   1
+      .   PHE   56    56    26805   1
+      .   GLY   57    57    26805   1
+      .   LEU   58    58    26805   1
+      .   SER   59    59    26805   1
+      .   ILE   60    60    26805   1
+      .   ALA   61    61    26805   1
+      .   THR   62    62    26805   1
+      .   LEU   63    63    26805   1
+      .   ALA   64    64    26805   1
+      .   GLN   65    65    26805   1
+      .   SER   66    66    26805   1
+      .   VAL   67    67    26805   1
+      .   GLY   68    68    26805   1
+      .   HIS   69    69    26805   1
+      .   ILE   70    70    26805   1
+      .   SER   71    71    26805   1
+      .   GLY   72    72    26805   1
+      .   ALA   73    73    26805   1
+      .   HIS   74    74    26805   1
+      .   LEU   75    75    26805   1
+      .   ASN   76    76    26805   1
+      .   PRO   77    77    26805   1
+      .   ALA   78    78    26805   1
+      .   VAL   79    79    26805   1
+      .   THR   80    80    26805   1
+      .   LEU   81    81    26805   1
+      .   GLY   82    82    26805   1
+      .   LEU   83    83    26805   1
+      .   LEU   84    84    26805   1
+      .   LEU   85    85    26805   1
+      .   SER   86    86    26805   1
+      .   CYS   87    87    26805   1
+      .   GLN   88    88    26805   1
+      .   ILE   89    89    26805   1
+      .   SER   90    90    26805   1
+      .   ILE   91    91    26805   1
+      .   PHE   92    92    26805   1
+      .   ARG   93    93    26805   1
+      .   ALA   94    94    26805   1
+      .   LEU   95    95    26805   1
+      .   MET   96    96    26805   1
+      .   TYR   97    97    26805   1
+      .   ILE   98    98    26805   1
+      .   ILE   99    99    26805   1
+      .   ALA   100   100   26805   1
+      .   GLN   101   101   26805   1
+      .   CYS   102   102   26805   1
+      .   VAL   103   103   26805   1
+      .   GLY   104   104   26805   1
+      .   ALA   105   105   26805   1
+      .   ILE   106   106   26805   1
+      .   VAL   107   107   26805   1
+      .   ALA   108   108   26805   1
+      .   THR   109   109   26805   1
+      .   ALA   110   110   26805   1
+      .   ILE   111   111   26805   1
+      .   LEU   112   112   26805   1
+      .   SER   113   113   26805   1
+      .   GLY   114   114   26805   1
+      .   ILE   115   115   26805   1
+      .   THR   116   116   26805   1
+      .   SER   117   117   26805   1
+      .   SER   118   118   26805   1
+      .   LEU   119   119   26805   1
+      .   THR   120   120   26805   1
+      .   GLY   121   121   26805   1
+      .   ASN   122   122   26805   1
+      .   SER   123   123   26805   1
+      .   LEU   124   124   26805   1
+      .   GLY   125   125   26805   1
+      .   ARG   126   126   26805   1
+      .   ASN   127   127   26805   1
+      .   ASP   128   128   26805   1
+      .   LEU   129   129   26805   1
+      .   ALA   130   130   26805   1
+      .   ASP   131   131   26805   1
+      .   GLY   132   132   26805   1
+      .   VAL   133   133   26805   1
+      .   ASN   134   134   26805   1
+      .   SER   135   135   26805   1
+      .   GLY   136   136   26805   1
+      .   GLN   137   137   26805   1
+      .   GLY   138   138   26805   1
+      .   LEU   139   139   26805   1
+      .   GLY   140   140   26805   1
+      .   ILE   141   141   26805   1
+      .   GLU   142   142   26805   1
+      .   ILE   143   143   26805   1
+      .   ILE   144   144   26805   1
+      .   GLY   145   145   26805   1
+      .   THR   146   146   26805   1
+      .   LEU   147   147   26805   1
+      .   GLN   148   148   26805   1
+      .   LEU   149   149   26805   1
+      .   VAL   150   150   26805   1
+      .   LEU   151   151   26805   1
+      .   CYS   152   152   26805   1
+      .   VAL   153   153   26805   1
+      .   LEU   154   154   26805   1
+      .   ALA   155   155   26805   1
+      .   THR   156   156   26805   1
+      .   THR   157   157   26805   1
+      .   ASP   158   158   26805   1
+      .   ARG   159   159   26805   1
+      .   ARG   160   160   26805   1
+      .   ARG   161   161   26805   1
+      .   ARG   162   162   26805   1
+      .   ASP   163   163   26805   1
+      .   LEU   164   164   26805   1
+      .   GLY   165   165   26805   1
+      .   GLY   166   166   26805   1
+      .   SER   167   167   26805   1
+      .   ALA   168   168   26805   1
+      .   PRO   169   169   26805   1
+      .   LEU   170   170   26805   1
+      .   ALA   171   171   26805   1
+      .   ILE   172   172   26805   1
+      .   GLY   173   173   26805   1
+      .   LEU   174   174   26805   1
+      .   SER   175   175   26805   1
+      .   VAL   176   176   26805   1
+      .   ALA   177   177   26805   1
+      .   LEU   178   178   26805   1
+      .   GLY   179   179   26805   1
+      .   HIS   180   180   26805   1
+      .   LEU   181   181   26805   1
+      .   LEU   182   182   26805   1
+      .   ALA   183   183   26805   1
+      .   ILE   184   184   26805   1
+      .   ASP   185   185   26805   1
+      .   TYR   186   186   26805   1
+      .   THR   187   187   26805   1
+      .   GLY   188   188   26805   1
+      .   CYS   189   189   26805   1
+      .   GLY   190   190   26805   1
+      .   ILE   191   191   26805   1
+      .   ASN   192   192   26805   1
+      .   PRO   193   193   26805   1
+      .   ALA   194   194   26805   1
+      .   ARG   195   195   26805   1
+      .   SER   196   196   26805   1
+      .   PHE   197   197   26805   1
+      .   GLY   198   198   26805   1
+      .   SER   199   199   26805   1
+      .   ALA   200   200   26805   1
+      .   VAL   201   201   26805   1
+      .   ILE   202   202   26805   1
+      .   THR   203   203   26805   1
+      .   HIS   204   204   26805   1
+      .   ASN   205   205   26805   1
+      .   PHE   206   206   26805   1
+      .   SER   207   207   26805   1
+      .   ASN   208   208   26805   1
+      .   HIS   209   209   26805   1
+      .   TRP   210   210   26805   1
+      .   ILE   211   211   26805   1
+      .   PHE   212   212   26805   1
+      .   TRP   213   213   26805   1
+      .   VAL   214   214   26805   1
+      .   GLY   215   215   26805   1
+      .   PRO   216   216   26805   1
+      .   PHE   217   217   26805   1
+      .   ILE   218   218   26805   1
+      .   GLY   219   219   26805   1
+      .   GLY   220   220   26805   1
+      .   ALA   221   221   26805   1
+      .   LEU   222   222   26805   1
+      .   ALA   223   223   26805   1
+      .   VAL   224   224   26805   1
+      .   LEU   225   225   26805   1
+      .   ILE   226   226   26805   1
+      .   TYR   227   227   26805   1
+      .   ASP   228   228   26805   1
+      .   PHE   229   229   26805   1
+      .   ILE   230   230   26805   1
+      .   LEU   231   231   26805   1
+      .   ALA   232   232   26805   1
+      .   PRO   233   233   26805   1
+      .   ARG   234   234   26805   1
+      .   SER   235   235   26805   1
+      .   SER   236   236   26805   1
+      .   ASP   237   237   26805   1
+      .   LEU   238   238   26805   1
+      .   THR   239   239   26805   1
+      .   ASP   240   240   26805   1
+      .   ARG   241   241   26805   1
+      .   VAL   242   242   26805   1
+      .   LYS   243   243   26805   1
+      .   VAL   244   244   26805   1
+      .   TRP   245   245   26805   1
+      .   THR   246   246   26805   1
+      .   SER   247   247   26805   1
+      .   GLY   248   248   26805   1
+      .   GLN   249   249   26805   1
+      .   VAL   250   250   26805   1
+      .   GLU   251   251   26805   1
+      .   GLU   252   252   26805   1
+      .   TYR   253   253   26805   1
+      .   ASP   254   254   26805   1
+      .   LEU   255   255   26805   1
+      .   ASP   256   256   26805   1
+      .   ALA   257   257   26805   1
+      .   ASP   258   258   26805   1
+      .   ASP   259   259   26805   1
+      .   ILE   260   260   26805   1
+      .   ASN   261   261   26805   1
+      .   SER   262   262   26805   1
+      .   ARG   263   263   26805   1
+      .   VAL   264   264   26805   1
+      .   GLU   265   265   26805   1
+      .   MET   266   266   26805   1
+      .   LYS   267   267   26805   1
+      .   PRO   268   268   26805   1
+      .   LYS   269   269   26805   1
+      .   ALA   270   270   26805   1
+      .   LEU   271   271   26805   1
+      .   GLU   272   272   26805   1
+      .   GLN   273   273   26805   1
+      .   LYS   274   274   26805   1
+      .   LEU   275   275   26805   1
+      .   ILE   276   276   26805   1
+      .   SER   277   277   26805   1
+      .   GLU   278   278   26805   1
+      .   GLU   279   279   26805   1
+      .   ASP   280   280   26805   1
+      .   LEU   281   281   26805   1
+      .   ASN   282   282   26805   1
+      .   SER   283   283   26805   1
+      .   ALA   284   284   26805   1
+      .   VAL   285   285   26805   1
+      .   ASP   286   286   26805   1
+      .   HIS   287   287   26805   1
+      .   HIS   288   288   26805   1
+      .   HIS   289   289   26805   1
+      .   HIS   290   290   26805   1
+      .   HIS   291   291   26805   1
+      .   HIS   292   292   26805   1
+   stop_
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       26805
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $human_aquaporin_1   .   9606   organism   .   'Homo sapiens'   humans   .   .   Eukaryoata   Metazoa   Homo   sapiens   .   .   .   .   .   .   .   .   .   .   .   .   .   26805   1
+   stop_
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       26805
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $human_aquaporin_1   .   'recombinant technology'   'Pichia pastoris'   .   .   .   Pichia   pastoris   .   .   .   .   .   .   pPICZaA   .   .   .   26805   1
+   stop_
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         26805
+   _Sample.ID                               1
+   _Sample.Type                             liposome
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '90% H2O/10% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'human aquaporin 1'   '[U-100% 13C; U-100% 15N]'   .   .   1   $human_aquaporin_1   .   .   1:1   .   .   '% w/w'   .   .   .   .   26805   1
+      2   'Egg PC/Brain PS'     'natural abundance'          .   .   .   .                    .   .   1:1   .   .   '% w/w'   .   .   .   .   26805   1
+      3   H2O                   'natural abundance'          .   .   .   .                    .   .   90    .   .   %         .   .   .   .   26805   1
+      4   D2O                   'natural abundance'          .   .   .   .                    .   .   10    .   .   %         .   .   .   .   26805   1
+   stop_
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       26805
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   100   .   mM    26805   1
+      pH                 7.0   .   pH    26805   1
+      pressure           1     .   atm   26805   1
+      temperature        278   .   K     26805   1
+   stop_
+save_
+
+############################
+#  Computer software used  #
+############################
+
+
+
+save_TOPSPIN
+   _Software.Sf_category    software
+   _Software.Sf_framecode   TOPSPIN
+   _Software.Entry_ID       26805
+   _Software.ID             1
+   _Software.Name           TOPSPIN
+   _Software.Version        3.2
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Bruker Biospin'   .   .   26805   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      collection   26805   1
+   stop_
+save_
+
+save_NMRPipe
+   _Software.Sf_category    software
+   _Software.Sf_framecode   NMRPipe
+   _Software.Entry_ID       26805
+   _Software.ID             2
+   _Software.Name           NMRPipe
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Delaglio, Grzesiek, Vuister, Zhu, Pfeifer and Bax'   .   .   26805   2
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      processing   26805   2
+   stop_
+save_
+
+save_CARA
+   _Software.Sf_category    software
+   _Software.Sf_framecode   CARA
+   _Software.Entry_ID       26805
+   _Software.ID             3
+   _Software.Name           CARA
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Keller and Wuthrich'   .   .   26805   3
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis'   26805   3
+   stop_
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         26805
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            'Avance III'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   800
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       26805
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1   spectrometer_1   Bruker   'Avance III'   .   800   .   .   .   26805   1
+   stop_
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       26805
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   '3D NCACX'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   26805   1
+      2   '3D NCOCX'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   26805   1
+      3   '3D CANCO'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   26805   1
+      4   '2D NCA'     no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   26805   1
+      5   '2D NCO'     no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   26805   1
+   stop_
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       26805
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na         indirect   0.251449530   .   .   .   .   .   26805   1
+      H   1    DSS   'methyl protons'   .   .   .   .   ppm   0.00   internal   direct     1.000000000   .   .   .   .   .   26805   1
+      N   15   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na         indirect   0.101329118   .   .   .   .   .   26805   1
+      P   31   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na         indirect   0.404808636   .   .   .   .   .   26805   1
+   stop_
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      26805
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1   '3D NCACX'   .   .   .   26805   1
+      2   '3D NCOCX'   .   .   .   26805   1
+      3   '3D CANCO'   .   .   .   26805   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   1   13    13    ALA   C     C   13   178.901   0.000   .   .   .   .   .   .   13    a   C     .   26805   1
+      2     .   1   1   13    13    ALA   CA    C   13   55.416    0.000   .   .   .   .   .   .   13    a   CA    .   26805   1
+      3     .   1   1   13    13    ALA   CB    C   13   18.255    0.000   .   .   .   .   .   .   13    a   CB    .   26805   1
+      4     .   1   1   13    13    ALA   N     N   15   121.227   0.000   .   .   .   .   .   .   13    a   N     .   26805   1
+      5     .   1   1   14    14    VAL   C     C   13   178.453   0.000   .   .   .   .   .   .   14    v   C     .   26805   1
+      6     .   1   1   14    14    VAL   CA    C   13   67.240    0.000   .   .   .   .   .   .   14    v   CA    .   26805   1
+      7     .   1   1   14    14    VAL   CB    C   13   31.964    0.000   .   .   .   .   .   .   14    v   CB    .   26805   1
+      8     .   1   1   14    14    VAL   CG1   C   13   23.091    0.000   .   .   .   .   .   .   14    v   CG1   .   26805   1
+      9     .   1   1   14    14    VAL   CG2   C   13   22.624    0.000   .   .   .   .   .   .   14    v   CG2   .   26805   1
+      10    .   1   1   14    14    VAL   N     N   15   118.486   0.000   .   .   .   .   .   .   14    v   N     .   26805   1
+      11    .   1   1   15    15    VAL   C     C   13   178.100   0.000   .   .   .   .   .   .   15    v   C     .   26805   1
+      12    .   1   1   15    15    VAL   CA    C   13   67.388    0.000   .   .   .   .   .   .   15    v   CA    .   26805   1
+      13    .   1   1   15    15    VAL   CB    C   13   31.207    0.000   .   .   .   .   .   .   15    v   CB    .   26805   1
+      14    .   1   1   15    15    VAL   CG1   C   13   24.291    0.000   .   .   .   .   .   .   15    v   CG1   .   26805   1
+      15    .   1   1   15    15    VAL   CG2   C   13   22.501    0.000   .   .   .   .   .   .   15    v   CG2   .   26805   1
+      16    .   1   1   15    15    VAL   N     N   15   119.127   0.000   .   .   .   .   .   .   15    v   N     .   26805   1
+      17    .   1   1   16    16    ALA   C     C   13   179.536   0.000   .   .   .   .   .   .   16    a   C     .   26805   1
+      18    .   1   1   16    16    ALA   CA    C   13   56.417    0.000   .   .   .   .   .   .   16    a   CA    .   26805   1
+      19    .   1   1   16    16    ALA   CB    C   13   17.929    0.000   .   .   .   .   .   .   16    a   CB    .   26805   1
+      20    .   1   1   16    16    ALA   N     N   15   124.251   0.000   .   .   .   .   .   .   16    a   N     .   26805   1
+      21    .   1   1   17    17    GLU   C     C   13   180.661   0.000   .   .   .   .   .   .   17    e   C     .   26805   1
+      22    .   1   1   17    17    GLU   CA    C   13   60.062    0.000   .   .   .   .   .   .   17    e   CA    .   26805   1
+      23    .   1   1   17    17    GLU   CB    C   13   29.738    0.000   .   .   .   .   .   .   17    e   CB    .   26805   1
+      24    .   1   1   17    17    GLU   CG    C   13   36.011    0.000   .   .   .   .   .   .   17    e   CG    .   26805   1
+      25    .   1   1   17    17    GLU   CD    C   13   182.601   0.000   .   .   .   .   .   .   17    e   CD    .   26805   1
+      26    .   1   1   17    17    GLU   N     N   15   117.452   0.000   .   .   .   .   .   .   17    e   N     .   26805   1
+      27    .   1   1   18    18    PHE   C     C   13   177.949   0.000   .   .   .   .   .   .   18    f   C     .   26805   1
+      28    .   1   1   18    18    PHE   CA    C   13   60.507    0.000   .   .   .   .   .   .   18    f   CA    .   26805   1
+      29    .   1   1   18    18    PHE   CB    C   13   39.068    0.000   .   .   .   .   .   .   18    f   CB    .   26805   1
+      30    .   1   1   18    18    PHE   N     N   15   121.555   0.000   .   .   .   .   .   .   18    f   N     .   26805   1
+      31    .   1   1   19    19    LEU   C     C   13   178.546   0.000   .   .   .   .   .   .   19    l   C     .   26805   1
+      32    .   1   1   19    19    LEU   CA    C   13   58.062    0.000   .   .   .   .   .   .   19    l   CA    .   26805   1
+      33    .   1   1   19    19    LEU   CB    C   13   42.813    0.000   .   .   .   .   .   .   19    l   CB    .   26805   1
+      34    .   1   1   19    19    LEU   CG    C   13   26.793    0.000   .   .   .   .   .   .   19    l   CG    .   26805   1
+      35    .   1   1   19    19    LEU   CD1   C   13   26.500    0.000   .   .   .   .   .   .   19    l   CD1   .   26805   1
+      36    .   1   1   19    19    LEU   N     N   15   122.565   0.000   .   .   .   .   .   .   19    l   N     .   26805   1
+      37    .   1   1   20    20    ALA   C     C   13   179.496   0.000   .   .   .   .   .   .   20    a   C     .   26805   1
+      38    .   1   1   20    20    ALA   CA    C   13   55.062    0.000   .   .   .   .   .   .   20    a   CA    .   26805   1
+      39    .   1   1   20    20    ALA   CB    C   13   20.076    0.000   .   .   .   .   .   .   20    a   CB    .   26805   1
+      40    .   1   1   20    20    ALA   N     N   15   118.783   0.000   .   .   .   .   .   .   20    a   N     .   26805   1
+      41    .   1   1   21    21    THR   C     C   13   176.305   0.000   .   .   .   .   .   .   21    t   C     .   26805   1
+      42    .   1   1   21    21    THR   CA    C   13   69.218    0.000   .   .   .   .   .   .   21    t   CA    .   26805   1
+      43    .   1   1   21    21    THR   CB    C   13   67.724    0.000   .   .   .   .   .   .   21    t   CB    .   26805   1
+      44    .   1   1   21    21    THR   CG2   C   13   21.756    0.000   .   .   .   .   .   .   21    t   CG2   .   26805   1
+      45    .   1   1   21    21    THR   N     N   15   116.777   0.000   .   .   .   .   .   .   21    t   N     .   26805   1
+      46    .   1   1   22    22    THR   C     C   13   176.666   0.000   .   .   .   .   .   .   22    t   C     .   26805   1
+      47    .   1   1   22    22    THR   CA    C   13   66.911    0.000   .   .   .   .   .   .   22    t   CA    .   26805   1
+      48    .   1   1   22    22    THR   CB    C   13   67.625    0.000   .   .   .   .   .   .   22    t   CB    .   26805   1
+      49    .   1   1   22    22    THR   CG2   C   13   20.652    0.000   .   .   .   .   .   .   22    t   CG2   .   26805   1
+      50    .   1   1   22    22    THR   N     N   15   118.572   0.000   .   .   .   .   .   .   22    t   N     .   26805   1
+      51    .   1   1   23    23    LEU   C     C   13   177.351   0.000   .   .   .   .   .   .   23    l   C     .   26805   1
+      52    .   1   1   23    23    LEU   CA    C   13   58.690    0.000   .   .   .   .   .   .   23    l   CA    .   26805   1
+      53    .   1   1   23    23    LEU   CB    C   13   42.254    0.000   .   .   .   .   .   .   23    l   CB    .   26805   1
+      54    .   1   1   23    23    LEU   CG    C   13   27.327    0.000   .   .   .   .   .   .   23    l   CG    .   26805   1
+      55    .   1   1   23    23    LEU   CD1   C   13   25.369    0.000   .   .   .   .   .   .   23    l   CD1   .   26805   1
+      56    .   1   1   23    23    LEU   CD2   C   13   23.884    0.000   .   .   .   .   .   .   23    l   CD2   .   26805   1
+      57    .   1   1   23    23    LEU   N     N   15   118.786   0.000   .   .   .   .   .   .   23    l   N     .   26805   1
+      58    .   1   1   24    24    PHE   C     C   13   176.919   0.000   .   .   .   .   .   .   24    f   C     .   26805   1
+      59    .   1   1   24    24    PHE   CA    C   13   59.869    0.000   .   .   .   .   .   .   24    f   CA    .   26805   1
+      60    .   1   1   24    24    PHE   CB    C   13   38.564    0.000   .   .   .   .   .   .   24    f   CB    .   26805   1
+      61    .   1   1   24    24    PHE   CG    C   13   137.887   0.000   .   .   .   .   .   .   24    f   CG    .   26805   1
+      62    .   1   1   24    24    PHE   N     N   15   120.169   0.000   .   .   .   .   .   .   24    f   N     .   26805   1
+      63    .   1   1   25    25    VAL   C     C   13   176.521   0.000   .   .   .   .   .   .   25    v   C     .   26805   1
+      64    .   1   1   25    25    VAL   CA    C   13   67.684    0.000   .   .   .   .   .   .   25    v   CA    .   26805   1
+      65    .   1   1   25    25    VAL   CB    C   13   31.040    0.000   .   .   .   .   .   .   25    v   CB    .   26805   1
+      66    .   1   1   25    25    VAL   CG1   C   13   24.257    0.000   .   .   .   .   .   .   25    v   CG1   .   26805   1
+      67    .   1   1   25    25    VAL   CG2   C   13   23.355    0.000   .   .   .   .   .   .   25    v   CG2   .   26805   1
+      68    .   1   1   25    25    VAL   N     N   15   121.680   0.000   .   .   .   .   .   .   25    v   N     .   26805   1
+      69    .   1   1   26    26    PHE   C     C   13   177.018   0.000   .   .   .   .   .   .   26    f   C     .   26805   1
+      70    .   1   1   26    26    PHE   CA    C   13   62.209    0.000   .   .   .   .   .   .   26    f   CA    .   26805   1
+      71    .   1   1   26    26    PHE   CB    C   13   39.976    0.000   .   .   .   .   .   .   26    f   CB    .   26805   1
+      72    .   1   1   26    26    PHE   CG    C   13   138.726   0.000   .   .   .   .   .   .   26    f   CG    .   26805   1
+      73    .   1   1   26    26    PHE   CD1   C   13   132.014   0.000   .   .   .   .   .   .   26    f   CD1   .   26805   1
+      74    .   1   1   26    26    PHE   N     N   15   117.915   0.000   .   .   .   .   .   .   26    f   N     .   26805   1
+      75    .   1   1   27    27    ILE   C     C   13   177.551   0.000   .   .   .   .   .   .   27    i   C     .   26805   1
+      76    .   1   1   27    27    ILE   CA    C   13   64.540    0.000   .   .   .   .   .   .   27    i   CA    .   26805   1
+      77    .   1   1   27    27    ILE   CB    C   13   38.749    0.000   .   .   .   .   .   .   27    i   CB    .   26805   1
+      78    .   1   1   27    27    ILE   CG1   C   13   30.733    0.000   .   .   .   .   .   .   27    i   CG1   .   26805   1
+      79    .   1   1   27    27    ILE   CG2   C   13   18.402    0.000   .   .   .   .   .   .   27    i   CG2   .   26805   1
+      80    .   1   1   27    27    ILE   CD1   C   13   14.157    0.000   .   .   .   .   .   .   27    i   CD1   .   26805   1
+      81    .   1   1   27    27    ILE   N     N   15   116.697   0.000   .   .   .   .   .   .   27    i   N     .   26805   1
+      82    .   1   1   28    28    SER   C     C   13   176.151   0.000   .   .   .   .   .   .   28    s   C     .   26805   1
+      83    .   1   1   28    28    SER   CA    C   13   63.139    0.000   .   .   .   .   .   .   28    s   CA    .   26805   1
+      84    .   1   1   28    28    SER   N     N   15   114.409   0.000   .   .   .   .   .   .   28    s   N     .   26805   1
+      85    .   1   1   29    29    ILE   C     C   13   178.380   0.000   .   .   .   .   .   .   29    i   C     .   26805   1
+      86    .   1   1   29    29    ILE   CA    C   13   65.594    0.000   .   .   .   .   .   .   29    i   CA    .   26805   1
+      87    .   1   1   29    29    ILE   CB    C   13   36.126    0.000   .   .   .   .   .   .   29    i   CB    .   26805   1
+      88    .   1   1   29    29    ILE   CG1   C   13   30.073    0.000   .   .   .   .   .   .   29    i   CG1   .   26805   1
+      89    .   1   1   29    29    ILE   CG2   C   13   17.732    0.000   .   .   .   .   .   .   29    i   CG2   .   26805   1
+      90    .   1   1   29    29    ILE   CD1   C   13   14.561    0.000   .   .   .   .   .   .   29    i   CD1   .   26805   1
+      91    .   1   1   29    29    ILE   N     N   15   119.777   0.000   .   .   .   .   .   .   29    i   N     .   26805   1
+      92    .   1   1   30    30    GLY   C     C   13   177.598   0.000   .   .   .   .   .   .   30    g   C     .   26805   1
+      93    .   1   1   30    30    GLY   CA    C   13   47.371    0.000   .   .   .   .   .   .   30    g   CA    .   26805   1
+      94    .   1   1   30    30    GLY   N     N   15   108.642   0.000   .   .   .   .   .   .   30    g   N     .   26805   1
+      95    .   1   1   31    31    SER   C     C   13   178.833   0.000   .   .   .   .   .   .   31    s   C     .   26805   1
+      96    .   1   1   31    31    SER   CA    C   13   62.149    0.000   .   .   .   .   .   .   31    s   CA    .   26805   1
+      97    .   1   1   31    31    SER   CB    C   13   64.393    0.000   .   .   .   .   .   .   31    s   CB    .   26805   1
+      98    .   1   1   31    31    SER   N     N   15   116.161   0.000   .   .   .   .   .   .   31    s   N     .   26805   1
+      99    .   1   1   32    32    ALA   C     C   13   179.933   0.000   .   .   .   .   .   .   32    a   C     .   26805   1
+      100   .   1   1   32    32    ALA   CA    C   13   55.112    0.000   .   .   .   .   .   .   32    a   CA    .   26805   1
+      101   .   1   1   32    32    ALA   CB    C   13   18.168    0.000   .   .   .   .   .   .   32    a   CB    .   26805   1
+      102   .   1   1   32    32    ALA   N     N   15   121.882   0.000   .   .   .   .   .   .   32    a   N     .   26805   1
+      103   .   1   1   33    33    LEU   C     C   13   178.123   0.000   .   .   .   .   .   .   33    l   C     .   26805   1
+      104   .   1   1   33    33    LEU   CA    C   13   55.718    0.000   .   .   .   .   .   .   33    l   CA    .   26805   1
+      105   .   1   1   33    33    LEU   CB    C   13   42.415    0.000   .   .   .   .   .   .   33    l   CB    .   26805   1
+      106   .   1   1   33    33    LEU   CG    C   13   27.700    0.000   .   .   .   .   .   .   33    l   CG    .   26805   1
+      107   .   1   1   33    33    LEU   CD1   C   13   22.816    0.000   .   .   .   .   .   .   33    l   CD1   .   26805   1
+      108   .   1   1   33    33    LEU   CD2   C   13   26.629    0.000   .   .   .   .   .   .   33    l   CD2   .   26805   1
+      109   .   1   1   33    33    LEU   N     N   15   117.041   0.000   .   .   .   .   .   .   33    l   N     .   26805   1
+      110   .   1   1   34    34    GLY   C     C   13   175.080   0.000   .   .   .   .   .   .   34    g   C     .   26805   1
+      111   .   1   1   34    34    GLY   CA    C   13   48.210    0.000   .   .   .   .   .   .   34    g   CA    .   26805   1
+      112   .   1   1   34    34    GLY   N     N   15   104.873   0.000   .   .   .   .   .   .   34    g   N     .   26805   1
+      113   .   1   1   35    35    PHE   C     C   13   175.730   0.000   .   .   .   .   .   .   35    f   C     .   26805   1
+      114   .   1   1   35    35    PHE   CA    C   13   58.552    0.000   .   .   .   .   .   .   35    f   CA    .   26805   1
+      115   .   1   1   35    35    PHE   CB    C   13   36.597    0.000   .   .   .   .   .   .   35    f   CB    .   26805   1
+      116   .   1   1   35    35    PHE   N     N   15   113.986   0.000   .   .   .   .   .   .   35    f   N     .   26805   1
+      117   .   1   1   36    36    LYS   C     C   13   174.314   0.000   .   .   .   .   .   .   36    k   C     .   26805   1
+      118   .   1   1   36    36    LYS   CA    C   13   56.169    0.000   .   .   .   .   .   .   36    k   CA    .   26805   1
+      119   .   1   1   36    36    LYS   CB    C   13   32.489    0.000   .   .   .   .   .   .   36    k   CB    .   26805   1
+      120   .   1   1   36    36    LYS   CG    C   13   24.599    0.000   .   .   .   .   .   .   36    k   CG    .   26805   1
+      121   .   1   1   36    36    LYS   N     N   15   119.686   0.000   .   .   .   .   .   .   36    k   N     .   26805   1
+      122   .   1   1   37    37    TYR   C     C   13   174.915   0.000   .   .   .   .   .   .   37    y   C     .   26805   1
+      123   .   1   1   37    37    TYR   CA    C   13   56.905    0.000   .   .   .   .   .   .   37    y   CA    .   26805   1
+      124   .   1   1   37    37    TYR   CB    C   13   38.992    0.000   .   .   .   .   .   .   37    y   CB    .   26805   1
+      125   .   1   1   37    37    TYR   N     N   15   118.499   0.000   .   .   .   .   .   .   37    y   N     .   26805   1
+      126   .   1   1   38    38    PRO   C     C   13   177.000   0.000   .   .   .   .   .   .   38    p   C     .   26805   1
+      127   .   1   1   38    38    PRO   CA    C   13   61.817    0.000   .   .   .   .   .   .   38    p   CA    .   26805   1
+      128   .   1   1   38    38    PRO   CB    C   13   36.136    0.000   .   .   .   .   .   .   38    p   CB    .   26805   1
+      129   .   1   1   38    38    PRO   CG    C   13   25.252    0.000   .   .   .   .   .   .   38    p   CG    .   26805   1
+      130   .   1   1   38    38    PRO   CD    C   13   50.434    0.000   .   .   .   .   .   .   38    p   CD    .   26805   1
+      131   .   1   1   38    38    PRO   N     N   15   134.514   0.000   .   .   .   .   .   .   38    p   N     .   26805   1
+      132   .   1   1   39    39    VAL   C     C   13   177.698   0.000   .   .   .   .   .   .   39    v   C     .   26805   1
+      133   .   1   1   39    39    VAL   CA    C   13   63.951    0.000   .   .   .   .   .   .   39    v   CA    .   26805   1
+      134   .   1   1   39    39    VAL   CB    C   13   31.843    0.000   .   .   .   .   .   .   39    v   CB    .   26805   1
+      135   .   1   1   39    39    VAL   CG2   C   13   21.748    0.000   .   .   .   .   .   .   39    v   CG2   .   26805   1
+      136   .   1   1   39    39    VAL   N     N   15   120.836   0.000   .   .   .   .   .   .   39    v   N     .   26805   1
+      137   .   1   1   44    44    THR   C     C   13   174.647   0.000   .   .   .   .   .   .   44    t   C     .   26805   1
+      138   .   1   1   44    44    THR   CA    C   13   62.612    0.000   .   .   .   .   .   .   44    t   CA    .   26805   1
+      139   .   1   1   44    44    THR   CB    C   13   70.711    0.000   .   .   .   .   .   .   44    t   CB    .   26805   1
+      140   .   1   1   44    44    THR   CG2   C   13   22.590    0.000   .   .   .   .   .   .   44    t   CG2   .   26805   1
+      141   .   1   1   44    44    THR   N     N   15   106.373   0.000   .   .   .   .   .   .   44    t   N     .   26805   1
+      142   .   1   1   45    45    ALA   C     C   13   177.397   0.000   .   .   .   .   .   .   45    a   C     .   26805   1
+      143   .   1   1   45    45    ALA   CA    C   13   52.555    0.000   .   .   .   .   .   .   45    a   CA    .   26805   1
+      144   .   1   1   45    45    ALA   CB    C   13   20.490    0.000   .   .   .   .   .   .   45    a   CB    .   26805   1
+      145   .   1   1   45    45    ALA   N     N   15   128.163   0.000   .   .   .   .   .   .   45    a   N     .   26805   1
+      146   .   1   1   46    46    VAL   C     C   13   174.660   0.000   .   .   .   .   .   .   46    v   C     .   26805   1
+      147   .   1   1   46    46    VAL   CA    C   13   60.326    0.000   .   .   .   .   .   .   46    v   CA    .   26805   1
+      148   .   1   1   46    46    VAL   CB    C   13   34.900    0.000   .   .   .   .   .   .   46    v   CB    .   26805   1
+      149   .   1   1   46    46    VAL   CG1   C   13   21.554    0.000   .   .   .   .   .   .   46    v   CG1   .   26805   1
+      150   .   1   1   46    46    VAL   CG2   C   13   19.766    0.000   .   .   .   .   .   .   46    v   CG2   .   26805   1
+      151   .   1   1   46    46    VAL   N     N   15   118.568   0.000   .   .   .   .   .   .   46    v   N     .   26805   1
+      152   .   1   1   47    47    GLN   C     C   13   175.051   0.000   .   .   .   .   .   .   47    q   C     .   26805   1
+      153   .   1   1   47    47    GLN   CA    C   13   54.964    0.000   .   .   .   .   .   .   47    q   CA    .   26805   1
+      154   .   1   1   47    47    GLN   CB    C   13   30.330    0.000   .   .   .   .   .   .   47    q   CB    .   26805   1
+      155   .   1   1   47    47    GLN   CG    C   13   32.237    0.000   .   .   .   .   .   .   47    q   CG    .   26805   1
+      156   .   1   1   47    47    GLN   CD    C   13   180.123   0.000   .   .   .   .   .   .   47    q   CD    .   26805   1
+      157   .   1   1   47    47    GLN   N     N   15   125.657   0.000   .   .   .   .   .   .   47    q   N     .   26805   1
+      158   .   1   1   48    48    ASP   C     C   13   176.029   0.000   .   .   .   .   .   .   48    d   C     .   26805   1
+      159   .   1   1   48    48    ASP   CA    C   13   52.013    0.000   .   .   .   .   .   .   48    d   CA    .   26805   1
+      160   .   1   1   48    48    ASP   CB    C   13   42.846    0.000   .   .   .   .   .   .   48    d   CB    .   26805   1
+      161   .   1   1   48    48    ASP   CG    C   13   180.628   0.000   .   .   .   .   .   .   48    d   CG    .   26805   1
+      162   .   1   1   48    48    ASP   N     N   15   127.223   0.000   .   .   .   .   .   .   48    d   N     .   26805   1
+      163   .   1   1   49    49    ASN   C     C   13   179.871   0.000   .   .   .   .   .   .   49    n   C     .   26805   1
+      164   .   1   1   49    49    ASN   CA    C   13   57.223    0.000   .   .   .   .   .   .   49    n   CA    .   26805   1
+      165   .   1   1   49    49    ASN   CB    C   13   36.706    0.000   .   .   .   .   .   .   49    n   CB    .   26805   1
+      166   .   1   1   49    49    ASN   CG    C   13   175.006   0.000   .   .   .   .   .   .   49    n   CG    .   26805   1
+      167   .   1   1   49    49    ASN   N     N   15   124.137   0.000   .   .   .   .   .   .   49    n   N     .   26805   1
+      168   .   1   1   49    49    ASN   ND2   N   15   110.110   0.000   .   .   .   .   .   .   49    n   ND2   .   26805   1
+      169   .   1   1   50    50    VAL   C     C   13   176.144   0.000   .   .   .   .   .   .   50    v   C     .   26805   1
+      170   .   1   1   50    50    VAL   CA    C   13   67.636    0.000   .   .   .   .   .   .   50    v   CA    .   26805   1
+      171   .   1   1   50    50    VAL   CB    C   13   31.027    0.000   .   .   .   .   .   .   50    v   CB    .   26805   1
+      172   .   1   1   50    50    VAL   CG1   C   13   23.658    0.000   .   .   .   .   .   .   50    v   CG1   .   26805   1
+      173   .   1   1   50    50    VAL   CG2   C   13   21.481    0.000   .   .   .   .   .   .   50    v   CG2   .   26805   1
+      174   .   1   1   50    50    VAL   N     N   15   122.912   0.000   .   .   .   .   .   .   50    v   N     .   26805   1
+      175   .   1   1   51    51    LYS   C     C   13   177.057   0.000   .   .   .   .   .   .   51    k   C     .   26805   1
+      176   .   1   1   51    51    LYS   CA    C   13   58.932    0.000   .   .   .   .   .   .   51    k   CA    .   26805   1
+      177   .   1   1   51    51    LYS   CB    C   13   34.411    0.000   .   .   .   .   .   .   51    k   CB    .   26805   1
+      178   .   1   1   51    51    LYS   CG    C   13   23.232    0.000   .   .   .   .   .   .   51    k   CG    .   26805   1
+      179   .   1   1   51    51    LYS   CD    C   13   34.411    0.000   .   .   .   .   .   .   51    k   CD    .   26805   1
+      180   .   1   1   51    51    LYS   CE    C   13   41.338    0.000   .   .   .   .   .   .   51    k   CE    .   26805   1
+      181   .   1   1   51    51    LYS   N     N   15   122.954   0.000   .   .   .   .   .   .   51    k   N     .   26805   1
+      182   .   1   1   51    51    LYS   NZ    N   15   33.000    0.000   .   .   .   .   .   .   51    k   NZ    .   26805   1
+      183   .   1   1   52    52    VAL   C     C   13   178.203   0.000   .   .   .   .   .   .   52    v   C     .   26805   1
+      184   .   1   1   52    52    VAL   CA    C   13   67.218    0.000   .   .   .   .   .   .   52    v   CA    .   26805   1
+      185   .   1   1   52    52    VAL   CB    C   13   32.431    0.000   .   .   .   .   .   .   52    v   CB    .   26805   1
+      186   .   1   1   52    52    VAL   CG1   C   13   23.620    0.000   .   .   .   .   .   .   52    v   CG1   .   26805   1
+      187   .   1   1   52    52    VAL   CG2   C   13   23.281    0.000   .   .   .   .   .   .   52    v   CG2   .   26805   1
+      188   .   1   1   52    52    VAL   N     N   15   114.406   0.000   .   .   .   .   .   .   52    v   N     .   26805   1
+      189   .   1   1   53    53    SER   C     C   13   176.949   0.000   .   .   .   .   .   .   53    s   C     .   26805   1
+      190   .   1   1   53    53    SER   CA    C   13   64.001    0.000   .   .   .   .   .   .   53    s   CA    .   26805   1
+      191   .   1   1   53    53    SER   CB    C   13   62.385    0.000   .   .   .   .   .   .   53    s   CB    .   26805   1
+      192   .   1   1   53    53    SER   N     N   15   115.927   0.000   .   .   .   .   .   .   53    s   N     .   26805   1
+      193   .   1   1   54    54    LEU   C     C   13   178.092   0.000   .   .   .   .   .   .   54    l   C     .   26805   1
+      194   .   1   1   54    54    LEU   CA    C   13   57.103    0.000   .   .   .   .   .   .   54    l   CA    .   26805   1
+      195   .   1   1   54    54    LEU   CB    C   13   41.850    0.000   .   .   .   .   .   .   54    l   CB    .   26805   1
+      196   .   1   1   54    54    LEU   CG    C   13   26.348    0.000   .   .   .   .   .   .   54    l   CG    .   26805   1
+      197   .   1   1   54    54    LEU   CD1   C   13   19.821    0.000   .   .   .   .   .   .   54    l   CD1   .   26805   1
+      198   .   1   1   54    54    LEU   CD2   C   13   25.405    0.000   .   .   .   .   .   .   54    l   CD2   .   26805   1
+      199   .   1   1   54    54    LEU   N     N   15   117.904   0.000   .   .   .   .   .   .   54    l   N     .   26805   1
+      200   .   1   1   55    55    ALA   C     C   13   180.538   0.000   .   .   .   .   .   .   55    a   C     .   26805   1
+      201   .   1   1   55    55    ALA   CA    C   13   55.897    0.000   .   .   .   .   .   .   55    a   CA    .   26805   1
+      202   .   1   1   55    55    ALA   CB    C   13   17.850    0.000   .   .   .   .   .   .   55    a   CB    .   26805   1
+      203   .   1   1   55    55    ALA   N     N   15   126.035   0.000   .   .   .   .   .   .   55    a   N     .   26805   1
+      204   .   1   1   56    56    PHE   C     C   13   179.307   0.000   .   .   .   .   .   .   56    f   C     .   26805   1
+      205   .   1   1   56    56    PHE   CA    C   13   61.659    0.000   .   .   .   .   .   .   56    f   CA    .   26805   1
+      206   .   1   1   56    56    PHE   CB    C   13   39.020    0.000   .   .   .   .   .   .   56    f   CB    .   26805   1
+      207   .   1   1   56    56    PHE   N     N   15   116.718   0.000   .   .   .   .   .   .   56    f   N     .   26805   1
+      208   .   1   1   57    57    GLY   C     C   13   176.098   0.000   .   .   .   .   .   .   57    g   C     .   26805   1
+      209   .   1   1   57    57    GLY   CA    C   13   48.795    0.000   .   .   .   .   .   .   57    g   CA    .   26805   1
+      210   .   1   1   57    57    GLY   N     N   15   103.667   0.000   .   .   .   .   .   .   57    g   N     .   26805   1
+      211   .   1   1   58    58    LEU   C     C   13   181.627   0.000   .   .   .   .   .   .   58    l   C     .   26805   1
+      212   .   1   1   58    58    LEU   CA    C   13   57.105    0.000   .   .   .   .   .   .   58    l   CA    .   26805   1
+      213   .   1   1   58    58    LEU   CB    C   13   40.233    0.000   .   .   .   .   .   .   58    l   CB    .   26805   1
+      214   .   1   1   58    58    LEU   CG    C   13   27.700    0.000   .   .   .   .   .   .   58    l   CG    .   26805   1
+      215   .   1   1   58    58    LEU   CD1   C   13   24.466    0.000   .   .   .   .   .   .   58    l   CD1   .   26805   1
+      216   .   1   1   58    58    LEU   CD2   C   13   21.838    0.000   .   .   .   .   .   .   58    l   CD2   .   26805   1
+      217   .   1   1   58    58    LEU   N     N   15   118.618   0.000   .   .   .   .   .   .   58    l   N     .   26805   1
+      218   .   1   1   59    59    SER   C     C   13   176.105   0.000   .   .   .   .   .   .   59    s   C     .   26805   1
+      219   .   1   1   59    59    SER   CA    C   13   64.013    0.000   .   .   .   .   .   .   59    s   CA    .   26805   1
+      220   .   1   1   59    59    SER   N     N   15   123.068   0.000   .   .   .   .   .   .   59    s   N     .   26805   1
+      221   .   1   1   60    60    ILE   C     C   13   177.842   0.000   .   .   .   .   .   .   60    i   C     .   26805   1
+      222   .   1   1   60    60    ILE   CA    C   13   61.931    0.000   .   .   .   .   .   .   60    i   CA    .   26805   1
+      223   .   1   1   60    60    ILE   CB    C   13   34.573    0.000   .   .   .   .   .   .   60    i   CB    .   26805   1
+      224   .   1   1   60    60    ILE   CG1   C   13   26.892    0.000   .   .   .   .   .   .   60    i   CG1   .   26805   1
+      225   .   1   1   60    60    ILE   CG2   C   13   16.553    0.000   .   .   .   .   .   .   60    i   CG2   .   26805   1
+      226   .   1   1   60    60    ILE   CD1   C   13   7.836     0.000   .   .   .   .   .   .   60    i   CD1   .   26805   1
+      227   .   1   1   60    60    ILE   N     N   15   123.292   0.000   .   .   .   .   .   .   60    i   N     .   26805   1
+      228   .   1   1   61    61    ALA   C     C   13   181.250   0.000   .   .   .   .   .   .   61    a   C     .   26805   1
+      229   .   1   1   61    61    ALA   CA    C   13   55.161    0.000   .   .   .   .   .   .   61    a   CA    .   26805   1
+      230   .   1   1   61    61    ALA   CB    C   13   18.724    0.000   .   .   .   .   .   .   61    a   CB    .   26805   1
+      231   .   1   1   61    61    ALA   N     N   15   120.519   0.000   .   .   .   .   .   .   61    a   N     .   26805   1
+      232   .   1   1   62    62    THR   C     C   13   177.593   0.000   .   .   .   .   .   .   62    t   C     .   26805   1
+      233   .   1   1   62    62    THR   CA    C   13   66.919    0.000   .   .   .   .   .   .   62    t   CA    .   26805   1
+      234   .   1   1   62    62    THR   CB    C   13   69.745    0.000   .   .   .   .   .   .   62    t   CB    .   26805   1
+      235   .   1   1   62    62    THR   CG2   C   13   20.019    0.000   .   .   .   .   .   .   62    t   CG2   .   26805   1
+      236   .   1   1   62    62    THR   N     N   15   116.448   0.000   .   .   .   .   .   .   62    t   N     .   26805   1
+      237   .   1   1   63    63    LEU   C     C   13   179.399   0.000   .   .   .   .   .   .   63    l   C     .   26805   1
+      238   .   1   1   63    63    LEU   CA    C   13   57.254    0.000   .   .   .   .   .   .   63    l   CA    .   26805   1
+      239   .   1   1   63    63    LEU   CB    C   13   40.566    0.000   .   .   .   .   .   .   63    l   CB    .   26805   1
+      240   .   1   1   63    63    LEU   CG    C   13   28.167    0.000   .   .   .   .   .   .   63    l   CG    .   26805   1
+      241   .   1   1   63    63    LEU   CD1   C   13   22.366    0.000   .   .   .   .   .   .   63    l   CD1   .   26805   1
+      242   .   1   1   63    63    LEU   CD2   C   13   25.360    0.000   .   .   .   .   .   .   63    l   CD2   .   26805   1
+      243   .   1   1   63    63    LEU   N     N   15   126.057   0.000   .   .   .   .   .   .   63    l   N     .   26805   1
+      244   .   1   1   64    64    ALA   C     C   13   181.770   0.000   .   .   .   .   .   .   64    a   C     .   26805   1
+      245   .   1   1   64    64    ALA   CA    C   13   55.279    0.000   .   .   .   .   .   .   64    a   CA    .   26805   1
+      246   .   1   1   64    64    ALA   CB    C   13   16.785    0.000   .   .   .   .   .   .   64    a   CB    .   26805   1
+      247   .   1   1   64    64    ALA   N     N   15   123.644   0.000   .   .   .   .   .   .   64    a   N     .   26805   1
+      248   .   1   1   65    65    GLN   C     C   13   176.801   0.000   .   .   .   .   .   .   65    q   C     .   26805   1
+      249   .   1   1   65    65    GLN   CA    C   13   59.451    0.000   .   .   .   .   .   .   65    q   CA    .   26805   1
+      250   .   1   1   65    65    GLN   CB    C   13   26.692    0.000   .   .   .   .   .   .   65    q   CB    .   26805   1
+      251   .   1   1   65    65    GLN   CG    C   13   30.660    0.000   .   .   .   .   .   .   65    q   CG    .   26805   1
+      252   .   1   1   65    65    GLN   CD    C   13   179.190   0.000   .   .   .   .   .   .   65    q   CD    .   26805   1
+      253   .   1   1   65    65    GLN   N     N   15   121.277   0.000   .   .   .   .   .   .   65    q   N     .   26805   1
+      254   .   1   1   66    66    SER   C     C   13   173.727   0.000   .   .   .   .   .   .   66    s   C     .   26805   1
+      255   .   1   1   66    66    SER   CA    C   13   61.991    0.000   .   .   .   .   .   .   66    s   CA    .   26805   1
+      256   .   1   1   66    66    SER   CB    C   13   63.678    0.000   .   .   .   .   .   .   66    s   CB    .   26805   1
+      257   .   1   1   66    66    SER   N     N   15   111.804   0.000   .   .   .   .   .   .   66    s   N     .   26805   1
+      258   .   1   1   67    67    VAL   C     C   13   179.290   0.000   .   .   .   .   .   .   67    v   C     .   26805   1
+      259   .   1   1   67    67    VAL   CA    C   13   59.621    0.000   .   .   .   .   .   .   67    v   CA    .   26805   1
+      260   .   1   1   67    67    VAL   CB    C   13   33.546    0.000   .   .   .   .   .   .   67    v   CB    .   26805   1
+      261   .   1   1   67    67    VAL   CG1   C   13   17.575    0.000   .   .   .   .   .   .   67    v   CG1   .   26805   1
+      262   .   1   1   67    67    VAL   CG2   C   13   20.152    0.000   .   .   .   .   .   .   67    v   CG2   .   26805   1
+      263   .   1   1   67    67    VAL   N     N   15   103.543   0.000   .   .   .   .   .   .   67    v   N     .   26805   1
+      264   .   1   1   68    68    GLY   C     C   13   175.439   0.000   .   .   .   .   .   .   68    g   C     .   26805   1
+      265   .   1   1   68    68    GLY   CA    C   13   48.984    0.000   .   .   .   .   .   .   68    g   CA    .   26805   1
+      266   .   1   1   68    68    GLY   N     N   15   113.781   0.000   .   .   .   .   .   .   68    g   N     .   26805   1
+      267   .   1   1   69    69    HIS   C     C   13   175.491   0.000   .   .   .   .   .   .   69    h   C     .   26805   1
+      268   .   1   1   69    69    HIS   CA    C   13   57.900    0.000   .   .   .   .   .   .   69    h   CA    .   26805   1
+      269   .   1   1   69    69    HIS   CB    C   13   28.693    0.000   .   .   .   .   .   .   69    h   CB    .   26805   1
+      270   .   1   1   69    69    HIS   CG    C   13   131.818   0.000   .   .   .   .   .   .   69    h   CG    .   26805   1
+      271   .   1   1   69    69    HIS   CE1   C   13   138.711   0.000   .   .   .   .   .   .   69    h   CE1   .   26805   1
+      272   .   1   1   69    69    HIS   N     N   15   120.866   0.000   .   .   .   .   .   .   69    h   N     .   26805   1
+      273   .   1   1   70    70    ILE   C     C   13   176.984   0.000   .   .   .   .   .   .   70    i   C     .   26805   1
+      274   .   1   1   70    70    ILE   CA    C   13   61.556    0.000   .   .   .   .   .   .   70    i   CA    .   26805   1
+      275   .   1   1   70    70    ILE   CB    C   13   37.932    0.000   .   .   .   .   .   .   70    i   CB    .   26805   1
+      276   .   1   1   70    70    ILE   CG1   C   13   26.628    0.000   .   .   .   .   .   .   70    i   CG1   .   26805   1
+      277   .   1   1   70    70    ILE   CG2   C   13   17.967    0.000   .   .   .   .   .   .   70    i   CG2   .   26805   1
+      278   .   1   1   70    70    ILE   N     N   15   122.291   0.000   .   .   .   .   .   .   70    i   N     .   26805   1
+      279   .   1   1   71    71    SER   C     C   13   176.511   0.000   .   .   .   .   .   .   71    s   C     .   26805   1
+      280   .   1   1   71    71    SER   CA    C   13   57.977    0.000   .   .   .   .   .   .   71    s   CA    .   26805   1
+      281   .   1   1   71    71    SER   CB    C   13   68.878    0.000   .   .   .   .   .   .   71    s   CB    .   26805   1
+      282   .   1   1   71    71    SER   N     N   15   108.863   0.000   .   .   .   .   .   .   71    s   N     .   26805   1
+      283   .   1   1   72    72    GLY   C     C   13   173.468   0.000   .   .   .   .   .   .   72    g   C     .   26805   1
+      284   .   1   1   72    72    GLY   CA    C   13   45.458    0.000   .   .   .   .   .   .   72    g   CA    .   26805   1
+      285   .   1   1   72    72    GLY   N     N   15   113.095   0.000   .   .   .   .   .   .   72    g   N     .   26805   1
+      286   .   1   1   73    73    ALA   C     C   13   174.544   0.000   .   .   .   .   .   .   73    a   C     .   26805   1
+      287   .   1   1   73    73    ALA   CA    C   13   51.474    0.000   .   .   .   .   .   .   73    a   CA    .   26805   1
+      288   .   1   1   73    73    ALA   CB    C   13   18.273    0.000   .   .   .   .   .   .   73    a   CB    .   26805   1
+      289   .   1   1   73    73    ALA   N     N   15   123.668   0.000   .   .   .   .   .   .   73    a   N     .   26805   1
+      290   .   1   1   74    74    HIS   C     C   13   176.218   0.000   .   .   .   .   .   .   74    h   C     .   26805   1
+      291   .   1   1   74    74    HIS   CA    C   13   58.618    0.000   .   .   .   .   .   .   74    h   CA    .   26805   1
+      292   .   1   1   74    74    HIS   CB    C   13   31.578    0.000   .   .   .   .   .   .   74    h   CB    .   26805   1
+      293   .   1   1   74    74    HIS   CG    C   13   135.444   0.000   .   .   .   .   .   .   74    h   CG    .   26805   1
+      294   .   1   1   74    74    HIS   CD2   C   13   114.674   0.000   .   .   .   .   .   .   74    h   CD2   .   26805   1
+      295   .   1   1   74    74    HIS   CE1   C   13   139.641   0.000   .   .   .   .   .   .   74    h   CE1   .   26805   1
+      296   .   1   1   74    74    HIS   N     N   15   125.350   0.000   .   .   .   .   .   .   74    h   N     .   26805   1
+      297   .   1   1   74    74    HIS   ND1   N   15   166.156   0.000   .   .   .   .   .   .   74    h   ND1   .   26805   1
+      298   .   1   1   74    74    HIS   NE2   N   15   161.098   0.000   .   .   .   .   .   .   74    h   NE2   .   26805   1
+      299   .   1   1   75    75    LEU   C     C   13   176.301   0.000   .   .   .   .   .   .   75    l   C     .   26805   1
+      300   .   1   1   75    75    LEU   CA    C   13   55.994    0.000   .   .   .   .   .   .   75    l   CA    .   26805   1
+      301   .   1   1   75    75    LEU   CB    C   13   37.948    0.000   .   .   .   .   .   .   75    l   CB    .   26805   1
+      302   .   1   1   75    75    LEU   CG    C   13   28.027    0.000   .   .   .   .   .   .   75    l   CG    .   26805   1
+      303   .   1   1   75    75    LEU   CD1   C   13   25.366    0.000   .   .   .   .   .   .   75    l   CD1   .   26805   1
+      304   .   1   1   75    75    LEU   N     N   15   115.534   0.000   .   .   .   .   .   .   75    l   N     .   26805   1
+      305   .   1   1   76    76    ASN   C     C   13   175.285   0.000   .   .   .   .   .   .   76    n   C     .   26805   1
+      306   .   1   1   76    76    ASN   CA    C   13   51.746    0.000   .   .   .   .   .   .   76    n   CA    .   26805   1
+      307   .   1   1   76    76    ASN   CB    C   13   40.671    0.000   .   .   .   .   .   .   76    n   CB    .   26805   1
+      308   .   1   1   76    76    ASN   CG    C   13   177.956   0.000   .   .   .   .   .   .   76    n   CG    .   26805   1
+      309   .   1   1   76    76    ASN   N     N   15   106.714   0.000   .   .   .   .   .   .   76    n   N     .   26805   1
+      310   .   1   1   76    76    ASN   ND2   N   15   115.740   0.000   .   .   .   .   .   .   76    n   ND2   .   26805   1
+      311   .   1   1   77    77    PRO   C     C   13   177.821   0.000   .   .   .   .   .   .   77    p   C     .   26805   1
+      312   .   1   1   77    77    PRO   CA    C   13   65.149    0.000   .   .   .   .   .   .   77    p   CA    .   26805   1
+      313   .   1   1   77    77    PRO   CB    C   13   33.980    0.000   .   .   .   .   .   .   77    p   CB    .   26805   1
+      314   .   1   1   77    77    PRO   CG    C   13   26.924    0.000   .   .   .   .   .   .   77    p   CG    .   26805   1
+      315   .   1   1   77    77    PRO   CD    C   13   52.895    0.000   .   .   .   .   .   .   77    p   CD    .   26805   1
+      316   .   1   1   77    77    PRO   N     N   15   136.673   0.000   .   .   .   .   .   .   77    p   N     .   26805   1
+      317   .   1   1   78    78    ALA   C     C   13   179.646   0.000   .   .   .   .   .   .   78    a   C     .   26805   1
+      318   .   1   1   78    78    ALA   CA    C   13   54.946    0.000   .   .   .   .   .   .   78    a   CA    .   26805   1
+      319   .   1   1   78    78    ALA   CB    C   13   18.879    0.000   .   .   .   .   .   .   78    a   CB    .   26805   1
+      320   .   1   1   78    78    ALA   N     N   15   116.098   0.000   .   .   .   .   .   .   78    a   N     .   26805   1
+      321   .   1   1   79    79    VAL   C     C   13   177.313   0.000   .   .   .   .   .   .   79    v   C     .   26805   1
+      322   .   1   1   79    79    VAL   CA    C   13   66.726    0.000   .   .   .   .   .   .   79    v   CA    .   26805   1
+      323   .   1   1   79    79    VAL   CB    C   13   32.552    0.000   .   .   .   .   .   .   79    v   CB    .   26805   1
+      324   .   1   1   79    79    VAL   CG1   C   13   22.673    0.000   .   .   .   .   .   .   79    v   CG1   .   26805   1
+      325   .   1   1   79    79    VAL   CG2   C   13   21.355    0.000   .   .   .   .   .   .   79    v   CG2   .   26805   1
+      326   .   1   1   79    79    VAL   N     N   15   118.829   0.000   .   .   .   .   .   .   79    v   N     .   26805   1
+      327   .   1   1   80    80    THR   C     C   13   176.372   0.000   .   .   .   .   .   .   80    t   C     .   26805   1
+      328   .   1   1   80    80    THR   CA    C   13   67.735    0.000   .   .   .   .   .   .   80    t   CA    .   26805   1
+      329   .   1   1   80    80    THR   CB    C   13   69.166    0.000   .   .   .   .   .   .   80    t   CB    .   26805   1
+      330   .   1   1   80    80    THR   CG2   C   13   25.282    0.000   .   .   .   .   .   .   80    t   CG2   .   26805   1
+      331   .   1   1   80    80    THR   N     N   15   117.744   0.000   .   .   .   .   .   .   80    t   N     .   26805   1
+      332   .   1   1   81    81    LEU   C     C   13   178.499   0.000   .   .   .   .   .   .   81    l   C     .   26805   1
+      333   .   1   1   81    81    LEU   CA    C   13   58.258    0.000   .   .   .   .   .   .   81    l   CA    .   26805   1
+      334   .   1   1   81    81    LEU   CB    C   13   41.412    0.000   .   .   .   .   .   .   81    l   CB    .   26805   1
+      335   .   1   1   81    81    LEU   CG    C   13   26.690    0.000   .   .   .   .   .   .   81    l   CG    .   26805   1
+      336   .   1   1   81    81    LEU   CD1   C   13   23.218    0.000   .   .   .   .   .   .   81    l   CD1   .   26805   1
+      337   .   1   1   81    81    LEU   N     N   15   119.528   0.000   .   .   .   .   .   .   81    l   N     .   26805   1
+      338   .   1   1   82    82    GLY   C     C   13   179.175   0.000   .   .   .   .   .   .   82    g   C     .   26805   1
+      339   .   1   1   82    82    GLY   CA    C   13   47.723    0.000   .   .   .   .   .   .   82    g   CA    .   26805   1
+      340   .   1   1   82    82    GLY   N     N   15   108.603   0.000   .   .   .   .   .   .   82    g   N     .   26805   1
+      341   .   1   1   93    93    ARG   C     C   13   177.269   0.000   .   .   .   .   .   .   93    r   C     .   26805   1
+      342   .   1   1   93    93    ARG   CA    C   13   60.678    0.000   .   .   .   .   .   .   93    r   CA    .   26805   1
+      343   .   1   1   93    93    ARG   CB    C   13   30.039    0.000   .   .   .   .   .   .   93    r   CB    .   26805   1
+      344   .   1   1   93    93    ARG   CG    C   13   29.091    0.000   .   .   .   .   .   .   93    r   CG    .   26805   1
+      345   .   1   1   93    93    ARG   CD    C   13   42.352    0.000   .   .   .   .   .   .   93    r   CD    .   26805   1
+      346   .   1   1   93    93    ARG   N     N   15   118.143   0.000   .   .   .   .   .   .   93    r   N     .   26805   1
+      347   .   1   1   94    94    ALA   C     C   13   179.024   0.000   .   .   .   .   .   .   94    a   C     .   26805   1
+      348   .   1   1   94    94    ALA   CA    C   13   54.884    0.000   .   .   .   .   .   .   94    a   CA    .   26805   1
+      349   .   1   1   94    94    ALA   CB    C   13   19.681    0.000   .   .   .   .   .   .   94    a   CB    .   26805   1
+      350   .   1   1   94    94    ALA   N     N   15   118.545   0.000   .   .   .   .   .   .   94    a   N     .   26805   1
+      351   .   1   1   95    95    LEU   C     C   13   178.305   0.000   .   .   .   .   .   .   95    l   C     .   26805   1
+      352   .   1   1   95    95    LEU   CA    C   13   58.447    0.000   .   .   .   .   .   .   95    l   CA    .   26805   1
+      353   .   1   1   95    95    LEU   CB    C   13   42.410    0.000   .   .   .   .   .   .   95    l   CB    .   26805   1
+      354   .   1   1   95    95    LEU   CG    C   13   26.746    0.000   .   .   .   .   .   .   95    l   CG    .   26805   1
+      355   .   1   1   95    95    LEU   N     N   15   116.081   0.000   .   .   .   .   .   .   95    l   N     .   26805   1
+      356   .   1   1   96    96    MET   C     C   13   179.417   0.000   .   .   .   .   .   .   96    m   C     .   26805   1
+      357   .   1   1   96    96    MET   CA    C   13   56.393    0.000   .   .   .   .   .   .   96    m   CA    .   26805   1
+      358   .   1   1   96    96    MET   CB    C   13   32.079    0.000   .   .   .   .   .   .   96    m   CB    .   26805   1
+      359   .   1   1   96    96    MET   CG    C   13   31.188    0.000   .   .   .   .   .   .   96    m   CG    .   26805   1
+      360   .   1   1   96    96    MET   N     N   15   114.300   0.000   .   .   .   .   .   .   96    m   N     .   26805   1
+      361   .   1   1   97    97    TYR   C     C   13   177.792   0.000   .   .   .   .   .   .   97    y   C     .   26805   1
+      362   .   1   1   97    97    TYR   CA    C   13   60.752    0.000   .   .   .   .   .   .   97    y   CA    .   26805   1
+      363   .   1   1   97    97    TYR   N     N   15   121.049   0.000   .   .   .   .   .   .   97    y   N     .   26805   1
+      364   .   1   1   98    98    ILE   C     C   13   179.843   0.000   .   .   .   .   .   .   98    i   C     .   26805   1
+      365   .   1   1   98    98    ILE   CA    C   13   65.993    0.000   .   .   .   .   .   .   98    i   CA    .   26805   1
+      366   .   1   1   98    98    ILE   CB    C   13   38.212    0.000   .   .   .   .   .   .   98    i   CB    .   26805   1
+      367   .   1   1   98    98    ILE   CG1   C   13   30.230    0.000   .   .   .   .   .   .   98    i   CG1   .   26805   1
+      368   .   1   1   98    98    ILE   CG2   C   13   16.996    0.000   .   .   .   .   .   .   98    i   CG2   .   26805   1
+      369   .   1   1   98    98    ILE   CD1   C   13   13.053    0.000   .   .   .   .   .   .   98    i   CD1   .   26805   1
+      370   .   1   1   98    98    ILE   N     N   15   118.889   0.000   .   .   .   .   .   .   98    i   N     .   26805   1
+      371   .   1   1   99    99    ILE   C     C   13   177.433   0.000   .   .   .   .   .   .   99    i   C     .   26805   1
+      372   .   1   1   99    99    ILE   CA    C   13   67.087    0.000   .   .   .   .   .   .   99    i   CA    .   26805   1
+      373   .   1   1   99    99    ILE   CB    C   13   38.425    0.000   .   .   .   .   .   .   99    i   CB    .   26805   1
+      374   .   1   1   99    99    ILE   CG1   C   13   29.916    0.000   .   .   .   .   .   .   99    i   CG1   .   26805   1
+      375   .   1   1   99    99    ILE   CG2   C   13   17.689    0.000   .   .   .   .   .   .   99    i   CG2   .   26805   1
+      376   .   1   1   99    99    ILE   CD1   C   13   14.055    0.000   .   .   .   .   .   .   99    i   CD1   .   26805   1
+      377   .   1   1   99    99    ILE   N     N   15   120.861   0.000   .   .   .   .   .   .   99    i   N     .   26805   1
+      378   .   1   1   100   100   ALA   C     C   13   180.768   0.000   .   .   .   .   .   .   100   a   C     .   26805   1
+      379   .   1   1   100   100   ALA   CA    C   13   56.518    0.000   .   .   .   .   .   .   100   a   CA    .   26805   1
+      380   .   1   1   100   100   ALA   CB    C   13   19.817    0.000   .   .   .   .   .   .   100   a   CB    .   26805   1
+      381   .   1   1   100   100   ALA   N     N   15   122.259   0.000   .   .   .   .   .   .   100   a   N     .   26805   1
+      382   .   1   1   101   101   GLN   C     C   13   179.678   0.000   .   .   .   .   .   .   101   q   C     .   26805   1
+      383   .   1   1   101   101   GLN   CA    C   13   58.508    0.000   .   .   .   .   .   .   101   q   CA    .   26805   1
+      384   .   1   1   101   101   GLN   CB    C   13   27.601    0.000   .   .   .   .   .   .   101   q   CB    .   26805   1
+      385   .   1   1   101   101   GLN   CG    C   13   32.208    0.000   .   .   .   .   .   .   101   q   CG    .   26805   1
+      386   .   1   1   101   101   GLN   CD    C   13   177.297   0.000   .   .   .   .   .   .   101   q   CD    .   26805   1
+      387   .   1   1   101   101   GLN   N     N   15   117.326   0.000   .   .   .   .   .   .   101   q   N     .   26805   1
+      388   .   1   1   102   102   CYS   C     C   13   177.611   0.000   .   .   .   .   .   .   102   c   C     .   26805   1
+      389   .   1   1   102   102   CYS   CA    C   13   66.111    0.000   .   .   .   .   .   .   102   c   CA    .   26805   1
+      390   .   1   1   102   102   CYS   CB    C   13   28.175    0.000   .   .   .   .   .   .   102   c   CB    .   26805   1
+      391   .   1   1   102   102   CYS   N     N   15   116.986   0.000   .   .   .   .   .   .   102   c   N     .   26805   1
+      392   .   1   1   103   103   VAL   C     C   13   178.435   0.000   .   .   .   .   .   .   103   v   C     .   26805   1
+      393   .   1   1   103   103   VAL   CA    C   13   67.639    0.000   .   .   .   .   .   .   103   v   CA    .   26805   1
+      394   .   1   1   103   103   VAL   CB    C   13   31.543    0.000   .   .   .   .   .   .   103   v   CB    .   26805   1
+      395   .   1   1   103   103   VAL   CG1   C   13   24.242    0.000   .   .   .   .   .   .   103   v   CG1   .   26805   1
+      396   .   1   1   103   103   VAL   CG2   C   13   22.639    0.000   .   .   .   .   .   .   103   v   CG2   .   26805   1
+      397   .   1   1   103   103   VAL   N     N   15   118.830   0.000   .   .   .   .   .   .   103   v   N     .   26805   1
+      398   .   1   1   104   104   GLY   C     C   13   175.250   0.000   .   .   .   .   .   .   104   g   C     .   26805   1
+      399   .   1   1   104   104   GLY   CA    C   13   48.315    0.000   .   .   .   .   .   .   104   g   CA    .   26805   1
+      400   .   1   1   104   104   GLY   N     N   15   110.585   0.000   .   .   .   .   .   .   104   g   N     .   26805   1
+      401   .   1   1   105   105   ALA   C     C   13   181.409   0.000   .   .   .   .   .   .   105   a   C     .   26805   1
+      402   .   1   1   105   105   ALA   CA    C   13   55.978    0.000   .   .   .   .   .   .   105   a   CA    .   26805   1
+      403   .   1   1   105   105   ALA   CB    C   13   19.772    0.000   .   .   .   .   .   .   105   a   CB    .   26805   1
+      404   .   1   1   105   105   ALA   N     N   15   123.590   0.000   .   .   .   .   .   .   105   a   N     .   26805   1
+      405   .   1   1   106   106   ILE   C     C   13   177.258   0.000   .   .   .   .   .   .   106   i   C     .   26805   1
+      406   .   1   1   106   106   ILE   CA    C   13   66.756    0.000   .   .   .   .   .   .   106   i   CA    .   26805   1
+      407   .   1   1   106   106   ILE   CB    C   13   38.778    0.000   .   .   .   .   .   .   106   i   CB    .   26805   1
+      408   .   1   1   106   106   ILE   CG1   C   13   29.803    0.000   .   .   .   .   .   .   106   i   CG1   .   26805   1
+      409   .   1   1   106   106   ILE   CG2   C   13   17.814    0.000   .   .   .   .   .   .   106   i   CG2   .   26805   1
+      410   .   1   1   106   106   ILE   CD1   C   13   15.268    0.000   .   .   .   .   .   .   106   i   CD1   .   26805   1
+      411   .   1   1   106   106   ILE   N     N   15   120.759   0.000   .   .   .   .   .   .   106   i   N     .   26805   1
+      412   .   1   1   107   107   VAL   C     C   13   178.021   0.000   .   .   .   .   .   .   107   v   C     .   26805   1
+      413   .   1   1   107   107   VAL   CA    C   13   67.770    0.000   .   .   .   .   .   .   107   v   CA    .   26805   1
+      414   .   1   1   107   107   VAL   CB    C   13   31.380    0.000   .   .   .   .   .   .   107   v   CB    .   26805   1
+      415   .   1   1   107   107   VAL   CG1   C   13   24.455    0.000   .   .   .   .   .   .   107   v   CG1   .   26805   1
+      416   .   1   1   107   107   VAL   CG2   C   13   22.007    0.000   .   .   .   .   .   .   107   v   CG2   .   26805   1
+      417   .   1   1   107   107   VAL   N     N   15   120.121   0.000   .   .   .   .   .   .   107   v   N     .   26805   1
+      418   .   1   1   108   108   ALA   C     C   13   180.032   0.000   .   .   .   .   .   .   108   a   C     .   26805   1
+      419   .   1   1   108   108   ALA   CA    C   13   55.720    0.000   .   .   .   .   .   .   108   a   CA    .   26805   1
+      420   .   1   1   108   108   ALA   CB    C   13   21.974    0.000   .   .   .   .   .   .   108   a   CB    .   26805   1
+      421   .   1   1   108   108   ALA   N     N   15   119.725   0.000   .   .   .   .   .   .   108   a   N     .   26805   1
+      422   .   1   1   109   109   THR   C     C   13   176.702   0.000   .   .   .   .   .   .   109   t   C     .   26805   1
+      423   .   1   1   109   109   THR   CA    C   13   67.482    0.000   .   .   .   .   .   .   109   t   CA    .   26805   1
+      424   .   1   1   109   109   THR   CG2   C   13   23.271    0.000   .   .   .   .   .   .   109   t   CG2   .   26805   1
+      425   .   1   1   109   109   THR   N     N   15   113.736   0.000   .   .   .   .   .   .   109   t   N     .   26805   1
+      426   .   1   1   110   110   ALA   CA    C   13   55.675    0.000   .   .   .   .   .   .   110   a   CA    .   26805   1
+      427   .   1   1   110   110   ALA   CB    C   13   18.481    0.000   .   .   .   .   .   .   110   a   CB    .   26805   1
+      428   .   1   1   110   110   ALA   N     N   15   126.217   0.000   .   .   .   .   .   .   110   a   N     .   26805   1
+      429   .   1   1   112   112   LEU   C     C   13   180.311   0.000   .   .   .   .   .   .   112   l   C     .   26805   1
+      430   .   1   1   112   112   LEU   CA    C   13   58.052    0.000   .   .   .   .   .   .   112   l   CA    .   26805   1
+      431   .   1   1   112   112   LEU   CB    C   13   41.064    0.000   .   .   .   .   .   .   112   l   CB    .   26805   1
+      432   .   1   1   112   112   LEU   N     N   15   120.814   0.000   .   .   .   .   .   .   112   l   N     .   26805   1
+      433   .   1   1   113   113   SER   C     C   13   176.247   0.000   .   .   .   .   .   .   113   s   C     .   26805   1
+      434   .   1   1   113   113   SER   CA    C   13   61.578    0.000   .   .   .   .   .   .   113   s   CA    .   26805   1
+      435   .   1   1   113   113   SER   CB    C   13   62.646    0.000   .   .   .   .   .   .   113   s   CB    .   26805   1
+      436   .   1   1   113   113   SER   N     N   15   118.669   0.000   .   .   .   .   .   .   113   s   N     .   26805   1
+      437   .   1   1   114   114   GLY   C     C   13   176.609   0.000   .   .   .   .   .   .   114   g   C     .   26805   1
+      438   .   1   1   114   114   GLY   CA    C   13   47.031    0.000   .   .   .   .   .   .   114   g   CA    .   26805   1
+      439   .   1   1   114   114   GLY   N     N   15   107.184   0.000   .   .   .   .   .   .   114   g   N     .   26805   1
+      440   .   1   1   115   115   ILE   C     C   13   176.600   0.000   .   .   .   .   .   .   115   i   C     .   26805   1
+      441   .   1   1   115   115   ILE   CA    C   13   62.584    0.000   .   .   .   .   .   .   115   i   CA    .   26805   1
+      442   .   1   1   115   115   ILE   CB    C   13   36.254    0.000   .   .   .   .   .   .   115   i   CB    .   26805   1
+      443   .   1   1   115   115   ILE   N     N   15   122.610   0.000   .   .   .   .   .   .   115   i   N     .   26805   1
+      444   .   1   1   116   116   THR   C     C   13   176.389   0.000   .   .   .   .   .   .   116   t   C     .   26805   1
+      445   .   1   1   116   116   THR   CA    C   13   60.715    0.000   .   .   .   .   .   .   116   t   CA    .   26805   1
+      446   .   1   1   116   116   THR   CB    C   13   68.278    0.000   .   .   .   .   .   .   116   t   CB    .   26805   1
+      447   .   1   1   116   116   THR   CG2   C   13   22.327    0.000   .   .   .   .   .   .   116   t   CG2   .   26805   1
+      448   .   1   1   116   116   THR   N     N   15   105.802   0.000   .   .   .   .   .   .   116   t   N     .   26805   1
+      449   .   1   1   117   117   SER   C     C   13   176.232   0.000   .   .   .   .   .   .   117   s   C     .   26805   1
+      450   .   1   1   117   117   SER   CA    C   13   61.343    0.000   .   .   .   .   .   .   117   s   CA    .   26805   1
+      451   .   1   1   117   117   SER   CB    C   13   63.494    0.000   .   .   .   .   .   .   117   s   CB    .   26805   1
+      452   .   1   1   117   117   SER   N     N   15   115.563   0.000   .   .   .   .   .   .   117   s   N     .   26805   1
+      453   .   1   1   118   118   SER   C     C   13   174.503   0.000   .   .   .   .   .   .   118   s   C     .   26805   1
+      454   .   1   1   118   118   SER   CA    C   13   60.331    0.000   .   .   .   .   .   .   118   s   CA    .   26805   1
+      455   .   1   1   118   118   SER   CB    C   13   63.581    0.000   .   .   .   .   .   .   118   s   CB    .   26805   1
+      456   .   1   1   118   118   SER   N     N   15   116.135   0.000   .   .   .   .   .   .   118   s   N     .   26805   1
+      457   .   1   1   119   119   LEU   C     C   13   177.128   0.000   .   .   .   .   .   .   119   l   C     .   26805   1
+      458   .   1   1   119   119   LEU   CA    C   13   54.745    0.000   .   .   .   .   .   .   119   l   CA    .   26805   1
+      459   .   1   1   119   119   LEU   CB    C   13   41.149    0.000   .   .   .   .   .   .   119   l   CB    .   26805   1
+      460   .   1   1   119   119   LEU   CG    C   13   25.846    0.000   .   .   .   .   .   .   119   l   CG    .   26805   1
+      461   .   1   1   119   119   LEU   CD1   C   13   22.614    0.000   .   .   .   .   .   .   119   l   CD1   .   26805   1
+      462   .   1   1   119   119   LEU   N     N   15   120.078   0.000   .   .   .   .   .   .   119   l   N     .   26805   1
+      463   .   1   1   120   120   THR   C     C   13   175.881   0.000   .   .   .   .   .   .   120   t   C     .   26805   1
+      464   .   1   1   120   120   THR   CA    C   13   61.818    0.000   .   .   .   .   .   .   120   t   CA    .   26805   1
+      465   .   1   1   120   120   THR   CB    C   13   69.906    0.000   .   .   .   .   .   .   120   t   CB    .   26805   1
+      466   .   1   1   120   120   THR   CG2   C   13   21.793    0.000   .   .   .   .   .   .   120   t   CG2   .   26805   1
+      467   .   1   1   120   120   THR   N     N   15   118.019   0.000   .   .   .   .   .   .   120   t   N     .   26805   1
+      468   .   1   1   121   121   GLY   C     C   13   175.582   0.000   .   .   .   .   .   .   121   g   C     .   26805   1
+      469   .   1   1   121   121   GLY   CA    C   13   47.400    0.000   .   .   .   .   .   .   121   g   CA    .   26805   1
+      470   .   1   1   121   121   GLY   N     N   15   115.537   0.000   .   .   .   .   .   .   121   g   N     .   26805   1
+      471   .   1   1   122   122   ASN   C     C   13   176.483   0.000   .   .   .   .   .   .   122   n   C     .   26805   1
+      472   .   1   1   122   122   ASN   CA    C   13   52.858    0.000   .   .   .   .   .   .   122   n   CA    .   26805   1
+      473   .   1   1   122   122   ASN   CB    C   13   39.024    0.000   .   .   .   .   .   .   122   n   CB    .   26805   1
+      474   .   1   1   122   122   ASN   CG    C   13   175.603   0.000   .   .   .   .   .   .   122   n   CG    .   26805   1
+      475   .   1   1   122   122   ASN   N     N   15   118.150   0.000   .   .   .   .   .   .   122   n   N     .   26805   1
+      476   .   1   1   122   122   ASN   ND2   N   15   111.450   0.000   .   .   .   .   .   .   122   n   ND2   .   26805   1
+      477   .   1   1   123   123   SER   C     C   13   175.066   0.000   .   .   .   .   .   .   123   s   C     .   26805   1
+      478   .   1   1   123   123   SER   CA    C   13   58.571    0.000   .   .   .   .   .   .   123   s   CA    .   26805   1
+      479   .   1   1   123   123   SER   CB    C   13   63.918    0.000   .   .   .   .   .   .   123   s   CB    .   26805   1
+      480   .   1   1   123   123   SER   N     N   15   121.922   0.000   .   .   .   .   .   .   123   s   N     .   26805   1
+      481   .   1   1   124   124   LEU   C     C   13   175.554   0.000   .   .   .   .   .   .   124   l   C     .   26805   1
+      482   .   1   1   124   124   LEU   CA    C   13   55.874    0.000   .   .   .   .   .   .   124   l   CA    .   26805   1
+      483   .   1   1   124   124   LEU   CB    C   13   39.746    0.000   .   .   .   .   .   .   124   l   CB    .   26805   1
+      484   .   1   1   124   124   LEU   CG    C   13   26.850    0.000   .   .   .   .   .   .   124   l   CG    .   26805   1
+      485   .   1   1   124   124   LEU   CD1   C   13   26.185    0.000   .   .   .   .   .   .   124   l   CD1   .   26805   1
+      486   .   1   1   124   124   LEU   CD2   C   13   22.765    0.000   .   .   .   .   .   .   124   l   CD2   .   26805   1
+      487   .   1   1   124   124   LEU   N     N   15   117.662   0.000   .   .   .   .   .   .   124   l   N     .   26805   1
+      488   .   1   1   125   125   GLY   C     C   13   175.574   0.000   .   .   .   .   .   .   125   g   C     .   26805   1
+      489   .   1   1   125   125   GLY   CA    C   13   45.754    0.000   .   .   .   .   .   .   125   g   CA    .   26805   1
+      490   .   1   1   125   125   GLY   N     N   15   102.223   0.000   .   .   .   .   .   .   125   g   N     .   26805   1
+      491   .   1   1   126   126   ARG   C     C   13   176.860   0.000   .   .   .   .   .   .   126   r   C     .   26805   1
+      492   .   1   1   126   126   ARG   CA    C   13   57.646    0.000   .   .   .   .   .   .   126   r   CA    .   26805   1
+      493   .   1   1   126   126   ARG   CB    C   13   31.388    0.000   .   .   .   .   .   .   126   r   CB    .   26805   1
+      494   .   1   1   126   126   ARG   CG    C   13   27.316    0.000   .   .   .   .   .   .   126   r   CG    .   26805   1
+      495   .   1   1   126   126   ARG   CD    C   13   43.492    0.000   .   .   .   .   .   .   126   r   CD    .   26805   1
+      496   .   1   1   126   126   ARG   CZ    C   13   159.675   0.000   .   .   .   .   .   .   126   r   CZ    .   26805   1
+      497   .   1   1   126   126   ARG   N     N   15   121.806   0.000   .   .   .   .   .   .   126   r   N     .   26805   1
+      498   .   1   1   126   126   ARG   NE    N   15   84.333    0.000   .   .   .   .   .   .   126   r   NE    .   26805   1
+      499   .   1   1   126   126   ARG   NH1   N   15   72.854    0.000   .   .   .   .   .   .   126   r   NH1   .   26805   1
+      500   .   1   1   126   126   ARG   NH2   N   15   71.552    0.000   .   .   .   .   .   .   126   r   NH2   .   26805   1
+      501   .   1   1   127   127   ASN   C     C   13   172.475   0.000   .   .   .   .   .   .   127   n   C     .   26805   1
+      502   .   1   1   127   127   ASN   CA    C   13   56.232    0.000   .   .   .   .   .   .   127   n   CA    .   26805   1
+      503   .   1   1   127   127   ASN   CB    C   13   38.699    0.000   .   .   .   .   .   .   127   n   CB    .   26805   1
+      504   .   1   1   127   127   ASN   CG    C   13   176.466   0.000   .   .   .   .   .   .   127   n   CG    .   26805   1
+      505   .   1   1   127   127   ASN   N     N   15   128.002   0.000   .   .   .   .   .   .   127   n   N     .   26805   1
+      506   .   1   1   127   127   ASN   ND2   N   15   101.722   0.000   .   .   .   .   .   .   127   n   ND2   .   26805   1
+      507   .   1   1   128   128   ASP   C     C   13   174.770   0.000   .   .   .   .   .   .   128   d   C     .   26805   1
+      508   .   1   1   128   128   ASP   CA    C   13   52.306    0.000   .   .   .   .   .   .   128   d   CA    .   26805   1
+      509   .   1   1   128   128   ASP   CB    C   13   41.674    0.000   .   .   .   .   .   .   128   d   CB    .   26805   1
+      510   .   1   1   128   128   ASP   CG    C   13   178.511   0.000   .   .   .   .   .   .   128   d   CG    .   26805   1
+      511   .   1   1   128   128   ASP   N     N   15   119.109   0.000   .   .   .   .   .   .   128   d   N     .   26805   1
+      512   .   1   1   129   129   LEU   C     C   13   177.929   0.000   .   .   .   .   .   .   129   l   C     .   26805   1
+      513   .   1   1   129   129   LEU   CA    C   13   54.750    0.000   .   .   .   .   .   .   129   l   CA    .   26805   1
+      514   .   1   1   129   129   LEU   CB    C   13   41.264    0.000   .   .   .   .   .   .   129   l   CB    .   26805   1
+      515   .   1   1   129   129   LEU   CG    C   13   27.096    0.000   .   .   .   .   .   .   129   l   CG    .   26805   1
+      516   .   1   1   129   129   LEU   CD1   C   13   22.698    0.000   .   .   .   .   .   .   129   l   CD1   .   26805   1
+      517   .   1   1   129   129   LEU   CD2   C   13   24.721    0.000   .   .   .   .   .   .   129   l   CD2   .   26805   1
+      518   .   1   1   129   129   LEU   N     N   15   121.287   0.000   .   .   .   .   .   .   129   l   N     .   26805   1
+      519   .   1   1   130   130   ALA   C     C   13   177.196   0.000   .   .   .   .   .   .   130   a   C     .   26805   1
+      520   .   1   1   130   130   ALA   CA    C   13   51.595    0.000   .   .   .   .   .   .   130   a   CA    .   26805   1
+      521   .   1   1   130   130   ALA   CB    C   13   20.470    0.000   .   .   .   .   .   .   130   a   CB    .   26805   1
+      522   .   1   1   130   130   ALA   N     N   15   128.637   0.000   .   .   .   .   .   .   130   a   N     .   26805   1
+      523   .   1   1   131   131   ASP   C     C   13   177.348   0.000   .   .   .   .   .   .   131   d   C     .   26805   1
+      524   .   1   1   131   131   ASP   CA    C   13   56.899    0.000   .   .   .   .   .   .   131   d   CA    .   26805   1
+      525   .   1   1   131   131   ASP   N     N   15   120.467   0.000   .   .   .   .   .   .   131   d   N     .   26805   1
+      526   .   1   1   132   132   GLY   C     C   13   173.748   0.000   .   .   .   .   .   .   132   g   C     .   26805   1
+      527   .   1   1   132   132   GLY   CA    C   13   44.841    0.000   .   .   .   .   .   .   132   g   CA    .   26805   1
+      528   .   1   1   132   132   GLY   N     N   15   113.126   0.000   .   .   .   .   .   .   132   g   N     .   26805   1
+      529   .   1   1   133   133   VAL   C     C   13   175.226   0.000   .   .   .   .   .   .   133   v   C     .   26805   1
+      530   .   1   1   133   133   VAL   CA    C   13   61.656    0.000   .   .   .   .   .   .   133   v   CA    .   26805   1
+      531   .   1   1   133   133   VAL   CB    C   13   32.350    0.000   .   .   .   .   .   .   133   v   CB    .   26805   1
+      532   .   1   1   133   133   VAL   CG1   C   13   24.120    0.000   .   .   .   .   .   .   133   v   CG1   .   26805   1
+      533   .   1   1   133   133   VAL   CG2   C   13   21.797    0.000   .   .   .   .   .   .   133   v   CG2   .   26805   1
+      534   .   1   1   133   133   VAL   N     N   15   126.254   0.000   .   .   .   .   .   .   133   v   N     .   26805   1
+      535   .   1   1   134   134   ASN   C     C   13   176.908   0.000   .   .   .   .   .   .   134   n   C     .   26805   1
+      536   .   1   1   134   134   ASN   CA    C   13   51.277    0.000   .   .   .   .   .   .   134   n   CA    .   26805   1
+      537   .   1   1   134   134   ASN   CB    C   13   39.020    0.000   .   .   .   .   .   .   134   n   CB    .   26805   1
+      538   .   1   1   134   134   ASN   CG    C   13   176.019   0.000   .   .   .   .   .   .   134   n   CG    .   26805   1
+      539   .   1   1   134   134   ASN   N     N   15   124.900   0.000   .   .   .   .   .   .   134   n   N     .   26805   1
+      540   .   1   1   135   135   SER   C     C   13   176.191   0.000   .   .   .   .   .   .   135   s   C     .   26805   1
+      541   .   1   1   135   135   SER   CA    C   13   62.957    0.000   .   .   .   .   .   .   135   s   CA    .   26805   1
+      542   .   1   1   135   135   SER   N     N   15   113.448   0.000   .   .   .   .   .   .   135   s   N     .   26805   1
+      543   .   1   1   136   136   GLY   C     C   13   175.509   0.000   .   .   .   .   .   .   136   g   C     .   26805   1
+      544   .   1   1   136   136   GLY   CA    C   13   47.614    0.000   .   .   .   .   .   .   136   g   CA    .   26805   1
+      545   .   1   1   136   136   GLY   N     N   15   109.643   0.000   .   .   .   .   .   .   136   g   N     .   26805   1
+      546   .   1   1   137   137   GLN   C     C   13   178.472   0.000   .   .   .   .   .   .   137   q   C     .   26805   1
+      547   .   1   1   137   137   GLN   CA    C   13   58.657    0.000   .   .   .   .   .   .   137   q   CA    .   26805   1
+      548   .   1   1   137   137   GLN   CB    C   13   27.812    0.000   .   .   .   .   .   .   137   q   CB    .   26805   1
+      549   .   1   1   137   137   GLN   CG    C   13   35.009    0.000   .   .   .   .   .   .   137   q   CG    .   26805   1
+      550   .   1   1   137   137   GLN   CD    C   13   179.903   0.000   .   .   .   .   .   .   137   q   CD    .   26805   1
+      551   .   1   1   137   137   GLN   N     N   15   121.629   0.000   .   .   .   .   .   .   137   q   N     .   26805   1
+      552   .   1   1   137   137   GLN   NE2   N   15   111.277   0.000   .   .   .   .   .   .   137   q   NE2   .   26805   1
+      553   .   1   1   138   138   GLY   C     C   13   174.911   0.000   .   .   .   .   .   .   138   g   C     .   26805   1
+      554   .   1   1   138   138   GLY   CA    C   13   46.792    0.000   .   .   .   .   .   .   138   g   CA    .   26805   1
+      555   .   1   1   138   138   GLY   N     N   15   106.350   0.000   .   .   .   .   .   .   138   g   N     .   26805   1
+      556   .   1   1   139   139   LEU   C     C   13   178.856   0.000   .   .   .   .   .   .   139   l   C     .   26805   1
+      557   .   1   1   139   139   LEU   CA    C   13   58.285    0.000   .   .   .   .   .   .   139   l   CA    .   26805   1
+      558   .   1   1   139   139   LEU   CB    C   13   41.960    0.000   .   .   .   .   .   .   139   l   CB    .   26805   1
+      559   .   1   1   139   139   LEU   CG    C   13   26.735    0.000   .   .   .   .   .   .   139   l   CG    .   26805   1
+      560   .   1   1   139   139   LEU   N     N   15   121.228   0.000   .   .   .   .   .   .   139   l   N     .   26805   1
+      561   .   1   1   140   140   GLY   C     C   13   174.408   0.000   .   .   .   .   .   .   140   g   C     .   26805   1
+      562   .   1   1   140   140   GLY   CA    C   13   48.259    0.000   .   .   .   .   .   .   140   g   CA    .   26805   1
+      563   .   1   1   140   140   GLY   N     N   15   105.008   0.000   .   .   .   .   .   .   140   g   N     .   26805   1
+      564   .   1   1   141   141   ILE   C     C   13   177.819   0.000   .   .   .   .   .   .   141   i   C     .   26805   1
+      565   .   1   1   141   141   ILE   CA    C   13   62.720    0.000   .   .   .   .   .   .   141   i   CA    .   26805   1
+      566   .   1   1   141   141   ILE   CB    C   13   35.561    0.000   .   .   .   .   .   .   141   i   CB    .   26805   1
+      567   .   1   1   141   141   ILE   CG1   C   13   26.488    0.000   .   .   .   .   .   .   141   i   CG1   .   26805   1
+      568   .   1   1   141   141   ILE   CG2   C   13   17.528    0.000   .   .   .   .   .   .   141   i   CG2   .   26805   1
+      569   .   1   1   141   141   ILE   CD1   C   13   7.891     0.000   .   .   .   .   .   .   141   i   CD1   .   26805   1
+      570   .   1   1   141   141   ILE   N     N   15   120.391   0.000   .   .   .   .   .   .   141   i   N     .   26805   1
+      571   .   1   1   142   142   GLU   C     C   13   180.680   0.000   .   .   .   .   .   .   142   e   C     .   26805   1
+      572   .   1   1   142   142   GLU   CA    C   13   59.710    0.000   .   .   .   .   .   .   142   e   CA    .   26805   1
+      573   .   1   1   142   142   GLU   CB    C   13   30.581    0.000   .   .   .   .   .   .   142   e   CB    .   26805   1
+      574   .   1   1   142   142   GLU   CG    C   13   38.393    0.000   .   .   .   .   .   .   142   e   CG    .   26805   1
+      575   .   1   1   142   142   GLU   CD    C   13   179.467   0.000   .   .   .   .   .   .   142   e   CD    .   26805   1
+      576   .   1   1   142   142   GLU   N     N   15   119.263   0.000   .   .   .   .   .   .   142   e   N     .   26805   1
+      577   .   1   1   143   143   ILE   C     C   13   178.301   0.000   .   .   .   .   .   .   143   i   C     .   26805   1
+      578   .   1   1   143   143   ILE   CA    C   13   65.601    0.000   .   .   .   .   .   .   143   i   CA    .   26805   1
+      579   .   1   1   143   143   ILE   CB    C   13   38.103    0.000   .   .   .   .   .   .   143   i   CB    .   26805   1
+      580   .   1   1   143   143   ILE   CG1   C   13   30.112    0.000   .   .   .   .   .   .   143   i   CG1   .   26805   1
+      581   .   1   1   143   143   ILE   CG2   C   13   17.202    0.000   .   .   .   .   .   .   143   i   CG2   .   26805   1
+      582   .   1   1   143   143   ILE   CD1   C   13   14.713    0.000   .   .   .   .   .   .   143   i   CD1   .   26805   1
+      583   .   1   1   143   143   ILE   N     N   15   120.865   0.000   .   .   .   .   .   .   143   i   N     .   26805   1
+      584   .   1   1   144   144   ILE   C     C   13   178.055   0.000   .   .   .   .   .   .   144   i   C     .   26805   1
+      585   .   1   1   144   144   ILE   CA    C   13   64.712    0.000   .   .   .   .   .   .   144   i   CA    .   26805   1
+      586   .   1   1   144   144   ILE   CB    C   13   36.160    0.000   .   .   .   .   .   .   144   i   CB    .   26805   1
+      587   .   1   1   144   144   ILE   CG2   C   13   17.628    0.000   .   .   .   .   .   .   144   i   CG2   .   26805   1
+      588   .   1   1   144   144   ILE   N     N   15   119.520   0.000   .   .   .   .   .   .   144   i   N     .   26805   1
+      589   .   1   1   145   145   GLY   C     C   13   174.644   0.000   .   .   .   .   .   .   145   g   C     .   26805   1
+      590   .   1   1   145   145   GLY   CA    C   13   47.390    0.000   .   .   .   .   .   .   145   g   CA    .   26805   1
+      591   .   1   1   145   145   GLY   N     N   15   106.033   0.000   .   .   .   .   .   .   145   g   N     .   26805   1
+      592   .   1   1   146   146   THR   C     C   13   175.996   0.000   .   .   .   .   .   .   146   t   C     .   26805   1
+      593   .   1   1   146   146   THR   CA    C   13   66.501    0.000   .   .   .   .   .   .   146   t   CA    .   26805   1
+      594   .   1   1   146   146   THR   CB    C   13   68.452    0.000   .   .   .   .   .   .   146   t   CB    .   26805   1
+      595   .   1   1   146   146   THR   CG2   C   13   21.766    0.000   .   .   .   .   .   .   146   t   CG2   .   26805   1
+      596   .   1   1   146   146   THR   N     N   15   115.098   0.000   .   .   .   .   .   .   146   t   N     .   26805   1
+      597   .   1   1   147   147   LEU   C     C   13   179.501   0.000   .   .   .   .   .   .   147   l   C     .   26805   1
+      598   .   1   1   147   147   LEU   CA    C   13   59.599    0.000   .   .   .   .   .   .   147   l   CA    .   26805   1
+      599   .   1   1   147   147   LEU   CB    C   13   43.872    0.000   .   .   .   .   .   .   147   l   CB    .   26805   1
+      600   .   1   1   147   147   LEU   CG    C   13   27.903    0.000   .   .   .   .   .   .   147   l   CG    .   26805   1
+      601   .   1   1   147   147   LEU   CD1   C   13   24.222    0.000   .   .   .   .   .   .   147   l   CD1   .   26805   1
+      602   .   1   1   147   147   LEU   N     N   15   126.349   0.000   .   .   .   .   .   .   147   l   N     .   26805   1
+      603   .   1   1   148   148   GLN   C     C   13   175.361   0.000   .   .   .   .   .   .   148   q   C     .   26805   1
+      604   .   1   1   148   148   GLN   CA    C   13   58.792    0.000   .   .   .   .   .   .   148   q   CA    .   26805   1
+      605   .   1   1   148   148   GLN   CB    C   13   24.698    0.000   .   .   .   .   .   .   148   q   CB    .   26805   1
+      606   .   1   1   148   148   GLN   CG    C   13   30.331    0.000   .   .   .   .   .   .   148   q   CG    .   26805   1
+      607   .   1   1   148   148   GLN   CD    C   13   177.885   0.000   .   .   .   .   .   .   148   q   CD    .   26805   1
+      608   .   1   1   148   148   GLN   N     N   15   113.062   0.000   .   .   .   .   .   .   148   q   N     .   26805   1
+      609   .   1   1   148   148   GLN   NE2   N   15   103.498   0.000   .   .   .   .   .   .   148   q   NE2   .   26805   1
+      610   .   1   1   149   149   LEU   C     C   13   178.259   0.000   .   .   .   .   .   .   149   l   C     .   26805   1
+      611   .   1   1   149   149   LEU   CA    C   13   56.691    0.000   .   .   .   .   .   .   149   l   CA    .   26805   1
+      612   .   1   1   149   149   LEU   CB    C   13   42.254    0.000   .   .   .   .   .   .   149   l   CB    .   26805   1
+      613   .   1   1   149   149   LEU   CG    C   13   28.307    0.000   .   .   .   .   .   .   149   l   CG    .   26805   1
+      614   .   1   1   149   149   LEU   CD1   C   13   26.911    0.000   .   .   .   .   .   .   149   l   CD1   .   26805   1
+      615   .   1   1   149   149   LEU   CD2   C   13   24.399    0.000   .   .   .   .   .   .   149   l   CD2   .   26805   1
+      616   .   1   1   149   149   LEU   N     N   15   121.935   0.000   .   .   .   .   .   .   149   l   N     .   26805   1
+      617   .   1   1   150   150   VAL   C     C   13   177.678   0.000   .   .   .   .   .   .   150   v   C     .   26805   1
+      618   .   1   1   150   150   VAL   CA    C   13   67.458    0.000   .   .   .   .   .   .   150   v   CA    .   26805   1
+      619   .   1   1   150   150   VAL   CB    C   13   30.974    0.000   .   .   .   .   .   .   150   v   CB    .   26805   1
+      620   .   1   1   150   150   VAL   CG1   C   13   21.729    0.000   .   .   .   .   .   .   150   v   CG1   .   26805   1
+      621   .   1   1   150   150   VAL   CG2   C   13   23.606    0.000   .   .   .   .   .   .   150   v   CG2   .   26805   1
+      622   .   1   1   150   150   VAL   N     N   15   118.809   0.000   .   .   .   .   .   .   150   v   N     .   26805   1
+      623   .   1   1   151   151   LEU   C     C   13   176.278   0.000   .   .   .   .   .   .   151   l   C     .   26805   1
+      624   .   1   1   151   151   LEU   CA    C   13   58.604    0.000   .   .   .   .   .   .   151   l   CA    .   26805   1
+      625   .   1   1   151   151   LEU   CB    C   13   42.052    0.000   .   .   .   .   .   .   151   l   CB    .   26805   1
+      626   .   1   1   151   151   LEU   CG    C   13   26.840    0.000   .   .   .   .   .   .   151   l   CG    .   26805   1
+      627   .   1   1   151   151   LEU   CD1   C   13   24.672    0.000   .   .   .   .   .   .   151   l   CD1   .   26805   1
+      628   .   1   1   151   151   LEU   N     N   15   120.643   0.000   .   .   .   .   .   .   151   l   N     .   26805   1
+      629   .   1   1   152   152   CYS   C     C   13   179.307   0.000   .   .   .   .   .   .   152   c   C     .   26805   1
+      630   .   1   1   152   152   CYS   CA    C   13   62.580    0.000   .   .   .   .   .   .   152   c   CA    .   26805   1
+      631   .   1   1   152   152   CYS   CB    C   13   26.285    0.000   .   .   .   .   .   .   152   c   CB    .   26805   1
+      632   .   1   1   152   152   CYS   N     N   15   118.451   0.000   .   .   .   .   .   .   152   c   N     .   26805   1
+      633   .   1   1   153   153   VAL   C     C   13   179.611   0.000   .   .   .   .   .   .   153   v   C     .   26805   1
+      634   .   1   1   153   153   VAL   CA    C   13   68.253    0.000   .   .   .   .   .   .   153   v   CA    .   26805   1
+      635   .   1   1   153   153   VAL   CB    C   13   31.809    0.000   .   .   .   .   .   .   153   v   CB    .   26805   1
+      636   .   1   1   153   153   VAL   CG1   C   13   20.832    0.000   .   .   .   .   .   .   153   v   CG1   .   26805   1
+      637   .   1   1   153   153   VAL   CG2   C   13   22.765    0.000   .   .   .   .   .   .   153   v   CG2   .   26805   1
+      638   .   1   1   153   153   VAL   N     N   15   122.953   0.000   .   .   .   .   .   .   153   v   N     .   26805   1
+      639   .   1   1   154   154   LEU   C     C   13   178.825   0.000   .   .   .   .   .   .   154   l   C     .   26805   1
+      640   .   1   1   154   154   LEU   CA    C   13   57.998    0.000   .   .   .   .   .   .   154   l   CA    .   26805   1
+      641   .   1   1   154   154   LEU   CB    C   13   41.080    0.000   .   .   .   .   .   .   154   l   CB    .   26805   1
+      642   .   1   1   154   154   LEU   CG    C   13   26.963    0.000   .   .   .   .   .   .   154   l   CG    .   26805   1
+      643   .   1   1   154   154   LEU   CD1   C   13   22.983    0.000   .   .   .   .   .   .   154   l   CD1   .   26805   1
+      644   .   1   1   154   154   LEU   N     N   15   122.702   0.000   .   .   .   .   .   .   154   l   N     .   26805   1
+      645   .   1   1   155   155   ALA   C     C   13   180.764   0.000   .   .   .   .   .   .   155   a   C     .   26805   1
+      646   .   1   1   155   155   ALA   CA    C   13   54.317    0.000   .   .   .   .   .   .   155   a   CA    .   26805   1
+      647   .   1   1   155   155   ALA   CB    C   13   21.050    0.000   .   .   .   .   .   .   155   a   CB    .   26805   1
+      648   .   1   1   155   155   ALA   N     N   15   119.228   0.000   .   .   .   .   .   .   155   a   N     .   26805   1
+      649   .   1   1   156   156   THR   C     C   13   175.084   0.000   .   .   .   .   .   .   156   t   C     .   26805   1
+      650   .   1   1   156   156   THR   CA    C   13   66.580    0.000   .   .   .   .   .   .   156   t   CA    .   26805   1
+      651   .   1   1   156   156   THR   CB    C   13   69.233    0.000   .   .   .   .   .   .   156   t   CB    .   26805   1
+      652   .   1   1   156   156   THR   CG2   C   13   22.275    0.000   .   .   .   .   .   .   156   t   CG2   .   26805   1
+      653   .   1   1   156   156   THR   N     N   15   114.433   0.000   .   .   .   .   .   .   156   t   N     .   26805   1
+      654   .   1   1   157   157   THR   C     C   13   174.050   0.000   .   .   .   .   .   .   157   t   C     .   26805   1
+      655   .   1   1   157   157   THR   CA    C   13   61.699    0.000   .   .   .   .   .   .   157   t   CA    .   26805   1
+      656   .   1   1   157   157   THR   CB    C   13   69.675    0.000   .   .   .   .   .   .   157   t   CB    .   26805   1
+      657   .   1   1   157   157   THR   CG2   C   13   21.232    0.000   .   .   .   .   .   .   157   t   CG2   .   26805   1
+      658   .   1   1   157   157   THR   N     N   15   109.835   0.000   .   .   .   .   .   .   157   t   N     .   26805   1
+      659   .   1   1   158   158   ASP   C     C   13   178.479   0.000   .   .   .   .   .   .   158   d   C     .   26805   1
+      660   .   1   1   158   158   ASP   CA    C   13   54.276    0.000   .   .   .   .   .   .   158   d   CA    .   26805   1
+      661   .   1   1   158   158   ASP   CB    C   13   41.415    0.000   .   .   .   .   .   .   158   d   CB    .   26805   1
+      662   .   1   1   158   158   ASP   CG    C   13   181.693   0.000   .   .   .   .   .   .   158   d   CG    .   26805   1
+      663   .   1   1   158   158   ASP   N     N   15   120.903   0.000   .   .   .   .   .   .   158   d   N     .   26805   1
+      664   .   1   1   159   159   ARG   C     C   13   177.151   0.000   .   .   .   .   .   .   159   r   C     .   26805   1
+      665   .   1   1   159   159   ARG   CA    C   13   57.608    0.000   .   .   .   .   .   .   159   r   CA    .   26805   1
+      666   .   1   1   159   159   ARG   CB    C   13   29.682    0.000   .   .   .   .   .   .   159   r   CB    .   26805   1
+      667   .   1   1   159   159   ARG   CG    C   13   27.470    0.000   .   .   .   .   .   .   159   r   CG    .   26805   1
+      668   .   1   1   159   159   ARG   CD    C   13   42.354    0.000   .   .   .   .   .   .   159   r   CD    .   26805   1
+      669   .   1   1   159   159   ARG   N     N   15   130.076   0.000   .   .   .   .   .   .   159   r   N     .   26805   1
+      670   .   1   1   166   166   GLY   C     C   13   172.931   0.000   .   .   .   .   .   .   166   g   C     .   26805   1
+      671   .   1   1   166   166   GLY   CA    C   13   44.365    0.000   .   .   .   .   .   .   166   g   CA    .   26805   1
+      672   .   1   1   166   166   GLY   N     N   15   104.823   0.000   .   .   .   .   .   .   166   g   N     .   26805   1
+      673   .   1   1   167   167   SER   C     C   13   176.677   0.000   .   .   .   .   .   .   167   s   C     .   26805   1
+      674   .   1   1   167   167   SER   CA    C   13   55.854    0.000   .   .   .   .   .   .   167   s   CA    .   26805   1
+      675   .   1   1   167   167   SER   CB    C   13   63.061    0.000   .   .   .   .   .   .   167   s   CB    .   26805   1
+      676   .   1   1   167   167   SER   N     N   15   111.198   0.000   .   .   .   .   .   .   167   s   N     .   26805   1
+      677   .   1   1   168   168   ALA   C     C   13   176.041   0.000   .   .   .   .   .   .   168   a   C     .   26805   1
+      678   .   1   1   168   168   ALA   CA    C   13   56.254    0.000   .   .   .   .   .   .   168   a   CA    .   26805   1
+      679   .   1   1   168   168   ALA   CB    C   13   15.864    0.000   .   .   .   .   .   .   168   a   CB    .   26805   1
+      680   .   1   1   168   168   ALA   N     N   15   137.333   0.000   .   .   .   .   .   .   168   a   N     .   26805   1
+      681   .   1   1   169   169   PRO   C     C   13   178.906   0.000   .   .   .   .   .   .   169   p   C     .   26805   1
+      682   .   1   1   169   169   PRO   CA    C   13   66.794    0.000   .   .   .   .   .   .   169   p   CA    .   26805   1
+      683   .   1   1   169   169   PRO   CB    C   13   32.754    0.000   .   .   .   .   .   .   169   p   CB    .   26805   1
+      684   .   1   1   169   169   PRO   CG    C   13   28.236    0.000   .   .   .   .   .   .   169   p   CG    .   26805   1
+      685   .   1   1   169   169   PRO   CD    C   13   50.177    0.000   .   .   .   .   .   .   169   p   CD    .   26805   1
+      686   .   1   1   169   169   PRO   N     N   15   133.857   0.000   .   .   .   .   .   .   169   p   N     .   26805   1
+      687   .   1   1   170   170   LEU   C     C   13   177.813   0.000   .   .   .   .   .   .   170   l   C     .   26805   1
+      688   .   1   1   170   170   LEU   CA    C   13   57.375    0.000   .   .   .   .   .   .   170   l   CA    .   26805   1
+      689   .   1   1   170   170   LEU   CB    C   13   41.446    0.000   .   .   .   .   .   .   170   l   CB    .   26805   1
+      690   .   1   1   170   170   LEU   CG    C   13   26.628    0.000   .   .   .   .   .   .   170   l   CG    .   26805   1
+      691   .   1   1   170   170   LEU   CD1   C   13   25.439    0.000   .   .   .   .   .   .   170   l   CD1   .   26805   1
+      692   .   1   1   170   170   LEU   CD2   C   13   22.565    0.000   .   .   .   .   .   .   170   l   CD2   .   26805   1
+      693   .   1   1   170   170   LEU   N     N   15   116.339   0.000   .   .   .   .   .   .   170   l   N     .   26805   1
+      694   .   1   1   171   171   ALA   C     C   13   181.055   0.000   .   .   .   .   .   .   171   a   C     .   26805   1
+      695   .   1   1   171   171   ALA   CA    C   13   55.544    0.000   .   .   .   .   .   .   171   a   CA    .   26805   1
+      696   .   1   1   171   171   ALA   CB    C   13   18.235    0.000   .   .   .   .   .   .   171   a   CB    .   26805   1
+      697   .   1   1   171   171   ALA   N     N   15   121.374   0.000   .   .   .   .   .   .   171   a   N     .   26805   1
+      698   .   1   1   172   172   ILE   C     C   13   178.930   0.000   .   .   .   .   .   .   172   i   C     .   26805   1
+      699   .   1   1   172   172   ILE   CA    C   13   64.669    0.000   .   .   .   .   .   .   172   i   CA    .   26805   1
+      700   .   1   1   172   172   ILE   CB    C   13   37.536    0.000   .   .   .   .   .   .   172   i   CB    .   26805   1
+      701   .   1   1   172   172   ILE   CG1   C   13   28.879    0.000   .   .   .   .   .   .   172   i   CG1   .   26805   1
+      702   .   1   1   172   172   ILE   CG2   C   13   17.087    0.000   .   .   .   .   .   .   172   i   CG2   .   26805   1
+      703   .   1   1   172   172   ILE   CD1   C   13   12.260    0.000   .   .   .   .   .   .   172   i   CD1   .   26805   1
+      704   .   1   1   172   172   ILE   N     N   15   117.691   0.000   .   .   .   .   .   .   172   i   N     .   26805   1
+      705   .   1   1   173   173   GLY   C     C   13   176.758   0.000   .   .   .   .   .   .   173   g   C     .   26805   1
+      706   .   1   1   173   173   GLY   CA    C   13   48.496    0.000   .   .   .   .   .   .   173   g   CA    .   26805   1
+      707   .   1   1   173   173   GLY   N     N   15   108.484   0.000   .   .   .   .   .   .   173   g   N     .   26805   1
+      708   .   1   1   174   174   LEU   C     C   13   179.101   0.000   .   .   .   .   .   .   174   l   C     .   26805   1
+      709   .   1   1   174   174   LEU   CA    C   13   57.694    0.000   .   .   .   .   .   .   174   l   CA    .   26805   1
+      710   .   1   1   174   174   LEU   CB    C   13   39.829    0.000   .   .   .   .   .   .   174   l   CB    .   26805   1
+      711   .   1   1   174   174   LEU   CG    C   13   26.285    0.000   .   .   .   .   .   .   174   l   CG    .   26805   1
+      712   .   1   1   174   174   LEU   CD1   C   13   19.430    0.000   .   .   .   .   .   .   174   l   CD1   .   26805   1
+      713   .   1   1   174   174   LEU   CD2   C   13   17.786    0.000   .   .   .   .   .   .   174   l   CD2   .   26805   1
+      714   .   1   1   174   174   LEU   N     N   15   120.656   0.000   .   .   .   .   .   .   174   l   N     .   26805   1
+      715   .   1   1   175   175   SER   C     C   13   179.978   0.000   .   .   .   .   .   .   175   s   C     .   26805   1
+      716   .   1   1   175   175   SER   CA    C   13   61.178    0.000   .   .   .   .   .   .   175   s   CA    .   26805   1
+      717   .   1   1   175   175   SER   CB    C   13   63.277    0.000   .   .   .   .   .   .   175   s   CB    .   26805   1
+      718   .   1   1   175   175   SER   N     N   15   115.913   0.000   .   .   .   .   .   .   175   s   N     .   26805   1
+      719   .   1   1   176   176   VAL   C     C   13   180.959   0.000   .   .   .   .   .   .   176   v   C     .   26805   1
+      720   .   1   1   176   176   VAL   CA    C   13   68.085    0.000   .   .   .   .   .   .   176   v   CA    .   26805   1
+      721   .   1   1   176   176   VAL   CB    C   13   31.702    0.000   .   .   .   .   .   .   176   v   CB    .   26805   1
+      722   .   1   1   176   176   VAL   CG1   C   13   25.187    0.000   .   .   .   .   .   .   176   v   CG1   .   26805   1
+      723   .   1   1   176   176   VAL   CG2   C   13   21.392    0.000   .   .   .   .   .   .   176   v   CG2   .   26805   1
+      724   .   1   1   176   176   VAL   N     N   15   123.700   0.000   .   .   .   .   .   .   176   v   N     .   26805   1
+      725   .   1   1   177   177   ALA   C     C   13   179.565   0.000   .   .   .   .   .   .   177   a   C     .   26805   1
+      726   .   1   1   177   177   ALA   CA    C   13   55.496    0.000   .   .   .   .   .   .   177   a   CA    .   26805   1
+      727   .   1   1   177   177   ALA   CB    C   13   17.311    0.000   .   .   .   .   .   .   177   a   CB    .   26805   1
+      728   .   1   1   177   177   ALA   N     N   15   125.861   0.000   .   .   .   .   .   .   177   a   N     .   26805   1
+      729   .   1   1   178   178   LEU   C     C   13   178.092   0.000   .   .   .   .   .   .   178   l   C     .   26805   1
+      730   .   1   1   178   178   LEU   CA    C   13   58.007    0.000   .   .   .   .   .   .   178   l   CA    .   26805   1
+      731   .   1   1   178   178   LEU   CB    C   13   41.998    0.000   .   .   .   .   .   .   178   l   CB    .   26805   1
+      732   .   1   1   178   178   LEU   CG    C   13   27.094    0.000   .   .   .   .   .   .   178   l   CG    .   26805   1
+      733   .   1   1   178   178   LEU   CD1   C   13   24.526    0.000   .   .   .   .   .   .   178   l   CD1   .   26805   1
+      734   .   1   1   178   178   LEU   CD2   C   13   25.612    0.000   .   .   .   .   .   .   178   l   CD2   .   26805   1
+      735   .   1   1   178   178   LEU   N     N   15   120.419   0.000   .   .   .   .   .   .   178   l   N     .   26805   1
+      736   .   1   1   179   179   GLY   C     C   13   174.108   0.000   .   .   .   .   .   .   179   g   C     .   26805   1
+      737   .   1   1   179   179   GLY   CA    C   13   47.385    0.000   .   .   .   .   .   .   179   g   CA    .   26805   1
+      738   .   1   1   179   179   GLY   N     N   15   103.726   0.000   .   .   .   .   .   .   179   g   N     .   26805   1
+      739   .   1   1   180   180   HIS   C     C   13   177.593   0.000   .   .   .   .   .   .   180   h   C     .   26805   1
+      740   .   1   1   180   180   HIS   CA    C   13   61.579    0.000   .   .   .   .   .   .   180   h   CA    .   26805   1
+      741   .   1   1   180   180   HIS   CB    C   13   28.913    0.000   .   .   .   .   .   .   180   h   CB    .   26805   1
+      742   .   1   1   180   180   HIS   CG    C   13   130.363   0.000   .   .   .   .   .   .   180   h   CG    .   26805   1
+      743   .   1   1   180   180   HIS   CD2   C   13   126.713   0.000   .   .   .   .   .   .   180   h   CD2   .   26805   1
+      744   .   1   1   180   180   HIS   CE1   C   13   137.951   0.000   .   .   .   .   .   .   180   h   CE1   .   26805   1
+      745   .   1   1   180   180   HIS   N     N   15   119.831   0.000   .   .   .   .   .   .   180   h   N     .   26805   1
+      746   .   1   1   180   180   HIS   NE2   N   15   167.141   0.000   .   .   .   .   .   .   180   h   NE2   .   26805   1
+      747   .   1   1   181   181   LEU   C     C   13   179.498   0.000   .   .   .   .   .   .   181   l   C     .   26805   1
+      748   .   1   1   181   181   LEU   CA    C   13   57.709    0.000   .   .   .   .   .   .   181   l   CA    .   26805   1
+      749   .   1   1   181   181   LEU   CB    C   13   40.439    0.000   .   .   .   .   .   .   181   l   CB    .   26805   1
+      750   .   1   1   181   181   LEU   CG    C   13   26.633    0.000   .   .   .   .   .   .   181   l   CG    .   26805   1
+      751   .   1   1   181   181   LEU   CD1   C   13   23.106    0.000   .   .   .   .   .   .   181   l   CD1   .   26805   1
+      752   .   1   1   181   181   LEU   N     N   15   125.623   0.000   .   .   .   .   .   .   181   l   N     .   26805   1
+      753   .   1   1   182   182   LEU   C     C   13   178.739   0.000   .   .   .   .   .   .   182   l   C     .   26805   1
+      754   .   1   1   182   182   LEU   CA    C   13   57.932    0.000   .   .   .   .   .   .   182   l   CA    .   26805   1
+      755   .   1   1   182   182   LEU   CB    C   13   41.648    0.000   .   .   .   .   .   .   182   l   CB    .   26805   1
+      756   .   1   1   182   182   LEU   CG    C   13   28.390    0.000   .   .   .   .   .   .   182   l   CG    .   26805   1
+      757   .   1   1   182   182   LEU   CD1   C   13   25.881    0.000   .   .   .   .   .   .   182   l   CD1   .   26805   1
+      758   .   1   1   182   182   LEU   CD2   C   13   21.636    0.000   .   .   .   .   .   .   182   l   CD2   .   26805   1
+      759   .   1   1   182   182   LEU   N     N   15   115.855   0.000   .   .   .   .   .   .   182   l   N     .   26805   1
+      760   .   1   1   183   183   ALA   C     C   13   180.067   0.000   .   .   .   .   .   .   183   a   C     .   26805   1
+      761   .   1   1   183   183   ALA   CA    C   13   55.883    0.000   .   .   .   .   .   .   183   a   CA    .   26805   1
+      762   .   1   1   183   183   ALA   CB    C   13   20.915    0.000   .   .   .   .   .   .   183   a   CB    .   26805   1
+      763   .   1   1   183   183   ALA   N     N   15   114.033   0.000   .   .   .   .   .   .   183   a   N     .   26805   1
+      764   .   1   1   184   184   ILE   C     C   13   178.427   0.000   .   .   .   .   .   .   184   i   C     .   26805   1
+      765   .   1   1   184   184   ILE   CA    C   13   67.625    0.000   .   .   .   .   .   .   184   i   CA    .   26805   1
+      766   .   1   1   184   184   ILE   CB    C   13   37.271    0.000   .   .   .   .   .   .   184   i   CB    .   26805   1
+      767   .   1   1   184   184   ILE   CG1   C   13   23.373    0.000   .   .   .   .   .   .   184   i   CG1   .   26805   1
+      768   .   1   1   184   184   ILE   CG2   C   13   17.459    0.000   .   .   .   .   .   .   184   i   CG2   .   26805   1
+      769   .   1   1   184   184   ILE   CD1   C   13   15.688    0.000   .   .   .   .   .   .   184   i   CD1   .   26805   1
+      770   .   1   1   184   184   ILE   N     N   15   121.770   0.000   .   .   .   .   .   .   184   i   N     .   26805   1
+      771   .   1   1   185   185   ASP   C     C   13   174.194   0.000   .   .   .   .   .   .   185   d   C     .   26805   1
+      772   .   1   1   185   185   ASP   CA    C   13   57.234    0.000   .   .   .   .   .   .   185   d   CA    .   26805   1
+      773   .   1   1   185   185   ASP   CB    C   13   43.063    0.000   .   .   .   .   .   .   185   d   CB    .   26805   1
+      774   .   1   1   185   185   ASP   CG    C   13   181.326   0.000   .   .   .   .   .   .   185   d   CG    .   26805   1
+      775   .   1   1   185   185   ASP   N     N   15   115.108   0.000   .   .   .   .   .   .   185   d   N     .   26805   1
+      776   .   1   1   186   186   TYR   C     C   13   177.206   0.000   .   .   .   .   .   .   186   y   C     .   26805   1
+      777   .   1   1   186   186   TYR   CA    C   13   59.914    0.000   .   .   .   .   .   .   186   y   CA    .   26805   1
+      778   .   1   1   186   186   TYR   CB    C   13   41.816    0.000   .   .   .   .   .   .   186   y   CB    .   26805   1
+      779   .   1   1   186   186   TYR   N     N   15   113.226   0.000   .   .   .   .   .   .   186   y   N     .   26805   1
+      780   .   1   1   187   187   THR   C     C   13   175.733   0.000   .   .   .   .   .   .   187   t   C     .   26805   1
+      781   .   1   1   187   187   THR   CA    C   13   60.988    0.000   .   .   .   .   .   .   187   t   CA    .   26805   1
+      782   .   1   1   187   187   THR   CB    C   13   70.800    0.000   .   .   .   .   .   .   187   t   CB    .   26805   1
+      783   .   1   1   187   187   THR   CG2   C   13   22.588    0.000   .   .   .   .   .   .   187   t   CG2   .   26805   1
+      784   .   1   1   187   187   THR   N     N   15   104.036   0.000   .   .   .   .   .   .   187   t   N     .   26805   1
+      785   .   1   1   188   188   GLY   C     C   13   172.326   0.000   .   .   .   .   .   .   188   g   C     .   26805   1
+      786   .   1   1   188   188   GLY   CA    C   13   46.840    0.000   .   .   .   .   .   .   188   g   CA    .   26805   1
+      787   .   1   1   188   188   GLY   N     N   15   112.497   0.000   .   .   .   .   .   .   188   g   N     .   26805   1
+      788   .   1   1   189   189   CYS   C     C   13   171.485   0.000   .   .   .   .   .   .   189   c   C     .   26805   1
+      789   .   1   1   189   189   CYS   CA    C   13   61.358    0.000   .   .   .   .   .   .   189   c   CA    .   26805   1
+      790   .   1   1   189   189   CYS   CB    C   13   28.307    0.000   .   .   .   .   .   .   189   c   CB    .   26805   1
+      791   .   1   1   189   189   CYS   N     N   15   116.571   0.000   .   .   .   .   .   .   189   c   N     .   26805   1
+      792   .   1   1   190   190   GLY   C     C   13   172.545   0.000   .   .   .   .   .   .   190   g   C     .   26805   1
+      793   .   1   1   190   190   GLY   CA    C   13   47.178    0.000   .   .   .   .   .   .   190   g   CA    .   26805   1
+      794   .   1   1   190   190   GLY   N     N   15   130.132   0.000   .   .   .   .   .   .   190   g   N     .   26805   1
+      795   .   1   1   191   191   ILE   C     C   13   174.596   0.000   .   .   .   .   .   .   191   i   C     .   26805   1
+      796   .   1   1   191   191   ILE   CA    C   13   61.359    0.000   .   .   .   .   .   .   191   i   CA    .   26805   1
+      797   .   1   1   191   191   ILE   CB    C   13   40.809    0.000   .   .   .   .   .   .   191   i   CB    .   26805   1
+      798   .   1   1   191   191   ILE   CG1   C   13   26.726    0.000   .   .   .   .   .   .   191   i   CG1   .   26805   1
+      799   .   1   1   191   191   ILE   CG2   C   13   16.453    0.000   .   .   .   .   .   .   191   i   CG2   .   26805   1
+      800   .   1   1   191   191   ILE   CD1   C   13   15.141    0.000   .   .   .   .   .   .   191   i   CD1   .   26805   1
+      801   .   1   1   191   191   ILE   N     N   15   119.085   0.000   .   .   .   .   .   .   191   i   N     .   26805   1
+      802   .   1   1   192   192   ASN   C     C   13   173.907   0.000   .   .   .   .   .   .   192   n   C     .   26805   1
+      803   .   1   1   192   192   ASN   CA    C   13   52.595    0.000   .   .   .   .   .   .   192   n   CA    .   26805   1
+      804   .   1   1   192   192   ASN   CB    C   13   37.863    0.000   .   .   .   .   .   .   192   n   CB    .   26805   1
+      805   .   1   1   192   192   ASN   CG    C   13   178.673   0.000   .   .   .   .   .   .   192   n   CG    .   26805   1
+      806   .   1   1   192   192   ASN   N     N   15   107.448   0.000   .   .   .   .   .   .   192   n   N     .   26805   1
+      807   .   1   1   192   192   ASN   ND2   N   15   117.042   0.000   .   .   .   .   .   .   192   n   ND2   .   26805   1
+      808   .   1   1   193   193   PRO   C     C   13   178.167   0.000   .   .   .   .   .   .   193   p   C     .   26805   1
+      809   .   1   1   193   193   PRO   CA    C   13   64.941    0.000   .   .   .   .   .   .   193   p   CA    .   26805   1
+      810   .   1   1   193   193   PRO   CB    C   13   30.396    0.000   .   .   .   .   .   .   193   p   CB    .   26805   1
+      811   .   1   1   193   193   PRO   CG    C   13   26.201    0.000   .   .   .   .   .   .   193   p   CG    .   26805   1
+      812   .   1   1   193   193   PRO   CD    C   13   49.941    0.000   .   .   .   .   .   .   193   p   CD    .   26805   1
+      813   .   1   1   193   193   PRO   N     N   15   133.598   0.000   .   .   .   .   .   .   193   p   N     .   26805   1
+      814   .   1   1   194   194   ALA   C     C   13   177.834   0.000   .   .   .   .   .   .   194   a   C     .   26805   1
+      815   .   1   1   194   194   ALA   CA    C   13   55.219    0.000   .   .   .   .   .   .   194   a   CA    .   26805   1
+      816   .   1   1   194   194   ALA   CB    C   13   18.371    0.000   .   .   .   .   .   .   194   a   CB    .   26805   1
+      817   .   1   1   194   194   ALA   N     N   15   113.021   0.000   .   .   .   .   .   .   194   a   N     .   26805   1
+      818   .   1   1   195   195   ARG   C     C   13   181.734   0.000   .   .   .   .   .   .   195   r   C     .   26805   1
+      819   .   1   1   195   195   ARG   CA    C   13   57.805    0.000   .   .   .   .   .   .   195   r   CA    .   26805   1
+      820   .   1   1   195   195   ARG   CB    C   13   28.579    0.000   .   .   .   .   .   .   195   r   CB    .   26805   1
+      821   .   1   1   195   195   ARG   CG    C   13   26.643    0.000   .   .   .   .   .   .   195   r   CG    .   26805   1
+      822   .   1   1   195   195   ARG   CD    C   13   43.258    0.000   .   .   .   .   .   .   195   r   CD    .   26805   1
+      823   .   1   1   195   195   ARG   CZ    C   13   160.491   0.000   .   .   .   .   .   .   195   r   CZ    .   26805   1
+      824   .   1   1   195   195   ARG   N     N   15   117.580   0.000   .   .   .   .   .   .   195   r   N     .   26805   1
+      825   .   1   1   195   195   ARG   NE    N   15   85.588    0.000   .   .   .   .   .   .   195   r   NE    .   26805   1
+      826   .   1   1   195   195   ARG   NH1   N   15   70.414    0.000   .   .   .   .   .   .   195   r   NH1   .   26805   1
+      827   .   1   1   195   195   ARG   NH2   N   15   69.258    0.000   .   .   .   .   .   .   195   r   NH2   .   26805   1
+      828   .   1   1   196   196   SER   C     C   13   176.341   0.000   .   .   .   .   .   .   196   s   C     .   26805   1
+      829   .   1   1   196   196   SER   CA    C   13   62.113    0.000   .   .   .   .   .   .   196   s   CA    .   26805   1
+      830   .   1   1   196   196   SER   CB    C   13   62.757    0.000   .   .   .   .   .   .   196   s   CB    .   26805   1
+      831   .   1   1   196   196   SER   N     N   15   117.638   0.000   .   .   .   .   .   .   196   s   N     .   26805   1
+      832   .   1   1   197   197   PHE   C     C   13   177.217   0.000   .   .   .   .   .   .   197   f   C     .   26805   1
+      833   .   1   1   197   197   PHE   CA    C   13   61.341    0.000   .   .   .   .   .   .   197   f   CA    .   26805   1
+      834   .   1   1   197   197   PHE   CB    C   13   41.141    0.000   .   .   .   .   .   .   197   f   CB    .   26805   1
+      835   .   1   1   197   197   PHE   N     N   15   128.292   0.000   .   .   .   .   .   .   197   f   N     .   26805   1
+      836   .   1   1   198   198   GLY   C     C   13   176.072   0.000   .   .   .   .   .   .   198   g   C     .   26805   1
+      837   .   1   1   198   198   GLY   CA    C   13   48.828    0.000   .   .   .   .   .   .   198   g   CA    .   26805   1
+      838   .   1   1   198   198   GLY   N     N   15   104.666   0.000   .   .   .   .   .   .   198   g   N     .   26805   1
+      839   .   1   1   199   199   SER   C     C   13   176.502   0.000   .   .   .   .   .   .   199   s   C     .   26805   1
+      840   .   1   1   199   199   SER   CA    C   13   63.489    0.000   .   .   .   .   .   .   199   s   CA    .   26805   1
+      841   .   1   1   199   199   SER   N     N   15   114.040   0.000   .   .   .   .   .   .   199   s   N     .   26805   1
+      842   .   1   1   200   200   ALA   C     C   13   176.887   0.000   .   .   .   .   .   .   200   a   C     .   26805   1
+      843   .   1   1   200   200   ALA   CA    C   13   55.349    0.000   .   .   .   .   .   .   200   a   CA    .   26805   1
+      844   .   1   1   200   200   ALA   CB    C   13   17.899    0.000   .   .   .   .   .   .   200   a   CB    .   26805   1
+      845   .   1   1   200   200   ALA   N     N   15   125.607   0.000   .   .   .   .   .   .   200   a   N     .   26805   1
+      846   .   1   1   201   201   VAL   C     C   13   178.933   0.000   .   .   .   .   .   .   201   v   C     .   26805   1
+      847   .   1   1   201   201   VAL   CA    C   13   66.326    0.000   .   .   .   .   .   .   201   v   CA    .   26805   1
+      848   .   1   1   201   201   VAL   CB    C   13   31.948    0.000   .   .   .   .   .   .   201   v   CB    .   26805   1
+      849   .   1   1   201   201   VAL   CG1   C   13   22.367    0.000   .   .   .   .   .   .   201   v   CG1   .   26805   1
+      850   .   1   1   201   201   VAL   N     N   15   114.452   0.000   .   .   .   .   .   .   201   v   N     .   26805   1
+      851   .   1   1   204   204   HIS   C     C   13   173.538   0.000   .   .   .   .   .   .   204   h   C     .   26805   1
+      852   .   1   1   204   204   HIS   CA    C   13   56.391    0.000   .   .   .   .   .   .   204   h   CA    .   26805   1
+      853   .   1   1   205   205   ASN   C     C   13   175.211   0.000   .   .   .   .   .   .   205   n   C     .   26805   1
+      854   .   1   1   205   205   ASN   CA    C   13   52.450    0.000   .   .   .   .   .   .   205   n   CA    .   26805   1
+      855   .   1   1   205   205   ASN   CB    C   13   38.535    0.000   .   .   .   .   .   .   205   n   CB    .   26805   1
+      856   .   1   1   205   205   ASN   CG    C   13   177.506   0.000   .   .   .   .   .   .   205   n   CG    .   26805   1
+      857   .   1   1   205   205   ASN   N     N   15   116.610   0.000   .   .   .   .   .   .   205   n   N     .   26805   1
+      858   .   1   1   205   205   ASN   ND2   N   15   110.379   0.000   .   .   .   .   .   .   205   n   ND2   .   26805   1
+      859   .   1   1   206   206   PHE   C     C   13   176.315   0.000   .   .   .   .   .   .   206   f   C     .   26805   1
+      860   .   1   1   206   206   PHE   CA    C   13   58.494    0.000   .   .   .   .   .   .   206   f   CA    .   26805   1
+      861   .   1   1   206   206   PHE   CB    C   13   38.818    0.000   .   .   .   .   .   .   206   f   CB    .   26805   1
+      862   .   1   1   206   206   PHE   N     N   15   124.349   0.000   .   .   .   .   .   .   206   f   N     .   26805   1
+      863   .   1   1   207   207   SER   C     C   13   177.207   0.000   .   .   .   .   .   .   207   s   C     .   26805   1
+      864   .   1   1   207   207   SER   CA    C   13   61.052    0.000   .   .   .   .   .   .   207   s   CA    .   26805   1
+      865   .   1   1   207   207   SER   CB    C   13   63.067    0.000   .   .   .   .   .   .   207   s   CB    .   26805   1
+      866   .   1   1   207   207   SER   N     N   15   119.413   0.000   .   .   .   .   .   .   207   s   N     .   26805   1
+      867   .   1   1   208   208   ASN   C     C   13   175.685   0.000   .   .   .   .   .   .   208   n   C     .   26805   1
+      868   .   1   1   208   208   ASN   CA    C   13   55.914    0.000   .   .   .   .   .   .   208   n   CA    .   26805   1
+      869   .   1   1   208   208   ASN   CB    C   13   37.605    0.000   .   .   .   .   .   .   208   n   CB    .   26805   1
+      870   .   1   1   208   208   ASN   CG    C   13   177.903   0.000   .   .   .   .   .   .   208   n   CG    .   26805   1
+      871   .   1   1   208   208   ASN   N     N   15   120.703   0.000   .   .   .   .   .   .   208   n   N     .   26805   1
+      872   .   1   1   210   210   TRP   C     C   13   177.692   0.000   .   .   .   .   .   .   210   w   C     .   26805   1
+      873   .   1   1   210   210   TRP   CA    C   13   59.529    0.000   .   .   .   .   .   .   210   w   CA    .   26805   1
+      874   .   1   1   210   210   TRP   CB    C   13   28.031    0.000   .   .   .   .   .   .   210   w   CB    .   26805   1
+      875   .   1   1   210   210   TRP   N     N   15   115.181   0.000   .   .   .   .   .   .   210   w   N     .   26805   1
+      876   .   1   1   211   211   ILE   C     C   13   176.361   0.000   .   .   .   .   .   .   211   i   C     .   26805   1
+      877   .   1   1   211   211   ILE   CA    C   13   65.596    0.000   .   .   .   .   .   .   211   i   CA    .   26805   1
+      878   .   1   1   211   211   ILE   CB    C   13   37.855    0.000   .   .   .   .   .   .   211   i   CB    .   26805   1
+      879   .   1   1   211   211   ILE   CG1   C   13   26.754    0.000   .   .   .   .   .   .   211   i   CG1   .   26805   1
+      880   .   1   1   211   211   ILE   CG2   C   13   22.534    0.000   .   .   .   .   .   .   211   i   CG2   .   26805   1
+      881   .   1   1   211   211   ILE   CD1   C   13   14.619    0.000   .   .   .   .   .   .   211   i   CD1   .   26805   1
+      882   .   1   1   211   211   ILE   N     N   15   124.129   0.000   .   .   .   .   .   .   211   i   N     .   26805   1
+      883   .   1   1   212   212   PHE   C     C   13   174.248   0.000   .   .   .   .   .   .   212   f   C     .   26805   1
+      884   .   1   1   212   212   PHE   CA    C   13   60.007    0.000   .   .   .   .   .   .   212   f   CA    .   26805   1
+      885   .   1   1   212   212   PHE   CB    C   13   36.994    0.000   .   .   .   .   .   .   212   f   CB    .   26805   1
+      886   .   1   1   212   212   PHE   N     N   15   116.354   0.000   .   .   .   .   .   .   212   f   N     .   26805   1
+      887   .   1   1   213   213   TRP   C     C   13   175.664   0.000   .   .   .   .   .   .   213   w   C     .   26805   1
+      888   .   1   1   213   213   TRP   CA    C   13   59.908    0.000   .   .   .   .   .   .   213   w   CA    .   26805   1
+      889   .   1   1   213   213   TRP   CB    C   13   31.328    0.000   .   .   .   .   .   .   213   w   CB    .   26805   1
+      890   .   1   1   213   213   TRP   N     N   15   117.002   0.000   .   .   .   .   .   .   213   w   N     .   26805   1
+      891   .   1   1   214   214   VAL   C     C   13   177.179   0.000   .   .   .   .   .   .   214   v   C     .   26805   1
+      892   .   1   1   214   214   VAL   CA    C   13   67.416    0.000   .   .   .   .   .   .   214   v   CA    .   26805   1
+      893   .   1   1   214   214   VAL   CB    C   13   32.552    0.000   .   .   .   .   .   .   214   v   CB    .   26805   1
+      894   .   1   1   214   214   VAL   CG1   C   13   24.613    0.000   .   .   .   .   .   .   214   v   CG1   .   26805   1
+      895   .   1   1   214   214   VAL   CG2   C   13   22.525    0.000   .   .   .   .   .   .   214   v   CG2   .   26805   1
+      896   .   1   1   214   214   VAL   N     N   15   117.102   0.000   .   .   .   .   .   .   214   v   N     .   26805   1
+      897   .   1   1   215   215   GLY   C     C   13   173.636   0.000   .   .   .   .   .   .   215   g   C     .   26805   1
+      898   .   1   1   215   215   GLY   CA    C   13   48.531    0.000   .   .   .   .   .   .   215   g   CA    .   26805   1
+      899   .   1   1   215   215   GLY   N     N   15   104.726   0.000   .   .   .   .   .   .   215   g   N     .   26805   1
+      900   .   1   1   216   216   PRO   C     C   13   178.824   0.000   .   .   .   .   .   .   216   p   C     .   26805   1
+      901   .   1   1   216   216   PRO   CA    C   13   64.638    0.000   .   .   .   .   .   .   216   p   CA    .   26805   1
+      902   .   1   1   216   216   PRO   CB    C   13   32.552    0.000   .   .   .   .   .   .   216   p   CB    .   26805   1
+      903   .   1   1   216   216   PRO   CG    C   13   27.906    0.000   .   .   .   .   .   .   216   p   CG    .   26805   1
+      904   .   1   1   216   216   PRO   CD    C   13   51.857    0.000   .   .   .   .   .   .   216   p   CD    .   26805   1
+      905   .   1   1   216   216   PRO   N     N   15   134.320   0.000   .   .   .   .   .   .   216   p   N     .   26805   1
+      906   .   1   1   217   217   PHE   C     C   13   178.005   0.000   .   .   .   .   .   .   217   f   C     .   26805   1
+      907   .   1   1   217   217   PHE   CA    C   13   58.571    0.000   .   .   .   .   .   .   217   f   CA    .   26805   1
+      908   .   1   1   217   217   PHE   CB    C   13   36.710    0.000   .   .   .   .   .   .   217   f   CB    .   26805   1
+      909   .   1   1   217   217   PHE   N     N   15   115.397   0.000   .   .   .   .   .   .   217   f   N     .   26805   1
+      910   .   1   1   218   218   ILE   C     C   13   178.489   0.000   .   .   .   .   .   .   218   i   C     .   26805   1
+      911   .   1   1   218   218   ILE   CA    C   13   66.548    0.000   .   .   .   .   .   .   218   i   CA    .   26805   1
+      912   .   1   1   218   218   ILE   CB    C   13   37.541    0.000   .   .   .   .   .   .   218   i   CB    .   26805   1
+      913   .   1   1   218   218   ILE   CG1   C   13   29.903    0.000   .   .   .   .   .   .   218   i   CG1   .   26805   1
+      914   .   1   1   218   218   ILE   CG2   C   13   17.556    0.000   .   .   .   .   .   .   218   i   CG2   .   26805   1
+      915   .   1   1   218   218   ILE   CD1   C   13   14.723    0.000   .   .   .   .   .   .   218   i   CD1   .   26805   1
+      916   .   1   1   218   218   ILE   N     N   15   119.475   0.000   .   .   .   .   .   .   218   i   N     .   26805   1
+      917   .   1   1   219   219   GLY   C     C   13   175.748   0.000   .   .   .   .   .   .   219   g   C     .   26805   1
+      918   .   1   1   219   219   GLY   CA    C   13   49.054    0.000   .   .   .   .   .   .   219   g   CA    .   26805   1
+      919   .   1   1   219   219   GLY   N     N   15   105.972   0.000   .   .   .   .   .   .   219   g   N     .   26805   1
+      920   .   1   1   220   220   GLY   C     C   13   174.292   0.000   .   .   .   .   .   .   220   g   C     .   26805   1
+      921   .   1   1   220   220   GLY   CA    C   13   47.251    0.000   .   .   .   .   .   .   220   g   CA    .   26805   1
+      922   .   1   1   220   220   GLY   N     N   15   108.018   0.000   .   .   .   .   .   .   220   g   N     .   26805   1
+      923   .   1   1   221   221   ALA   C     C   13   179.946   0.000   .   .   .   .   .   .   221   a   C     .   26805   1
+      924   .   1   1   221   221   ALA   CA    C   13   55.455    0.000   .   .   .   .   .   .   221   a   CA    .   26805   1
+      925   .   1   1   221   221   ALA   CB    C   13   18.362    0.000   .   .   .   .   .   .   221   a   CB    .   26805   1
+      926   .   1   1   221   221   ALA   N     N   15   122.452   0.000   .   .   .   .   .   .   221   a   N     .   26805   1
+      927   .   1   1   222   222   LEU   C     C   13   178.980   0.000   .   .   .   .   .   .   222   l   C     .   26805   1
+      928   .   1   1   222   222   LEU   CA    C   13   57.502    0.000   .   .   .   .   .   .   222   l   CA    .   26805   1
+      929   .   1   1   222   222   LEU   CB    C   13   42.484    0.000   .   .   .   .   .   .   222   l   CB    .   26805   1
+      930   .   1   1   222   222   LEU   CG    C   13   26.519    0.000   .   .   .   .   .   .   222   l   CG    .   26805   1
+      931   .   1   1   222   222   LEU   CD1   C   13   22.912    0.000   .   .   .   .   .   .   222   l   CD1   .   26805   1
+      932   .   1   1   222   222   LEU   N     N   15   116.164   0.000   .   .   .   .   .   .   222   l   N     .   26805   1
+      933   .   1   1   223   223   ALA   C     C   13   178.703   0.000   .   .   .   .   .   .   223   a   C     .   26805   1
+      934   .   1   1   223   223   ALA   CA    C   13   56.185    0.000   .   .   .   .   .   .   223   a   CA    .   26805   1
+      935   .   1   1   223   223   ALA   CB    C   13   18.977    0.000   .   .   .   .   .   .   223   a   CB    .   26805   1
+      936   .   1   1   223   223   ALA   N     N   15   121.574   0.000   .   .   .   .   .   .   223   a   N     .   26805   1
+      937   .   1   1   224   224   VAL   C     C   13   178.367   0.000   .   .   .   .   .   .   224   v   C     .   26805   1
+      938   .   1   1   224   224   VAL   CA    C   13   66.770    0.000   .   .   .   .   .   .   224   v   CA    .   26805   1
+      939   .   1   1   224   224   VAL   CB    C   13   31.665    0.000   .   .   .   .   .   .   224   v   CB    .   26805   1
+      940   .   1   1   224   224   VAL   CG1   C   13   21.486    0.000   .   .   .   .   .   .   224   v   CG1   .   26805   1
+      941   .   1   1   224   224   VAL   CG2   C   13   24.731    0.000   .   .   .   .   .   .   224   v   CG2   .   26805   1
+      942   .   1   1   224   224   VAL   N     N   15   117.815   0.000   .   .   .   .   .   .   224   v   N     .   26805   1
+      943   .   1   1   225   225   LEU   C     C   13   179.369   0.000   .   .   .   .   .   .   225   l   C     .   26805   1
+      944   .   1   1   225   225   LEU   CA    C   13   58.501    0.000   .   .   .   .   .   .   225   l   CA    .   26805   1
+      945   .   1   1   225   225   LEU   CB    C   13   42.303    0.000   .   .   .   .   .   .   225   l   CB    .   26805   1
+      946   .   1   1   225   225   LEU   CG    C   13   27.306    0.000   .   .   .   .   .   .   225   l   CG    .   26805   1
+      947   .   1   1   225   225   LEU   N     N   15   119.287   0.000   .   .   .   .   .   .   225   l   N     .   26805   1
+      948   .   1   1   226   226   ILE   C     C   13   176.961   0.000   .   .   .   .   .   .   226   i   C     .   26805   1
+      949   .   1   1   226   226   ILE   CA    C   13   65.642    0.000   .   .   .   .   .   .   226   i   CA    .   26805   1
+      950   .   1   1   226   226   ILE   CB    C   13   38.670    0.000   .   .   .   .   .   .   226   i   CB    .   26805   1
+      951   .   1   1   226   226   ILE   N     N   15   115.551   0.000   .   .   .   .   .   .   226   i   N     .   26805   1
+   stop_
+save_
+

@@ -1,0 +1,3018 @@
+data_25192
+
+#######################
+#  Entry information  #
+#######################
+
+
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             25192
+   _Entry.Title
+;
+Haddock model of Bacillus subtilis L,D-transpeptidase in complex with a peptidoglycan hexamuropeptide
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2014-09-02
+   _Entry.Accession_date                 2014-09-02
+   _Entry.Last_release_date              2016-06-29
+   _Entry.Original_release_date          2016-06-29
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.2.6
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Paul          Schanda     .   .   .   .   25192
+      2   Sebastien     Triboulet   .   .   .   .   25192
+      3   Cedric        Laguri      .   .   .   .   25192
+      4   Catherine     Bougault    .   .   .   .   25192
+      5   Isabel        Ayala       .   .   .   .   25192
+      6   Morgane       Callon      .   .   .   .   25192
+      7   Michel        Arthur      .   .   .   .   25192
+      8   Jean-Pierre   Simorre     .   .   .   .   25192
+   stop_
+
+   loop_
+      _SG_project.SG_project_ID
+      _SG_project.Project_name
+      _SG_project.Full_name_of_center
+      _SG_project.Initial_of_center
+      _SG_project.Entry_ID
+
+      1   'not applicable'   'not applicable'   .   25192
+   stop_
+
+   loop_
+      _Struct_keywords.Keywords
+      _Struct_keywords.Text
+      _Struct_keywords.Entry_ID
+
+      'Peptidoglycan Biosynthesis'   .   25192
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   2   25192
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   192   25192
+      '15N chemical shifts'   192   25192
+      '1H chemical shifts'    192   25192
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1   .   .   2016-06-29   .   original   BMRB   .   25192
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB   18037   'NMR STRUCTURE OF THE IMIPENEM-ACYLATED L,D-TRANSPEPTIDASE FROM BACILLUS SUBTILIS'   25192
+      PDB    2MTZ    'BMRB Entry Tracking System'                                                         25192
+   stop_
+save_
+
+###############
+#  Citations  #
+###############
+
+
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     25192
+   _Citation.ID                           1
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    25429710
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Atomic model of a cell-wall cross-linking enzyme in complex with an intact bacterial peptidoglycan
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'J. Am. Chem. Soc.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               136
+   _Citation.Journal_issue                51
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   17852
+   _Citation.Page_last                    17860
+   _Citation.Year                         2014
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Paul          Schanda     .   .   .   .   25192   1
+      2   Sebastien     Triboulet   .   .   .   .   25192   1
+      3   Cedric        Laguri      .   .   .   .   25192   1
+      4   Catherine     Bougault    .   .   .   .   25192   1
+      5   Isabel        Ayala       .   .   .   .   25192   1
+      6   Morgane       Callon      .   .   .   .   25192   1
+      7   Michel        Arthur      .   .   .   .   25192   1
+      8   Jean-Pierre   Simorre     .   .   .   .   25192   1
+   stop_
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          25192
+   _Assembly.ID                                1
+   _Assembly.Name                              'L,D-transpeptidase in complex with a peptidoglycan hexamuropeptide'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              8
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   entity_1     1   $entity_1   A   .   yes   native   no   no   .   .   .   25192   1
+      2   entity_2     2   $entity_2   B   .   yes   native   no   no   .   .   .   25192   1
+      3   entity_3_1   3   $entity_3   C   .   yes   native   no   no   .   .   .   25192   1
+      4   entity_3_2   3   $entity_3   D   .   yes   native   no   no   .   .   .   25192   1
+      5   entity_3_3   3   $entity_3   E   .   yes   native   no   no   .   .   .   25192   1
+      6   entity_3_4   3   $entity_3   F   .   yes   native   no   no   .   .   .   25192   1
+      7   entity_3_5   3   $entity_3   G   .   yes   native   no   no   .   .   .   25192   1
+   stop_
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+
+
+save_entity_1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_1
+   _Entity.Entry_ID                          25192
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              entity_1
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 A
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+GRKLLTYQVKQGDTLNSIAA
+DFRISTAALLQANPSLQAGL
+TAGQSIVIPGLPDPYTIPYH
+IAVSIGAKTLTLSLNNRVMK
+TYPIAVGKILTQTPTGEFYI
+INRQRNPGGPFGAYWLSLSK
+QHYGIHGTNNPASIGKAVSK
+GCIRMHNKDVIELASIVPNG
+TRVTINRGS
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                169
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'all free'
+   _Entity.Src_method                        man
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    18132.004
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1     1     GLY   .   25192   1
+      2     2     ARG   .   25192   1
+      3     3     LYS   .   25192   1
+      4     4     LEU   .   25192   1
+      5     5     LEU   .   25192   1
+      6     6     THR   .   25192   1
+      7     7     TYR   .   25192   1
+      8     8     GLN   .   25192   1
+      9     9     VAL   .   25192   1
+      10    10    LYS   .   25192   1
+      11    11    GLN   .   25192   1
+      12    12    GLY   .   25192   1
+      13    13    ASP   .   25192   1
+      14    14    THR   .   25192   1
+      15    15    LEU   .   25192   1
+      16    16    ASN   .   25192   1
+      17    17    SER   .   25192   1
+      18    18    ILE   .   25192   1
+      19    19    ALA   .   25192   1
+      20    20    ALA   .   25192   1
+      21    21    ASP   .   25192   1
+      22    22    PHE   .   25192   1
+      23    23    ARG   .   25192   1
+      24    24    ILE   .   25192   1
+      25    25    SER   .   25192   1
+      26    26    THR   .   25192   1
+      27    27    ALA   .   25192   1
+      28    28    ALA   .   25192   1
+      29    29    LEU   .   25192   1
+      30    30    LEU   .   25192   1
+      31    31    GLN   .   25192   1
+      32    32    ALA   .   25192   1
+      33    33    ASN   .   25192   1
+      34    34    PRO   .   25192   1
+      35    35    SER   .   25192   1
+      36    36    LEU   .   25192   1
+      37    37    GLN   .   25192   1
+      38    38    ALA   .   25192   1
+      39    39    GLY   .   25192   1
+      40    40    LEU   .   25192   1
+      41    41    THR   .   25192   1
+      42    42    ALA   .   25192   1
+      43    43    GLY   .   25192   1
+      44    44    GLN   .   25192   1
+      45    45    SER   .   25192   1
+      46    46    ILE   .   25192   1
+      47    47    VAL   .   25192   1
+      48    48    ILE   .   25192   1
+      49    49    PRO   .   25192   1
+      50    50    GLY   .   25192   1
+      51    51    LEU   .   25192   1
+      52    52    PRO   .   25192   1
+      53    53    ASP   .   25192   1
+      54    54    PRO   .   25192   1
+      55    55    TYR   .   25192   1
+      56    56    THR   .   25192   1
+      57    57    ILE   .   25192   1
+      58    58    PRO   .   25192   1
+      59    59    TYR   .   25192   1
+      60    60    HIS   .   25192   1
+      61    61    ILE   .   25192   1
+      62    62    ALA   .   25192   1
+      63    63    VAL   .   25192   1
+      64    64    SER   .   25192   1
+      65    65    ILE   .   25192   1
+      66    66    GLY   .   25192   1
+      67    67    ALA   .   25192   1
+      68    68    LYS   .   25192   1
+      69    69    THR   .   25192   1
+      70    70    LEU   .   25192   1
+      71    71    THR   .   25192   1
+      72    72    LEU   .   25192   1
+      73    73    SER   .   25192   1
+      74    74    LEU   .   25192   1
+      75    75    ASN   .   25192   1
+      76    76    ASN   .   25192   1
+      77    77    ARG   .   25192   1
+      78    78    VAL   .   25192   1
+      79    79    MET   .   25192   1
+      80    80    LYS   .   25192   1
+      81    81    THR   .   25192   1
+      82    82    TYR   .   25192   1
+      83    83    PRO   .   25192   1
+      84    84    ILE   .   25192   1
+      85    85    ALA   .   25192   1
+      86    86    VAL   .   25192   1
+      87    87    GLY   .   25192   1
+      88    88    LYS   .   25192   1
+      89    89    ILE   .   25192   1
+      90    90    LEU   .   25192   1
+      91    91    THR   .   25192   1
+      92    92    GLN   .   25192   1
+      93    93    THR   .   25192   1
+      94    94    PRO   .   25192   1
+      95    95    THR   .   25192   1
+      96    96    GLY   .   25192   1
+      97    97    GLU   .   25192   1
+      98    98    PHE   .   25192   1
+      99    99    TYR   .   25192   1
+      100   100   ILE   .   25192   1
+      101   101   ILE   .   25192   1
+      102   102   ASN   .   25192   1
+      103   103   ARG   .   25192   1
+      104   104   GLN   .   25192   1
+      105   105   ARG   .   25192   1
+      106   106   ASN   .   25192   1
+      107   107   PRO   .   25192   1
+      108   108   GLY   .   25192   1
+      109   109   GLY   .   25192   1
+      110   110   PRO   .   25192   1
+      111   111   PHE   .   25192   1
+      112   112   GLY   .   25192   1
+      113   113   ALA   .   25192   1
+      114   114   TYR   .   25192   1
+      115   115   TRP   .   25192   1
+      116   116   LEU   .   25192   1
+      117   117   SER   .   25192   1
+      118   118   LEU   .   25192   1
+      119   119   SER   .   25192   1
+      120   120   LYS   .   25192   1
+      121   121   GLN   .   25192   1
+      122   122   HIS   .   25192   1
+      123   123   TYR   .   25192   1
+      124   124   GLY   .   25192   1
+      125   125   ILE   .   25192   1
+      126   126   HIS   .   25192   1
+      127   127   GLY   .   25192   1
+      128   128   THR   .   25192   1
+      129   129   ASN   .   25192   1
+      130   130   ASN   .   25192   1
+      131   131   PRO   .   25192   1
+      132   132   ALA   .   25192   1
+      133   133   SER   .   25192   1
+      134   134   ILE   .   25192   1
+      135   135   GLY   .   25192   1
+      136   136   LYS   .   25192   1
+      137   137   ALA   .   25192   1
+      138   138   VAL   .   25192   1
+      139   139   SER   .   25192   1
+      140   140   LYS   .   25192   1
+      141   141   GLY   .   25192   1
+      142   142   CYS   .   25192   1
+      143   143   ILE   .   25192   1
+      144   144   ARG   .   25192   1
+      145   145   MET   .   25192   1
+      146   146   HIS   .   25192   1
+      147   147   ASN   .   25192   1
+      148   148   LYS   .   25192   1
+      149   149   ASP   .   25192   1
+      150   150   VAL   .   25192   1
+      151   151   ILE   .   25192   1
+      152   152   GLU   .   25192   1
+      153   153   LEU   .   25192   1
+      154   154   ALA   .   25192   1
+      155   155   SER   .   25192   1
+      156   156   ILE   .   25192   1
+      157   157   VAL   .   25192   1
+      158   158   PRO   .   25192   1
+      159   159   ASN   .   25192   1
+      160   160   GLY   .   25192   1
+      161   161   THR   .   25192   1
+      162   162   ARG   .   25192   1
+      163   163   VAL   .   25192   1
+      164   164   THR   .   25192   1
+      165   165   ILE   .   25192   1
+      166   166   ASN   .   25192   1
+      167   167   ARG   .   25192   1
+      168   168   GLY   .   25192   1
+      169   169   SER   .   25192   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   GLY   1     1     25192   1
+      .   ARG   2     2     25192   1
+      .   LYS   3     3     25192   1
+      .   LEU   4     4     25192   1
+      .   LEU   5     5     25192   1
+      .   THR   6     6     25192   1
+      .   TYR   7     7     25192   1
+      .   GLN   8     8     25192   1
+      .   VAL   9     9     25192   1
+      .   LYS   10    10    25192   1
+      .   GLN   11    11    25192   1
+      .   GLY   12    12    25192   1
+      .   ASP   13    13    25192   1
+      .   THR   14    14    25192   1
+      .   LEU   15    15    25192   1
+      .   ASN   16    16    25192   1
+      .   SER   17    17    25192   1
+      .   ILE   18    18    25192   1
+      .   ALA   19    19    25192   1
+      .   ALA   20    20    25192   1
+      .   ASP   21    21    25192   1
+      .   PHE   22    22    25192   1
+      .   ARG   23    23    25192   1
+      .   ILE   24    24    25192   1
+      .   SER   25    25    25192   1
+      .   THR   26    26    25192   1
+      .   ALA   27    27    25192   1
+      .   ALA   28    28    25192   1
+      .   LEU   29    29    25192   1
+      .   LEU   30    30    25192   1
+      .   GLN   31    31    25192   1
+      .   ALA   32    32    25192   1
+      .   ASN   33    33    25192   1
+      .   PRO   34    34    25192   1
+      .   SER   35    35    25192   1
+      .   LEU   36    36    25192   1
+      .   GLN   37    37    25192   1
+      .   ALA   38    38    25192   1
+      .   GLY   39    39    25192   1
+      .   LEU   40    40    25192   1
+      .   THR   41    41    25192   1
+      .   ALA   42    42    25192   1
+      .   GLY   43    43    25192   1
+      .   GLN   44    44    25192   1
+      .   SER   45    45    25192   1
+      .   ILE   46    46    25192   1
+      .   VAL   47    47    25192   1
+      .   ILE   48    48    25192   1
+      .   PRO   49    49    25192   1
+      .   GLY   50    50    25192   1
+      .   LEU   51    51    25192   1
+      .   PRO   52    52    25192   1
+      .   ASP   53    53    25192   1
+      .   PRO   54    54    25192   1
+      .   TYR   55    55    25192   1
+      .   THR   56    56    25192   1
+      .   ILE   57    57    25192   1
+      .   PRO   58    58    25192   1
+      .   TYR   59    59    25192   1
+      .   HIS   60    60    25192   1
+      .   ILE   61    61    25192   1
+      .   ALA   62    62    25192   1
+      .   VAL   63    63    25192   1
+      .   SER   64    64    25192   1
+      .   ILE   65    65    25192   1
+      .   GLY   66    66    25192   1
+      .   ALA   67    67    25192   1
+      .   LYS   68    68    25192   1
+      .   THR   69    69    25192   1
+      .   LEU   70    70    25192   1
+      .   THR   71    71    25192   1
+      .   LEU   72    72    25192   1
+      .   SER   73    73    25192   1
+      .   LEU   74    74    25192   1
+      .   ASN   75    75    25192   1
+      .   ASN   76    76    25192   1
+      .   ARG   77    77    25192   1
+      .   VAL   78    78    25192   1
+      .   MET   79    79    25192   1
+      .   LYS   80    80    25192   1
+      .   THR   81    81    25192   1
+      .   TYR   82    82    25192   1
+      .   PRO   83    83    25192   1
+      .   ILE   84    84    25192   1
+      .   ALA   85    85    25192   1
+      .   VAL   86    86    25192   1
+      .   GLY   87    87    25192   1
+      .   LYS   88    88    25192   1
+      .   ILE   89    89    25192   1
+      .   LEU   90    90    25192   1
+      .   THR   91    91    25192   1
+      .   GLN   92    92    25192   1
+      .   THR   93    93    25192   1
+      .   PRO   94    94    25192   1
+      .   THR   95    95    25192   1
+      .   GLY   96    96    25192   1
+      .   GLU   97    97    25192   1
+      .   PHE   98    98    25192   1
+      .   TYR   99    99    25192   1
+      .   ILE   100   100   25192   1
+      .   ILE   101   101   25192   1
+      .   ASN   102   102   25192   1
+      .   ARG   103   103   25192   1
+      .   GLN   104   104   25192   1
+      .   ARG   105   105   25192   1
+      .   ASN   106   106   25192   1
+      .   PRO   107   107   25192   1
+      .   GLY   108   108   25192   1
+      .   GLY   109   109   25192   1
+      .   PRO   110   110   25192   1
+      .   PHE   111   111   25192   1
+      .   GLY   112   112   25192   1
+      .   ALA   113   113   25192   1
+      .   TYR   114   114   25192   1
+      .   TRP   115   115   25192   1
+      .   LEU   116   116   25192   1
+      .   SER   117   117   25192   1
+      .   LEU   118   118   25192   1
+      .   SER   119   119   25192   1
+      .   LYS   120   120   25192   1
+      .   GLN   121   121   25192   1
+      .   HIS   122   122   25192   1
+      .   TYR   123   123   25192   1
+      .   GLY   124   124   25192   1
+      .   ILE   125   125   25192   1
+      .   HIS   126   126   25192   1
+      .   GLY   127   127   25192   1
+      .   THR   128   128   25192   1
+      .   ASN   129   129   25192   1
+      .   ASN   130   130   25192   1
+      .   PRO   131   131   25192   1
+      .   ALA   132   132   25192   1
+      .   SER   133   133   25192   1
+      .   ILE   134   134   25192   1
+      .   GLY   135   135   25192   1
+      .   LYS   136   136   25192   1
+      .   ALA   137   137   25192   1
+      .   VAL   138   138   25192   1
+      .   SER   139   139   25192   1
+      .   LYS   140   140   25192   1
+      .   GLY   141   141   25192   1
+      .   CYS   142   142   25192   1
+      .   ILE   143   143   25192   1
+      .   ARG   144   144   25192   1
+      .   MET   145   145   25192   1
+      .   HIS   146   146   25192   1
+      .   ASN   147   147   25192   1
+      .   LYS   148   148   25192   1
+      .   ASP   149   149   25192   1
+      .   VAL   150   150   25192   1
+      .   ILE   151   151   25192   1
+      .   GLU   152   152   25192   1
+      .   LEU   153   153   25192   1
+      .   ALA   154   154   25192   1
+      .   SER   155   155   25192   1
+      .   ILE   156   156   25192   1
+      .   VAL   157   157   25192   1
+      .   PRO   158   158   25192   1
+      .   ASN   159   159   25192   1
+      .   GLY   160   160   25192   1
+      .   THR   161   161   25192   1
+      .   ARG   162   162   25192   1
+      .   VAL   163   163   25192   1
+      .   THR   164   164   25192   1
+      .   ILE   165   165   25192   1
+      .   ASN   166   166   25192   1
+      .   ARG   167   167   25192   1
+      .   GLY   168   168   25192   1
+      .   SER   169   169   25192   1
+   stop_
+save_
+
+save_entity_2
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_2
+   _Entity.Entry_ID                          25192
+   _Entity.ID                                2
+   _Entity.BMRB_code                         .
+   _Entity.Name                              entity_2
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 B
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+XXXXXXXXXXXX
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      yes
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                12
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        man
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1    1    NAG   .   25192   2
+      2    2    AMU   .   25192   2
+      3    3    NAG   .   25192   2
+      4    4    AMU   .   25192   2
+      5    5    NAG   .   25192   2
+      6    6    AMU   .   25192   2
+      7    7    NAG   .   25192   2
+      8    8    AMU   .   25192   2
+      9    9    NAG   .   25192   2
+      10   10   AMU   .   25192   2
+      11   11   NAG   .   25192   2
+      12   12   AMU   .   25192   2
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   NAG   1    1    25192   2
+      .   AMU   2    2    25192   2
+      .   NAG   3    3    25192   2
+      .   AMU   4    4    25192   2
+      .   NAG   5    5    25192   2
+      .   AMU   6    6    25192   2
+      .   NAG   7    7    25192   2
+      .   AMU   8    8    25192   2
+      .   NAG   9    9    25192   2
+      .   AMU   10   10   25192   2
+      .   NAG   11   11   25192   2
+      .   AMU   12   12   25192   2
+   stop_
+save_
+
+save_entity_3
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_3
+   _Entity.Entry_ID                          25192
+   _Entity.ID                                3
+   _Entity.BMRB_code                         .
+   _Entity.Name                              entity_3
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polysaccharide(D)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 C
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+AXXX
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      yes
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                4
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        man
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1   1   ALA   .   25192   3
+      2   2   FGA   .   25192   3
+      3   3   API   .   25192   3
+      4   4   DAL   .   25192   3
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   ALA   1   1   25192   3
+      .   FGA   2   2   25192   3
+      .   API   3   3   25192   3
+      .   DAL   4   4   25192   3
+   stop_
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       25192
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $entity_1   .   1423   organism   .   'Bacillus subtilis'   'Hay bacillus'   .   .   Bacteria   .   Bacillus   subtilis   .   .   .   .   .   .   .   .   .   .   .   .   .   25192   1
+      2   2   $entity_2   .   1423   organism   .   'Bacillus subtilis'   'Hay bacillus'   .   .   Bacteria   .   Bacillus   subtilis   .   .   .   .   .   .   .   .   .   .   .   .   .   25192   1
+   stop_
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       25192
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $entity_1   .   'recombinant technology'             'Escherichia coli'    .   .   .   Escherichia   coli       K12   BL21(DE3)   .   .   .   .   pET2818   .   .   .   25192   1
+      2   2   $entity_2   .   'purified from the natural source'   'Bacillus subtilis'   .   .   .   Bacillus      subtilis   .     .           .   .   .   .   .         .   .   .   25192   1
+   stop_
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+
+
+save_chem_comp_NAG
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_NAG
+   _Chem_comp.Entry_ID                          25192
+   _Chem_comp.ID                                NAG
+   _Chem_comp.Provenance                        PDB
+   _Chem_comp.Name                              N-ACETYL-D-GLUCOSAMINE
+   _Chem_comp.Type                              D-SACCHARIDE
+   _Chem_comp.BMRB_code                         NAG
+   _Chem_comp.PDB_code                          NAG
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      2014-04-02
+   _Chem_comp.Modified_date                     2014-04-02
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 NAG
+   _Chem_comp.Number_atoms_all                  30
+   _Chem_comp.Number_atoms_nh                   15
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        InChI=1S/C8H15NO6/c1-3(11)9-5-7(13)6(12)4(2-10)15-8(5)14/h4-8,10,12-14H,2H2,1H3,(H,9,11)/t4-,5-,6-,7-,8-/m1/s1
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                           'C8 H15 N O6'
+   _Chem_comp.Formula_weight                    221.208
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         Corina
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         8PCH
+   _Chem_comp.Processing_site                   RCSB
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      CC(=O)NC1C(C(C(OC1O)CO)O)O                                                                                       SMILES             'OpenEye OEToolkits'   1.7.6   25192   NAG
+      CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O)CO)O)O                                                                 SMILES_CANONICAL   'OpenEye OEToolkits'   1.7.6   25192   NAG
+      CC(=O)N[C@H]1[C@H](O)O[C@H](CO)[C@@H](O)[C@@H]1O                                                                 SMILES_CANONICAL   CACTVS                 3.370   25192   NAG
+      CC(=O)N[CH]1[CH](O)O[CH](CO)[CH](O)[CH]1O                                                                        SMILES             CACTVS                 3.370   25192   NAG
+      InChI=1S/C8H15NO6/c1-3(11)9-5-7(13)6(12)4(2-10)15-8(5)14/h4-8,10,12-14H,2H2,1H3,(H,9,11)/t4-,5-,6-,7-,8-/m1/s1   InChI              InChI                  1.03    25192   NAG
+      O=C(NC1C(O)C(O)C(OC1O)CO)C                                                                                       SMILES             ACDLabs                12.01   25192   NAG
+      OVRNDRQMDRJTHS-FMDGEEDCSA-N                                                                                      InChIKey           InChI                  1.03    25192   NAG
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      2-(acetylamino)-2-deoxy-beta-D-glucopyranose                                     'SYSTEMATIC NAME'   ACDLabs                12.01   25192   NAG
+      N-[(2R,3R,4R,5S,6R)-6-(hydroxymethyl)-2,4,5-tris(oxidanyl)oxan-3-yl]ethanamide   'SYSTEMATIC NAME'   'OpenEye OEToolkits'   1.7.6   25192   NAG
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      C1    C1    C1    C1    .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   7.396   .   28.163   .   26.662   .   0.185    1.082    -0.421   1    .   25192   NAG
+      C2    C2    C2    C2    .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   6.973   .   29.233   .   27.644   .   0.790    -0.220   0.112    2    .   25192   NAG
+      C3    C3    C3    C3    .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   7.667   .   29.055   .   29.000   .   -0.124   -1.390   -0.265   3    .   25192   NAG
+      C4    C4    C4    C4    .   C   .   .   S   0   .   .   .   1   no   no    .   .   .   .   7.573   .   27.588   .   29.490   .   -1.526   -1.129   0.294    4    .   25192   NAG
+      C5    C5    C5    C5    .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   7.902   .   26.592   .   28.373   .   -2.042   0.207    -0.246   5    .   25192   NAG
+      C6    C6    C6    C6    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   7.599   .   25.173   .   28.797   .   -3.417   0.504    0.355    6    .   25192   NAG
+      C7    C7    C7    C7    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   6.291   .   31.299   .   26.595   .   3.197    0.157    0.076    7    .   25192   NAG
+      C8    C8    C8    C8    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   6.684   .   32.649   .   26.036   .   4.559    -0.052   -0.533   8    .   25192   NAG
+      N2    N2    N2    N2    .   N   .   .   N   0   .   .   .   1   no   no    .   .   .   .   7.268   .   30.545   .   27.089   .   2.114    -0.422   -0.480   9    .   25192   NAG
+      O1    O1    O1    O1    .   O   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   6.676   .   28.363   .   25.419   .   1.003    2.185    -0.024   10   .   25192   NAG
+      O3    O3    O3    O3    .   O   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   7.038   .   29.909   .   29.947   .   0.395    -2.600   0.291    11   .   25192   NAG
+      O4    O4    O4    O4    .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   8.494   .   27.358   .   30.574   .   -2.405   -2.180   -0.114   12   .   25192   NAG
+      O5    O5    O5    O5    .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   7.104   .   26.875   .   27.206   .   -1.130   1.248    0.113    13   .   25192   NAG
+      O6    O6    O6    O6    .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   6.232   .   25.040   .   29.165   .   -3.949   1.691    -0.236   14   .   25192   NAG
+      O7    O7    O7    O7    .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   5.114   .   30.936   .   26.562   .   3.074    0.845    1.067    15   .   25192   NAG
+      H1    H1    H1    H1    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   8.477   .   28.257   .   26.481   .   0.133    1.040    -1.509   16   .   25192   NAG
+      H2    H2    H2    H2    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   5.888   .   29.146   .   27.803   .   0.879    -0.163   1.197    17   .   25192   NAG
+      H3    H3    H3    H3    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   8.729   .   29.321   .   28.892   .   -0.174   -1.478   -1.350   18   .   25192   NAG
+      H4    H4    H4    H4    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   6.544   .   27.403   .   29.831   .   -1.483   -1.091   1.382    19   .   25192   NAG
+      H5    H5    H5    H5    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   8.971   .   26.674   .   28.128   .   -2.123   0.154    -1.332   20   .   25192   NAG
+      H61   H61   H61   H61   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   7.816   .   24.492   .   27.961   .   -4.088   -0.333   0.157    21   .   25192   NAG
+      H62   H62   H62   H62   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   8.232   .   24.910   .   29.657   .   -3.320   0.645    1.431    22   .   25192   NAG
+      H81   H81   H81   H81   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   5.791   .   33.159   .   25.646   .   4.560    0.320    -1.558   23   .   25192   NAG
+      H82   H82   H82   H82   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   7.136   .   33.258   .   26.833   .   5.305    0.490    0.050    24   .   25192   NAG
+      H83   H83   H83   H83   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   7.411   .   32.511   .   25.222   .   4.799    -1.115   -0.532   25   .   25192   NAG
+      HN2   HN2   HN2   HN2   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   8.210   .   30.881   .   27.079   .   2.212    -0.973   -1.273   26   .   25192   NAG
+      HO1   HO1   HO1   HO1   .   H   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   6.933   .   27.696   .   24.793   .   0.679    3.044    -0.328   27   .   25192   NAG
+      HO3   HO3   HO3   HO3   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   7.459   .   29.809   .   30.793   .   -0.135   -3.384   0.091    28   .   25192   NAG
+      HO4   HO4   HO4   HO4   .   H   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   8.425   .   26.456   .   30.863   .   -3.312   -2.079   0.206    29   .   25192   NAG
+      HO6   HO6   HO6   HO6   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   6.060   .   24.143   .   29.428   .   -4.822   1.940    0.099    30   .   25192   NAG
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1    .   SING   C1   C2    no   N   1    .   25192   NAG
+      2    .   SING   C1   O1    no   N   2    .   25192   NAG
+      3    .   SING   C1   O5    no   N   3    .   25192   NAG
+      4    .   SING   C1   H1    no   N   4    .   25192   NAG
+      5    .   SING   C2   C3    no   N   5    .   25192   NAG
+      6    .   SING   C2   N2    no   N   6    .   25192   NAG
+      7    .   SING   C2   H2    no   N   7    .   25192   NAG
+      8    .   SING   C3   C4    no   N   8    .   25192   NAG
+      9    .   SING   C3   O3    no   N   9    .   25192   NAG
+      10   .   SING   C3   H3    no   N   10   .   25192   NAG
+      11   .   SING   C4   C5    no   N   11   .   25192   NAG
+      12   .   SING   C4   O4    no   N   12   .   25192   NAG
+      13   .   SING   C4   H4    no   N   13   .   25192   NAG
+      14   .   SING   C5   C6    no   N   14   .   25192   NAG
+      15   .   SING   C5   O5    no   N   15   .   25192   NAG
+      16   .   SING   C5   H5    no   N   16   .   25192   NAG
+      17   .   SING   C6   O6    no   N   17   .   25192   NAG
+      18   .   SING   C6   H61   no   N   18   .   25192   NAG
+      19   .   SING   C6   H62   no   N   19   .   25192   NAG
+      20   .   SING   C7   C8    no   N   20   .   25192   NAG
+      21   .   SING   C7   N2    no   N   21   .   25192   NAG
+      22   .   DOUB   C7   O7    no   N   22   .   25192   NAG
+      23   .   SING   C8   H81   no   N   23   .   25192   NAG
+      24   .   SING   C8   H82   no   N   24   .   25192   NAG
+      25   .   SING   C8   H83   no   N   25   .   25192   NAG
+      26   .   SING   N2   HN2   no   N   26   .   25192   NAG
+      27   .   SING   O1   HO1   no   N   27   .   25192   NAG
+      28   .   SING   O3   HO3   no   N   28   .   25192   NAG
+      29   .   SING   O4   HO4   no   N   29   .   25192   NAG
+      30   .   SING   O6   HO6   no   N   30   .   25192   NAG
+   stop_
+save_
+
+save_chem_comp_AMU
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_AMU
+   _Chem_comp.Entry_ID                          25192
+   _Chem_comp.ID                                AMU
+   _Chem_comp.Provenance                        PDB
+   _Chem_comp.Name                              'BETA-N-ACETYLMURAMIC ACID'
+   _Chem_comp.Type                              D-SACCHARIDE
+   _Chem_comp.BMRB_code                         AMU
+   _Chem_comp.PDB_code                          AMU
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      2012-11-20
+   _Chem_comp.Modified_date                     2012-11-20
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 AMU
+   _Chem_comp.Number_atoms_all                  39
+   _Chem_comp.Number_atoms_nh                   20
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code
+;
+InChI=1S/C11H19NO8/c1-4(10(16)17)19-9-7(12-5(2)14)11(18)20-6(3-13)8(9)15/h4,6-9,11,13,15,18H,3H2,1-2H3,(H,12,14)(H,16,17)/t4-,6-,7-,8-,9-,11-/m1/s1
+;
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                           'C11 H19 N O8'
+   _Chem_comp.Formula_weight                    293.270
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         .
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         1D0K
+   _Chem_comp.Processing_site                   RCSB
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      CC(C(=O)O)OC1C(C(OC(C1O)CO)O)NC(=O)C                               SMILES             'OpenEye OEToolkits'   1.5.0   25192   AMU
+      C[C@@H](O[C@H]1[C@H](O)[C@@H](CO)O[C@@H](O)[C@@H]1NC(C)=O)C(O)=O   SMILES_CANONICAL   CACTVS                 3.341   25192   AMU
+      C[C@H](C(=O)O)O[C@@H]1[C@H]([C@@H](O[C@@H]([C@H]1O)CO)O)NC(=O)C    SMILES_CANONICAL   'OpenEye OEToolkits'   1.5.0   25192   AMU
+      C[CH](O[CH]1[CH](O)[CH](CO)O[CH](O)[CH]1NC(C)=O)C(O)=O             SMILES             CACTVS                 3.341   25192   AMU
+
+;
+InChI=1S/C11H19NO8/c1-4(10(16)17)19-9-7(12-5(2)14)11(18)20-6(3-13)8(9)15/h4,6-9,11,13,15,18H,3H2,1-2H3,(H,12,14)(H,16,17)/t4-,6-,7-,8-,9-,11-/m1/s1
+;
+                                                                         InChI              InChI                  1.03    25192   AMU
+      MNLRQHMNZILYPY-YVNCZSHWSA-N                                        InChIKey           InChI                  1.03    25192   AMU
+      O=C(O)C(OC1C(O)C(OC(O)C1NC(=O)C)CO)C                               SMILES             ACDLabs                10.04   25192   AMU
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      '(2R)-2-[(2R,3R,4R,5S,6R)-3-acetamido-2,5-dihydroxy-6-(hydroxymethyl)oxan-4-yl]oxypropanoic acid'   'SYSTEMATIC NAME'   'OpenEye OEToolkits'   1.5.0   25192   AMU
+      2-(acetylamino)-3-O-[(1R)-1-carboxyethyl]-2-deoxy-beta-D-glucopyranose                              'SYSTEMATIC NAME'   ACDLabs                10.04   25192   AMU
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      C1     C1     C1     C1     .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   3.559    .   20.977   .   11.230   .   -1.394   0.451    -1.565   1    .   25192   AMU
+      C2     C2     C2     C2     .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   3.379    .   22.460   .   11.489   .   -0.851   -0.137   -0.260   2    .   25192   AMU
+      C3     C3     C3     C3     .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   4.663    .   23.332   .   11.476   .   0.660    0.106    -0.194   3    .   25192   AMU
+      C4     C4     C4     C4     .   C   .   .   S   0   .   .   .   1   no   no    .   .   .   .   5.710    .   22.651   .   12.360   .   1.304    -0.434   -1.475   4    .   25192   AMU
+      C5     C5     C5     C5     .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   5.882    .   21.162   .   11.889   .   0.598    0.179    -2.686   5    .   25192   AMU
+      C6     C6     C6     C6     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   6.885    .   20.387   .   12.722   .   1.255    -0.329   -3.971   6    .   25192   AMU
+      C7     C7     C7     C7     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   1.372    .   23.564   .   10.510   .   -2.647   -0.011   1.381    7    .   25192   AMU
+      C8     C8     C8     C8     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   0.806    .   24.014   .   9.177    .   -3.324   0.652    2.553    8    .   25192   AMU
+      C9     C9     C9     C9     .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   3.954    .   25.666   .   11.141   .   1.409    0.416    1.952    9    .   25192   AMU
+      C10    C10    C10    C10    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   2.819    .   26.554   .   11.635   .   1.262    -0.218   3.310    10   .   25192   AMU
+      C11    C11    C11    C11    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   5.212    .   26.479   .   10.864   .   2.814    1.006    1.814    11   .   25192   AMU
+      O1     O1     O1     O1     .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   2.357    .   20.350   .   11.634   .   -2.808   0.252    -1.623   12   .   25192   AMU
+      O3     O3     O3     O3     .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   4.174    .   24.560   .   12.027   .   1.205    -0.570   0.939    13   .   25192   AMU
+      O4     O4     O4     O4     .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   6.956    .   23.349   .   12.359   .   2.689    -0.084   -1.499   14   .   25192   AMU
+      O5     O5     O5     O5     .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   4.635    .   20.485   .   11.999   .   -0.779   -0.190   -2.681   15   .   25192   AMU
+      O6     O6     O6     O6     .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   6.259    .   20.015   .   13.938   .   0.596    0.242    -5.102   16   .   25192   AMU
+      O7     O7     O7     O7     .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   0.790    .   23.733   .   11.583   .   -3.126   -1.011   0.891    17   .   25192   AMU
+      O10    O10    O10    O10    .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   2.407    .   27.485   .   10.945   .   1.009    -1.396   3.402    18   .   25192   AMU
+      O11    O11    O11    O11    .   O   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   2.281    .   26.213   .   12.804   .   1.412    0.523    4.418    19   .   25192   AMU
+      N2     N2     N2     N2     .   N   .   .   N   0   .   .   .   1   no   no    .   .   .   .   2.566    .   22.994   .   10.414   .   -1.509   0.507    0.878    20   .   25192   AMU
+      H1     H1     H1     H1     .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   3.779    .   20.777   .   10.155   .   -1.176   1.519    -1.597   21   .   25192   AMU
+      H2     H2     H2     H2     .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   2.949    .   22.513   .   12.516   .   -1.046   -1.209   -0.235   22   .   25192   AMU
+      H3     H3     H3     H3     .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   5.156    .   23.484   .   10.487   .   0.855    1.175    -0.110   23   .   25192   AMU
+      H4     H4     H4     H4     .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   5.352    .   22.667   .   13.415   .   1.202    -1.519   -1.505   24   .   25192   AMU
+      H5     H5     H5     H5     .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   6.250    .   21.206   .   10.837   .   0.682    1.265    -2.642   25   .   25192   AMU
+      H61    H61    H61    1H6    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   7.314    .   19.515   .   12.175   .   2.307    -0.043   -3.979   26   .   25192   AMU
+      H62    H62    H62    2H6    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   7.835    .   20.948   .   12.882   .   1.174    -1.416   -4.014   27   .   25192   AMU
+      H81    H81    H81    1H8    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   1.332    .   23.861   .   8.206    .   -4.222   0.093    2.817    28   .   25192   AMU
+      H82    H82    H82    2H8    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -0.209   .   23.563   .   9.078    .   -2.643   0.668    3.404    29   .   25192   AMU
+      H83    H83    H83    3H8    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   0.578    .   25.102   .   9.263    .   -3.596   1.673    2.285    30   .   25192   AMU
+      H9     H9     H9     H9     .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   3.652    .   25.221   .   10.163   .   0.670    1.209    1.840    31   .   25192   AMU
+      H111   H111   H111   1H11   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   6.042    .   25.829   .   10.502   .   3.554    0.216    1.941    32   .   25192   AMU
+      H112   H112   H112   2H11   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   5.010    .   27.316   .   10.156   .   2.925    1.452    0.825    33   .   25192   AMU
+      H113   H113   H113   3H11   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   5.517    .   27.076   .   11.754   .   2.964    1.770    2.576    34   .   25192   AMU
+      HO1    HO1    HO1    HO1    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   2.469    .   19.420   .   11.471   .   -3.111   0.642    -2.454   35   .   25192   AMU
+      HO4    HO4    HO4    HO4    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   7.606    .   22.926   .   12.907   .   3.054    -0.443   -2.319   36   .   25192   AMU
+      HO6    HO6    HO6    HO6    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   6.887    .   19.529   .   14.459   .   1.040    -0.103   -5.888   37   .   25192   AMU
+      HO11   HO11   HO11   HO11   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   1.573    .   26.766   .   13.112   .   1.318    0.116    5.290    38   .   25192   AMU
+      HN2    HN2    HN2    HN2    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   2.881    .   22.964   .   9.444    .   -1.126   1.308    1.270    39   .   25192   AMU
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1    .   SING   C1    C2     no   N   1    .   25192   AMU
+      2    .   SING   C1    O1     no   N   2    .   25192   AMU
+      3    .   SING   C1    O5     no   N   3    .   25192   AMU
+      4    .   SING   C1    H1     no   N   4    .   25192   AMU
+      5    .   SING   C2    C3     no   N   5    .   25192   AMU
+      6    .   SING   C2    N2     no   N   6    .   25192   AMU
+      7    .   SING   C2    H2     no   N   7    .   25192   AMU
+      8    .   SING   C3    C4     no   N   8    .   25192   AMU
+      9    .   SING   C3    O3     no   N   9    .   25192   AMU
+      10   .   SING   C3    H3     no   N   10   .   25192   AMU
+      11   .   SING   C4    C5     no   N   11   .   25192   AMU
+      12   .   SING   C4    O4     no   N   12   .   25192   AMU
+      13   .   SING   C4    H4     no   N   13   .   25192   AMU
+      14   .   SING   C5    C6     no   N   14   .   25192   AMU
+      15   .   SING   C5    O5     no   N   15   .   25192   AMU
+      16   .   SING   C5    H5     no   N   16   .   25192   AMU
+      17   .   SING   C6    O6     no   N   17   .   25192   AMU
+      18   .   SING   C6    H61    no   N   18   .   25192   AMU
+      19   .   SING   C6    H62    no   N   19   .   25192   AMU
+      20   .   SING   C7    C8     no   N   20   .   25192   AMU
+      21   .   DOUB   C7    O7     no   N   21   .   25192   AMU
+      22   .   SING   C7    N2     no   N   22   .   25192   AMU
+      23   .   SING   C8    H81    no   N   23   .   25192   AMU
+      24   .   SING   C8    H82    no   N   24   .   25192   AMU
+      25   .   SING   C8    H83    no   N   25   .   25192   AMU
+      26   .   SING   C9    C10    no   N   26   .   25192   AMU
+      27   .   SING   C9    C11    no   N   27   .   25192   AMU
+      28   .   SING   C9    O3     no   N   28   .   25192   AMU
+      29   .   SING   C9    H9     no   N   29   .   25192   AMU
+      30   .   DOUB   C10   O10    no   N   30   .   25192   AMU
+      31   .   SING   C10   O11    no   N   31   .   25192   AMU
+      32   .   SING   C11   H111   no   N   32   .   25192   AMU
+      33   .   SING   C11   H112   no   N   33   .   25192   AMU
+      34   .   SING   C11   H113   no   N   34   .   25192   AMU
+      35   .   SING   O1    HO1    no   N   35   .   25192   AMU
+      36   .   SING   O4    HO4    no   N   36   .   25192   AMU
+      37   .   SING   O6    HO6    no   N   37   .   25192   AMU
+      38   .   SING   O11   HO11   no   N   38   .   25192   AMU
+      39   .   SING   N2    HN2    no   N   39   .   25192   AMU
+   stop_
+save_
+
+save_chem_comp_FGA
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_FGA
+   _Chem_comp.Entry_ID                          25192
+   _Chem_comp.ID                                FGA
+   _Chem_comp.Provenance                        PDB
+   _Chem_comp.Name                              'GAMMA-D-GLUTAMIC ACID'
+   _Chem_comp.Type                              'D-GAMMA-PEPTIDE, C-DELTA LINKING'
+   _Chem_comp.BMRB_code                         FGA
+   _Chem_comp.PDB_code                          FGA
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      2012-11-20
+   _Chem_comp.Modified_date                     2012-11-20
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   E
+   _Chem_comp.Three_letter_code                 FGA
+   _Chem_comp.Number_atoms_all                  19
+   _Chem_comp.Number_atoms_nh                   10
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        InChI=1S/C5H9NO4/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)/t3-/m1/s1
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          'D-GLUTAMIC ACID'
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                           'C5 H9 N O4'
+   _Chem_comp.Formula_weight                    147.129
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         Corina
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         .
+   _Chem_comp.Processing_site                   RCSB
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      C(CC(=O)O)C(C(=O)O)N                                                           SMILES             'OpenEye OEToolkits'   1.7.2   25192   FGA
+      C(CC(=O)O)[C@H](C(=O)O)N                                                       SMILES_CANONICAL   'OpenEye OEToolkits'   1.7.2   25192   FGA
+      InChI=1S/C5H9NO4/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)/t3-/m1/s1   InChI              InChI                  1.03    25192   FGA
+      N[C@H](CCC(O)=O)C(O)=O                                                         SMILES_CANONICAL   CACTVS                 3.370   25192   FGA
+      N[CH](CCC(O)=O)C(O)=O                                                          SMILES             CACTVS                 3.370   25192   FGA
+      O=C(O)C(N)CCC(=O)O                                                             SMILES             ACDLabs                12.01   25192   FGA
+      WHUUTDBJXJRKMK-GSVOUGTGSA-N                                                    InChIKey           InChI                  1.03    25192   FGA
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      '(2R)-2-azanylpentanedioic acid'   'SYSTEMATIC NAME'   'OpenEye OEToolkits'   1.7.2   25192   FGA
+      'D-glutamic acid'                  'SYSTEMATIC NAME'   ACDLabs                12.01   25192   FGA
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      N     N     N     N     .   N   .   .   N   0   .   .   .   1   no   no    .   .   .   .   15.813   .   -4.736   .   28.474   .   -1.198   1.861    -0.122   1    .   25192   FGA
+      CA    CA    CA    CA    .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   14.782   .   -5.702   .   28.834   .   -1.130   0.510    0.451    2    .   25192   FGA
+      C     C     C     C     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   14.875   .   -6.180   .   30.276   .   -2.352   -0.272   0.040    3    .   25192   FGA
+      O     O     O     O     .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   14.832   .   -7.381   .   30.553   .   -2.999   0.079    -0.918   4    .   25192   FGA
+      CB    CB    CB    CB    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   13.397   .   -5.090   .   28.574   .   0.125    -0.199   -0.062   5    .   25192   FGA
+      CG    CG    CG    CG    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   13.060   .   -4.844   .   27.093   .   1.368    0.525    0.460    6    .   25192   FGA
+      CD    CD    CD    CD    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   13.663   .   -3.568   .   26.500   .   2.605    -0.173   -0.045   7    .   25192   FGA
+      OE1   OE1   OE1   OE1   .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   14.422   .   -2.859   .   27.182   .   2.502    -1.149   -0.750   8    .   25192   FGA
+      OE2   OE2   OE2   OE2   .   O   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   13.367   .   -3.264   .   25.323   .   3.820    0.290    0.289    9    .   25192   FGA
+      OXT   OXT   OXT   OXT   .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   15.022   .   -5.237   .   31.196   .   -2.720   -1.357   0.738    10   .   25192   FGA
+      H     H     H     H     .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   15.696   .   -4.464   .   27.519   .   -1.236   1.826    -1.129   11   .   25192   FGA
+      H2    H2    H2    HN2   .   H   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   15.735   .   -3.931   .   29.062   .   -1.984   2.373    0.252    12   .   25192   FGA
+      HA    HA    HA    HA    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   14.940   .   -6.589   .   28.203   .   -1.091   0.577    1.538    13   .   25192   FGA
+      HB2   HB2   HB2   HB1   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   12.645   .   -5.785   .   28.976   .   0.130    -1.230   0.291    14   .   25192   FGA
+      HB3   HB3   HB3   HB2   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   13.359   .   -4.119   .   29.090   .   0.129    -0.188   -1.152   15   .   25192   FGA
+      HG2   HG2   HG2   HG1   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   13.446   .   -5.697   .   26.516   .   1.363    1.556    0.107    16   .   25192   FGA
+      HG3   HG3   HG3   HG2   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   11.966   .   -4.769   .   27.006   .   1.364    0.514    1.550    17   .   25192   FGA
+      HE2   HE2   HE2   HE2   .   H   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   13.804   .   -2.455   .   25.085   .   4.583    -0.191   -0.059   18   .   25192   FGA
+      HXT   HXT   HXT   HXT   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   15.084   .   -5.639   .   32.055   .   -3.510   -1.826   0.436    19   .   25192   FGA
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1    .   SING   N     CA    no   N   1    .   25192   FGA
+      2    .   SING   N     H     no   N   2    .   25192   FGA
+      3    .   SING   N     H2    no   N   3    .   25192   FGA
+      4    .   SING   CA    C     no   N   4    .   25192   FGA
+      5    .   SING   CA    CB    no   N   5    .   25192   FGA
+      6    .   SING   CA    HA    no   N   6    .   25192   FGA
+      7    .   DOUB   C     O     no   N   7    .   25192   FGA
+      8    .   SING   C     OXT   no   N   8    .   25192   FGA
+      9    .   SING   CB    CG    no   N   9    .   25192   FGA
+      10   .   SING   CB    HB2   no   N   10   .   25192   FGA
+      11   .   SING   CB    HB3   no   N   11   .   25192   FGA
+      12   .   SING   CG    CD    no   N   12   .   25192   FGA
+      13   .   SING   CG    HG2   no   N   13   .   25192   FGA
+      14   .   SING   CG    HG3   no   N   14   .   25192   FGA
+      15   .   DOUB   CD    OE1   no   N   15   .   25192   FGA
+      16   .   SING   CD    OE2   no   N   16   .   25192   FGA
+      17   .   SING   OE2   HE2   no   N   17   .   25192   FGA
+      18   .   SING   OXT   HXT   no   N   18   .   25192   FGA
+   stop_
+save_
+
+save_chem_comp_API
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_API
+   _Chem_comp.Entry_ID                          25192
+   _Chem_comp.ID                                API
+   _Chem_comp.Provenance                        PDB
+   _Chem_comp.Name                              '2,6-DIAMINOPIMELIC ACID'
+   _Chem_comp.Type                              'L-PEPTIDE LINKING'
+   _Chem_comp.BMRB_code                         API
+   _Chem_comp.PDB_code                          API
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      2012-11-20
+   _Chem_comp.Modified_date                     2012-11-20
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   K
+   _Chem_comp.Three_letter_code                 API
+   _Chem_comp.Number_atoms_all                  27
+   _Chem_comp.Number_atoms_nh                   13
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        InChI=1S/C7H14N2O4/c8-4(6(10)11)2-1-3-5(9)7(12)13/h4-5H,1-3,8-9H2,(H,10,11)(H,12,13)/t4-,5+
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           LYS
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                           'C7 H14 N2 O4'
+   _Chem_comp.Formula_weight                    190.197
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         Corina
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         2DAP
+   _Chem_comp.Processing_site                   EBI
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      C(CC(C(=O)O)N)CC(C(=O)O)N                                                                     SMILES             'OpenEye OEToolkits'   1.7.2   25192   API
+      C(C[C@H](C(=O)O)N)C[C@@H](C(=O)O)N                                                            SMILES_CANONICAL   'OpenEye OEToolkits'   1.7.2   25192   API
+      GMKMEZVLHJARHF-SYDPRGILSA-N                                                                   InChIKey           InChI                  1.03    25192   API
+      InChI=1S/C7H14N2O4/c8-4(6(10)11)2-1-3-5(9)7(12)13/h4-5H,1-3,8-9H2,(H,10,11)(H,12,13)/t4-,5+   InChI              InChI                  1.03    25192   API
+      N[C@@H](CCC[C@@H](N)C(O)=O)C(O)=O                                                             SMILES_CANONICAL   CACTVS                 3.370   25192   API
+      N[CH](CCC[CH](N)C(O)=O)C(O)=O                                                                 SMILES             CACTVS                 3.370   25192   API
+      O=C(O)C(N)CCCC(C(=O)O)N                                                                       SMILES             ACDLabs                12.01   25192   API
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      '(2R,6S)-2,6-diaminoheptanedioic acid'       'SYSTEMATIC NAME'   ACDLabs                12.01   25192   API
+      '(2S,6R)-2,6-bis(azanyl)heptanedioic acid'   'SYSTEMATIC NAME'   'OpenEye OEToolkits'   1.7.2   25192   API
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      C1     C1     C1     C1     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -18.775   .   53.345   .   11.610   .   3.726    -0.379   -0.101   1    .   25192   API
+      C2     C2     C2     C2     .   C   .   .   S   0   .   .   .   1   no   no    .   .   .   .   -18.550   .   51.842   .   11.972   .   2.498    0.269    0.486    2    .   25192   API
+      C3     C3     C3     C3     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -17.378   .   51.807   .   12.955   .   1.249    -0.295   -0.194   3    .   25192   API
+      C4     C4     C4     C4     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -16.911   .   50.796   .   13.800   .   -0.000   0.269    0.486    4    .   25192   API
+      C5     C5     C5     C5     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -15.893   .   50.989   .   14.763   .   -1.250   -0.295   -0.193   5    .   25192   API
+      C6     C6     C6     C6     .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   -14.434   .   50.921   .   14.610   .   -2.499   0.269    0.486    6    .   25192   API
+      C7     C7     C7     C7     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -13.979   .   52.098   .   13.839   .   -3.726   -0.379   -0.100   7    .   25192   API
+      O1     O1     O1     O1     .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -18.650   .   54.295   .   12.271   .   4.374    0.203    -0.938   8    .   25192   API
+      O2     O2     O2     O2     .   O   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   -19.098   .   53.467   .   10.459   .   4.101    -1.600   0.309    9    .   25192   API
+      O3     O3     O3     O3     .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -13.556   .   52.079   .   12.777   .   -4.375   0.203    -0.937   10   .   25192   API
+      O4     O4     O4     O4     .   O   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   -14.096   .   53.163   .   14.385   .   -4.098   -1.602   0.307    11   .   25192   API
+      N2     N2     N2     N2     .   N   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -18.248   .   51.116   .   10.708   .   2.560    1.721    0.269    12   .   25192   API
+      N6     N6     N6     N6     .   N   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -14.192   .   49.753   .   13.787   .   -2.560   1.721    0.270    13   .   25192   API
+      H2     H2     H2     H2     .   H   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   -19.425   .   51.363   .   12.437   .   2.455    0.063    1.555    14   .   25192   API
+      H31    H31    H31    H31    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -16.511   .   52.000   .   12.306   .   1.249    -0.012   -1.246   15   .   25192   API
+      H32    H32    H32    H32    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -17.627   .   52.615   .   13.658   .   1.249    -1.382   -0.109   16   .   25192   API
+      H41    H41    H41    H41    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -17.792   .   50.477   .   14.377   .   -0.000   -0.013   1.539    17   .   25192   API
+      H42    H42    H42    H42    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -16.522   .   50.018   .   13.126   .   -0.000   1.356    0.402    18   .   25192   API
+      H51    H51    H51    H51    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -16.062   .   52.021   .   15.105   .   -1.250   -0.012   -1.246   19   .   25192   API
+      H52    H52    H52    H52    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -16.104   .   50.211   .   15.512   .   -1.250   -1.382   -0.109   20   .   25192   API
+      H6     H6     H6     H6     .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -13.922   .   50.885   .   15.583   .   -2.455   0.063    1.556    21   .   25192   API
+      HO2    HO2    HO2    HO2    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -19.208   .   54.389   .   10.257   .   4.895    -1.975   -0.096   22   .   25192   API
+      HO4    HO4    HO4    HO4    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -13.798   .   53.852   .   13.803   .   -4.893   -1.977   -0.098   23   .   25192   API
+      HN21   HN21   HN21   HN21   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -18.098   .   50.147   .   10.907   .   2.601    1.938    -0.715   24   .   25192   API
+      HN22   HN22   HN22   HN22   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -19.018   .   51.211   .   10.077   .   1.781    2.186    0.710    25   .   25192   API
+      HN61   HN61   HN61   HN61   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -13.209   .   49.645   .   13.641   .   -1.781   2.186    0.711    26   .   25192   API
+      HN62   HN62   HN62   HN62   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -14.552   .   48.941   .   14.247   .   -2.602   1.939    -0.714   27   .   25192   API
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1    .   SING   C1   C2     no   N   1    .   25192   API
+      2    .   DOUB   C1   O1     no   N   2    .   25192   API
+      3    .   SING   C1   O2     no   N   3    .   25192   API
+      4    .   SING   C2   C3     no   N   4    .   25192   API
+      5    .   SING   C2   N2     no   N   5    .   25192   API
+      6    .   SING   C2   H2     no   N   6    .   25192   API
+      7    .   SING   C3   C4     no   N   7    .   25192   API
+      8    .   SING   C3   H31    no   N   8    .   25192   API
+      9    .   SING   C3   H32    no   N   9    .   25192   API
+      10   .   SING   C4   C5     no   N   10   .   25192   API
+      11   .   SING   C4   H41    no   N   11   .   25192   API
+      12   .   SING   C4   H42    no   N   12   .   25192   API
+      13   .   SING   C5   C6     no   N   13   .   25192   API
+      14   .   SING   C5   H51    no   N   14   .   25192   API
+      15   .   SING   C5   H52    no   N   15   .   25192   API
+      16   .   SING   C6   C7     no   N   16   .   25192   API
+      17   .   SING   C6   N6     no   N   17   .   25192   API
+      18   .   SING   C6   H6     no   N   18   .   25192   API
+      19   .   DOUB   C7   O3     no   N   19   .   25192   API
+      20   .   SING   C7   O4     no   N   20   .   25192   API
+      21   .   SING   O2   HO2    no   N   21   .   25192   API
+      22   .   SING   O4   HO4    no   N   22   .   25192   API
+      23   .   SING   N2   HN21   no   N   23   .   25192   API
+      24   .   SING   N2   HN22   no   N   24   .   25192   API
+      25   .   SING   N6   HN61   no   N   25   .   25192   API
+      26   .   SING   N6   HN62   no   N   26   .   25192   API
+   stop_
+save_
+
+save_chem_comp_DAL
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_DAL
+   _Chem_comp.Entry_ID                          25192
+   _Chem_comp.ID                                DAL
+   _Chem_comp.Provenance                        PDB
+   _Chem_comp.Name                              D-ALANINE
+   _Chem_comp.Type                              'D-PEPTIDE LINKING'
+   _Chem_comp.BMRB_code                         DAL
+   _Chem_comp.PDB_code                          DAL
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      2012-11-20
+   _Chem_comp.Modified_date                     2012-11-20
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   A
+   _Chem_comp.Three_letter_code                 DAL
+   _Chem_comp.Number_atoms_all                  13
+   _Chem_comp.Number_atoms_nh                   6
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m1/s1
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                           'C3 H7 N O2'
+   _Chem_comp.Formula_weight                    89.093
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         .
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         .
+   _Chem_comp.Processing_site                   RCSB
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      CC(C(=O)O)N                                                   SMILES             'OpenEye OEToolkits'   1.5.0   25192   DAL
+      C[C@@H](N)C(O)=O                                              SMILES_CANONICAL   CACTVS                 3.341   25192   DAL
+      C[C@H](C(=O)O)N                                               SMILES_CANONICAL   'OpenEye OEToolkits'   1.5.0   25192   DAL
+      C[CH](N)C(O)=O                                                SMILES             CACTVS                 3.341   25192   DAL
+      InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m1/s1   InChI              InChI                  1.03    25192   DAL
+      O=C(O)C(N)C                                                   SMILES             ACDLabs                10.04   25192   DAL
+      QNAYBMKLOCPYGJ-UWTATZPHSA-N                                   InChIKey           InChI                  1.03    25192   DAL
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      '(2R)-2-aminopropanoic acid'   'SYSTEMATIC NAME'   'OpenEye OEToolkits'   1.5.0   25192   DAL
+      D-alanine                      'SYSTEMATIC NAME'   ACDLabs                10.04   25192   DAL
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      N     N     N     N     .   N   .   .   N   0   .   .   .   1   no   no    .   .   .   .   17.005   .   31.325   .   27.552   .   -1.564   -0.992   0.101    1    .   25192   DAL
+      CA    CA    CA    CA    .   C   .   .   R   0   .   .   .   1   no   no    .   .   .   .   17.495   .   30.650   .   26.346   .   -0.724   0.176    0.402    2    .   25192   DAL
+      CB    CB    CB    CB    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   16.859   .   31.287   .   25.124   .   -1.205   1.374    -0.420   3    .   25192   DAL
+      C     C     C     C     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   17.165   .   29.151   .   26.377   .   0.709    -0.132   0.051    4    .   25192   DAL
+      O     O     O     O     .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   16.244   .   28.758   .   27.139   .   1.001    -1.213   -0.403   5    .   25192   DAL
+      OXT   OXT   OXT   OXT   .   O   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   17.840   .   28.394   .   25.631   .   1.660    0.795    0.243    6    .   25192   DAL
+      H     H     H     H     .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   16.893   .   30.656   .   28.287   .   -1.281   -1.723   0.736    7    .   25192   DAL
+      H2    H2    H2    HN2   .   H   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   17.663   .   32.023   .   27.834   .   -2.509   -0.741   0.351    8    .   25192   DAL
+      HA    HA    HA    HA    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   18.589   .   30.759   .   26.304   .   -0.796   0.411    1.464    9    .   25192   DAL
+      HB1   HB1   HB1   1HB   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   16.705   .   32.361   .   25.308   .   -1.133   1.139    -1.481   10   .   25192   DAL
+      HB2   HB2   HB2   2HB   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   17.521   .   31.155   .   24.255   .   -2.241   1.597    -0.166   11   .   25192   DAL
+      HB3   HB3   HB3   3HB   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   15.890   .   30.807   .   24.923   .   -0.582   2.240    -0.197   12   .   25192   DAL
+      HXT   HXT   HXT   HXT   .   H   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   17.544   .   27.498   .   25.738   .   2.580    0.598    0.018    13   .   25192   DAL
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1    .   SING   N     CA    no   N   1    .   25192   DAL
+      2    .   SING   N     H     no   N   2    .   25192   DAL
+      3    .   SING   N     H2    no   N   3    .   25192   DAL
+      4    .   SING   CA    CB    no   N   4    .   25192   DAL
+      5    .   SING   CA    C     no   N   5    .   25192   DAL
+      6    .   SING   CA    HA    no   N   6    .   25192   DAL
+      7    .   SING   CB    HB1   no   N   7    .   25192   DAL
+      8    .   SING   CB    HB2   no   N   8    .   25192   DAL
+      9    .   SING   CB    HB3   no   N   9    .   25192   DAL
+      10   .   DOUB   C     O     no   N   10   .   25192   DAL
+      11   .   SING   C     OXT   no   N   11   .   25192   DAL
+      12   .   SING   OXT   HXT   no   N   12   .   25192   DAL
+   stop_
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         25192
+   _Sample.ID                               1
+   _Sample.Type                             solid
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '50 mM HEPES, pH 7.2'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   entity_1   '[U-13C; U-15N; U-2H]'   .   .   1   $entity_1   .   .   2.5   .   .   mg/ml   .   .   .   .   25192   1
+      2   entity_2   'natural abundance'      .   .   2   $entity_2   .   .   3     .   .   mg/mL   .   .   .   .   25192   1
+      3   HEPES      'natural abundance'      .   .   .   .           .   .   50    .   .   mM      .   .   .   .   25192   1
+   stop_
+save_
+
+save_sample_2
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_2
+   _Sample.Entry_ID                         25192
+   _Sample.ID                               2
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '50 mM HEPES, pH 7.2'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   entity_1   '[U-99% 13C; U-99% 15N]'   .   .   1   $entity_1   .   .   376   .   .   uM   .   .   .   .   25192   2
+      2   HEPES      'natural abundance'        .   .   .   .           .   .   50    .   .   mM   .   .   .   .   25192   2
+   stop_
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       25192
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   0.05   0.002   M     25192   1
+      pH                 7.2    0.1     pH    25192   1
+      pressure           1      .       atm   25192   1
+      temperature        298    0.2     K     25192   1
+   stop_
+save_
+
+############################
+#  Computer software used  #
+############################
+
+
+
+save_Haddock
+   _Software.Sf_category    software
+   _Software.Sf_framecode   Haddock
+   _Software.Entry_ID       25192
+   _Software.ID             1
+   _Software.Name           Haddock
+   _Software.Version        2.1
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Alexandre Bonvin'   .   .   25192   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      refinement             25192   1
+      'structure solution'   25192   1
+   stop_
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         25192
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Agilent
+   _NMR_spectrometer.Model            vnmrs
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+save_
+
+save_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_2
+   _NMR_spectrometer.Entry_ID         25192
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            'Avance III'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   1000
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       25192
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1   spectrometer_1   Agilent   vnmrs          .   600    .   .   .   25192   1
+      2   spectrometer_2   Bruker    'Avance III'   .   1000   .   .   .   25192   1
+   stop_
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       25192
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   '13C-13C DARR'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   solid       .   .   1   $sample_conditions_1   .   .   .   2   $spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25192   1
+      2   hCANH            no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   solid       .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25192   1
+      3   hNH              no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   solid       .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25192   1
+      4   '3D HNCA'        no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25192   1
+   stop_
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       25192
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   water   Ca         .   .   .   .   ppm   0      internal   indirect   0.25144953   .   .   .   .   .   25192   1
+      H   1    water   protons    .   .   .   .   ppm   4.77   internal   direct     1            .   .   .   .   .   25192   1
+      N   15   water   nitrogen   .   .   .   .   ppm   0      internal   indirect   0.10132912   .   .   .   .   .   25192   1
+   stop_
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+
+save_protein_interacting_with_peptidoglycan
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  protein_interacting_with_peptidoglycan
+   _Assigned_chem_shift_list.Entry_ID                      25192
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             0.04
+   _Assigned_chem_shift_list.Chem_shift_13C_err            0.3
+   _Assigned_chem_shift_list.Chem_shift_15N_err            0.15
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      2   hCANH   .   .   .   25192   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   1   2     2     ARG   H    H   1    8.240     0.040   .   1   .   .   .   A   2     ARG   H    .   25192   1
+      2     .   1   1   2     2     ARG   CA   C   13   56.100    0.300   .   1   .   .   .   A   2     ARG   CA   .   25192   1
+      3     .   1   1   2     2     ARG   N    N   15   120.590   0.150   .   1   .   .   .   A   2     ARG   N    .   25192   1
+      4     .   1   1   5     5     LEU   H    H   1    7.721     0.040   .   1   .   .   .   A   5     LEU   H    .   25192   1
+      5     .   1   1   5     5     LEU   CA   C   13   57.263    0.300   .   1   .   .   .   A   5     LEU   CA   .   25192   1
+      6     .   1   1   5     5     LEU   N    N   15   123.666   0.150   .   1   .   .   .   A   5     LEU   N    .   25192   1
+      7     .   1   1   6     6     THR   H    H   1    7.960     0.040   .   1   .   .   .   A   6     THR   H    .   25192   1
+      8     .   1   1   6     6     THR   CA   C   13   59.911    0.300   .   1   .   .   .   A   6     THR   CA   .   25192   1
+      9     .   1   1   6     6     THR   N    N   15   117.830   0.150   .   1   .   .   .   A   6     THR   N    .   25192   1
+      10    .   1   1   7     7     TYR   H    H   1    9.355     0.040   .   1   .   .   .   A   7     TYR   H    .   25192   1
+      11    .   1   1   7     7     TYR   CA   C   13   55.936    0.300   .   1   .   .   .   A   7     TYR   CA   .   25192   1
+      12    .   1   1   7     7     TYR   N    N   15   127.565   0.150   .   1   .   .   .   A   7     TYR   N    .   25192   1
+      13    .   1   1   8     8     GLN   H    H   1    7.609     0.040   .   1   .   .   .   A   8     GLN   H    .   25192   1
+      14    .   1   1   8     8     GLN   CA   C   13   53.769    0.300   .   1   .   .   .   A   8     GLN   CA   .   25192   1
+      15    .   1   1   8     8     GLN   N    N   15   126.962   0.150   .   1   .   .   .   A   8     GLN   N    .   25192   1
+      16    .   1   1   9     9     VAL   H    H   1    8.490     0.040   .   1   .   .   .   A   9     VAL   H    .   25192   1
+      17    .   1   1   9     9     VAL   CA   C   13   63.425    0.300   .   1   .   .   .   A   9     VAL   CA   .   25192   1
+      18    .   1   1   9     9     VAL   N    N   15   125.507   0.150   .   1   .   .   .   A   9     VAL   N    .   25192   1
+      19    .   1   1   10    10    LYS   H    H   1    9.092     0.040   .   1   .   .   .   A   10    LYS   H    .   25192   1
+      20    .   1   1   10    10    LYS   CA   C   13   53.770    0.300   .   1   .   .   .   A   10    LYS   CA   .   25192   1
+      21    .   1   1   10    10    LYS   N    N   15   130.476   0.150   .   1   .   .   .   A   10    LYS   N    .   25192   1
+      22    .   1   1   11    11    GLN   H    H   1    8.855     0.040   .   1   .   .   .   A   11    GLN   H    .   25192   1
+      23    .   1   1   11    11    GLN   CA   C   13   57.567    0.300   .   1   .   .   .   A   11    GLN   CA   .   25192   1
+      24    .   1   1   11    11    GLN   N    N   15   122.056   0.150   .   1   .   .   .   A   11    GLN   N    .   25192   1
+      25    .   1   1   13    13    ASP   H    H   1    7.891     0.040   .   1   .   .   .   A   13    ASP   H    .   25192   1
+      26    .   1   1   13    13    ASP   CA   C   13   55.078    0.300   .   1   .   .   .   A   13    ASP   CA   .   25192   1
+      27    .   1   1   13    13    ASP   N    N   15   121.156   0.150   .   1   .   .   .   A   13    ASP   N    .   25192   1
+      28    .   1   1   15    15    LEU   H    H   1    9.012     0.040   .   1   .   .   .   A   15    LEU   H    .   25192   1
+      29    .   1   1   15    15    LEU   CA   C   13   58.548    0.300   .   1   .   .   .   A   15    LEU   CA   .   25192   1
+      30    .   1   1   15    15    LEU   N    N   15   121.417   0.150   .   1   .   .   .   A   15    LEU   N    .   25192   1
+      31    .   1   1   17    17    SER   H    H   1    8.745     0.040   .   1   .   .   .   A   17    SER   H    .   25192   1
+      32    .   1   1   17    17    SER   CA   C   13   61.533    0.300   .   1   .   .   .   A   17    SER   CA   .   25192   1
+      33    .   1   1   17    17    SER   N    N   15   121.216   0.150   .   1   .   .   .   A   17    SER   N    .   25192   1
+      34    .   1   1   19    19    ALA   H    H   1    7.805     0.040   .   1   .   .   .   A   19    ALA   H    .   25192   1
+      35    .   1   1   19    19    ALA   CA   C   13   55.006    0.300   .   1   .   .   .   A   19    ALA   CA   .   25192   1
+      36    .   1   1   19    19    ALA   N    N   15   120.356   0.150   .   1   .   .   .   A   19    ALA   N    .   25192   1
+      37    .   1   1   20    20    ALA   H    H   1    7.862     0.040   .   1   .   .   .   A   20    ALA   H    .   25192   1
+      38    .   1   1   20    20    ALA   CA   C   13   54.221    0.300   .   1   .   .   .   A   20    ALA   CA   .   25192   1
+      39    .   1   1   20    20    ALA   N    N   15   118.288   0.150   .   1   .   .   .   A   20    ALA   N    .   25192   1
+      40    .   1   1   21    21    ASP   H    H   1    8.431     0.040   .   1   .   .   .   A   21    ASP   H    .   25192   1
+      41    .   1   1   21    21    ASP   CA   C   13   57.060    0.300   .   1   .   .   .   A   21    ASP   CA   .   25192   1
+      42    .   1   1   21    21    ASP   N    N   15   121.252   0.150   .   1   .   .   .   A   21    ASP   N    .   25192   1
+      43    .   1   1   22    22    PHE   H    H   1    7.833     0.040   .   1   .   .   .   A   22    PHE   H    .   25192   1
+      44    .   1   1   22    22    PHE   CA   C   13   59.167    0.300   .   1   .   .   .   A   22    PHE   CA   .   25192   1
+      45    .   1   1   22    22    PHE   N    N   15   113.268   0.150   .   1   .   .   .   A   22    PHE   N    .   25192   1
+      46    .   1   1   28    28    ALA   H    H   1    8.093     0.040   .   1   .   .   .   A   28    ALA   H    .   25192   1
+      47    .   1   1   28    28    ALA   CA   C   13   54.176    0.300   .   1   .   .   .   A   28    ALA   CA   .   25192   1
+      48    .   1   1   28    28    ALA   N    N   15   121.673   0.150   .   1   .   .   .   A   28    ALA   N    .   25192   1
+      49    .   1   1   29    29    LEU   H    H   1    7.679     0.040   .   1   .   .   .   A   29    LEU   H    .   25192   1
+      50    .   1   1   29    29    LEU   CA   C   13   57.711    0.300   .   1   .   .   .   A   29    LEU   CA   .   25192   1
+      51    .   1   1   29    29    LEU   N    N   15   119.523   0.150   .   1   .   .   .   A   29    LEU   N    .   25192   1
+      52    .   1   1   30    30    LEU   H    H   1    8.357     0.040   .   1   .   .   .   A   30    LEU   H    .   25192   1
+      53    .   1   1   30    30    LEU   CA   C   13   57.134    0.300   .   1   .   .   .   A   30    LEU   CA   .   25192   1
+      54    .   1   1   30    30    LEU   N    N   15   120.023   0.150   .   1   .   .   .   A   30    LEU   N    .   25192   1
+      55    .   1   1   31    31    GLN   H    H   1    8.140     0.040   .   1   .   .   .   A   31    GLN   H    .   25192   1
+      56    .   1   1   31    31    GLN   CA   C   13   58.036    0.300   .   1   .   .   .   A   31    GLN   CA   .   25192   1
+      57    .   1   1   31    31    GLN   N    N   15   118.956   0.150   .   1   .   .   .   A   31    GLN   N    .   25192   1
+      58    .   1   1   32    32    ALA   H    H   1    7.202     0.040   .   1   .   .   .   A   32    ALA   H    .   25192   1
+      59    .   1   1   32    32    ALA   CA   C   13   52.216    0.300   .   1   .   .   .   A   32    ALA   CA   .   25192   1
+      60    .   1   1   32    32    ALA   N    N   15   116.378   0.150   .   1   .   .   .   A   32    ALA   N    .   25192   1
+      61    .   1   1   40    40    LEU   H    H   1    8.241     0.040   .   1   .   .   .   A   40    LEU   H    .   25192   1
+      62    .   1   1   40    40    LEU   CA   C   13   54.248    0.300   .   1   .   .   .   A   40    LEU   CA   .   25192   1
+      63    .   1   1   40    40    LEU   N    N   15   121.323   0.150   .   1   .   .   .   A   40    LEU   N    .   25192   1
+      64    .   1   1   41    41    THR   H    H   1    8.584     0.040   .   1   .   .   .   A   41    THR   H    .   25192   1
+      65    .   1   1   41    41    THR   CA   C   13   60.506    0.300   .   1   .   .   .   A   41    THR   CA   .   25192   1
+      66    .   1   1   41    41    THR   N    N   15   119.681   0.150   .   1   .   .   .   A   41    THR   N    .   25192   1
+      67    .   1   1   42    42    ALA   H    H   1    8.555     0.040   .   1   .   .   .   A   42    ALA   H    .   25192   1
+      68    .   1   1   42    42    ALA   CA   C   13   53.160    0.300   .   1   .   .   .   A   42    ALA   CA   .   25192   1
+      69    .   1   1   42    42    ALA   N    N   15   127.656   0.150   .   1   .   .   .   A   42    ALA   N    .   25192   1
+      70    .   1   1   43    43    GLY   H    H   1    8.914     0.040   .   1   .   .   .   A   43    GLY   H    .   25192   1
+      71    .   1   1   43    43    GLY   CA   C   13   44.441    0.300   .   1   .   .   .   A   43    GLY   CA   .   25192   1
+      72    .   1   1   43    43    GLY   N    N   15   111.094   0.150   .   1   .   .   .   A   43    GLY   N    .   25192   1
+      73    .   1   1   44    44    GLN   H    H   1    7.627     0.040   .   1   .   .   .   A   44    GLN   H    .   25192   1
+      74    .   1   1   44    44    GLN   CA   C   13   55.244    0.300   .   1   .   .   .   A   44    GLN   CA   .   25192   1
+      75    .   1   1   44    44    GLN   N    N   15   120.927   0.150   .   1   .   .   .   A   44    GLN   N    .   25192   1
+      76    .   1   1   45    45    SER   H    H   1    8.585     0.040   .   1   .   .   .   A   45    SER   H    .   25192   1
+      77    .   1   1   45    45    SER   CA   C   13   57.371    0.300   .   1   .   .   .   A   45    SER   CA   .   25192   1
+      78    .   1   1   45    45    SER   N    N   15   118.123   0.150   .   1   .   .   .   A   45    SER   N    .   25192   1
+      79    .   1   1   46    46    ILE   H    H   1    9.168     0.040   .   1   .   .   .   A   46    ILE   H    .   25192   1
+      80    .   1   1   46    46    ILE   CA   C   13   58.758    0.300   .   1   .   .   .   A   46    ILE   CA   .   25192   1
+      81    .   1   1   46    46    ILE   N    N   15   121.125   0.150   .   1   .   .   .   A   46    ILE   N    .   25192   1
+      82    .   1   1   47    47    VAL   H    H   1    9.274     0.040   .   1   .   .   .   A   47    VAL   H    .   25192   1
+      83    .   1   1   47    47    VAL   CA   C   13   59.455    0.300   .   1   .   .   .   A   47    VAL   CA   .   25192   1
+      84    .   1   1   47    47    VAL   N    N   15   119.344   0.150   .   1   .   .   .   A   47    VAL   N    .   25192   1
+      85    .   1   1   48    48    ILE   H    H   1    8.221     0.040   .   1   .   .   .   A   48    ILE   H    .   25192   1
+      86    .   1   1   48    48    ILE   CA   C   13   53.827    0.300   .   1   .   .   .   A   48    ILE   CA   .   25192   1
+      87    .   1   1   48    48    ILE   N    N   15   124.693   0.150   .   1   .   .   .   A   48    ILE   N    .   25192   1
+      88    .   1   1   50    50    GLY   H    H   1    8.070     0.040   .   1   .   .   .   A   50    GLY   H    .   25192   1
+      89    .   1   1   50    50    GLY   CA   C   13   45.083    0.300   .   1   .   .   .   A   50    GLY   CA   .   25192   1
+      90    .   1   1   50    50    GLY   N    N   15   105.644   0.150   .   1   .   .   .   A   50    GLY   N    .   25192   1
+      91    .   1   1   51    51    LEU   H    H   1    7.228     0.040   .   1   .   .   .   A   51    LEU   H    .   25192   1
+      92    .   1   1   51    51    LEU   CA   C   13   50.568    0.300   .   1   .   .   .   A   51    LEU   CA   .   25192   1
+      93    .   1   1   51    51    LEU   N    N   15   121.973   0.150   .   1   .   .   .   A   51    LEU   N    .   25192   1
+      94    .   1   1   53    53    ASP   H    H   1    7.570     0.040   .   1   .   .   .   A   53    ASP   H    .   25192   1
+      95    .   1   1   53    53    ASP   CA   C   13   51.537    0.300   .   1   .   .   .   A   53    ASP   CA   .   25192   1
+      96    .   1   1   53    53    ASP   N    N   15   116.348   0.150   .   1   .   .   .   A   53    ASP   N    .   25192   1
+      97    .   1   1   56    56    THR   H    H   1    8.046     0.040   .   1   .   .   .   A   56    THR   H    .   25192   1
+      98    .   1   1   56    56    THR   CA   C   13   61.551    0.300   .   1   .   .   .   A   56    THR   CA   .   25192   1
+      99    .   1   1   56    56    THR   N    N   15   109.501   0.150   .   1   .   .   .   A   56    THR   N    .   25192   1
+      100   .   1   1   60    60    HIS   H    H   1    8.494     0.040   .   1   .   .   .   A   60    HIS   H    .   25192   1
+      101   .   1   1   60    60    HIS   CA   C   13   55.368    0.300   .   1   .   .   .   A   60    HIS   CA   .   25192   1
+      102   .   1   1   60    60    HIS   N    N   15   116.674   0.150   .   1   .   .   .   A   60    HIS   N    .   25192   1
+      103   .   1   1   62    62    ALA   H    H   1    8.955     0.040   .   1   .   .   .   A   62    ALA   H    .   25192   1
+      104   .   1   1   62    62    ALA   CA   C   13   49.801    0.300   .   1   .   .   .   A   62    ALA   CA   .   25192   1
+      105   .   1   1   62    62    ALA   N    N   15   129.320   0.150   .   1   .   .   .   A   62    ALA   N    .   25192   1
+      106   .   1   1   63    63    VAL   H    H   1    9.513     0.040   .   1   .   .   .   A   63    VAL   H    .   25192   1
+      107   .   1   1   63    63    VAL   CA   C   13   60.982    0.300   .   1   .   .   .   A   63    VAL   CA   .   25192   1
+      108   .   1   1   63    63    VAL   N    N   15   126.601   0.150   .   1   .   .   .   A   63    VAL   N    .   25192   1
+      109   .   1   1   64    64    SER   H    H   1    8.747     0.040   .   1   .   .   .   A   64    SER   H    .   25192   1
+      110   .   1   1   64    64    SER   CA   C   13   54.626    0.300   .   1   .   .   .   A   64    SER   CA   .   25192   1
+      111   .   1   1   64    64    SER   N    N   15   122.159   0.150   .   1   .   .   .   A   64    SER   N    .   25192   1
+      112   .   1   1   65    65    ILE   H    H   1    8.731     0.040   .   1   .   .   .   A   65    ILE   H    .   25192   1
+      113   .   1   1   65    65    ILE   CA   C   13   63.954    0.300   .   1   .   .   .   A   65    ILE   CA   .   25192   1
+      114   .   1   1   65    65    ILE   N    N   15   127.946   0.150   .   1   .   .   .   A   65    ILE   N    .   25192   1
+      115   .   1   1   69    69    THR   H    H   1    7.623     0.040   .   1   .   .   .   A   69    THR   H    .   25192   1
+      116   .   1   1   69    69    THR   CA   C   13   58.915    0.300   .   1   .   .   .   A   69    THR   CA   .   25192   1
+      117   .   1   1   69    69    THR   N    N   15   107.090   0.150   .   1   .   .   .   A   69    THR   N    .   25192   1
+      118   .   1   1   70    70    LEU   H    H   1    9.332     0.040   .   1   .   .   .   A   70    LEU   H    .   25192   1
+      119   .   1   1   70    70    LEU   CA   C   13   54.752    0.300   .   1   .   .   .   A   70    LEU   CA   .   25192   1
+      120   .   1   1   70    70    LEU   N    N   15   124.993   0.150   .   1   .   .   .   A   70    LEU   N    .   25192   1
+      121   .   1   1   71    71    THR   H    H   1    9.723     0.040   .   1   .   .   .   A   71    THR   H    .   25192   1
+      122   .   1   1   71    71    THR   CA   C   13   61.855    0.300   .   1   .   .   .   A   71    THR   CA   .   25192   1
+      123   .   1   1   71    71    THR   N    N   15   123.202   0.150   .   1   .   .   .   A   71    THR   N    .   25192   1
+      124   .   1   1   72    72    LEU   H    H   1    9.286     0.040   .   1   .   .   .   A   72    LEU   H    .   25192   1
+      125   .   1   1   72    72    LEU   CA   C   13   53.600    0.300   .   1   .   .   .   A   72    LEU   CA   .   25192   1
+      126   .   1   1   72    72    LEU   N    N   15   131.335   0.150   .   1   .   .   .   A   72    LEU   N    .   25192   1
+      127   .   1   1   73    73    SER   H    H   1    9.228     0.040   .   1   .   .   .   A   73    SER   H    .   25192   1
+      128   .   1   1   73    73    SER   CA   C   13   57.606    0.300   .   1   .   .   .   A   73    SER   CA   .   25192   1
+      129   .   1   1   73    73    SER   N    N   15   123.808   0.150   .   1   .   .   .   A   73    SER   N    .   25192   1
+      130   .   1   1   74    74    LEU   H    H   1    8.728     0.040   .   1   .   .   .   A   74    LEU   H    .   25192   1
+      131   .   1   1   74    74    LEU   CA   C   13   53.527    0.300   .   1   .   .   .   A   74    LEU   CA   .   25192   1
+      132   .   1   1   74    74    LEU   N    N   15   123.138   0.150   .   1   .   .   .   A   74    LEU   N    .   25192   1
+      133   .   1   1   75    75    ASN   H    H   1    9.085     0.040   .   1   .   .   .   A   75    ASN   H    .   25192   1
+      134   .   1   1   75    75    ASN   CA   C   13   54.897    0.300   .   1   .   .   .   A   75    ASN   CA   .   25192   1
+      135   .   1   1   75    75    ASN   N    N   15   125.088   0.150   .   1   .   .   .   A   75    ASN   N    .   25192   1
+      136   .   1   1   77    77    ARG   H    H   1    7.850     0.040   .   1   .   .   .   A   77    ARG   H    .   25192   1
+      137   .   1   1   77    77    ARG   CA   C   13   54.730    0.300   .   1   .   .   .   A   77    ARG   CA   .   25192   1
+      138   .   1   1   77    77    ARG   N    N   15   120.280   0.150   .   1   .   .   .   A   77    ARG   N    .   25192   1
+      139   .   1   1   78    78    VAL   H    H   1    8.779     0.040   .   1   .   .   .   A   78    VAL   H    .   25192   1
+      140   .   1   1   78    78    VAL   CA   C   13   64.222    0.300   .   1   .   .   .   A   78    VAL   CA   .   25192   1
+      141   .   1   1   78    78    VAL   N    N   15   125.926   0.150   .   1   .   .   .   A   78    VAL   N    .   25192   1
+      142   .   1   1   80    80    LYS   H    H   1    7.713     0.040   .   1   .   .   .   A   80    LYS   H    .   25192   1
+      143   .   1   1   80    80    LYS   CA   C   13   55.203    0.300   .   1   .   .   .   A   80    LYS   CA   .   25192   1
+      144   .   1   1   80    80    LYS   N    N   15   117.190   0.150   .   1   .   .   .   A   80    LYS   N    .   25192   1
+      145   .   1   1   81    81    THR   H    H   1    7.997     0.040   .   1   .   .   .   A   81    THR   H    .   25192   1
+      146   .   1   1   81    81    THR   CA   C   13   61.444    0.300   .   1   .   .   .   A   81    THR   CA   .   25192   1
+      147   .   1   1   81    81    THR   N    N   15   118.057   0.150   .   1   .   .   .   A   81    THR   N    .   25192   1
+      148   .   1   1   84    84    ILE   H    H   1    7.358     0.040   .   1   .   .   .   A   84    ILE   H    .   25192   1
+      149   .   1   1   84    84    ILE   CA   C   13   58.964    0.300   .   1   .   .   .   A   84    ILE   CA   .   25192   1
+      150   .   1   1   84    84    ILE   N    N   15   109.273   0.150   .   1   .   .   .   A   84    ILE   N    .   25192   1
+      151   .   1   1   85    85    ALA   H    H   1    9.329     0.040   .   1   .   .   .   A   85    ALA   H    .   25192   1
+      152   .   1   1   85    85    ALA   CA   C   13   49.940    0.300   .   1   .   .   .   A   85    ALA   CA   .   25192   1
+      153   .   1   1   85    85    ALA   N    N   15   120.385   0.150   .   1   .   .   .   A   85    ALA   N    .   25192   1
+      154   .   1   1   86    86    VAL   H    H   1    7.753     0.040   .   1   .   .   .   A   86    VAL   H    .   25192   1
+      155   .   1   1   86    86    VAL   CA   C   13   58.683    0.300   .   1   .   .   .   A   86    VAL   CA   .   25192   1
+      156   .   1   1   86    86    VAL   N    N   15   113.313   0.150   .   1   .   .   .   A   86    VAL   N    .   25192   1
+      157   .   1   1   88    88    LYS   H    H   1    7.539     0.040   .   1   .   .   .   A   88    LYS   H    .   25192   1
+      158   .   1   1   88    88    LYS   CA   C   13   58.708    0.300   .   1   .   .   .   A   88    LYS   CA   .   25192   1
+      159   .   1   1   88    88    LYS   N    N   15   123.065   0.150   .   1   .   .   .   A   88    LYS   N    .   25192   1
+      160   .   1   1   96    96    GLY   H    H   1    8.167     0.040   .   1   .   .   .   A   96    GLY   H    .   25192   1
+      161   .   1   1   96    96    GLY   CA   C   13   45.277    0.300   .   1   .   .   .   A   96    GLY   CA   .   25192   1
+      162   .   1   1   96    96    GLY   N    N   15   109.877   0.150   .   1   .   .   .   A   96    GLY   N    .   25192   1
+      163   .   1   1   97    97    GLU   H    H   1    7.649     0.040   .   1   .   .   .   A   97    GLU   H    .   25192   1
+      164   .   1   1   97    97    GLU   CA   C   13   54.955    0.300   .   1   .   .   .   A   97    GLU   CA   .   25192   1
+      165   .   1   1   97    97    GLU   N    N   15   119.740   0.150   .   1   .   .   .   A   97    GLU   N    .   25192   1
+      166   .   1   1   98    98    PHE   H    H   1    8.956     0.040   .   1   .   .   .   A   98    PHE   H    .   25192   1
+      167   .   1   1   98    98    PHE   CA   C   13   54.558    0.300   .   1   .   .   .   A   98    PHE   CA   .   25192   1
+      168   .   1   1   98    98    PHE   N    N   15   123.056   0.150   .   1   .   .   .   A   98    PHE   N    .   25192   1
+      169   .   1   1   99    99    TYR   H    H   1    8.472     0.040   .   1   .   .   .   A   99    TYR   H    .   25192   1
+      170   .   1   1   99    99    TYR   CA   C   13   54.880    0.300   .   1   .   .   .   A   99    TYR   CA   .   25192   1
+      171   .   1   1   99    99    TYR   N    N   15   116.156   0.150   .   1   .   .   .   A   99    TYR   N    .   25192   1
+      172   .   1   1   100   100   ILE   H    H   1    8.485     0.040   .   1   .   .   .   A   100   ILE   H    .   25192   1
+      173   .   1   1   100   100   ILE   CA   C   13   60.952    0.300   .   1   .   .   .   A   100   ILE   CA   .   25192   1
+      174   .   1   1   100   100   ILE   N    N   15   121.482   0.150   .   1   .   .   .   A   100   ILE   N    .   25192   1
+      175   .   1   1   101   101   ILE   H    H   1    8.642     0.040   .   1   .   .   .   A   101   ILE   H    .   25192   1
+      176   .   1   1   101   101   ILE   CA   C   13   60.291    0.300   .   1   .   .   .   A   101   ILE   CA   .   25192   1
+      177   .   1   1   101   101   ILE   N    N   15   122.849   0.150   .   1   .   .   .   A   101   ILE   N    .   25192   1
+      178   .   1   1   104   104   GLN   H    H   1    9.536     0.040   .   1   .   .   .   A   104   GLN   H    .   25192   1
+      179   .   1   1   104   104   GLN   CA   C   13   54.320    0.300   .   1   .   .   .   A   104   GLN   CA   .   25192   1
+      180   .   1   1   104   104   GLN   N    N   15   120.590   0.150   .   1   .   .   .   A   104   GLN   N    .   25192   1
+      181   .   1   1   105   105   ARG   H    H   1    8.801     0.040   .   1   .   .   .   A   105   ARG   H    .   25192   1
+      182   .   1   1   105   105   ARG   CA   C   13   56.737    0.300   .   1   .   .   .   A   105   ARG   CA   .   25192   1
+      183   .   1   1   105   105   ARG   N    N   15   126.871   0.150   .   1   .   .   .   A   105   ARG   N    .   25192   1
+      184   .   1   1   114   114   TYR   H    H   1    7.920     0.040   .   1   .   .   .   A   114   TYR   H    .   25192   1
+      185   .   1   1   114   114   TYR   CA   C   13   58.757    0.300   .   1   .   .   .   A   114   TYR   CA   .   25192   1
+      186   .   1   1   114   114   TYR   N    N   15   120.356   0.150   .   1   .   .   .   A   114   TYR   N    .   25192   1
+      187   .   1   1   115   115   TRP   H    H   1    8.604     0.040   .   1   .   .   .   A   115   TRP   H    .   25192   1
+      188   .   1   1   115   115   TRP   CA   C   13   57.506    0.300   .   1   .   .   .   A   115   TRP   CA   .   25192   1
+      189   .   1   1   115   115   TRP   N    N   15   117.890   0.150   .   1   .   .   .   A   115   TRP   N    .   25192   1
+      190   .   1   1   116   116   LEU   H    H   1    9.389     0.040   .   1   .   .   .   A   116   LEU   H    .   25192   1
+      191   .   1   1   116   116   LEU   CA   C   13   53.489    0.300   .   1   .   .   .   A   116   LEU   CA   .   25192   1
+      192   .   1   1   116   116   LEU   N    N   15   129.576   0.150   .   1   .   .   .   A   116   LEU   N    .   25192   1
+      193   .   1   1   117   117   SER   H    H   1    8.400     0.040   .   1   .   .   .   A   117   SER   H    .   25192   1
+      194   .   1   1   117   117   SER   CA   C   13   59.659    0.300   .   1   .   .   .   A   117   SER   CA   .   25192   1
+      195   .   1   1   117   117   SER   N    N   15   119.490   0.150   .   1   .   .   .   A   117   SER   N    .   25192   1
+      196   .   1   1   118   118   LEU   H    H   1    7.929     0.040   .   1   .   .   .   A   118   LEU   H    .   25192   1
+      197   .   1   1   118   118   LEU   CA   C   13   51.852    0.300   .   1   .   .   .   A   118   LEU   CA   .   25192   1
+      198   .   1   1   118   118   LEU   N    N   15   123.056   0.150   .   1   .   .   .   A   118   LEU   N    .   25192   1
+      199   .   1   1   119   119   SER   H    H   1    7.591     0.040   .   1   .   .   .   A   119   SER   H    .   25192   1
+      200   .   1   1   119   119   SER   CA   C   13   57.989    0.300   .   1   .   .   .   A   119   SER   CA   .   25192   1
+      201   .   1   1   119   119   SER   N    N   15   113.934   0.150   .   1   .   .   .   A   119   SER   N    .   25192   1
+      202   .   1   1   120   120   LYS   H    H   1    8.169     0.040   .   1   .   .   .   A   120   LYS   H    .   25192   1
+      203   .   1   1   120   120   LYS   CA   C   13   55.109    0.300   .   1   .   .   .   A   120   LYS   CA   .   25192   1
+      204   .   1   1   120   120   LYS   N    N   15   122.128   0.150   .   1   .   .   .   A   120   LYS   N    .   25192   1
+      205   .   1   1   121   121   GLN   H    H   1    8.711     0.040   .   1   .   .   .   A   121   GLN   H    .   25192   1
+      206   .   1   1   121   121   GLN   CA   C   13   58.553    0.300   .   1   .   .   .   A   121   GLN   CA   .   25192   1
+      207   .   1   1   121   121   GLN   N    N   15   127.464   0.150   .   1   .   .   .   A   121   GLN   N    .   25192   1
+      208   .   1   1   122   122   HIS   H    H   1    8.497     0.040   .   1   .   .   .   A   122   HIS   H    .   25192   1
+      209   .   1   1   122   122   HIS   CA   C   13   58.707    0.300   .   1   .   .   .   A   122   HIS   CA   .   25192   1
+      210   .   1   1   122   122   HIS   N    N   15   114.171   0.150   .   1   .   .   .   A   122   HIS   N    .   25192   1
+      211   .   1   1   123   123   TYR   H    H   1    8.772     0.040   .   1   .   .   .   A   123   TYR   H    .   25192   1
+      212   .   1   1   123   123   TYR   CA   C   13   55.980    0.300   .   1   .   .   .   A   123   TYR   CA   .   25192   1
+      213   .   1   1   123   123   TYR   N    N   15   118.956   0.150   .   1   .   .   .   A   123   TYR   N    .   25192   1
+      214   .   1   1   124   124   GLY   H    H   1    7.380     0.040   .   1   .   .   .   A   124   GLY   H    .   25192   1
+      215   .   1   1   124   124   GLY   CA   C   13   44.823    0.300   .   1   .   .   .   A   124   GLY   CA   .   25192   1
+      216   .   1   1   124   124   GLY   N    N   15   108.002   0.150   .   1   .   .   .   A   124   GLY   N    .   25192   1
+      217   .   1   1   125   125   ILE   H    H   1    8.325     0.040   .   1   .   .   .   A   125   ILE   H    .   25192   1
+      218   .   1   1   125   125   ILE   CA   C   13   59.620    0.300   .   1   .   .   .   A   125   ILE   CA   .   25192   1
+      219   .   1   1   125   125   ILE   N    N   15   120.615   0.150   .   1   .   .   .   A   125   ILE   N    .   25192   1
+      220   .   1   1   126   126   HIS   H    H   1    8.866     0.040   .   1   .   .   .   A   126   HIS   H    .   25192   1
+      221   .   1   1   126   126   HIS   CA   C   13   53.866    0.300   .   1   .   .   .   A   126   HIS   CA   .   25192   1
+      222   .   1   1   126   126   HIS   N    N   15   123.610   0.150   .   1   .   .   .   A   126   HIS   N    .   25192   1
+      223   .   1   1   127   127   GLY   H    H   1    8.389     0.040   .   1   .   .   .   A   127   GLY   H    .   25192   1
+      224   .   1   1   127   127   GLY   CA   C   13   44.158    0.300   .   1   .   .   .   A   127   GLY   CA   .   25192   1
+      225   .   1   1   127   127   GLY   N    N   15   106.833   0.150   .   1   .   .   .   A   127   GLY   N    .   25192   1
+      226   .   1   1   128   128   THR   H    H   1    7.687     0.040   .   1   .   .   .   A   128   THR   H    .   25192   1
+      227   .   1   1   128   128   THR   CA   C   13   59.738    0.300   .   1   .   .   .   A   128   THR   CA   .   25192   1
+      228   .   1   1   128   128   THR   N    N   15   109.303   0.150   .   1   .   .   .   A   128   THR   N    .   25192   1
+      229   .   1   1   132   132   ALA   H    H   1    7.766     0.040   .   1   .   .   .   A   132   ALA   H    .   25192   1
+      230   .   1   1   132   132   ALA   CA   C   13   53.489    0.300   .   1   .   .   .   A   132   ALA   CA   .   25192   1
+      231   .   1   1   132   132   ALA   N    N   15   118.797   0.150   .   1   .   .   .   A   132   ALA   N    .   25192   1
+      232   .   1   1   134   134   ILE   H    H   1    6.867     0.040   .   1   .   .   .   A   134   ILE   H    .   25192   1
+      233   .   1   1   134   134   ILE   CA   C   13   60.814    0.300   .   1   .   .   .   A   134   ILE   CA   .   25192   1
+      234   .   1   1   134   134   ILE   N    N   15   119.356   0.150   .   1   .   .   .   A   134   ILE   N    .   25192   1
+      235   .   1   1   137   137   ALA   H    H   1    8.339     0.040   .   1   .   .   .   A   137   ALA   H    .   25192   1
+      236   .   1   1   137   137   ALA   CA   C   13   51.623    0.300   .   1   .   .   .   A   137   ALA   CA   .   25192   1
+      237   .   1   1   137   137   ALA   N    N   15   122.879   0.150   .   1   .   .   .   A   137   ALA   N    .   25192   1
+      238   .   1   1   138   138   VAL   H    H   1    8.284     0.040   .   1   .   .   .   A   138   VAL   H    .   25192   1
+      239   .   1   1   138   138   VAL   CA   C   13   58.671    0.300   .   1   .   .   .   A   138   VAL   CA   .   25192   1
+      240   .   1   1   138   138   VAL   N    N   15   116.560   0.150   .   1   .   .   .   A   138   VAL   N    .   25192   1
+      241   .   1   1   140   140   LYS   H    H   1    8.100     0.040   .   1   .   .   .   A   140   LYS   H    .   25192   1
+      242   .   1   1   140   140   LYS   CA   C   13   55.930    0.300   .   1   .   .   .   A   140   LYS   CA   .   25192   1
+      243   .   1   1   140   140   LYS   N    N   15   120.060   0.150   .   1   .   .   .   A   140   LYS   N    .   25192   1
+      244   .   1   1   143   143   ILE   H    H   1    7.472     0.040   .   1   .   .   .   A   143   ILE   H    .   25192   1
+      245   .   1   1   143   143   ILE   CA   C   13   61.812    0.300   .   1   .   .   .   A   143   ILE   CA   .   25192   1
+      246   .   1   1   143   143   ILE   N    N   15   125.895   0.150   .   1   .   .   .   A   143   ILE   N    .   25192   1
+      247   .   1   1   144   144   ARG   H    H   1    8.102     0.040   .   1   .   .   .   A   144   ARG   H    .   25192   1
+      248   .   1   1   144   144   ARG   CA   C   13   54.602    0.300   .   1   .   .   .   A   144   ARG   CA   .   25192   1
+      249   .   1   1   144   144   ARG   N    N   15   129.479   0.150   .   1   .   .   .   A   144   ARG   N    .   25192   1
+      250   .   1   1   145   145   MET   H    H   1    8.963     0.040   .   1   .   .   .   A   145   MET   H    .   25192   1
+      251   .   1   1   145   145   MET   CA   C   13   53.818    0.300   .   1   .   .   .   A   145   MET   CA   .   25192   1
+      252   .   1   1   145   145   MET   N    N   15   124.301   0.150   .   1   .   .   .   A   145   MET   N    .   25192   1
+      253   .   1   1   148   148   LYS   H    H   1    9.226     0.040   .   1   .   .   .   A   148   LYS   H    .   25192   1
+      254   .   1   1   148   148   LYS   CA   C   13   58.974    0.300   .   1   .   .   .   A   148   LYS   CA   .   25192   1
+      255   .   1   1   148   148   LYS   N    N   15   116.523   0.150   .   1   .   .   .   A   148   LYS   N    .   25192   1
+      256   .   1   1   149   149   ASP   H    H   1    6.759     0.040   .   1   .   .   .   A   149   ASP   H    .   25192   1
+      257   .   1   1   149   149   ASP   CA   C   13   56.160    0.300   .   1   .   .   .   A   149   ASP   CA   .   25192   1
+      258   .   1   1   149   149   ASP   N    N   15   120.023   0.150   .   1   .   .   .   A   149   ASP   N    .   25192   1
+      259   .   1   1   151   151   ILE   H    H   1    7.853     0.040   .   1   .   .   .   A   151   ILE   H    .   25192   1
+      260   .   1   1   151   151   ILE   CA   C   13   65.576    0.300   .   1   .   .   .   A   151   ILE   CA   .   25192   1
+      261   .   1   1   151   151   ILE   N    N   15   122.947   0.150   .   1   .   .   .   A   151   ILE   N    .   25192   1
+      262   .   1   1   152   152   GLU   H    H   1    7.347     0.040   .   1   .   .   .   A   152   GLU   H    .   25192   1
+      263   .   1   1   152   152   GLU   CA   C   13   59.174    0.300   .   1   .   .   .   A   152   GLU   CA   .   25192   1
+      264   .   1   1   152   152   GLU   N    N   15   120.927   0.150   .   1   .   .   .   A   152   GLU   N    .   25192   1
+      265   .   1   1   156   156   ILE   H    H   1    7.357     0.040   .   1   .   .   .   A   156   ILE   H    .   25192   1
+      266   .   1   1   156   156   ILE   CA   C   13   62.834    0.300   .   1   .   .   .   A   156   ILE   CA   .   25192   1
+      267   .   1   1   156   156   ILE   N    N   15   121.323   0.150   .   1   .   .   .   A   156   ILE   N    .   25192   1
+      268   .   1   1   159   159   ASN   H    H   1    9.143     0.040   .   1   .   .   .   A   159   ASN   H    .   25192   1
+      269   .   1   1   159   159   ASN   CA   C   13   54.158    0.300   .   1   .   .   .   A   159   ASN   CA   .   25192   1
+      270   .   1   1   159   159   ASN   N    N   15   121.186   0.150   .   1   .   .   .   A   159   ASN   N    .   25192   1
+      271   .   1   1   160   160   GLY   H    H   1    9.861     0.040   .   1   .   .   .   A   160   GLY   H    .   25192   1
+      272   .   1   1   160   160   GLY   CA   C   13   44.107    0.300   .   1   .   .   .   A   160   GLY   CA   .   25192   1
+      273   .   1   1   160   160   GLY   N    N   15   111.094   0.150   .   1   .   .   .   A   160   GLY   N    .   25192   1
+      274   .   1   1   161   161   THR   H    H   1    7.075     0.040   .   1   .   .   .   A   161   THR   H    .   25192   1
+      275   .   1   1   161   161   THR   CA   C   13   65.368    0.300   .   1   .   .   .   A   161   THR   CA   .   25192   1
+      276   .   1   1   161   161   THR   N    N   15   114.111   0.150   .   1   .   .   .   A   161   THR   N    .   25192   1
+      277   .   1   1   162   162   ARG   H    H   1    8.829     0.040   .   1   .   .   .   A   162   ARG   H    .   25192   1
+      278   .   1   1   162   162   ARG   CA   C   13   56.701    0.300   .   1   .   .   .   A   162   ARG   CA   .   25192   1
+      279   .   1   1   162   162   ARG   N    N   15   126.288   0.150   .   1   .   .   .   A   162   ARG   N    .   25192   1
+      280   .   1   1   164   164   THR   H    H   1    9.274     0.040   .   1   .   .   .   A   164   THR   H    .   25192   1
+      281   .   1   1   164   164   THR   CA   C   13   60.964    0.300   .   1   .   .   .   A   164   THR   CA   .   25192   1
+      282   .   1   1   164   164   THR   N    N   15   122.776   0.150   .   1   .   .   .   A   164   THR   N    .   25192   1
+      283   .   1   1   165   165   ILE   H    H   1    9.107     0.040   .   1   .   .   .   A   165   ILE   H    .   25192   1
+      284   .   1   1   165   165   ILE   CA   C   13   60.144    0.300   .   1   .   .   .   A   165   ILE   CA   .   25192   1
+      285   .   1   1   165   165   ILE   N    N   15   126.456   0.150   .   1   .   .   .   A   165   ILE   N    .   25192   1
+      286   .   1   1   169   169   SER   H    H   1    8.262     0.040   .   1   .   .   .   A   169   SER   H    .   25192   1
+      287   .   1   1   169   169   SER   CA   C   13   58.720    0.300   .   1   .   .   .   A   169   SER   CA   .   25192   1
+      288   .   1   1   169   169   SER   N    N   15   115.592   0.150   .   1   .   .   .   A   169   SER   N    .   25192   1
+   stop_
+save_
+
+save_protein_free_in_solution
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  protein_free_in_solution
+   _Assigned_chem_shift_list.Entry_ID                      25192
+   _Assigned_chem_shift_list.ID                            2
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             0.03
+   _Assigned_chem_shift_list.Chem_shift_13C_err            0.25
+   _Assigned_chem_shift_list.Chem_shift_15N_err            0.1
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      4   '3D HNCA'   .   .   .   25192   2
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   1   2     2     ARG   H    H   1    8.281     0.030   .   1   .   .   .   A   2     ARG   H    .   25192   2
+      2     .   1   1   2     2     ARG   CA   C   13   56.213    0.250   .   1   .   .   .   A   2     ARG   CA   .   25192   2
+      3     .   1   1   2     2     ARG   N    N   15   120.542   0.100   .   1   .   .   .   A   2     ARG   N    .   25192   2
+      4     .   1   1   5     5     LEU   H    H   1    7.786     0.030   .   1   .   .   .   A   5     LEU   H    .   25192   2
+      5     .   1   1   5     5     LEU   CA   C   13   56.955    0.250   .   1   .   .   .   A   5     LEU   CA   .   25192   2
+      6     .   1   1   5     5     LEU   N    N   15   123.677   0.100   .   1   .   .   .   A   5     LEU   N    .   25192   2
+      7     .   1   1   6     6     THR   H    H   1    7.986     0.030   .   1   .   .   .   A   6     THR   H    .   25192   2
+      8     .   1   1   6     6     THR   CA   C   13   59.967    0.250   .   1   .   .   .   A   6     THR   CA   .   25192   2
+      9     .   1   1   6     6     THR   N    N   15   118.289   0.100   .   1   .   .   .   A   6     THR   N    .   25192   2
+      10    .   1   1   7     7     TYR   H    H   1    9.304     0.030   .   1   .   .   .   A   7     TYR   H    .   25192   2
+      11    .   1   1   7     7     TYR   CA   C   13   55.996    0.250   .   1   .   .   .   A   7     TYR   CA   .   25192   2
+      12    .   1   1   7     7     TYR   N    N   15   127.248   0.100   .   1   .   .   .   A   7     TYR   N    .   25192   2
+      13    .   1   1   8     8     GLN   H    H   1    7.611     0.030   .   1   .   .   .   A   8     GLN   H    .   25192   2
+      14    .   1   1   8     8     GLN   CA   C   13   53.744    0.250   .   1   .   .   .   A   8     GLN   CA   .   25192   2
+      15    .   1   1   8     8     GLN   N    N   15   127.225   0.100   .   1   .   .   .   A   8     GLN   N    .   25192   2
+      16    .   1   1   9     9     VAL   H    H   1    8.529     0.030   .   1   .   .   .   A   9     VAL   H    .   25192   2
+      17    .   1   1   9     9     VAL   CA   C   13   63.720    0.250   .   1   .   .   .   A   9     VAL   CA   .   25192   2
+      18    .   1   1   9     9     VAL   N    N   15   125.401   0.100   .   1   .   .   .   A   9     VAL   N    .   25192   2
+      19    .   1   1   10    10    LYS   H    H   1    9.112     0.030   .   1   .   .   .   A   10    LYS   H    .   25192   2
+      20    .   1   1   10    10    LYS   CA   C   13   53.630    0.250   .   1   .   .   .   A   10    LYS   CA   .   25192   2
+      21    .   1   1   10    10    LYS   N    N   15   130.507   0.100   .   1   .   .   .   A   10    LYS   N    .   25192   2
+      22    .   1   1   11    11    GLN   H    H   1    8.835     0.030   .   1   .   .   .   A   11    GLN   H    .   25192   2
+      23    .   1   1   11    11    GLN   CA   C   13   57.567    0.250   .   1   .   .   .   A   11    GLN   CA   .   25192   2
+      24    .   1   1   11    11    GLN   N    N   15   122.056   0.100   .   1   .   .   .   A   11    GLN   N    .   25192   2
+      25    .   1   1   13    13    ASP   H    H   1    7.871     0.030   .   1   .   .   .   A   13    ASP   H    .   25192   2
+      26    .   1   1   13    13    ASP   CA   C   13   55.078    0.250   .   1   .   .   .   A   13    ASP   CA   .   25192   2
+      27    .   1   1   13    13    ASP   N    N   15   121.156   0.100   .   1   .   .   .   A   13    ASP   N    .   25192   2
+      28    .   1   1   15    15    LEU   H    H   1    9.015     0.030   .   1   .   .   .   A   15    LEU   H    .   25192   2
+      29    .   1   1   15    15    LEU   CA   C   13   58.505    0.250   .   1   .   .   .   A   15    LEU   CA   .   25192   2
+      30    .   1   1   15    15    LEU   N    N   15   121.673   0.100   .   1   .   .   .   A   15    LEU   N    .   25192   2
+      31    .   1   1   17    17    SER   H    H   1    8.715     0.030   .   1   .   .   .   A   17    SER   H    .   25192   2
+      32    .   1   1   17    17    SER   CA   C   13   61.793    0.250   .   1   .   .   .   A   17    SER   CA   .   25192   2
+      33    .   1   1   17    17    SER   N    N   15   121.277   0.100   .   1   .   .   .   A   17    SER   N    .   25192   2
+      34    .   1   1   19    19    ALA   H    H   1    7.787     0.030   .   1   .   .   .   A   19    ALA   H    .   25192   2
+      35    .   1   1   19    19    ALA   CA   C   13   54.914    0.250   .   1   .   .   .   A   19    ALA   CA   .   25192   2
+      36    .   1   1   19    19    ALA   N    N   15   120.390   0.100   .   1   .   .   .   A   19    ALA   N    .   25192   2
+      37    .   1   1   20    20    ALA   H    H   1    7.763     0.030   .   1   .   .   .   A   20    ALA   H    .   25192   2
+      38    .   1   1   20    20    ALA   CA   C   13   54.205    0.250   .   1   .   .   .   A   20    ALA   CA   .   25192   2
+      39    .   1   1   20    20    ALA   N    N   15   117.961   0.100   .   1   .   .   .   A   20    ALA   N    .   25192   2
+      40    .   1   1   21    21    ASP   H    H   1    8.513     0.030   .   1   .   .   .   A   21    ASP   H    .   25192   2
+      41    .   1   1   21    21    ASP   CA   C   13   57.388    0.250   .   1   .   .   .   A   21    ASP   CA   .   25192   2
+      42    .   1   1   21    21    ASP   N    N   15   121.529   0.100   .   1   .   .   .   A   21    ASP   N    .   25192   2
+      43    .   1   1   22    22    PHE   H    H   1    7.813     0.030   .   1   .   .   .   A   22    PHE   H    .   25192   2
+      44    .   1   1   22    22    PHE   CA   C   13   59.167    0.250   .   1   .   .   .   A   22    PHE   CA   .   25192   2
+      45    .   1   1   22    22    PHE   N    N   15   113.268   0.100   .   1   .   .   .   A   22    PHE   N    .   25192   2
+      46    .   1   1   28    28    ALA   H    H   1    8.073     0.030   .   1   .   .   .   A   28    ALA   H    .   25192   2
+      47    .   1   1   28    28    ALA   CA   C   13   54.176    0.250   .   1   .   .   .   A   28    ALA   CA   .   25192   2
+      48    .   1   1   28    28    ALA   N    N   15   121.673   0.100   .   1   .   .   .   A   28    ALA   N    .   25192   2
+      49    .   1   1   29    29    LEU   H    H   1    7.654     0.030   .   1   .   .   .   A   29    LEU   H    .   25192   2
+      50    .   1   1   29    29    LEU   CA   C   13   57.709    0.250   .   1   .   .   .   A   29    LEU   CA   .   25192   2
+      51    .   1   1   29    29    LEU   N    N   15   119.441   0.100   .   1   .   .   .   A   29    LEU   N    .   25192   2
+      52    .   1   1   30    30    LEU   H    H   1    8.335     0.030   .   1   .   .   .   A   30    LEU   H    .   25192   2
+      53    .   1   1   30    30    LEU   CA   C   13   57.116    0.250   .   1   .   .   .   A   30    LEU   CA   .   25192   2
+      54    .   1   1   30    30    LEU   N    N   15   119.832   0.100   .   1   .   .   .   A   30    LEU   N    .   25192   2
+      55    .   1   1   31    31    GLN   H    H   1    8.121     0.030   .   1   .   .   .   A   31    GLN   H    .   25192   2
+      56    .   1   1   31    31    GLN   CA   C   13   58.071    0.250   .   1   .   .   .   A   31    GLN   CA   .   25192   2
+      57    .   1   1   31    31    GLN   N    N   15   118.874   0.100   .   1   .   .   .   A   31    GLN   N    .   25192   2
+      58    .   1   1   32    32    ALA   H    H   1    7.185     0.030   .   1   .   .   .   A   32    ALA   H    .   25192   2
+      59    .   1   1   32    32    ALA   CA   C   13   52.052    0.250   .   1   .   .   .   A   32    ALA   CA   .   25192   2
+      60    .   1   1   32    32    ALA   N    N   15   116.322   0.100   .   1   .   .   .   A   32    ALA   N    .   25192   2
+      61    .   1   1   40    40    LEU   H    H   1    8.221     0.030   .   1   .   .   .   A   40    LEU   H    .   25192   2
+      62    .   1   1   40    40    LEU   CA   C   13   54.248    0.250   .   1   .   .   .   A   40    LEU   CA   .   25192   2
+      63    .   1   1   40    40    LEU   N    N   15   121.323   0.100   .   1   .   .   .   A   40    LEU   N    .   25192   2
+      64    .   1   1   41    41    THR   H    H   1    8.561     0.030   .   1   .   .   .   A   41    THR   H    .   25192   2
+      65    .   1   1   41    41    THR   CA   C   13   60.492    0.250   .   1   .   .   .   A   41    THR   CA   .   25192   2
+      66    .   1   1   41    41    THR   N    N   15   119.691   0.100   .   1   .   .   .   A   41    THR   N    .   25192   2
+      67    .   1   1   42    42    ALA   H    H   1    8.626     0.030   .   1   .   .   .   A   42    ALA   H    .   25192   2
+      68    .   1   1   42    42    ALA   CA   C   13   53.178    0.250   .   1   .   .   .   A   42    ALA   CA   .   25192   2
+      69    .   1   1   42    42    ALA   N    N   15   127.403   0.100   .   1   .   .   .   A   42    ALA   N    .   25192   2
+      70    .   1   1   43    43    GLY   H    H   1    8.884     0.030   .   1   .   .   .   A   43    GLY   H    .   25192   2
+      71    .   1   1   43    43    GLY   CA   C   13   44.293    0.250   .   1   .   .   .   A   43    GLY   CA   .   25192   2
+      72    .   1   1   43    43    GLY   N    N   15   111.207   0.100   .   1   .   .   .   A   43    GLY   N    .   25192   2
+      73    .   1   1   44    44    GLN   H    H   1    7.607     0.030   .   1   .   .   .   A   44    GLN   H    .   25192   2
+      74    .   1   1   44    44    GLN   CA   C   13   55.522    0.250   .   1   .   .   .   A   44    GLN   CA   .   25192   2
+      75    .   1   1   44    44    GLN   N    N   15   120.927   0.100   .   1   .   .   .   A   44    GLN   N    .   25192   2
+      76    .   1   1   45    45    SER   H    H   1    8.562     0.030   .   1   .   .   .   A   45    SER   H    .   25192   2
+      77    .   1   1   45    45    SER   CA   C   13   57.089    0.250   .   1   .   .   .   A   45    SER   CA   .   25192   2
+      78    .   1   1   45    45    SER   N    N   15   117.876   0.100   .   1   .   .   .   A   45    SER   N    .   25192   2
+      79    .   1   1   46    46    ILE   H    H   1    9.233     0.030   .   1   .   .   .   A   46    ILE   H    .   25192   2
+      80    .   1   1   46    46    ILE   CA   C   13   58.701    0.250   .   1   .   .   .   A   46    ILE   CA   .   25192   2
+      81    .   1   1   46    46    ILE   N    N   15   121.031   0.100   .   1   .   .   .   A   46    ILE   N    .   25192   2
+      82    .   1   1   47    47    VAL   H    H   1    9.288     0.030   .   1   .   .   .   A   47    VAL   H    .   25192   2
+      83    .   1   1   47    47    VAL   CA   C   13   59.907    0.250   .   1   .   .   .   A   47    VAL   CA   .   25192   2
+      84    .   1   1   47    47    VAL   N    N   15   119.406   0.100   .   1   .   .   .   A   47    VAL   N    .   25192   2
+      85    .   1   1   48    48    ILE   H    H   1    8.217     0.030   .   1   .   .   .   A   48    ILE   H    .   25192   2
+      86    .   1   1   48    48    ILE   CA   C   13   53.604    0.250   .   1   .   .   .   A   48    ILE   CA   .   25192   2
+      87    .   1   1   48    48    ILE   N    N   15   124.477   0.100   .   1   .   .   .   A   48    ILE   N    .   25192   2
+      88    .   1   1   50    50    GLY   H    H   1    8.041     0.030   .   1   .   .   .   A   50    GLY   H    .   25192   2
+      89    .   1   1   50    50    GLY   CA   C   13   44.975    0.250   .   1   .   .   .   A   50    GLY   CA   .   25192   2
+      90    .   1   1   50    50    GLY   N    N   15   105.739   0.100   .   1   .   .   .   A   50    GLY   N    .   25192   2
+      91    .   1   1   51    51    LEU   H    H   1    7.208     0.030   .   1   .   .   .   A   51    LEU   H    .   25192   2
+      92    .   1   1   51    51    LEU   CA   C   13   50.568    0.250   .   1   .   .   .   A   51    LEU   CA   .   25192   2
+      93    .   1   1   51    51    LEU   N    N   15   121.973   0.100   .   1   .   .   .   A   51    LEU   N    .   25192   2
+      94    .   1   1   53    53    ASP   H    H   1    7.544     0.030   .   1   .   .   .   A   53    ASP   H    .   25192   2
+      95    .   1   1   53    53    ASP   CA   C   13   51.377    0.250   .   1   .   .   .   A   53    ASP   CA   .   25192   2
+      96    .   1   1   53    53    ASP   N    N   15   116.363   0.100   .   1   .   .   .   A   53    ASP   N    .   25192   2
+      97    .   1   1   56    56    THR   H    H   1    8.014     0.030   .   1   .   .   .   A   56    THR   H    .   25192   2
+      98    .   1   1   56    56    THR   CA   C   13   61.784    0.250   .   1   .   .   .   A   56    THR   CA   .   25192   2
+      99    .   1   1   56    56    THR   N    N   15   109.630   0.100   .   1   .   .   .   A   56    THR   N    .   25192   2
+      100   .   1   1   60    60    HIS   H    H   1    8.538     0.030   .   1   .   .   .   A   60    HIS   H    .   25192   2
+      101   .   1   1   60    60    HIS   CA   C   13   55.657    0.250   .   1   .   .   .   A   60    HIS   CA   .   25192   2
+      102   .   1   1   60    60    HIS   N    N   15   117.506   0.100   .   1   .   .   .   A   60    HIS   N    .   25192   2
+      103   .   1   1   62    62    ALA   H    H   1    8.928     0.030   .   1   .   .   .   A   62    ALA   H    .   25192   2
+      104   .   1   1   62    62    ALA   CA   C   13   49.500    0.250   .   1   .   .   .   A   62    ALA   CA   .   25192   2
+      105   .   1   1   62    62    ALA   N    N   15   128.743   0.100   .   1   .   .   .   A   62    ALA   N    .   25192   2
+      106   .   1   1   63    63    VAL   H    H   1    9.477     0.030   .   1   .   .   .   A   63    VAL   H    .   25192   2
+      107   .   1   1   63    63    VAL   CA   C   13   60.705    0.250   .   1   .   .   .   A   63    VAL   CA   .   25192   2
+      108   .   1   1   63    63    VAL   N    N   15   126.650   0.100   .   1   .   .   .   A   63    VAL   N    .   25192   2
+      109   .   1   1   64    64    SER   H    H   1    8.760     0.030   .   1   .   .   .   A   64    SER   H    .   25192   2
+      110   .   1   1   64    64    SER   CA   C   13   54.686    0.250   .   1   .   .   .   A   64    SER   CA   .   25192   2
+      111   .   1   1   64    64    SER   N    N   15   122.027   0.100   .   1   .   .   .   A   64    SER   N    .   25192   2
+      112   .   1   1   65    65    ILE   H    H   1    8.706     0.030   .   1   .   .   .   A   65    ILE   H    .   25192   2
+      113   .   1   1   65    65    ILE   CA   C   13   63.885    0.250   .   1   .   .   .   A   65    ILE   CA   .   25192   2
+      114   .   1   1   65    65    ILE   N    N   15   127.940   0.100   .   1   .   .   .   A   65    ILE   N    .   25192   2
+      115   .   1   1   69    69    THR   H    H   1    7.603     0.030   .   1   .   .   .   A   69    THR   H    .   25192   2
+      116   .   1   1   69    69    THR   CA   C   13   58.886    0.250   .   1   .   .   .   A   69    THR   CA   .   25192   2
+      117   .   1   1   69    69    THR   N    N   15   107.251   0.100   .   1   .   .   .   A   69    THR   N    .   25192   2
+      118   .   1   1   70    70    LEU   H    H   1    9.406     0.030   .   1   .   .   .   A   70    LEU   H    .   25192   2
+      119   .   1   1   70    70    LEU   CA   C   13   54.691    0.250   .   1   .   .   .   A   70    LEU   CA   .   25192   2
+      120   .   1   1   70    70    LEU   N    N   15   124.974   0.100   .   1   .   .   .   A   70    LEU   N    .   25192   2
+      121   .   1   1   71    71    THR   H    H   1    9.653     0.030   .   1   .   .   .   A   71    THR   H    .   25192   2
+      122   .   1   1   71    71    THR   CA   C   13   61.751    0.250   .   1   .   .   .   A   71    THR   CA   .   25192   2
+      123   .   1   1   71    71    THR   N    N   15   123.339   0.100   .   1   .   .   .   A   71    THR   N    .   25192   2
+      124   .   1   1   72    72    LEU   H    H   1    9.333     0.030   .   1   .   .   .   A   72    LEU   H    .   25192   2
+      125   .   1   1   72    72    LEU   CA   C   13   53.253    0.250   .   1   .   .   .   A   72    LEU   CA   .   25192   2
+      126   .   1   1   72    72    LEU   N    N   15   131.360   0.100   .   1   .   .   .   A   72    LEU   N    .   25192   2
+      127   .   1   1   73    73    SER   H    H   1    9.330     0.030   .   1   .   .   .   A   73    SER   H    .   25192   2
+      128   .   1   1   73    73    SER   CA   C   13   57.520    0.250   .   1   .   .   .   A   73    SER   CA   .   25192   2
+      129   .   1   1   73    73    SER   N    N   15   123.768   0.100   .   1   .   .   .   A   73    SER   N    .   25192   2
+      130   .   1   1   74    74    LEU   H    H   1    8.697     0.030   .   1   .   .   .   A   74    LEU   H    .   25192   2
+      131   .   1   1   74    74    LEU   CA   C   13   53.451    0.250   .   1   .   .   .   A   74    LEU   CA   .   25192   2
+      132   .   1   1   74    74    LEU   N    N   15   123.016   0.100   .   1   .   .   .   A   74    LEU   N    .   25192   2
+      133   .   1   1   75    75    ASN   H    H   1    9.054     0.030   .   1   .   .   .   A   75    ASN   H    .   25192   2
+      134   .   1   1   75    75    ASN   CA   C   13   54.861    0.250   .   1   .   .   .   A   75    ASN   CA   .   25192   2
+      135   .   1   1   75    75    ASN   N    N   15   125.104   0.100   .   1   .   .   .   A   75    ASN   N    .   25192   2
+      136   .   1   1   77    77    ARG   H    H   1    7.830     0.030   .   1   .   .   .   A   77    ARG   H    .   25192   2
+      137   .   1   1   77    77    ARG   CA   C   13   54.730    0.250   .   1   .   .   .   A   77    ARG   CA   .   25192   2
+      138   .   1   1   77    77    ARG   N    N   15   120.280   0.100   .   1   .   .   .   A   77    ARG   N    .   25192   2
+      139   .   1   1   78    78    VAL   H    H   1    8.727     0.030   .   1   .   .   .   A   78    VAL   H    .   25192   2
+      140   .   1   1   78    78    VAL   CA   C   13   64.672    0.250   .   1   .   .   .   A   78    VAL   CA   .   25192   2
+      141   .   1   1   78    78    VAL   N    N   15   126.273   0.100   .   1   .   .   .   A   78    VAL   N    .   25192   2
+      142   .   1   1   80    80    LYS   H    H   1    7.695     0.030   .   1   .   .   .   A   80    LYS   H    .   25192   2
+      143   .   1   1   80    80    LYS   CA   C   13   55.203    0.250   .   1   .   .   .   A   80    LYS   CA   .   25192   2
+      144   .   1   1   80    80    LYS   N    N   15   117.227   0.100   .   1   .   .   .   A   80    LYS   N    .   25192   2
+      145   .   1   1   81    81    THR   H    H   1    7.998     0.030   .   1   .   .   .   A   81    THR   H    .   25192   2
+      146   .   1   1   81    81    THR   CA   C   13   61.409    0.250   .   1   .   .   .   A   81    THR   CA   .   25192   2
+      147   .   1   1   81    81    THR   N    N   15   117.907   0.100   .   1   .   .   .   A   81    THR   N    .   25192   2
+      148   .   1   1   84    84    ILE   H    H   1    7.344     0.030   .   1   .   .   .   A   84    ILE   H    .   25192   2
+      149   .   1   1   84    84    ILE   CA   C   13   58.854    0.250   .   1   .   .   .   A   84    ILE   CA   .   25192   2
+      150   .   1   1   84    84    ILE   N    N   15   109.275   0.100   .   1   .   .   .   A   84    ILE   N    .   25192   2
+      151   .   1   1   85    85    ALA   H    H   1    9.304     0.030   .   1   .   .   .   A   85    ALA   H    .   25192   2
+      152   .   1   1   85    85    ALA   CA   C   13   49.847    0.250   .   1   .   .   .   A   85    ALA   CA   .   25192   2
+      153   .   1   1   85    85    ALA   N    N   15   120.356   0.100   .   1   .   .   .   A   85    ALA   N    .   25192   2
+      154   .   1   1   86    86    VAL   H    H   1    7.785     0.030   .   1   .   .   .   A   86    VAL   H    .   25192   2
+      155   .   1   1   86    86    VAL   CA   C   13   59.028    0.250   .   1   .   .   .   A   86    VAL   CA   .   25192   2
+      156   .   1   1   86    86    VAL   N    N   15   113.257   0.100   .   1   .   .   .   A   86    VAL   N    .   25192   2
+      157   .   1   1   88    88    LYS   H    H   1    7.476     0.030   .   1   .   .   .   A   88    LYS   H    .   25192   2
+      158   .   1   1   88    88    LYS   CA   C   13   58.703    0.250   .   1   .   .   .   A   88    LYS   CA   .   25192   2
+      159   .   1   1   88    88    LYS   N    N   15   123.137   0.100   .   1   .   .   .   A   88    LYS   N    .   25192   2
+      160   .   1   1   96    96    GLY   H    H   1    8.230     0.030   .   1   .   .   .   A   96    GLY   H    .   25192   2
+      161   .   1   1   96    96    GLY   CA   C   13   44.843    0.250   .   1   .   .   .   A   96    GLY   CA   .   25192   2
+      162   .   1   1   96    96    GLY   N    N   15   110.251   0.100   .   1   .   .   .   A   96    GLY   N    .   25192   2
+      163   .   1   1   97    97    GLU   H    H   1    7.642     0.030   .   1   .   .   .   A   97    GLU   H    .   25192   2
+      164   .   1   1   97    97    GLU   CA   C   13   54.865    0.250   .   1   .   .   .   A   97    GLU   CA   .   25192   2
+      165   .   1   1   97    97    GLU   N    N   15   119.705   0.100   .   1   .   .   .   A   97    GLU   N    .   25192   2
+      166   .   1   1   98    98    PHE   H    H   1    9.007     0.030   .   1   .   .   .   A   98    PHE   H    .   25192   2
+      167   .   1   1   98    98    PHE   CA   C   13   54.587    0.250   .   1   .   .   .   A   98    PHE   CA   .   25192   2
+      168   .   1   1   98    98    PHE   N    N   15   122.958   0.100   .   1   .   .   .   A   98    PHE   N    .   25192   2
+      169   .   1   1   99    99    TYR   H    H   1    8.377     0.030   .   1   .   .   .   A   99    TYR   H    .   25192   2
+      170   .   1   1   99    99    TYR   CA   C   13   54.949    0.250   .   1   .   .   .   A   99    TYR   CA   .   25192   2
+      171   .   1   1   99    99    TYR   N    N   15   115.949   0.100   .   1   .   .   .   A   99    TYR   N    .   25192   2
+      172   .   1   1   100   100   ILE   H    H   1    8.381     0.030   .   1   .   .   .   A   100   ILE   H    .   25192   2
+      173   .   1   1   100   100   ILE   CA   C   13   61.137    0.250   .   1   .   .   .   A   100   ILE   CA   .   25192   2
+      174   .   1   1   100   100   ILE   N    N   15   121.189   0.100   .   1   .   .   .   A   100   ILE   N    .   25192   2
+      175   .   1   1   101   101   ILE   H    H   1    8.613     0.030   .   1   .   .   .   A   101   ILE   H    .   25192   2
+      176   .   1   1   101   101   ILE   CA   C   13   60.503    0.250   .   1   .   .   .   A   101   ILE   CA   .   25192   2
+      177   .   1   1   101   101   ILE   N    N   15   122.771   0.100   .   1   .   .   .   A   101   ILE   N    .   25192   2
+      178   .   1   1   104   104   GLN   H    H   1    9.512     0.030   .   1   .   .   .   A   104   GLN   H    .   25192   2
+      179   .   1   1   104   104   GLN   CA   C   13   54.229    0.250   .   1   .   .   .   A   104   GLN   CA   .   25192   2
+      180   .   1   1   104   104   GLN   N    N   15   120.530   0.100   .   1   .   .   .   A   104   GLN   N    .   25192   2
+      181   .   1   1   105   105   ARG   H    H   1    8.806     0.030   .   1   .   .   .   A   105   ARG   H    .   25192   2
+      182   .   1   1   105   105   ARG   CA   C   13   56.676    0.250   .   1   .   .   .   A   105   ARG   CA   .   25192   2
+      183   .   1   1   105   105   ARG   N    N   15   126.778   0.100   .   1   .   .   .   A   105   ARG   N    .   25192   2
+      184   .   1   1   114   114   TYR   H    H   1    7.900     0.030   .   1   .   .   .   A   114   TYR   H    .   25192   2
+      185   .   1   1   114   114   TYR   CA   C   13   58.725    0.250   .   1   .   .   .   A   114   TYR   CA   .   25192   2
+      186   .   1   1   114   114   TYR   N    N   15   120.229   0.100   .   1   .   .   .   A   114   TYR   N    .   25192   2
+      187   .   1   1   115   115   TRP   H    H   1    8.616     0.030   .   1   .   .   .   A   115   TRP   H    .   25192   2
+      188   .   1   1   115   115   TRP   CA   C   13   57.524    0.250   .   1   .   .   .   A   115   TRP   CA   .   25192   2
+      189   .   1   1   115   115   TRP   N    N   15   118.011   0.100   .   1   .   .   .   A   115   TRP   N    .   25192   2
+      190   .   1   1   116   116   LEU   H    H   1    9.322     0.030   .   1   .   .   .   A   116   LEU   H    .   25192   2
+      191   .   1   1   116   116   LEU   CA   C   13   53.547    0.250   .   1   .   .   .   A   116   LEU   CA   .   25192   2
+      192   .   1   1   116   116   LEU   N    N   15   129.409   0.100   .   1   .   .   .   A   116   LEU   N    .   25192   2
+      193   .   1   1   117   117   SER   H    H   1    8.373     0.030   .   1   .   .   .   A   117   SER   H    .   25192   2
+      194   .   1   1   117   117   SER   CA   C   13   59.637    0.250   .   1   .   .   .   A   117   SER   CA   .   25192   2
+      195   .   1   1   117   117   SER   N    N   15   119.343   0.100   .   1   .   .   .   A   117   SER   N    .   25192   2
+      196   .   1   1   118   118   LEU   H    H   1    7.936     0.030   .   1   .   .   .   A   118   LEU   H    .   25192   2
+      197   .   1   1   118   118   LEU   CA   C   13   51.806    0.250   .   1   .   .   .   A   118   LEU   CA   .   25192   2
+      198   .   1   1   118   118   LEU   N    N   15   122.981   0.100   .   1   .   .   .   A   118   LEU   N    .   25192   2
+      199   .   1   1   119   119   SER   H    H   1    7.579     0.030   .   1   .   .   .   A   119   SER   H    .   25192   2
+      200   .   1   1   119   119   SER   CA   C   13   57.862    0.250   .   1   .   .   .   A   119   SER   CA   .   25192   2
+      201   .   1   1   119   119   SER   N    N   15   113.866   0.100   .   1   .   .   .   A   119   SER   N    .   25192   2
+      202   .   1   1   120   120   LYS   H    H   1    8.117     0.030   .   1   .   .   .   A   120   LYS   H    .   25192   2
+      203   .   1   1   120   120   LYS   CA   C   13   55.222    0.250   .   1   .   .   .   A   120   LYS   CA   .   25192   2
+      204   .   1   1   120   120   LYS   N    N   15   121.673   0.100   .   1   .   .   .   A   120   LYS   N    .   25192   2
+      205   .   1   1   121   121   GLN   H    H   1    8.760     0.030   .   1   .   .   .   A   121   GLN   H    .   25192   2
+      206   .   1   1   121   121   GLN   CA   C   13   58.425    0.250   .   1   .   .   .   A   121   GLN   CA   .   25192   2
+      207   .   1   1   121   121   GLN   N    N   15   127.848   0.100   .   1   .   .   .   A   121   GLN   N    .   25192   2
+      208   .   1   1   122   122   HIS   H    H   1    8.485     0.030   .   1   .   .   .   A   122   HIS   H    .   25192   2
+      209   .   1   1   122   122   HIS   CA   C   13   58.919    0.250   .   1   .   .   .   A   122   HIS   CA   .   25192   2
+      210   .   1   1   122   122   HIS   N    N   15   114.190   0.100   .   1   .   .   .   A   122   HIS   N    .   25192   2
+      211   .   1   1   123   123   TYR   H    H   1    8.743     0.030   .   1   .   .   .   A   123   TYR   H    .   25192   2
+      212   .   1   1   123   123   TYR   CA   C   13   55.954    0.250   .   1   .   .   .   A   123   TYR   CA   .   25192   2
+      213   .   1   1   123   123   TYR   N    N   15   118.913   0.100   .   1   .   .   .   A   123   TYR   N    .   25192   2
+      214   .   1   1   124   124   GLY   H    H   1    7.389     0.030   .   1   .   .   .   A   124   GLY   H    .   25192   2
+      215   .   1   1   124   124   GLY   CA   C   13   44.784    0.250   .   1   .   .   .   A   124   GLY   CA   .   25192   2
+      216   .   1   1   124   124   GLY   N    N   15   108.028   0.100   .   1   .   .   .   A   124   GLY   N    .   25192   2
+      217   .   1   1   125   125   ILE   H    H   1    8.328     0.030   .   1   .   .   .   A   125   ILE   H    .   25192   2
+      218   .   1   1   125   125   ILE   CA   C   13   59.353    0.250   .   1   .   .   .   A   125   ILE   CA   .   25192   2
+      219   .   1   1   125   125   ILE   N    N   15   120.664   0.100   .   1   .   .   .   A   125   ILE   N    .   25192   2
+      220   .   1   1   126   126   HIS   H    H   1    8.853     0.030   .   1   .   .   .   A   126   HIS   H    .   25192   2
+      221   .   1   1   126   126   HIS   CA   C   13   53.608    0.250   .   1   .   .   .   A   126   HIS   CA   .   25192   2
+      222   .   1   1   126   126   HIS   N    N   15   123.647   0.100   .   1   .   .   .   A   126   HIS   N    .   25192   2
+      223   .   1   1   127   127   GLY   H    H   1    8.352     0.030   .   1   .   .   .   A   127   GLY   H    .   25192   2
+      224   .   1   1   127   127   GLY   CA   C   13   44.062    0.250   .   1   .   .   .   A   127   GLY   CA   .   25192   2
+      225   .   1   1   127   127   GLY   N    N   15   106.471   0.100   .   1   .   .   .   A   127   GLY   N    .   25192   2
+      226   .   1   1   128   128   THR   H    H   1    7.684     0.030   .   1   .   .   .   A   128   THR   H    .   25192   2
+      227   .   1   1   128   128   THR   CA   C   13   59.583    0.250   .   1   .   .   .   A   128   THR   CA   .   25192   2
+      228   .   1   1   128   128   THR   N    N   15   109.281   0.100   .   1   .   .   .   A   128   THR   N    .   25192   2
+      229   .   1   1   132   132   ALA   H    H   1    7.749     0.030   .   1   .   .   .   A   132   ALA   H    .   25192   2
+      230   .   1   1   132   132   ALA   CA   C   13   53.318    0.250   .   1   .   .   .   A   132   ALA   CA   .   25192   2
+      231   .   1   1   132   132   ALA   N    N   15   118.581   0.100   .   1   .   .   .   A   132   ALA   N    .   25192   2
+      232   .   1   1   134   134   ILE   H    H   1    6.847     0.030   .   1   .   .   .   A   134   ILE   H    .   25192   2
+      233   .   1   1   134   134   ILE   CA   C   13   60.814    0.250   .   1   .   .   .   A   134   ILE   CA   .   25192   2
+      234   .   1   1   134   134   ILE   N    N   15   119.356   0.100   .   1   .   .   .   A   134   ILE   N    .   25192   2
+      235   .   1   1   137   137   ALA   H    H   1    8.303     0.030   .   1   .   .   .   A   137   ALA   H    .   25192   2
+      236   .   1   1   137   137   ALA   CA   C   13   51.561    0.250   .   1   .   .   .   A   137   ALA   CA   .   25192   2
+      237   .   1   1   137   137   ALA   N    N   15   122.805   0.100   .   1   .   .   .   A   137   ALA   N    .   25192   2
+      238   .   1   1   138   138   VAL   H    H   1    8.277     0.030   .   1   .   .   .   A   138   VAL   H    .   25192   2
+      239   .   1   1   138   138   VAL   CA   C   13   58.620    0.250   .   1   .   .   .   A   138   VAL   CA   .   25192   2
+      240   .   1   1   138   138   VAL   N    N   15   116.529   0.100   .   1   .   .   .   A   138   VAL   N    .   25192   2
+      241   .   1   1   140   140   LYS   H    H   1    8.080     0.030   .   1   .   .   .   A   140   LYS   H    .   25192   2
+      242   .   1   1   140   140   LYS   CA   C   13   55.930    0.250   .   1   .   .   .   A   140   LYS   CA   .   25192   2
+      243   .   1   1   140   140   LYS   N    N   15   120.060   0.100   .   1   .   .   .   A   140   LYS   N    .   25192   2
+      244   .   1   1   143   143   ILE   H    H   1    7.479     0.030   .   1   .   .   .   A   143   ILE   H    .   25192   2
+      245   .   1   1   143   143   ILE   CA   C   13   61.636    0.250   .   1   .   .   .   A   143   ILE   CA   .   25192   2
+      246   .   1   1   143   143   ILE   N    N   15   126.172   0.100   .   1   .   .   .   A   143   ILE   N    .   25192   2
+      247   .   1   1   144   144   ARG   H    H   1    8.044     0.030   .   1   .   .   .   A   144   ARG   H    .   25192   2
+      248   .   1   1   144   144   ARG   CA   C   13   54.300    0.250   .   1   .   .   .   A   144   ARG   CA   .   25192   2
+      249   .   1   1   144   144   ARG   N    N   15   129.761   0.100   .   1   .   .   .   A   144   ARG   N    .   25192   2
+      250   .   1   1   145   145   MET   H    H   1    8.945     0.030   .   1   .   .   .   A   145   MET   H    .   25192   2
+      251   .   1   1   145   145   MET   CA   C   13   53.844    0.250   .   1   .   .   .   A   145   MET   CA   .   25192   2
+      252   .   1   1   145   145   MET   N    N   15   124.250   0.100   .   1   .   .   .   A   145   MET   N    .   25192   2
+      253   .   1   1   148   148   LYS   H    H   1    9.202     0.030   .   1   .   .   .   A   148   LYS   H    .   25192   2
+      254   .   1   1   148   148   LYS   CA   C   13   58.922    0.250   .   1   .   .   .   A   148   LYS   CA   .   25192   2
+      255   .   1   1   148   148   LYS   N    N   15   116.493   0.100   .   1   .   .   .   A   148   LYS   N    .   25192   2
+      256   .   1   1   149   149   ASP   H    H   1    6.737     0.030   .   1   .   .   .   A   149   ASP   H    .   25192   2
+      257   .   1   1   149   149   ASP   CA   C   13   56.072    0.250   .   1   .   .   .   A   149   ASP   CA   .   25192   2
+      258   .   1   1   149   149   ASP   N    N   15   119.921   0.100   .   1   .   .   .   A   149   ASP   N    .   25192   2
+      259   .   1   1   151   151   ILE   H    H   1    7.887     0.030   .   1   .   .   .   A   151   ILE   H    .   25192   2
+      260   .   1   1   151   151   ILE   CA   C   13   65.449    0.250   .   1   .   .   .   A   151   ILE   CA   .   25192   2
+      261   .   1   1   151   151   ILE   N    N   15   123.001   0.100   .   1   .   .   .   A   151   ILE   N    .   25192   2
+      262   .   1   1   152   152   GLU   H    H   1    7.358     0.030   .   1   .   .   .   A   152   GLU   H    .   25192   2
+      263   .   1   1   152   152   GLU   CA   C   13   59.100    0.250   .   1   .   .   .   A   152   GLU   CA   .   25192   2
+      264   .   1   1   152   152   GLU   N    N   15   120.993   0.100   .   1   .   .   .   A   152   GLU   N    .   25192   2
+      265   .   1   1   156   156   ILE   H    H   1    7.331     0.030   .   1   .   .   .   A   156   ILE   H    .   25192   2
+      266   .   1   1   156   156   ILE   CA   C   13   62.804    0.250   .   1   .   .   .   A   156   ILE   CA   .   25192   2
+      267   .   1   1   156   156   ILE   N    N   15   121.260   0.100   .   1   .   .   .   A   156   ILE   N    .   25192   2
+      268   .   1   1   159   159   ASN   H    H   1    9.094     0.030   .   1   .   .   .   A   159   ASN   H    .   25192   2
+      269   .   1   1   159   159   ASN   CA   C   13   54.212    0.250   .   1   .   .   .   A   159   ASN   CA   .   25192   2
+      270   .   1   1   159   159   ASN   N    N   15   121.156   0.100   .   1   .   .   .   A   159   ASN   N    .   25192   2
+      271   .   1   1   160   160   GLY   H    H   1    9.801     0.030   .   1   .   .   .   A   160   GLY   H    .   25192   2
+      272   .   1   1   160   160   GLY   CA   C   13   43.928    0.250   .   1   .   .   .   A   160   GLY   CA   .   25192   2
+      273   .   1   1   160   160   GLY   N    N   15   111.267   0.100   .   1   .   .   .   A   160   GLY   N    .   25192   2
+      274   .   1   1   161   161   THR   H    H   1    7.037     0.030   .   1   .   .   .   A   161   THR   H    .   25192   2
+      275   .   1   1   161   161   THR   CA   C   13   65.215    0.250   .   1   .   .   .   A   161   THR   CA   .   25192   2
+      276   .   1   1   161   161   THR   N    N   15   113.853   0.100   .   1   .   .   .   A   161   THR   N    .   25192   2
+      277   .   1   1   162   162   ARG   H    H   1    8.805     0.030   .   1   .   .   .   A   162   ARG   H    .   25192   2
+      278   .   1   1   162   162   ARG   CA   C   13   56.698    0.250   .   1   .   .   .   A   162   ARG   CA   .   25192   2
+      279   .   1   1   162   162   ARG   N    N   15   126.487   0.100   .   1   .   .   .   A   162   ARG   N    .   25192   2
+      280   .   1   1   164   164   THR   H    H   1    9.267     0.030   .   1   .   .   .   A   164   THR   H    .   25192   2
+      281   .   1   1   164   164   THR   CA   C   13   61.113    0.250   .   1   .   .   .   A   164   THR   CA   .   25192   2
+      282   .   1   1   164   164   THR   N    N   15   122.868   0.100   .   1   .   .   .   A   164   THR   N    .   25192   2
+      283   .   1   1   165   165   ILE   H    H   1    9.096     0.030   .   1   .   .   .   A   165   ILE   H    .   25192   2
+      284   .   1   1   165   165   ILE   CA   C   13   60.146    0.250   .   1   .   .   .   A   165   ILE   CA   .   25192   2
+      285   .   1   1   165   165   ILE   N    N   15   126.313   0.100   .   1   .   .   .   A   165   ILE   N    .   25192   2
+      286   .   1   1   169   169   SER   H    H   1    8.180     0.030   .   1   .   .   .   A   169   SER   H    .   25192   2
+      287   .   1   1   169   169   SER   CA   C   13   58.513    0.250   .   1   .   .   .   A   169   SER   CA   .   25192   2
+      288   .   1   1   169   169   SER   N    N   15   115.651   0.100   .   1   .   .   .   A   169   SER   N    .   25192   2
+   stop_
+save_
+

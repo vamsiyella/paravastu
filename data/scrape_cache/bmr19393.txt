@@ -1,0 +1,1743 @@
+data_19393
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             19393
+   _Entry.Title                         
+;
+Solid-state NMR sequential assignment of Osaka-Mutant Amyloid-beta (A  1-40 E22  ) fibrils
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2013-07-29
+   _Entry.Accession_date                 2013-07-29
+   _Entry.Last_release_date              2014-02-13
+   _Entry.Original_release_date          2014-02-13
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Matthias Huber        . .  . 19393 
+      2 Oxana    Ovchinnikova . Y. . 19393 
+      3 Anne     Schuetz      . K. . 19393 
+      4 Rudi     Glockshuber  . .  . 19393 
+      5 Beat     Meier        . H. . 19393 
+      6 Anja     Bockmann     . .  . 19393 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 3 19393 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts' 413 19393 
+      '15N chemical shifts' 101 19393 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2014-02-13 2013-07-27 original author . 19393 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     19393
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    24395155
+   _Citation.Full_citation                .
+   _Citation.Title                       'Solid-state NMR sequential assignment of Osaka-mutant amyloid-beta (A1-40 E22) fibrils.'
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'Biomol. NMR Assignments'
+   _Citation.Journal_name_full           'Biomolecular NMR assignments'
+   _Citation.Journal_volume               .
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   .
+   _Citation.Page_last                    .
+   _Citation.Year                         2014
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1  Matthias  Huber        . .  . 19393 1 
+      2 'Oxana Yu' Ovchinnikova . .  . 19393 1 
+      3  Anne      Schutz       . K. . 19393 1 
+      4  Rudi      Glockshuber  . .  . 19393 1 
+      5  Beat      Meier        . H. . 19393 1 
+      6  Anja      Bockmann     . .  . 19393 1 
+
+   stop_
+
+   loop_
+      _Citation_keyword.Keyword
+      _Citation_keyword.Entry_ID
+      _Citation_keyword.Citation_ID
+
+      'Alzheimer's disease' 19393 1 
+      'amyloid beta'        19393 1 
+       fibrils              19393 1 
+      'prion structures'    19393 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          19393
+   _Assembly.ID                                1
+   _Assembly.Name                             'Abeta Fibrils'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 Abeta 1 $Abeta A . yes native yes no . . . 19393 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_Abeta
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      Abeta
+   _Entity.Entry_ID                          19393
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              Abeta
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+DAEFRHDSGYEVHHQKLVFF
+ADVGSNKGAIIGLMVGGVV
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   yes
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                39
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                         'E22 Delta'
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                          
+;
+This alternative numbering was introduced because the molecule assigned is a
+deletion mutation where residue 22 is deleted. Conventionall, still the
+wild-type numering is maintained which increases thee rsidue number by one 
+from residie 22 of a continuous numebering.
+;
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-25
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no BMRB        11435 .  Amyloid-beta-(1-40)                                                                                                              . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+       2 no BMRB        15775 .  APP_C99                                                                                                                          . . . . . 102.56 122  97.50  97.50 3.93e-16 . . . . 19393 1 
+       3 no BMRB        17159 .  Amyloid_beta-Peptide                                                                                                             . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+       4 no BMRB        17186 .  Abeta                                                                                                                            . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+       5 no BMRB        17764 .  Abeta                                                                                                                            . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+       6 no BMRB        17793 .  Abeta(1-42)                                                                                                                      . . . . . 102.56  42  97.50  97.50 4.60e-16 . . . . 19393 1 
+       7 no BMRB        17794 .  Abeta(1-42)                                                                                                                      . . . . . 102.56  42  97.50  97.50 4.60e-16 . . . . 19393 1 
+       8 no BMRB        17795 .  Abeta(1-40)                                                                                                                      . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+       9 no BMRB        17796 .  Abeta40                                                                                                                          . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      10 no BMRB        18052 .  Pyroglutamate_Abeta                                                                                                              . . . . .  94.87  38  97.30  97.30 1.15e-13 . . . . 19393 1 
+      11 no BMRB        18127 .  beta-amyloid                                                                                                                     . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      12 no BMRB        18128 .  beta-amyloid                                                                                                                     . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      13 no BMRB        18129 .  beta-amyloid                                                                                                                     . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      14 no BMRB        18131 .  beta-amyloid                                                                                                                     . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      15 no BMRB        19009 .  beta-amyloid_peptide                                                                                                             . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      16 no BMRB        19309 .  amyloid_peptide                                                                                                                  . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      17 no BMRB        25218 .  amyloid_peptide                                                                                                                  . . . . . 102.56  42  97.50  97.50 4.60e-16 . . . . 19393 1 
+      18 no BMRB        25289 .  amyloid_beta                                                                                                                     . . . . . 100.00  39 100.00 100.00 9.32e-18 . . . . 19393 1 
+      19 no BMRB        25429 .  entity                                                                                                                           . . . . . 102.56  42  97.50  97.50 4.60e-16 . . . . 19393 1 
+      20 no BMRB        26508 .  amyloid_B                                                                                                                        . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      21 no BMRB        26516 .  amyloid_B                                                                                                                        . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      22 no PDB  1AML          . "The Alzheimer`s Disease Amyloid A4 Peptide (Residues 1-40)"                                                                      . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      23 no PDB  1BA4          . "The Solution Structure Of Amyloid Beta-Peptide (1-40) In A Water-Micelle Environment. Is The Membrane-Spanning Domain Where We " . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      24 no PDB  1IYT          . "Solution Structure Of The Alzheimer's Disease Amyloid Beta- Peptide (1-42)"                                                      . . . . . 102.56  42  97.50  97.50 4.60e-16 . . . . 19393 1 
+      25 no PDB  1Z0Q          . "Aqueous Solution Structure Of The Alzheimer's Disease Abeta Peptide (1-42)"                                                      . . . . . 102.56  42  97.50  97.50 4.60e-16 . . . . 19393 1 
+      26 no PDB  2BEG          . "3d Structure Of Alzheimer's Abeta(1-42) Fibrils"                                                                                 . . . . . 102.56  42  97.50  97.50 4.60e-16 . . . . 19393 1 
+      27 no PDB  2G47          . "Crystal Structure Of Human Insulin-Degrading Enzyme In Complex With Amyloid-Beta (1-40)"                                         . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      28 no PDB  2LFM          . "A Partially Folded Structure Of Amyloid-Beta(1 40) In An Aqueous Environment"                                                    . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      29 no PDB  2LMN          . "Structural Model For A 40-Residue Beta-Amyloid Fibril With Two-Fold Symmetry, Positive Stagger"                                  . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      30 no PDB  2LMO          . "Structural Model For A 40-Residue Beta-Amyloid Fibril With Two-Fold Symmetry, Negative Stagger"                                  . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      31 no PDB  2LMP          . "Structural Model For A 40-Residue Beta-Amyloid Fibril With Three-Fold Symmetry, Positive Stagger"                                . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      32 no PDB  2LMQ          . "Structural Model For A 40-Residue Beta-Amyloid Fibril With Three-Fold Symmetry, Negative Stagger"                                . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      33 no PDB  2LP1          . "The Solution Nmr Structure Of The Transmembrane C-Terminal Domain Of The Amyloid Precursor Protein (C99)"                        . . . . . 102.56 122  97.50  97.50 3.93e-16 . . . . 19393 1 
+      34 no PDB  2M4J          . "40-residue Beta-amyloid Fibril Derived From Alzheimer's Disease Brain"                                                           . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      35 no PDB  2M9R          . "3d Nmr Structure Of A Complex Between The Amyloid Beta Peptide (1-40) And The Polyphenol Epsilon-viniferin Glucoside"            . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      36 no PDB  2M9S          . "3d Nmr Structure Of A Complex Between The Amyloid Beta Peptide (1-40) And The Polyphenol Epsilon-viniferin Glucoside"            . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      37 no PDB  2MVX          . "Atomic-resolution 3d Structure Of Amyloid-beta Fibrils: The Osaka Mutation"                                                      . . . . . 100.00  39 100.00 100.00 9.32e-18 . . . . 19393 1 
+      38 no PDB  2MXU          . "42-residue Beta Amyloid Fibril"                                                                                                  . . . . . 102.56  42  97.50  97.50 4.60e-16 . . . . 19393 1 
+      39 no PDB  2OTK          . "Structure Of Alzheimer Ab Peptide In Complex With An Engineered Binding Protein"                                                 . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      40 no PDB  2WK3          . "Crystal Structure Of Human Insulin-Degrading Enzyme In Complex With Amyloid-Beta (1-42)"                                         . . . . . 102.56  42  97.50  97.50 4.60e-16 . . . . 19393 1 
+      41 no PDB  3IFN          . "X-ray Structure Of Amyloid Beta Peptide:antibody (abeta1-40:12a11) Complex"                                                      . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      42 no PDB  4M1C          . "Crystal Structure Analysis Of Fab-bound Human Insulin Degrading Enzyme (ide) In Complex With Amyloid-beta (1-40)"                . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      43 no PDB  4MVI          . "Crystal Structure Of An Engineered Lipocalin (anticalin Us7) In Complex With The Alzheimer Amyloid Peptide Abeta(1-40)"          . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      44 no PDB  4MVL          . "Crystal Structure Of An Engineered Lipocalin (anticalin H1ga) In Complex With The Alzheimer Amyloid Peptide Abeta1-40"           . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      45 no PDB  4NGE          . "Crystal Structure Of Human Presequence Protease In Complex With Amyloid-beta (1-40)"                                             . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      46 no PDB  4ONG          . "Fab Fragment Of 3d6 In Complex With Amyloid Beta 1-40"                                                                           . . . . . 102.56  40  97.50  97.50 5.23e-16 . . . . 19393 1 
+      47 no DBJ  BAA22264      . "amyloid precursor protein [Homo sapiens]"                                                                                        . . . . . 102.56 770  97.50  97.50 2.71e-16 . . . . 19393 1 
+      48 no DBJ  BAA84580      . "amyloid precursor protein [Sus scrofa]"                                                                                          . . . . . 102.56 770  97.50  97.50 2.71e-16 . . . . 19393 1 
+      49 no DBJ  BAD51938      . "amyloid beta A4 precursor protein [Macaca fascicularis]"                                                                         . . . . . 102.56 696  97.50  97.50 2.46e-16 . . . . 19393 1 
+      50 no DBJ  BAE01907      . "unnamed protein product [Macaca fascicularis]"                                                                                   . . . . . 102.56 751  97.50  97.50 2.65e-16 . . . . 19393 1 
+      51 no DBJ  BAG10647      . "amyloid beta A4 protein precursor [synthetic construct]"                                                                         . . . . . 102.56 770  97.50  97.50 2.71e-16 . . . . 19393 1 
+      52 no EMBL CAA30050      . "amyloid A4 protein [Homo sapiens]"                                                                                               . . . . . 102.56 751  97.50  97.50 2.65e-16 . . . . 19393 1 
+      53 no EMBL CAA31830      . "A4 amyloid protein precursor [Homo sapiens]"                                                                                     . . . . . 102.56 695  97.50  97.50 2.46e-16 . . . . 19393 1 
+      54 no EMBL CAA39589      . "amyloid precursor protein [Bos taurus]"                                                                                          . . . . . 102.56  59  97.50  97.50 1.31e-16 . . . . 19393 1 
+      55 no EMBL CAA39590      . "amyloid precursor protein [Canis lupus familiaris]"                                                                              . . . . . 102.56  58  97.50  97.50 1.32e-16 . . . . 19393 1 
+      56 no EMBL CAA39591      . "amyloid precursor protein [Cavia sp.]"                                                                                           . . . . . 102.56  58  97.50  97.50 1.32e-16 . . . . 19393 1 
+      57 no GB   AAA35540      . "amyloid protein, partial [Homo sapiens]"                                                                                         . . . . .  97.44  97  97.37  97.37 6.86e-15 . . . . 19393 1 
+      58 no GB   AAA36829      . "amyloid b-protein precursor [Macaca fascicularis]"                                                                               . . . . . 102.56 695  97.50  97.50 2.46e-16 . . . . 19393 1 
+      59 no GB   AAA51722      . "amyloid beta-protein precursor, partial [Homo sapiens]"                                                                          . . . . . 102.56 412  97.50  97.50 8.95e-17 . . . . 19393 1 
+      60 no GB   AAA51726      . "beta-amyloid A4, partial [Homo sapiens]"                                                                                         . . . . . 102.56 264  97.50  97.50 1.67e-16 . . . . 19393 1 
+      61 no GB   AAA51727      . "amyloid-beta protein, partial [Homo sapiens]"                                                                                    . . . . . 102.56  82  97.50  97.50 1.40e-16 . . . . 19393 1 
+      62 no PIR  A60045        . "Alzheimer's disease amyloid beta/A4 protein precursor - dog  (fragment)"                                                         . . . . . 102.56  57  97.50  97.50 1.41e-16 . . . . 19393 1 
+      63 no PIR  D60045        . "Alzheimer's disease amyloid beta/A4 protein precursor - bovine (fragment)"                                                       . . . . . 102.56  57  97.50  97.50 1.41e-16 . . . . 19393 1 
+      64 no PIR  E60045        . "Alzheimer's disease amyloid beta/A4 protein precursor - sheep (fragment)"                                                        . . . . . 102.56  57  97.50  97.50 1.41e-16 . . . . 19393 1 
+      65 no PIR  G60045        . "Alzheimer's disease amyloid beta/A4 protein precursor - guinea pig (fragment)"                                                   . . . . . 102.56  57  97.50  97.50 1.41e-16 . . . . 19393 1 
+      66 no PIR  PQ0438        . "Alzheimer's disease amyloid A4 protein precursor - rabbit  (fragment)"                                                           . . . . . 102.56  82  97.50  97.50 1.40e-16 . . . . 19393 1 
+      67 no PRF  1303338A      . "amyloid A4 protein precursor"                                                                                                    . . . . . 102.56 695  97.50  97.50 2.46e-16 . . . . 19393 1 
+      68 no PRF  1403400A      . "amyloid protein A4"                                                                                                              . . . . . 102.56 751  97.50  97.50 2.65e-16 . . . . 19393 1 
+      69 no PRF  1405204A      . "amyloid protein"                                                                                                                 . . . . . 102.56  42  97.50  97.50 4.60e-16 . . . . 19393 1 
+      70 no PRF  1507304A      . "beta amyloid peptide precursor"                                                                                                  . . . . . 102.56 412  97.50  97.50 8.95e-17 . . . . 19393 1 
+      71 no PRF  1507304B      . "beta amyloid peptide precursor"                                                                                                  . . . . . 102.56 574  97.50  97.50 1.92e-16 . . . . 19393 1 
+      72 no REF  NP_000475     . "amyloid beta A4 protein isoform a precursor [Homo sapiens]"                                                                      . . . . . 102.56 770  97.50  97.50 2.71e-16 . . . . 19393 1 
+      73 no REF  NP_001006601  . "amyloid beta A4 protein isoform APP-770 precursor [Canis lupus familiaris]"                                                      . . . . . 102.56 770  97.50  97.50 2.71e-16 . . . . 19393 1 
+      74 no REF  NP_001013036  . "amyloid beta A4 protein precursor [Pan troglodytes]"                                                                             . . . . . 102.56 770  97.50  97.50 2.71e-16 . . . . 19393 1 
+      75 no REF  NP_001070264  . "amyloid beta A4 protein precursor [Bos taurus]"                                                                                  . . . . . 102.56 695  97.50  97.50 2.46e-16 . . . . 19393 1 
+      76 no REF  NP_001127014  . "amyloid beta A4 protein precursor [Pongo abelii]"                                                                                . . . . . 102.56 695  97.50  97.50 2.46e-16 . . . . 19393 1 
+      77 no SP   P05067        . "RecName: Full=Amyloid beta A4 protein; AltName: Full=ABPP; AltName: Full=APPI; Short=APP; AltName: Full=Alzheimer disease amylo" . . . . . 102.56 770  97.50  97.50 2.71e-16 . . . . 19393 1 
+      78 no SP   P53601        . "RecName: Full=Amyloid beta A4 protein; AltName: Full=ABPP; Short=APP; AltName: Full=Alzheimer disease amyloid A4 protein homolo" . . . . . 102.56 770  97.50  97.50 2.71e-16 . . . . 19393 1 
+      79 no SP   P79307        . "RecName: Full=Amyloid beta A4 protein; AltName: Full=ABPP; Short=APP; AltName: Full=Alzheimer disease amyloid A4 protein homolo" . . . . . 102.56 770  97.50  97.50 2.71e-16 . . . . 19393 1 
+      80 no SP   Q28053        . "RecName: Full=Amyloid beta A4 protein; AltName: Full=ABPP; Short=APP; AltName: Full=Alzheimer disease amyloid A4 protein homolo" . . . . . 102.56  59  97.50  97.50 1.31e-16 . . . . 19393 1 
+      81 no SP   Q28280        . "RecName: Full=Amyloid beta A4 protein; AltName: Full=ABPP; Short=APP; AltName: Full=Alzheimer disease amyloid A4 protein homolo" . . . . . 102.56  58  97.50  97.50 1.32e-16 . . . . 19393 1 
+      82 no TPG  DAA33655      . "TPA: amyloid beta A4 protein [Bos taurus]"                                                                                       . . . . . 102.56 695  97.50  97.50 2.46e-16 . . . . 19393 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1  1 ASP . 19393 1 
+       2  2 ALA . 19393 1 
+       3  3 GLU . 19393 1 
+       4  4 PHE . 19393 1 
+       5  5 ARG . 19393 1 
+       6  6 HIS . 19393 1 
+       7  7 ASP . 19393 1 
+       8  8 SER . 19393 1 
+       9  9 GLY . 19393 1 
+      10 10 TYR . 19393 1 
+      11 11 GLU . 19393 1 
+      12 12 VAL . 19393 1 
+      13 13 HIS . 19393 1 
+      14 14 HIS . 19393 1 
+      15 15 GLN . 19393 1 
+      16 16 LYS . 19393 1 
+      17 17 LEU . 19393 1 
+      18 18 VAL . 19393 1 
+      19 19 PHE . 19393 1 
+      20 20 PHE . 19393 1 
+      21 21 ALA . 19393 1 
+      22 23 ASP . 19393 1 
+      23 24 VAL . 19393 1 
+      24 25 GLY . 19393 1 
+      25 26 SER . 19393 1 
+      26 27 ASN . 19393 1 
+      27 28 LYS . 19393 1 
+      28 29 GLY . 19393 1 
+      29 30 ALA . 19393 1 
+      30 31 ILE . 19393 1 
+      31 32 ILE . 19393 1 
+      32 33 GLY . 19393 1 
+      33 34 LEU . 19393 1 
+      34 35 MET . 19393 1 
+      35 36 VAL . 19393 1 
+      36 37 GLY . 19393 1 
+      37 38 GLY . 19393 1 
+      38 39 VAL . 19393 1 
+      39 40 VAL . 19393 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . ASP  1  1 19393 1 
+      . ALA  2  2 19393 1 
+      . GLU  3  3 19393 1 
+      . PHE  4  4 19393 1 
+      . ARG  5  5 19393 1 
+      . HIS  6  6 19393 1 
+      . ASP  7  7 19393 1 
+      . SER  8  8 19393 1 
+      . GLY  9  9 19393 1 
+      . TYR 10 10 19393 1 
+      . GLU 11 11 19393 1 
+      . VAL 12 12 19393 1 
+      . HIS 13 13 19393 1 
+      . HIS 14 14 19393 1 
+      . GLN 15 15 19393 1 
+      . LYS 16 16 19393 1 
+      . LEU 17 17 19393 1 
+      . VAL 18 18 19393 1 
+      . PHE 19 19 19393 1 
+      . PHE 20 20 19393 1 
+      . ALA 21 21 19393 1 
+      . ASP 22 22 19393 1 
+      . VAL 23 23 19393 1 
+      . GLY 24 24 19393 1 
+      . SER 25 25 19393 1 
+      . ASN 26 26 19393 1 
+      . LYS 27 27 19393 1 
+      . GLY 28 28 19393 1 
+      . ALA 29 29 19393 1 
+      . ILE 30 30 19393 1 
+      . ILE 31 31 19393 1 
+      . GLY 32 32 19393 1 
+      . LEU 33 33 19393 1 
+      . MET 34 34 19393 1 
+      . VAL 35 35 19393 1 
+      . GLY 36 36 19393 1 
+      . GLY 37 37 19393 1 
+      . VAL 38 38 19393 1 
+      . VAL 39 39 19393 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       19393
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $Abeta . 9606 organism . 'Homo sapiens' Human . . Eukaryota Metazoa Homo sapiens . . . . . . . . . . . . . . . . . . . . . 19393 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       19393
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $Abeta . 'recombinant technology' 'Escherichia coli' . . . Escherichia coli . . . . . . . . . . . . . . . . pRSETA . . . . . . 19393 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_UL
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     UL
+   _Sample.Entry_ID                         19393
+   _Sample.ID                               1
+   _Sample.Type                             fiber
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                  '95% H2O/5% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 Abeta '[U-100% 13C; U-100% 15N]' . . 1 $Abeta . . 40 . . w/v 20 . . . 19393 1 
+      2 H2O   'natural abundance'        . .  .  .     . . 60 . . w/v 20 . . . 19393 1 
+
+   stop_
+
+save_
+
+
+save_U13C
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     U13C
+   _Sample.Entry_ID                         19393
+   _Sample.ID                               2
+   _Sample.Type                             fiber
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                  '95% H2O/5% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 Abeta '[U-100% 13C]'      . . 1 $Abeta . . 40 . . w/v 20 . . . 19393 2 
+      2 H2O   'natural abundance' . .  .  .     . . 60 . . w/v 20 . . . 19393 2 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       19393
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   0 0.05 M   19393 1 
+       pH                7 2    pH  19393 1 
+       pressure          1  .   atm 19393 1 
+       temperature     280 5    K   19393 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_CCPNMR
+   _Software.Sf_category    software
+   _Software.Sf_framecode   CCPNMR
+   _Software.Entry_ID       19393
+   _Software.ID             1
+   _Software.Name           CcpNMR
+   _Software.Version        2.2
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      CCPN . . 19393 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'chemical shift assignment' 19393 1 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_850
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     850
+   _NMR_spectrometer.Entry_ID         19393
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   850
+
+save_
+
+
+save_600
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     600
+   _NMR_spectrometer.Entry_ID         19393
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+
+save_
+
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       19393
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 850 Bruker Avance . 850 . . . 19393 1 
+      2 600 Bruker Avance . 600 . . . 19393 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       19393
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '3D HNCACB'      no 1 $NMR_spectrometer_expt . . . . . . . . 1 $UL   solid . . 1 $sample_conditions_1 . . . 2 $600 . . . . . . . . . . . . . . . . 19393 1 
+      2 '2D 1H-1H NOESY' no 1 $NMR_spectrometer_expt . . . . . . . . 2 $U13C solid . . 1 $sample_conditions_1 . . . 1 $850 . . . . . . . . . . . . . . . . 19393 1 
+
+   stop_
+
+save_
+
+
+save_NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spectrometer_expt
+   _NMR_spec_expt.Entry_ID                        19393
+   _NMR_spec_expt.ID                              1
+   _NMR_spec_expt.Name                            .
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             .
+   _NMR_spec_expt.NMR_spectrometer_label          .
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     1
+   _NMR_spec_expt.Software_label                 $CCPNMR
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       19393
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C 13 DSS 'methyl protons' . . . . ppm 0.00 na indirect 0.251449530 . . . . . . . . . 19393 1 
+      N 15 DSS 'methyl protons' . . . . ppm 0.00 na indirect 0.101329118 . . . . . . . . . 19393 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_13C_shifts_homogeneous_U13C_sample
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  13C_shifts_homogeneous_U13C_sample
+   _Assigned_chem_shift_list.Entry_ID                      19393
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      2 '2D 1H-1H NOESY' . . . 19393 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1  1  1 ASP C   C 13 173.612 0.2 . 1 . . . .  1 ASP C   . 19393 1 
+        2 . 1 1  1  1 ASP CA  C 13  54.207 0.2 . 1 . . . .  1 ASP CA  . 19393 1 
+        3 . 1 1  1  1 ASP CB  C 13  40.973 0.2 . 1 . . . .  1 ASP CB  . 19393 1 
+        4 . 1 1  1  1 ASP CG  C 13 179.683 0.2 . 1 . . . .  1 ASP CG  . 19393 1 
+        5 . 1 1  1  1 ASP N   N 15  37.112 0.2 . 1 . . . .  1 ASP N   . 19393 1 
+        6 . 1 1  2  2 ALA C   C 13 177.803 0.2 . 1 . . . .  2 ALA C   . 19393 1 
+        7 . 1 1  2  2 ALA CA  C 13  51.914 0.2 . 1 . . . .  2 ALA CA  . 19393 1 
+        8 . 1 1  2  2 ALA CB  C 13  15.674 0.2 . 1 . . . .  2 ALA CB  . 19393 1 
+        9 . 1 1  2  2 ALA N   N 15 117.636 0.2 . 1 . . . .  2 ALA N   . 19393 1 
+       10 . 1 1  3  3 GLU C   C 13 176.542 0.2 . 1 . . . .  3 GLU C   . 19393 1 
+       11 . 1 1  3  3 GLU CA  C 13  62.554 0.2 . 1 . . . .  3 GLU CA  . 19393 1 
+       12 . 1 1  3  3 GLU CB  C 13  29.483 0.2 . 1 . . . .  3 GLU CB  . 19393 1 
+       13 . 1 1  3  3 GLU CG  C 13  39.212 0.2 . 1 . . . .  3 GLU CG  . 19393 1 
+       14 . 1 1  3  3 GLU CD  C 13 183.628 0.2 . 1 . . . .  3 GLU CD  . 19393 1 
+       15 . 1 1  3  3 GLU N   N 15 121.939 0.2 . 1 . . . .  3 GLU N   . 19393 1 
+       16 . 1 1  4  4 PHE C   C 13 175.903 0.2 . 1 . . . .  4 PHE C   . 19393 1 
+       17 . 1 1  4  4 PHE CA  C 13  58.141 0.2 . 1 . . . .  4 PHE CA  . 19393 1 
+       18 . 1 1  4  4 PHE CB  C 13  41.747 0.2 . 1 . . . .  4 PHE CB  . 19393 1 
+       19 . 1 1  4  4 PHE CG  C 13 137.255 0.2 . 1 . . . .  4 PHE CG  . 19393 1 
+       20 . 1 1  4  4 PHE CD1 C 13 132.657 0.2 . 1 . . . .  4 PHE CD1 . 19393 1 
+       21 . 1 1  4  4 PHE CD2 C 13 132.657 0.2 . 1 . . . .  4 PHE CD2 . 19393 1 
+       22 . 1 1  4  4 PHE CE1 C 13 131.756 0.2 . 1 . . . .  4 PHE CE1 . 19393 1 
+       23 . 1 1  4  4 PHE CE2 C 13 131.756 0.2 . 1 . . . .  4 PHE CE2 . 19393 1 
+       24 . 1 1  4  4 PHE CZ  C 13 128.716 0.2 . 1 . . . .  4 PHE CZ  . 19393 1 
+       25 . 1 1  4  4 PHE N   N 15 114.566 0.2 . 1 . . . .  4 PHE N   . 19393 1 
+       26 . 1 1  5  5 ARG C   C 13 173.343 0.2 . 1 . . . .  5 ARG C   . 19393 1 
+       27 . 1 1  5  5 ARG CA  C 13  54.687 0.2 . 1 . . . .  5 ARG CA  . 19393 1 
+       28 . 1 1  5  5 ARG CB  C 13  33.703 0.2 . 1 . . . .  5 ARG CB  . 19393 1 
+       29 . 1 1  5  5 ARG CG  C 13  27.373 0.2 . 1 . . . .  5 ARG CG  . 19393 1 
+       30 . 1 1  5  5 ARG CD  C 13  43.8   0.2 . 1 . . . .  5 ARG CD  . 19393 1 
+       31 . 1 1  5  5 ARG CZ  C 13 159.6   0.2 . 1 . . . .  5 ARG CZ  . 19393 1 
+       32 . 1 1  5  5 ARG N   N 15 131.278 0.2 . 1 . . . .  5 ARG N   . 19393 1 
+       33 . 1 1  5  5 ARG NE  N 15  85.08  0.2 . 1 . . . .  5 ARG NE  . 19393 1 
+       34 . 1 1  5  5 ARG NH1 N 15  72.865 0.2 . 2 . . . .  5 ARG NH1 . 19393 1 
+       35 . 1 1  5  5 ARG NH2 N 15  70.87  0.2 . 2 . . . .  5 ARG NH2 . 19393 1 
+       36 . 1 1  6  6 HIS C   C 13 171.838 0.2 . 1 . . . .  6 HIS C   . 19393 1 
+       37 . 1 1  6  6 HIS CA  C 13  51.198 0.2 . 1 . . . .  6 HIS CA  . 19393 1 
+       38 . 1 1  6  6 HIS CB  C 13  32.314 0.2 . 1 . . . .  6 HIS CB  . 19393 1 
+       39 . 1 1  6  6 HIS CG  C 13 131.487 0.2 . 1 . . . .  6 HIS CG  . 19393 1 
+       40 . 1 1  6  6 HIS CD2 C 13 117.244 0.2 . 1 . . . .  6 HIS CD2 . 19393 1 
+       41 . 1 1  6  6 HIS CE1 C 13 137.172 0.2 . 1 . . . .  6 HIS CE1 . 19393 1 
+       42 . 1 1  6  6 HIS N   N 15 125.75  0.2 . 1 . . . .  6 HIS N   . 19393 1 
+       43 . 1 1  6  6 HIS ND1 N 15 181.845 0.2 . 1 . . . .  6 HIS ND1 . 19393 1 
+       44 . 1 1  6  6 HIS NE2 N 15 174.708 0.2 . 1 . . . .  6 HIS NE2 . 19393 1 
+       45 . 1 1  7  7 ASP C   C 13 174.252 0.2 . 1 . . . .  7 ASP C   . 19393 1 
+       46 . 1 1  7  7 ASP CA  C 13  52.536 0.2 . 1 . . . .  7 ASP CA  . 19393 1 
+       47 . 1 1  7  7 ASP CB  C 13  42.249 0.2 . 1 . . . .  7 ASP CB  . 19393 1 
+       48 . 1 1  7  7 ASP CG  C 13 179.943 0.2 . 1 . . . .  7 ASP CG  . 19393 1 
+       49 . 1 1  7  7 ASP N   N 15 129.993 0.2 . 1 . . . .  7 ASP N   . 19393 1 
+       50 . 1 1  8  8 SER C   C 13 175.482 0.2 . 1 . . . .  8 SER C   . 19393 1 
+       51 . 1 1  8  8 SER CA  C 13  55.081 0.2 . 1 . . . .  8 SER CA  . 19393 1 
+       52 . 1 1  8  8 SER CB  C 13  66.29  0.2 . 1 . . . .  8 SER CB  . 19393 1 
+       53 . 1 1  8  8 SER N   N 15 116.203 0.2 . 1 . . . .  8 SER N   . 19393 1 
+       54 . 1 1  9  9 GLY C   C 13 173.823 0.2 . 1 . . . .  9 GLY C   . 19393 1 
+       55 . 1 1  9  9 GLY CA  C 13  47.209 0.2 . 1 . . . .  9 GLY CA  . 19393 1 
+       56 . 1 1  9  9 GLY N   N 15 111.963 0.2 . 1 . . . .  9 GLY N   . 19393 1 
+       57 . 1 1 10 10 TYR C   C 13 172.774 0.2 . 1 . . . . 10 TYR C   . 19393 1 
+       58 . 1 1 10 10 TYR CA  C 13  57.959 0.2 . 1 . . . . 10 TYR CA  . 19393 1 
+       59 . 1 1 10 10 TYR CB  C 13  42.099 0.2 . 1 . . . . 10 TYR CB  . 19393 1 
+       60 . 1 1 10 10 TYR CD1 C 13 133.234 0.2 . 1 . . . . 10 TYR CD1 . 19393 1 
+       61 . 1 1 10 10 TYR CD2 C 13 133.234 0.2 . 1 . . . . 10 TYR CD2 . 19393 1 
+       62 . 1 1 10 10 TYR CE1 C 13 118.471 0.2 . 1 . . . . 10 TYR CE1 . 19393 1 
+       63 . 1 1 10 10 TYR CE2 C 13 118.471 0.2 . 1 . . . . 10 TYR CE2 . 19393 1 
+       64 . 1 1 10 10 TYR CZ  C 13 156.54  0.2 . 1 . . . . 10 TYR CZ  . 19393 1 
+       65 . 1 1 10 10 TYR N   N 15 124.974 0.2 . 1 . . . . 10 TYR N   . 19393 1 
+       66 . 1 1 11 11 GLU CA  C 13  54.889 0.2 . 1 . . . . 11 GLU CA  . 19393 1 
+       67 . 1 1 11 11 GLU CB  C 13  32.307 0.2 . 1 . . . . 11 GLU CB  . 19393 1 
+       68 . 1 1 11 11 GLU CG  C 13  38.092 0.2 . 1 . . . . 11 GLU CG  . 19393 1 
+       69 . 1 1 11 11 GLU CD  C 13 183.631 0.2 . 1 . . . . 11 GLU CD  . 19393 1 
+       70 . 1 1 12 12 VAL C   C 13 175.762 0.2 . 1 . . . . 12 VAL C   . 19393 1 
+       71 . 1 1 12 12 VAL CA  C 13  60.555 0.2 . 1 . . . . 12 VAL CA  . 19393 1 
+       72 . 1 1 12 12 VAL CB  C 13  34.899 0.2 . 1 . . . . 12 VAL CB  . 19393 1 
+       73 . 1 1 12 12 VAL CG1 C 13  21.528 0.2 . 2 . . . . 12 VAL CG1 . 19393 1 
+       74 . 1 1 12 12 VAL CG2 C 13  21.227 0.2 . 2 . . . . 12 VAL CG2 . 19393 1 
+       75 . 1 1 12 12 VAL N   N 15 126.012 0.2 . 1 . . . . 12 VAL N   . 19393 1 
+       76 . 1 1 13 13 HIS C   C 13 173.609 0.2 . 1 . . . . 13 HIS C   . 19393 1 
+       77 . 1 1 13 13 HIS CA  C 13  50.444 0.2 . 1 . . . . 13 HIS CA  . 19393 1 
+       78 . 1 1 13 13 HIS CB  C 13  33.4   0.2 . 1 . . . . 13 HIS CB  . 19393 1 
+       79 . 1 1 13 13 HIS CG  C 13 133.072 0.2 . 1 . . . . 13 HIS CG  . 19393 1 
+       80 . 1 1 13 13 HIS CD2 C 13 113.961 0.2 . 1 . . . . 13 HIS CD2 . 19393 1 
+       81 . 1 1 13 13 HIS CE1 C 13 139.891 0.2 . 1 . . . . 13 HIS CE1 . 19393 1 
+       82 . 1 1 13 13 HIS N   N 15 125.928 0.2 . 1 . . . . 13 HIS N   . 19393 1 
+       83 . 1 1 13 13 HIS ND1 N 15 191.682 0.2 . 1 . . . . 13 HIS ND1 . 19393 1 
+       84 . 1 1 13 13 HIS NE2 N 15 170.029 0.2 . 1 . . . . 13 HIS NE2 . 19393 1 
+       85 . 1 1 14 14 HIS C   C 13 173.537 0.2 . 1 . . . . 14 HIS C   . 19393 1 
+       86 . 1 1 14 14 HIS CA  C 13  54.918 0.2 . 1 . . . . 14 HIS CA  . 19393 1 
+       87 . 1 1 14 14 HIS CB  C 13  31.967 0.2 . 1 . . . . 14 HIS CB  . 19393 1 
+       88 . 1 1 14 14 HIS CG  C 13 135.601 0.2 . 1 . . . . 14 HIS CG  . 19393 1 
+       89 . 1 1 14 14 HIS CD2 C 13 118.597 0.2 . 1 . . . . 14 HIS CD2 . 19393 1 
+       90 . 1 1 14 14 HIS CE1 C 13 138.435 0.2 . 1 . . . . 14 HIS CE1 . 19393 1 
+       91 . 1 1 14 14 HIS N   N 15 117.994 0.2 . 1 . . . . 14 HIS N   . 19393 1 
+       92 . 1 1 14 14 HIS NE2 N 15 171.336 0.2 . 1 . . . . 14 HIS NE2 . 19393 1 
+       93 . 1 1 15 15 GLN C   C 13 175.215 0.2 . 1 . . . . 15 GLN C   . 19393 1 
+       94 . 1 1 15 15 GLN CA  C 13  54.739 0.2 . 1 . . . . 15 GLN CA  . 19393 1 
+       95 . 1 1 15 15 GLN CB  C 13  33.029 0.2 . 1 . . . . 15 GLN CB  . 19393 1 
+       96 . 1 1 15 15 GLN CG  C 13  30.551 0.2 . 1 . . . . 15 GLN CG  . 19393 1 
+       97 . 1 1 15 15 GLN CD  C 13 176.335 0.2 . 1 . . . . 15 GLN CD  . 19393 1 
+       98 . 1 1 15 15 GLN N   N 15 108.738 0.2 . 1 . . . . 15 GLN N   . 19393 1 
+       99 . 1 1 15 15 GLN NE2 N 15 108.666 0.2 . 1 . . . . 15 GLN NE2 . 19393 1 
+      100 . 1 1 16 16 LYS C   C 13 174.18  0.2 . 1 . . . . 16 LYS C   . 19393 1 
+      101 . 1 1 16 16 LYS CA  C 13  55.189 0.2 . 1 . . . . 16 LYS CA  . 19393 1 
+      102 . 1 1 16 16 LYS CB  C 13  36.672 0.2 . 1 . . . . 16 LYS CB  . 19393 1 
+      103 . 1 1 16 16 LYS CG  C 13  25.725 0.2 . 1 . . . . 16 LYS CG  . 19393 1 
+      104 . 1 1 16 16 LYS CD  C 13  30.403 0.2 . 1 . . . . 16 LYS CD  . 19393 1 
+      105 . 1 1 16 16 LYS CE  C 13  42.113 0.2 . 1 . . . . 16 LYS CE  . 19393 1 
+      106 . 1 1 16 16 LYS N   N 15 119.78  0.2 . 1 . . . . 16 LYS N   . 19393 1 
+      107 . 1 1 16 16 LYS NZ  N 15  33.669 0.2 . 1 . . . . 16 LYS NZ  . 19393 1 
+      108 . 1 1 17 17 LEU C   C 13 175.01  0.2 . 1 . . . . 17 LEU C   . 19393 1 
+      109 . 1 1 17 17 LEU CA  C 13  54.59  0.2 . 1 . . . . 17 LEU CA  . 19393 1 
+      110 . 1 1 17 17 LEU CB  C 13  44.697 0.2 . 1 . . . . 17 LEU CB  . 19393 1 
+      111 . 1 1 17 17 LEU CG  C 13  30.411 0.2 . 1 . . . . 17 LEU CG  . 19393 1 
+      112 . 1 1 17 17 LEU CD1 C 13  22.752 0.2 . 2 . . . . 17 LEU CD1 . 19393 1 
+      113 . 1 1 17 17 LEU CD2 C 13  25.046 0.2 . 2 . . . . 17 LEU CD2 . 19393 1 
+      114 . 1 1 17 17 LEU N   N 15 127.908 0.2 . 1 . . . . 17 LEU N   . 19393 1 
+      115 . 1 1 18 18 VAL C   C 13 172.818 0.2 . 1 . . . . 18 VAL C   . 19393 1 
+      116 . 1 1 18 18 VAL CA  C 13  61.829 0.2 . 1 . . . . 18 VAL CA  . 19393 1 
+      117 . 1 1 18 18 VAL CB  C 13  33.856 0.2 . 1 . . . . 18 VAL CB  . 19393 1 
+      118 . 1 1 18 18 VAL CG1 C 13  22.087 0.2 . 2 . . . . 18 VAL CG1 . 19393 1 
+      119 . 1 1 18 18 VAL CG2 C 13  20.226 0.2 . 2 . . . . 18 VAL CG2 . 19393 1 
+      120 . 1 1 18 18 VAL N   N 15 123.473 0.2 . 1 . . . . 18 VAL N   . 19393 1 
+      121 . 1 1 19 19 PHE C   C 13 174.296 0.2 . 1 . . . . 19 PHE C   . 19393 1 
+      122 . 1 1 19 19 PHE CA  C 13  55.589 0.2 . 1 . . . . 19 PHE CA  . 19393 1 
+      123 . 1 1 19 19 PHE CB  C 13  42.482 0.2 . 1 . . . . 19 PHE CB  . 19393 1 
+      124 . 1 1 19 19 PHE CG  C 13 142.676 0.2 . 1 . . . . 19 PHE CG  . 19393 1 
+      125 . 1 1 19 19 PHE CD1 C 13 130.88  0.2 . 3 . . . . 19 PHE CD1 . 19393 1 
+      126 . 1 1 19 19 PHE CD2 C 13 131.842 0.2 . 3 . . . . 19 PHE CD2 . 19393 1 
+      127 . 1 1 19 19 PHE CE1 C 13 131.606 0.2 . 1 . . . . 19 PHE CE1 . 19393 1 
+      128 . 1 1 19 19 PHE CE2 C 13 131.606 0.2 . 1 . . . . 19 PHE CE2 . 19393 1 
+      129 . 1 1 19 19 PHE CZ  C 13 128.895 0.2 . 1 . . . . 19 PHE CZ  . 19393 1 
+      130 . 1 1 19 19 PHE N   N 15 129.219 0.2 . 1 . . . . 19 PHE N   . 19393 1 
+      131 . 1 1 20 20 PHE C   C 13 170.979 0.2 . 1 . . . . 20 PHE C   . 19393 1 
+      132 . 1 1 20 20 PHE CA  C 13  58.681 0.2 . 1 . . . . 20 PHE CA  . 19393 1 
+      133 . 1 1 20 20 PHE CB  C 13  32.908 0.2 . 1 . . . . 20 PHE CB  . 19393 1 
+      134 . 1 1 20 20 PHE CG  C 13 142.556 0.2 . 1 . . . . 20 PHE CG  . 19393 1 
+      135 . 1 1 20 20 PHE CD1 C 13 131.436 0.2 . 3 . . . . 20 PHE CD1 . 19393 1 
+      136 . 1 1 20 20 PHE CD2 C 13 131.494 0.2 . 3 . . . . 20 PHE CD2 . 19393 1 
+      137 . 1 1 20 20 PHE CE1 C 13 134.003 0.2 . 3 . . . . 20 PHE CE1 . 19393 1 
+      138 . 1 1 20 20 PHE CE2 C 13 128.53  0.2 . 3 . . . . 20 PHE CE2 . 19393 1 
+      139 . 1 1 20 20 PHE CZ  C 13 129.131 0.2 . 1 . . . . 20 PHE CZ  . 19393 1 
+      140 . 1 1 20 20 PHE N   N 15 117.351 0.2 . 1 . . . . 20 PHE N   . 19393 1 
+      141 . 1 1 21 21 ALA C   C 13 177.239 0.2 . 1 . . . . 21 ALA C   . 19393 1 
+      142 . 1 1 21 21 ALA CA  C 13  49.018 0.2 . 1 . . . . 21 ALA CA  . 19393 1 
+      143 . 1 1 21 21 ALA CB  C 13  23.136 0.2 . 1 . . . . 21 ALA CB  . 19393 1 
+      144 . 1 1 21 21 ALA N   N 15 114.846 0.2 . 1 . . . . 21 ALA N   . 19393 1 
+      145 . 1 1 22 22 ASP C   C 13 175.905 0.2 . 1 . . . . 23 ASP C   . 19393 1 
+      146 . 1 1 22 22 ASP CA  C 13  55.795 0.2 . 1 . . . . 23 ASP CA  . 19393 1 
+      147 . 1 1 22 22 ASP CB  C 13  38.714 0.2 . 1 . . . . 23 ASP CB  . 19393 1 
+      148 . 1 1 22 22 ASP CG  C 13 182.185 0.2 . 1 . . . . 23 ASP CG  . 19393 1 
+      149 . 1 1 22 22 ASP N   N 15 118.088 0.2 . 1 . . . . 23 ASP N   . 19393 1 
+      150 . 1 1 23 23 VAL C   C 13 177.17  0.2 . 1 . . . . 24 VAL C   . 19393 1 
+      151 . 1 1 23 23 VAL CA  C 13  58.434 0.2 . 1 . . . . 24 VAL CA  . 19393 1 
+      152 . 1 1 23 23 VAL CB  C 13  36.86  0.2 . 1 . . . . 24 VAL CB  . 19393 1 
+      153 . 1 1 23 23 VAL CG1 C 13  21.952 0.2 . 2 . . . . 24 VAL CG1 . 19393 1 
+      154 . 1 1 23 23 VAL CG2 C 13  23.087 0.2 . 2 . . . . 24 VAL CG2 . 19393 1 
+      155 . 1 1 23 23 VAL N   N 15 118.003 0.2 . 1 . . . . 24 VAL N   . 19393 1 
+      156 . 1 1 24 24 GLY C   C 13 175.552 0.2 . 1 . . . . 25 GLY C   . 19393 1 
+      157 . 1 1 24 24 GLY CA  C 13  48.89  0.2 . 1 . . . . 25 GLY CA  . 19393 1 
+      158 . 1 1 24 24 GLY N   N 15 116.687 0.2 . 1 . . . . 25 GLY N   . 19393 1 
+      159 . 1 1 25 25 SER C   C 13 171.404 0.2 . 1 . . . . 26 SER C   . 19393 1 
+      160 . 1 1 25 25 SER CA  C 13  57.844 0.2 . 1 . . . . 26 SER CA  . 19393 1 
+      161 . 1 1 25 25 SER CB  C 13  66.262 0.2 . 1 . . . . 26 SER CB  . 19393 1 
+      162 . 1 1 25 25 SER N   N 15 113.992 0.2 . 1 . . . . 26 SER N   . 19393 1 
+      163 . 1 1 26 26 ASN C   C 13 174.458 0.2 . 1 . . . . 27 ASN C   . 19393 1 
+      164 . 1 1 26 26 ASN CA  C 13  52.728 0.2 . 1 . . . . 27 ASN CA  . 19393 1 
+      165 . 1 1 26 26 ASN CB  C 13  40.771 0.2 . 1 . . . . 27 ASN CB  . 19393 1 
+      166 . 1 1 26 26 ASN CG  C 13 174.421 0.2 . 1 . . . . 27 ASN CG  . 19393 1 
+      167 . 1 1 26 26 ASN N   N 15 123.927 0.2 . 1 . . . . 27 ASN N   . 19393 1 
+      168 . 1 1 27 27 LYS C   C 13 174.275 0.2 . 1 . . . . 28 LYS C   . 19393 1 
+      169 . 1 1 27 27 LYS CA  C 13  54.82  0.2 . 1 . . . . 28 LYS CA  . 19393 1 
+      170 . 1 1 27 27 LYS CB  C 13  39.452 0.2 . 1 . . . . 28 LYS CB  . 19393 1 
+      171 . 1 1 27 27 LYS CG  C 13  25.386 0.2 . 1 . . . . 28 LYS CG  . 19393 1 
+      172 . 1 1 27 27 LYS CD  C 13  30.733 0.2 . 1 . . . . 28 LYS CD  . 19393 1 
+      173 . 1 1 27 27 LYS CE  C 13  41.812 0.2 . 1 . . . . 28 LYS CE  . 19393 1 
+      174 . 1 1 27 27 LYS N   N 15 119.79  0.2 . 1 . . . . 28 LYS N   . 19393 1 
+      175 . 1 1 27 27 LYS NZ  N 15  34.129 0.2 . 1 . . . . 28 LYS NZ  . 19393 1 
+      176 . 1 1 28 28 GLY C   C 13 171.005 0.2 . 1 . . . . 29 GLY C   . 19393 1 
+      177 . 1 1 28 28 GLY CA  C 13  44.996 0.2 . 1 . . . . 29 GLY CA  . 19393 1 
+      178 . 1 1 28 28 GLY N   N 15 109.987 0.2 . 1 . . . . 29 GLY N   . 19393 1 
+      179 . 1 1 29 29 ALA C   C 13 174.895 0.2 . 1 . . . . 30 ALA C   . 19393 1 
+      180 . 1 1 29 29 ALA CA  C 13  50.208 0.2 . 1 . . . . 30 ALA CA  . 19393 1 
+      181 . 1 1 29 29 ALA CB  C 13  20.012 0.2 . 1 . . . . 30 ALA CB  . 19393 1 
+      182 . 1 1 29 29 ALA N   N 15 130.948 0.2 . 1 . . . . 30 ALA N   . 19393 1 
+      183 . 1 1 30 30 ILE C   C 13 174.453 0.2 . 1 . . . . 31 ILE C   . 19393 1 
+      184 . 1 1 30 30 ILE CA  C 13  57.824 0.2 . 1 . . . . 31 ILE CA  . 19393 1 
+      185 . 1 1 30 30 ILE CB  C 13  38.714 0.2 . 1 . . . . 31 ILE CB  . 19393 1 
+      186 . 1 1 30 30 ILE CG1 C 13  27.205 0.2 . 1 . . . . 31 ILE CG1 . 19393 1 
+      187 . 1 1 30 30 ILE CG2 C 13  18.497 0.2 . 1 . . . . 31 ILE CG2 . 19393 1 
+      188 . 1 1 30 30 ILE CD1 C 13  12.278 0.2 . 1 . . . . 31 ILE CD1 . 19393 1 
+      189 . 1 1 30 30 ILE N   N 15 123.871 0.2 . 1 . . . . 31 ILE N   . 19393 1 
+      190 . 1 1 31 31 ILE C   C 13 175.788 0.2 . 1 . . . . 32 ILE C   . 19393 1 
+      191 . 1 1 31 31 ILE CA  C 13  58.516 0.2 . 1 . . . . 32 ILE CA  . 19393 1 
+      192 . 1 1 31 31 ILE CB  C 13  41.838 0.2 . 1 . . . . 32 ILE CB  . 19393 1 
+      193 . 1 1 31 31 ILE CG1 C 13  27.368 0.2 . 1 . . . . 32 ILE CG1 . 19393 1 
+      194 . 1 1 31 31 ILE CG2 C 13  17.193 0.2 . 1 . . . . 32 ILE CG2 . 19393 1 
+      195 . 1 1 31 31 ILE CD1 C 13  14.086 0.2 . 1 . . . . 32 ILE CD1 . 19393 1 
+      196 . 1 1 31 31 ILE N   N 15 125.542 0.2 . 1 . . . . 32 ILE N   . 19393 1 
+      197 . 1 1 32 32 GLY C   C 13 171.568 0.2 . 1 . . . . 33 GLY C   . 19393 1 
+      198 . 1 1 32 32 GLY CA  C 13  48.82  0.2 . 1 . . . . 33 GLY CA  . 19393 1 
+      199 . 1 1 32 32 GLY N   N 15 114.261 0.2 . 1 . . . . 33 GLY N   . 19393 1 
+      200 . 1 1 33 33 LEU C   C 13 173.836 0.2 . 1 . . . . 34 LEU C   . 19393 1 
+      201 . 1 1 33 33 LEU CA  C 13  54.108 0.2 . 1 . . . . 34 LEU CA  . 19393 1 
+      202 . 1 1 33 33 LEU CB  C 13  45.841 0.2 . 1 . . . . 34 LEU CB  . 19393 1 
+      203 . 1 1 33 33 LEU CG  C 13  28.164 0.2 . 1 . . . . 34 LEU CG  . 19393 1 
+      204 . 1 1 33 33 LEU CD1 C 13  24.852 0.2 . 2 . . . . 34 LEU CD1 . 19393 1 
+      205 . 1 1 33 33 LEU CD2 C 13  25.552 0.2 . 2 . . . . 34 LEU CD2 . 19393 1 
+      206 . 1 1 33 33 LEU N   N 15 125.382 0.2 . 1 . . . . 34 LEU N   . 19393 1 
+      207 . 1 1 34 34 MET C   C 13 173.589 0.2 . 1 . . . . 35 MET C   . 19393 1 
+      208 . 1 1 34 34 MET CA  C 13  53.673 0.2 . 1 . . . . 35 MET CA  . 19393 1 
+      209 . 1 1 34 34 MET CB  C 13  37.256 0.2 . 1 . . . . 35 MET CB  . 19393 1 
+      210 . 1 1 34 34 MET CG  C 13  32.234 0.2 . 1 . . . . 35 MET CG  . 19393 1 
+      211 . 1 1 34 34 MET CE  C 13  18.577 0.2 . 1 . . . . 35 MET CE  . 19393 1 
+      212 . 1 1 34 34 MET N   N 15 125.732 0.2 . 1 . . . . 35 MET N   . 19393 1 
+      213 . 1 1 35 35 VAL C   C 13 176.217 0.2 . 1 . . . . 36 VAL C   . 19393 1 
+      214 . 1 1 35 35 VAL CA  C 13  58.684 0.2 . 1 . . . . 36 VAL CA  . 19393 1 
+      215 . 1 1 35 35 VAL CB  C 13  36.085 0.2 . 1 . . . . 36 VAL CB  . 19393 1 
+      216 . 1 1 35 35 VAL CG1 C 13  21.693 0.2 . 1 . . . . 36 VAL CG1 . 19393 1 
+      217 . 1 1 35 35 VAL CG2 C 13  21.693 0.2 . 1 . . . . 36 VAL CG2 . 19393 1 
+      218 . 1 1 35 35 VAL N   N 15 125.32  0.2 . 1 . . . . 36 VAL N   . 19393 1 
+      219 . 1 1 36 36 GLY C   C 13 173.941 0.2 . 1 . . . . 37 GLY C   . 19393 1 
+      220 . 1 1 36 36 GLY CA  C 13  48.381 0.2 . 1 . . . . 37 GLY CA  . 19393 1 
+      221 . 1 1 36 36 GLY N   N 15 117.074 0.2 . 1 . . . . 37 GLY N   . 19393 1 
+      222 . 1 1 37 37 GLY C   C 13 169.835 0.2 . 1 . . . . 38 GLY C   . 19393 1 
+      223 . 1 1 37 37 GLY CA  C 13  44.968 0.2 . 1 . . . . 38 GLY CA  . 19393 1 
+      224 . 1 1 37 37 GLY N   N 15 105.537 0.2 . 1 . . . . 38 GLY N   . 19393 1 
+      225 . 1 1 38 38 VAL C   C 13 172.907 0.2 . 1 . . . . 39 VAL C   . 19393 1 
+      226 . 1 1 38 38 VAL CA  C 13  60.602 0.2 . 1 . . . . 39 VAL CA  . 19393 1 
+      227 . 1 1 38 38 VAL CB  C 13  36.701 0.2 . 1 . . . . 39 VAL CB  . 19393 1 
+      228 . 1 1 38 38 VAL CG1 C 13  22.986 0.2 . 2 . . . . 39 VAL CG1 . 19393 1 
+      229 . 1 1 38 38 VAL CG2 C 13  22.265 0.2 . 2 . . . . 39 VAL CG2 . 19393 1 
+      230 . 1 1 38 38 VAL N   N 15 118.44  0.2 . 1 . . . . 39 VAL N   . 19393 1 
+      231 . 1 1 39 39 VAL C   C 13 179.167 0.2 . 1 . . . . 40 VAL C   . 19393 1 
+      232 . 1 1 39 39 VAL CA  C 13  59.952 0.2 . 1 . . . . 40 VAL CA  . 19393 1 
+      233 . 1 1 39 39 VAL CB  C 13  33.478 0.2 . 1 . . . . 40 VAL CB  . 19393 1 
+      234 . 1 1 39 39 VAL CG1 C 13  20.263 0.2 . 2 . . . . 40 VAL CG1 . 19393 1 
+      235 . 1 1 39 39 VAL CG2 C 13  21.764 0.2 . 2 . . . . 40 VAL CG2 . 19393 1 
+      236 . 1 1 39 39 VAL N   N 15 128.052 0.2 . 1 . . . . 40 VAL N   . 19393 1 
+
+   stop_
+
+save_
+
+
+save_major_polymorph_-_UL_sample
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  major_polymorph_-_UL_sample
+   _Assigned_chem_shift_list.Entry_ID                      19393
+   _Assigned_chem_shift_list.ID                            2
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 '3D HNCACB' . . . 19393 2 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1  1  1 ASP C   C 13 173.612 0.2 . 1 . . . .  1 ASP C   . 19393 2 
+        2 . 1 1  1  1 ASP CA  C 13  54.207 0.2 . 1 . . . .  1 ASP CA  . 19393 2 
+        3 . 1 1  1  1 ASP CB  C 13  40.973 0.2 . 1 . . . .  1 ASP CB  . 19393 2 
+        4 . 1 1  1  1 ASP CG  C 13 179.683 0.2 . 1 . . . .  1 ASP CG  . 19393 2 
+        5 . 1 1  1  1 ASP N   N 15  37.112 0.2 . 1 . . . .  1 ASP N   . 19393 2 
+        6 . 1 1  2  2 ALA C   C 13 177.803 0.2 . 1 . . . .  2 ALA C   . 19393 2 
+        7 . 1 1  2  2 ALA CA  C 13  51.914 0.2 . 1 . . . .  2 ALA CA  . 19393 2 
+        8 . 1 1  2  2 ALA CB  C 13  15.674 0.2 . 1 . . . .  2 ALA CB  . 19393 2 
+        9 . 1 1  2  2 ALA N   N 15 117.636 0.2 . 1 . . . .  2 ALA N   . 19393 2 
+       10 . 1 1  3  3 GLU C   C 13 176.542 0.2 . 1 . . . .  3 GLU C   . 19393 2 
+       11 . 1 1  3  3 GLU CA  C 13  62.554 0.2 . 1 . . . .  3 GLU CA  . 19393 2 
+       12 . 1 1  3  3 GLU CB  C 13  29.483 0.2 . 1 . . . .  3 GLU CB  . 19393 2 
+       13 . 1 1  3  3 GLU CG  C 13  39.212 0.2 . 1 . . . .  3 GLU CG  . 19393 2 
+       14 . 1 1  3  3 GLU CD  C 13 183.628 0.2 . 1 . . . .  3 GLU CD  . 19393 2 
+       15 . 1 1  3  3 GLU N   N 15 121.939 0.2 . 1 . . . .  3 GLU N   . 19393 2 
+       16 . 1 1  4  4 PHE C   C 13 175.903 0.2 . 1 . . . .  4 PHE C   . 19393 2 
+       17 . 1 1  4  4 PHE CA  C 13  58.141 0.2 . 1 . . . .  4 PHE CA  . 19393 2 
+       18 . 1 1  4  4 PHE CB  C 13  41.747 0.2 . 1 . . . .  4 PHE CB  . 19393 2 
+       19 . 1 1  4  4 PHE CG  C 13 137.255 0.2 . 1 . . . .  4 PHE CG  . 19393 2 
+       20 . 1 1  4  4 PHE CD1 C 13 132.657 0.2 . 1 . . . .  4 PHE CD1 . 19393 2 
+       21 . 1 1  4  4 PHE CD2 C 13 132.657 0.2 . 1 . . . .  4 PHE CD2 . 19393 2 
+       22 . 1 1  4  4 PHE CE1 C 13 131.756 0.2 . 1 . . . .  4 PHE CE1 . 19393 2 
+       23 . 1 1  4  4 PHE CE2 C 13 131.756 0.2 . 1 . . . .  4 PHE CE2 . 19393 2 
+       24 . 1 1  4  4 PHE CZ  C 13 128.716 0.2 . 1 . . . .  4 PHE CZ  . 19393 2 
+       25 . 1 1  4  4 PHE N   N 15 114.566 0.2 . 1 . . . .  4 PHE N   . 19393 2 
+       26 . 1 1  5  5 ARG C   C 13 173.343 0.2 . 1 . . . .  5 ARG C   . 19393 2 
+       27 . 1 1  5  5 ARG CA  C 13  54.687 0.2 . 1 . . . .  5 ARG CA  . 19393 2 
+       28 . 1 1  5  5 ARG CB  C 13  33.703 0.2 . 1 . . . .  5 ARG CB  . 19393 2 
+       29 . 1 1  5  5 ARG CG  C 13  27.373 0.2 . 1 . . . .  5 ARG CG  . 19393 2 
+       30 . 1 1  5  5 ARG CD  C 13  43.8   0.2 . 1 . . . .  5 ARG CD  . 19393 2 
+       31 . 1 1  5  5 ARG CZ  C 13 159.6   0.2 . 1 . . . .  5 ARG CZ  . 19393 2 
+       32 . 1 1  5  5 ARG N   N 15 131.278 0.2 . 1 . . . .  5 ARG N   . 19393 2 
+       33 . 1 1  5  5 ARG NE  N 15  85.08  0.2 . 1 . . . .  5 ARG NE  . 19393 2 
+       34 . 1 1  5  5 ARG NH1 N 15  72.865 0.2 . 2 . . . .  5 ARG NH1 . 19393 2 
+       35 . 1 1  5  5 ARG NH2 N 15  70.87  0.2 . 2 . . . .  5 ARG NH2 . 19393 2 
+       36 . 1 1  6  6 HIS C   C 13 171.838 0.2 . 1 . . . .  6 HIS C   . 19393 2 
+       37 . 1 1  6  6 HIS CA  C 13  51.198 0.2 . 1 . . . .  6 HIS CA  . 19393 2 
+       38 . 1 1  6  6 HIS CB  C 13  32.314 0.2 . 1 . . . .  6 HIS CB  . 19393 2 
+       39 . 1 1  6  6 HIS CG  C 13 131.487 0.2 . 1 . . . .  6 HIS CG  . 19393 2 
+       40 . 1 1  6  6 HIS CD2 C 13 117.244 0.2 . 1 . . . .  6 HIS CD2 . 19393 2 
+       41 . 1 1  6  6 HIS CE1 C 13 137.172 0.2 . 1 . . . .  6 HIS CE1 . 19393 2 
+       42 . 1 1  6  6 HIS N   N 15 125.75  0.2 . 1 . . . .  6 HIS N   . 19393 2 
+       43 . 1 1  6  6 HIS ND1 N 15 181.845 0.2 . 1 . . . .  6 HIS ND1 . 19393 2 
+       44 . 1 1  6  6 HIS NE2 N 15 174.708 0.2 . 1 . . . .  6 HIS NE2 . 19393 2 
+       45 . 1 1  7  7 ASP C   C 13 174.252 0.2 . 1 . . . .  7 ASP C   . 19393 2 
+       46 . 1 1  7  7 ASP CA  C 13  52.536 0.2 . 1 . . . .  7 ASP CA  . 19393 2 
+       47 . 1 1  7  7 ASP CB  C 13  42.249 0.2 . 1 . . . .  7 ASP CB  . 19393 2 
+       48 . 1 1  7  7 ASP CG  C 13 179.943 0.2 . 1 . . . .  7 ASP CG  . 19393 2 
+       49 . 1 1  7  7 ASP N   N 15 129.993 0.2 . 1 . . . .  7 ASP N   . 19393 2 
+       50 . 1 1  8  8 SER C   C 13 175.482 0.2 . 1 . . . .  8 SER C   . 19393 2 
+       51 . 1 1  8  8 SER CA  C 13  55.081 0.2 . 1 . . . .  8 SER CA  . 19393 2 
+       52 . 1 1  8  8 SER CB  C 13  66.29  0.2 . 1 . . . .  8 SER CB  . 19393 2 
+       53 . 1 1  8  8 SER N   N 15 116.203 0.2 . 1 . . . .  8 SER N   . 19393 2 
+       54 . 1 1  9  9 GLY C   C 13 173.823 0.2 . 1 . . . .  9 GLY C   . 19393 2 
+       55 . 1 1  9  9 GLY CA  C 13  47.209 0.2 . 1 . . . .  9 GLY CA  . 19393 2 
+       56 . 1 1  9  9 GLY N   N 15 111.963 0.2 . 1 . . . .  9 GLY N   . 19393 2 
+       57 . 1 1 10 10 TYR C   C 13 172.774 0.2 . 1 . . . . 10 TYR C   . 19393 2 
+       58 . 1 1 10 10 TYR CA  C 13  57.959 0.2 . 1 . . . . 10 TYR CA  . 19393 2 
+       59 . 1 1 10 10 TYR CB  C 13  42.099 0.2 . 1 . . . . 10 TYR CB  . 19393 2 
+       60 . 1 1 10 10 TYR CD1 C 13 133.234 0.2 . 1 . . . . 10 TYR CD1 . 19393 2 
+       61 . 1 1 10 10 TYR CD2 C 13 133.234 0.2 . 1 . . . . 10 TYR CD2 . 19393 2 
+       62 . 1 1 10 10 TYR CE1 C 13 118.471 0.2 . 1 . . . . 10 TYR CE1 . 19393 2 
+       63 . 1 1 10 10 TYR CE2 C 13 118.471 0.2 . 1 . . . . 10 TYR CE2 . 19393 2 
+       64 . 1 1 10 10 TYR CZ  C 13 156.54  0.2 . 1 . . . . 10 TYR CZ  . 19393 2 
+       65 . 1 1 10 10 TYR N   N 15 124.974 0.2 . 1 . . . . 10 TYR N   . 19393 2 
+       66 . 1 1 11 11 GLU CA  C 13  54.889 0.2 . 1 . . . . 11 GLU CA  . 19393 2 
+       67 . 1 1 11 11 GLU CB  C 13  32.307 0.2 . 1 . . . . 11 GLU CB  . 19393 2 
+       68 . 1 1 11 11 GLU CG  C 13  38.092 0.2 . 1 . . . . 11 GLU CG  . 19393 2 
+       69 . 1 1 11 11 GLU CD  C 13 183.631 0.2 . 1 . . . . 11 GLU CD  . 19393 2 
+       70 . 1 1 12 12 VAL C   C 13 175.762 0.2 . 1 . . . . 12 VAL C   . 19393 2 
+       71 . 1 1 12 12 VAL CA  C 13  60.555 0.2 . 1 . . . . 12 VAL CA  . 19393 2 
+       72 . 1 1 12 12 VAL CB  C 13  34.899 0.2 . 1 . . . . 12 VAL CB  . 19393 2 
+       73 . 1 1 12 12 VAL CG1 C 13  21.528 0.2 . 2 . . . . 12 VAL CG1 . 19393 2 
+       74 . 1 1 12 12 VAL CG2 C 13  21.227 0.2 . 2 . . . . 12 VAL CG2 . 19393 2 
+       75 . 1 1 12 12 VAL N   N 15 126.012 0.2 . 1 . . . . 12 VAL N   . 19393 2 
+       76 . 1 1 13 13 HIS C   C 13 173.609 0.2 . 1 . . . . 13 HIS C   . 19393 2 
+       77 . 1 1 13 13 HIS CA  C 13  50.444 0.2 . 1 . . . . 13 HIS CA  . 19393 2 
+       78 . 1 1 13 13 HIS CB  C 13  33.4   0.2 . 1 . . . . 13 HIS CB  . 19393 2 
+       79 . 1 1 13 13 HIS CG  C 13 133.072 0.2 . 1 . . . . 13 HIS CG  . 19393 2 
+       80 . 1 1 13 13 HIS CD2 C 13 113.961 0.2 . 1 . . . . 13 HIS CD2 . 19393 2 
+       81 . 1 1 13 13 HIS CE1 C 13 139.891 0.2 . 1 . . . . 13 HIS CE1 . 19393 2 
+       82 . 1 1 13 13 HIS N   N 15 125.928 0.2 . 1 . . . . 13 HIS N   . 19393 2 
+       83 . 1 1 13 13 HIS ND1 N 15 191.682 0.2 . 1 . . . . 13 HIS ND1 . 19393 2 
+       84 . 1 1 13 13 HIS NE2 N 15 170.029 0.2 . 1 . . . . 13 HIS NE2 . 19393 2 
+       85 . 1 1 14 14 HIS C   C 13 173.537 0.2 . 1 . . . . 14 HIS C   . 19393 2 
+       86 . 1 1 14 14 HIS CA  C 13  54.918 0.2 . 1 . . . . 14 HIS CA  . 19393 2 
+       87 . 1 1 14 14 HIS CB  C 13  31.967 0.2 . 1 . . . . 14 HIS CB  . 19393 2 
+       88 . 1 1 14 14 HIS CG  C 13 135.601 0.2 . 1 . . . . 14 HIS CG  . 19393 2 
+       89 . 1 1 14 14 HIS CD2 C 13 118.597 0.2 . 1 . . . . 14 HIS CD2 . 19393 2 
+       90 . 1 1 14 14 HIS CE1 C 13 138.435 0.2 . 1 . . . . 14 HIS CE1 . 19393 2 
+       91 . 1 1 14 14 HIS N   N 15 117.994 0.2 . 1 . . . . 14 HIS N   . 19393 2 
+       92 . 1 1 14 14 HIS NE2 N 15 171.336 0.2 . 1 . . . . 14 HIS NE2 . 19393 2 
+       93 . 1 1 15 15 GLN C   C 13 175.215 0.2 . 1 . . . . 15 GLN C   . 19393 2 
+       94 . 1 1 15 15 GLN CA  C 13  54.739 0.2 . 1 . . . . 15 GLN CA  . 19393 2 
+       95 . 1 1 15 15 GLN CB  C 13  33.029 0.2 . 1 . . . . 15 GLN CB  . 19393 2 
+       96 . 1 1 15 15 GLN CG  C 13  30.551 0.2 . 1 . . . . 15 GLN CG  . 19393 2 
+       97 . 1 1 15 15 GLN CD  C 13 176.335 0.2 . 1 . . . . 15 GLN CD  . 19393 2 
+       98 . 1 1 15 15 GLN N   N 15 108.738 0.2 . 1 . . . . 15 GLN N   . 19393 2 
+       99 . 1 1 15 15 GLN NE2 N 15 108.666 0.2 . 1 . . . . 15 GLN NE2 . 19393 2 
+      100 . 1 1 16 16 LYS C   C 13 174.18  0.2 . 1 . . . . 16 LYS C   . 19393 2 
+      101 . 1 1 16 16 LYS CA  C 13  55.189 0.2 . 1 . . . . 16 LYS CA  . 19393 2 
+      102 . 1 1 16 16 LYS CB  C 13  36.672 0.2 . 1 . . . . 16 LYS CB  . 19393 2 
+      103 . 1 1 16 16 LYS CG  C 13  25.725 0.2 . 1 . . . . 16 LYS CG  . 19393 2 
+      104 . 1 1 16 16 LYS CD  C 13  30.403 0.2 . 1 . . . . 16 LYS CD  . 19393 2 
+      105 . 1 1 16 16 LYS CE  C 13  42.113 0.2 . 1 . . . . 16 LYS CE  . 19393 2 
+      106 . 1 1 16 16 LYS N   N 15 119.78  0.2 . 1 . . . . 16 LYS N   . 19393 2 
+      107 . 1 1 16 16 LYS NZ  N 15  33.669 0.2 . 1 . . . . 16 LYS NZ  . 19393 2 
+      108 . 1 1 17 17 LEU C   C 13 175.01  0.2 . 1 . . . . 17 LEU C   . 19393 2 
+      109 . 1 1 17 17 LEU CA  C 13  54.59  0.2 . 1 . . . . 17 LEU CA  . 19393 2 
+      110 . 1 1 17 17 LEU CB  C 13  44.697 0.2 . 1 . . . . 17 LEU CB  . 19393 2 
+      111 . 1 1 17 17 LEU CG  C 13  30.411 0.2 . 1 . . . . 17 LEU CG  . 19393 2 
+      112 . 1 1 17 17 LEU CD1 C 13  22.752 0.2 . 2 . . . . 17 LEU CD1 . 19393 2 
+      113 . 1 1 17 17 LEU CD2 C 13  25.046 0.2 . 2 . . . . 17 LEU CD2 . 19393 2 
+      114 . 1 1 17 17 LEU N   N 15 127.908 0.2 . 1 . . . . 17 LEU N   . 19393 2 
+      115 . 1 1 18 18 VAL C   C 13 172.818 0.2 . 1 . . . . 18 VAL C   . 19393 2 
+      116 . 1 1 18 18 VAL CA  C 13  61.829 0.2 . 1 . . . . 18 VAL CA  . 19393 2 
+      117 . 1 1 18 18 VAL CB  C 13  33.856 0.2 . 1 . . . . 18 VAL CB  . 19393 2 
+      118 . 1 1 18 18 VAL CG1 C 13  22.087 0.2 . 2 . . . . 18 VAL CG1 . 19393 2 
+      119 . 1 1 18 18 VAL CG2 C 13  20.226 0.2 . 2 . . . . 18 VAL CG2 . 19393 2 
+      120 . 1 1 18 18 VAL N   N 15 123.473 0.2 . 1 . . . . 18 VAL N   . 19393 2 
+      121 . 1 1 19 19 PHE C   C 13 174.296 0.2 . 1 . . . . 19 PHE C   . 19393 2 
+      122 . 1 1 19 19 PHE CA  C 13  55.589 0.2 . 1 . . . . 19 PHE CA  . 19393 2 
+      123 . 1 1 19 19 PHE CB  C 13  42.482 0.2 . 1 . . . . 19 PHE CB  . 19393 2 
+      124 . 1 1 19 19 PHE CG  C 13 142.676 0.2 . 1 . . . . 19 PHE CG  . 19393 2 
+      125 . 1 1 19 19 PHE CD1 C 13 130.88  0.2 . 3 . . . . 19 PHE CD1 . 19393 2 
+      126 . 1 1 19 19 PHE CD2 C 13 131.842 0.2 . 3 . . . . 19 PHE CD2 . 19393 2 
+      127 . 1 1 19 19 PHE CE1 C 13 131.606 0.2 . 1 . . . . 19 PHE CE1 . 19393 2 
+      128 . 1 1 19 19 PHE CE2 C 13 131.606 0.2 . 1 . . . . 19 PHE CE2 . 19393 2 
+      129 . 1 1 19 19 PHE CZ  C 13 128.895 0.2 . 1 . . . . 19 PHE CZ  . 19393 2 
+      130 . 1 1 19 19 PHE N   N 15 129.219 0.2 . 1 . . . . 19 PHE N   . 19393 2 
+      131 . 1 1 20 20 PHE C   C 13 170.979 0.2 . 1 . . . . 20 PHE C   . 19393 2 
+      132 . 1 1 20 20 PHE CA  C 13  58.681 0.2 . 1 . . . . 20 PHE CA  . 19393 2 
+      133 . 1 1 20 20 PHE CB  C 13  32.908 0.2 . 1 . . . . 20 PHE CB  . 19393 2 
+      134 . 1 1 20 20 PHE CG  C 13 142.556 0.2 . 1 . . . . 20 PHE CG  . 19393 2 
+      135 . 1 1 20 20 PHE CD1 C 13 131.436 0.2 . 3 . . . . 20 PHE CD1 . 19393 2 
+      136 . 1 1 20 20 PHE CD2 C 13 131.494 0.2 . 3 . . . . 20 PHE CD2 . 19393 2 
+      137 . 1 1 20 20 PHE CE1 C 13 134.003 0.2 . 3 . . . . 20 PHE CE1 . 19393 2 
+      138 . 1 1 20 20 PHE CE2 C 13 128.53  0.2 . 3 . . . . 20 PHE CE2 . 19393 2 
+      139 . 1 1 20 20 PHE CZ  C 13 129.131 0.2 . 1 . . . . 20 PHE CZ  . 19393 2 
+      140 . 1 1 20 20 PHE N   N 15 117.351 0.2 . 1 . . . . 20 PHE N   . 19393 2 
+      141 . 1 1 21 21 ALA C   C 13 177.239 0.2 . 1 . . . . 21 ALA C   . 19393 2 
+      142 . 1 1 21 21 ALA CA  C 13  49.018 0.2 . 1 . . . . 21 ALA CA  . 19393 2 
+      143 . 1 1 21 21 ALA CB  C 13  23.136 0.2 . 1 . . . . 21 ALA CB  . 19393 2 
+      144 . 1 1 21 21 ALA N   N 15 114.846 0.2 . 1 . . . . 21 ALA N   . 19393 2 
+      145 . 1 1 22 22 ASP C   C 13 175.905 0.2 . 1 . . . . 23 ASP C   . 19393 2 
+      146 . 1 1 22 22 ASP CA  C 13  55.795 0.2 . 1 . . . . 23 ASP CA  . 19393 2 
+      147 . 1 1 22 22 ASP CB  C 13  38.714 0.2 . 1 . . . . 23 ASP CB  . 19393 2 
+      148 . 1 1 22 22 ASP CG  C 13 182.185 0.2 . 1 . . . . 23 ASP CG  . 19393 2 
+      149 . 1 1 22 22 ASP N   N 15 118.088 0.2 . 1 . . . . 23 ASP N   . 19393 2 
+      150 . 1 1 23 23 VAL C   C 13 177.17  0.2 . 1 . . . . 24 VAL C   . 19393 2 
+      151 . 1 1 23 23 VAL CA  C 13  58.434 0.2 . 1 . . . . 24 VAL CA  . 19393 2 
+      152 . 1 1 23 23 VAL CB  C 13  36.86  0.2 . 1 . . . . 24 VAL CB  . 19393 2 
+      153 . 1 1 23 23 VAL CG1 C 13  21.952 0.2 . 2 . . . . 24 VAL CG1 . 19393 2 
+      154 . 1 1 23 23 VAL CG2 C 13  23.087 0.2 . 2 . . . . 24 VAL CG2 . 19393 2 
+      155 . 1 1 23 23 VAL N   N 15 118.003 0.2 . 1 . . . . 24 VAL N   . 19393 2 
+      156 . 1 1 24 24 GLY C   C 13 175.552 0.2 . 1 . . . . 25 GLY C   . 19393 2 
+      157 . 1 1 24 24 GLY CA  C 13  48.89  0.2 . 1 . . . . 25 GLY CA  . 19393 2 
+      158 . 1 1 24 24 GLY N   N 15 116.687 0.2 . 1 . . . . 25 GLY N   . 19393 2 
+      159 . 1 1 25 25 SER C   C 13 171.404 0.2 . 1 . . . . 26 SER C   . 19393 2 
+      160 . 1 1 25 25 SER CA  C 13  57.844 0.2 . 1 . . . . 26 SER CA  . 19393 2 
+      161 . 1 1 25 25 SER CB  C 13  66.262 0.2 . 1 . . . . 26 SER CB  . 19393 2 
+      162 . 1 1 25 25 SER N   N 15 113.992 0.2 . 1 . . . . 26 SER N   . 19393 2 
+      163 . 1 1 26 26 ASN C   C 13 174.458 0.2 . 1 . . . . 27 ASN C   . 19393 2 
+      164 . 1 1 26 26 ASN CA  C 13  52.728 0.2 . 1 . . . . 27 ASN CA  . 19393 2 
+      165 . 1 1 26 26 ASN CB  C 13  40.771 0.2 . 1 . . . . 27 ASN CB  . 19393 2 
+      166 . 1 1 26 26 ASN CG  C 13 174.421 0.2 . 1 . . . . 27 ASN CG  . 19393 2 
+      167 . 1 1 26 26 ASN N   N 15 123.927 0.2 . 1 . . . . 27 ASN N   . 19393 2 
+      168 . 1 1 27 27 LYS C   C 13 174.275 0.2 . 1 . . . . 28 LYS C   . 19393 2 
+      169 . 1 1 27 27 LYS CA  C 13  54.82  0.2 . 1 . . . . 28 LYS CA  . 19393 2 
+      170 . 1 1 27 27 LYS CB  C 13  39.452 0.2 . 1 . . . . 28 LYS CB  . 19393 2 
+      171 . 1 1 27 27 LYS CG  C 13  25.386 0.2 . 1 . . . . 28 LYS CG  . 19393 2 
+      172 . 1 1 27 27 LYS CD  C 13  30.733 0.2 . 1 . . . . 28 LYS CD  . 19393 2 
+      173 . 1 1 27 27 LYS CE  C 13  41.812 0.2 . 1 . . . . 28 LYS CE  . 19393 2 
+      174 . 1 1 27 27 LYS N   N 15 119.79  0.2 . 1 . . . . 28 LYS N   . 19393 2 
+      175 . 1 1 27 27 LYS NZ  N 15  34.129 0.2 . 1 . . . . 28 LYS NZ  . 19393 2 
+      176 . 1 1 28 28 GLY C   C 13 171.005 0.2 . 1 . . . . 29 GLY C   . 19393 2 
+      177 . 1 1 28 28 GLY CA  C 13  44.996 0.2 . 1 . . . . 29 GLY CA  . 19393 2 
+      178 . 1 1 28 28 GLY N   N 15 109.987 0.2 . 1 . . . . 29 GLY N   . 19393 2 
+      179 . 1 1 29 29 ALA C   C 13 174.895 0.2 . 1 . . . . 30 ALA C   . 19393 2 
+      180 . 1 1 29 29 ALA CA  C 13  50.208 0.2 . 1 . . . . 30 ALA CA  . 19393 2 
+      181 . 1 1 29 29 ALA CB  C 13  20.012 0.2 . 1 . . . . 30 ALA CB  . 19393 2 
+      182 . 1 1 29 29 ALA N   N 15 130.948 0.2 . 1 . . . . 30 ALA N   . 19393 2 
+      183 . 1 1 30 30 ILE C   C 13 174.453 0.2 . 1 . . . . 31 ILE C   . 19393 2 
+      184 . 1 1 30 30 ILE CA  C 13  57.824 0.2 . 1 . . . . 31 ILE CA  . 19393 2 
+      185 . 1 1 30 30 ILE CB  C 13  38.714 0.2 . 1 . . . . 31 ILE CB  . 19393 2 
+      186 . 1 1 30 30 ILE CG1 C 13  27.205 0.2 . 1 . . . . 31 ILE CG1 . 19393 2 
+      187 . 1 1 30 30 ILE CG2 C 13  18.497 0.2 . 1 . . . . 31 ILE CG2 . 19393 2 
+      188 . 1 1 30 30 ILE CD1 C 13  12.278 0.2 . 1 . . . . 31 ILE CD1 . 19393 2 
+      189 . 1 1 30 30 ILE N   N 15 123.871 0.2 . 1 . . . . 31 ILE N   . 19393 2 
+      190 . 1 1 31 31 ILE C   C 13 175.788 0.2 . 1 . . . . 32 ILE C   . 19393 2 
+      191 . 1 1 31 31 ILE CA  C 13  58.516 0.2 . 1 . . . . 32 ILE CA  . 19393 2 
+      192 . 1 1 31 31 ILE CB  C 13  41.838 0.2 . 1 . . . . 32 ILE CB  . 19393 2 
+      193 . 1 1 31 31 ILE CG1 C 13  27.368 0.2 . 1 . . . . 32 ILE CG1 . 19393 2 
+      194 . 1 1 31 31 ILE CG2 C 13  17.193 0.2 . 1 . . . . 32 ILE CG2 . 19393 2 
+      195 . 1 1 31 31 ILE CD1 C 13  14.086 0.2 . 1 . . . . 32 ILE CD1 . 19393 2 
+      196 . 1 1 31 31 ILE N   N 15 125.542 0.2 . 1 . . . . 32 ILE N   . 19393 2 
+      197 . 1 1 32 32 GLY C   C 13 171.568 0.2 . 1 . . . . 33 GLY C   . 19393 2 
+      198 . 1 1 32 32 GLY CA  C 13  48.82  0.2 . 1 . . . . 33 GLY CA  . 19393 2 
+      199 . 1 1 32 32 GLY N   N 15 114.261 0.2 . 1 . . . . 33 GLY N   . 19393 2 
+      200 . 1 1 33 33 LEU C   C 13 173.836 0.2 . 1 . . . . 34 LEU C   . 19393 2 
+      201 . 1 1 33 33 LEU CA  C 13  54.108 0.2 . 1 . . . . 34 LEU CA  . 19393 2 
+      202 . 1 1 33 33 LEU CB  C 13  45.841 0.2 . 1 . . . . 34 LEU CB  . 19393 2 
+      203 . 1 1 33 33 LEU CG  C 13  28.164 0.2 . 1 . . . . 34 LEU CG  . 19393 2 
+      204 . 1 1 33 33 LEU CD1 C 13  24.852 0.2 . 2 . . . . 34 LEU CD1 . 19393 2 
+      205 . 1 1 33 33 LEU CD2 C 13  25.552 0.2 . 2 . . . . 34 LEU CD2 . 19393 2 
+      206 . 1 1 33 33 LEU N   N 15 125.382 0.2 . 1 . . . . 34 LEU N   . 19393 2 
+      207 . 1 1 34 34 MET C   C 13 173.589 0.2 . 1 . . . . 35 MET C   . 19393 2 
+      208 . 1 1 34 34 MET CA  C 13  53.673 0.2 . 1 . . . . 35 MET CA  . 19393 2 
+      209 . 1 1 34 34 MET CB  C 13  37.256 0.2 . 1 . . . . 35 MET CB  . 19393 2 
+      210 . 1 1 34 34 MET CG  C 13  32.234 0.2 . 1 . . . . 35 MET CG  . 19393 2 
+      211 . 1 1 34 34 MET CE  C 13  18.577 0.2 . 1 . . . . 35 MET CE  . 19393 2 
+      212 . 1 1 34 34 MET N   N 15 125.732 0.2 . 1 . . . . 35 MET N   . 19393 2 
+      213 . 1 1 35 35 VAL C   C 13 176.217 0.2 . 1 . . . . 36 VAL C   . 19393 2 
+      214 . 1 1 35 35 VAL CA  C 13  58.684 0.2 . 1 . . . . 36 VAL CA  . 19393 2 
+      215 . 1 1 35 35 VAL CB  C 13  36.085 0.2 . 1 . . . . 36 VAL CB  . 19393 2 
+      216 . 1 1 35 35 VAL CG1 C 13  21.693 0.2 . 1 . . . . 36 VAL CG1 . 19393 2 
+      217 . 1 1 35 35 VAL CG2 C 13  21.693 0.2 . 1 . . . . 36 VAL CG2 . 19393 2 
+      218 . 1 1 35 35 VAL N   N 15 125.32  0.2 . 1 . . . . 36 VAL N   . 19393 2 
+      219 . 1 1 36 36 GLY C   C 13 173.941 0.2 . 1 . . . . 37 GLY C   . 19393 2 
+      220 . 1 1 36 36 GLY CA  C 13  48.381 0.2 . 1 . . . . 37 GLY CA  . 19393 2 
+      221 . 1 1 36 36 GLY N   N 15 117.074 0.2 . 1 . . . . 37 GLY N   . 19393 2 
+      222 . 1 1 37 37 GLY C   C 13 169.835 0.2 . 1 . . . . 38 GLY C   . 19393 2 
+      223 . 1 1 37 37 GLY CA  C 13  44.968 0.2 . 1 . . . . 38 GLY CA  . 19393 2 
+      224 . 1 1 37 37 GLY N   N 15 105.537 0.2 . 1 . . . . 38 GLY N   . 19393 2 
+      225 . 1 1 38 38 VAL C   C 13 172.907 0.2 . 1 . . . . 39 VAL C   . 19393 2 
+      226 . 1 1 38 38 VAL CA  C 13  60.602 0.2 . 1 . . . . 39 VAL CA  . 19393 2 
+      227 . 1 1 38 38 VAL CB  C 13  36.701 0.2 . 1 . . . . 39 VAL CB  . 19393 2 
+      228 . 1 1 38 38 VAL CG1 C 13  22.986 0.2 . 2 . . . . 39 VAL CG1 . 19393 2 
+      229 . 1 1 38 38 VAL CG2 C 13  22.265 0.2 . 2 . . . . 39 VAL CG2 . 19393 2 
+      230 . 1 1 38 38 VAL N   N 15 118.44  0.2 . 1 . . . . 39 VAL N   . 19393 2 
+      231 . 1 1 39 39 VAL C   C 13 179.167 0.2 . 1 . . . . 40 VAL C   . 19393 2 
+      232 . 1 1 39 39 VAL CA  C 13  59.952 0.2 . 1 . . . . 40 VAL CA  . 19393 2 
+      233 . 1 1 39 39 VAL CB  C 13  33.478 0.2 . 1 . . . . 40 VAL CB  . 19393 2 
+      234 . 1 1 39 39 VAL CG1 C 13  20.263 0.2 . 2 . . . . 40 VAL CG1 . 19393 2 
+      235 . 1 1 39 39 VAL CG2 C 13  21.764 0.2 . 2 . . . . 40 VAL CG2 . 19393 2 
+      236 . 1 1 39 39 VAL N   N 15 128.052 0.2 . 1 . . . . 40 VAL N   . 19393 2 
+
+   stop_
+
+save_
+
+
+save_minor_polymorph_-_UL_sample
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  minor_polymorph_-_UL_sample
+   _Assigned_chem_shift_list.Entry_ID                      19393
+   _Assigned_chem_shift_list.ID                            3
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                      'only shifts different from major polymorph'
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 '3D HNCACB' . . . 19393 3 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+       1 . 1 1 12 12 VAL CA  C 13  55.725 0.2 . 1 . . . . 12 VAL CA  . 19393 3 
+       2 . 1 1 12 12 VAL CB  C 13  30.753 0.2 . 1 . . . . 12 VAL CB  . 19393 3 
+       3 . 1 1 13 13 HIS C   C 13 173.387 0.2 . 1 . . . . 13 HIS C   . 19393 3 
+       4 . 1 1 13 13 HIS CA  C 13  53.631 0.2 . 1 . . . . 13 HIS CA  . 19393 3 
+       5 . 1 1 13 13 HIS CB  C 13  31.352 0.2 . 1 . . . . 13 HIS CB  . 19393 3 
+       6 . 1 1 14 14 HIS C   C 13 174.606 0.2 . 1 . . . . 14 HIS C   . 19393 3 
+       7 . 1 1 14 14 HIS CA  C 13  60.145 0.2 . 1 . . . . 14 HIS CA  . 19393 3 
+       8 . 1 1 14 14 HIS CB  C 13  24.013 0.2 . 1 . . . . 14 HIS CB  . 19393 3 
+       9 . 1 1 14 14 HIS CD2 C 13 118.762 0.2 . 1 . . . . 14 HIS CD2 . 19393 3 
+      10 . 1 1 14 14 HIS CE1 C 13 136.232 0.2 . 1 . . . . 14 HIS CE1 . 19393 3 
+      11 . 1 1 23 23 VAL C   C 13 176.107 0.2 . 1 . . . . 24 VAL C   . 19393 3 
+      12 . 1 1 23 23 VAL CA  C 13  58.089 0.2 . 1 . . . . 24 VAL CA  . 19393 3 
+      13 . 1 1 23 23 VAL CB  C 13  36.605 0.2 . 1 . . . . 24 VAL CB  . 19393 3 
+      14 . 1 1 23 23 VAL CG2 C 13  22.157 0.2 . 1 . . . . 24 VAL CG2 . 19393 3 
+      15 . 1 1 23 23 VAL CG1 C 13  22.157 0.2 . 1 . . . . 24 VAL CG1 . 19393 3 
+      16 . 1 1 24 24 GLY C   C 13 174.45  0.2 . 1 . . . . 25 GLY C   . 19393 3 
+      17 . 1 1 25 25 SER C   C 13 173.395 0.2 . 1 . . . . 26 SER C   . 19393 3 
+      18 . 1 1 25 25 SER CA  C 13  55.93  0.2 . 1 . . . . 26 SER CA  . 19393 3 
+      19 . 1 1 25 25 SER CB  C 13  64.476 0.2 . 1 . . . . 26 SER CB  . 19393 3 
+      20 . 1 1 26 26 ASN C   C 13 173.453 0.2 . 1 . . . . 27 ASN C   . 19393 3 
+      21 . 1 1 26 26 ASN CA  C 13  55.732 0.2 . 1 . . . . 27 ASN CA  . 19393 3 
+      22 . 1 1 26 26 ASN CB  C 13  43.374 0.2 . 1 . . . . 27 ASN CB  . 19393 3 
+      23 . 1 1 27 27 LYS C   C 13 174.857 0.2 . 1 . . . . 28 LYS C   . 19393 3 
+      24 . 1 1 27 27 LYS CA  C 13  55.89  0.2 . 1 . . . . 28 LYS CA  . 19393 3 
+      25 . 1 1 27 27 LYS CB  C 13  34.786 0.2 . 1 . . . . 28 LYS CB  . 19393 3 
+      26 . 1 1 28 28 GLY C   C 13 171.947 0.2 . 1 . . . . 29 GLY C   . 19393 3 
+      27 . 1 1 28 28 GLY CA  C 13  43.982 0.2 . 1 . . . . 29 GLY CA  . 19393 3 
+      28 . 1 1 28 28 GLY N   N 15 108.918 0.2 . 1 . . . . 29 GLY N   . 19393 3 
+      29 . 1 1 29 29 ALA C   C 13 175.872 0.2 . 1 . . . . 30 ALA C   . 19393 3 
+      30 . 1 1 29 29 ALA CA  C 13  50.529 0.2 . 1 . . . . 30 ALA CA  . 19393 3 
+      31 . 1 1 29 29 ALA CB  C 13  21.597 0.2 . 1 . . . . 30 ALA CB  . 19393 3 
+      32 . 1 1 29 29 ALA N   N 15 127.317 0.2 . 1 . . . . 30 ALA N   . 19393 3 
+      33 . 1 1 30 30 ILE C   C 13 174.302 0.2 . 1 . . . . 31 ILE C   . 19393 3 
+      34 . 1 1 30 30 ILE CA  C 13  60.705 0.2 . 1 . . . . 31 ILE CA  . 19393 3 
+      35 . 1 1 30 30 ILE CB  C 13  40.118 0.2 . 1 . . . . 31 ILE CB  . 19393 3 
+      36 . 1 1 30 30 ILE CG1 C 13  27.265 0.2 . 1 . . . . 31 ILE CG1 . 19393 3 
+      37 . 1 1 30 30 ILE CG2 C 13  18.083 0.2 . 1 . . . . 31 ILE CG2 . 19393 3 
+      38 . 1 1 30 30 ILE CD1 C 13  14.643 0.2 . 1 . . . . 31 ILE CD1 . 19393 3 
+      39 . 1 1 30 30 ILE N   N 15 124.532 0.2 . 1 . . . . 31 ILE N   . 19393 3 
+      40 . 1 1 33 33 LEU CA  C 13  53.928 0.2 . 1 . . . . 34 LEU CA  . 19393 3 
+      41 . 1 1 33 33 LEU CB  C 13  47.34  0.2 . 1 . . . . 34 LEU CB  . 19393 3 
+      42 . 1 1 33 33 LEU CG  C 13  28.032 0.2 . 1 . . . . 34 LEU CG  . 19393 3 
+
+   stop_
+
+save_
+

@@ -1,70 +1,149 @@
-"""Diagnose which batch entries have real SS labels vs all 'unknown'."""
-import pandas as pd
+"""
+diagnose_batch.py — Run each SOLID_STATE_ENTRIES one at a time and report
+what succeeds, what errors, and what hangs.
+
+Run:
+    conda activate nmr
+    cd C:\\Users\\vamsi\\.vscode\\paravastu
+    python src/diagnose_batch.py
+
+This does NOT use --batch. It calls run_pipeline() directly for each entry,
+catches all exceptions, and prints a clean summary at the end.
+If something hangs, Ctrl+C to break — the summary up to that point still prints.
+"""
+
+import sys
+import time
+import traceback
 from pathlib import Path
 
-cache_dir = Path("data/batch_cache")
-print(f"\n{'='*70}")
-print("BATCH CACHE DIAGNOSTIC")
-print(f"{'='*70}\n")
+SRC_DIR  = Path(__file__).resolve().parent
+ROOT_DIR = SRC_DIR.parent
+sys.path.insert(0, str(SRC_DIR))
 
-total_shifts = 0
-total_labeled = 0
-entry_stats = []
+from pipeline import run_pipeline, SOLID_STATE_ENTRIES
 
-for f in sorted(cache_dir.glob("bmr*_raw.csv")):
-    bmrb_id = f.stem.replace("bmr", "").replace("_raw", "")
-    df = pd.read_csv(f)
-    
-    n_total = len(df)
-    n_labeled = len(df[df['ss_class'] != 'unknown'])
-    pct_labeled = 100 * n_labeled / n_total if n_total > 0 else 0
-    
-    ss_dist = df['ss_class'].value_counts().to_dict()
-    helix = ss_dist.get('helix', 0)
-    strand = ss_dist.get('strand', 0)
-    coil = ss_dist.get('coil', 0)
-    unknown = ss_dist.get('unknown', 0)
-    
-    total_shifts += n_total
-    total_labeled += n_labeled
-    
-    status = "✓ GOOD" if pct_labeled >= 70 else "✗ POOR"
-    entry_stats.append({
-        'BMRB': bmrb_id,
-        'Total': n_total,
-        'Labeled': n_labeled,
-        'Pct': f"{pct_labeled:.1f}%",
-        'Helix': helix,
-        'Strand': strand,
-        'Coil': coil,
-        'Unknown': unknown,
-        'Status': status,
-    })
+RESULTS = []
 
-df_stats = pd.DataFrame(entry_stats)
-print(df_stats.to_string(index=False))
+def run_one(bmrb_id, pdb_id, label):
+    t0 = time.time()
+    try:
+        res = run_pipeline(
+            bmrb_id=bmrb_id,
+            pdb_id=pdb_id,
+            run_dssp=True,
+            save_results=False,
+        )
+        elapsed = time.time() - t0
 
-print(f"\n{'='*70}")
-print(f"SUMMARY")
-print(f"{'='*70}")
-print(f"Total shifts across batch:  {total_shifts:,}")
-print(f"Shifts with real SS labels: {total_labeled:,}")
-print(f"Percentage labeled:         {100*total_labeled/total_shifts:.1f}%")
-print(f"\nTarget: ≥70% labeled (you have {100*total_labeled/total_shifts:.1f}%)")
+        if not res:
+            return {"status": "EMPTY", "elapsed": elapsed, "error": "run_pipeline returned empty dict"}
 
-if 100*total_labeled/total_shifts < 50:
-    print("\n⚠️  PROBLEM: Most shifts are 'unknown'. Check:")
-    print("   1. Are PDB IDs correctly linked in the batch?")
-    print("   2. Did DSSP run for each entry (check results/dssp_*.csv)?")
-    print("   3. Did sequence alignment succeed?")
-    print("\n→ Re-run batch with pdb_map specified:")
-    print("   from pipeline import run_batch")
-    print("   run_batch([17561, 15409, 16318, ...],")
-    print("             pdb_map={17561: '2LBH', 15409: '2KIB', ...})")
-elif 100*total_labeled/total_shifts < 70:
-    print("\n⚠️  MARGINAL: Some entries lack SS labels. Fix the worst offenders.")
-else:
-    print("\n✓ GOOD: Enough labeled data. Retraining should improve if you:")
-    print("   1. Add more diverse proteins (different folds)")
-    print("   2. Increase window_size parameter in build_feature_matrix()")
-    print("   3. Try hyperparameter tuning on the models")
+        merged = res.get('merged_df')
+        if merged is None:
+            return {"status": "NO_MERGED", "elapsed": elapsed, "error": "no merged_df in results"}
+
+        labeled = merged[merged['ss_class'].isin(['helix','strand','coil'])]
+        labeled_frac = len(labeled) / max(len(merged), 1)
+        ss_dist = merged['ss_class'].value_counts().to_dict()
+
+        return {
+            "status": "OK",
+            "elapsed": elapsed,
+            "n_shifts": len(merged),
+            "labeled_frac": labeled_frac,
+            "ss": ss_dist,
+            "error": None,
+        }
+
+    except KeyboardInterrupt:
+        raise
+    except Exception as e:
+        elapsed = time.time() - t0
+        return {
+            "status": "ERROR",
+            "elapsed": elapsed,
+            "error": f"{type(e).__name__}: {e}",
+            "traceback": traceback.format_exc(),
+        }
+
+
+def main():
+    print(f"\n{'='*65}")
+    print(f"  BATCH DIAGNOSTIC — {len(SOLID_STATE_ENTRIES)} entries")
+    print(f"{'='*65}")
+    print("  Ctrl+C to abort and see partial summary.\n")
+
+    results = []
+
+    for bmrb_id, pdb_id, label in SOLID_STATE_ENTRIES:
+        print(f"\n{'─'*65}")
+        print(f"  Testing BMRB {bmrb_id} / PDB {pdb_id}  [{label}]")
+        print(f"{'─'*65}")
+
+        try:
+            result = run_one(bmrb_id, pdb_id, label)
+        except KeyboardInterrupt:
+            print(f"\n  [ABORTED by user at BMRB {bmrb_id}]")
+            results.append({
+                "bmrb_id": bmrb_id, "pdb_id": pdb_id, "label": label,
+                "status": "ABORTED", "elapsed": 0, "error": "KeyboardInterrupt"
+            })
+            break
+
+        result["bmrb_id"] = bmrb_id
+        result["pdb_id"]  = pdb_id
+        result["label"]   = label
+        results.append(result)
+
+        if result["status"] == "OK":
+            ss = result.get("ss", {})
+            print(f"  ✓ OK  {result['elapsed']:.0f}s  |  "
+                  f"labeled={result['labeled_frac']:.0%}  |  "
+                  f"H={ss.get('helix',0)} S={ss.get('strand',0)} C={ss.get('coil',0)}")
+        else:
+            print(f"  ✗ {result['status']}  {result['elapsed']:.0f}s")
+            print(f"    {result['error']}")
+            if result.get('traceback'):
+                print("    --- traceback ---")
+                for line in result['traceback'].strip().splitlines()[-6:]:
+                    print(f"    {line}")
+
+    # ── Summary ───────────────────────────────────────────────────────────
+    print(f"\n\n{'='*65}")
+    print(f"  SUMMARY")
+    print(f"{'='*65}")
+    print(f"  {'BMRB':>6}  {'PDB':>6}  {'STATUS':>8}  {'Time':>6}  {'Labeled':>8}  Notes")
+    print(f"  {'─'*6}  {'─'*6}  {'─'*8}  {'─'*6}  {'─'*8}  {'─'*30}")
+
+    ok_count   = 0
+    fail_count = 0
+
+    for r in results:
+        status = r["status"]
+        t = f"{r['elapsed']:.0f}s"
+        lf = f"{r['labeled_frac']:.0%}" if r.get('labeled_frac') is not None else "—"
+        ss = r.get("ss", {})
+        notes = ""
+        if status == "OK":
+            notes = f"H={ss.get('helix',0)} S={ss.get('strand',0)} C={ss.get('coil',0)}"
+            ok_count += 1
+        else:
+            notes = (r.get("error") or "")[:45]
+            fail_count += 1
+        flag = "✓" if status == "OK" else "✗"
+        print(f"  {r['bmrb_id']:>6}  {r['pdb_id']:>6}  {flag} {status:<7}  {t:>6}  {lf:>8}  {notes}")
+
+    print(f"\n  {ok_count} succeeded / {fail_count} failed/aborted")
+
+    fails = [r for r in results if r["status"] != "OK"]
+    if fails:
+        print(f"\n  FAILING ENTRIES (remove from SOLID_STATE_ENTRIES or fix):")
+        for r in fails:
+            print(f"    ({r['bmrb_id']}, \"{r['pdb_id']}\", \"{r['label']}\")  ← {r['status']}: {r.get('error','')[:60]}")
+    else:
+        print(f"\n  All entries passed. Run: python src/pipeline.py --batch")
+
+
+if __name__ == "__main__":
+    main()

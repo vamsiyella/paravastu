@@ -1,0 +1,1408 @@
+data_11058
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             11058
+   _Entry.Title                         
+;
+Chemical shift assignment of PACAP21 bound to phospholipid membranes by magic 
+angle spinning solid-state NMR
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2008-11-25
+   _Entry.Accession_date                 2008-11-25
+   _Entry.Last_release_date              2009-03-18
+   _Entry.Original_release_date          2009-03-18
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      3.0.8.120
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solid-state
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Nobuyasu   Komi      . . . 11058 
+      2 Kayo       Okawa     . . . 11058 
+      3 Yukihiro   Tateishi  . . . 11058 
+      4 Masahiro   Shirakawa . . . 11058 
+      5 Toshimichi Fujiwara  . . . 11058 
+      6 Hideo      Akutsu    . . . 11058 
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1 . 'Institute for Protein Research, Osaka University' . 11058 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 11058 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts' 104 11058 
+      '15N chemical shifts'  15 11058 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2009-03-18 2008-11-25 original author . 11058 
+
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB 11059 'Chemical shift data for PACAP27' 11058 
+      PDB       .  .                                11058 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     11058
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    17996724
+   _Citation.Full_citation                .
+   _Citation.Title                       
+;
+Structural analysis of pituitary adenylate cyclase-activating polypeptides bound
+to phospholipid membranes by magic angle spinning solid-state NMR.
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'Biochim. Biophys. Acta'
+   _Citation.Journal_name_full           'Biochimica et Biophysica Acta'
+   _Citation.Journal_volume               1768
+   _Citation.Journal_issue                12
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   3001
+   _Citation.Page_last                    3011
+   _Citation.Year                         2007
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Nobuyasu   Komi      . . . 11058 1 
+      2 Kayo       Okawa     . . . 11058 1 
+      3 Yukihiro   Tateishi  . . . 11058 1 
+      4 Masahiro   Shirakawa . . . 11058 1 
+      5 Toshimichi Fujiwara  . . . 11058 1 
+      6 Hideo      Akutsu    . . . 11058 1 
+
+   stop_
+
+   loop_
+      _Citation_keyword.Keyword
+      _Citation_keyword.Entry_ID
+      _Citation_keyword.Citation_ID
+
+      'Extended conformation'  11058 1 
+       Isotope-labeling        11058 1 
+      'Membrane-bound peptide' 11058 1 
+      'NMR signal assignment'  11058 1 
+       PACAP27                 11058 1 
+      'Pituitary hormone'      11058 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          11058
+   _Assembly.ID                                1
+   _Assembly.Name                             'pituitary adenylate cyclase-activating polypeptide (PACAP)'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 PACAP21 1 $PACAP21 A . yes native no no . . . 11058 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_PACAP21
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      PACAP21
+   _Entity.Entry_ID                          11058
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              PACAP21
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+HSDGIFTDSYSRYRKQMAVK
+X
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      yes
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                21
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    2522.9
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                          
+;
+PACAP(1-21)NH2 (PACAP21) is PACAP27's C-terminal truncated form bound to 
+membranes.
+;
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-26
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no BMRB        11059 .  PACAP27                                                                                                                          . . . . . 95.24  28 100.00 100.00 1.14e-04 . . . . 11058 1 
+       2 no PDB  1GEA          . "Receptor-Bound Conformation Of Pacap21"                                                                                          . . . . . 95.24  21 100.00 100.00 1.78e-04 . . . . 11058 1 
+       3 no PDB  2D2P          . "The Solution Structure Of Micelle-Bound Peptide"                                                                                 . . . . . 95.24  39 100.00 100.00 1.15e-04 . . . . 11058 1 
+       4 no PDB  2JOD          . "Pac1-Rshort N-Terminal Ec Domain Pacap(6-38) Complex"                                                                            . . . . . 71.43  33 100.00 100.00 1.50e+00 . . . . 11058 1 
+       5 no DBJ  BAA28355      . "PACAP ligand precursor [Mus musculus]"                                                                                           . . . . . 95.24 175 100.00 100.00 2.84e-04 . . . . 11058 1 
+       6 no DBJ  BAC21153      . "pituitary adenylate cyclase activating polypeptide, partial [Trachurus japonicus]"                                               . . . . . 95.24  38 100.00 100.00 1.38e-04 . . . . 11058 1 
+       7 no DBJ  BAC21154      . "pituitary adenylate cyclase activating polypeptide [Acipenser schrenckii]"                                                       . . . . . 95.24  38 100.00 100.00 1.35e-04 . . . . 11058 1 
+       8 no DBJ  BAC21155      . "pituitary adenylate cyclase activating polypeptide [Dugesia japonica]"                                                           . . . . . 95.24  38 100.00 100.00 1.55e-04 . . . . 11058 1 
+       9 no DBJ  BAC21156      . "pituitary adenylate cyclase activating polypeptide, partial [Hydra vulgaris]"                                                    . . . . . 95.24  38 100.00 100.00 1.55e-04 . . . . 11058 1 
+      10 no EMBL CAA42962      . "PACAP precursor [Homo sapiens]"                                                                                                  . . . . . 95.24 176 100.00 100.00 7.30e-04 . . . . 11058 1 
+      11 no EMBL CAA51705      . "unnamed protein product [Oncorhynchus nerka]"                                                                                    . . . . . 95.24 173 100.00 100.00 2.67e-04 . . . . 11058 1 
+      12 no EMBL CAA55684      . "pituitary adenylate cyclase activating polypeptide [Clarias macrocephalus]"                                                      . . . . . 95.24 195 100.00 100.00 3.03e-04 . . . . 11058 1 
+      13 no EMBL CAA56564      . "pituitary adenylate cyclase activating polypeptide [Rattus rattus]"                                                              . . . . . 95.24 175 100.00 100.00 2.61e-04 . . . . 11058 1 
+      14 no EMBL CAG10213      . "unnamed protein product, partial [Tetraodon nigroviridis]"                                                                       . . . . . 95.24 173 100.00 100.00 3.23e-04 . . . . 11058 1 
+      15 no GB   AAA31575      . "pituitary adenylate cyclase activating polypeptide precursor [Ovis sp.]"                                                         . . . . . 95.24 176 100.00 100.00 2.49e-04 . . . . 11058 1 
+      16 no GB   AAA41791      . "pituitary adenylate cyclase activating polypeptide precursor protein [Rattus norvegicus]"                                        . . . . . 95.24 175 100.00 100.00 2.53e-04 . . . . 11058 1 
+      17 no GB   AAB20402      . "pituitary adenylate cyclase-activating polypeptide, PACAP [Rana ridibunda=frogs, Peptide, 38 aa]"                                . . . . . 95.24  38 100.00 100.00 1.22e-04 . . . . 11058 1 
+      18 no GB   AAB21469      . "pituitary adenylate cyclase activating polypeptide [Ovis aries]"                                                                 . . . . . 95.24 176 100.00 100.00 2.49e-04 . . . . 11058 1 
+      19 no GB   AAB21470      . "pituitary adenylate cyclase activating polypeptide [Homo sapiens]"                                                               . . . . . 95.24 176 100.00 100.00 7.30e-04 . . . . 11058 1 
+      20 no PRF  2107317A      . "PACAP/somatoliberin-like peptide"                                                                                                . . . . . 95.24 195 100.00 100.00 3.03e-04 . . . . 11058 1 
+      21 no REF  NP_001001544  . "pituitary adenylate cyclase-activating polypeptide precursor [Sus scrofa]"                                                       . . . . . 95.24 176 100.00 100.00 2.82e-04 . . . . 11058 1 
+      22 no REF  NP_001009776  . "pituitary adenylate cyclase-activating polypeptide precursor [Ovis aries]"                                                       . . . . . 95.24 176 100.00 100.00 2.49e-04 . . . . 11058 1 
+      23 no REF  NP_001040020  . "pituitary adenylate cyclase-activating polypeptide precursor [Bos taurus]"                                                       . . . . . 95.24 176 100.00 100.00 3.01e-04 . . . . 11058 1 
+      24 no REF  NP_001081947  . "adenylate cyclase activating polypeptide 1 (pituitary) precursor [Xenopus laevis]"                                               . . . . . 95.24 171 100.00 100.00 3.70e-03 . . . . 11058 1 
+      25 no REF  NP_001093203  . "pituitary adenylate cyclase-activating polypeptide preproprotein [Homo sapiens]"                                                 . . . . . 95.24 176 100.00 100.00 8.83e-04 . . . . 11058 1 
+      26 no SP   O70176        . "RecName: Full=Pituitary adenylate cyclase-activating polypeptide; Short=PACAP; Contains: RecName: Full=PACAP-related peptide; A" . . . . . 95.24 175 100.00 100.00 2.84e-04 . . . . 11058 1 
+      27 no SP   P0DJ95        . "RecName: Full=Pituitary adenylate cyclase-activating polypeptide; Short=PACAP; Contains: RecName: Full=PACAP-related peptide; A" . . . . . 95.24  56 100.00 100.00 1.23e-04 . . . . 11058 1 
+      28 no SP   P13589        . "RecName: Full=Pituitary adenylate cyclase-activating polypeptide; Short=PACAP; Contains: RecName: Full=PACAP-related peptide; A" . . . . . 95.24 175 100.00 100.00 2.53e-04 . . . . 11058 1 
+      29 no SP   P16613        . "RecName: Full=Pituitary adenylate cyclase-activating polypeptide; Short=PACAP; Contains: RecName: Full=PACAP-related peptide; A" . . . . . 95.24 176 100.00 100.00 2.49e-04 . . . . 11058 1 
+      30 no SP   P18509        . "RecName: Full=Pituitary adenylate cyclase-activating polypeptide; Short=PACAP; Contains: RecName: Full=PACAP-related peptide; A" . . . . . 95.24 176 100.00 100.00 8.83e-04 . . . . 11058 1 
+      31 no TPG  DAA15829      . "TPA: pituitary adenylate cyclase-activating polypeptide [Bos taurus]"                                                            . . . . . 95.24 176 100.00 100.00 3.01e-04 . . . . 11058 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . HIS     . 11058 1 
+       2 . SER     . 11058 1 
+       3 . ASP     . 11058 1 
+       4 . GLY     . 11058 1 
+       5 . ILE     . 11058 1 
+       6 . PHE     . 11058 1 
+       7 . THR     . 11058 1 
+       8 . ASP     . 11058 1 
+       9 . SER     . 11058 1 
+      10 . TYR     . 11058 1 
+      11 . SER     . 11058 1 
+      12 . ARG     . 11058 1 
+      13 . TYR     . 11058 1 
+      14 . ARG     . 11058 1 
+      15 . LYS     . 11058 1 
+      16 . GLN     . 11058 1 
+      17 . MET     . 11058 1 
+      18 . ALA     . 11058 1 
+      19 . VAL     . 11058 1 
+      20 . LYS     . 11058 1 
+      21 . LYS_NH2 . 11058 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . HIS      1  1 11058 1 
+      . SER      2  2 11058 1 
+      . ASP      3  3 11058 1 
+      . GLY      4  4 11058 1 
+      . ILE      5  5 11058 1 
+      . PHE      6  6 11058 1 
+      . THR      7  7 11058 1 
+      . ASP      8  8 11058 1 
+      . SER      9  9 11058 1 
+      . TYR     10 10 11058 1 
+      . SER     11 11 11058 1 
+      . ARG     12 12 11058 1 
+      . TYR     13 13 11058 1 
+      . ARG     14 14 11058 1 
+      . LYS     15 15 11058 1 
+      . GLN     16 16 11058 1 
+      . MET     17 17 11058 1 
+      . ALA     18 18 11058 1 
+      . VAL     19 19 11058 1 
+      . LYS     20 20 11058 1 
+      . LYS_NH2 21 21 11058 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       11058
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $PACAP21 . . 'no natural source' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11058 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       11058
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $PACAP21 . 'recombinant technology' 'Escherichia coli' . . 469008 Escherichia coli BL21(DE3) . . . . . . . . . . . . . . . pET21b . . . . . . 11058 1 
+
+   stop_
+
+save_
+
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_LYS_NH2
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      LYS_NH2
+   _Chem_comp.Entry_ID                          11058
+   _Chem_comp.ID                                LYS_NH2
+   _Chem_comp.Provenance                        .
+   _Chem_comp.Name                              L-LYSINAMIDE
+   _Chem_comp.Type                              non-polymer
+   _Chem_comp.BMRB_code                         LYS_NH2
+   _Chem_comp.PDB_code                          .
+   _Chem_comp.Ambiguous_flag                    .
+   _Chem_comp.Initial_date                      .
+   _Chem_comp.Modified_date                     .
+   _Chem_comp.Release_status                    .
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 .
+   _Chem_comp.Number_atoms_all                  .
+   _Chem_comp.Number_atoms_nh                   .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        .
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       LYS
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     .
+   _Chem_comp.Paramagnetic                      no
+   _Chem_comp.Aromatic                          .
+   _Chem_comp.Formula                          'C6 H15 N3 O1'
+   _Chem_comp.Formula_weight                    .
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    .
+   _Chem_comp.Ideal_coordinates_details         .
+   _Chem_comp.Ideal_coordinates_missing_flag    .
+   _Chem_comp.Model_coordinates_db_code         .
+   _Chem_comp.Processing_site                   .
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+      L-LYSINAMIDE common       11058 LYS_NH2 
+      LYS-NH2      abbreviation 11058 LYS_NH2 
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      C   . . . . C . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      CA  . . . . C . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      CB  . . . . C . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      CD  . . . . C . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      CE  . . . . C . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      CG  . . . . C . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      H   . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      HA  . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      HB2 . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      HB3 . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      HD2 . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      HD3 . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      HE2 . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      HE3 . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      HG2 . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      HG3 . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      HT1 . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      HT2 . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      HZ1 . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      HZ2 . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      HZ3 . . . . H . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      N   . . . . N . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      NT  . . . . N . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      NZ  . . . . N . . . 1 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+      O   . . . . O . . . 0 . . . . . . . . . . . . . . . . . . . . . 11058 LYS_NH2 
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+      . N   . 11058 LYS_NH2 
+      . NT  . 11058 LYS_NH2 
+      . CA  . 11058 LYS_NH2 
+      . C   . 11058 LYS_NH2 
+      . O   . 11058 LYS_NH2 
+      . CB  . 11058 LYS_NH2 
+      . CG  . 11058 LYS_NH2 
+      . CD  . 11058 LYS_NH2 
+      . CE  . 11058 LYS_NH2 
+      . NZ  . 11058 LYS_NH2 
+      . H   . 11058 LYS_NH2 
+      . HA  . 11058 LYS_NH2 
+      . HB2 . 11058 LYS_NH2 
+      . HB3 . 11058 LYS_NH2 
+      . HG2 . 11058 LYS_NH2 
+      . HG3 . 11058 LYS_NH2 
+      . HD2 . 11058 LYS_NH2 
+      . HD3 . 11058 LYS_NH2 
+      . HE2 . 11058 LYS_NH2 
+      . HE3 . 11058 LYS_NH2 
+      . HZ1 . 11058 LYS_NH2 
+      . HZ2 . 11058 LYS_NH2 
+      . HZ3 . 11058 LYS_NH2 
+      . HT1 . 11058 LYS_NH2 
+      . HT2 . 11058 LYS_NH2 
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+       1 . SING N  CA  . . . . 11058 LYS_NH2 
+       2 . SING N  H   . . . . 11058 LYS_NH2 
+       3 . SING CA C   . . . . 11058 LYS_NH2 
+       4 . SING CA CB  . . . . 11058 LYS_NH2 
+       5 . SING CA HA  . . . . 11058 LYS_NH2 
+       6 . DOUB C  O   . . . . 11058 LYS_NH2 
+       7 . SING CB CG  . . . . 11058 LYS_NH2 
+       8 . SING CB HB2 . . . . 11058 LYS_NH2 
+       9 . SING CB HB3 . . . . 11058 LYS_NH2 
+      10 . SING CG CD  . . . . 11058 LYS_NH2 
+      11 . SING CG HG2 . . . . 11058 LYS_NH2 
+      12 . SING CG HG3 . . . . 11058 LYS_NH2 
+      13 . SING CD CE  . . . . 11058 LYS_NH2 
+      14 . SING CD HD2 . . . . 11058 LYS_NH2 
+      15 . SING CD HD3 . . . . 11058 LYS_NH2 
+      16 . SING CE NZ  . . . . 11058 LYS_NH2 
+      17 . SING CE HE2 . . . . 11058 LYS_NH2 
+      18 . SING CE HE3 . . . . 11058 LYS_NH2 
+      19 . SING NZ HZ1 . . . . 11058 LYS_NH2 
+      20 . SING NZ HZ2 . . . . 11058 LYS_NH2 
+      21 . SING NZ HZ3 . . . . 11058 LYS_NH2 
+      22 . SING NT C   . . . . 11058 LYS_NH2 
+      23 . SING NT HT1 . . . . 11058 LYS_NH2 
+      24 . SING NT HT2 . . . . 11058 LYS_NH2 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         11058
+   _Sample.ID                               1
+   _Sample.Type                             membrane
+   _Sample.Sub_type                         .
+   _Sample.Details                         
+;
+PACAP21 binded to DPPC/DPPG bilayers that were used as membranes.  
+The liposome with peptide was once dried and then hydorolyzed under 32% relative 
+humidity.
+;
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 PACAP21 '[U-13C; U-15N]' . . 1 $PACAP21 . .  3.8 . . mg . . . . 11058 1 
+      2 DPPC    '[U-98% 2H]'     . .  .  .       . . 43.2 . . uM . . . . 11058 1 
+      3 DPPG    '[U-98% 2H]'     . .  .  .       . . 10.8 . . uM . . . . 11058 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_213K
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_213K
+   _Sample_condition_list.Entry_ID       11058
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pressure      1 . atm 11058 1 
+      temperature 213 . K   11058 1 
+
+   stop_
+
+save_
+
+
+save_sample_conditions_223K
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_223K
+   _Sample_condition_list.Entry_ID       11058
+   _Sample_condition_list.ID             2
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pressure      1 . atm 11058 2 
+      temperature 223 . K   11058 2 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_Felix
+   _Software.Sf_category    software
+   _Software.Sf_framecode   Felix
+   _Software.Entry_ID       11058
+   _Software.ID             1
+   _Software.Name           FELIX
+   _Software.Version        2002
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Accelrys Software Inc.' . . 11058 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      processing 11058 1 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         11058
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details         
+;
+Static magnetic field was 11.74 T. 
+Broadband double and triple resonance MAS probes for the sample rotors with 3.2 
+and 4 mm diameters were used.
+;
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            Infinity-plus
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   500
+
+save_
+
+
+save_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_2
+   _NMR_spectrometer.Entry_ID         11058
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details         
+;
+Static magnetic field was 14.09 T. 
+Broadband double and triple resonance MAS probes for the sample rotors with 3.2 
+and 4 mm diameters were used.
+;
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            Infinity-plus
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+
+save_
+
+
+save_spectrometer_3
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_3
+   _NMR_spectrometer.Entry_ID         11058
+   _NMR_spectrometer.ID               3
+   _NMR_spectrometer.Details         
+;
+Static magnetic field was 16.44 T. 
+Broadband double and triple resonance MAS probes for the sample rotors with 3.2 
+and 4 mm diameters were used. 
+;
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            Infinity-plus
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   700
+
+save_
+
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       11058
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 spectrometer_1 Varian Infinity-plus . 500 . . . 11058 1 
+      2 spectrometer_2 Varian Infinity-plus . 600 . . . 11058 1 
+      3 spectrometer_3 Varian Infinity-plus . 700 . . . 11058 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       11058
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '2D 13C-13C DARR'   no . . . . . . . . . . 1 $sample_1 isotropic . . 2 $sample_conditions_223K 12500 54.7 . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 11058 1 
+      2 '2D 15N-13C'        no . . . . . . . . . . 1 $sample_1 isotropic . . 1 $sample_conditions_213K 16000 54.7 . 2 $spectrometer_2 . . . . . . . . . . . . . . . . 11058 1 
+      3 '2D 15N-13C DARR'   no . . . . . . . . . . 1 $sample_1 isotropic . . 1 $sample_conditions_213K 12500 54.7 . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 11058 1 
+      4 '2D (CACB)-CA DARR' no . . . . . . . . . . 1 $sample_1 isotropic . . 1 $sample_conditions_213K 12500 54.7 . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 11058 1 
+
+   stop_
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       11058
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C 13 DSS 'methyl protons' . . . . ppm 0.00 . indirect 0.251449530 . . . . . . . . . 11058 1 
+      N 15 DSS 'methyl protons' . . . . ppm 0.00 . indirect 0.101329118 . . . . . . . . . 11058 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      11058
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_213K
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 '2D 13C-13C DARR'   1 $sample_1 isotropic 11058 1 
+      2 '2D 15N-13C'        1 $sample_1 isotropic 11058 1 
+      3 '2D 15N-13C DARR'   1 $sample_1 isotropic 11058 1 
+      4 '2D (CACB)-CA DARR' 1 $sample_1 isotropic 11058 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1  1  1 HIS     C   C 13 174   2   . 1 . . . .  1 HIS C   . 11058 1 
+        2 . 1 1  1  1 HIS     CA  C 13  55   1   . 1 . . . .  1 HIS CA  . 11058 1 
+        3 . 1 1  1  1 HIS     CB  C 13  32   1.3 . 1 . . . .  1 HIS CB  . 11058 1 
+        4 . 1 1  1  1 HIS     CG  C 13 131   1   . 1 . . . .  1 HIS CG  . 11058 1 
+        5 . 1 1  1  1 HIS     N   N 15  32   1   . 1 . . . .  1 HIS N   . 11058 1 
+        6 . 1 1  2  2 SER     C   C 13 173   1.5 . 5 . . . .  2 SER C   . 11058 1 
+        7 . 1 1  2  2 SER     CA  C 13  56   2   . 5 . . . .  2 SER CA  . 11058 1 
+        8 . 1 1  2  2 SER     CB  C 13  66   1.5 . 5 . . . .  2 SER CB  . 11058 1 
+        9 . 1 1  2  2 SER     N   N 15 112   2   . 5 . . . .  2 SER N   . 11058 1 
+       10 . 1 1  3  3 ASP     C   C 13 174   2   . 1 . . . .  3 ASP C   . 11058 1 
+       11 . 1 1  3  3 ASP     CA  C 13  53   2.5 . 1 . . . .  3 ASP CA  . 11058 1 
+       12 . 1 1  3  3 ASP     CB  C 13  45   2   . 1 . . . .  3 ASP CB  . 11058 1 
+       13 . 1 1  3  3 ASP     CG  C 13 178   2   . 5 . . . .  3 ASP CG  . 11058 1 
+       14 . 1 1  4  4 GLY     C   C 13 171   2   . 1 . . . .  4 GLY C   . 11058 1 
+       15 . 1 1  4  4 GLY     CA  C 13  45   1   . 1 . . . .  4 GLY CA  . 11058 1 
+       16 . 1 1  4  4 GLY     N   N 15 108   1   . 1 . . . .  4 GLY N   . 11058 1 
+       17 . 1 1  5  5 ILE     C   C 13 174   2   . 1 . . . .  5 ILE C   . 11058 1 
+       18 . 1 1  5  5 ILE     CA  C 13  59   1.5 . 1 . . . .  5 ILE CA  . 11058 1 
+       19 . 1 1  5  5 ILE     CB  C 13  42   1   . 1 . . . .  5 ILE CB  . 11058 1 
+       20 . 1 1  5  5 ILE     CD1 C 13  14   1   . 1 . . . .  5 ILE CD1 . 11058 1 
+       21 . 1 1  5  5 ILE     CG1 C 13  29   1   . 1 . . . .  5 ILE CG1 . 11058 1 
+       22 . 1 1  5  5 ILE     CG2 C 13  18   1   . 1 . . . .  5 ILE CG2 . 11058 1 
+       23 . 1 1  5  5 ILE     N   N 15 120   1   . 1 . . . .  5 ILE N   . 11058 1 
+       24 . 1 1  6  6 PHE     C   C 13 174   2   . 1 . . . .  6 PHE C   . 11058 1 
+       25 . 1 1  6  6 PHE     CA  C 13  56   2   . 1 . . . .  6 PHE CA  . 11058 1 
+       26 . 1 1  6  6 PHE     CB  C 13  44   2   . 1 . . . .  6 PHE CB  . 11058 1 
+       27 . 1 1  6  6 PHE     CD1 C 13 133   2   . 3 . . . .  6 PHE CD1 . 11058 1 
+       28 . 1 1  6  6 PHE     CD2 C 13 133   2   . 3 . . . .  6 PHE CD2 . 11058 1 
+       29 . 1 1  6  6 PHE     CG  C 13 133   1   . 1 . . . .  6 PHE CG  . 11058 1 
+       30 . 1 1  6  6 PHE     CZ  C 13 128   1   . 1 . . . .  6 PHE CZ  . 11058 1 
+       31 . 1 1  6  6 PHE     N   N 15 126   1   . 1 . . . .  6 PHE N   . 11058 1 
+       32 . 1 1  7  7 THR     C   C 13 174   2   . 1 . . . .  7 THR C   . 11058 1 
+       33 . 1 1  7  7 THR     CA  C 13  59.6 1.5 . 1 . . . .  7 THR CA  . 11058 1 
+       34 . 1 1  7  7 THR     CB  C 13  71   1.5 . 1 . . . .  7 THR CB  . 11058 1 
+       35 . 1 1  7  7 THR     CG2 C 13  22   1   . 1 . . . .  7 THR CG2 . 11058 1 
+       36 . 1 1  8  8 ASP     C   C 13 174   2   . 1 . . . .  8 ASP C   . 11058 1 
+       37 . 1 1  8  8 ASP     CA  C 13  53   2   . 1 . . . .  8 ASP CA  . 11058 1 
+       38 . 1 1  8  8 ASP     CB  C 13  45   2   . 1 . . . .  8 ASP CB  . 11058 1 
+       39 . 1 1  8  8 ASP     CG  C 13 178   2   . 5 . . . .  8 ASP CG  . 11058 1 
+       40 . 1 1  8  8 ASP     N   N 15 122   1   . 1 . . . .  8 ASP N   . 11058 1 
+       41 . 1 1  9  9 SER     C   C 13 173   1.5 . 5 . . . .  9 SER C   . 11058 1 
+       42 . 1 1  9  9 SER     CA  C 13  56   2   . 5 . . . .  9 SER CA  . 11058 1 
+       43 . 1 1  9  9 SER     CB  C 13  66   1.5 . 5 . . . .  9 SER CB  . 11058 1 
+       44 . 1 1  9  9 SER     N   N 15 112   2   . 5 . . . .  9 SER N   . 11058 1 
+       45 . 1 1 10 10 TYR     C   C 13 174   2   . 1 . . . . 10 TYR C   . 11058 1 
+       46 . 1 1 10 10 TYR     CA  C 13  55   2.5 . 1 . . . . 10 TYR CA  . 11058 1 
+       47 . 1 1 10 10 TYR     CB  C 13  44   2   . 5 . . . . 10 TYR CB  . 11058 1 
+       48 . 1 1 10 10 TYR     CD1 C 13 133   2   . 3 . . . . 10 TYR CD1 . 11058 1 
+       49 . 1 1 10 10 TYR     CD2 C 13 133   2   . 3 . . . . 10 TYR CD2 . 11058 1 
+       50 . 1 1 10 10 TYR     CE1 C 13 118   2   . 5 . . . . 10 TYR CE1 . 11058 1 
+       51 . 1 1 10 10 TYR     CE2 C 13 118   2   . 5 . . . . 10 TYR CE2 . 11058 1 
+       52 . 1 1 10 10 TYR     CG  C 13 129   2   . 5 . . . . 10 TYR CG  . 11058 1 
+       53 . 1 1 10 10 TYR     CZ  C 13 158   2   . 5 . . . . 10 TYR CZ  . 11058 1 
+       54 . 1 1 11 11 SER     C   C 13 173   1.5 . 5 . . . . 11 SER C   . 11058 1 
+       55 . 1 1 11 11 SER     CA  C 13  56   2   . 5 . . . . 11 SER CA  . 11058 1 
+       56 . 1 1 11 11 SER     CB  C 13  66   1.5 . 5 . . . . 11 SER CB  . 11058 1 
+       57 . 1 1 11 11 SER     N   N 15 112   2   . 5 . . . . 11 SER N   . 11058 1 
+       58 . 1 1 12 12 ARG     C   C 13 174   2   . 1 . . . . 12 ARG C   . 11058 1 
+       59 . 1 1 12 12 ARG     CA  C 13  54   1.5 . 1 . . . . 12 ARG CA  . 11058 1 
+       60 . 1 1 12 12 ARG     CB  C 13  34   1.5 . 5 . . . . 12 ARG CB  . 11058 1 
+       61 . 1 1 12 12 ARG     CD  C 13  44   2   . 5 . . . . 12 ARG CD  . 11058 1 
+       62 . 1 1 12 12 ARG     CG  C 13  28   2   . 5 . . . . 12 ARG CG  . 11058 1 
+       63 . 1 1 12 12 ARG     CZ  C 13 160   2   . 5 . . . . 12 ARG CZ  . 11058 1 
+       64 . 1 1 12 12 ARG     NE  N 15  82   2   . 5 . . . . 12 ARG NE  . 11058 1 
+       65 . 1 1 13 13 TYR     C   C 13 174   2   . 1 . . . . 13 TYR C   . 11058 1 
+       66 . 1 1 13 13 TYR     CA  C 13  55   2.5 . 1 . . . . 13 TYR CA  . 11058 1 
+       67 . 1 1 13 13 TYR     CB  C 13  44   2   . 5 . . . . 13 TYR CB  . 11058 1 
+       68 . 1 1 13 13 TYR     CD1 C 13 133   2   . 3 . . . . 13 TYR CD1 . 11058 1 
+       69 . 1 1 13 13 TYR     CD2 C 13 133   2   . 3 . . . . 13 TYR CD2 . 11058 1 
+       70 . 1 1 13 13 TYR     CE1 C 13 118   2   . 5 . . . . 13 TYR CE1 . 11058 1 
+       71 . 1 1 13 13 TYR     CE2 C 13 118   2   . 5 . . . . 13 TYR CE2 . 11058 1 
+       72 . 1 1 13 13 TYR     CG  C 13 129   2   . 5 . . . . 13 TYR CG  . 11058 1 
+       73 . 1 1 13 13 TYR     CZ  C 13 158   2   . 5 . . . . 13 TYR CZ  . 11058 1 
+       74 . 1 1 14 14 ARG     C   C 13 174   2   . 1 . . . . 14 ARG C   . 11058 1 
+       75 . 1 1 14 14 ARG     CA  C 13  54   1.5 . 1 . . . . 14 ARG CA  . 11058 1 
+       76 . 1 1 14 14 ARG     CB  C 13  35   1.5 . 5 . . . . 14 ARG CB  . 11058 1 
+       77 . 1 1 14 14 ARG     CD  C 13  44   2   . 5 . . . . 14 ARG CD  . 11058 1 
+       78 . 1 1 14 14 ARG     CG  C 13  28   2   . 5 . . . . 14 ARG CG  . 11058 1 
+       79 . 1 1 14 14 ARG     CZ  C 13 160   2   . 5 . . . . 14 ARG CZ  . 11058 1 
+       80 . 1 1 14 14 ARG     NE  N 15  82   1   . 5 . . . . 14 ARG NE  . 11058 1 
+       81 . 1 1 15 15 LYS     C   C 13 174   2   . 1 . . . . 15 LYS C   . 11058 1 
+       82 . 1 1 15 15 LYS     CA  C 13  54   1.5 . 1 . . . . 15 LYS CA  . 11058 1 
+       83 . 1 1 15 15 LYS     CB  C 13  36   1.5 . 1 . . . . 15 LYS CB  . 11058 1 
+       84 . 1 1 15 15 LYS     CD  C 13  29   2   . 5 . . . . 15 LYS CD  . 11058 1 
+       85 . 1 1 15 15 LYS     CE  C 13  42   2   . 5 . . . . 15 LYS CE  . 11058 1 
+       86 . 1 1 15 15 LYS     CG  C 13  26   2   . 5 . . . . 15 LYS CG  . 11058 1 
+       87 . 1 1 15 15 LYS     NZ  N 15  30   2   . 5 . . . . 15 LYS NZ  . 11058 1 
+       88 . 1 1 16 16 GLN     C   C 13 174   2   . 1 . . . . 16 GLN C   . 11058 1 
+       89 . 1 1 16 16 GLN     CA  C 13  54   1.5 . 1 . . . . 16 GLN CA  . 11058 1 
+       90 . 1 1 16 16 GLN     CB  C 13  30   2   . 1 . . . . 16 GLN CB  . 11058 1 
+       91 . 1 1 16 16 GLN     CD  C 13 179   1   . 1 . . . . 16 GLN CD  . 11058 1 
+       92 . 1 1 16 16 GLN     CG  C 13  35   1   . 1 . . . . 16 GLN CG  . 11058 1 
+       93 . 1 1 17 17 MET     C   C 13 174   2   . 1 . . . . 17 MET C   . 11058 1 
+       94 . 1 1 17 17 MET     CA  C 13  54   1   . 1 . . . . 17 MET CA  . 11058 1 
+       95 . 1 1 17 17 MET     CB  C 13  35   4   . 1 . . . . 17 MET CB  . 11058 1 
+       96 . 1 1 18 18 ALA     C   C 13 175   1   . 1 . . . . 18 ALA C   . 11058 1 
+       97 . 1 1 18 18 ALA     CA  C 13  51   1.3 . 1 . . . . 18 ALA CA  . 11058 1 
+       98 . 1 1 18 18 ALA     CB  C 13  23   1.5 . 1 . . . . 18 ALA CB  . 11058 1 
+       99 . 1 1 19 19 VAL     C   C 13 174   2   . 1 . . . . 19 VAL C   . 11058 1 
+      100 . 1 1 19 19 VAL     CA  C 13  60.4 1.5 . 1 . . . . 19 VAL CA  . 11058 1 
+      101 . 1 1 19 19 VAL     CB  C 13  35   2   . 1 . . . . 19 VAL CB  . 11058 1 
+      102 . 1 1 19 19 VAL     CG1 C 13  22   1   . 2 . . . . 19 VAL CG1 . 11058 1 
+      103 . 1 1 19 19 VAL     CG2 C 13  22   1   . 2 . . . . 19 VAL CG2 . 11058 1 
+      104 . 1 1 19 19 VAL     N   N 15 122   1   . 1 . . . . 19 VAL N   . 11058 1 
+      105 . 1 1 20 20 LYS     C   C 13 174   2   . 1 . . . . 20 LYS C   . 11058 1 
+      106 . 1 1 20 20 LYS     CA  C 13  54   1.5 . 1 . . . . 20 LYS CA  . 11058 1 
+      107 . 1 1 20 20 LYS     CB  C 13  36   1.5 . 1 . . . . 20 LYS CB  . 11058 1 
+      108 . 1 1 20 20 LYS     CD  C 13  28   2   . 5 . . . . 20 LYS CD  . 11058 1 
+      109 . 1 1 20 20 LYS     CE  C 13  42   2   . 5 . . . . 20 LYS CE  . 11058 1 
+      110 . 1 1 20 20 LYS     CG  C 13  26   2   . 5 . . . . 20 LYS CG  . 11058 1 
+      111 . 1 1 20 20 LYS     N   N 15 126   1   . 1 . . . . 20 LYS N   . 11058 1 
+      112 . 1 1 20 20 LYS     NZ  N 15  30   2   . 5 . . . . 20 LYS NZ  . 11058 1 
+      113 . 1 1 21 21 LYS_NH2 C   C 13 180   2   . 1 . . . . 21 LYS C   . 11058 1 
+      114 . 1 1 21 21 LYS_NH2 CA  C 13  53   1.5 . 1 . . . . 21 LYS CA  . 11058 1 
+      115 . 1 1 21 21 LYS_NH2 CB  C 13  36   1.5 . 1 . . . . 21 LYS CB  . 11058 1 
+      116 . 1 1 21 21 LYS_NH2 CD  C 13  28   2   . 5 . . . . 21 LYS CD  . 11058 1 
+      117 . 1 1 21 21 LYS_NH2 CE  C 13  42   2   . 5 . . . . 21 LYS CE  . 11058 1 
+      118 . 1 1 21 21 LYS_NH2 CG  C 13  26   2   . 5 . . . . 21 LYS CG  . 11058 1 
+      119 . 1 1 21 21 LYS_NH2 NZ  N 15  30   2   . 5 . . . . 21 LYS NZ  . 11058 1 
+
+   stop_
+
+   loop_
+      _Ambiguous_atom_chem_shift.Ambiguous_shift_set_ID
+      _Ambiguous_atom_chem_shift.Atom_chem_shift_ID
+      _Ambiguous_atom_chem_shift.Entry_ID
+      _Ambiguous_atom_chem_shift.Assigned_chem_shift_list_ID
+
+       1   6 11058 1 
+       1  41 11058 1 
+       1  54 11058 1 
+       2   7 11058 1 
+       2  42 11058 1 
+       2  55 11058 1 
+       3   8 11058 1 
+       3  43 11058 1 
+       3  56 11058 1 
+       4   9 11058 1 
+       4  44 11058 1 
+       4  57 11058 1 
+       5  13 11058 1 
+       5  39 11058 1 
+       6  47 11058 1 
+       6  67 11058 1 
+       7  52 11058 1 
+       7  72 11058 1 
+       8  50 11058 1 
+       8  51 11058 1 
+       8  70 11058 1 
+       8  71 11058 1 
+       9  53 11058 1 
+       9  73 11058 1 
+      10  60 11058 1 
+      10  76 11058 1 
+      11  62 11058 1 
+      11  78 11058 1 
+      12  61 11058 1 
+      12  77 11058 1 
+      13  63 11058 1 
+      13  79 11058 1 
+      14  64 11058 1 
+      14  80 11058 1 
+      15  86 11058 1 
+      15 110 11058 1 
+      15 118 11058 1 
+      16  84 11058 1 
+      16 108 11058 1 
+      16 116 11058 1 
+      17  85 11058 1 
+      17 109 11058 1 
+      17 117 11058 1 
+      18  87 11058 1 
+      18 112 11058 1 
+      18 119 11058 1 
+
+   stop_
+
+save_
+

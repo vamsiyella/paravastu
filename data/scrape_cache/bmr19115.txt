@@ -1,0 +1,1190 @@
+data_19115
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             19115
+   _Entry.Title                         
+;
+Full-length mercury transporter protein MerF in lipid bilayer membranes
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2013-03-27
+   _Entry.Accession_date                 2013-03-27
+   _Entry.Last_release_date              2013-07-01
+   _Entry.Original_release_date          2013-07-01
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 George    Lu      . J. . 19115 
+      2 Ye        Tian    . .  . 19115 
+      3 Nemil     Vora    . .  . 19115 
+      4 Francesca Marassi . M. . 19115 
+      5 Stanley   Opella  . J. . 19115 
+
+   stop_
+
+   loop_
+      _SG_project.SG_project_ID
+      _SG_project.Project_name
+      _SG_project.Full_name_of_center
+      _SG_project.Initial_of_center
+      _SG_project.Entry_ID
+
+      1 'not applicable' 'not applicable' . 19115 
+
+   stop_
+
+   loop_
+      _Struct_keywords.Keywords
+      _Struct_keywords.Text
+      _Struct_keywords.Entry_ID
+
+      'integral membrane protein' . 19115 
+      'lipid bilayer'             . 19115 
+      'mercury transporter'       . 19115 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 19115 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts' 116 19115 
+      '15N chemical shifts'  58 19115 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2013-07-01 2013-03-27 original author . 19115 
+
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      PDB 1WAZ 'Truncated core domain of the same protein in detergent micelle'            19115 
+      PDB 2H3O 'Truncated core domain of the same protein in magnetically aligned bicelle' 19115 
+      PDB 2LJ2 'Truncated core domain of the same protein in proteoliposome'               19115 
+      PDB 2M67 'BMRB Entry Tracking System'                                                19115 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     19115
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    23763519
+   _Citation.Full_citation                .
+   _Citation.Title                       'The Structure of the Mercury Transporter MerF in Phospholipid Bilayers: A Large Conformational Rearrangement Results from N-Terminal Truncation'
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'J. Am. Chem. Soc.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               135
+   _Citation.Journal_issue                25
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   9299
+   _Citation.Page_last                    9302
+   _Citation.Year                         2013
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 George    Lu      . J. . 19115 1 
+      2 Ye        Tian    . .  . 19115 1 
+      3 Nemil     Vora    . .  . 19115 1 
+      4 Francesca Marassi . M. . 19115 1 
+      5 Stanley   Opella  . J. . 19115 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          19115
+   _Assembly.ID                                1
+   _Assembly.Name                              MerF
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 MerF 1 $MerF A . yes native no no . . . 19115 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_MerF
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      MerF
+   _Entity.Entry_ID                          19115
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              MerF
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 A
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+MKDPKTLLRVSIIGTTLVAL
+SSFTPVLVILLGVVGLSALT
+GYLDYVLLPALAIFIGLTIY
+AIQRKRQADASSTPKFNGVK
+K
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq       
+;
+2,K 
+3,D 
+4,P 
+....
+79,V 
+80,K 
+81,K
+;
+   _Entity.Polymer_author_seq_details       'Residue 81 Z is homoserine resulting from cyanogen bromide cleavage'
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                81
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        man
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    8670.492
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-25
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+      1 no BMRB 17914 .  MerFt                                                                                                                            . . . . .  74.07 60 100.00 100.00 3.04e-30 . . . . 19115 1 
+      2 no PDB  1WAZ   . "Nmr Structure Determination Of The Bacterial Mercury Transporter, Merf, In Micelles"                                             . . . . .  55.56 46 100.00 100.00 4.51e-20 . . . . 19115 1 
+      3 no PDB  2H3O   . "Structure Of Merft, A Membrane Protein With Two Trans- Membrane Helices"                                                         . . . . .  74.07 61  98.33 100.00 9.49e-30 . . . . 19115 1 
+      4 no PDB  2LJ2   . "Integral Membrane Core Domain Of The Mercury Transporter Merf In Lipid Bilayer Membranes"                                        . . . . .  74.07 60 100.00 100.00 3.04e-30 . . . . 19115 1 
+      5 no PDB  2M67   . "Full-length Mercury Transporter Protein Merf In Lipid Bilayer Membranes"                                                         . . . . . 100.00 81 100.00 100.00 5.26e-47 . . . . 19115 1 
+      6 no PDB  2MOZ   . "Structure Of The Membrane Protein Merf, A Bacterial Mercury Transporter, Improved By The Inclusion Of Chemical Shift Anisotropy" . . . . . 100.00 81 100.00 100.00 5.26e-47 . . . . 19115 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1  1 MET . 19115 1 
+       2  2 LYS . 19115 1 
+       3  3 ASP . 19115 1 
+       4  4 PRO . 19115 1 
+       5  5 LYS . 19115 1 
+       6  6 THR . 19115 1 
+       7  7 LEU . 19115 1 
+       8  8 LEU . 19115 1 
+       9  9 ARG . 19115 1 
+      10 10 VAL . 19115 1 
+      11 11 SER . 19115 1 
+      12 12 ILE . 19115 1 
+      13 13 ILE . 19115 1 
+      14 14 GLY . 19115 1 
+      15 15 THR . 19115 1 
+      16 16 THR . 19115 1 
+      17 17 LEU . 19115 1 
+      18 18 VAL . 19115 1 
+      19 19 ALA . 19115 1 
+      20 20 LEU . 19115 1 
+      21 21 SER . 19115 1 
+      22 22 SER . 19115 1 
+      23 23 PHE . 19115 1 
+      24 24 THR . 19115 1 
+      25 25 PRO . 19115 1 
+      26 26 VAL . 19115 1 
+      27 27 LEU . 19115 1 
+      28 28 VAL . 19115 1 
+      29 29 ILE . 19115 1 
+      30 30 LEU . 19115 1 
+      31 31 LEU . 19115 1 
+      32 32 GLY . 19115 1 
+      33 33 VAL . 19115 1 
+      34 34 VAL . 19115 1 
+      35 35 GLY . 19115 1 
+      36 36 LEU . 19115 1 
+      37 37 SER . 19115 1 
+      38 38 ALA . 19115 1 
+      39 39 LEU . 19115 1 
+      40 40 THR . 19115 1 
+      41 41 GLY . 19115 1 
+      42 42 TYR . 19115 1 
+      43 43 LEU . 19115 1 
+      44 44 ASP . 19115 1 
+      45 45 TYR . 19115 1 
+      46 46 VAL . 19115 1 
+      47 47 LEU . 19115 1 
+      48 48 LEU . 19115 1 
+      49 49 PRO . 19115 1 
+      50 50 ALA . 19115 1 
+      51 51 LEU . 19115 1 
+      52 52 ALA . 19115 1 
+      53 53 ILE . 19115 1 
+      54 54 PHE . 19115 1 
+      55 55 ILE . 19115 1 
+      56 56 GLY . 19115 1 
+      57 57 LEU . 19115 1 
+      58 58 THR . 19115 1 
+      59 59 ILE . 19115 1 
+      60 60 TYR . 19115 1 
+      61 61 ALA . 19115 1 
+      62 62 ILE . 19115 1 
+      63 63 GLN . 19115 1 
+      64 64 ARG . 19115 1 
+      65 65 LYS . 19115 1 
+      66 66 ARG . 19115 1 
+      67 67 GLN . 19115 1 
+      68 68 ALA . 19115 1 
+      69 69 ASP . 19115 1 
+      70 70 ALA . 19115 1 
+      71 71 SER . 19115 1 
+      72 72 SER . 19115 1 
+      73 73 THR . 19115 1 
+      74 74 PRO . 19115 1 
+      75 75 LYS . 19115 1 
+      76 76 PHE . 19115 1 
+      77 77 ASN . 19115 1 
+      78 78 GLY . 19115 1 
+      79 79 VAL . 19115 1 
+      80 80 LYS . 19115 1 
+      81 81 LYS . 19115 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . MET  1  1 19115 1 
+      . LYS  2  2 19115 1 
+      . ASP  3  3 19115 1 
+      . PRO  4  4 19115 1 
+      . LYS  5  5 19115 1 
+      . THR  6  6 19115 1 
+      . LEU  7  7 19115 1 
+      . LEU  8  8 19115 1 
+      . ARG  9  9 19115 1 
+      . VAL 10 10 19115 1 
+      . SER 11 11 19115 1 
+      . ILE 12 12 19115 1 
+      . ILE 13 13 19115 1 
+      . GLY 14 14 19115 1 
+      . THR 15 15 19115 1 
+      . THR 16 16 19115 1 
+      . LEU 17 17 19115 1 
+      . VAL 18 18 19115 1 
+      . ALA 19 19 19115 1 
+      . LEU 20 20 19115 1 
+      . SER 21 21 19115 1 
+      . SER 22 22 19115 1 
+      . PHE 23 23 19115 1 
+      . THR 24 24 19115 1 
+      . PRO 25 25 19115 1 
+      . VAL 26 26 19115 1 
+      . LEU 27 27 19115 1 
+      . VAL 28 28 19115 1 
+      . ILE 29 29 19115 1 
+      . LEU 30 30 19115 1 
+      . LEU 31 31 19115 1 
+      . GLY 32 32 19115 1 
+      . VAL 33 33 19115 1 
+      . VAL 34 34 19115 1 
+      . GLY 35 35 19115 1 
+      . LEU 36 36 19115 1 
+      . SER 37 37 19115 1 
+      . ALA 38 38 19115 1 
+      . LEU 39 39 19115 1 
+      . THR 40 40 19115 1 
+      . GLY 41 41 19115 1 
+      . TYR 42 42 19115 1 
+      . LEU 43 43 19115 1 
+      . ASP 44 44 19115 1 
+      . TYR 45 45 19115 1 
+      . VAL 46 46 19115 1 
+      . LEU 47 47 19115 1 
+      . LEU 48 48 19115 1 
+      . PRO 49 49 19115 1 
+      . ALA 50 50 19115 1 
+      . LEU 51 51 19115 1 
+      . ALA 52 52 19115 1 
+      . ILE 53 53 19115 1 
+      . PHE 54 54 19115 1 
+      . ILE 55 55 19115 1 
+      . GLY 56 56 19115 1 
+      . LEU 57 57 19115 1 
+      . THR 58 58 19115 1 
+      . ILE 59 59 19115 1 
+      . TYR 60 60 19115 1 
+      . ALA 61 61 19115 1 
+      . ILE 62 62 19115 1 
+      . GLN 63 63 19115 1 
+      . ARG 64 64 19115 1 
+      . LYS 65 65 19115 1 
+      . ARG 66 66 19115 1 
+      . GLN 67 67 19115 1 
+      . ALA 68 68 19115 1 
+      . ASP 69 69 19115 1 
+      . ALA 70 70 19115 1 
+      . SER 71 71 19115 1 
+      . SER 72 72 19115 1 
+      . THR 73 73 19115 1 
+      . PRO 74 74 19115 1 
+      . LYS 75 75 19115 1 
+      . PHE 76 76 19115 1 
+      . ASN 77 77 19115 1 
+      . GLY 78 78 19115 1 
+      . VAL 79 79 19115 1 
+      . LYS 80 80 19115 1 
+      . LYS 81 81 19115 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       19115
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $MerF . 582 organism . 'Morganella morganii' Enterobacteria . . Bacteria . Morganella morganii . . . . . . . . . . . . . . . . MerF . . . . 19115 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       19115
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $MerF . 'recombinant technology' 'Escherichia coli' . . . Escherichia coli C41 DE3 . . . . . . . . . . . . . . pET31b+ . . . . . . 19115 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         19115
+   _Sample.ID                               1
+   _Sample.Type                             liposome
+   _Sample.Sub_type                         .
+   _Sample.Details                         '20mM MES, pH 6.0'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                  '100% H2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 MerF                                            '[U-99% 13C; U-99% 15N]' . . 1 $MerF . .    .  2.0  3.0 mg . . . . 19115 1 
+      2 1,2-di-O-tetradecyl-sn-glycero-3-phosphocholine 'natural abundance'      . .  .  .    . .    . 10.0 15.0 mg . . . . 19115 1 
+      3 MES                                             'natural abundance'      . .  .  .    . .  20   .    .  mM . . . . 19115 1 
+      4 H2O                                             'natural abundance'      . .  .  .    . . 100   .    .  %  . . . . 19115 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       19115
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            6.0 . pH 19115 1 
+      temperature 273   . K  19115 1 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         19115
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   700
+
+save_
+
+
+save_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_2
+   _NMR_spectrometer.Entry_ID         19115
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            DD2
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   800
+
+save_
+
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       19115
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 spectrometer_1 Bruker Avance . 700 . . . 19115 1 
+      2 spectrometer_2 Varian DD2    . 800 . . . 19115 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       19115
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '2D DARR'           no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 19115 1 
+      2 '2D NC correlation' no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 19115 1 
+      3 '3D HnNCa SLF'      no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 19115 1 
+      4 '3D HnNCo SLF'      no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 19115 1 
+      5 '3D HcCxCx SLF'     no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 19115 1 
+
+   stop_
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       19115
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C 13  Adamantane        'methyl carbon' . . . . ppm 38.48 external direct 1.0 'separate tube (no insert) similar to the experimental sample tube' . . . . . . . . 19115 1 
+      N 15 'ammonium sulfate'  nitrogen       . . . . ppm 26.8  external direct 1.0 'separate tube (no insert) similar to the experimental sample tube' . . . . . . . . 19115 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      19115
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 '2D DARR'           . . . 19115 1 
+      2 '2D NC correlation' . . . 19115 1 
+      3 '3D HnNCa SLF'      . . . 19115 1 
+      4 '3D HnNCo SLF'      . . . 19115 1 
+      5 '3D HcCxCx SLF'     . . . 19115 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1  5  5 LYS C  C 13 176.70 0.000 . . . . . A  5 LYS C  . 19115 1 
+        2 . 1 1  5  5 LYS CA C 13  58.78 0.000 . . . . . A  5 LYS CA . 19115 1 
+        3 . 1 1  5  5 LYS N  N 15 120.90 0.000 . . . . . A  5 LYS N  . 19115 1 
+        4 . 1 1  6  6 THR C  C 13 173.63 0.000 . . . . . A  6 THR C  . 19115 1 
+        5 . 1 1  6  6 THR CA C 13  65.62 0.000 . . . . . A  6 THR CA . 19115 1 
+        6 . 1 1  6  6 THR N  N 15 121.66 0.000 . . . . . A  6 THR N  . 19115 1 
+        7 . 1 1  7  7 LEU C  C 13 176.32 0.000 . . . . . A  7 LEU C  . 19115 1 
+        8 . 1 1  7  7 LEU CA C 13  56.09 0.000 . . . . . A  7 LEU CA . 19115 1 
+        9 . 1 1  7  7 LEU N  N 15 124.02 0.000 . . . . . A  7 LEU N  . 19115 1 
+       10 . 1 1  8  8 LEU C  C 13 175.82 0.000 . . . . . A  8 LEU C  . 19115 1 
+       11 . 1 1  8  8 LEU CA C 13  56.18 0.000 . . . . . A  8 LEU CA . 19115 1 
+       12 . 1 1  8  8 LEU N  N 15 122.08 0.000 . . . . . A  8 LEU N  . 19115 1 
+       13 . 1 1  9  9 ARG C  C 13 176.26 0.000 . . . . . A  9 ARG C  . 19115 1 
+       14 . 1 1  9  9 ARG CA C 13  56.59 0.000 . . . . . A  9 ARG CA . 19115 1 
+       15 . 1 1  9  9 ARG N  N 15 120.75 0.000 . . . . . A  9 ARG N  . 19115 1 
+       16 . 1 1 10 10 VAL C  C 13 175.99 0.000 . . . . . A 10 VAL C  . 19115 1 
+       17 . 1 1 10 10 VAL CA C 13  64.09 0.000 . . . . . A 10 VAL CA . 19115 1 
+       18 . 1 1 10 10 VAL N  N 15 119.30 0.000 . . . . . A 10 VAL N  . 19115 1 
+       19 . 1 1 11 11 SER C  C 13 174.79 0.000 . . . . . A 11 SER C  . 19115 1 
+       20 . 1 1 11 11 SER CA C 13  61.55 0.000 . . . . . A 11 SER CA . 19115 1 
+       21 . 1 1 11 11 SER N  N 15 120.48 0.000 . . . . . A 11 SER N  . 19115 1 
+       22 . 1 1 12 12 ILE C  C 13 176.98 0.000 . . . . . A 12 ILE C  . 19115 1 
+       23 . 1 1 12 12 ILE CA C 13  63.85 0.000 . . . . . A 12 ILE CA . 19115 1 
+       24 . 1 1 12 12 ILE N  N 15 125.38 0.000 . . . . . A 12 ILE N  . 19115 1 
+       25 . 1 1 13 13 ILE C  C 13 175.22 0.000 . . . . . A 13 ILE C  . 19115 1 
+       26 . 1 1 13 13 ILE CA C 13  63.91 0.000 . . . . . A 13 ILE CA . 19115 1 
+       27 . 1 1 13 13 ILE N  N 15 122.45 0.000 . . . . . A 13 ILE N  . 19115 1 
+       28 . 1 1 15 15 THR C  C 13 174.67 0.000 . . . . . A 15 THR C  . 19115 1 
+       29 . 1 1 15 15 THR CA C 13  66.15 0.000 . . . . . A 15 THR CA . 19115 1 
+       30 . 1 1 15 15 THR N  N 15 120.57 0.000 . . . . . A 15 THR N  . 19115 1 
+       31 . 1 1 16 16 THR C  C 13 173.33 0.000 . . . . . A 16 THR C  . 19115 1 
+       32 . 1 1 16 16 THR CA C 13  65.95 0.000 . . . . . A 16 THR CA . 19115 1 
+       33 . 1 1 16 16 THR N  N 15 120.30 0.000 . . . . . A 16 THR N  . 19115 1 
+       34 . 1 1 17 17 LEU C  C 13 175.94 0.000 . . . . . A 17 LEU C  . 19115 1 
+       35 . 1 1 17 17 LEU CA C 13  56.29 0.000 . . . . . A 17 LEU CA . 19115 1 
+       36 . 1 1 17 17 LEU N  N 15 123.25 0.000 . . . . . A 17 LEU N  . 19115 1 
+       37 . 1 1 18 18 VAL C  C 13 176.24 0.000 . . . . . A 18 VAL C  . 19115 1 
+       38 . 1 1 18 18 VAL CA C 13  64.84 0.000 . . . . . A 18 VAL CA . 19115 1 
+       39 . 1 1 18 18 VAL N  N 15 120.68 0.000 . . . . . A 18 VAL N  . 19115 1 
+       40 . 1 1 19 19 ALA C  C 13 177.01 0.000 . . . . . A 19 ALA C  . 19115 1 
+       41 . 1 1 19 19 ALA CA C 13  53.88 0.000 . . . . . A 19 ALA CA . 19115 1 
+       42 . 1 1 19 19 ALA N  N 15 120.35 0.000 . . . . . A 19 ALA N  . 19115 1 
+       43 . 1 1 20 20 LEU C  C 13 177.09 0.000 . . . . . A 20 LEU C  . 19115 1 
+       44 . 1 1 20 20 LEU CA C 13  55.89 0.000 . . . . . A 20 LEU CA . 19115 1 
+       45 . 1 1 20 20 LEU N  N 15 119.22 0.000 . . . . . A 20 LEU N  . 19115 1 
+       46 . 1 1 21 21 SER C  C 13 172.15 0.000 . . . . . A 21 SER C  . 19115 1 
+       47 . 1 1 21 21 SER CA C 13  57.96 0.000 . . . . . A 21 SER CA . 19115 1 
+       48 . 1 1 21 21 SER N  N 15 116.93 0.000 . . . . . A 21 SER N  . 19115 1 
+       49 . 1 1 22 22 SER C  C 13 172.44 0.000 . . . . . A 22 SER C  . 19115 1 
+       50 . 1 1 22 22 SER CA C 13  59.27 0.000 . . . . . A 22 SER CA . 19115 1 
+       51 . 1 1 22 22 SER N  N 15 121.91 0.000 . . . . . A 22 SER N  . 19115 1 
+       52 . 1 1 23 23 PHE C  C 13 175.11 0.000 . . . . . A 23 PHE C  . 19115 1 
+       53 . 1 1 23 23 PHE CA C 13  56.22 0.000 . . . . . A 23 PHE CA . 19115 1 
+       54 . 1 1 23 23 PHE N  N 15 120.76 0.000 . . . . . A 23 PHE N  . 19115 1 
+       55 . 1 1 24 24 THR C  C 13 174.14 0.000 . . . . . A 24 THR C  . 19115 1 
+       56 . 1 1 24 24 THR CA C 13  63.38 0.000 . . . . . A 24 THR CA . 19115 1 
+       57 . 1 1 24 24 THR N  N 15 119.53 0.000 . . . . . A 24 THR N  . 19115 1 
+       58 . 1 1 26 26 VAL C  C 13 175.44 0.000 . . . . . A 26 VAL C  . 19115 1 
+       59 . 1 1 26 26 VAL CA C 13  65.46 0.000 . . . . . A 26 VAL CA . 19115 1 
+       60 . 1 1 26 26 VAL N  N 15 120.73 0.000 . . . . . A 26 VAL N  . 19115 1 
+       61 . 1 1 27 27 LEU C  C 13 177.36 0.000 . . . . . A 27 LEU C  . 19115 1 
+       62 . 1 1 27 27 LEU CA C 13  56.18 0.000 . . . . . A 27 LEU CA . 19115 1 
+       63 . 1 1 27 27 LEU N  N 15 120.38 0.000 . . . . . A 27 LEU N  . 19115 1 
+       64 . 1 1 28 28 VAL C  C 13 174.36 0.000 . . . . . A 28 VAL C  . 19115 1 
+       65 . 1 1 28 28 VAL CA C 13  66.37 0.000 . . . . . A 28 VAL CA . 19115 1 
+       66 . 1 1 28 28 VAL N  N 15 120.42 0.000 . . . . . A 28 VAL N  . 19115 1 
+       67 . 1 1 29 29 ILE C  C 13 176.32 0.000 . . . . . A 29 ILE C  . 19115 1 
+       68 . 1 1 29 29 ILE CA C 13  63.70 0.000 . . . . . A 29 ILE CA . 19115 1 
+       69 . 1 1 29 29 ILE N  N 15 121.96 0.000 . . . . . A 29 ILE N  . 19115 1 
+       70 . 1 1 30 30 LEU C  C 13 175.82 0.000 . . . . . A 30 LEU C  . 19115 1 
+       71 . 1 1 30 30 LEU CA C 13  56.79 0.000 . . . . . A 30 LEU CA . 19115 1 
+       72 . 1 1 30 30 LEU N  N 15 122.40 0.000 . . . . . A 30 LEU N  . 19115 1 
+       73 . 1 1 31 31 LEU C  C 13 177.53 0.000 . . . . . A 31 LEU C  . 19115 1 
+       74 . 1 1 31 31 LEU CA C 13  56.70 0.000 . . . . . A 31 LEU CA . 19115 1 
+       75 . 1 1 31 31 LEU N  N 15 118.64 0.000 . . . . . A 31 LEU N  . 19115 1 
+       76 . 1 1 33 33 VAL C  C 13 174.23 0.000 . . . . . A 33 VAL C  . 19115 1 
+       77 . 1 1 33 33 VAL CA C 13  65.95 0.000 . . . . . A 33 VAL CA . 19115 1 
+       78 . 1 1 33 33 VAL N  N 15 123.00 0.000 . . . . . A 33 VAL N  . 19115 1 
+       79 . 1 1 34 34 VAL C  C 13 176.16 0.000 . . . . . A 34 VAL C  . 19115 1 
+       80 . 1 1 34 34 VAL CA C 13  65.16 0.000 . . . . . A 34 VAL CA . 19115 1 
+       81 . 1 1 34 34 VAL N  N 15 123.38 0.000 . . . . . A 34 VAL N  . 19115 1 
+       82 . 1 1 36 36 LEU C  C 13 177.20 0.000 . . . . . A 36 LEU C  . 19115 1 
+       83 . 1 1 36 36 LEU CA C 13  55.89 0.000 . . . . . A 36 LEU CA . 19115 1 
+       84 . 1 1 36 36 LEU N  N 15 121.01 0.000 . . . . . A 36 LEU N  . 19115 1 
+       85 . 1 1 37 37 SER C  C 13 174.23 0.000 . . . . . A 37 SER C  . 19115 1 
+       86 . 1 1 37 37 SER CA C 13  59.90 0.000 . . . . . A 37 SER CA . 19115 1 
+       87 . 1 1 37 37 SER N  N 15 119.22 0.000 . . . . . A 37 SER N  . 19115 1 
+       88 . 1 1 38 38 ALA C  C 13 178.02 0.000 . . . . . A 38 ALA C  . 19115 1 
+       89 . 1 1 38 38 ALA CA C 13  53.06 0.000 . . . . . A 38 ALA CA . 19115 1 
+       90 . 1 1 38 38 ALA N  N 15 125.19 0.000 . . . . . A 38 ALA N  . 19115 1 
+       91 . 1 1 39 39 LEU C  C 13 174.84 0.000 . . . . . A 39 LEU C  . 19115 1 
+       92 . 1 1 39 39 LEU CA C 13  55.15 0.000 . . . . . A 39 LEU CA . 19115 1 
+       93 . 1 1 39 39 LEU N  N 15 118.06 0.000 . . . . . A 39 LEU N  . 19115 1 
+       94 . 1 1 40 40 THR C  C 13 171.37 0.000 . . . . . A 40 THR C  . 19115 1 
+       95 . 1 1 40 40 THR CA C 13  59.98 0.000 . . . . . A 40 THR CA . 19115 1 
+       96 . 1 1 40 40 THR N  N 15 104.52 0.000 . . . . . A 40 THR N  . 19115 1 
+       97 . 1 1 42 42 TYR C  C 13 172.92 0.000 . . . . . A 42 TYR C  . 19115 1 
+       98 . 1 1 42 42 TYR CA C 13  57.31 0.000 . . . . . A 42 TYR CA . 19115 1 
+       99 . 1 1 42 42 TYR N  N 15 120.78 0.000 . . . . . A 42 TYR N  . 19115 1 
+      100 . 1 1 43 43 LEU C  C 13 174.78 0.000 . . . . . A 43 LEU C  . 19115 1 
+      101 . 1 1 43 43 LEU CA C 13  56.50 0.000 . . . . . A 43 LEU CA . 19115 1 
+      102 . 1 1 43 43 LEU N  N 15 123.03 0.000 . . . . . A 43 LEU N  . 19115 1 
+      103 . 1 1 44 44 ASP C  C 13 174.78 0.000 . . . . . A 44 ASP C  . 19115 1 
+      104 . 1 1 44 44 ASP CA C 13  56.50 0.000 . . . . . A 44 ASP CA . 19115 1 
+      105 . 1 1 44 44 ASP N  N 15 121.32 0.000 . . . . . A 44 ASP N  . 19115 1 
+      106 . 1 1 45 45 TYR C  C 13 174.01 0.000 . . . . . A 45 TYR C  . 19115 1 
+      107 . 1 1 45 45 TYR CA C 13  59.78 0.000 . . . . . A 45 TYR CA . 19115 1 
+      108 . 1 1 45 45 TYR N  N 15 120.64 0.000 . . . . . A 45 TYR N  . 19115 1 
+      109 . 1 1 46 46 VAL C  C 13 173.03 0.000 . . . . . A 46 VAL C  . 19115 1 
+      110 . 1 1 46 46 VAL CA C 13  60.05 0.000 . . . . . A 46 VAL CA . 19115 1 
+      111 . 1 1 46 46 VAL N  N 15 120.49 0.000 . . . . . A 46 VAL N  . 19115 1 
+      112 . 1 1 47 47 LEU C  C 13 176.32 0.000 . . . . . A 47 LEU C  . 19115 1 
+      113 . 1 1 47 47 LEU CA C 13  56.70 0.000 . . . . . A 47 LEU CA . 19115 1 
+      114 . 1 1 47 47 LEU N  N 15 120.99 0.000 . . . . . A 47 LEU N  . 19115 1 
+      115 . 1 1 48 48 LEU C  C 13 174.67 0.000 . . . . . A 48 LEU C  . 19115 1 
+      116 . 1 1 48 48 LEU CA C 13  57.80 0.000 . . . . . A 48 LEU CA . 19115 1 
+      117 . 1 1 48 48 LEU N  N 15 122.02 0.000 . . . . . A 48 LEU N  . 19115 1 
+      118 . 1 1 50 50 ALA C  C 13 177.69 0.000 . . . . . A 50 ALA C  . 19115 1 
+      119 . 1 1 50 50 ALA CA C 13  54.68 0.000 . . . . . A 50 ALA CA . 19115 1 
+      120 . 1 1 50 50 ALA N  N 15 119.13 0.000 . . . . . A 50 ALA N  . 19115 1 
+      121 . 1 1 51 51 LEU C  C 13 176.65 0.000 . . . . . A 51 LEU C  . 19115 1 
+      122 . 1 1 51 51 LEU CA C 13  57.57 0.000 . . . . . A 51 LEU CA . 19115 1 
+      123 . 1 1 51 51 LEU N  N 15 122.78 0.000 . . . . . A 51 LEU N  . 19115 1 
+      124 . 1 1 52 52 ALA C  C 13 178.02 0.000 . . . . . A 52 ALA C  . 19115 1 
+      125 . 1 1 52 52 ALA CA C 13  53.73 0.000 . . . . . A 52 ALA CA . 19115 1 
+      126 . 1 1 52 52 ALA N  N 15 123.87 0.000 . . . . . A 52 ALA N  . 19115 1 
+      127 . 1 1 53 53 ILE C  C 13 176.10 0.000 . . . . . A 53 ILE C  . 19115 1 
+      128 . 1 1 53 53 ILE CA C 13  63.30 0.000 . . . . . A 53 ILE CA . 19115 1 
+      129 . 1 1 53 53 ILE N  N 15 120.07 0.000 . . . . . A 53 ILE N  . 19115 1 
+      130 . 1 1 54 54 PHE C  C 13 175.96 0.000 . . . . . A 54 PHE C  . 19115 1 
+      131 . 1 1 54 54 PHE CA C 13  60.21 0.000 . . . . . A 54 PHE CA . 19115 1 
+      132 . 1 1 54 54 PHE N  N 15 117.59 0.000 . . . . . A 54 PHE N  . 19115 1 
+      133 . 1 1 55 55 ILE C  C 13 176.87 0.000 . . . . . A 55 ILE C  . 19115 1 
+      134 . 1 1 55 55 ILE CA C 13  64.70 0.000 . . . . . A 55 ILE CA . 19115 1 
+      135 . 1 1 55 55 ILE N  N 15 121.88 0.000 . . . . . A 55 ILE N  . 19115 1 
+      136 . 1 1 57 57 LEU C  C 13 176.05 0.000 . . . . . A 57 LEU C  . 19115 1 
+      137 . 1 1 57 57 LEU CA C 13  56.25 0.000 . . . . . A 57 LEU CA . 19115 1 
+      138 . 1 1 57 57 LEU N  N 15 121.97 0.000 . . . . . A 57 LEU N  . 19115 1 
+      139 . 1 1 58 58 THR C  C 13 173.46 0.000 . . . . . A 58 THR C  . 19115 1 
+      140 . 1 1 58 58 THR CA C 13  66.34 0.000 . . . . . A 58 THR CA . 19115 1 
+      141 . 1 1 58 58 THR N  N 15 121.37 0.000 . . . . . A 58 THR N  . 19115 1 
+      142 . 1 1 59 59 ILE C  C 13 175.99 0.000 . . . . . A 59 ILE C  . 19115 1 
+      143 . 1 1 59 59 ILE CA C 13  63.40 0.000 . . . . . A 59 ILE CA . 19115 1 
+      144 . 1 1 59 59 ILE N  N 15 122.49 0.000 . . . . . A 59 ILE N  . 19115 1 
+      145 . 1 1 60 60 TYR C  C 13 174.89 0.000 . . . . . A 60 TYR C  . 19115 1 
+      146 . 1 1 60 60 TYR CA C 13  60.00 0.000 . . . . . A 60 TYR CA . 19115 1 
+      147 . 1 1 60 60 TYR N  N 15 120.95 0.000 . . . . . A 60 TYR N  . 19115 1 
+      148 . 1 1 61 61 ALA C  C 13 178.13 0.000 . . . . . A 61 ALA C  . 19115 1 
+      149 . 1 1 61 61 ALA CA C 13  54.64 0.000 . . . . . A 61 ALA CA . 19115 1 
+      150 . 1 1 61 61 ALA N  N 15 119.91 0.000 . . . . . A 61 ALA N  . 19115 1 
+      151 . 1 1 62 62 ILE C  C 13 176.21 0.000 . . . . . A 62 ILE C  . 19115 1 
+      152 . 1 1 62 62 ILE CA C 13  64.20 0.000 . . . . . A 62 ILE CA . 19115 1 
+      153 . 1 1 62 62 ILE N  N 15 122.48 0.000 . . . . . A 62 ILE N  . 19115 1 
+      154 . 1 1 63 63 GLN C  C 13 176.98 0.000 . . . . . A 63 GLN C  . 19115 1 
+      155 . 1 1 63 63 GLN CA C 13  55.74 0.000 . . . . . A 63 GLN CA . 19115 1 
+      156 . 1 1 63 63 GLN N  N 15 118.55 0.000 . . . . . A 63 GLN N  . 19115 1 
+      157 . 1 1 64 64 ARG C  C 13 176.37 0.000 . . . . . A 64 ARG C  . 19115 1 
+      158 . 1 1 64 64 ARG CA C 13  56.66 0.000 . . . . . A 64 ARG CA . 19115 1 
+      159 . 1 1 64 64 ARG N  N 15 120.75 0.000 . . . . . A 64 ARG N  . 19115 1 
+      160 . 1 1 65 65 LYS C  C 13 176.76 0.000 . . . . . A 65 LYS C  . 19115 1 
+      161 . 1 1 65 65 LYS CA C 13  57.10 0.000 . . . . . A 65 LYS CA . 19115 1 
+      162 . 1 1 65 65 LYS N  N 15 120.97 0.000 . . . . . A 65 LYS N  . 19115 1 
+      163 . 1 1 66 66 ARG C  C 13 175.88 0.000 . . . . . A 66 ARG C  . 19115 1 
+      164 . 1 1 66 66 ARG CA C 13  56.30 0.000 . . . . . A 66 ARG CA . 19115 1 
+      165 . 1 1 66 66 ARG N  N 15 121.03 0.000 . . . . . A 66 ARG N  . 19115 1 
+      166 . 1 1 67 67 GLN C  C 13 174.56 0.000 . . . . . A 67 GLN C  . 19115 1 
+      167 . 1 1 67 67 GLN CA C 13  54.94 0.000 . . . . . A 67 GLN CA . 19115 1 
+      168 . 1 1 67 67 GLN N  N 15 122.08 0.000 . . . . . A 67 GLN N  . 19115 1 
+      169 . 1 1 68 68 ALA C  C 13 176.50 0.000 . . . . . A 68 ALA C  . 19115 1 
+      170 . 1 1 68 68 ALA CA C 13  51.18 0.000 . . . . . A 68 ALA CA . 19115 1 
+      171 . 1 1 68 68 ALA N  N 15 125.73 0.000 . . . . . A 68 ALA N  . 19115 1 
+      172 . 1 1 69 69 ASP C  C 13 174.90 0.000 . . . . . A 69 ASP C  . 19115 1 
+      173 . 1 1 69 69 ASP CA C 13  53.15 0.000 . . . . . A 69 ASP CA . 19115 1 
+      174 . 1 1 69 69 ASP N  N 15 119.35 0.000 . . . . . A 69 ASP N  . 19115 1 
+
+   stop_
+
+save_
+

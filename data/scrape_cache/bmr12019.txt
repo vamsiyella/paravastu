@@ -1,0 +1,1396 @@
+data_12019
+
+
+#######################
+#  Entry information  #
+#######################
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             12019
+   _Entry.Title
+;
+Solid-state NMR C-13 and N-15 chemical shifts of the chitin binding domain of  chitinase A1 from Bacillus circulans WL-12
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2018-04-12
+   _Entry.Accession_date                 2018-04-19
+   _Entry.Last_release_date              2018-04-19
+   _Entry.Original_release_date          2018-04-19
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.0.16
+   _Entry.Original_NMR_STAR_version      3.2.0.16
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          .
+   _Entry.Generated_software_label       .
+   _Entry.Generated_date                 .
+   _Entry.DOI                            .
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Hideo        Akutsu     .   .   .   .   12019
+      2   Hiroki       Tanaka     .   .   .   .   12019
+      3   Toshimichi   Fujiwara   .   .   .   .   12019
+      4   Takahisa     Ikegami    .   .   .   .   12019
+      5   Takeshi      Watanabe   .   .   .   .   12019
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1   .   'Osaka University'           .   12019
+      2   .   'Yokohama City University'   .   12019
+      3   .   'Niigata University'         .   12019
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   12019
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   225   12019
+      '15N chemical shifts'   49    12019
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1   .   .   2018-12-11   .   original   BMRB   .   12019
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB   4588   'proton and nitrogen chemical shift of the chitin-binding domain of chitinase A1'   12019
+      BMRB   4742   'proton and nitrogen chemical shift of the chitin-binding domain of chitinase A1'   12019
+      PDB    1ed7   'solution structure of of the chitin-binding domain of chitinase A1'                12019
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     12019
+   _Citation.ID                           1
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          10.1002/1873-3468.13226
+   _Citation.PubMed_ID                    30125342
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+A novel chitin-binding mode of the chitin-binding domain of chitinase A1 from Bacillus circulans WL-12 revealed by solid-state NMR.
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'FEBS Lett.'
+   _Citation.Journal_name_full            'FEBS letters'
+   _Citation.Journal_volume               592
+   _Citation.Journal_issue                18
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 0014-5793
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   3173
+   _Citation.Page_last                    3182
+   _Citation.Year                         2018
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Hiroki       Tanaka     .   .   .   .   12019   1
+      2   Hideo        Akutsu     .   .   .   .   12019   1
+      3   Izumi        Yabuta     .   .   .   .   12019   1
+      4   Masashi      Hara       .   .   .   .   12019   1
+      5   Hayuki       Sugimoto   .   .   .   .   12019   1
+      6   Takahisa     Ikegami    .   .   .   .   12019   1
+      7   Takeshi      Watanabe   .   .   .   .   12019   1
+      8   Toshimichi   Fujiwara   .   .   .   .   12019   1
+   stop_
+
+   loop_
+      _Citation_keyword.Keyword
+      _Citation_keyword.Entry_ID
+      _Citation_keyword.Citation_ID
+
+      'carbohydrate-binding protein'   12019   1
+      'chitin recognition'             12019   1
+      chitinase                        12019   1
+      'insoluble chitin'               12019   1
+      'solid-state NMR'                12019   1
+      'tryptophan-sugar stacking'      12019   1
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          12019
+   _Assembly.ID                                1
+   _Assembly.Name                              'chitin-binding domain of chitinase A1'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   'chitin-binding domain of chitinase A1'   1   $ChBDA1   A   .   yes   native   no   no   .   .   .   12019   1
+   stop_
+
+   loop_
+      _Assembly_db_link.Author_supplied
+      _Assembly_db_link.Database_code
+      _Assembly_db_link.Accession_code
+      _Assembly_db_link.Entry_mol_code
+      _Assembly_db_link.Entry_mol_name
+      _Assembly_db_link.Entry_experimental_method
+      _Assembly_db_link.Entry_structure_resolution
+      _Assembly_db_link.Entry_relation_type
+      _Assembly_db_link.Entry_details
+      _Assembly_db_link.Entry_ID
+      _Assembly_db_link.Assembly_ID
+
+      yes   PDB   1ed7   .   .   .   .   .   .   12019   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+save_ChBDA1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      ChBDA1
+   _Entity.Entry_ID                          12019
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              ChBDA1
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+XAWQVNTAYTAGQLVTYNGK
+TYKCLQPHTSLAGWEPSNVP
+ALWQLQ
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                46
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'all free'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_biological_function.Biological_function
+      _Entity_biological_function.Entry_ID
+      _Entity_biological_function.Entity_ID
+
+      'binding to insoluble chitin'   12019   1
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1    654   FMT   .   12019   1
+      2    655   ALA   .   12019   1
+      3    656   TRP   .   12019   1
+      4    657   GLN   .   12019   1
+      5    658   VAL   .   12019   1
+      6    659   ASN   .   12019   1
+      7    660   THR   .   12019   1
+      8    661   ALA   .   12019   1
+      9    662   TYR   .   12019   1
+      10   663   THR   .   12019   1
+      11   664   ALA   .   12019   1
+      12   665   GLY   .   12019   1
+      13   666   GLN   .   12019   1
+      14   667   LEU   .   12019   1
+      15   668   VAL   .   12019   1
+      16   669   THR   .   12019   1
+      17   670   TYR   .   12019   1
+      18   671   ASN   .   12019   1
+      19   672   GLY   .   12019   1
+      20   673   LYS   .   12019   1
+      21   674   THR   .   12019   1
+      22   675   TYR   .   12019   1
+      23   676   LYS   .   12019   1
+      24   677   CYS   .   12019   1
+      25   678   LEU   .   12019   1
+      26   679   GLN   .   12019   1
+      27   680   PRO   .   12019   1
+      28   681   HIS   .   12019   1
+      29   682   THR   .   12019   1
+      30   683   SER   .   12019   1
+      31   684   LEU   .   12019   1
+      32   685   ALA   .   12019   1
+      33   686   GLY   .   12019   1
+      34   687   TRP   .   12019   1
+      35   688   GLU   .   12019   1
+      36   689   PRO   .   12019   1
+      37   690   SER   .   12019   1
+      38   691   ASN   .   12019   1
+      39   692   VAL   .   12019   1
+      40   693   PRO   .   12019   1
+      41   694   ALA   .   12019   1
+      42   695   LEU   .   12019   1
+      43   696   TRP   .   12019   1
+      44   697   GLN   .   12019   1
+      45   698   LEU   .   12019   1
+      46   699   GLN   .   12019   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   FMT   1    1    12019   1
+      .   ALA   2    2    12019   1
+      .   TRP   3    3    12019   1
+      .   GLN   4    4    12019   1
+      .   VAL   5    5    12019   1
+      .   ASN   6    6    12019   1
+      .   THR   7    7    12019   1
+      .   ALA   8    8    12019   1
+      .   TYR   9    9    12019   1
+      .   THR   10   10   12019   1
+      .   ALA   11   11   12019   1
+      .   GLY   12   12   12019   1
+      .   GLN   13   13   12019   1
+      .   LEU   14   14   12019   1
+      .   VAL   15   15   12019   1
+      .   THR   16   16   12019   1
+      .   TYR   17   17   12019   1
+      .   ASN   18   18   12019   1
+      .   GLY   19   19   12019   1
+      .   LYS   20   20   12019   1
+      .   THR   21   21   12019   1
+      .   TYR   22   22   12019   1
+      .   LYS   23   23   12019   1
+      .   CYS   24   24   12019   1
+      .   LEU   25   25   12019   1
+      .   GLN   26   26   12019   1
+      .   PRO   27   27   12019   1
+      .   HIS   28   28   12019   1
+      .   THR   29   29   12019   1
+      .   SER   30   30   12019   1
+      .   LEU   31   31   12019   1
+      .   ALA   32   32   12019   1
+      .   GLY   33   33   12019   1
+      .   TRP   34   34   12019   1
+      .   GLU   35   35   12019   1
+      .   PRO   36   36   12019   1
+      .   SER   37   37   12019   1
+      .   ASN   38   38   12019   1
+      .   VAL   39   39   12019   1
+      .   PRO   40   40   12019   1
+      .   ALA   41   41   12019   1
+      .   LEU   42   42   12019   1
+      .   TRP   43   43   12019   1
+      .   GLN   44   44   12019   1
+      .   LEU   45   45   12019   1
+      .   GLN   46   46   12019   1
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       12019
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $ChBDA1   .   1397   organism   .   'Bacillus circulans'   'Bacillus circulans'   .   .   Bacteria   .   Bacillus   circulans   WL12   .   .   .   .   .   .   .   .   .   .   .   .   12019   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       12019
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $ChBDA1   .   'recombinant technology'   'Escherichia coli'   .   .   469008   Escherichia   coli   BL21(DE3)   .   .   .   .   .   pET3a   .   .   .   12019   1
+   stop_
+save_
+
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+save_chem_comp_FME
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_FME
+   _Chem_comp.Entry_ID                          12019
+   _Chem_comp.ID                                FME
+   _Chem_comp.Provenance                        PDB
+   _Chem_comp.Name                              N-FORMYLMETHIONINE
+   _Chem_comp.Type                              'L-PEPTIDE LINKING'
+   _Chem_comp.BMRB_code                         FME
+   _Chem_comp.PDB_code                          FME
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      2012-11-20
+   _Chem_comp.Modified_date                     2012-11-20
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   M
+   _Chem_comp.Three_letter_code                 FME
+   _Chem_comp.Number_atoms_all                  22
+   _Chem_comp.Number_atoms_nh                   11
+   _Chem_comp.Atom_nomenclature_source          .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        InChI=1S/C6H11NO3S/c1-11-3-2-5(6(9)10)7-4-8/h4-5H,2-3H2,1H3,(H,7,8)(H,9,10)/t5-/m0/s1
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           MET
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                           'C6 H11 N O3 S'
+   _Chem_comp.Formula_weight                    177.221
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         .
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         1BQ9
+   _Chem_comp.Processing_site                   RCSB
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      CSCCC(C(=O)O)NC=O                                                                       SMILES             'OpenEye OEToolkits'   1.5.0   12019   FME
+      CSCC[C@@H](C(=O)O)NC=O                                                                  SMILES_CANONICAL   'OpenEye OEToolkits'   1.5.0   12019   FME
+      CSCC[C@H](NC=O)C(O)=O                                                                   SMILES_CANONICAL   CACTVS                 3.341   12019   FME
+      CSCC[CH](NC=O)C(O)=O                                                                    SMILES             CACTVS                 3.341   12019   FME
+      InChI=1S/C6H11NO3S/c1-11-3-2-5(6(9)10)7-4-8/h4-5H,2-3H2,1H3,(H,7,8)(H,9,10)/t5-/m0/s1   InChI              InChI                  1.03    12019   FME
+      O=CNC(C(=O)O)CCSC                                                                       SMILES             ACDLabs                10.04   12019   FME
+      PYUSHNKNPOHWEZ-YFKPBYRVSA-N                                                             InChIKey           InChI                  1.03    12019   FME
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      '(2S)-2-formamido-4-methylsulfanyl-butanoic acid'   'SYSTEMATIC NAME'   'OpenEye OEToolkits'   1.5.0   12019   FME
+      N-formyl-L-methionine                               'SYSTEMATIC NAME'   ACDLabs                10.04   12019   FME
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      N     N     N     N     .   N   .   .   N   0   .   .   .   1   no   no    .   .   .   .   23.447   .   -5.765   .   5.119   .   0.999    0.704    -1.069   1    .   12019   FME
+      CN    CN    CN    CN    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   23.308   .   -6.776   .   4.291   .   2.093    0.373    -1.783   2    .   12019   FME
+      O1    O1    O1    O1    .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   22.504   .   -6.713   .   3.357   .   2.179    -0.727   -2.285   3    .   12019   FME
+      CA    CA    CA    CA    .   C   .   .   S   0   .   .   .   1   no   no    .   .   .   .   22.488   .   -4.745   .   5.410   .   -0.086   -0.264   -0.900   4    .   12019   FME
+      CB    CB    CB    CB    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   22.433   .   -4.342   .   6.827   .   -0.785   -0.018   0.437    5    .   12019   FME
+      CG    CG    CG    CG    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   22.198   .   -5.618   .   7.751   .   0.222    -0.179   1.576    6    .   12019   FME
+      SD    SD    SD    SD    .   S   .   .   N   0   .   .   .   1   no   no    .   .   .   .   20.445   .   -6.032   .   7.772   .   -0.606   0.111    3.164    7    .   12019   FME
+      CE    CE    CE    CE    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   20.476   .   -7.587   .   8.656   .   0.787    -0.138   4.297    8    .   12019   FME
+      C     C     C     C     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   22.699   .   -3.530   .   4.487   .   -1.080   -0.105   -2.023   9    .   12019   FME
+      O     O     O     O     .   O   .   .   N   0   .   .   .   1   no   no    .   .   .   .   23.804   .   -3.248   .   4.077   .   -1.712   -1.059   -2.408   10   .   12019   FME
+      OXT   OXT   OXT   OXT   .   O   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   21.633   .   -2.939   .   4.043   .   -1.261   1.095    -2.593   11   .   12019   FME
+      H     H     H     HN    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   24.363   .   -5.772   .   5.567   .   0.930    1.584    -0.667   12   .   12019   FME
+      HCN   HCN   HCN   HCN   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   23.886   .   -7.710   .   4.383   .   2.893    1.087    -1.907   13   .   12019   FME
+      HA    HA    HA    HA    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   21.489   .   -5.197   .   5.204   .   0.322    -1.274   -0.917   14   .   12019   FME
+      HB2   HB2   HB2   1HB   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   23.338   .   -3.766   .   7.132   .   -1.593   -0.739   0.563    15   .   12019   FME
+      HB3   HB3   HB3   2HB   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   21.668   .   -3.550   .   7.006   .   -1.194   0.991    0.454    16   .   12019   FME
+      HG2   HG2   HG2   1HG   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   22.831   .   -6.482   .   7.443   .   1.030    0.541    1.451    17   .   12019   FME
+      HG3   HG3   HG3   2HG   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   22.609   .   -5.475   .   8.777   .   0.631    -1.190   1.560    18   .   12019   FME
+      HE1   HE1   HE1   1HE   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   19.390   .   -7.843   .   8.669   .   0.450    0.003    5.324    19   .   12019   FME
+      HE2   HE2   HE2   2HE   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   21.148   .   -8.367   .   8.230   .   1.174    -1.150   4.179    20   .   12019   FME
+      HE3   HE3   HE3   3HE   .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   20.975   .   -7.562   .   9.652   .   1.574    0.580    4.070    21   .   12019   FME
+      HXT   HXT   HXT   HXT   .   H   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   21.763   .   -2.189   .   3.473   .   -1.899   1.197    -3.313   22   .   12019   FME
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1    .   SING   N     CN    no   N   1    .   12019   FME
+      2    .   SING   N     CA    no   N   2    .   12019   FME
+      3    .   SING   N     H     no   N   3    .   12019   FME
+      4    .   DOUB   CN    O1    no   N   4    .   12019   FME
+      5    .   SING   CN    HCN   no   N   5    .   12019   FME
+      6    .   SING   CA    CB    no   N   6    .   12019   FME
+      7    .   SING   CA    C     no   N   7    .   12019   FME
+      8    .   SING   CA    HA    no   N   8    .   12019   FME
+      9    .   SING   CB    CG    no   N   9    .   12019   FME
+      10   .   SING   CB    HB2   no   N   10   .   12019   FME
+      11   .   SING   CB    HB3   no   N   11   .   12019   FME
+      12   .   SING   CG    SD    no   N   12   .   12019   FME
+      13   .   SING   CG    HG2   no   N   13   .   12019   FME
+      14   .   SING   CG    HG3   no   N   14   .   12019   FME
+      15   .   SING   SD    CE    no   N   15   .   12019   FME
+      16   .   SING   CE    HE1   no   N   16   .   12019   FME
+      17   .   SING   CE    HE2   no   N   17   .   12019   FME
+      18   .   SING   CE    HE3   no   N   18   .   12019   FME
+      19   .   DOUB   C     O     no   N   19   .   12019   FME
+      20   .   SING   C     OXT   no   N   20   .   12019   FME
+      21   .   SING   OXT   HXT   no   N   21   .   12019   FME
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         12019
+   _Sample.ID                               1
+   _Sample.Type                             solid
+   _Sample.Sub_type                         .
+   _Sample.Details                          microcrystal
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   no
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   ChBDA1    '[U-99% 13C; U-99% 15N]'   1   $assembly   1   $ChBDA1   .   protein   17   .   .   mg   .   .   .   .   12019   1
+      2   TrisHcl   'natural abundance'        .   .           .   .         .   buffer    20   .   .   mM   .   .   .   .   12019   1
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       12019
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        microcrystal
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   20    .   mM    12019   1
+      pH                 8     .   pH    12019   1
+      pressure           1     .   atm   12019   1
+      temperature        253   .   K     12019   1
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+save_Felix
+   _Software.Sf_category    software
+   _Software.Sf_framecode   Felix
+   _Software.Entry_ID       12019
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           Felix
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Accelrys Software Inc.'   .   .   12019   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis'   12019   1
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID         12019
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            'Inifinity plus'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   500
+save_
+
+save_NMR_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_2
+   _NMR_spectrometer.Entry_ID         12019
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            'Inifinity plus'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   700
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       12019
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1   NMR_spectrometer_1   Varian   'Infinity plus'   .   500   .   .   .   12019   1
+      2   NMR_spectrometer_2   Varian   'Infinity plus'   .   700   .   .   .   12019   1
+   stop_
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       12019
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   '2D RFDR'         no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   12019   1
+      2   '2D DARR'         no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   12019   1
+      3   '2D INADEQUATE'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   12019   1
+      4   '2D NCACB'        no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   12019   1
+      5   '3D NCOCA'        no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   12019   1
+      6   '3D NCACO'        no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   12019   1
+   stop_
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       12019
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na   indirect   0.251449530   .   .   .   .   .   12019   1
+      N   15   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na   indirect   0.101329118   .   .   .   .   .   12019   1
+   stop_
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      12019
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1   '2D RFDR'         1   $sample_1   isotropic   12019   1
+      2   '2D DARR'         1   $sample_1   isotropic   12019   1
+      3   '2D INADEQUATE'   1   $sample_1   isotropic   12019   1
+      4   '2D NCACB'        1   $sample_1   isotropic   12019   1
+      5   '3D NCOCA'        1   $sample_1   isotropic   12019   1
+      6   '3D NCACO'        1   $sample_1   isotropic   12019   1
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+      1   $Felix   .   .   12019   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   1   1    1    FMT   C     C   13   174      1.3   .   1   .   .   .   .   .   654   fMet   C     .   12019   1
+      2     .   1   1   1    1    FMT   CA    C   13   52.7     1.3   .   1   .   .   .   .   .   654   fMet   CA    .   12019   1
+      3     .   1   1   1    1    FMT   CB    C   13   35.8     1.3   .   1   .   .   .   .   .   654   fMet   CB    .   12019   1
+      4     .   1   1   1    1    FMT   CN    C   13   163.9    1.3   .   1   .   .   .   .   .   654   fMet   CN    .   12019   1
+      5     .   1   1   1    1    FMT   N     N   15   131.6    2     .   1   .   .   .   .   .   654   fMet   N     .   12019   1
+      6     .   1   1   2    2    ALA   C     C   13   179.8    1.8   .   1   .   .   .   .   .   655   ALA    C     .   12019   1
+      7     .   1   1   2    2    ALA   CA    C   13   51.8     1     .   1   .   .   .   .   .   655   ALA    CA    .   12019   1
+      8     .   1   1   2    2    ALA   CB    C   13   19.5     1     .   1   .   .   .   .   .   655   ALA    CB    .   12019   1
+      9     .   1   1   2    2    ALA   N     N   15   124.6    2     .   1   .   .   .   .   .   655   ALA    N     .   12019   1
+      10    .   1   1   3    3    TRP   C     C   13   175      0.5   .   1   .   .   .   .   .   656   TRP    C     .   12019   1
+      11    .   1   1   3    3    TRP   CA    C   13   59.5     0.5   .   1   .   .   .   .   .   656   TRP    CA    .   12019   1
+      12    .   1   1   3    3    TRP   CB    C   13   29.6     0.5   .   1   .   .   .   .   .   656   TRP    CB    .   12019   1
+      13    .   1   1   3    3    TRP   CD1   C   13   125.8    0.5   .   1   .   .   .   .   .   656   TRP    CD1   .   12019   1
+      14    .   1   1   3    3    TRP   CD2   C   13   130.7    0.5   .   1   .   .   .   .   .   656   TRP    CD2   .   12019   1
+      15    .   1   1   3    3    TRP   CE2   C   13   138.4    0.5   .   1   .   .   .   .   .   656   TRP    CE2   .   12019   1
+      16    .   1   1   3    3    TRP   CE3   C   13   120.9    0.5   .   1   .   .   .   .   .   656   TRP    CE3   .   12019   1
+      17    .   1   1   3    3    TRP   CG    C   13   110.4    0.5   .   1   .   .   .   .   .   656   TRP    CG    .   12019   1
+      18    .   1   1   3    3    TRP   CH2   C   13   124.4    0.5   .   1   .   .   .   .   .   656   TRP    CH2   .   12019   1
+      19    .   1   1   3    3    TRP   CZ2   C   13   113.9    0.5   .   1   .   .   .   .   .   656   TRP    CZ2   .   12019   1
+      20    .   1   1   3    3    TRP   CZ3   C   13   119.8    0.5   .   1   .   .   .   .   .   656   TRP    CZ3   .   12019   1
+      21    .   1   1   3    3    TRP   N     N   15   124.7    2     .   1   .   .   .   .   .   656   TRP    N     .   12019   1
+      22    .   1   1   4    4    GLN   C     C   13   173.9    0.5   .   1   .   .   .   .   .   657   GLN    C     .   12019   1
+      23    .   1   1   4    4    GLN   CA    C   13   53.2     0.5   .   1   .   .   .   .   .   657   GLN    CA    .   12019   1
+      24    .   1   1   4    4    GLN   CB    C   13   33.3     0.5   .   1   .   .   .   .   .   657   GLN    CB    .   12019   1
+      25    .   1   1   4    4    GLN   CD    C   13   181.2    0.5   .   1   .   .   .   .   .   657   GLN    CD    .   12019   1
+      26    .   1   1   4    4    GLN   CG    C   13   33.8     0.5   .   1   .   .   .   .   .   657   GLN    CG    .   12019   1
+      27    .   1   1   4    4    GLN   N     N   15   124.5    2     .   1   .   .   .   .   .   657   GLN    N     .   12019   1
+      28    .   1   1   5    5    VAL   C     C   13   175      0.5   .   1   .   .   .   .   .   658   VAL    C     .   12019   1
+      29    .   1   1   5    5    VAL   CA    C   13   61.9     0.5   .   1   .   .   .   .   .   658   VAL    CA    .   12019   1
+      30    .   1   1   5    5    VAL   CB    C   13   34.4     0.5   .   1   .   .   .   .   .   658   VAL    CB    .   12019   1
+      31    .   1   1   5    5    VAL   CG1   C   13   21.6     0.5   .   1   .   .   .   .   .   658   VAL    CG1   .   12019   1
+      32    .   1   1   5    5    VAL   CG2   C   13   19.9     0.5   .   1   .   .   .   .   .   658   VAL    CG2   .   12019   1
+      33    .   1   1   5    5    VAL   N     N   15   115.2    2     .   1   .   .   .   .   .   658   VAL    N     .   12019   1
+      34    .   1   1   6    6    ASN   C     C   13   174.3    0.5   .   1   .   .   .   .   .   659   ASN    C     .   12019   1
+      35    .   1   1   6    6    ASN   CA    C   13   52.7     0.5   .   1   .   .   .   .   .   659   ASN    CA    .   12019   1
+      36    .   1   1   6    6    ASN   CB    C   13   35.4     0.5   .   1   .   .   .   .   .   659   ASN    CB    .   12019   1
+      37    .   1   1   6    6    ASN   CG    C   13   178.4    0.5   .   1   .   .   .   .   .   659   ASN    CG    .   12019   1
+      38    .   1   1   6    6    ASN   N     N   15   122.9    2     .   1   .   .   .   .   .   659   ASN    N     .   12019   1
+      39    .   1   1   6    6    ASN   ND2   N   15   112.5    2     .   1   .   .   .   .   .   659   ASN    ND2   .   12019   1
+      40    .   1   1   7    7    THR   C     C   13   171.9    0.5   .   1   .   .   .   .   .   660   THR    C     .   12019   1
+      41    .   1   1   7    7    THR   CA    C   13   61.7     0.5   .   1   .   .   .   .   .   660   THR    CA    .   12019   1
+      42    .   1   1   7    7    THR   CB    C   13   71.3     0.5   .   1   .   .   .   .   .   660   THR    CB    .   12019   1
+      43    .   1   1   7    7    THR   CG2   C   13   19.4     0.5   .   1   .   .   .   .   .   660   THR    CG2   .   12019   1
+      44    .   1   1   7    7    THR   N     N   15   113.5    2     .   1   .   .   .   .   .   660   THR    N     .   12019   1
+      45    .   1   1   8    8    ALA   C     C   13   175.3    0.5   .   1   .   .   .   .   .   661   ALA    C     .   12019   1
+      46    .   1   1   8    8    ALA   CA    C   13   51.7     0.5   .   1   .   .   .   .   .   661   ALA    CA    .   12019   1
+      47    .   1   1   8    8    ALA   CB    C   13   18.5     0.5   .   1   .   .   .   .   .   661   ALA    CB    .   12019   1
+      48    .   1   1   8    8    ALA   N     N   15   130.1    2     .   1   .   .   .   .   .   661   ALA    N     .   12019   1
+      49    .   1   1   9    9    TYR   C     C   13   177      0.5   .   1   .   .   .   .   .   662   TYR    C     .   12019   1
+      50    .   1   1   9    9    TYR   CA    C   13   58.8     0.5   .   1   .   .   .   .   .   662   TYR    CA    .   12019   1
+      51    .   1   1   9    9    TYR   CB    C   13   43.8     0.5   .   1   .   .   .   .   .   662   TYR    CB    .   12019   1
+      52    .   1   1   9    9    TYR   CD1   C   13   133.5    0.5   .   3   .   .   .   .   .   662   TYR    CD1   .   12019   1
+      53    .   1   1   9    9    TYR   CE1   C   13   118.4    0.5   .   3   .   .   .   .   .   662   TYR    CE1   .   12019   1
+      54    .   1   1   9    9    TYR   CG    C   13   130.8    0.5   .   1   .   .   .   .   .   662   TYR    CG    .   12019   1
+      55    .   1   1   9    9    TYR   CZ    C   13   158.1    0.5   .   1   .   .   .   .   .   662   TYR    CZ    .   12019   1
+      56    .   1   1   9    9    TYR   N     N   15   124      2     .   1   .   .   .   .   .   662   TYR    N     .   12019   1
+      57    .   1   1   10   10   THR   C     C   13   174.7    0.5   .   1   .   .   .   .   .   663   THR    C     .   12019   1
+      58    .   1   1   10   10   THR   CA    C   13   59.5     0.5   .   1   .   .   .   .   .   663   THR    CA    .   12019   1
+      59    .   1   1   10   10   THR   CB    C   13   70.5     0.5   .   1   .   .   .   .   .   663   THR    CB    .   12019   1
+      60    .   1   1   10   10   THR   CG2   C   13   22.2     0.5   .   1   .   .   .   .   .   663   THR    CG2   .   12019   1
+      61    .   1   1   10   10   THR   N     N   15   113.2    2     .   1   .   .   .   .   .   663   THR    N     .   12019   1
+      62    .   1   1   11   11   ALA   C     C   13   177.2    0.5   .   1   .   .   .   .   .   664   ALA    C     .   12019   1
+      63    .   1   1   11   11   ALA   CA    C   13   53.5     0.5   .   1   .   .   .   .   .   664   ALA    CA    .   12019   1
+      64    .   1   1   11   11   ALA   CB    C   13   18.8     0.5   .   1   .   .   .   .   .   664   ALA    CB    .   12019   1
+      65    .   1   1   11   11   ALA   N     N   15   122.1    2     .   1   .   .   .   .   .   664   ALA    N     .   12019   1
+      66    .   1   1   12   12   GLY   C     C   13   174.1    0.5   .   1   .   .   .   .   .   665   GLY    C     .   12019   1
+      67    .   1   1   12   12   GLY   CA    C   13   44.9     0.5   .   1   .   .   .   .   .   665   GLY    CA    .   12019   1
+      68    .   1   1   12   12   GLY   N     N   15   108.9    2     .   1   .   .   .   .   .   665   GLY    N     .   12019   1
+      69    .   1   1   13   13   GLN   C     C   13   175.2    0.5   .   1   .   .   .   .   .   666   GLN    C     .   12019   1
+      70    .   1   1   13   13   GLN   CA    C   13   58.8     0.5   .   1   .   .   .   .   .   666   GLN    CA    .   12019   1
+      71    .   1   1   13   13   GLN   CB    C   13   31.3     0.5   .   1   .   .   .   .   .   666   GLN    CB    .   12019   1
+      72    .   1   1   13   13   GLN   CD    C   13   181.1    0.5   .   1   .   .   .   .   .   666   GLN    CD    .   12019   1
+      73    .   1   1   13   13   GLN   CG    C   13   36.9     0.5   .   1   .   .   .   .   .   666   GLN    CG    .   12019   1
+      74    .   1   1   13   13   GLN   N     N   15   116.9    2     .   1   .   .   .   .   .   666   GLN    N     .   12019   1
+      75    .   1   1   14   14   LEU   C     C   13   177.7    0.5   .   1   .   .   .   .   .   667   LEU    C     .   12019   1
+      76    .   1   1   14   14   LEU   CA    C   13   53.7     0.5   .   1   .   .   .   .   .   667   LEU    CA    .   12019   1
+      77    .   1   1   14   14   LEU   CB    C   13   46.4     0.5   .   1   .   .   .   .   .   667   LEU    CB    .   12019   1
+      78    .   1   1   14   14   LEU   CD1   C   13   24.3     0.5   .   2   .   .   .   .   .   667   LEU    CD1   .   12019   1
+      79    .   1   1   14   14   LEU   CD2   C   13   21.9     0.5   .   2   .   .   .   .   .   667   LEU    CD2   .   12019   1
+      80    .   1   1   14   14   LEU   CG    C   13   27.1     0.5   .   1   .   .   .   .   .   667   LEU    CG    .   12019   1
+      81    .   1   1   14   14   LEU   N     N   15   125      2     .   1   .   .   .   .   .   667   LEU    N     .   12019   1
+      82    .   1   1   15   15   VAL   C     C   13   175.6    0.5   .   1   .   .   .   .   .   668   VAL    C     .   12019   1
+      83    .   1   1   15   15   VAL   CA    C   13   58.4     0.5   .   1   .   .   .   .   .   668   VAL    CA    .   12019   1
+      84    .   1   1   15   15   VAL   CB    C   13   37.3     0.5   .   1   .   .   .   .   .   668   VAL    CB    .   12019   1
+      85    .   1   1   15   15   VAL   CG1   C   13   23.7     0.5   .   2   .   .   .   .   .   668   VAL    CG1   .   12019   1
+      86    .   1   1   15   15   VAL   CG2   C   13   20.1     0.5   .   2   .   .   .   .   .   668   VAL    CG2   .   12019   1
+      87    .   1   1   15   15   VAL   N     N   15   114.95   2     .   1   .   .   .   .   .   668   VAL    N     .   12019   1
+      88    .   1   1   16   16   THR   C     C   13   175      0.5   .   1   .   .   .   .   .   669   THR    C     .   12019   1
+      89    .   1   1   16   16   THR   CA    C   13   59.5     0.5   .   1   .   .   .   .   .   669   THR    CA    .   12019   1
+      90    .   1   1   16   16   THR   CB    C   13   70.5     0.5   .   1   .   .   .   .   .   669   THR    CB    .   12019   1
+      91    .   1   1   16   16   THR   CG2   C   13   24.1     0.5   .   1   .   .   .   .   .   669   THR    CG2   .   12019   1
+      92    .   1   1   16   16   THR   N     N   15   111.4    2     .   1   .   .   .   .   .   669   THR    N     .   12019   1
+      93    .   1   1   17   17   TYR   C     C   13   176.4    0.5   .   1   .   .   .   .   .   670   TYR    C     .   12019   1
+      94    .   1   1   17   17   TYR   CA    C   13   60.1     0.5   .   1   .   .   .   .   .   670   TYR    CA    .   12019   1
+      95    .   1   1   17   17   TYR   CB    C   13   41.7     0.5   .   1   .   .   .   .   .   670   TYR    CB    .   12019   1
+      96    .   1   1   17   17   TYR   CD1   C   13   132.7    0.5   .   3   .   .   .   .   .   670   TYR    CD1   .   12019   1
+      97    .   1   1   17   17   TYR   CE1   C   13   118.4    0.5   .   3   .   .   .   .   .   670   TYR    CE1   .   12019   1
+      98    .   1   1   17   17   TYR   CG    C   13   128.2    0.5   .   1   .   .   .   .   .   670   TYR    CG    .   12019   1
+      99    .   1   1   17   17   TYR   CZ    C   13   158.1    0.5   .   1   .   .   .   .   .   670   TYR    CZ    .   12019   1
+      100   .   1   1   17   17   TYR   N     N   15   121.2    2     .   1   .   .   .   .   .   670   TYR    N     .   12019   1
+      101   .   1   1   18   18   ASN   C     C   13   174.1    0.5   .   1   .   .   .   .   .   671   ASN    C     .   12019   1
+      102   .   1   1   18   18   ASN   CA    C   13   53.2     0.5   .   1   .   .   .   .   .   671   ASN    CA    .   12019   1
+      103   .   1   1   18   18   ASN   CB    C   13   38.7     0.5   .   1   .   .   .   .   .   671   ASN    CB    .   12019   1
+      104   .   1   1   18   18   ASN   CG    C   13   177.2    0.5   .   1   .   .   .   .   .   671   ASN    CG    .   12019   1
+      105   .   1   1   18   18   ASN   N     N   15   129.3    2     .   1   .   .   .   .   .   671   ASN    N     .   12019   1
+      106   .   1   1   18   18   ASN   ND2   N   15   111.1    2     .   1   .   .   .   .   .   671   ASN    ND2   .   12019   1
+      107   .   1   1   19   19   GLY   C     C   13   172.9    0.5   .   1   .   .   .   .   .   672   GLY    C     .   12019   1
+      108   .   1   1   19   19   GLY   CA    C   13   45.9     0.5   .   1   .   .   .   .   .   672   GLY    CA    .   12019   1
+      109   .   1   1   19   19   GLY   N     N   15   102.9    2     .   1   .   .   .   .   .   672   GLY    N     .   12019   1
+      110   .   1   1   20   20   LYS   C     C   13   174.6    0.5   .   1   .   .   .   .   .   673   LYS    C     .   12019   1
+      111   .   1   1   20   20   LYS   CA    C   13   54.1     0.5   .   1   .   .   .   .   .   673   LYS    CA    .   12019   1
+      112   .   1   1   20   20   LYS   CB    C   13   36       0.5   .   1   .   .   .   .   .   673   LYS    CB    .   12019   1
+      113   .   1   1   20   20   LYS   CD    C   13   28.7     0.5   .   1   .   .   .   .   .   673   LYS    CD    .   12019   1
+      114   .   1   1   20   20   LYS   CE    C   13   43       0.5   .   1   .   .   .   .   .   673   LYS    CE    .   12019   1
+      115   .   1   1   20   20   LYS   CG    C   13   25.7     0.5   .   1   .   .   .   .   .   673   LYS    CG    .   12019   1
+      116   .   1   1   20   20   LYS   N     N   15   119.1    2     .   1   .   .   .   .   .   673   LYS    N     .   12019   1
+      117   .   1   1   21   21   THR   C     C   13   172.6    0.5   .   1   .   .   .   .   .   674   THR    C     .   12019   1
+      118   .   1   1   21   21   THR   CA    C   13   61.5     0.5   .   1   .   .   .   .   .   674   THR    CA    .   12019   1
+      119   .   1   1   21   21   THR   CB    C   13   70.1     0.5   .   1   .   .   .   .   .   674   THR    CB    .   12019   1
+      120   .   1   1   21   21   THR   CG2   C   13   21.8     0.5   .   1   .   .   .   .   .   674   THR    CG2   .   12019   1
+      121   .   1   1   21   21   THR   N     N   15   120.4    2     .   1   .   .   .   .   .   674   THR    N     .   12019   1
+      122   .   1   1   22   22   TYR   C     C   13   173.4    0.5   .   1   .   .   .   .   .   675   TYR    C     .   12019   1
+      123   .   1   1   22   22   TYR   CA    C   13   56.5     0.5   .   1   .   .   .   .   .   675   TYR    CA    .   12019   1
+      124   .   1   1   22   22   TYR   CB    C   13   45.4     0.5   .   1   .   .   .   .   .   675   TYR    CB    .   12019   1
+      125   .   1   1   22   22   TYR   CD1   C   13   132.9    0.5   .   3   .   .   .   .   .   675   TYR    CD1   .   12019   1
+      126   .   1   1   22   22   TYR   CE1   C   13   118.4    0.5   .   3   .   .   .   .   .   675   TYR    CE1   .   12019   1
+      127   .   1   1   22   22   TYR   CG    C   13   130.1    0.5   .   1   .   .   .   .   .   675   TYR    CG    .   12019   1
+      128   .   1   1   22   22   TYR   CZ    C   13   158.1    0.5   .   1   .   .   .   .   .   675   TYR    CZ    .   12019   1
+      129   .   1   1   22   22   TYR   N     N   15   121.8    2     .   1   .   .   .   .   .   675   TYR    N     .   12019   1
+      130   .   1   1   23   23   LYS   C     C   13   176.3    0.5   .   1   .   .   .   .   .   676   LYS    C     .   12019   1
+      131   .   1   1   23   23   LYS   CA    C   13   54.7     0.5   .   1   .   .   .   .   .   676   LYS    CA    .   12019   1
+      132   .   1   1   23   23   LYS   CB    C   13   39       0.5   .   1   .   .   .   .   .   676   LYS    CB    .   12019   1
+      133   .   1   1   23   23   LYS   CD    C   13   30.9     0.5   .   1   .   .   .   .   .   676   LYS    CD    .   12019   1
+      134   .   1   1   23   23   LYS   CE    C   13   42.9     0.5   .   1   .   .   .   .   .   676   LYS    CE    .   12019   1
+      135   .   1   1   23   23   LYS   CG    C   13   25.5     0.5   .   1   .   .   .   .   .   676   LYS    CG    .   12019   1
+      136   .   1   1   23   23   LYS   N     N   15   121.9    2     .   1   .   .   .   .   .   676   LYS    N     .   12019   1
+      137   .   1   1   23   23   LYS   NZ    N   15   31.7     2     .   1   .   .   .   .   .   676   LYS    NZ    .   12019   1
+      138   .   1   1   24   24   CYS   C     C   13   176.6    0.5   .   1   .   .   .   .   .   677   CYS    C     .   12019   1
+      139   .   1   1   24   24   CYS   CA    C   13   60.4     0.5   .   1   .   .   .   .   .   677   CYS    CA    .   12019   1
+      140   .   1   1   24   24   CYS   CB    C   13   26.8     0.5   .   2   .   .   .   .   .   677   CYS    CB    .   12019   1
+      141   .   1   1   24   24   CYS   N     N   15   129.8    2     .   1   .   .   .   .   .   677   CYS    N     .   12019   1
+      142   .   1   1   25   25   LEU   C     C   13   177.3    0.5   .   1   .   .   .   .   .   678   LEU    C     .   12019   1
+      143   .   1   1   25   25   LEU   CA    C   13   56       0.5   .   1   .   .   .   .   .   678   LEU    CA    .   12019   1
+      144   .   1   1   25   25   LEU   CB    C   13   44.1     0.5   .   1   .   .   .   .   .   678   LEU    CB    .   12019   1
+      145   .   1   1   25   25   LEU   CD1   C   13   22.4     0.5   .   2   .   .   .   .   .   678   LEU    CD1   .   12019   1
+      146   .   1   1   25   25   LEU   CD2   C   13   25.4     0.5   .   2   .   .   .   .   .   678   LEU    CD2   .   12019   1
+      147   .   1   1   25   25   LEU   CG    C   13   26.8     0.5   .   1   .   .   .   .   .   678   LEU    CG    .   12019   1
+      148   .   1   1   25   25   LEU   N     N   15   130.5    2     .   1   .   .   .   .   .   678   LEU    N     .   12019   1
+      149   .   1   1   26   26   GLN   C     C   13   171.6    0.5   .   1   .   .   .   .   .   679   GLN    C     .   12019   1
+      150   .   1   1   26   26   GLN   CA    C   13   52.1     0.5   .   1   .   .   .   .   .   679   GLN    CA    .   12019   1
+      151   .   1   1   26   26   GLN   CB    C   13   32.3     0.5   .   1   .   .   .   .   .   679   GLN    CB    .   12019   1
+      152   .   1   1   26   26   GLN   CD    C   13   178.9    0.5   .   1   .   .   .   .   .   679   GLN    CD    .   12019   1
+      153   .   1   1   26   26   GLN   CG    C   13   32.6     0.5   .   1   .   .   .   .   .   679   GLN    CG    .   12019   1
+      154   .   1   1   26   26   GLN   N     N   15   115.3    2     .   1   .   .   .   .   .   679   GLN    N     .   12019   1
+      155   .   1   1   27   27   PRO   C     C   13   175.3    0.5   .   1   .   .   .   .   .   680   PRO    C     .   12019   1
+      156   .   1   1   27   27   PRO   CA    C   13   62.2     0.5   .   1   .   .   .   .   .   680   PRO    CA    .   12019   1
+      157   .   1   1   27   27   PRO   CB    C   13   32.6     0.5   .   1   .   .   .   .   .   680   PRO    CB    .   12019   1
+      158   .   1   1   27   27   PRO   CD    C   13   50.6     0.5   .   1   .   .   .   .   .   680   PRO    CD    .   12019   1
+      159   .   1   1   27   27   PRO   CG    C   13   27.6     0.5   .   1   .   .   .   .   .   680   PRO    CG    .   12019   1
+      160   .   1   1   27   27   PRO   N     N   15   137.2    2     .   1   .   .   .   .   .   680   PRO    N     .   12019   1
+      161   .   1   1   28   28   HIS   C     C   13   173.5    0.5   .   1   .   .   .   .   .   681   HIS    C     .   12019   1
+      162   .   1   1   28   28   HIS   CA    C   13   56.5     0.5   .   1   .   .   .   .   .   681   HIS    CA    .   12019   1
+      163   .   1   1   28   28   HIS   CB    C   13   29.7     0.5   .   1   .   .   .   .   .   681   HIS    CB    .   12019   1
+      164   .   1   1   28   28   HIS   CD2   C   13   129.7    0.5   .   1   .   .   .   .   .   681   HIS    CD2   .   12019   1
+      165   .   1   1   28   28   HIS   CE1   C   13   133.2    0.5   .   1   .   .   .   .   .   681   HIS    CE1   .   12019   1
+      166   .   1   1   28   28   HIS   CG    C   13   127.9    0.5   .   1   .   .   .   .   .   681   HIS    CG    .   12019   1
+      167   .   1   1   28   28   HIS   N     N   15   116      2     .   1   .   .   .   .   .   681   HIS    N     .   12019   1
+      168   .   1   1   29   29   THR   C     C   13   175.6    0.5   .   1   .   .   .   .   .   682   THR    C     .   12019   1
+      169   .   1   1   29   29   THR   CA    C   13   61.9     0.5   .   1   .   .   .   .   .   682   THR    CA    .   12019   1
+      170   .   1   1   29   29   THR   CB    C   13   70.2     0.5   .   1   .   .   .   .   .   682   THR    CB    .   12019   1
+      171   .   1   1   29   29   THR   CG2   C   13   25.7     0.5   .   1   .   .   .   .   .   682   THR    CG2   .   12019   1
+      172   .   1   1   29   29   THR   N     N   15   113.6    2     .   1   .   .   .   .   .   682   THR    N     .   12019   1
+      173   .   1   1   30   30   SER   C     C   13   173.1    0.5   .   1   .   .   .   .   .   683   SER    C     .   12019   1
+      174   .   1   1   30   30   SER   CA    C   13   58.8     0.5   .   1   .   .   .   .   .   683   SER    CA    .   12019   1
+      175   .   1   1   30   30   SER   CB    C   13   66.5     0.5   .   1   .   .   .   .   .   683   SER    CB    .   12019   1
+      176   .   1   1   30   30   SER   N     N   15   125.3    2     .   1   .   .   .   .   .   683   SER    N     .   12019   1
+      177   .   1   1   31   31   LEU   C     C   13   176.1    0.5   .   1   .   .   .   .   .   684   LEU    C     .   12019   1
+      178   .   1   1   31   31   LEU   CA    C   13   54.1     0.5   .   1   .   .   .   .   .   684   LEU    CA    .   12019   1
+      179   .   1   1   31   31   LEU   CB    C   13   46.4     0.5   .   1   .   .   .   .   .   684   LEU    CB    .   12019   1
+      180   .   1   1   31   31   LEU   CD1   C   13   24.9     0.5   .   2   .   .   .   .   .   684   LEU    CD1   .   12019   1
+      181   .   1   1   31   31   LEU   CD2   C   13   24       0.5   .   2   .   .   .   .   .   684   LEU    CD2   .   12019   1
+      182   .   1   1   31   31   LEU   CG    C   13   26.1     0.5   .   1   .   .   .   .   .   684   LEU    CG    .   12019   1
+      183   .   1   1   31   31   LEU   N     N   15   122.4    2     .   1   .   .   .   .   .   684   LEU    N     .   12019   1
+      184   .   1   1   32   32   ALA   C     C   13   177.5    0.5   .   1   .   .   .   .   .   685   ALA    C     .   12019   1
+      185   .   1   1   32   32   ALA   CA    C   13   54.5     0.5   .   1   .   .   .   .   .   685   ALA    CA    .   12019   1
+      186   .   1   1   32   32   ALA   CB    C   13   18.2     0.5   .   1   .   .   .   .   .   685   ALA    CB    .   12019   1
+      187   .   1   1   32   32   ALA   N     N   15   125.1    2     .   1   .   .   .   .   .   685   ALA    N     .   12019   1
+      188   .   1   1   33   33   GLY   C     C   13   176.1    0.5   .   1   .   .   .   .   .   686   GLY    C     .   12019   1
+      189   .   1   1   33   33   GLY   CA    C   13   46.7     0.5   .   2   .   .   .   .   .   686   GLY    CA    .   12019   1
+      190   .   1   1   33   33   GLY   N     N   15   113.4    2     .   2   .   .   .   .   .   686   GLY    N     .   12019   1
+      191   .   1   1   34   34   TRP   C     C   13   176.3    0.5   .   1   .   .   .   .   .   687   TRP    C     .   12019   1
+      192   .   1   1   34   34   TRP   CA    C   13   54.7     0.5   .   1   .   .   .   .   .   687   TRP    CA    .   12019   1
+      193   .   1   1   34   34   TRP   CB    C   13   28.4     0.5   .   1   .   .   .   .   .   687   TRP    CB    .   12019   1
+      194   .   1   1   34   34   TRP   CD1   C   13   124      0.5   .   1   .   .   .   .   .   687   TRP    CD1   .   12019   1
+      195   .   1   1   34   34   TRP   CD2   C   13   130.7    0.5   .   1   .   .   .   .   .   687   TRP    CD2   .   12019   1
+      196   .   1   1   34   34   TRP   CE2   C   13   138.3    0.5   .   1   .   .   .   .   .   687   TRP    CE2   .   12019   1
+      197   .   1   1   34   34   TRP   CE3   C   13   119      0.5   .   1   .   .   .   .   .   687   TRP    CE3   .   12019   1
+      198   .   1   1   34   34   TRP   CG    C   13   113.7    0.5   .   1   .   .   .   .   .   687   TRP    CG    .   12019   1
+      199   .   1   1   34   34   TRP   CH2   C   13   123      0.5   .   1   .   .   .   .   .   687   TRP    CH2   .   12019   1
+      200   .   1   1   34   34   TRP   CZ2   C   13   113.9    0.5   .   1   .   .   .   .   .   687   TRP    CZ2   .   12019   1
+      201   .   1   1   34   34   TRP   CZ3   C   13   120.6    0.5   .   1   .   .   .   .   .   687   TRP    CZ3   .   12019   1
+      202   .   1   1   34   34   TRP   N     N   15   122.5    2     .   1   .   .   .   .   .   687   TRP    N     .   12019   1
+      203   .   1   1   35   35   GLU   C     C   13   175.8    0.5   .   1   .   .   .   .   .   688   GLU    C     .   12019   1
+      204   .   1   1   35   35   GLU   CA    C   13   55       0.5   .   1   .   .   .   .   .   688   GLU    CA    .   12019   1
+      205   .   1   1   35   35   GLU   CB    C   13   32.7     0.5   .   1   .   .   .   .   .   688   GLU    CB    .   12019   1
+      206   .   1   1   36   36   PRO   C     C   13   177      0.5   .   1   .   .   .   .   .   689   PRO    C     .   12019   1
+      207   .   1   1   36   36   PRO   CA    C   13   65.3     0.5   .   1   .   .   .   .   .   689   PRO    CA    .   12019   1
+      208   .   1   1   36   36   PRO   CB    C   13   30.9     0.5   .   1   .   .   .   .   .   689   PRO    CB    .   12019   1
+      209   .   1   1   36   36   PRO   CD    C   13   46.9     0.5   .   1   .   .   .   .   .   689   PRO    CD    .   12019   1
+      210   .   1   1   36   36   PRO   CG    C   13   27.1     0.5   .   1   .   .   .   .   .   689   PRO    CG    .   12019   1
+      211   .   1   1   36   36   PRO   N     N   15   130.1    2     .   1   .   .   .   .   .   689   PRO    N     .   12019   1
+      212   .   1   1   37   37   SER   C     C   13   176.5    0.5   .   1   .   .   .   .   .   690   SER    C     .   12019   1
+      213   .   1   1   37   37   SER   CA    C   13   59.3     0.5   .   1   .   .   .   .   .   690   SER    CA    .   12019   1
+      214   .   1   1   37   37   SER   CB    C   13   62.5     0.5   .   1   .   .   .   .   .   690   SER    CB    .   12019   1
+      215   .   1   1   37   37   SER   N     N   15   102.2    2     .   1   .   .   .   .   .   690   SER    N     .   12019   1
+      216   .   1   1   38   38   ASN   C     C   13   176      0.5   .   1   .   .   .   .   .   691   ASN    C     .   12019   1
+      217   .   1   1   38   38   ASN   CA    C   13   53.3     0.5   .   1   .   .   .   .   .   691   ASN    CA    .   12019   1
+      218   .   1   1   38   38   ASN   CB    C   13   40.3     0.5   .   1   .   .   .   .   .   691   ASN    CB    .   12019   1
+      219   .   1   1   38   38   ASN   CG    C   13   176      0.5   .   1   .   .   .   .   .   691   ASN    CG    .   12019   1
+      220   .   1   1   38   38   ASN   N     N   15   119.9    2     .   1   .   .   .   .   .   691   ASN    N     .   12019   1
+      221   .   1   1   38   38   ASN   ND2   N   15   114.1    2     .   1   .   .   .   .   .   691   ASN    ND2   .   12019   1
+      222   .   1   1   39   39   VAL   C     C   13   173.8    0.5   .   1   .   .   .   .   .   692   VAL    C     .   12019   1
+      223   .   1   1   39   39   VAL   CA    C   13   57.4     0.5   .   1   .   .   .   .   .   692   VAL    CA    .   12019   1
+      224   .   1   1   39   39   VAL   CB    C   13   33.4     0.5   .   1   .   .   .   .   .   692   VAL    CB    .   12019   1
+      225   .   1   1   39   39   VAL   CG1   C   13   23.3     0.5   .   1   .   .   .   .   .   692   VAL    CG1   .   12019   1
+      226   .   1   1   39   39   VAL   CG2   C   13   21.7     0.5   .   1   .   .   .   .   .   692   VAL    CG2   .   12019   1
+      227   .   1   1   39   39   VAL   N     N   15   109.3    2     .   1   .   .   .   .   .   692   VAL    N     .   12019   1
+      228   .   1   1   40   40   PRO   C     C   13   177      0.5   .   1   .   .   .   .   .   693   PRO    C     .   12019   1
+      229   .   1   1   40   40   PRO   CA    C   13   64       0.5   .   1   .   .   .   .   .   693   PRO    CA    .   12019   1
+      230   .   1   1   40   40   PRO   CB    C   13   31.8     0.5   .   1   .   .   .   .   .   693   PRO    CB    .   12019   1
+      231   .   1   1   40   40   PRO   CD    C   13   50.4     0.5   .   1   .   .   .   .   .   693   PRO    CD    .   12019   1
+      232   .   1   1   40   40   PRO   CG    C   13   27.5     0.5   .   1   .   .   .   .   .   693   PRO    CG    .   12019   1
+      233   .   1   1   40   40   PRO   N     N   15   139.9    2     .   1   .   .   .   .   .   693   PRO    N     .   12019   1
+      234   .   1   1   41   41   ALA   C     C   13   178.2    0.5   .   1   .   .   .   .   .   694   ALA    C     .   12019   1
+      235   .   1   1   41   41   ALA   CA    C   13   53.2     0.5   .   1   .   .   .   .   .   694   ALA    CA    .   12019   1
+      236   .   1   1   41   41   ALA   CB    C   13   19       0.5   .   1   .   .   .   .   .   694   ALA    CB    .   12019   1
+      237   .   1   1   41   41   ALA   N     N   15   115.9    2     .   1   .   .   .   .   .   694   ALA    N     .   12019   1
+      238   .   1   1   42   42   LEU   C     C   13   176.3    0.5   .   1   .   .   .   .   .   695   LEU    C     .   12019   1
+      239   .   1   1   42   42   LEU   CA    C   13   55.3     0.5   .   1   .   .   .   .   .   695   LEU    CA    .   12019   1
+      240   .   1   1   42   42   LEU   CB    C   13   44.1     0.5   .   1   .   .   .   .   .   695   LEU    CB    .   12019   1
+      241   .   1   1   42   42   LEU   CD1   C   13   22.8     0.5   .   2   .   .   .   .   .   695   LEU    CD1   .   12019   1
+      242   .   1   1   42   42   LEU   CD2   C   13   24.3     0.5   .   2   .   .   .   .   .   695   LEU    CD2   .   12019   1
+      243   .   1   1   42   42   LEU   CG    C   13   26.5     0.5   .   1   .   .   .   .   .   695   LEU    CG    .   12019   1
+      244   .   1   1   42   42   LEU   N     N   15   113.4    2     .   1   .   .   .   .   .   695   LEU    N     .   12019   1
+      245   .   1   1   43   43   TRP   C     C   13   174.3    0.5   .   1   .   .   .   .   .   696   TRP    C     .   12019   1
+      246   .   1   1   43   43   TRP   CA    C   13   55.2     0.5   .   1   .   .   .   .   .   696   TRP    CA    .   12019   1
+      247   .   1   1   43   43   TRP   CB    C   13   34.5     0.5   .   1   .   .   .   .   .   696   TRP    CB    .   12019   1
+      248   .   1   1   43   43   TRP   CD1   C   13   127.1    0.5   .   1   .   .   .   .   .   696   TRP    CD1   .   12019   1
+      249   .   1   1   43   43   TRP   CD2   C   13   130.6    0.5   .   1   .   .   .   .   .   696   TRP    CD2   .   12019   1
+      250   .   1   1   43   43   TRP   CE2   C   13   138.5    0.5   .   1   .   .   .   .   .   696   TRP    CE2   .   12019   1
+      251   .   1   1   43   43   TRP   CE3   C   13   119.6    0.5   .   1   .   .   .   .   .   696   TRP    CE3   .   12019   1
+      252   .   1   1   43   43   TRP   CG    C   13   111.1    0.5   .   1   .   .   .   .   .   696   TRP    CG    .   12019   1
+      253   .   1   1   43   43   TRP   CH2   C   13   125.8    0.5   .   1   .   .   .   .   .   696   TRP    CH2   .   12019   1
+      254   .   1   1   43   43   TRP   CZ2   C   13   113.8    0.5   .   1   .   .   .   .   .   696   TRP    CZ2   .   12019   1
+      255   .   1   1   43   43   TRP   CZ3   C   13   119.8    0.5   .   1   .   .   .   .   .   696   TRP    CZ3   .   12019   1
+      256   .   1   1   43   43   TRP   N     N   15   118.7    2     .   1   .   .   .   .   .   696   TRP    N     .   12019   1
+      257   .   1   1   44   44   GLN   C     C   13   176.7    3     .   1   .   .   .   .   .   697   GLN    C     .   12019   1
+      258   .   1   1   44   44   GLN   CA    C   13   51.8     0.5   .   1   .   .   .   .   .   697   GLN    CA    .   12019   1
+      259   .   1   1   44   44   GLN   CB    C   13   32.5     0.5   .   1   .   .   .   .   .   697   GLN    CB    .   12019   1
+      260   .   1   1   44   44   GLN   CD    C   13   181.2    0.5   .   1   .   .   .   .   .   697   GLN    CD    .   12019   1
+      261   .   1   1   44   44   GLN   CG    C   13   33.8     0.5   .   1   .   .   .   .   .   697   GLN    CG    .   12019   1
+      262   .   1   1   44   44   GLN   N     N   15   122.8    7     .   1   .   .   .   .   .   697   GLN    N     .   12019   1
+      263   .   1   1   45   45   LEU   C     C   13   175.9    0.5   .   1   .   .   .   .   .   698   LEU    C     .   12019   1
+      264   .   1   1   45   45   LEU   CA    C   13   57.2     0.5   .   1   .   .   .   .   .   698   LEU    CA    .   12019   1
+      265   .   1   1   45   45   LEU   CB    C   13   43.8     0.5   .   1   .   .   .   .   .   698   LEU    CB    .   12019   1
+      266   .   1   1   45   45   LEU   CD1   C   13   22.6     0.5   .   2   .   .   .   .   .   698   LEU    CD1   .   12019   1
+      267   .   1   1   45   45   LEU   CD2   C   13   24.5     0.5   .   2   .   .   .   .   .   698   LEU    CD2   .   12019   1
+      268   .   1   1   45   45   LEU   CG    C   13   26.7     0.5   .   1   .   .   .   .   .   698   LEU    CG    .   12019   1
+      269   .   1   1   45   45   LEU   N     N   15   135.7    12    .   1   .   .   .   .   .   698   LEU    N     .   12019   1
+      270   .   1   1   46   46   GLN   CA    C   13   54       0.5   .   1   .   .   .   .   .   699   GLN    CA    .   12019   1
+      271   .   1   1   46   46   GLN   CB    C   13   36.8     0.5   .   1   .   .   .   .   .   699   GLN    CB    .   12019   1
+      272   .   1   1   46   46   GLN   CD    C   13   181.1    0.5   .   1   .   .   .   .   .   699   GLN    CD    .   12019   1
+      273   .   1   1   46   46   GLN   CG    C   13   31.1     0.5   .   1   .   .   .   .   .   699   GLN    CG    .   12019   1
+      274   .   1   1   46   46   GLN   N     N   15   130.3    11    .   1   .   .   .   .   .   699   GLN    N     .   12019   1
+   stop_
+save_
+

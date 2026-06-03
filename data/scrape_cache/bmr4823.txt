@@ -1,0 +1,1155 @@
+data_4823
+
+#######################
+#  Entry information  #
+#######################
+
+
+save_entry_information
+  _Entry.Sf_category                   entry_information
+  _Entry.Sf_framecode                  entry_information
+  _Entry.ID                            4823
+  _Entry.Title                         
+;
+Conformations of the Regulatory Domain of Cardiac Troponin C Examined by 
+Residual Dipolar Couplings; Holo form
+;
+  _Entry.Type                          macromolecule
+  _Entry.Version_type                  original
+  _Entry.Submission_date               2000-09-07
+  _Entry.Accession_date                2000-09-07
+  _Entry.Last_release_date             2001-03-12
+  _Entry.Original_release_date         2001-03-12
+  _Entry.Origination                   author
+  _Entry.NMR_STAR_version              3.1.1.61
+  _Entry.Original_NMR_STAR_version     2.1
+  _Entry.Experimental_method           NMR
+  _Entry.Experimental_method_subtype   SOLID-STATE
+  _Entry.Details                       .
+  _Entry.BMRB_internal_directory_name  .
+
+  loop_
+    _Entry_author.Ordinal
+    _Entry_author.Given_name
+    _Entry_author.Family_name
+    _Entry_author.First_initial
+    _Entry_author.Middle_initials
+    _Entry_author.Family_title
+    _Entry_author.Entry_ID
+
+    1    Kimmo       Paakkonen      .   .   .   4823    
+    2    Tia         Sorsa          .   .   .   4823    
+    3    Torbjorn    Drakenberg     .   .   .   4823    
+    4    Piero       Pollesello     .   .   .   4823    
+    5    Carola      Tilgmann       .   .   .   4823    
+    6    Perttu      Permi          .   .   .   4823    
+    7    Sami        Heikkinen      .   .   .   4823    
+    8    Ilkka       Kilpelainen    .   .   .   4823    
+    9    Arto        Annila         .   .   .   4823    
+  stop_
+
+  loop_
+    _Data_set.Type
+    _Data_set.Count
+    _Data_set.Entry_ID
+
+    RDCs    1    4823    
+  stop_
+
+  loop_
+    _Datum.Type
+    _Datum.Count
+    _Datum.Entry_ID
+
+    'residual dipolar couplings'  52    4823    
+  stop_
+
+  loop_
+    _Release.Release_number
+    _Release.Format_type
+    _Release.Format_version
+    _Release.Date
+    _Release.Submission_date
+    _Release.Type
+    _Release.Author
+    _Release.Detail
+    _Release.Entry_ID
+
+    1    .   .   2001-03-12    2000-09-08    original    author    .   4823    
+  stop_
+
+  loop_
+    _Related_entries.Database_name
+    _Related_entries.Database_accession_code
+    _Related_entries.Relationship
+    _Related_entries.Entry_ID
+
+    BMRB    4822    'apo form'                         4823    
+    BMRB    4824    'complex with Troponin I peptide'  4823    
+  stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+
+save_entry_citation
+  _Citation.Sf_category                 citations
+  _Citation.Sf_framecode                entry_citation
+  _Citation.Entry_ID                    4823
+  _Citation.ID                          1
+  _Citation.Class                       'entry citation'
+  _Citation.CAS_abstract_code           .
+  _Citation.MEDLINE_UI_code             20507572
+  _Citation.DOI                         .
+  _Citation.PubMed_ID                   .
+  _Citation.Full_citation               .
+  _Citation.Title                       
+;
+Conformations of the Regulatory Domain of Cardiac Troponin C Examined by 
+Residual Dipolar Couplings
+;
+
+  _Citation.Status                      published
+  _Citation.Type                        journal
+  _Citation.Journal_abbrev              'Eur. J. Biochem.'
+  _Citation.Journal_name_full           'European Journal of Biochemistry'
+  _Citation.Journal_volume              267
+  _Citation.Journal_issue               .
+  _Citation.Journal_ASTM                .
+  _Citation.Journal_ISSN                .
+  _Citation.Journal_CSD                 .
+  _Citation.Book_title                  .
+  _Citation.Book_chapter_title          .
+  _Citation.Book_volume                 .
+  _Citation.Book_series                 .
+  _Citation.Book_publisher              .
+  _Citation.Book_publisher_city         .
+  _Citation.Book_ISBN                   .
+  _Citation.Conference_title            .
+  _Citation.Conference_site             .
+  _Citation.Conference_state_province   .
+  _Citation.Conference_country          .
+  _Citation.Conference_start_date       .
+  _Citation.Conference_end_date         .
+  _Citation.Conference_abstract_number  .
+  _Citation.Thesis_institution          .
+  _Citation.Thesis_institution_city     .
+  _Citation.Thesis_institution_country  .
+  _Citation.WWW_URL                     .
+  _Citation.Page_first                  6665
+  _Citation.Page_last                   6672
+  _Citation.Year                        2000
+  _Citation.Details                     .
+
+  loop_
+    _Citation_author.Ordinal
+    _Citation_author.Given_name
+    _Citation_author.Family_name
+    _Citation_author.First_initial
+    _Citation_author.Middle_initials
+    _Citation_author.Family_title
+    _Citation_author.Entry_ID
+    _Citation_author.Citation_ID
+
+    1    Kimmo       Paakkonen      .   .   .   4823    1    
+    2    Tia         Sorsa          .   .   .   4823    1    
+    3    Torbjorn    Drakenberg     .   .   .   4823    1    
+    4    Piero       Pollesello     .   .   .   4823    1    
+    5    Carola      Tilgmann       .   .   .   4823    1    
+    6    Perttu      Permi          .   .   .   4823    1    
+    7    Sami        Heikkinen      .   .   .   4823    1    
+    8    Ilkka       Kilpelainen    .   .   .   4823    1    
+    9    Arto        Annila         .   .   .   4823    1    
+  stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+
+save_NTnC_system
+  _Assembly.Sf_category                      assembly
+  _Assembly.Sf_framecode                     NTnC_system
+  _Assembly.Entry_ID                         4823
+  _Assembly.ID                               1
+  _Assembly.Name                             'N terminal domain of Cardiac Troponin C'
+  _Assembly.BMRB_code                        .
+  _Assembly.Number_of_components             .
+  _Assembly.Organic_ligands                  .
+  _Assembly.Metal_ions                       .
+  _Assembly.Non_standard_bonds               .
+  _Assembly.Ambiguous_conformational_states  .
+  _Assembly.Ambiguous_chem_comp_sites        .
+  _Assembly.Molecules_in_chemical_exchange   .
+  _Assembly.Paramagnetic                     no
+  _Assembly.Thiol_state                      'all free'
+  _Assembly.Molecular_mass                   .
+  _Assembly.Enzyme_commission_number         .
+  _Assembly.Details                          .
+  _Assembly.DB_query_date                    .
+  _Assembly.DB_query_revised_last_date       .
+
+  loop_
+    _Assembly_type.Type
+    _Assembly_type.Entry_ID
+    _Assembly_type.Assembly_ID
+
+    monomer    4823    1    
+  stop_
+
+  loop_
+    _Entity_assembly.ID
+    _Entity_assembly.Entity_assembly_name
+    _Entity_assembly.Entity_ID
+    _Entity_assembly.Entity_label
+    _Entity_assembly.Asym_ID
+    _Entity_assembly.PDB_chain_ID
+    _Entity_assembly.Experimental_data_reported
+    _Entity_assembly.Physical_state
+    _Entity_assembly.Conformational_isomer
+    _Entity_assembly.Chemical_exchange_state
+    _Entity_assembly.Magnetic_equivalence_group_code
+    _Entity_assembly.Role
+    _Entity_assembly.Details
+    _Entity_assembly.Entry_ID
+    _Entity_assembly.Assembly_ID
+
+    1    TnC      1    $TnC   .   .   .   native    .   .   .   .   .   4823    1    
+    2    'CA 2+'  2    $CA    .   .   .   native    .   .   .   .   .   4823    1    
+  stop_
+
+  loop_
+    _Assembly_common_name.Name
+    _Assembly_common_name.Type
+    _Assembly_common_name.Entry_ID
+    _Assembly_common_name.Assembly_ID
+
+    'N terminal domain of Cardiac Troponin C'  system          4823    1    
+    NTnC                                       abbreviation    4823    1    
+  stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+
+save_TnC
+  _Entity.Sf_category                      entity
+  _Entity.Sf_framecode                     TnC
+  _Entity.Entry_ID                         4823
+  _Entity.ID                               1
+  _Entity.BMRB_code                        .
+  _Entity.Name                             'Troponin C'
+  _Entity.Type                             polymer
+  _Entity.Polymer_common_type              .
+  _Entity.Polymer_type                     polypeptide(L)
+  _Entity.Polymer_type_details             .
+  _Entity.Polymer_strand_ID                .
+  _Entity.Polymer_seq_one_letter_code_can  .
+  _Entity.Polymer_seq_one_letter_code      
+;
+GSMDDIYKAAVEQLTEEQKN
+EFKAAFDIFVLGAEDGCIST
+KELGKVMRMLGQNPTPEELQ
+EMIDEVDEDGSGTVDFDEFL
+VMMVRCMKDDSKG
+;
+
+  _Entity.Target_identifier                .
+  _Entity.Polymer_author_defined_seq       .
+  _Entity.Polymer_author_seq_details       .
+  _Entity.Ambiguous_conformational_states  .
+  _Entity.Ambiguous_chem_comp_sites        .
+  _Entity.Nstd_monomer                     .
+  _Entity.Nstd_chirality                   .
+  _Entity.Nstd_linkage                     .
+  _Entity.Nonpolymer_comp_ID               .
+  _Entity.Nonpolymer_comp_label            .
+  _Entity.Number_of_monomers               93
+  _Entity.Number_of_nonpolymer_components  .
+  _Entity.Paramagnetic                     .
+  _Entity.Thiol_state                      'all free'
+  _Entity.Src_method                       .
+  _Entity.Parent_entity_ID                 1
+  _Entity.Fragment                         .
+  _Entity.Mutation                         .
+  _Entity.EC_number                        .
+  _Entity.Calc_isoelectric_point           .
+  _Entity.Formula_weight                   .
+  _Entity.Formula_weight_exptl             .
+  _Entity.Formula_weight_exptl_meth        .
+  _Entity.Details                          .
+  _Entity.DB_query_date                    2008-08-19
+  _Entity.DB_query_revised_last_date       2008-08-19
+
+  loop_
+    _Entity_common_name.Name
+    _Entity_common_name.Type
+    _Entity_common_name.Entry_ID
+    _Entity_common_name.Entity_ID
+
+    TnC           abbreviation    4823    1    
+    'Troponin C'  common          4823    1    
+  stop_
+
+  loop_
+    _Entity_comp_index.ID
+    _Entity_comp_index.Auth_seq_ID
+    _Entity_comp_index.Comp_ID
+    _Entity_comp_index.Comp_label
+    _Entity_comp_index.Entry_ID
+    _Entity_comp_index.Entity_ID
+
+    1     .     GLY    .   4823    1    
+    2     .     SER    .   4823    1    
+    3     1     MET    .   4823    1    
+    4     2     ASP    .   4823    1    
+    5     3     ASP    .   4823    1    
+    6     4     ILE    .   4823    1    
+    7     5     TYR    .   4823    1    
+    8     6     LYS    .   4823    1    
+    9     7     ALA    .   4823    1    
+    10    8     ALA    .   4823    1    
+    11    9     VAL    .   4823    1    
+    12    10    GLU    .   4823    1    
+    13    11    GLN    .   4823    1    
+    14    12    LEU    .   4823    1    
+    15    13    THR    .   4823    1    
+    16    14    GLU    .   4823    1    
+    17    15    GLU    .   4823    1    
+    18    16    GLN    .   4823    1    
+    19    17    LYS    .   4823    1    
+    20    18    ASN    .   4823    1    
+    21    19    GLU    .   4823    1    
+    22    20    PHE    .   4823    1    
+    23    21    LYS    .   4823    1    
+    24    22    ALA    .   4823    1    
+    25    23    ALA    .   4823    1    
+    26    24    PHE    .   4823    1    
+    27    25    ASP    .   4823    1    
+    28    26    ILE    .   4823    1    
+    29    27    PHE    .   4823    1    
+    30    28    VAL    .   4823    1    
+    31    29    LEU    .   4823    1    
+    32    30    GLY    .   4823    1    
+    33    31    ALA    .   4823    1    
+    34    32    GLU    .   4823    1    
+    35    33    ASP    .   4823    1    
+    36    34    GLY    .   4823    1    
+    37    35    CYS    .   4823    1    
+    38    36    ILE    .   4823    1    
+    39    37    SER    .   4823    1    
+    40    38    THR    .   4823    1    
+    41    39    LYS    .   4823    1    
+    42    40    GLU    .   4823    1    
+    43    41    LEU    .   4823    1    
+    44    42    GLY    .   4823    1    
+    45    43    LYS    .   4823    1    
+    46    44    VAL    .   4823    1    
+    47    45    MET    .   4823    1    
+    48    46    ARG    .   4823    1    
+    49    47    MET    .   4823    1    
+    50    48    LEU    .   4823    1    
+    51    49    GLY    .   4823    1    
+    52    50    GLN    .   4823    1    
+    53    51    ASN    .   4823    1    
+    54    52    PRO    .   4823    1    
+    55    53    THR    .   4823    1    
+    56    54    PRO    .   4823    1    
+    57    55    GLU    .   4823    1    
+    58    56    GLU    .   4823    1    
+    59    57    LEU    .   4823    1    
+    60    58    GLN    .   4823    1    
+    61    59    GLU    .   4823    1    
+    62    60    MET    .   4823    1    
+    63    61    ILE    .   4823    1    
+    64    62    ASP    .   4823    1    
+    65    63    GLU    .   4823    1    
+    66    64    VAL    .   4823    1    
+    67    65    ASP    .   4823    1    
+    68    66    GLU    .   4823    1    
+    69    67    ASP    .   4823    1    
+    70    68    GLY    .   4823    1    
+    71    69    SER    .   4823    1    
+    72    70    GLY    .   4823    1    
+    73    71    THR    .   4823    1    
+    74    72    VAL    .   4823    1    
+    75    73    ASP    .   4823    1    
+    76    74    PHE    .   4823    1    
+    77    75    ASP    .   4823    1    
+    78    76    GLU    .   4823    1    
+    79    77    PHE    .   4823    1    
+    80    78    LEU    .   4823    1    
+    81    79    VAL    .   4823    1    
+    82    80    MET    .   4823    1    
+    83    81    MET    .   4823    1    
+    84    82    VAL    .   4823    1    
+    85    83    ARG    .   4823    1    
+    86    84    CYS    .   4823    1    
+    87    85    MET    .   4823    1    
+    88    86    LYS    .   4823    1    
+    89    87    ASP    .   4823    1    
+    90    88    ASP    .   4823    1    
+    91    89    SER    .   4823    1    
+    92    90    LYS    .   4823    1    
+    93    91    GLY    .   4823    1    
+  stop_
+
+  loop_
+    _Entity_poly_seq.Hetero
+    _Entity_poly_seq.Mon_ID
+    _Entity_poly_seq.Num
+    _Entity_poly_seq.Comp_index_ID
+    _Entity_poly_seq.Entry_ID
+    _Entity_poly_seq.Entity_ID
+
+    .   GLY    1     1     4823    1    
+    .   SER    2     2     4823    1    
+    .   MET    3     3     4823    1    
+    .   ASP    4     4     4823    1    
+    .   ASP    5     5     4823    1    
+    .   ILE    6     6     4823    1    
+    .   TYR    7     7     4823    1    
+    .   LYS    8     8     4823    1    
+    .   ALA    9     9     4823    1    
+    .   ALA    10    10    4823    1    
+    .   VAL    11    11    4823    1    
+    .   GLU    12    12    4823    1    
+    .   GLN    13    13    4823    1    
+    .   LEU    14    14    4823    1    
+    .   THR    15    15    4823    1    
+    .   GLU    16    16    4823    1    
+    .   GLU    17    17    4823    1    
+    .   GLN    18    18    4823    1    
+    .   LYS    19    19    4823    1    
+    .   ASN    20    20    4823    1    
+    .   GLU    21    21    4823    1    
+    .   PHE    22    22    4823    1    
+    .   LYS    23    23    4823    1    
+    .   ALA    24    24    4823    1    
+    .   ALA    25    25    4823    1    
+    .   PHE    26    26    4823    1    
+    .   ASP    27    27    4823    1    
+    .   ILE    28    28    4823    1    
+    .   PHE    29    29    4823    1    
+    .   VAL    30    30    4823    1    
+    .   LEU    31    31    4823    1    
+    .   GLY    32    32    4823    1    
+    .   ALA    33    33    4823    1    
+    .   GLU    34    34    4823    1    
+    .   ASP    35    35    4823    1    
+    .   GLY    36    36    4823    1    
+    .   CYS    37    37    4823    1    
+    .   ILE    38    38    4823    1    
+    .   SER    39    39    4823    1    
+    .   THR    40    40    4823    1    
+    .   LYS    41    41    4823    1    
+    .   GLU    42    42    4823    1    
+    .   LEU    43    43    4823    1    
+    .   GLY    44    44    4823    1    
+    .   LYS    45    45    4823    1    
+    .   VAL    46    46    4823    1    
+    .   MET    47    47    4823    1    
+    .   ARG    48    48    4823    1    
+    .   MET    49    49    4823    1    
+    .   LEU    50    50    4823    1    
+    .   GLY    51    51    4823    1    
+    .   GLN    52    52    4823    1    
+    .   ASN    53    53    4823    1    
+    .   PRO    54    54    4823    1    
+    .   THR    55    55    4823    1    
+    .   PRO    56    56    4823    1    
+    .   GLU    57    57    4823    1    
+    .   GLU    58    58    4823    1    
+    .   LEU    59    59    4823    1    
+    .   GLN    60    60    4823    1    
+    .   GLU    61    61    4823    1    
+    .   MET    62    62    4823    1    
+    .   ILE    63    63    4823    1    
+    .   ASP    64    64    4823    1    
+    .   GLU    65    65    4823    1    
+    .   VAL    66    66    4823    1    
+    .   ASP    67    67    4823    1    
+    .   GLU    68    68    4823    1    
+    .   ASP    69    69    4823    1    
+    .   GLY    70    70    4823    1    
+    .   SER    71    71    4823    1    
+    .   GLY    72    72    4823    1    
+    .   THR    73    73    4823    1    
+    .   VAL    74    74    4823    1    
+    .   ASP    75    75    4823    1    
+    .   PHE    76    76    4823    1    
+    .   ASP    77    77    4823    1    
+    .   GLU    78    78    4823    1    
+    .   PHE    79    79    4823    1    
+    .   LEU    80    80    4823    1    
+    .   VAL    81    81    4823    1    
+    .   MET    82    82    4823    1    
+    .   MET    83    83    4823    1    
+    .   VAL    84    84    4823    1    
+    .   ARG    85    85    4823    1    
+    .   CYS    86    86    4823    1    
+    .   MET    87    87    4823    1    
+    .   LYS    88    88    4823    1    
+    .   ASP    89    89    4823    1    
+    .   ASP    90    90    4823    1    
+    .   SER    91    91    4823    1    
+    .   LYS    92    92    4823    1    
+    .   GLY    93    93    4823    1    
+  stop_
+
+save_
+
+save_CA
+  _Entity.Sf_category                      entity
+  _Entity.Sf_framecode                     CA
+  _Entity.Entry_ID                         4823
+  _Entity.ID                               2
+  _Entity.BMRB_code                        .
+  _Entity.Name                             CA
+  _Entity.Type                             non-polymer
+  _Entity.Polymer_common_type              .
+  _Entity.Polymer_type                     .
+  _Entity.Polymer_type_details             .
+  _Entity.Polymer_strand_ID                .
+  _Entity.Polymer_seq_one_letter_code_can  .
+  _Entity.Polymer_seq_one_letter_code      .
+  _Entity.Target_identifier                .
+  _Entity.Polymer_author_defined_seq       .
+  _Entity.Polymer_author_seq_details       .
+  _Entity.Ambiguous_conformational_states  no
+  _Entity.Ambiguous_chem_comp_sites        no
+  _Entity.Nstd_monomer                     .
+  _Entity.Nstd_chirality                   no
+  _Entity.Nstd_linkage                     no
+  _Entity.Nonpolymer_comp_ID               CA
+  _Entity.Nonpolymer_comp_label            $chem_comp_CA
+  _Entity.Number_of_monomers               .
+  _Entity.Number_of_nonpolymer_components  .
+  _Entity.Paramagnetic                     .
+  _Entity.Thiol_state                      .
+  _Entity.Src_method                       .
+  _Entity.Parent_entity_ID                 2
+  _Entity.Fragment                         .
+  _Entity.Mutation                         .
+  _Entity.EC_number                        .
+  _Entity.Calc_isoelectric_point           .
+  _Entity.Formula_weight                   .
+  _Entity.Formula_weight_exptl             .
+  _Entity.Formula_weight_exptl_meth        .
+  _Entity.Details                          .
+  _Entity.DB_query_date                    .
+  _Entity.DB_query_revised_last_date       .
+
+  loop_
+    _Entity_comp_index.ID
+    _Entity_comp_index.Auth_seq_ID
+    _Entity_comp_index.Comp_ID
+    _Entity_comp_index.Comp_label
+    _Entity_comp_index.Entry_ID
+    _Entity_comp_index.Entity_ID
+
+    1    .   CA    .   4823    2    
+  stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+
+save_natural_source
+  _Entity_natural_src_list.Sf_category   natural_source
+  _Entity_natural_src_list.Sf_framecode  natural_source
+  _Entity_natural_src_list.Entry_ID      4823
+  _Entity_natural_src_list.ID            1
+
+  loop_
+    _Entity_natural_src.ID
+    _Entity_natural_src.Entity_ID
+    _Entity_natural_src.Entity_label
+    _Entity_natural_src.Entity_chimera_segment_ID
+    _Entity_natural_src.NCBI_taxonomy_ID
+    _Entity_natural_src.Type
+    _Entity_natural_src.Common
+    _Entity_natural_src.Organism_name_scientific
+    _Entity_natural_src.Organism_name_common
+    _Entity_natural_src.Organism_acronym
+    _Entity_natural_src.ICTVdb_decimal_code
+    _Entity_natural_src.Superkingdom
+    _Entity_natural_src.Kingdom
+    _Entity_natural_src.Genus
+    _Entity_natural_src.Species
+    _Entity_natural_src.Strain
+    _Entity_natural_src.Variant
+    _Entity_natural_src.Subvariant
+    _Entity_natural_src.Organ
+    _Entity_natural_src.Tissue
+    _Entity_natural_src.Tissue_fraction
+    _Entity_natural_src.Cell_line
+    _Entity_natural_src.Cell_type
+    _Entity_natural_src.ATCC_number
+    _Entity_natural_src.Organelle
+    _Entity_natural_src.Cellular_location
+    _Entity_natural_src.Fragment
+    _Entity_natural_src.Fraction
+    _Entity_natural_src.Secretion
+    _Entity_natural_src.Plasmid
+    _Entity_natural_src.Plasmid_details
+    _Entity_natural_src.Gene_mnemonic
+    _Entity_natural_src.Dev_stage
+    _Entity_natural_src.Details
+    _Entity_natural_src.Citation_ID
+    _Entity_natural_src.Citation_label
+    _Entity_natural_src.Entry_ID
+    _Entity_natural_src.Entity_natural_src_list_ID
+
+    1    1    $TnC   .   9606    organism    .   'Homo sapiens'  human    .   .   Eukaryota    Metazoa    Homo    sapiens    .   .   .   heart    muscle    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+  stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+
+save_experimental_source
+  _Entity_experimental_src_list.Sf_category   experimental_source
+  _Entity_experimental_src_list.Sf_framecode  experimental_source
+  _Entity_experimental_src_list.Entry_ID      4823
+  _Entity_experimental_src_list.ID            1
+
+  loop_
+    _Entity_experimental_src.ID
+    _Entity_experimental_src.Entity_ID
+    _Entity_experimental_src.Entity_label
+    _Entity_experimental_src.Entity_chimera_segment_ID
+    _Entity_experimental_src.Production_method
+    _Entity_experimental_src.Host_org_scientific_name
+    _Entity_experimental_src.Host_org_name_common
+    _Entity_experimental_src.Host_org_details
+    _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+    _Entity_experimental_src.Host_org_genus
+    _Entity_experimental_src.Host_org_species
+    _Entity_experimental_src.Host_org_strain
+    _Entity_experimental_src.Host_org_variant
+    _Entity_experimental_src.Host_org_subvariant
+    _Entity_experimental_src.Host_org_organ
+    _Entity_experimental_src.Host_org_tissue
+    _Entity_experimental_src.Host_org_tissue_fraction
+    _Entity_experimental_src.Host_org_cell_line
+    _Entity_experimental_src.Host_org_cell_type
+    _Entity_experimental_src.Host_org_cellular_location
+    _Entity_experimental_src.Host_org_organelle
+    _Entity_experimental_src.Host_org_gene
+    _Entity_experimental_src.Host_org_culture_collection
+    _Entity_experimental_src.Host_org_ATCC_number
+    _Entity_experimental_src.Vector_type
+    _Entity_experimental_src.PDBview_host_org_vector_name
+    _Entity_experimental_src.PDBview_plasmid_name
+    _Entity_experimental_src.Vector_name
+    _Entity_experimental_src.Vector_details
+    _Entity_experimental_src.Vendor_name
+    _Entity_experimental_src.Host_org_dev_stage
+    _Entity_experimental_src.Details
+    _Entity_experimental_src.Citation_ID
+    _Entity_experimental_src.Citation_label
+    _Entity_experimental_src.Entry_ID
+    _Entity_experimental_src.Entity_experimental_src_list_ID
+
+    1    1    $TnC   .   'recombinant technology'  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+  stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+
+save_chem_comp_CA
+  _Chem_comp.Sf_category                      chem_comp
+  _Chem_comp.Sf_framecode                     chem_comp_CA
+  _Chem_comp.Entry_ID                         4823
+  _Chem_comp.ID                               CA
+  _Chem_comp.Provenance                       .
+  _Chem_comp.Name                             'CALCIUM ION'
+  _Chem_comp.Type                             non-polymer
+  _Chem_comp.BMRB_code                        .
+  _Chem_comp.PDB_code                         CA
+  _Chem_comp.Ambiguous_flag                   no
+  _Chem_comp.Initial_date                     1999-07-08
+  _Chem_comp.Modified_date                    2011-06-04
+  _Chem_comp.Release_status                   REL
+  _Chem_comp.Replaced_by                      .
+  _Chem_comp.Replaces                         .
+  _Chem_comp.One_letter_code                  .
+  _Chem_comp.Three_letter_code                CA
+  _Chem_comp.Number_atoms_all                 .
+  _Chem_comp.Number_atoms_nh                  .
+  _Chem_comp.PubChem_code                     .
+  _Chem_comp.Subcomponent_list                .
+  _Chem_comp.InChI_code                       .
+  _Chem_comp.Mon_nstd_flag                    .
+  _Chem_comp.Mon_nstd_class                   .
+  _Chem_comp.Mon_nstd_details                 .
+  _Chem_comp.Mon_nstd_parent                  .
+  _Chem_comp.Mon_nstd_parent_comp_ID          .
+  _Chem_comp.Std_deriv_one_letter_code        .
+  _Chem_comp.Std_deriv_three_letter_code      .
+  _Chem_comp.Std_deriv_BMRB_code              .
+  _Chem_comp.Std_deriv_PDB_code               .
+  _Chem_comp.Std_deriv_chem_comp_name         .
+  _Chem_comp.Synonyms                         .
+  _Chem_comp.Formal_charge                    2
+  _Chem_comp.Paramagnetic                     .
+  _Chem_comp.Aromatic                         no
+  _Chem_comp.Formula                          Ca
+  _Chem_comp.Formula_weight                   40.078
+  _Chem_comp.Formula_mono_iso_wt_nat          .
+  _Chem_comp.Formula_mono_iso_wt_13C          .
+  _Chem_comp.Formula_mono_iso_wt_15N          .
+  _Chem_comp.Formula_mono_iso_wt_13C_15N      .
+  _Chem_comp.Image_file_name                  .
+  _Chem_comp.Image_file_format                .
+  _Chem_comp.Topo_file_name                   .
+  _Chem_comp.Topo_file_format                 .
+  _Chem_comp.Struct_file_name                 .
+  _Chem_comp.Struct_file_format               .
+  _Chem_comp.Stereochem_param_file_name       .
+  _Chem_comp.Stereochem_param_file_format     .
+  _Chem_comp.Model_details                    .
+  _Chem_comp.Model_erf                        .
+  _Chem_comp.Model_source                     .
+  _Chem_comp.Model_coordinates_details        .
+  _Chem_comp.Model_coordinates_missing_flag   no
+  _Chem_comp.Ideal_coordinates_details        .
+  _Chem_comp.Ideal_coordinates_missing_flag   no
+  _Chem_comp.Model_coordinates_db_code        .
+  _Chem_comp.Processing_site                  RCSB
+  _Chem_comp.Vendor                           .
+  _Chem_comp.Vendor_product_code              .
+  _Chem_comp.Details                          
+;
+Information obtained from PDB's Chemical Component Dictionary
+at http://wwpdb-remediation.rutgers.edu/downloads.html
+Downloaded on Wed Jun 15 15:31:50 2011
+;
+
+  _Chem_comp.DB_query_date                    .
+  _Chem_comp.DB_last_query_revised_last_date  .
+
+  loop_
+    _Chem_comp_descriptor.Descriptor
+    _Chem_comp_descriptor.Type
+    _Chem_comp_descriptor.Program
+    _Chem_comp_descriptor.Program_version
+    _Chem_comp_descriptor.Entry_ID
+    _Chem_comp_descriptor.Comp_ID
+
+    BHPQYMZQTOCNFJ-UHFFFAOYSA-N    InChIKey            InChI                 1.03     4823    CA    
+    [Ca++]                         SMILES              CACTVS                3.341    4823    CA    
+    [Ca++]                         SMILES_CANONICAL    CACTVS                3.341    4823    CA    
+    [Ca+2]                         SMILES              ACDLabs               10.04    4823    CA    
+    [Ca+2]                         SMILES              'OpenEye OEToolkits'  1.5.0    4823    CA    
+    [Ca+2]                         SMILES_CANONICAL    'OpenEye OEToolkits'  1.5.0    4823    CA    
+    InChI=1S/Ca/q+2                InChI               InChI                 1.03     4823    CA    
+  stop_
+
+  loop_
+    _Chem_comp_identifier.Identifier
+    _Chem_comp_identifier.Type
+    _Chem_comp_identifier.Program
+    _Chem_comp_identifier.Program_version
+    _Chem_comp_identifier.Entry_ID
+    _Chem_comp_identifier.Comp_ID
+
+    calcium               'SYSTEMATIC NAME'  ACDLabs               10.04    4823    CA    
+    'calcium(+2) cation'  'SYSTEMATIC NAME'  'OpenEye OEToolkits'  1.5.0    4823    CA    
+  stop_
+
+  loop_
+    _Chem_comp_atom.Atom_ID
+    _Chem_comp_atom.BMRB_code
+    _Chem_comp_atom.PDB_atom_ID
+    _Chem_comp_atom.Alt_atom_ID
+    _Chem_comp_atom.Auth_atom_ID
+    _Chem_comp_atom.Type_symbol
+    _Chem_comp_atom.Isotope_number
+    _Chem_comp_atom.Chirality
+    _Chem_comp_atom.Stereo_config
+    _Chem_comp_atom.Charge
+    _Chem_comp_atom.Partial_charge
+    _Chem_comp_atom.Oxidation_number
+    _Chem_comp_atom.Unpaired_electron_number
+    _Chem_comp_atom.Align
+    _Chem_comp_atom.Aromatic_flag
+    _Chem_comp_atom.Leaving_atom_flag
+    _Chem_comp_atom.Substruct_code
+    _Chem_comp_atom.Ionizable
+    _Chem_comp_atom.Drawing_2D_coord_x
+    _Chem_comp_atom.Drawing_2D_coord_y
+    _Chem_comp_atom.Model_Cartn_x
+    _Chem_comp_atom.Model_Cartn_x_esd
+    _Chem_comp_atom.Model_Cartn_y
+    _Chem_comp_atom.Model_Cartn_y_esd
+    _Chem_comp_atom.Model_Cartn_z
+    _Chem_comp_atom.Model_Cartn_z_esd
+    _Chem_comp_atom.Model_Cartn_x_ideal
+    _Chem_comp_atom.Model_Cartn_y_ideal
+    _Chem_comp_atom.Model_Cartn_z_ideal
+    _Chem_comp_atom.PDBX_ordinal
+    _Chem_comp_atom.Details
+    _Chem_comp_atom.Entry_ID
+    _Chem_comp_atom.Comp_ID
+
+    CA    .   CA    .   .   CA    .   .   N    2    .   .   .   .   no    no    .   .   .   .   0.000    .   0.000    .   0.000    .   0.000    0.000    0.000    1    .   4823    CA    
+  stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+
+save_sample_1
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_1
+  _Sample.Entry_ID                        4823
+  _Sample.ID                              1
+  _Sample.Type                            'liquid crystal'
+  _Sample.Sub_type                        .
+  _Sample.Details                         'phage pf1'
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  .
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    'Troponin C'  .   .   .   1    $TnC   .   .   .   .   .   mM    .   .   .   .   4823    1    
+  stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+
+save_cond1
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  cond1
+  _Sample_condition_list.Entry_ID      4823
+  _Sample_condition_list.ID            1
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    pH             6.0    0.1    n/a    4823    1    
+    temperature    303    1      K      4823    1    
+  stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+
+save_spectrometer_list
+  _NMR_spectrometer.Sf_category     NMR_spectrometer
+  _NMR_spectrometer.Sf_framecode    spectrometer_list
+  _NMR_spectrometer.Entry_ID        4823
+  _NMR_spectrometer.ID              1
+  _NMR_spectrometer.Details         'spectrometer information not available'
+  _NMR_spectrometer.Manufacturer    unknown
+  _NMR_spectrometer.Model           unknown
+  _NMR_spectrometer.Serial_number   .
+  _NMR_spectrometer.Field_strength  0
+
+save_
+
+save_NMR_spectrometer_list
+  _NMR_spectrometer_list.Sf_category   NMR_spectrometer_list
+  _NMR_spectrometer_list.Sf_framecode  NMR_spectrometer_list
+  _NMR_spectrometer_list.Entry_ID      4823
+  _NMR_spectrometer_list.ID            1
+
+  loop_
+    _NMR_spectrometer_view.ID
+    _NMR_spectrometer_view.Name
+    _NMR_spectrometer_view.Manufacturer
+    _NMR_spectrometer_view.Model
+    _NMR_spectrometer_view.Serial_number
+    _NMR_spectrometer_view.Field_strength
+    _NMR_spectrometer_view.Details
+    _NMR_spectrometer_view.Citation_ID
+    _NMR_spectrometer_view.Citation_label
+    _NMR_spectrometer_view.Entry_ID
+    _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+    1    spectrometer_1    unknown    unknown    .   0    'spectrometer information not available'  .   .   4823    1    
+  stop_
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+
+save_experiment_list
+  _Experiment_list.Sf_category   experiment_list
+  _Experiment_list.Sf_framecode  experiment_list
+  _Experiment_list.Entry_ID      4823
+  _Experiment_list.ID            1
+  _Experiment_list.Details       .
+
+  loop_
+    _Experiment.ID
+    _Experiment.Name
+    _Experiment.Raw_data_flag
+    _Experiment.NMR_spec_expt_ID
+    _Experiment.NMR_spec_expt_label
+    _Experiment.MS_expt_ID
+    _Experiment.MS_expt_label
+    _Experiment.SAXS_expt_ID
+    _Experiment.SAXS_expt_label
+    _Experiment.FRET_expt_ID
+    _Experiment.FRET_expt_label
+    _Experiment.EMR_expt_ID
+    _Experiment.EMR_expt_label
+    _Experiment.Sample_ID
+    _Experiment.Sample_label
+    _Experiment.Sample_state
+    _Experiment.Sample_volume
+    _Experiment.Sample_volume_units
+    _Experiment.Sample_condition_list_ID
+    _Experiment.Sample_condition_list_label
+    _Experiment.Sample_spinning_rate
+    _Experiment.Sample_angle
+    _Experiment.NMR_tube_type
+    _Experiment.NMR_spectrometer_ID
+    _Experiment.NMR_spectrometer_label
+    _Experiment.NMR_spectrometer_probe_ID
+    _Experiment.NMR_spectrometer_probe_label
+    _Experiment.NMR_spectral_processing_ID
+    _Experiment.NMR_spectral_processing_label
+    _Experiment.Mass_spectrometer_ID
+    _Experiment.Mass_spectrometer_label
+    _Experiment.Xray_instrument_ID
+    _Experiment.Xray_instrument_label
+    _Experiment.Fluorescence_instrument_ID
+    _Experiment.Fluorescence_instrument_label
+    _Experiment.EMR_instrument_ID
+    _Experiment.EMR_instrument_label
+    _Experiment.Chromatographic_system_ID
+    _Experiment.Chromatographic_system_label
+    _Experiment.Chromatographic_column_ID
+    _Experiment.Chromatographic_column_label
+    _Experiment.Entry_ID
+    _Experiment.Experiment_list_ID
+
+    1    .   .   .   .   .   .   .   .   .   .   .   .   1    $sample_1   .   .   .   1    $cond1   .   .   .   1    $spectrometer_list   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+  stop_
+
+save_
+
+    ################################
+    #  Residual dipolar couplings  #
+    ################################
+
+
+save_residual_dipolar_couplings
+  _RDC_list.Sf_category                      RDCs
+  _RDC_list.Sf_framecode                     residual_dipolar_couplings
+  _RDC_list.Entry_ID                         4823
+  _RDC_list.ID                               1
+  _RDC_list.Sample_condition_list_ID         1
+  _RDC_list.Sample_condition_list_label      $cond1
+  _RDC_list.Spectrometer_frequency_1H        .
+  _RDC_list.Bond_length_usage_flag           .
+  _RDC_list.Dipolar_constraint_calib_method  .
+  _RDC_list.Mol_align_tensor_axial_sym_mol   .
+  _RDC_list.Mol_align_tensor_rhombic_mol     .
+  _RDC_list.General_order_param_int_motions  .
+  _RDC_list.Assumed_H_N_bond_length          .
+  _RDC_list.Assumed_H_C_bond_length          .
+  _RDC_list.Assumed_C_N_bond_length          .
+  _RDC_list.Details                          .
+  _RDC_list.Text_data_format                 .
+  _RDC_list.Text_data                        .
+
+  loop_
+    _RDC_experiment.Experiment_ID
+    _RDC_experiment.Experiment_name
+    _RDC_experiment.Sample_ID
+    _RDC_experiment.Sample_label
+    _RDC_experiment.Sample_state
+    _RDC_experiment.Entry_ID
+    _RDC_experiment.RDC_list_ID
+
+    .   .   1    $sample_1   .   4823    1    
+  stop_
+
+  loop_
+    _RDC.ID
+    _RDC.RDC_code
+    _RDC.Assembly_atom_ID_1
+    _RDC.Entity_assembly_ID_1
+    _RDC.Entity_ID_1
+    _RDC.Comp_index_ID_1
+    _RDC.Seq_ID_1
+    _RDC.Comp_ID_1
+    _RDC.Atom_ID_1
+    _RDC.Atom_type_1
+    _RDC.Atom_isotope_number_1
+    _RDC.Ambiguity_code_1
+    _RDC.Assembly_atom_ID_2
+    _RDC.Entity_assembly_ID_2
+    _RDC.Entity_ID_2
+    _RDC.Comp_index_ID_2
+    _RDC.Seq_ID_2
+    _RDC.Comp_ID_2
+    _RDC.Atom_ID_2
+    _RDC.Atom_type_2
+    _RDC.Atom_isotope_number_2
+    _RDC.Ambiguity_code_2
+    _RDC.Val
+    _RDC.Val_min
+    _RDC.Val_max
+    _RDC.Val_err
+    _RDC.Val_bond_length
+    _RDC.Resonance_ID_1
+    _RDC.Resonance_ID_2
+    _RDC.Auth_entity_assembly_ID_1
+    _RDC.Auth_seq_ID_1
+    _RDC.Auth_comp_ID_1
+    _RDC.Auth_atom_ID_1
+    _RDC.Auth_entity_assembly_ID_2
+    _RDC.Auth_seq_ID_2
+    _RDC.Auth_comp_ID_2
+    _RDC.Auth_atom_ID_2
+    _RDC.Entry_ID
+    _RDC.RDC_list_ID
+
+    1     1DHN    .   1    1    7     7     TYR    H    .   .   .   .   1    1    7     7     TYR    N    .   .   .   6.58      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    2     1DHN    .   1    1    8     8     LYS    H    .   .   .   .   1    1    8     8     LYS    N    .   .   .   2.02      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    3     1DHN    .   1    1    9     9     ALA    H    .   .   .   .   1    1    9     9     ALA    N    .   .   .   -0.05     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    4     1DHN    .   1    1    10    10    ALA    H    .   .   .   .   1    1    10    10    ALA    N    .   .   .   6.45      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    5     1DHN    .   1    1    12    12    GLU    H    .   .   .   .   1    1    12    12    GLU    N    .   .   .   5.70      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    6     1DHN    .   1    1    13    13    GLN    H    .   .   .   .   1    1    13    13    GLN    N    .   .   .   5.02      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    7     1DHN    .   1    1    16    16    GLU    H    .   .   .   .   1    1    16    16    GLU    N    .   .   .   -6.99     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    8     1DHN    .   1    1    17    17    GLU    H    .   .   .   .   1    1    17    17    GLU    N    .   .   .   -1.96     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    9     1DHN    .   1    1    18    18    GLN    H    .   .   .   .   1    1    18    18    GLN    N    .   .   .   -13.61    .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    10    1DHN    .   1    1    19    19    LYS    H    .   .   .   .   1    1    19    19    LYS    N    .   .   .   -11.56    .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    11    1DHN    .   1    1    20    20    ASN    H    .   .   .   .   1    1    20    20    ASN    N    .   .   .   -3.33     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    12    1DHN    .   1    1    21    21    GLU    H    .   .   .   .   1    1    21    21    GLU    N    .   .   .   -4.75     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    13    1DHN    .   1    1    22    22    PHE    H    .   .   .   .   1    1    22    22    PHE    N    .   .   .   -13.42    .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    14    1DHN    .   1    1    23    23    LYS    H    .   .   .   .   1    1    23    23    LYS    N    .   .   .   -4.75     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    15    1DHN    .   1    1    25    25    ALA    H    .   .   .   .   1    1    25    25    ALA    N    .   .   .   -6.63     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    16    1DHN    .   1    1    26    26    PHE    H    .   .   .   .   1    1    26    26    PHE    N    .   .   .   -5.87     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    17    1DHN    .   1    1    27    27    ASP    H    .   .   .   .   1    1    27    27    ASP    N    .   .   .   -0.24     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    18    1DHN    .   1    1    28    28    ILE    H    .   .   .   .   1    1    28    28    ILE    N    .   .   .   5.87      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    19    1DHN    .   1    1    37    37    CYS    H    .   .   .   .   1    1    37    37    CYS    N    .   .   .   1.24      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    20    1DHN    .   1    1    39    39    SER    H    .   .   .   .   1    1    39    39    SER    N    .   .   .   -15.10    .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    21    1DHN    .   1    1    41    41    LYS    H    .   .   .   .   1    1    41    41    LYS    N    .   .   .   4.28      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    22    1DHN    .   1    1    42    42    GLU    H    .   .   .   .   1    1    42    42    GLU    N    .   .   .   -7.03     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    23    1DHN    .   1    1    43    43    LEU    H    .   .   .   .   1    1    43    43    LEU    N    .   .   .   -8.26     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    24    1DHN    .   1    1    44    44    GLY    H    .   .   .   .   1    1    44    44    GLY    N    .   .   .   7.17      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    25    1DHN    .   1    1    45    45    LYS    H    .   .   .   .   1    1    45    45    LYS    N    .   .   .   8.65      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    26    1DHN    .   1    1    46    46    VAL    H    .   .   .   .   1    1    46    46    VAL    N    .   .   .   8.44      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    27    1DHN    .   1    1    47    47    MET    H    .   .   .   .   1    1    47    47    MET    N    .   .   .   8.48      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    28    1DHN    .   1    1    48    48    ARG    H    .   .   .   .   1    1    48    48    ARG    N    .   .   .   8.35      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    29    1DHN    .   1    1    49    49    MET    H    .   .   .   .   1    1    49    49    MET    N    .   .   .   7.48      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    30    1DHN    .   1    1    50    50    LEU    H    .   .   .   .   1    1    50    50    LEU    N    .   .   .   7.66      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    31    1DHN    .   1    1    57    57    GLU    H    .   .   .   .   1    1    57    57    GLU    N    .   .   .   -1.03     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    32    1DHN    .   1    1    58    58    GLU    H    .   .   .   .   1    1    58    58    GLU    N    .   .   .   -12.63    .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    33    1DHN    .   1    1    59    59    LEU    H    .   .   .   .   1    1    59    59    LEU    N    .   .   .   -13.33    .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    34    1DHN    .   1    1    60    60    GLN    H    .   .   .   .   1    1    60    60    GLN    N    .   .   .   -5.78     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    35    1DHN    .   1    1    61    61    GLU    H    .   .   .   .   1    1    61    61    GLU    N    .   .   .   5.53      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    36    1DHN    .   1    1    63    63    ILE    H    .   .   .   .   1    1    63    63    ILE    N    .   .   .   -0.80     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    37    1DHN    .   1    1    64    64    ASP    H    .   .   .   .   1    1    64    64    ASP    N    .   .   .   -5.71     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    38    1DHN    .   1    1    65    65    GLU    H    .   .   .   .   1    1    65    65    GLU    N    .   .   .   -6.38     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    39    1DHN    .   1    1    66    66    VAL    H    .   .   .   .   1    1    66    66    VAL    N    .   .   .   0.32      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    40    1DHN    .   1    1    73    73    THR    H    .   .   .   .   1    1    73    73    THR    N    .   .   .   -13.34    .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    41    1DHN    .   1    1    74    74    VAL    H    .   .   .   .   1    1    74    74    VAL    N    .   .   .   -10.00    .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    42    1DHN    .   1    1    75    75    ASP    H    .   .   .   .   1    1    75    75    ASP    N    .   .   .   -4.04     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    43    1DHN    .   1    1    76    76    PHE    H    .   .   .   .   1    1    76    76    PHE    N    .   .   .   10.38     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    44    1DHN    .   1    1    78    78    GLU    H    .   .   .   .   1    1    78    78    GLU    N    .   .   .   10.15     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    45    1DHN    .   1    1    79    79    PHE    H    .   .   .   .   1    1    79    79    PHE    N    .   .   .   11.14     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    46    1DHN    .   1    1    80    80    LEU    H    .   .   .   .   1    1    80    80    LEU    N    .   .   .   5.11      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    47    1DHN    .   1    1    81    81    VAL    H    .   .   .   .   1    1    81    81    VAL    N    .   .   .   11.40     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    48    1DHN    .   1    1    82    82    MET    H    .   .   .   .   1    1    82    82    MET    N    .   .   .   9.63      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    49    1DHN    .   1    1    83    83    MET    H    .   .   .   .   1    1    83    83    MET    N    .   .   .   6.93      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    50    1DHN    .   1    1    84    84    VAL    H    .   .   .   .   1    1    84    84    VAL    N    .   .   .   6.19      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    51    1DHN    .   1    1    85    85    ARG    H    .   .   .   .   1    1    85    85    ARG    N    .   .   .   10.24     .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+    52    1DHN    .   1    1    86    86    CYS    H    .   .   .   .   1    1    86    86    CYS    N    .   .   .   8.09      .   .   .   .   .   .   .   .   .   .   .   .   .   .   4823    1    
+  stop_
+
+save_
+

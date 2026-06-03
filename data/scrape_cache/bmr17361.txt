@@ -1,0 +1,1810 @@
+data_17361
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             17361
+   _Entry.Title                         
+;
+The Conformation of Bacteriorhodopsin Loops in Purple Membranes resolved by Solid-state MAS-NMR
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2010-12-14
+   _Entry.Accession_date                 2010-12-14
+   _Entry.Last_release_date              .
+   _Entry.Original_release_date          .
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Victoria  Higman     . A. . 17361 
+      2 Krisztina Varga      . .  . 17361 
+      3 Lubica    Aslimovska . .  . 17361 
+      4 Peter     Judge      . J. . 17361 
+      5 Lindsay   Sperling   . J. . 17361 
+      6 Chad      Rienstra   . M. . 17361 
+      7 Anthony   Watts      . .  . 17361 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 17361 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts' 204 17361 
+      '15N chemical shifts'  51 17361 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      3 . . 2013-01-28 2010-12-14 update   BMRB   'update entry citation' 17361 
+      2 . . 2012-03-12 2010-12-14 update   BMRB   'update entry citation' 17361 
+      1 . . 2011-08-03 2010-12-14 original author 'original release'      17361 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     17361
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    21770003
+   _Citation.Full_citation                .
+   _Citation.Title                       'The conformation of bacteriorhodopsin loops in purple membranes resolved by solid-state MAS NMR spectroscopy.'
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'Angew. Chem. Int. Ed. Engl.'
+   _Citation.Journal_name_full           'Angewandte Chemie (International ed. in English)'
+   _Citation.Journal_volume               50
+   _Citation.Journal_issue                36
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   8432
+   _Citation.Page_last                    8435
+   _Citation.Year                         2011
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Victoria  Higman     . A. . 17361 1 
+      2 Krisztina Varga      . .  . 17361 1 
+      3 Lubica    Aslimovska . .  . 17361 1 
+      4 Peter     Judge      . J. . 17361 1 
+      5 Lindsay   Sperling   . J. . 17361 1 
+      6 Chad      Rienstra   . M. . 17361 1 
+      7 Anthony   Watts      . .  . 17361 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          17361
+   _Assembly.ID                                1
+   _Assembly.Name                              bR/PM
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                no
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                          'bacteriorhodopsin in purple membranes'
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 bR 1 $bR A . yes native no no . . . 17361 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_bR
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      bR
+   _Entity.Entry_ID                          17361
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              bR
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+QAQITGRPEWIWLALGTALM
+GLGTLYFLVKGMGVSDPDAK
+KFYAITTLVPAIAFTMYLSM
+LLGYGLTMVPFGGEQNPIYW
+ARYADWLFTTPLLLLDLALL
+VDADQGTILALVGADGIMIG
+TGLVGALTKVYSYRFVWWAI
+STAAMLYILYVLFFGFTSKA
+ESMRPEVASTFKVLRNVTVV
+LWSAYPVVWLIGSEGAGIVP
+LNIETLLFMVLDVSAKVGFG
+LILLRSRAIFGEAEAPEPSA
+GDGAAATSD
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                249
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-25
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+        1 no PDB  1AP9         . "X-Ray Structure Of Bacteriorhodopsin From Microcrystals Grown In Lipidic Cubic Phases"                                           . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+        2 no PDB  1AT9         . "Structure Of Bacteriorhodopsin At 3.0 Angstrom Determined By Electron Crystallography"                                           . . . . .  99.20 248 100.00 100.00 1.38e-170 . . . . 17361 1 
+        3 no PDB  1BM1         . "Crystal Structure Of Bacteriorhodopsin In The Light-adapted State"                                                               . . . . .  99.20 248 100.00 100.00 1.38e-170 . . . . 17361 1 
+        4 no PDB  1BRD         . "Model For The Structure Of Bacteriorhodopsin Based On High-R Electron Cryo-Microscopy"                                           . . . . .  99.20 248 100.00 100.00 1.38e-170 . . . . 17361 1 
+        5 no PDB  1BRR         . "X-Ray Structure Of The Bacteriorhodopsin TrimerLIPID COMPLEX"                                                                    . . . . .  99.20 247  99.60  99.60 4.52e-168 . . . . 17361 1 
+        6 no PDB  1BRX         . "BacteriorhodopsinLIPID COMPLEX"                                                                                                  . . . . .  99.20 248 100.00 100.00 1.38e-170 . . . . 17361 1 
+        7 no PDB  1C3W         . "BacteriorhodopsinLIPID COMPLEX AT 1.55 A RESOLUTION"                                                                             . . . . .  91.16 222  97.80  97.80 8.85e-149 . . . . 17361 1 
+        8 no PDB  1C8R         . "Bacteriorhodopsin D96n Br State At 2.0 A Resolution"                                                                             . . . . . 100.00 249  99.60 100.00 7.45e-172 . . . . 17361 1 
+        9 no PDB  1CWQ         . "M Intermediate Structure Of The Wild Type Bacteriorhodopsin In Combination With The Ground State Structure"                      . . . . .  99.60 248  99.60  99.60 4.71e-169 . . . . 17361 1 
+       10 no PDB  1DZE         . "Structure Of The M Intermediate Of Bacteriorhodopsin Trapped At 100k"                                                            . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       11 no PDB  1E0P         . "L Intermediate Of Bacteriorhodopsin"                                                                                             . . . . .  91.57 228 100.00 100.00 4.11e-156 . . . . 17361 1 
+       12 no PDB  1F4Z         . "Bacteriorhodopsin-M Photointermediate State Of The E204q Mutant At 1.8 Angstrom Resolution"                                      . . . . .  91.16 227  99.56 100.00 1.07e-154 . . . . 17361 1 
+       13 no PDB  1F50         . "Bacteriorhodopsin-br State Of The E204q Mutant At 1.7 Angstrom Resolution"                                                       . . . . .  91.16 227  99.56 100.00 1.07e-154 . . . . 17361 1 
+       14 no PDB  1FBB         . "Crystal Structure Of Native Conformation Of Bacteriorhodopsin"                                                                   . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       15 no PDB  1FBK         . "Crystal Structure Of Cytoplasmically Open Conformation Of Bacteriorhodopsin"                                                     . . . . .  99.60 248  98.79  98.79 1.23e-168 . . . . 17361 1 
+       16 no PDB  1IW6         . "Crystal Structure Of The Ground State Of Bacteriorhodopsin"                                                                      . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       17 no PDB  1IW9         . "Crystal Structure Of The M Intermediate Of Bacteriorhodopsin"                                                                    . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       18 no PDB  1IXF         . "Crystal Structure Of The K Intermediate Of Bacteriorhodopsin"                                                                    . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       19 no PDB  1JV6         . "Bacteriorhodopsin D85sF219L DOUBLE MUTANT AT 2.00 ANGSTROM Resolution"                                                           . . . . . 100.00 249  99.20  99.20 1.12e-170 . . . . 17361 1 
+       20 no PDB  1JV7         . "Bacteriorhodopsin O-like Intermediate State Of The D85s Mutant At 2.25 Angstrom Resolution"                                      . . . . . 100.00 249  99.60  99.60 1.45e-171 . . . . 17361 1 
+       21 no PDB  1KG8         . "X-Ray Structure Of An Early-M Intermediate Of Bacteriorhodopsin"                                                                 . . . . .  92.77 231 100.00 100.00 1.71e-158 . . . . 17361 1 
+       22 no PDB  1KG9         . 'Structure Of A "mock-Trapped" Early-M Intermediate Of Bacteriorhosopsin'                                                         . . . . .  92.77 231 100.00 100.00 1.71e-158 . . . . 17361 1 
+       23 no PDB  1KGB         . "Structure Of Ground-State Bacteriorhodopsin"                                                                                     . . . . .  92.77 231 100.00 100.00 1.71e-158 . . . . 17361 1 
+       24 no PDB  1KME         . "Crystal Structure Of Bacteriorhodopsin Crystallized From Bicelles"                                                               . . . . .  92.77 231 100.00 100.00 1.71e-158 . . . . 17361 1 
+       25 no PDB  1L0M         . "Solution Structure Of Bacteriorhodopsin"                                                                                         . . . . .  85.14 212 100.00 100.00 2.91e-144 . . . . 17361 1 
+       26 no PDB  1M0K         . "Bacteriorhodopsin K Intermediate At 1.43 A Resolution"                                                                           . . . . . 100.00 262 100.00 100.00 1.07e-172 . . . . 17361 1 
+       27 no PDB  1M0L         . "BacteriorhodopsinLIPID COMPLEX AT 1.47 A RESOLUTION"                                                                             . . . . . 100.00 262 100.00 100.00 1.07e-172 . . . . 17361 1 
+       28 no PDB  1M0M         . "Bacteriorhodopsin M1 Intermediate At 1.43 A Resolution"                                                                          . . . . . 100.00 262 100.00 100.00 1.07e-172 . . . . 17361 1 
+       29 no PDB  1MGY         . "Structure Of The D85s Mutant Of Bacteriorhodopsin With Bromide Bound"                                                            . . . . . 100.00 249  99.60  99.60 1.45e-171 . . . . 17361 1 
+       30 no PDB  1O0A         . "Bacteriorhodopsin L Intermediate At 1.62 A Resolution"                                                                           . . . . . 100.00 249 100.00 100.00 1.61e-172 . . . . 17361 1 
+       31 no PDB  1P8H         . "Bacteriorhodopsin M1 Intermediate Produced At Room Temperature"                                                                  . . . . . 100.00 249 100.00 100.00 1.61e-172 . . . . 17361 1 
+       32 no PDB  1P8I         . "F219l Bacteriorhodopsin Mutant"                                                                                                  . . . . . 100.00 249  99.60  99.60 1.47e-171 . . . . 17361 1 
+       33 no PDB  1P8U         . "Bacteriorhodopsin N' Intermediate At 1.62 A Resolution"                                                                          . . . . . 100.00 249  99.60  99.60 6.82e-172 . . . . 17361 1 
+       34 no PDB  1PXR         . "Structure Of Pro50ala Mutant Of Bacteriorhodopsin"                                                                               . . . . . 100.00 249  99.60  99.60 1.71e-171 . . . . 17361 1 
+       35 no PDB  1PXS         . "Structure Of Met56ala Mutant Of Bacteriorhodopsin"                                                                               . . . . . 100.00 249  99.60  99.60 1.55e-171 . . . . 17361 1 
+       36 no PDB  1PY6         . "Bacteriorhodopsin Crystallized From Bicells"                                                                                     . . . . . 100.00 249 100.00 100.00 1.61e-172 . . . . 17361 1 
+       37 no PDB  1Q5I         . "Crystal Structure Of Bacteriorhodopsin Mutant P186a Crystallized From Bicelles"                                                  . . . . . 100.00 249  99.60  99.60 1.71e-171 . . . . 17361 1 
+       38 no PDB  1Q5J         . "Crystal Structure Of Bacteriorhodopsin Mutant P91a Crystallized From Bicelles"                                                   . . . . . 100.00 249  99.60  99.60 1.71e-171 . . . . 17361 1 
+       39 no PDB  1QHJ         . "X-Ray Structure Of Bacteriorhodopsin Grown In Lipidic Cubic Phases"                                                              . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       40 no PDB  1QKO         . "High Resolution X-Ray Structure Of An Early Intermediate In The Bacteriorhodopsin Photocycle"                                    . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       41 no PDB  1QKP         . "High Resolution X-Ray Structure Of An Early Intermediate In The Bacteriorhodopsin Photocycle"                                    . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       42 no PDB  1QM8         . "Structure Of Bacteriorhodopsin At 100 K"                                                                                         . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       43 no PDB  1R2N         . "Nmr Structure Of The All-trans Retinal In Dark-adapted Bacteriorhodopsin"                                                        . . . . . 100.00 249 100.00 100.00 1.61e-172 . . . . 17361 1 
+       44 no PDB  1R84         . "Nmr Structure Of The 13-cis-15-syn Retinal In Dark_adapted Bacteriorhodopsin"                                                    . . . . .  93.17 232 100.00 100.00 2.17e-159 . . . . 17361 1 
+       45 no PDB  1S51         . "Thr24ser Bacteriorhodopsin"                                                                                                      . . . . .  91.16 227  99.56 100.00 1.05e-154 . . . . 17361 1 
+       46 no PDB  1S52         . "Thr24val Bacteriorhodopsin"                                                                                                      . . . . .  91.16 227  99.56  99.56 2.37e-154 . . . . 17361 1 
+       47 no PDB  1S53         . "Thr46ser Bacteriorhodopsin"                                                                                                      . . . . .  91.16 227  99.56 100.00 1.05e-154 . . . . 17361 1 
+       48 no PDB  1S54         . "Thr24ala Bacteriorhodopsin"                                                                                                      . . . . .  91.16 227  99.56  99.56 2.24e-154 . . . . 17361 1 
+       49 no PDB  1S8J         . "Nitrate-Bound D85s Mutant Of Bacteriorhodopsin"                                                                                  . . . . . 100.00 249  99.60  99.60 1.45e-171 . . . . 17361 1 
+       50 no PDB  1S8L         . "Anion-Free Form Of The D85s Mutant Of Bacteriorhodopsin From Crystals Grown In The Presence Of Halide"                           . . . . . 100.00 249  99.60  99.60 1.45e-171 . . . . 17361 1 
+       51 no PDB  1TN0         . "Structure Of Bacterorhodopsin Mutant A51p"                                                                                       . . . . . 100.00 249  99.60  99.60 1.26e-171 . . . . 17361 1 
+       52 no PDB  1TN5         . "Structure Of Bacterorhodopsin Mutant K41p"                                                                                       . . . . . 100.00 249  99.60  99.60 2.48e-171 . . . . 17361 1 
+       53 no PDB  1UCQ         . "Crystal Structure Of The L Intermediate Of Bacteriorhodopsin"                                                                    . . . . . 100.00 249 100.00 100.00 1.61e-172 . . . . 17361 1 
+       54 no PDB  1VJM         . "Deformation Of Helix C In The Low-Temperature L-Intermediate Of Bacteriorhodopsin"                                               . . . . . 100.00 249 100.00 100.00 1.61e-172 . . . . 17361 1 
+       55 no PDB  1X0I         . "Crystal Structure Of The Acid Blue Form Of Bacteriorhodopsin"                                                                    . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       56 no PDB  1X0K         . "Crystal Structure Of Bacteriorhodopsin At Ph 10"                                                                                 . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       57 no PDB  1X0S         . "Crystal Structure Of The 13-Cis Isomer Of Bacteriorhodopsin"                                                                     . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       58 no PDB  1XJI         . "Bacteriorhodopsin Crystallized In Bicelles At Room Temperature"                                                                  . . . . .  99.20 247 100.00 100.00 1.33e-170 . . . . 17361 1 
+       59 no PDB  2AT9         . "Structure Of Bacteriorhodopsin At 3.0 Angstrom By Electron Crystallography"                                                      . . . . .  99.20 248 100.00 100.00 1.38e-170 . . . . 17361 1 
+       60 no PDB  2BRD         . "Crystal Structure Of Bacteriorhodopsin In Purple Membrane"                                                                       . . . . .  99.20 248 100.00 100.00 1.38e-170 . . . . 17361 1 
+       61 no PDB  2I1X         . "BacteriorhodopsinLIPID COMPLEX, D96A MUTANT"                                                                                     . . . . . 100.00 249  99.60  99.60 2.20e-171 . . . . 17361 1 
+       62 no PDB  2I20         . "BacteriorhodopsinLIPID COMPLEX, M STATE OF D96A MUTANT"                                                                          . . . . . 100.00 249  99.60  99.60 2.20e-171 . . . . 17361 1 
+       63 no PDB  2I21         . "BacteriorhodopsinLIPID COMPLEX, T46V MUTANT"                                                                                     . . . . . 100.00 249  99.60  99.60 8.97e-172 . . . . 17361 1 
+       64 no PDB  2NTU         . "Bacteriorhodopsin, Wild Type, Before Illumination"                                                                               . . . . . 100.00 249 100.00 100.00 1.61e-172 . . . . 17361 1 
+       65 no PDB  2NTW         . "Bacteriorhodopsin, Wild Type, After Illumination To Produce The L Intermediate"                                                  . . . . . 100.00 249 100.00 100.00 1.61e-172 . . . . 17361 1 
+       66 no PDB  2WJK         . "Bacteriorhodopsin Mutant E204d"                                                                                                  . . . . . 100.00 249  99.60 100.00 8.77e-172 . . . . 17361 1 
+       67 no PDB  2WJL         . "Bacteriorhodopsin Mutant E194d"                                                                                                  . . . . . 100.00 249  99.60 100.00 8.77e-172 . . . . 17361 1 
+       68 no PDB  2ZFE         . "Crystal Structure Of Bacteriorhodopsin-Xenon Complex"                                                                            . . . . . 100.00 262 100.00 100.00 1.07e-172 . . . . 17361 1 
+       69 no PDB  2ZZL         . "Structure Of Bacteriorhodopsin's M Intermediate At Ph 7"                                                                         . . . . . 100.00 262 100.00 100.00 1.07e-172 . . . . 17361 1 
+       70 no PDB  3COC         . "Crystal Structure Of D115a Mutant Of Bacteriorhodopsin"                                                                          . . . . . 100.00 249  99.60  99.60 2.20e-171 . . . . 17361 1 
+       71 no PDB  3COD         . "Crystal Structure Of T90aD115A MUTANT OF BACTERIORHODOPSIN"                                                                      . . . . . 100.00 249  99.20  99.20 1.09e-170 . . . . 17361 1 
+       72 no PDB  3HAN         . "Crystal Structure Of Bacteriorhodopsin Mutant V49a Crystallized From Bicelles"                                                   . . . . . 100.00 249  99.60  99.60 6.82e-172 . . . . 17361 1 
+       73 no PDB  3HAO         . "Crystal Structure Of Bacteriorhodopsin Mutant L94a Crystallized From Bicelles"                                                   . . . . . 100.00 249  99.60  99.60 6.75e-172 . . . . 17361 1 
+       74 no PDB  3HAP         . "Crystal Structure Of Bacteriorhodopsin Mutant L111a Crystallized From Bicelles"                                                  . . . . . 100.00 249  99.60  99.60 6.75e-172 . . . . 17361 1 
+       75 no PDB  3HAQ         . "Crystal Structure Of Bacteriorhodopsin Mutant I148a Crystallized From Bicelles"                                                  . . . . . 100.00 249  99.60  99.60 1.10e-171 . . . . 17361 1 
+       76 no PDB  3HAR         . "Crystal Structure Of Bacteriorhodopsin Mutant I148v Crystallized From Bicelles"                                                  . . . . . 100.00 249  99.60 100.00 2.78e-172 . . . . 17361 1 
+       77 no PDB  3HAS         . "Crystal Structure Of Bacteriorhodopsin Mutant L152a Crystallized From Bicelles"                                                  . . . . . 100.00 249  99.60  99.60 6.75e-172 . . . . 17361 1 
+       78 no PDB  3MBV         . "Structure Of Bacterirhodopsin Crystallized In Betta-Xyloc(16+4) Meso Phase"                                                      . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       79 no PDB  3NS0         . "X-Ray Structure Of Bacteriorhodopsin"                                                                                            . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       80 no PDB  3NSB         . "Structure Of Bacteriorhodopsin Ground State Before And After X-Ray Modification"                                                 . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       81 no PDB  3T45         . "Crystal Structure Of Bacteriorhodopsin Mutant A215t, A Phototaxis Signaling Mutant At 3.0 A Resolution"                          . . . . .  90.36 225  99.56  99.56 4.46e-153 . . . . 17361 1 
+       82 no PDB  3UTV         . "Crystal Structure Of Bacteriorhodopsin Mutant Y57f"                                                                              . . . . . 100.00 249  99.60 100.00 5.48e-172 . . . . 17361 1 
+       83 no PDB  3UTW         . "Crystal Structure Of Bacteriorhodopsin Mutant P50a/y57f"                                                                         . . . . . 100.00 249  99.20  99.60 6.15e-171 . . . . 17361 1 
+       84 no PDB  3UTX         . "Crystal Structure Of Bacteriorhodopsin Mutant T46a"                                                                              . . . . . 100.00 249  99.60  99.60 7.36e-172 . . . . 17361 1 
+       85 no PDB  3UTY         . "Crystal Structure Of Bacteriorhodopsin Mutant P50a/t46a"                                                                         . . . . . 100.00 249  99.20  99.20 9.84e-171 . . . . 17361 1 
+       86 no PDB  3VHZ         . "Crystal Structure Of The Trans Isomer Of The L93a Mutant Of Bacteriorhodopsin"                                                   . . . . . 100.00 262  99.60  99.60 1.04e-171 . . . . 17361 1 
+       87 no PDB  3VI0         . "Crystal Structure Of The O Intermediate Of The L93a Mutant Of Bacteriorhodopsin"                                                 . . . . . 100.00 262  99.60  99.60 1.04e-171 . . . . 17361 1 
+       88 no PDB  4FPD         . "Deprotonation Of D96 In Bacteriorhodopsin Opens The Proton Uptake Pathway"                                                       . . . . . 100.00 262  98.80  98.80 9.77e-170 . . . . 17361 1 
+       89 no PDB  4HWL         . "Crystal Structure Analysis Of The Bacteriorhodopsin In Facial Amphiphile-7 Dmpc Bicelle"                                         . . . . . 100.00 262 100.00 100.00 1.07e-172 . . . . 17361 1 
+       90 no PDB  4HYX         . "Crystal Structure Analysis Of The Bacteriorhodopsin In Facial Amphiphile-4 Dmpc Bicelle"                                         . . . . . 100.00 262 100.00 100.00 1.07e-172 . . . . 17361 1 
+       91 no PDB  4MD1         . "Orange Species Of Bacteriorhodopsin From Halobacterium Salinarum"                                                                . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       92 no PDB  4MD2         . "Ground State Of Bacteriorhodopsin From Halobacterium Salinarum"                                                                  . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       93 no PDB  4X31         . "Room Temperature Structure Of Bacteriorhodopsin From Lipidic Cubic Phase Obtained With Serial Millisecond Crystallography Using" . . . . .  91.97 229 100.00 100.00 9.52e-157 . . . . 17361 1 
+       94 no PDB  4X32         . "Bacteriorhodopsin Ground State Structure Collected In Cryo Conditions From Crystals Obtained In Lcp With Peg As A Precipitant"   . . . . .  91.57 228 100.00 100.00 4.11e-156 . . . . 17361 1 
+       95 no PDB  4XXJ         . "Crystal Structure Of Escherichia Coli-expressed Halobacterium Salinarum Bacteriorhodopsin In The Trimeric Form"                  . . . . . 100.00 269  99.60  99.60 4.31e-172 . . . . 17361 1 
+       96 no PDB  5A44         . "Structure Of Bacteriorhodopsin Obtained From 20um Crystals By Multi Crystal Data Collection"                                     . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       97 no PDB  5A45         . "Structure Of Bacteriorhodopsin Obtained From 5um Crystals By Multi Crystal Data Collection"                                      . . . . .  99.60 248 100.00 100.00 1.43e-171 . . . . 17361 1 
+       98 no EMBL CAA23744     . "unnamed protein product [Halobacterium salinarum]"                                                                               . . . . . 100.00 262 100.00 100.00 1.07e-172 . . . . 17361 1 
+       99 no EMBL CAA49762     . "bacterioopsin [synthetic construct]"                                                                                             . . . . . 100.00 259  99.60 100.00 2.37e-171 . . . . 17361 1 
+      100 no EMBL CAA49774     . "bacterio-opsin [Halobacterium sp. GRB]"                                                                                          . . . . . 100.00 262 100.00 100.00 1.07e-172 . . . . 17361 1 
+      101 no EMBL CAP14056     . "bacteriorhodopsin [Halobacterium salinarum R1]"                                                                                  . . . . . 100.00 262 100.00 100.00 1.07e-172 . . . . 17361 1 
+      102 no GB   AAA72184     . "bacteriorhodopsin [synthetic construct]"                                                                                         . . . . .  99.60 249 100.00 100.00 1.48e-171 . . . . 17361 1 
+      103 no GB   AAA72504     . "bacteriorhodopsin [Halobacterium salinarum]"                                                                                     . . . . . 100.00 262 100.00 100.00 1.07e-172 . . . . 17361 1 
+      104 no GB   AAA72603     . "bacteriorhodopsin [synthetic construct]"                                                                                         . . . . .  99.60 249 100.00 100.00 1.48e-171 . . . . 17361 1 
+      105 no GB   AAG19772     . "bacteriorhodopsin [Halobacterium sp. NRC-1]"                                                                                     . . . . . 100.00 262 100.00 100.00 1.07e-172 . . . . 17361 1 
+      106 no PRF  0501217A     .  bacteriorhodopsin                                                                                                                . . . . .  99.60 247  97.18  98.79 7.04e-165 . . . . 17361 1 
+      107 no PRF  0712242A     . "bacteriorhodopsin precursor"                                                                                                     . . . . . 100.00 262  99.60  99.60 2.03e-171 . . . . 17361 1 
+      108 no REF  WP_049892510 . "rhodopsin [Halobacterium salinarum]"                                                                                             . . . . .  92.37 230 100.00 100.00 1.26e-157 . . . . 17361 1 
+      109 no SP   P02945       . "RecName: Full=Bacteriorhodopsin; Short=BR; AltName: Full=Bacterioopsin; Short=BO; Flags: Precursor"                              . . . . . 100.00 262 100.00 100.00 1.07e-172 . . . . 17361 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+        1 . GLN . 17361 1 
+        2 . ALA . 17361 1 
+        3 . GLN . 17361 1 
+        4 . ILE . 17361 1 
+        5 . THR . 17361 1 
+        6 . GLY . 17361 1 
+        7 . ARG . 17361 1 
+        8 . PRO . 17361 1 
+        9 . GLU . 17361 1 
+       10 . TRP . 17361 1 
+       11 . ILE . 17361 1 
+       12 . TRP . 17361 1 
+       13 . LEU . 17361 1 
+       14 . ALA . 17361 1 
+       15 . LEU . 17361 1 
+       16 . GLY . 17361 1 
+       17 . THR . 17361 1 
+       18 . ALA . 17361 1 
+       19 . LEU . 17361 1 
+       20 . MET . 17361 1 
+       21 . GLY . 17361 1 
+       22 . LEU . 17361 1 
+       23 . GLY . 17361 1 
+       24 . THR . 17361 1 
+       25 . LEU . 17361 1 
+       26 . TYR . 17361 1 
+       27 . PHE . 17361 1 
+       28 . LEU . 17361 1 
+       29 . VAL . 17361 1 
+       30 . LYS . 17361 1 
+       31 . GLY . 17361 1 
+       32 . MET . 17361 1 
+       33 . GLY . 17361 1 
+       34 . VAL . 17361 1 
+       35 . SER . 17361 1 
+       36 . ASP . 17361 1 
+       37 . PRO . 17361 1 
+       38 . ASP . 17361 1 
+       39 . ALA . 17361 1 
+       40 . LYS . 17361 1 
+       41 . LYS . 17361 1 
+       42 . PHE . 17361 1 
+       43 . TYR . 17361 1 
+       44 . ALA . 17361 1 
+       45 . ILE . 17361 1 
+       46 . THR . 17361 1 
+       47 . THR . 17361 1 
+       48 . LEU . 17361 1 
+       49 . VAL . 17361 1 
+       50 . PRO . 17361 1 
+       51 . ALA . 17361 1 
+       52 . ILE . 17361 1 
+       53 . ALA . 17361 1 
+       54 . PHE . 17361 1 
+       55 . THR . 17361 1 
+       56 . MET . 17361 1 
+       57 . TYR . 17361 1 
+       58 . LEU . 17361 1 
+       59 . SER . 17361 1 
+       60 . MET . 17361 1 
+       61 . LEU . 17361 1 
+       62 . LEU . 17361 1 
+       63 . GLY . 17361 1 
+       64 . TYR . 17361 1 
+       65 . GLY . 17361 1 
+       66 . LEU . 17361 1 
+       67 . THR . 17361 1 
+       68 . MET . 17361 1 
+       69 . VAL . 17361 1 
+       70 . PRO . 17361 1 
+       71 . PHE . 17361 1 
+       72 . GLY . 17361 1 
+       73 . GLY . 17361 1 
+       74 . GLU . 17361 1 
+       75 . GLN . 17361 1 
+       76 . ASN . 17361 1 
+       77 . PRO . 17361 1 
+       78 . ILE . 17361 1 
+       79 . TYR . 17361 1 
+       80 . TRP . 17361 1 
+       81 . ALA . 17361 1 
+       82 . ARG . 17361 1 
+       83 . TYR . 17361 1 
+       84 . ALA . 17361 1 
+       85 . ASP . 17361 1 
+       86 . TRP . 17361 1 
+       87 . LEU . 17361 1 
+       88 . PHE . 17361 1 
+       89 . THR . 17361 1 
+       90 . THR . 17361 1 
+       91 . PRO . 17361 1 
+       92 . LEU . 17361 1 
+       93 . LEU . 17361 1 
+       94 . LEU . 17361 1 
+       95 . LEU . 17361 1 
+       96 . ASP . 17361 1 
+       97 . LEU . 17361 1 
+       98 . ALA . 17361 1 
+       99 . LEU . 17361 1 
+      100 . LEU . 17361 1 
+      101 . VAL . 17361 1 
+      102 . ASP . 17361 1 
+      103 . ALA . 17361 1 
+      104 . ASP . 17361 1 
+      105 . GLN . 17361 1 
+      106 . GLY . 17361 1 
+      107 . THR . 17361 1 
+      108 . ILE . 17361 1 
+      109 . LEU . 17361 1 
+      110 . ALA . 17361 1 
+      111 . LEU . 17361 1 
+      112 . VAL . 17361 1 
+      113 . GLY . 17361 1 
+      114 . ALA . 17361 1 
+      115 . ASP . 17361 1 
+      116 . GLY . 17361 1 
+      117 . ILE . 17361 1 
+      118 . MET . 17361 1 
+      119 . ILE . 17361 1 
+      120 . GLY . 17361 1 
+      121 . THR . 17361 1 
+      122 . GLY . 17361 1 
+      123 . LEU . 17361 1 
+      124 . VAL . 17361 1 
+      125 . GLY . 17361 1 
+      126 . ALA . 17361 1 
+      127 . LEU . 17361 1 
+      128 . THR . 17361 1 
+      129 . LYS . 17361 1 
+      130 . VAL . 17361 1 
+      131 . TYR . 17361 1 
+      132 . SER . 17361 1 
+      133 . TYR . 17361 1 
+      134 . ARG . 17361 1 
+      135 . PHE . 17361 1 
+      136 . VAL . 17361 1 
+      137 . TRP . 17361 1 
+      138 . TRP . 17361 1 
+      139 . ALA . 17361 1 
+      140 . ILE . 17361 1 
+      141 . SER . 17361 1 
+      142 . THR . 17361 1 
+      143 . ALA . 17361 1 
+      144 . ALA . 17361 1 
+      145 . MET . 17361 1 
+      146 . LEU . 17361 1 
+      147 . TYR . 17361 1 
+      148 . ILE . 17361 1 
+      149 . LEU . 17361 1 
+      150 . TYR . 17361 1 
+      151 . VAL . 17361 1 
+      152 . LEU . 17361 1 
+      153 . PHE . 17361 1 
+      154 . PHE . 17361 1 
+      155 . GLY . 17361 1 
+      156 . PHE . 17361 1 
+      157 . THR . 17361 1 
+      158 . SER . 17361 1 
+      159 . LYS . 17361 1 
+      160 . ALA . 17361 1 
+      161 . GLU . 17361 1 
+      162 . SER . 17361 1 
+      163 . MET . 17361 1 
+      164 . ARG . 17361 1 
+      165 . PRO . 17361 1 
+      166 . GLU . 17361 1 
+      167 . VAL . 17361 1 
+      168 . ALA . 17361 1 
+      169 . SER . 17361 1 
+      170 . THR . 17361 1 
+      171 . PHE . 17361 1 
+      172 . LYS . 17361 1 
+      173 . VAL . 17361 1 
+      174 . LEU . 17361 1 
+      175 . ARG . 17361 1 
+      176 . ASN . 17361 1 
+      177 . VAL . 17361 1 
+      178 . THR . 17361 1 
+      179 . VAL . 17361 1 
+      180 . VAL . 17361 1 
+      181 . LEU . 17361 1 
+      182 . TRP . 17361 1 
+      183 . SER . 17361 1 
+      184 . ALA . 17361 1 
+      185 . TYR . 17361 1 
+      186 . PRO . 17361 1 
+      187 . VAL . 17361 1 
+      188 . VAL . 17361 1 
+      189 . TRP . 17361 1 
+      190 . LEU . 17361 1 
+      191 . ILE . 17361 1 
+      192 . GLY . 17361 1 
+      193 . SER . 17361 1 
+      194 . GLU . 17361 1 
+      195 . GLY . 17361 1 
+      196 . ALA . 17361 1 
+      197 . GLY . 17361 1 
+      198 . ILE . 17361 1 
+      199 . VAL . 17361 1 
+      200 . PRO . 17361 1 
+      201 . LEU . 17361 1 
+      202 . ASN . 17361 1 
+      203 . ILE . 17361 1 
+      204 . GLU . 17361 1 
+      205 . THR . 17361 1 
+      206 . LEU . 17361 1 
+      207 . LEU . 17361 1 
+      208 . PHE . 17361 1 
+      209 . MET . 17361 1 
+      210 . VAL . 17361 1 
+      211 . LEU . 17361 1 
+      212 . ASP . 17361 1 
+      213 . VAL . 17361 1 
+      214 . SER . 17361 1 
+      215 . ALA . 17361 1 
+      216 . LYS . 17361 1 
+      217 . VAL . 17361 1 
+      218 . GLY . 17361 1 
+      219 . PHE . 17361 1 
+      220 . GLY . 17361 1 
+      221 . LEU . 17361 1 
+      222 . ILE . 17361 1 
+      223 . LEU . 17361 1 
+      224 . LEU . 17361 1 
+      225 . ARG . 17361 1 
+      226 . SER . 17361 1 
+      227 . ARG . 17361 1 
+      228 . ALA . 17361 1 
+      229 . ILE . 17361 1 
+      230 . PHE . 17361 1 
+      231 . GLY . 17361 1 
+      232 . GLU . 17361 1 
+      233 . ALA . 17361 1 
+      234 . GLU . 17361 1 
+      235 . ALA . 17361 1 
+      236 . PRO . 17361 1 
+      237 . GLU . 17361 1 
+      238 . PRO . 17361 1 
+      239 . SER . 17361 1 
+      240 . ALA . 17361 1 
+      241 . GLY . 17361 1 
+      242 . ASP . 17361 1 
+      243 . GLY . 17361 1 
+      244 . ALA . 17361 1 
+      245 . ALA . 17361 1 
+      246 . ALA . 17361 1 
+      247 . THR . 17361 1 
+      248 . SER . 17361 1 
+      249 . ASP . 17361 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . GLN   1   1 17361 1 
+      . ALA   2   2 17361 1 
+      . GLN   3   3 17361 1 
+      . ILE   4   4 17361 1 
+      . THR   5   5 17361 1 
+      . GLY   6   6 17361 1 
+      . ARG   7   7 17361 1 
+      . PRO   8   8 17361 1 
+      . GLU   9   9 17361 1 
+      . TRP  10  10 17361 1 
+      . ILE  11  11 17361 1 
+      . TRP  12  12 17361 1 
+      . LEU  13  13 17361 1 
+      . ALA  14  14 17361 1 
+      . LEU  15  15 17361 1 
+      . GLY  16  16 17361 1 
+      . THR  17  17 17361 1 
+      . ALA  18  18 17361 1 
+      . LEU  19  19 17361 1 
+      . MET  20  20 17361 1 
+      . GLY  21  21 17361 1 
+      . LEU  22  22 17361 1 
+      . GLY  23  23 17361 1 
+      . THR  24  24 17361 1 
+      . LEU  25  25 17361 1 
+      . TYR  26  26 17361 1 
+      . PHE  27  27 17361 1 
+      . LEU  28  28 17361 1 
+      . VAL  29  29 17361 1 
+      . LYS  30  30 17361 1 
+      . GLY  31  31 17361 1 
+      . MET  32  32 17361 1 
+      . GLY  33  33 17361 1 
+      . VAL  34  34 17361 1 
+      . SER  35  35 17361 1 
+      . ASP  36  36 17361 1 
+      . PRO  37  37 17361 1 
+      . ASP  38  38 17361 1 
+      . ALA  39  39 17361 1 
+      . LYS  40  40 17361 1 
+      . LYS  41  41 17361 1 
+      . PHE  42  42 17361 1 
+      . TYR  43  43 17361 1 
+      . ALA  44  44 17361 1 
+      . ILE  45  45 17361 1 
+      . THR  46  46 17361 1 
+      . THR  47  47 17361 1 
+      . LEU  48  48 17361 1 
+      . VAL  49  49 17361 1 
+      . PRO  50  50 17361 1 
+      . ALA  51  51 17361 1 
+      . ILE  52  52 17361 1 
+      . ALA  53  53 17361 1 
+      . PHE  54  54 17361 1 
+      . THR  55  55 17361 1 
+      . MET  56  56 17361 1 
+      . TYR  57  57 17361 1 
+      . LEU  58  58 17361 1 
+      . SER  59  59 17361 1 
+      . MET  60  60 17361 1 
+      . LEU  61  61 17361 1 
+      . LEU  62  62 17361 1 
+      . GLY  63  63 17361 1 
+      . TYR  64  64 17361 1 
+      . GLY  65  65 17361 1 
+      . LEU  66  66 17361 1 
+      . THR  67  67 17361 1 
+      . MET  68  68 17361 1 
+      . VAL  69  69 17361 1 
+      . PRO  70  70 17361 1 
+      . PHE  71  71 17361 1 
+      . GLY  72  72 17361 1 
+      . GLY  73  73 17361 1 
+      . GLU  74  74 17361 1 
+      . GLN  75  75 17361 1 
+      . ASN  76  76 17361 1 
+      . PRO  77  77 17361 1 
+      . ILE  78  78 17361 1 
+      . TYR  79  79 17361 1 
+      . TRP  80  80 17361 1 
+      . ALA  81  81 17361 1 
+      . ARG  82  82 17361 1 
+      . TYR  83  83 17361 1 
+      . ALA  84  84 17361 1 
+      . ASP  85  85 17361 1 
+      . TRP  86  86 17361 1 
+      . LEU  87  87 17361 1 
+      . PHE  88  88 17361 1 
+      . THR  89  89 17361 1 
+      . THR  90  90 17361 1 
+      . PRO  91  91 17361 1 
+      . LEU  92  92 17361 1 
+      . LEU  93  93 17361 1 
+      . LEU  94  94 17361 1 
+      . LEU  95  95 17361 1 
+      . ASP  96  96 17361 1 
+      . LEU  97  97 17361 1 
+      . ALA  98  98 17361 1 
+      . LEU  99  99 17361 1 
+      . LEU 100 100 17361 1 
+      . VAL 101 101 17361 1 
+      . ASP 102 102 17361 1 
+      . ALA 103 103 17361 1 
+      . ASP 104 104 17361 1 
+      . GLN 105 105 17361 1 
+      . GLY 106 106 17361 1 
+      . THR 107 107 17361 1 
+      . ILE 108 108 17361 1 
+      . LEU 109 109 17361 1 
+      . ALA 110 110 17361 1 
+      . LEU 111 111 17361 1 
+      . VAL 112 112 17361 1 
+      . GLY 113 113 17361 1 
+      . ALA 114 114 17361 1 
+      . ASP 115 115 17361 1 
+      . GLY 116 116 17361 1 
+      . ILE 117 117 17361 1 
+      . MET 118 118 17361 1 
+      . ILE 119 119 17361 1 
+      . GLY 120 120 17361 1 
+      . THR 121 121 17361 1 
+      . GLY 122 122 17361 1 
+      . LEU 123 123 17361 1 
+      . VAL 124 124 17361 1 
+      . GLY 125 125 17361 1 
+      . ALA 126 126 17361 1 
+      . LEU 127 127 17361 1 
+      . THR 128 128 17361 1 
+      . LYS 129 129 17361 1 
+      . VAL 130 130 17361 1 
+      . TYR 131 131 17361 1 
+      . SER 132 132 17361 1 
+      . TYR 133 133 17361 1 
+      . ARG 134 134 17361 1 
+      . PHE 135 135 17361 1 
+      . VAL 136 136 17361 1 
+      . TRP 137 137 17361 1 
+      . TRP 138 138 17361 1 
+      . ALA 139 139 17361 1 
+      . ILE 140 140 17361 1 
+      . SER 141 141 17361 1 
+      . THR 142 142 17361 1 
+      . ALA 143 143 17361 1 
+      . ALA 144 144 17361 1 
+      . MET 145 145 17361 1 
+      . LEU 146 146 17361 1 
+      . TYR 147 147 17361 1 
+      . ILE 148 148 17361 1 
+      . LEU 149 149 17361 1 
+      . TYR 150 150 17361 1 
+      . VAL 151 151 17361 1 
+      . LEU 152 152 17361 1 
+      . PHE 153 153 17361 1 
+      . PHE 154 154 17361 1 
+      . GLY 155 155 17361 1 
+      . PHE 156 156 17361 1 
+      . THR 157 157 17361 1 
+      . SER 158 158 17361 1 
+      . LYS 159 159 17361 1 
+      . ALA 160 160 17361 1 
+      . GLU 161 161 17361 1 
+      . SER 162 162 17361 1 
+      . MET 163 163 17361 1 
+      . ARG 164 164 17361 1 
+      . PRO 165 165 17361 1 
+      . GLU 166 166 17361 1 
+      . VAL 167 167 17361 1 
+      . ALA 168 168 17361 1 
+      . SER 169 169 17361 1 
+      . THR 170 170 17361 1 
+      . PHE 171 171 17361 1 
+      . LYS 172 172 17361 1 
+      . VAL 173 173 17361 1 
+      . LEU 174 174 17361 1 
+      . ARG 175 175 17361 1 
+      . ASN 176 176 17361 1 
+      . VAL 177 177 17361 1 
+      . THR 178 178 17361 1 
+      . VAL 179 179 17361 1 
+      . VAL 180 180 17361 1 
+      . LEU 181 181 17361 1 
+      . TRP 182 182 17361 1 
+      . SER 183 183 17361 1 
+      . ALA 184 184 17361 1 
+      . TYR 185 185 17361 1 
+      . PRO 186 186 17361 1 
+      . VAL 187 187 17361 1 
+      . VAL 188 188 17361 1 
+      . TRP 189 189 17361 1 
+      . LEU 190 190 17361 1 
+      . ILE 191 191 17361 1 
+      . GLY 192 192 17361 1 
+      . SER 193 193 17361 1 
+      . GLU 194 194 17361 1 
+      . GLY 195 195 17361 1 
+      . ALA 196 196 17361 1 
+      . GLY 197 197 17361 1 
+      . ILE 198 198 17361 1 
+      . VAL 199 199 17361 1 
+      . PRO 200 200 17361 1 
+      . LEU 201 201 17361 1 
+      . ASN 202 202 17361 1 
+      . ILE 203 203 17361 1 
+      . GLU 204 204 17361 1 
+      . THR 205 205 17361 1 
+      . LEU 206 206 17361 1 
+      . LEU 207 207 17361 1 
+      . PHE 208 208 17361 1 
+      . MET 209 209 17361 1 
+      . VAL 210 210 17361 1 
+      . LEU 211 211 17361 1 
+      . ASP 212 212 17361 1 
+      . VAL 213 213 17361 1 
+      . SER 214 214 17361 1 
+      . ALA 215 215 17361 1 
+      . LYS 216 216 17361 1 
+      . VAL 217 217 17361 1 
+      . GLY 218 218 17361 1 
+      . PHE 219 219 17361 1 
+      . GLY 220 220 17361 1 
+      . LEU 221 221 17361 1 
+      . ILE 222 222 17361 1 
+      . LEU 223 223 17361 1 
+      . LEU 224 224 17361 1 
+      . ARG 225 225 17361 1 
+      . SER 226 226 17361 1 
+      . ARG 227 227 17361 1 
+      . ALA 228 228 17361 1 
+      . ILE 229 229 17361 1 
+      . PHE 230 230 17361 1 
+      . GLY 231 231 17361 1 
+      . GLU 232 232 17361 1 
+      . ALA 233 233 17361 1 
+      . GLU 234 234 17361 1 
+      . ALA 235 235 17361 1 
+      . PRO 236 236 17361 1 
+      . GLU 237 237 17361 1 
+      . PRO 238 238 17361 1 
+      . SER 239 239 17361 1 
+      . ALA 240 240 17361 1 
+      . GLY 241 241 17361 1 
+      . ASP 242 242 17361 1 
+      . GLY 243 243 17361 1 
+      . ALA 244 244 17361 1 
+      . ALA 245 245 17361 1 
+      . ALA 246 246 17361 1 
+      . THR 247 247 17361 1 
+      . SER 248 248 17361 1 
+      . ASP 249 249 17361 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       17361
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $bR . 2242 organism . 'Halobacterium salinarum' 'Halobacterium salinarum' . . Archaea . Halobacterium salinarum . . . . . . . . . . . . . . . . . . . . . 17361 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       17361
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $bR . 'purified from the natural source' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17361 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         17361
+   _Sample.ID                               1
+   _Sample.Type                             membrane
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                  '95% H2O/5% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1  bR                      '[U-100% 13C; U-100% 15N]' . . 1 $bR . . 18    . . mg . . . . 17361 1 
+      2 'sodium citrate'         'natural abundance'        . .  .  .  . . 20    . . mM . . . . 17361 1 
+      3 'sodium azide'           'natural abundance'        . .  .  .  . .  0.01 . . %  . . . . 17361 1 
+      4  H2O                     'natural abundance'        . .  .  .  . . 95    . . %  . . . . 17361 1 
+      5  D2O                     'natural abundance'        . .  .  .  . .  5    . . %  . . . . 17361 1 
+      6 'purple membrane lipids' '[U-100% 13C; U-100% 15N]' . .  .  .  . .  6    . . mg . . . . 17361 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       17361
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   0.2  . mM  17361 1 
+       pH                6.0  . pH  17361 1 
+       pressure          1    . atm 17361 1 
+       temperature     278   5 K   17361 1 
+
+   stop_
+
+save_
+
+
+save_sample_conditions_2
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_2
+   _Sample_condition_list.Entry_ID       17361
+   _Sample_condition_list.ID             2
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   0.2  . mM  17361 2 
+       pH                6.0  . pH  17361 2 
+       pressure          1    . atm 17361 2 
+       temperature     263   5 K   17361 2 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_NMRPipe
+   _Software.Sf_category    software
+   _Software.Sf_framecode   NMRPipe
+   _Software.Entry_ID       17361
+   _Software.ID             1
+   _Software.Name           NMRPipe
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Delaglio, Grzesiek, Vuister, Zhu, Pfeifer and Bax' . . 17361 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      processing 17361 1 
+
+   stop_
+
+save_
+
+
+save_Analysis
+   _Software.Sf_category    software
+   _Software.Sf_framecode   Analysis
+   _Software.Entry_ID       17361
+   _Software.ID             2
+   _Software.Name           Analysis
+   _Software.Version        2.1.15
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      CCPN . . 17361 2 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'chemical shift assignment' 17361 2 
+      'peak picking'              17361 2 
+
+   stop_
+
+save_
+
+
+save_Spinsight
+   _Software.Sf_category    software
+   _Software.Sf_framecode   Spinsight
+   _Software.Entry_ID       17361
+   _Software.ID             3
+   _Software.Name           Spinsight
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      Chemagnetics/Varian . . 17361 3 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      collection 17361 3 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         17361
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model           'Infinity Plus'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   800
+
+save_
+
+
+save_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_2
+   _NMR_spectrometer.Entry_ID         17361
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model           'Infinity Plus'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   500
+
+save_
+
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       17361
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 spectrometer_1 Varian 'Infinity Plus' . 800 . . . 17361 1 
+      2 spectrometer_2 Varian 'Infinity Plus' . 500 . . . 17361 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       17361
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 DARR    no . . . . . . . . . . 1 $sample_1 solid     . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 17361 1 
+      2 NCACX   no . . . . . . . . . . 1 $sample_1 isotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 17361 1 
+      3 NCOCX   no . . . . . . . . . . 1 $sample_1 isotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 17361 1 
+      4 CANCO   no . . . . . . . . . . 1 $sample_1 isotropic . . 2 $sample_conditions_2 . . . 2 $spectrometer_2 . . . . . . . . . . . . . . . . 17361 1 
+      5 CANCOCX no . . . . . . . . . . 1 $sample_1 isotropic . . 2 $sample_conditions_2 . . . 2 $spectrometer_2 . . . . . . . . . . . . . . . . 17361 1 
+
+   stop_
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       17361
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C 13 adamantane 'methylene carbons' . . . . ppm 40.48 external direct   1.0         . . . 1 $entry_citation . . 1 $entry_citation 17361 1 
+      N 15 adamantane 'methylene carbons' . . . . ppm 40.48 external indirect 0.402979946 . . . 1 $entry_citation . . 1 $entry_citation 17361 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      17361
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 DARR    . . . 17361 1 
+      2 NCACX   . . . 17361 1 
+      3 NCOCX   . . . 17361 1 
+      4 CANCO   . . . 17361 1 
+      5 CANCOCX . . . 17361 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1  19  19 LEU C   C 13 179.667 0.029 . 1 . . . .  19 LEU C   . 17361 1 
+        2 . 1 1  19  19 LEU CA  C 13  58.510 0.000 . 1 . . . .  19 LEU CA  . 17361 1 
+        3 . 1 1  19  19 LEU CB  C 13  42.084 0.014 . 1 . . . .  19 LEU CB  . 17361 1 
+        4 . 1 1  19  19 LEU CG  C 13  27.379 0.000 . 1 . . . .  19 LEU CG  . 17361 1 
+        5 . 1 1  19  19 LEU CD1 C 13  22.755 0.000 . 2 . . . .  19 LEU CD1 . 17361 1 
+        6 . 1 1  19  19 LEU CD2 C 13  26.430 0.000 . 2 . . . .  19 LEU CD2 . 17361 1 
+        7 . 1 1  20  20 MET C   C 13 180.804 0.059 . 1 . . . .  20 MET C   . 17361 1 
+        8 . 1 1  20  20 MET CA  C 13  57.400 0.138 . 1 . . . .  20 MET CA  . 17361 1 
+        9 . 1 1  20  20 MET CB  C 13  34.211 0.054 . 1 . . . .  20 MET CB  . 17361 1 
+       10 . 1 1  20  20 MET CG  C 13  30.656 0.083 . 1 . . . .  20 MET CG  . 17361 1 
+       11 . 1 1  20  20 MET N   N 15 115.577 0.101 . 1 . . . .  20 MET N   . 17361 1 
+       12 . 1 1  21  21 GLY C   C 13 173.946 0.000 . 1 . . . .  21 GLY C   . 17361 1 
+       13 . 1 1  21  21 GLY CA  C 13  47.925 0.044 . 1 . . . .  21 GLY CA  . 17361 1 
+       14 . 1 1  21  21 GLY N   N 15 109.977 0.138 . 1 . . . .  21 GLY N   . 17361 1 
+       15 . 1 1  34  34 VAL C   C 13 175.438 0.047 . 1 . . . .  34 VAL C   . 17361 1 
+       16 . 1 1  34  34 VAL CA  C 13  63.121 0.036 . 1 . . . .  34 VAL CA  . 17361 1 
+       17 . 1 1  34  34 VAL CB  C 13  32.176 0.081 . 1 . . . .  34 VAL CB  . 17361 1 
+       18 . 1 1  34  34 VAL CG1 C 13  21.796 0.023 . 2 . . . .  34 VAL CG1 . 17361 1 
+       19 . 1 1  34  34 VAL CG2 C 13  22.018 0.000 . 2 . . . .  34 VAL CG2 . 17361 1 
+       20 . 1 1  34  34 VAL N   N 15 122.009 0.034 . 1 . . . .  34 VAL N   . 17361 1 
+       21 . 1 1  35  35 SER C   C 13 174.813 0.063 . 1 . . . .  35 SER C   . 17361 1 
+       22 . 1 1  35  35 SER CA  C 13  57.936 0.025 . 1 . . . .  35 SER CA  . 17361 1 
+       23 . 1 1  35  35 SER CB  C 13  64.901 0.032 . 1 . . . .  35 SER CB  . 17361 1 
+       24 . 1 1  35  35 SER N   N 15 120.905 0.147 . 1 . . . .  35 SER N   . 17361 1 
+       25 . 1 1  36  36 ASP C   C 13 174.789 0.200 . 1 . . . .  36 ASP C   . 17361 1 
+       26 . 1 1  36  36 ASP CA  C 13  52.546 0.068 . 1 . . . .  36 ASP CA  . 17361 1 
+       27 . 1 1  36  36 ASP CB  C 13  43.577 0.082 . 1 . . . .  36 ASP CB  . 17361 1 
+       28 . 1 1  36  36 ASP CG  C 13 179.410 0.017 . 1 . . . .  36 ASP CG  . 17361 1 
+       29 . 1 1  36  36 ASP N   N 15 126.512 0.085 . 1 . . . .  36 ASP N   . 17361 1 
+       30 . 1 1  37  37 PRO C   C 13 179.593 0.098 . 1 . . . .  37 PRO C   . 17361 1 
+       31 . 1 1  37  37 PRO CA  C 13  65.393 0.081 . 1 . . . .  37 PRO CA  . 17361 1 
+       32 . 1 1  37  37 PRO CB  C 13  32.285 0.052 . 1 . . . .  37 PRO CB  . 17361 1 
+       33 . 1 1  37  37 PRO CG  C 13  27.795 0.039 . 1 . . . .  37 PRO CG  . 17361 1 
+       34 . 1 1  37  37 PRO CD  C 13  51.219 0.026 . 1 . . . .  37 PRO CD  . 17361 1 
+       35 . 1 1  37  37 PRO N   N 15 139.092 0.196 . 1 . . . .  37 PRO N   . 17361 1 
+       36 . 1 1  67  67 THR C   C 13 176.629 0.101 . 1 . . . .  67 THR C   . 17361 1 
+       37 . 1 1  67  67 THR CA  C 13  66.113 0.058 . 1 . . . .  67 THR CA  . 17361 1 
+       38 . 1 1  67  67 THR CB  C 13  68.444 0.028 . 1 . . . .  67 THR CB  . 17361 1 
+       39 . 1 1  67  67 THR CG2 C 13  23.516 0.026 . 1 . . . .  67 THR CG2 . 17361 1 
+       40 . 1 1  67  67 THR N   N 15 110.547 0.027 . 1 . . . .  67 THR N   . 17361 1 
+       41 . 1 1  68  68 MET C   C 13 176.675 0.139 . 1 . . . .  68 MET C   . 17361 1 
+       42 . 1 1  68  68 MET CA  C 13  52.738 0.039 . 1 . . . .  68 MET CA  . 17361 1 
+       43 . 1 1  68  68 MET CB  C 13  33.124 0.036 . 1 . . . .  68 MET CB  . 17361 1 
+       44 . 1 1  68  68 MET CG  C 13  32.348 0.044 . 1 . . . .  68 MET CG  . 17361 1 
+       45 . 1 1  68  68 MET CE  C 13  17.375 0.005 . 1 . . . .  68 MET CE  . 17361 1 
+       46 . 1 1  68  68 MET N   N 15 121.788 0.196 . 1 . . . .  68 MET N   . 17361 1 
+       47 . 1 1  69  69 VAL C   C 13 174.691 0.034 . 1 . . . .  69 VAL C   . 17361 1 
+       48 . 1 1  69  69 VAL CA  C 13  58.713 0.062 . 1 . . . .  69 VAL CA  . 17361 1 
+       49 . 1 1  69  69 VAL CB  C 13  35.985 0.005 . 1 . . . .  69 VAL CB  . 17361 1 
+       50 . 1 1  69  69 VAL CG1 C 13  22.693 0.050 . 2 . . . .  69 VAL CG1 . 17361 1 
+       51 . 1 1  69  69 VAL CG2 C 13  21.062 0.025 . 2 . . . .  69 VAL CG2 . 17361 1 
+       52 . 1 1  69  69 VAL N   N 15 126.001 0.095 . 1 . . . .  69 VAL N   . 17361 1 
+       53 . 1 1  70  70 PRO C   C 13 176.885 0.076 . 1 . . . .  70 PRO C   . 17361 1 
+       54 . 1 1  70  70 PRO CA  C 13  61.666 0.041 . 1 . . . .  70 PRO CA  . 17361 1 
+       55 . 1 1  70  70 PRO CB  C 13  31.471 0.052 . 1 . . . .  70 PRO CB  . 17361 1 
+       56 . 1 1  70  70 PRO CG  C 13  27.138 0.041 . 1 . . . .  70 PRO CG  . 17361 1 
+       57 . 1 1  70  70 PRO CD  C 13  51.303 0.078 . 1 . . . .  70 PRO CD  . 17361 1 
+       58 . 1 1  70  70 PRO N   N 15 143.503 0.104 . 1 . . . .  70 PRO N   . 17361 1 
+       59 . 1 1  71  71 PHE C   C 13 177.574 0.133 . 1 . . . .  71 PHE C   . 17361 1 
+       60 . 1 1  71  71 PHE CA  C 13  58.928 0.078 . 1 . . . .  71 PHE CA  . 17361 1 
+       61 . 1 1  71  71 PHE CB  C 13  40.305 0.045 . 1 . . . .  71 PHE CB  . 17361 1 
+       62 . 1 1  71  71 PHE N   N 15 114.767 0.127 . 1 . . . .  71 PHE N   . 17361 1 
+       63 . 1 1  72  72 GLY C   C 13 175.199 0.097 . 1 . . . .  72 GLY C   . 17361 1 
+       64 . 1 1  72  72 GLY CA  C 13  46.464 0.128 . 1 . . . .  72 GLY CA  . 17361 1 
+       65 . 1 1  72  72 GLY N   N 15 110.164 0.185 . 1 . . . .  72 GLY N   . 17361 1 
+       66 . 1 1  73  73 GLY C   C 13 173.614 0.086 . 1 . . . .  73 GLY C   . 17361 1 
+       67 . 1 1  73  73 GLY CA  C 13  45.001 0.153 . 1 . . . .  73 GLY CA  . 17361 1 
+       68 . 1 1  73  73 GLY N   N 15 106.204 0.185 . 1 . . . .  73 GLY N   . 17361 1 
+       69 . 1 1  74  74 GLU C   C 13 174.853 0.104 . 1 . . . .  74 GLU C   . 17361 1 
+       70 . 1 1  74  74 GLU CA  C 13  53.703 0.104 . 1 . . . .  74 GLU CA  . 17361 1 
+       71 . 1 1  74  74 GLU CB  C 13  33.101 0.036 . 1 . . . .  74 GLU CB  . 17361 1 
+       72 . 1 1  74  74 GLU N   N 15 118.139 0.036 . 1 . . . .  74 GLU N   . 17361 1 
+       73 . 1 1  75  75 GLN C   C 13 175.096 0.077 . 1 . . . .  75 GLN C   . 17361 1 
+       74 . 1 1  75  75 GLN CA  C 13  55.296 0.061 . 1 . . . .  75 GLN CA  . 17361 1 
+       75 . 1 1  75  75 GLN CB  C 13  29.046 0.163 . 1 . . . .  75 GLN CB  . 17361 1 
+       76 . 1 1  75  75 GLN CG  C 13  33.014 0.070 . 1 . . . .  75 GLN CG  . 17361 1 
+       77 . 1 1  75  75 GLN N   N 15 119.249 0.101 . 1 . . . .  75 GLN N   . 17361 1 
+       78 . 1 1  76  76 ASN C   C 13 172.439 0.062 . 1 . . . .  76 ASN C   . 17361 1 
+       79 . 1 1  76  76 ASN CA  C 13  51.393 0.024 . 1 . . . .  76 ASN CA  . 17361 1 
+       80 . 1 1  76  76 ASN CB  C 13  41.051 0.033 . 1 . . . .  76 ASN CB  . 17361 1 
+       81 . 1 1  76  76 ASN CG  C 13 175.304 0.029 . 1 . . . .  76 ASN CG  . 17361 1 
+       82 . 1 1  76  76 ASN N   N 15 122.741 0.130 . 1 . . . .  76 ASN N   . 17361 1 
+       83 . 1 1  77  77 PRO C   C 13 175.799 0.083 . 1 . . . .  77 PRO C   . 17361 1 
+       84 . 1 1  77  77 PRO CA  C 13  62.420 0.025 . 1 . . . .  77 PRO CA  . 17361 1 
+       85 . 1 1  77  77 PRO CB  C 13  32.006 0.058 . 1 . . . .  77 PRO CB  . 17361 1 
+       86 . 1 1  77  77 PRO CG  C 13  28.031 0.056 . 1 . . . .  77 PRO CG  . 17361 1 
+       87 . 1 1  77  77 PRO CD  C 13  50.850 0.126 . 1 . . . .  77 PRO CD  . 17361 1 
+       88 . 1 1  77  77 PRO N   N 15 137.630 0.103 . 1 . . . .  77 PRO N   . 17361 1 
+       89 . 1 1  78  78 ILE C   C 13 176.422 0.032 . 1 . . . .  78 ILE C   . 17361 1 
+       90 . 1 1  78  78 ILE CA  C 13  56.870 0.121 . 1 . . . .  78 ILE CA  . 17361 1 
+       91 . 1 1  78  78 ILE CB  C 13  38.640 0.078 . 1 . . . .  78 ILE CB  . 17361 1 
+       92 . 1 1  78  78 ILE CG1 C 13  25.613 0.046 . 1 . . . .  78 ILE CG1 . 17361 1 
+       93 . 1 1  78  78 ILE CG2 C 13  15.958 0.040 . 1 . . . .  78 ILE CG2 . 17361 1 
+       94 . 1 1  78  78 ILE CD1 C 13  10.506 0.028 . 1 . . . .  78 ILE CD1 . 17361 1 
+       95 . 1 1  78  78 ILE N   N 15 126.041 0.143 . 1 . . . .  78 ILE N   . 17361 1 
+       96 . 1 1  79  79 TYR C   C 13 176.539 0.072 . 1 . . . .  79 TYR C   . 17361 1 
+       97 . 1 1  79  79 TYR CA  C 13  58.356 0.064 . 1 . . . .  79 TYR CA  . 17361 1 
+       98 . 1 1  79  79 TYR CB  C 13  37.603 0.004 . 1 . . . .  79 TYR CB  . 17361 1 
+       99 . 1 1  79  79 TYR N   N 15 128.222 0.105 . 1 . . . .  79 TYR N   . 17361 1 
+      100 . 1 1 116 116 GLY C   C 13 176.323 0.083 . 1 . . . . 116 GLY C   . 17361 1 
+      101 . 1 1 116 116 GLY CA  C 13  47.719 0.089 . 1 . . . . 116 GLY CA  . 17361 1 
+      102 . 1 1 116 116 GLY N   N 15 107.717 0.126 . 1 . . . . 116 GLY N   . 17361 1 
+      103 . 1 1 117 117 ILE C   C 13 178.731 0.038 . 1 . . . . 117 ILE C   . 17361 1 
+      104 . 1 1 117 117 ILE CA  C 13  65.845 0.083 . 1 . . . . 117 ILE CA  . 17361 1 
+      105 . 1 1 117 117 ILE CB  C 13  37.426 0.105 . 1 . . . . 117 ILE CB  . 17361 1 
+      106 . 1 1 117 117 ILE CG1 C 13  29.849 0.014 . 1 . . . . 117 ILE CG1 . 17361 1 
+      107 . 1 1 117 117 ILE CG2 C 13  16.877 0.064 . 1 . . . . 117 ILE CG2 . 17361 1 
+      108 . 1 1 117 117 ILE CD1 C 13  13.601 0.072 . 1 . . . . 117 ILE CD1 . 17361 1 
+      109 . 1 1 117 117 ILE N   N 15 121.341 0.140 . 1 . . . . 117 ILE N   . 17361 1 
+      110 . 1 1 118 118 MET C   C 13 178.682 0.026 . 1 . . . . 118 MET C   . 17361 1 
+      111 . 1 1 118 118 MET CA  C 13  59.215 0.066 . 1 . . . . 118 MET CA  . 17361 1 
+      112 . 1 1 118 118 MET CB  C 13  34.179 0.074 . 1 . . . . 118 MET CB  . 17361 1 
+      113 . 1 1 118 118 MET CG  C 13  29.922 0.016 . 1 . . . . 118 MET CG  . 17361 1 
+      114 . 1 1 118 118 MET N   N 15 124.788 0.114 . 1 . . . . 118 MET N   . 17361 1 
+      115 . 1 1 119 119 ILE C   C 13 178.153 0.019 . 1 . . . . 119 ILE C   . 17361 1 
+      116 . 1 1 119 119 ILE CA  C 13  61.752 0.035 . 1 . . . . 119 ILE CA  . 17361 1 
+      117 . 1 1 119 119 ILE CB  C 13  34.206 0.070 . 1 . . . . 119 ILE CB  . 17361 1 
+      118 . 1 1 119 119 ILE CG1 C 13  25.841 0.057 . 1 . . . . 119 ILE CG1 . 17361 1 
+      119 . 1 1 119 119 ILE CG2 C 13  19.773 0.038 . 1 . . . . 119 ILE CG2 . 17361 1 
+      120 . 1 1 119 119 ILE CD1 C 13   9.821 0.034 . 1 . . . . 119 ILE CD1 . 17361 1 
+      121 . 1 1 119 119 ILE N   N 15 117.783 0.054 . 1 . . . . 119 ILE N   . 17361 1 
+      122 . 1 1 120 120 GLY C   C 13 175.178 0.073 . 1 . . . . 120 GLY C   . 17361 1 
+      123 . 1 1 120 120 GLY CA  C 13  47.855 0.068 . 1 . . . . 120 GLY CA  . 17361 1 
+      124 . 1 1 120 120 GLY N   N 15 107.897 0.055 . 1 . . . . 120 GLY N   . 17361 1 
+      125 . 1 1 121 121 THR C   C 13 177.715 0.072 . 1 . . . . 121 THR C   . 17361 1 
+      126 . 1 1 121 121 THR CA  C 13  65.643 0.077 . 1 . . . . 121 THR CA  . 17361 1 
+      127 . 1 1 121 121 THR CB  C 13  68.843 0.124 . 1 . . . . 121 THR CB  . 17361 1 
+      128 . 1 1 121 121 THR N   N 15 109.662 0.144 . 1 . . . . 121 THR N   . 17361 1 
+      129 . 1 1 122 122 GLY C   C 13 174.036 0.057 . 1 . . . . 122 GLY C   . 17361 1 
+      130 . 1 1 122 122 GLY CA  C 13  47.913 0.064 . 1 . . . . 122 GLY CA  . 17361 1 
+      131 . 1 1 122 122 GLY N   N 15 111.526 0.144 . 1 . . . . 122 GLY N   . 17361 1 
+      132 . 1 1 129 129 LYS C   C 13 175.602 0.021 . 1 . . . . 129 LYS C   . 17361 1 
+      133 . 1 1 129 129 LYS CA  C 13  58.069 0.103 . 1 . . . . 129 LYS CA  . 17361 1 
+      134 . 1 1 129 129 LYS CB  C 13  33.918 0.041 . 1 . . . . 129 LYS CB  . 17361 1 
+      135 . 1 1 129 129 LYS CG  C 13  25.815 0.005 . 1 . . . . 129 LYS CG  . 17361 1 
+      136 . 1 1 129 129 LYS CD  C 13  29.942 0.055 . 1 . . . . 129 LYS CD  . 17361 1 
+      137 . 1 1 129 129 LYS CE  C 13  42.265 0.000 . 1 . . . . 129 LYS CE  . 17361 1 
+      138 . 1 1 129 129 LYS N   N 15 125.478 0.052 . 1 . . . . 129 LYS N   . 17361 1 
+      139 . 1 1 130 130 VAL C   C 13 176.690 0.086 . 1 . . . . 130 VAL C   . 17361 1 
+      140 . 1 1 130 130 VAL CA  C 13  61.415 0.094 . 1 . . . . 130 VAL CA  . 17361 1 
+      141 . 1 1 130 130 VAL CB  C 13  33.243 0.055 . 1 . . . . 130 VAL CB  . 17361 1 
+      142 . 1 1 130 130 VAL CG2 C 13  20.114 0.057 . 1 . . . . 130 VAL CG2 . 17361 1 
+      143 . 1 1 130 130 VAL N   N 15 119.376 0.152 . 1 . . . . 130 VAL N   . 17361 1 
+      144 . 1 1 131 131 TYR C   C 13 176.891 0.093 . 1 . . . . 131 TYR C   . 17361 1 
+      145 . 1 1 131 131 TYR CA  C 13  62.388 0.126 . 1 . . . . 131 TYR CA  . 17361 1 
+      146 . 1 1 131 131 TYR CB  C 13  38.948 0.075 . 1 . . . . 131 TYR CB  . 17361 1 
+      147 . 1 1 131 131 TYR N   N 15 129.029 0.091 . 1 . . . . 131 TYR N   . 17361 1 
+      148 . 1 1 132 132 SER C   C 13 176.452 0.063 . 1 . . . . 132 SER C   . 17361 1 
+      149 . 1 1 132 132 SER CA  C 13  62.385 0.105 . 1 . . . . 132 SER CA  . 17361 1 
+      150 . 1 1 132 132 SER CB  C 13  62.956 0.044 . 1 . . . . 132 SER CB  . 17361 1 
+      151 . 1 1 132 132 SER N   N 15 110.521 0.107 . 1 . . . . 132 SER N   . 17361 1 
+      152 . 1 1 156 156 PHE C   C 13 177.923 0.079 . 1 . . . . 156 PHE C   . 17361 1 
+      153 . 1 1 156 156 PHE CA  C 13  58.935 0.117 . 1 . . . . 156 PHE CA  . 17361 1 
+      154 . 1 1 156 156 PHE CB  C 13  42.436 0.113 . 1 . . . . 156 PHE CB  . 17361 1 
+      155 . 1 1 156 156 PHE N   N 15 107.817 0.131 . 1 . . . . 156 PHE N   . 17361 1 
+      156 . 1 1 157 157 THR C   C 13 177.771 0.040 . 1 . . . . 157 THR C   . 17361 1 
+      157 . 1 1 157 157 THR CA  C 13  65.718 0.053 . 1 . . . . 157 THR CA  . 17361 1 
+      158 . 1 1 157 157 THR CB  C 13  69.733 0.084 . 1 . . . . 157 THR CB  . 17361 1 
+      159 . 1 1 157 157 THR CG2 C 13  24.699 0.095 . 1 . . . . 157 THR CG2 . 17361 1 
+      160 . 1 1 157 157 THR N   N 15 109.237 0.097 . 1 . . . . 157 THR N   . 17361 1 
+      161 . 1 1 158 158 SER CA  C 13  58.264 0.134 . 1 . . . . 158 SER CA  . 17361 1 
+      162 . 1 1 158 158 SER CB  C 13  64.270 0.027 . 1 . . . . 158 SER CB  . 17361 1 
+      163 . 1 1 158 158 SER N   N 15 112.663 0.173 . 1 . . . . 158 SER N   . 17361 1 
+      164 . 1 1 167 167 VAL C   C 13 176.838 0.055 . 1 . . . . 167 VAL C   . 17361 1 
+      165 . 1 1 167 167 VAL CA  C 13  66.006 0.120 . 1 . . . . 167 VAL CA  . 17361 1 
+      166 . 1 1 167 167 VAL CB  C 13  31.531 0.045 . 1 . . . . 167 VAL CB  . 17361 1 
+      167 . 1 1 167 167 VAL CG1 C 13  21.740 0.048 . 2 . . . . 167 VAL CG1 . 17361 1 
+      168 . 1 1 167 167 VAL CG2 C 13  23.092 0.012 . 2 . . . . 167 VAL CG2 . 17361 1 
+      169 . 1 1 167 167 VAL N   N 15 120.878 0.058 . 1 . . . . 167 VAL N   . 17361 1 
+      170 . 1 1 168 168 ALA C   C 13 180.199 0.057 . 1 . . . . 168 ALA C   . 17361 1 
+      171 . 1 1 168 168 ALA CA  C 13  56.232 0.091 . 1 . . . . 168 ALA CA  . 17361 1 
+      172 . 1 1 168 168 ALA CB  C 13  18.530 0.011 . 1 . . . . 168 ALA CB  . 17361 1 
+      173 . 1 1 168 168 ALA N   N 15 121.818 0.127 . 1 . . . . 168 ALA N   . 17361 1 
+      174 . 1 1 169 169 SER C   C 13 177.299 0.037 . 1 . . . . 169 SER C   . 17361 1 
+      175 . 1 1 169 169 SER CA  C 13  61.545 0.094 . 1 . . . . 169 SER CA  . 17361 1 
+      176 . 1 1 169 169 SER CB  C 13  62.724 0.054 . 1 . . . . 169 SER CB  . 17361 1 
+      177 . 1 1 169 169 SER N   N 15 111.415 0.115 . 1 . . . . 169 SER N   . 17361 1 
+      178 . 1 1 170 170 THR C   C 13 175.394 0.001 . 1 . . . . 170 THR C   . 17361 1 
+      179 . 1 1 170 170 THR CA  C 13  66.897 0.025 . 1 . . . . 170 THR CA  . 17361 1 
+      180 . 1 1 170 170 THR CB  C 13  67.974 0.065 . 1 . . . . 170 THR CB  . 17361 1 
+      181 . 1 1 170 170 THR CG2 C 13  22.070 0.000 . 1 . . . . 170 THR CG2 . 17361 1 
+      182 . 1 1 170 170 THR N   N 15 119.214 0.063 . 1 . . . . 170 THR N   . 17361 1 
+      183 . 1 1 189 189 TRP C   C 13 177.596 0.034 . 1 . . . . 189 TRP C   . 17361 1 
+      184 . 1 1 189 189 TRP CA  C 13  61.914 0.058 . 1 . . . . 189 TRP CA  . 17361 1 
+      185 . 1 1 189 189 TRP CB  C 13  33.713 0.006 . 1 . . . . 189 TRP CB  . 17361 1 
+      186 . 1 1 189 189 TRP N   N 15 118.020 0.003 . 1 . . . . 189 TRP N   . 17361 1 
+      187 . 1 1 190 190 LEU C   C 13 178.686 0.034 . 1 . . . . 190 LEU C   . 17361 1 
+      188 . 1 1 190 190 LEU CA  C 13  58.738 0.076 . 1 . . . . 190 LEU CA  . 17361 1 
+      189 . 1 1 190 190 LEU CB  C 13  43.055 0.019 . 1 . . . . 190 LEU CB  . 17361 1 
+      190 . 1 1 190 190 LEU CG  C 13  26.330 0.053 . 1 . . . . 190 LEU CG  . 17361 1 
+      191 . 1 1 190 190 LEU CD1 C 13  25.237 0.007 . 2 . . . . 190 LEU CD1 . 17361 1 
+      192 . 1 1 190 190 LEU CD2 C 13  23.192 0.043 . 2 . . . . 190 LEU CD2 . 17361 1 
+      193 . 1 1 190 190 LEU N   N 15 113.408 0.055 . 1 . . . . 190 LEU N   . 17361 1 
+      194 . 1 1 191 191 ILE C   C 13 176.113 0.070 . 1 . . . . 191 ILE C   . 17361 1 
+      195 . 1 1 191 191 ILE CA  C 13  62.010 0.088 . 1 . . . . 191 ILE CA  . 17361 1 
+      196 . 1 1 191 191 ILE CB  C 13  38.498 0.048 . 1 . . . . 191 ILE CB  . 17361 1 
+      197 . 1 1 191 191 ILE CG1 C 13  24.443 0.073 . 1 . . . . 191 ILE CG1 . 17361 1 
+      198 . 1 1 191 191 ILE CG2 C 13  17.240 0.031 . 1 . . . . 191 ILE CG2 . 17361 1 
+      199 . 1 1 191 191 ILE CD1 C 13  14.127 0.019 . 1 . . . . 191 ILE CD1 . 17361 1 
+      200 . 1 1 191 191 ILE N   N 15 107.020 0.102 . 1 . . . . 191 ILE N   . 17361 1 
+      201 . 1 1 192 192 GLY C   C 13 175.083 0.048 . 1 . . . . 192 GLY C   . 17361 1 
+      202 . 1 1 192 192 GLY CA  C 13  43.521 0.124 . 1 . . . . 192 GLY CA  . 17361 1 
+      203 . 1 1 192 192 GLY N   N 15 113.426 0.136 . 1 . . . . 192 GLY N   . 17361 1 
+      204 . 1 1 193 193 SER CA  C 13  61.829 0.045 . 1 . . . . 193 SER CA  . 17361 1 
+      205 . 1 1 193 193 SER CB  C 13  63.802 0.010 . 1 . . . . 193 SER CB  . 17361 1 
+      206 . 1 1 193 193 SER N   N 15 117.253 0.165 . 1 . . . . 193 SER N   . 17361 1 
+      207 . 1 1 194 194 GLU C   C 13 174.676 0.051 . 1 . . . . 194 GLU C   . 17361 1 
+      208 . 1 1 194 194 GLU CA  C 13  58.500 0.021 . 1 . . . . 194 GLU CA  . 17361 1 
+      209 . 1 1 195 195 GLY C   C 13 174.381 0.053 . 1 . . . . 195 GLY C   . 17361 1 
+      210 . 1 1 195 195 GLY CA  C 13  44.623 0.155 . 1 . . . . 195 GLY CA  . 17361 1 
+      211 . 1 1 195 195 GLY N   N 15 106.547 0.102 . 1 . . . . 195 GLY N   . 17361 1 
+      212 . 1 1 196 196 ALA C   C 13 178.703 0.056 . 1 . . . . 196 ALA C   . 17361 1 
+      213 . 1 1 196 196 ALA CA  C 13  53.020 0.118 . 1 . . . . 196 ALA CA  . 17361 1 
+      214 . 1 1 196 196 ALA CB  C 13  20.328 0.033 . 1 . . . . 196 ALA CB  . 17361 1 
+      215 . 1 1 196 196 ALA N   N 15 129.655 0.102 . 1 . . . . 196 ALA N   . 17361 1 
+      216 . 1 1 197 197 GLY C   C 13 175.249 0.073 . 1 . . . . 197 GLY C   . 17361 1 
+      217 . 1 1 197 197 GLY CA  C 13  47.405 0.081 . 1 . . . . 197 GLY CA  . 17361 1 
+      218 . 1 1 197 197 GLY N   N 15 106.594 0.200 . 1 . . . . 197 GLY N   . 17361 1 
+      219 . 1 1 198 198 ILE C   C 13 176.332 0.055 . 1 . . . . 198 ILE C   . 17361 1 
+      220 . 1 1 198 198 ILE CA  C 13  62.753 0.091 . 1 . . . . 198 ILE CA  . 17361 1 
+      221 . 1 1 198 198 ILE CB  C 13  39.020 0.013 . 1 . . . . 198 ILE CB  . 17361 1 
+      222 . 1 1 198 198 ILE CG1 C 13  28.162 0.056 . 1 . . . . 198 ILE CG1 . 17361 1 
+      223 . 1 1 198 198 ILE CG2 C 13  18.066 0.045 . 1 . . . . 198 ILE CG2 . 17361 1 
+      224 . 1 1 198 198 ILE CD1 C 13  13.924 0.036 . 1 . . . . 198 ILE CD1 . 17361 1 
+      225 . 1 1 198 198 ILE N   N 15 118.780 0.106 . 1 . . . . 198 ILE N   . 17361 1 
+      226 . 1 1 203 203 ILE C   C 13 177.634 0.095 . 1 . . . . 203 ILE C   . 17361 1 
+      227 . 1 1 203 203 ILE CA  C 13  62.142 0.070 . 1 . . . . 203 ILE CA  . 17361 1 
+      228 . 1 1 203 203 ILE CB  C 13  36.451 0.067 . 1 . . . . 203 ILE CB  . 17361 1 
+      229 . 1 1 203 203 ILE CG1 C 13  28.007 0.086 . 1 . . . . 203 ILE CG1 . 17361 1 
+      230 . 1 1 203 203 ILE CG2 C 13  17.355 0.053 . 1 . . . . 203 ILE CG2 . 17361 1 
+      231 . 1 1 203 203 ILE CD1 C 13  10.848 0.083 . 1 . . . . 203 ILE CD1 . 17361 1 
+      232 . 1 1 203 203 ILE N   N 15 119.356 0.083 . 1 . . . . 203 ILE N   . 17361 1 
+      233 . 1 1 204 204 GLU C   C 13 176.915 0.031 . 1 . . . . 204 GLU C   . 17361 1 
+      234 . 1 1 204 204 GLU CA  C 13  59.482 0.070 . 1 . . . . 204 GLU CA  . 17361 1 
+      235 . 1 1 204 204 GLU CB  C 13  28.731 0.044 . 1 . . . . 204 GLU CB  . 17361 1 
+      236 . 1 1 204 204 GLU CG  C 13  33.963 0.058 . 1 . . . . 204 GLU CG  . 17361 1 
+      237 . 1 1 204 204 GLU N   N 15 121.594 0.063 . 1 . . . . 204 GLU N   . 17361 1 
+      238 . 1 1 205 205 THR C   C 13 176.663 0.024 . 1 . . . . 205 THR C   . 17361 1 
+      239 . 1 1 205 205 THR CA  C 13  67.619 0.090 . 1 . . . . 205 THR CA  . 17361 1 
+      240 . 1 1 205 205 THR CB  C 13  67.935 0.001 . 1 . . . . 205 THR CB  . 17361 1 
+      241 . 1 1 205 205 THR CG2 C 13  22.615 0.016 . 1 . . . . 205 THR CG2 . 17361 1 
+      242 . 1 1 205 205 THR N   N 15 113.841 0.125 . 1 . . . . 205 THR N   . 17361 1 
+      243 . 1 1 206 206 LEU C   C 13 177.148 0.073 . 1 . . . . 206 LEU C   . 17361 1 
+      244 . 1 1 206 206 LEU CA  C 13  59.252 0.073 . 1 . . . . 206 LEU CA  . 17361 1 
+      245 . 1 1 206 206 LEU CB  C 13  39.870 0.092 . 1 . . . . 206 LEU CB  . 17361 1 
+      246 . 1 1 206 206 LEU CG  C 13  26.843 0.054 . 1 . . . . 206 LEU CG  . 17361 1 
+      247 . 1 1 206 206 LEU CD1 C 13  22.359 0.027 . 2 . . . . 206 LEU CD1 . 17361 1 
+      248 . 1 1 206 206 LEU CD2 C 13  25.551 0.082 . 2 . . . . 206 LEU CD2 . 17361 1 
+      249 . 1 1 206 206 LEU N   N 15 126.908 0.109 . 1 . . . . 206 LEU N   . 17361 1 
+      250 . 1 1 207 207 LEU CA  C 13  58.376 0.048 . 1 . . . . 207 LEU CA  . 17361 1 
+      251 . 1 1 207 207 LEU CB  C 13  41.087 0.000 . 1 . . . . 207 LEU CB  . 17361 1 
+      252 . 1 1 207 207 LEU CG  C 13  26.465 0.000 . 1 . . . . 207 LEU CG  . 17361 1 
+      253 . 1 1 207 207 LEU CD1 C 13  22.846 0.000 . 2 . . . . 207 LEU CD1 . 17361 1 
+      254 . 1 1 207 207 LEU CD2 C 13  25.743 0.000 . 2 . . . . 207 LEU CD2 . 17361 1 
+      255 . 1 1 207 207 LEU N   N 15 118.121 0.026 . 1 . . . . 207 LEU N   . 17361 1 
+
+   stop_
+
+save_
+

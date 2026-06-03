@@ -1,0 +1,1144 @@
+data_18129
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             18129
+   _Entry.Title                         
+;
+Structural Model for a 40-residue Beta-Amyloid Fibril with Three-Fold Symmetry, Positive Stagger
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2011-12-08
+   _Entry.Accession_date                 2011-12-08
+   _Entry.Last_release_date              .
+   _Entry.Original_release_date          .
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Robert Tycko     . . . 18129 
+      2 Anant  Paravastu . . . 18129 
+
+   stop_
+
+   loop_
+      _SG_project.SG_project_ID
+      _SG_project.Project_name
+      _SG_project.Full_name_of_center
+      _SG_project.Initial_of_center
+      _SG_project.Entry_ID
+
+      1 'not applicable' 'not applicable' . 18129 
+
+   stop_
+
+   loop_
+      _Struct_keywords.Keywords
+      _Struct_keywords.Text
+      _Struct_keywords.Entry_ID
+
+      'Alzheimer's disease' . 18129 
+       amyloid              . 18129 
+      'three-fold symmetry' . 18129 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 18129 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts' 90 18129 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      2 . . 2012-01-11 2011-12-08 update   author 'update chemical shifts' 18129 
+      1 . . 2012-01-05 2011-12-08 original author 'original release'       18129 
+
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB 18127 '40-Residue Beta-Amyloid Fibril with Two-Fold Symmetry'                     18129 
+      BMRB 18128 '40-Residue Beta-Amyloid Fibril with Two-Fold Symmetry, Negative Stagger'   18129 
+      BMRB 18131 '40-residue Beta-Amyloid Fibril with Three-Fold Symmetry, Negative Stagger' 18129 
+      PDB  2LMP   'BMRB Entry Tracking System'                                                18129 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_citation_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citation_1
+   _Citation.Entry_ID                     18129
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    16401079
+   _Citation.Full_citation                .
+   _Citation.Title                       'Molecular structural basis for polymorphism in Alzheimer's beta-amyloid fibrils'
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'Proc. Natl. Acad. Sci. U.S.A.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               105
+   _Citation.Journal_issue                47
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   18349
+   _Citation.Page_last                    18354
+   _Citation.Year                         2008
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Anant    Paravastu . . . 18129 1 
+      2 Richard  Leapman   . . . 18129 1 
+      3 Wai-Ming Yau       . . . 18129 1 
+      4 Robert   Tycko     . . . 18129 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          18129
+   _Assembly.ID                                1
+   _Assembly.Name                             '40-residue Beta-Amyloid Fibril with Three-Fold Symmetry, Positive Stagger'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              18
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+       1 entity_1  1 $beta-amyloid A . yes native no no . . . 18129 1 
+       2 entity_2  1 $beta-amyloid B . yes native no no . . . 18129 1 
+       3 entity_3  1 $beta-amyloid C . yes native no no . . . 18129 1 
+       4 entity_4  1 $beta-amyloid D . yes native no no . . . 18129 1 
+       5 entity_5  1 $beta-amyloid E . yes native no no . . . 18129 1 
+       6 entity_6  1 $beta-amyloid F . yes native no no . . . 18129 1 
+       7 entity_7  1 $beta-amyloid G . yes native no no . . . 18129 1 
+       8 entity_8  1 $beta-amyloid H . yes native no no . . . 18129 1 
+       9 entity_9  1 $beta-amyloid I . yes native no no . . . 18129 1 
+      10 entity_10 1 $beta-amyloid J . yes native no no . . . 18129 1 
+      11 entity_11 1 $beta-amyloid K . yes native no no . . . 18129 1 
+      12 entity_12 1 $beta-amyloid L . yes native no no . . . 18129 1 
+      13 entity_13 1 $beta-amyloid M . yes native no no . . . 18129 1 
+      14 entity_14 1 $beta-amyloid N . yes native no no . . . 18129 1 
+      15 entity_15 1 $beta-amyloid O . yes native no no . . . 18129 1 
+      16 entity_16 1 $beta-amyloid P . yes native no no . . . 18129 1 
+      17 entity_17 1 $beta-amyloid Q . yes native no no . . . 18129 1 
+      18 entity_18 1 $beta-amyloid R . yes native no no . . . 18129 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_beta-amyloid
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      beta-amyloid
+   _Entity.Entry_ID                          18129
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              beta-amyloid
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 A-R
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+DAEFRHDSGYEVHHQKLVFF
+AEDVGSNKGAIIGLMVGGVV
+
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                40
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        man
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    3375.924
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-25
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no BMRB        11435 .  Amyloid-beta-(1-40)                                                                                                              . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+       2 no BMRB        15775 .  APP_C99                                                                                                                          . . . . . 100.00 122 100.00 100.00 1.20e-18 . . . . 18129 1 
+       3 no BMRB        17159 .  Amyloid_beta-Peptide                                                                                                             . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+       4 no BMRB        17186 .  Abeta                                                                                                                            . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+       5 no BMRB        17764 .  Abeta                                                                                                                            . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+       6 no BMRB        17793 .  Abeta(1-42)                                                                                                                      . . . . . 100.00  42 100.00 100.00 1.28e-18 . . . . 18129 1 
+       7 no BMRB        17794 .  Abeta(1-42)                                                                                                                      . . . . . 100.00  42 100.00 100.00 1.28e-18 . . . . 18129 1 
+       8 no BMRB        17795 .  Abeta(1-40)                                                                                                                      . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+       9 no BMRB        17796 .  Abeta40                                                                                                                          . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      10 no BMRB        18052 .  Pyroglutamate_Abeta                                                                                                              . . . . .  92.50  38 100.00 100.00 2.74e-16 . . . . 18129 1 
+      11 no BMRB        18127 .  beta-amyloid                                                                                                                     . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      12 no BMRB        18128 .  beta-amyloid                                                                                                                     . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      13 no BMRB        18131 .  beta-amyloid                                                                                                                     . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      14 no BMRB        19009 .  beta-amyloid_peptide                                                                                                             . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      15 no BMRB        19309 .  amyloid_peptide                                                                                                                  . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      16 no BMRB        19393 .  Abeta                                                                                                                            . . . . . 100.00  39  97.50  97.50 5.36e-16 . . . . 18129 1 
+      17 no BMRB        25218 .  amyloid_peptide                                                                                                                  . . . . . 100.00  42 100.00 100.00 1.28e-18 . . . . 18129 1 
+      18 no BMRB        25289 .  amyloid_beta                                                                                                                     . . . . . 100.00  39  97.50  97.50 5.36e-16 . . . . 18129 1 
+      19 no BMRB        25429 .  entity                                                                                                                           . . . . . 100.00  42 100.00 100.00 1.28e-18 . . . . 18129 1 
+      20 no BMRB        26508 .  amyloid_B                                                                                                                        . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      21 no BMRB        26516 .  amyloid_B                                                                                                                        . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      22 no PDB  1AMB          . "Solution Structure Of Residues 1-28 Of The Amyloid Beta- Peptide"                                                                . . . . .  70.00  28 100.00 100.00 2.11e-10 . . . . 18129 1 
+      23 no PDB  1AMC          . "Solution Structure Of Residues 1-28 Of The Amyloid Beta- Peptide"                                                                . . . . .  70.00  28 100.00 100.00 2.11e-10 . . . . 18129 1 
+      24 no PDB  1AML          . "The Alzheimer`s Disease Amyloid A4 Peptide (Residues 1-40)"                                                                      . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      25 no PDB  1BA4          . "The Solution Structure Of Amyloid Beta-Peptide (1-40) In A Water-Micelle Environment. Is The Membrane-Spanning Domain Where We " . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      26 no PDB  1BA6          . "Solution Structure Of The Methionine-Oxidized Amyloid Beta- Peptide (1-40). Does Oxidation Affect Conformational Switching? Nmr" . . . . . 100.00  40  97.50  97.50 1.67e-17 . . . . 18129 1 
+      27 no PDB  1HZ3          . "Alzheimer's Disease Amyloid-Beta Peptide (Residues 10-35)"                                                                       . . . . .  65.00  26 100.00 100.00 2.06e-08 . . . . 18129 1 
+      28 no PDB  1IYT          . "Solution Structure Of The Alzheimer's Disease Amyloid Beta- Peptide (1-42)"                                                      . . . . . 100.00  42 100.00 100.00 1.28e-18 . . . . 18129 1 
+      29 no PDB  1Z0Q          . "Aqueous Solution Structure Of The Alzheimer's Disease Abeta Peptide (1-42)"                                                      . . . . . 100.00  42 100.00 100.00 1.28e-18 . . . . 18129 1 
+      30 no PDB  2BEG          . "3d Structure Of Alzheimer's Abeta(1-42) Fibrils"                                                                                 . . . . . 100.00  42 100.00 100.00 1.28e-18 . . . . 18129 1 
+      31 no PDB  2G47          . "Crystal Structure Of Human Insulin-Degrading Enzyme In Complex With Amyloid-Beta (1-40)"                                         . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      32 no PDB  2LFM          . "A Partially Folded Structure Of Amyloid-Beta(1 40) In An Aqueous Environment"                                                    . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      33 no PDB  2LMN          . "Structural Model For A 40-Residue Beta-Amyloid Fibril With Two-Fold Symmetry, Positive Stagger"                                  . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      34 no PDB  2LMO          . "Structural Model For A 40-Residue Beta-Amyloid Fibril With Two-Fold Symmetry, Negative Stagger"                                  . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      35 no PDB  2LMP          . "Structural Model For A 40-Residue Beta-Amyloid Fibril With Three-Fold Symmetry, Positive Stagger"                                . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      36 no PDB  2LMQ          . "Structural Model For A 40-Residue Beta-Amyloid Fibril With Three-Fold Symmetry, Negative Stagger"                                . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      37 no PDB  2LNQ          . "40-residue D23n Beta Amyloid Fibril"                                                                                             . . . . . 100.00  40  97.50 100.00 5.11e-18 . . . . 18129 1 
+      38 no PDB  2LP1          . "The Solution Nmr Structure Of The Transmembrane C-Terminal Domain Of The Amyloid Precursor Protein (C99)"                        . . . . . 100.00 122 100.00 100.00 1.20e-18 . . . . 18129 1 
+      39 no PDB  2M4J          . "40-residue Beta-amyloid Fibril Derived From Alzheimer's Disease Brain"                                                           . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      40 no PDB  2M9R          . "3d Nmr Structure Of A Complex Between The Amyloid Beta Peptide (1-40) And The Polyphenol Epsilon-viniferin Glucoside"            . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      41 no PDB  2M9S          . "3d Nmr Structure Of A Complex Between The Amyloid Beta Peptide (1-40) And The Polyphenol Epsilon-viniferin Glucoside"            . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      42 no PDB  2MVX          . "Atomic-resolution 3d Structure Of Amyloid-beta Fibrils: The Osaka Mutation"                                                      . . . . . 100.00  39  97.50  97.50 5.36e-16 . . . . 18129 1 
+      43 no PDB  2MXU          . "42-residue Beta Amyloid Fibril"                                                                                                  . . . . . 100.00  42 100.00 100.00 1.28e-18 . . . . 18129 1 
+      44 no PDB  2OTK          . "Structure Of Alzheimer Ab Peptide In Complex With An Engineered Binding Protein"                                                 . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      45 no PDB  2WK3          . "Crystal Structure Of Human Insulin-Degrading Enzyme In Complex With Amyloid-Beta (1-42)"                                         . . . . . 100.00  42 100.00 100.00 1.28e-18 . . . . 18129 1 
+      46 no PDB  3BAE          . "Crystal Structure Of Fab Wo2 Bound To The N Terminal Domain Of Amyloid Beta Peptide (1-28)"                                      . . . . .  70.00  28 100.00 100.00 2.11e-10 . . . . 18129 1 
+      47 no PDB  3IFN          . "X-ray Structure Of Amyloid Beta Peptide:antibody (abeta1-40:12a11) Complex"                                                      . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      48 no PDB  4HIX          . "Crystal Structure Of A Humanised 3d6 Fab Bound To Amyloid Beta Peptide"                                                          . . . . .  70.00  28 100.00 100.00 2.11e-10 . . . . 18129 1 
+      49 no PDB  4M1C          . "Crystal Structure Analysis Of Fab-bound Human Insulin Degrading Enzyme (ide) In Complex With Amyloid-beta (1-40)"                . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      50 no PDB  4MVI          . "Crystal Structure Of An Engineered Lipocalin (anticalin Us7) In Complex With The Alzheimer Amyloid Peptide Abeta(1-40)"          . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      51 no PDB  4MVL          . "Crystal Structure Of An Engineered Lipocalin (anticalin H1ga) In Complex With The Alzheimer Amyloid Peptide Abeta1-40"           . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      52 no PDB  4NGE          . "Crystal Structure Of Human Presequence Protease In Complex With Amyloid-beta (1-40)"                                             . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      53 no PDB  4ONG          . "Fab Fragment Of 3d6 In Complex With Amyloid Beta 1-40"                                                                           . . . . . 100.00  40 100.00 100.00 1.49e-18 . . . . 18129 1 
+      54 no PDB  5AEF          . "Electron Cryo-microscopy Of An Abeta(1-42)amyloid Fibril"                                                                        . . . . .  65.00  28 100.00 100.00 3.73e-07 . . . . 18129 1 
+      55 no DBJ  BAA22264      . "amyloid precursor protein [Homo sapiens]"                                                                                        . . . . . 100.00 770 100.00 100.00 1.28e-18 . . . . 18129 1 
+      56 no DBJ  BAA84580      . "amyloid precursor protein [Sus scrofa]"                                                                                          . . . . . 100.00 770 100.00 100.00 1.28e-18 . . . . 18129 1 
+      57 no DBJ  BAB71958      . "amyloid precursor protein [Homo sapiens]"                                                                                        . . . . . 100.00  52  97.50 100.00 1.74e-18 . . . . 18129 1 
+      58 no DBJ  BAD51938      . "amyloid beta A4 precursor protein [Macaca fascicularis]"                                                                         . . . . . 100.00 696 100.00 100.00 1.14e-18 . . . . 18129 1 
+      59 no DBJ  BAE01907      . "unnamed protein product [Macaca fascicularis]"                                                                                   . . . . . 100.00 751 100.00 100.00 1.43e-18 . . . . 18129 1 
+      60 no EMBL CAA30050      . "amyloid A4 protein [Homo sapiens]"                                                                                               . . . . . 100.00 751 100.00 100.00 1.25e-18 . . . . 18129 1 
+      61 no EMBL CAA31830      . "A4 amyloid protein precursor [Homo sapiens]"                                                                                     . . . . . 100.00 695 100.00 100.00 1.30e-18 . . . . 18129 1 
+      62 no EMBL CAA39589      . "amyloid precursor protein [Bos taurus]"                                                                                          . . . . . 100.00  59 100.00 100.00 3.56e-19 . . . . 18129 1 
+      63 no EMBL CAA39590      . "amyloid precursor protein [Canis lupus familiaris]"                                                                              . . . . . 100.00  58 100.00 100.00 3.68e-19 . . . . 18129 1 
+      64 no EMBL CAA39591      . "amyloid precursor protein [Cavia sp.]"                                                                                           . . . . . 100.00  58 100.00 100.00 3.68e-19 . . . . 18129 1 
+      65 no GB   AAA35540      . "amyloid protein, partial [Homo sapiens]"                                                                                         . . . . .  95.00  97 100.00 100.00 2.36e-17 . . . . 18129 1 
+      66 no GB   AAA36829      . "amyloid b-protein precursor [Macaca fascicularis]"                                                                               . . . . . 100.00 695 100.00 100.00 1.30e-18 . . . . 18129 1 
+      67 no GB   AAA51564      . "amyloid beta protein, partial [Homo sapiens]"                                                                                    . . . . .  75.00  30 100.00 100.00 1.09e-11 . . . . 18129 1 
+      68 no GB   AAA51722      . "amyloid beta-protein precursor, partial [Homo sapiens]"                                                                          . . . . . 100.00 412 100.00 100.00 9.13e-19 . . . . 18129 1 
+      69 no GB   AAA51726      . "beta-amyloid A4, partial [Homo sapiens]"                                                                                         . . . . . 100.00 264 100.00 100.00 1.74e-18 . . . . 18129 1 
+      70 no PIR  A60045        . "Alzheimer's disease amyloid beta/A4 protein precursor - dog  (fragment)"                                                         . . . . . 100.00  57 100.00 100.00 4.01e-19 . . . . 18129 1 
+      71 no PIR  D60045        . "Alzheimer's disease amyloid beta/A4 protein precursor - bovine (fragment)"                                                       . . . . . 100.00  57 100.00 100.00 4.01e-19 . . . . 18129 1 
+      72 no PIR  E60045        . "Alzheimer's disease amyloid beta/A4 protein precursor - sheep (fragment)"                                                        . . . . . 100.00  57 100.00 100.00 4.01e-19 . . . . 18129 1 
+      73 no PIR  G60045        . "Alzheimer's disease amyloid beta/A4 protein precursor - guinea pig (fragment)"                                                   . . . . . 100.00  57 100.00 100.00 4.01e-19 . . . . 18129 1 
+      74 no PIR  PQ0438        . "Alzheimer's disease amyloid A4 protein precursor - rabbit  (fragment)"                                                           . . . . . 100.00  82 100.00 100.00 4.05e-19 . . . . 18129 1 
+      75 no PRF  1303338A      . "amyloid A4 protein precursor"                                                                                                    . . . . . 100.00 695 100.00 100.00 1.30e-18 . . . . 18129 1 
+      76 no PRF  1403400A      . "amyloid protein A4"                                                                                                              . . . . . 100.00 751 100.00 100.00 1.25e-18 . . . . 18129 1 
+      77 no PRF  1405204A      . "amyloid protein"                                                                                                                 . . . . . 100.00  42 100.00 100.00 1.28e-18 . . . . 18129 1 
+      78 no PRF  1507304A      . "beta amyloid peptide precursor"                                                                                                  . . . . . 100.00 412 100.00 100.00 9.42e-19 . . . . 18129 1 
+      79 no PRF  1507304B      . "beta amyloid peptide precursor"                                                                                                  . . . . . 100.00 574 100.00 100.00 4.07e-18 . . . . 18129 1 
+      80 no REF  NP_000475     . "amyloid beta A4 protein isoform a precursor [Homo sapiens]"                                                                      . . . . . 100.00 770 100.00 100.00 1.28e-18 . . . . 18129 1 
+      81 no REF  NP_001006601  . "amyloid beta A4 protein isoform APP-770 precursor [Canis lupus familiaris]"                                                      . . . . . 100.00 770 100.00 100.00 1.28e-18 . . . . 18129 1 
+      82 no REF  NP_001013036  . "amyloid beta A4 protein precursor [Pan troglodytes]"                                                                             . . . . . 100.00 770 100.00 100.00 1.28e-18 . . . . 18129 1 
+      83 no REF  NP_001070264  . "amyloid beta A4 protein precursor [Bos taurus]"                                                                                  . . . . . 100.00 695 100.00 100.00 1.30e-18 . . . . 18129 1 
+      84 no REF  NP_001127014  . "amyloid beta A4 protein precursor [Pongo abelii]"                                                                                . . . . . 100.00 695 100.00 100.00 1.65e-18 . . . . 18129 1 
+      85 no SP   P05067        . "RecName: Full=Amyloid beta A4 protein; AltName: Full=ABPP; AltName: Full=APPI; Short=APP; AltName: Full=Alzheimer disease amylo" . . . . . 100.00 770 100.00 100.00 1.28e-18 . . . . 18129 1 
+      86 no SP   P53601        . "RecName: Full=Amyloid beta A4 protein; AltName: Full=ABPP; Short=APP; AltName: Full=Alzheimer disease amyloid A4 protein homolo" . . . . . 100.00 770 100.00 100.00 1.28e-18 . . . . 18129 1 
+      87 no SP   P79307        . "RecName: Full=Amyloid beta A4 protein; AltName: Full=ABPP; Short=APP; AltName: Full=Alzheimer disease amyloid A4 protein homolo" . . . . . 100.00 770 100.00 100.00 1.28e-18 . . . . 18129 1 
+      88 no SP   P86906        . "RecName: Full=Amyloid beta A4 protein; AltName: Full=ABPP; Short=APP; AltName: Full=Alzheimer disease amyloid A4 protein homolo" . . . . . 100.00  40  97.50 100.00 5.51e-18 . . . . 18129 1 
+      89 no SP   Q28053        . "RecName: Full=Amyloid beta A4 protein; AltName: Full=ABPP; Short=APP; AltName: Full=Alzheimer disease amyloid A4 protein homolo" . . . . . 100.00  59 100.00 100.00 3.56e-19 . . . . 18129 1 
+      90 no TPG  DAA33655      . "TPA: amyloid beta A4 protein [Bos taurus]"                                                                                       . . . . . 100.00 695 100.00 100.00 1.30e-18 . . . . 18129 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . ASP . 18129 1 
+       2 . ALA . 18129 1 
+       3 . GLU . 18129 1 
+       4 . PHE . 18129 1 
+       5 . ARG . 18129 1 
+       6 . HIS . 18129 1 
+       7 . ASP . 18129 1 
+       8 . SER . 18129 1 
+       9 . GLY . 18129 1 
+      10 . TYR . 18129 1 
+      11 . GLU . 18129 1 
+      12 . VAL . 18129 1 
+      13 . HIS . 18129 1 
+      14 . HIS . 18129 1 
+      15 . GLN . 18129 1 
+      16 . LYS . 18129 1 
+      17 . LEU . 18129 1 
+      18 . VAL . 18129 1 
+      19 . PHE . 18129 1 
+      20 . PHE . 18129 1 
+      21 . ALA . 18129 1 
+      22 . GLU . 18129 1 
+      23 . ASP . 18129 1 
+      24 . VAL . 18129 1 
+      25 . GLY . 18129 1 
+      26 . SER . 18129 1 
+      27 . ASN . 18129 1 
+      28 . LYS . 18129 1 
+      29 . GLY . 18129 1 
+      30 . ALA . 18129 1 
+      31 . ILE . 18129 1 
+      32 . ILE . 18129 1 
+      33 . GLY . 18129 1 
+      34 . LEU . 18129 1 
+      35 . MET . 18129 1 
+      36 . VAL . 18129 1 
+      37 . GLY . 18129 1 
+      38 . GLY . 18129 1 
+      39 . VAL . 18129 1 
+      40 . VAL . 18129 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . ASP  1  1 18129 1 
+      . ALA  2  2 18129 1 
+      . GLU  3  3 18129 1 
+      . PHE  4  4 18129 1 
+      . ARG  5  5 18129 1 
+      . HIS  6  6 18129 1 
+      . ASP  7  7 18129 1 
+      . SER  8  8 18129 1 
+      . GLY  9  9 18129 1 
+      . TYR 10 10 18129 1 
+      . GLU 11 11 18129 1 
+      . VAL 12 12 18129 1 
+      . HIS 13 13 18129 1 
+      . HIS 14 14 18129 1 
+      . GLN 15 15 18129 1 
+      . LYS 16 16 18129 1 
+      . LEU 17 17 18129 1 
+      . VAL 18 18 18129 1 
+      . PHE 19 19 18129 1 
+      . PHE 20 20 18129 1 
+      . ALA 21 21 18129 1 
+      . GLU 22 22 18129 1 
+      . ASP 23 23 18129 1 
+      . VAL 24 24 18129 1 
+      . GLY 25 25 18129 1 
+      . SER 26 26 18129 1 
+      . ASN 27 27 18129 1 
+      . LYS 28 28 18129 1 
+      . GLY 29 29 18129 1 
+      . ALA 30 30 18129 1 
+      . ILE 31 31 18129 1 
+      . ILE 32 32 18129 1 
+      . GLY 33 33 18129 1 
+      . LEU 34 34 18129 1 
+      . MET 35 35 18129 1 
+      . VAL 36 36 18129 1 
+      . GLY 37 37 18129 1 
+      . GLY 38 38 18129 1 
+      . VAL 39 39 18129 1 
+      . VAL 40 40 18129 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       18129
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $beta-amyloid . 9606 organism . 'Homo sapiens' human . . Eukaryota Metazoa Homo sapiens . . . . . . . . . . . . . . . . . . . . . 18129 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       18129
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $beta-amyloid . 'chemical synthesis' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18129 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         18129
+   _Sample.ID                               1
+   _Sample.Type                            'amyloid fibril'
+   _Sample.Sub_type                         .
+   _Sample.Details                         'Grown quiescently at room temperature, 1 mg/ml peptide, pH 7.4. Structurally purified by multiple rounds of seeded growth.'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                  '10 mM phosphate buffer'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1  beta-amyloid      'selective 13C and 15N' . . 1 $beta-amyloid . .  1 . . mg/mL . . . . 18129 1 
+      2 'phosphate buffer' 'natural abundance'     . .  .  .            . . 10 . . mM    . . . . 18129 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       18129
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'  10   . mM  18129 1 
+       pH                7.4 . pH  18129 1 
+       pressure          1   . atm 18129 1 
+       temperature     300   . K   18129 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_X-PLOR_NIH
+   _Software.Sf_category    software
+   _Software.Sf_framecode   X-PLOR_NIH
+   _Software.Entry_ID       18129
+   _Software.ID             1
+   _Software.Name          'X-PLOR NIH'
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Schwieters, Kuszewski, Tjandra and Clore' . . 18129 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'structure solution' 18129 1 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         18129
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            Infinity
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   400
+
+save_
+
+
+save_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_2
+   _NMR_spectrometer.Entry_ID         18129
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            Infinity
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+
+save_
+
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       18129
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 spectrometer_1 Varian Infinity . 400 . . . 18129 1 
+      2 spectrometer_2 Varian Infinity . 600 . . . 18129 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       18129
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '2D fpRFDR'  no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 18129 1 
+      2 '2D RAD'     no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 18129 1 
+      3 '2D TEDOR'   no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 18129 1 
+      4  fsREDOR     no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 18129 1 
+      5  15N-BARE    no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 18129 1 
+      6  13C-BARE    no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 18129 1 
+      7  PITHIRDS-CT no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 18129 1 
+      8 '2D NCACX'   no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 18129 1 
+
+   stop_
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       18129
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details       'DSS reference for 13C shifts.'
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C 13 DSS 'methyl carbons' . . . . ppm 0 external direct 1.0 . . . . . . . . . 18129 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      18129
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 '2D fpRFDR' . . . 18129 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+       1 . 1 1  9  9 GLY C  C 13 172.2 0.3 . 1 . . . A  9 GLY C  . 18129 1 
+       2 . 1 1  9  9 GLY CA C 13  46.2 0.3 . 1 . . . A  9 GLY CA . 18129 1 
+       3 . 1 1 10 10 TYR C  C 13 173.7 0.3 . 1 . . . A 10 TYR C  . 18129 1 
+       4 . 1 1 10 10 TYR CA C 13  54.2 0.3 . 1 . . . A 10 TYR CA . 18129 1 
+       5 . 1 1 10 10 TYR CB C 13  37.7 0.3 . 1 . . . A 10 TYR CB . 18129 1 
+       6 . 1 1 11 11 GLU C  C 13 173.2 0.3 . 1 . . . A 11 GLU C  . 18129 1 
+       7 . 1 1 11 11 GLU CA C 13  54.5 0.3 . 1 . . . A 11 GLU CA . 18129 1 
+       8 . 1 1 11 11 GLU CB C 13  31.4 0.3 . 1 . . . A 11 GLU CB . 18129 1 
+       9 . 1 1 12 12 VAL C  C 13 174.1 0.3 . 1 . . . A 12 VAL C  . 18129 1 
+      10 . 1 1 12 12 VAL CA C 13  61   0.3 . 1 . . . A 12 VAL CA . 18129 1 
+      11 . 1 1 12 12 VAL CB C 13  35.4 0.3 . 1 . . . A 12 VAL CB . 18129 1 
+      12 . 1 1 13 13 HIS C  C 13 172.9 0.3 . 1 . . . A 13 HIS C  . 18129 1 
+      13 . 1 1 13 13 HIS CA C 13  54.2 0.3 . 1 . . . A 13 HIS CA . 18129 1 
+      14 . 1 1 13 13 HIS CB C 13  31.2 0.3 . 1 . . . A 13 HIS CB . 18129 1 
+      15 . 1 1 14 14 HIS C  C 13 171.9 0.3 . 1 . . . A 14 HIS C  . 18129 1 
+      16 . 1 1 14 14 HIS CA C 13  53.7 0.3 . 1 . . . A 14 HIS CA . 18129 1 
+      17 . 1 1 14 14 HIS CB C 13  35.4 0.3 . 1 . . . A 14 HIS CB . 18129 1 
+      18 . 1 1 15 15 GLN C  C 13 173.4 0.3 . 1 . . . A 15 GLN C  . 18129 1 
+      19 . 1 1 15 15 GLN CA C 13  54.6 0.3 . 1 . . . A 15 GLN CA . 18129 1 
+      20 . 1 1 15 15 GLN CB C 13  33.7 0.3 . 1 . . . A 15 GLN CB . 18129 1 
+      21 . 1 1 16 16 LYS C  C 13 173.5 0.3 . 1 . . . A 16 LYS C  . 18129 1 
+      22 . 1 1 16 16 LYS CA C 13  54.3 0.3 . 1 . . . A 16 LYS CA . 18129 1 
+      23 . 1 1 16 16 LYS CB C 13  36.2 0.3 . 1 . . . A 16 LYS CB . 18129 1 
+      24 . 1 1 17 17 LEU C  C 13 174.7 0.3 . 1 . . . A 17 LEU C  . 18129 1 
+      25 . 1 1 17 17 LEU CA C 13  53.9 0.3 . 1 . . . A 17 LEU CA . 18129 1 
+      26 . 1 1 17 17 LEU CB C 13  44.9 0.3 . 1 . . . A 17 LEU CB . 18129 1 
+      27 . 1 1 18 18 VAL C  C 13 174.1 0.3 . 1 . . . A 18 VAL C  . 18129 1 
+      28 . 1 1 18 18 VAL CA C 13  60.6 0.3 . 1 . . . A 18 VAL CA . 18129 1 
+      29 . 1 1 18 18 VAL CB C 13  35.3 0.3 . 1 . . . A 18 VAL CB . 18129 1 
+      30 . 1 1 19 19 PHE C  C 13 172.7 0.3 . 1 . . . A 19 PHE C  . 18129 1 
+      31 . 1 1 19 19 PHE CA C 13  56.1 0.3 . 1 . . . A 19 PHE CA . 18129 1 
+      32 . 1 1 19 19 PHE CB C 13  42.2 0.3 . 1 . . . A 19 PHE CB . 18129 1 
+      33 . 1 1 20 20 PHE C  C 13 172.3 0.3 . 1 . . . A 20 PHE C  . 18129 1 
+      34 . 1 1 20 20 PHE CA C 13  56.0 0.3 . 1 . . . A 20 PHE CA . 18129 1 
+      35 . 1 1 20 20 PHE CB C 13  42.9 0.3 . 1 . . . A 20 PHE CB . 18129 1 
+      36 . 1 1 21 21 ALA C  C 13 175.1 0.3 . 1 . . . A 21 ALA C  . 18129 1 
+      37 . 1 1 21 21 ALA CA C 13  49.7 0.3 . 1 . . . A 21 ALA CA . 18129 1 
+      38 . 1 1 21 21 ALA CB C 13  22.1 0.3 . 1 . . . A 21 ALA CB . 18129 1 
+      39 . 1 1 22 22 GLU C  C 13 176   0.3 . 1 . . . A 22 GLU C  . 18129 1 
+      40 . 1 1 22 22 GLU CA C 13  54.4 0.3 . 1 . . . A 22 GLU CA . 18129 1 
+      41 . 1 1 22 22 GLU CB C 13  33.9 0.3 . 1 . . . A 22 GLU CB . 18129 1 
+      42 . 1 1 23 23 ASP C  C 13 174.4 0.3 . 1 . . . A 23 ASP C  . 18129 1 
+      43 . 1 1 23 23 ASP CA C 13  56.5 0.3 . 1 . . . A 23 ASP CA . 18129 1 
+      44 . 1 1 23 23 ASP CB C 13  39.1 0.3 . 1 . . . A 23 ASP CB . 18129 1 
+      45 . 1 1 24 24 VAL C  C 13 176.8 0.3 . 1 . . . A 24 VAL C  . 18129 1 
+      46 . 1 1 24 24 VAL CA C 13  60.1 0.3 . 1 . . . A 24 VAL CA . 18129 1 
+      47 . 1 1 24 24 VAL CB C 13  32.7 0.3 . 1 . . . A 24 VAL CB . 18129 1 
+      48 . 1 1 25 25 GLY C  C 13 171.5 0.3 . 1 . . . A 25 GLY C  . 18129 1 
+      49 . 1 1 25 25 GLY CA C 13  46.5 0.3 . 1 . . . A 25 GLY CA . 18129 1 
+      50 . 1 1 26 26 SER C  C 13 173.8 0.3 . 1 . . . A 26 SER C  . 18129 1 
+      51 . 1 1 26 26 SER CA C 13  55.7 0.3 . 1 . . . A 26 SER CA . 18129 1 
+      52 . 1 1 26 26 SER CB C 13  65.3 0.3 . 1 . . . A 26 SER CB . 18129 1 
+      53 . 1 1 27 27 ASN C  C 13 174.3 0.3 . 1 . . . A 27 ASN C  . 18129 1 
+      54 . 1 1 27 27 ASN CA C 13  53.1 0.3 . 1 . . . A 27 ASN CA . 18129 1 
+      55 . 1 1 27 27 ASN CB C 13  40.8 0.3 . 1 . . . A 27 ASN CB . 18129 1 
+      56 . 1 1 28 28 LYS C  C 13 175.3 0.3 . 1 . . . A 28 LYS C  . 18129 1 
+      57 . 1 1 28 28 LYS CA C 13  55.5 0.3 . 1 . . . A 28 LYS CA . 18129 1 
+      58 . 1 1 28 28 LYS CB C 13  35.5 0.3 . 1 . . . A 28 LYS CB . 18129 1 
+      59 . 1 1 29 29 GLY C  C 13 171.7 0.3 . 1 . . . A 29 GLY C  . 18129 1 
+      60 . 1 1 29 29 GLY CA C 13  43.5 0.3 . 1 . . . A 29 GLY CA . 18129 1 
+      61 . 1 1 30 30 ALA C  C 13 175.2 0.3 . 1 . . . A 30 ALA C  . 18129 1 
+      62 . 1 1 30 30 ALA CA C 13  49.8 0.3 . 1 . . . A 30 ALA CA . 18129 1 
+      63 . 1 1 30 30 ALA CB C 13  21.3 0.3 . 1 . . . A 30 ALA CB . 18129 1 
+      64 . 1 1 31 31 ILE C  C 13 173.6 0.3 . 1 . . . A 31 ILE C  . 18129 1 
+      65 . 1 1 31 31 ILE CA C 13  60.8 0.3 . 1 . . . A 31 ILE CA . 18129 1 
+      66 . 1 1 31 31 ILE CB C 13  39.9 0.3 . 1 . . . A 31 ILE CB . 18129 1 
+      67 . 1 1 32 32 ILE C  C 13 175.7 0.3 . 1 . . . A 32 ILE C  . 18129 1 
+      68 . 1 1 32 32 ILE CA C 13  57.2 0.3 . 1 . . . A 32 ILE CA . 18129 1 
+      69 . 1 1 32 32 ILE CB C 13  42.2 0.3 . 1 . . . A 32 ILE CB . 18129 1 
+      70 . 1 1 33 33 GLY C  C 13 171.7 0.3 . 1 . . . A 33 GLY C  . 18129 1 
+      71 . 1 1 33 33 GLY CA C 13  48.1 0.3 . 1 . . . A 33 GLY CA . 18129 1 
+      72 . 1 1 34 34 LEU C  C 13 173.2 0.3 . 1 . . . A 34 LEU C  . 18129 1 
+      73 . 1 1 34 34 LEU CA C 13  54.2 0.3 . 1 . . . A 34 LEU CA . 18129 1 
+      74 . 1 1 34 34 LEU CB C 13  45.8 0.3 . 1 . . . A 34 LEU CB . 18129 1 
+      75 . 1 1 35 35 MET C  C 13 172.9 0.3 . 1 . . . A 35 MET C  . 18129 1 
+      76 . 1 1 35 35 MET CA C 13  54.1 0.3 . 1 . . . A 35 MET CA . 18129 1 
+      77 . 1 1 35 35 MET CB C 13  36.4 0.3 . 1 . . . A 35 MET CB . 18129 1 
+      78 . 1 1 36 36 VAL C  C 13 175.4 0.3 . 1 . . . A 36 VAL C  . 18129 1 
+      79 . 1 1 36 36 VAL CA C 13  58.9 0.3 . 1 . . . A 36 VAL CA . 18129 1 
+      80 . 1 1 36 36 VAL CB C 13  35.1 0.3 . 1 . . . A 36 VAL CB . 18129 1 
+      81 . 1 1 37 37 GLY C  C 13 172.3 0.3 . 1 . . . A 37 GLY C  . 18129 1 
+      82 . 1 1 37 37 GLY CA C 13  48.3 0.3 . 1 . . . A 37 GLY CA . 18129 1 
+      83 . 1 1 38 38 GLY C  C 13 171.3 0.3 . 1 . . . A 38 GLY C  . 18129 1 
+      84 . 1 1 38 38 GLY CA C 13  44.1 0.3 . 1 . . . A 38 GLY CA . 18129 1 
+      85 . 1 1 39 39 VAL C  C 13 173.5 0.3 . 1 . . . A 39 VAL C  . 18129 1 
+      86 . 1 1 39 39 VAL CA C 13  60.6 0.3 . 1 . . . A 39 VAL CA . 18129 1 
+      87 . 1 1 39 39 VAL CB C 13  34.1 0.3 . 1 . . . A 39 VAL CB . 18129 1 
+      88 . 1 1 40 40 VAL C  C 13 179.6 0.3 . 1 . . . A 40 VAL C  . 18129 1 
+      89 . 1 1 40 40 VAL CA C 13  60.7 0.3 . 1 . . . A 40 VAL CA . 18129 1 
+      90 . 1 1 40 40 VAL CB C 13  34.9 0.3 . 1 . . . A 40 VAL CB . 18129 1 
+
+   stop_
+
+save_
+

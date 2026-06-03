@@ -345,24 +345,24 @@ def run_pipeline(
 # Curated solid-state NMR BMRB entries with linked PDB structures.
 # Selection criteria: ssNMR, 13C/15N shifts deposited, PDB structure available.
 SOLID_STATE_ENTRIES = [
-    # ── Confirmed PASS (run validate_pairs.py first to confirm new ones) ──
-    (25123, "1UBQ",  "Ubiquitin MPD crystal"),        # PASS ✓
-    (15156, "2LGI",  "GB1 MAS structure"),             # WARN: no helix in CIF, valid
-    (15283, "2OED",  "GB3 domain"),                    # WARN: no helix in CIF, valid
-    (19025, "2M02",  "CAP-Gly 19.9T dataset"),         # WARN: Δ=1, no helix in CIF
-    (17937, "2M02",  "CAP-Gly primary dataset"),       # Δ=17, likely expression tag
- 
-    # ── Pending correct PDB — run validate_pairs.py to find right PDB ────
-    # These are commented out until validate_pairs confirms the right PDB:
-    # (16318, "????", "Ubiquitin microcrystals"),      # try 3ONS or 2K39
-    # (15380, "1PGB", "GB1 crystal"),                  # 1LY2 was wrong protein
-    # (16299, "1XOB", "Thioredoxin"),                  # 2JSV chain A too short
-    # (5969,  "1BPI", "BPTI"),                         # try 1BPI (58 res)
-    # (17948, "1LB3", "Calmodulin"),                   # 2NUZ was fibril form
-    # (17561, "2LBH", "EETI-II knottin"),              # CB=0, needs no-CB mode
+    # ── Confirmed working ─────────────────────────────────────────────────
+    (25123, "1UBQ", "Ubiquitin MPD crystal"),        # H=98 S=191 C=119 ✓
+    (15156, "2LGI", "GB1 MAS structure"),             # S=240 C=287
+    (15283, "2OED", "GB3 domain"),                    # S=160 C=181
+    (19025, "2M02", "CAP-Gly 19.9T dataset"),         # S=152 C=466
+    (15380, "1PGB", "GB1 crystal form B1"),           # S=345 C=273
+    (15380, "2QMT", "GB1 MAS polymorph"),             # S=277 C=341
+    (17561, "2LBH", "EETI-II knottin"),               # CB=0, CA+N only
+
+    # ── New validated entries ─────────────────────────────────────────────
+    (11512, "3ONS", "Ubiquitin alt dataset"),         # PASS Δ=4
+    (16327, "1FVK", "DsbA oxidized"),                 # WARN Δ=8, H=16 segs ← key helix source
+    (18024, "2K0G", "CNBD domain"),                   # WARN Δ=10, helix+strand
+    (18397, "1GB1", "GB1 proton-detected"),           # WARN Δ=0
+    (19031, "2MPX", "CAP-Gly+EB1 complex"),          # WARN Δ=4
+    (25005, "2MPX", "CAP-Gly on microtubule"),        # WARN Δ=0
 ]
- 
-# Entries to skip even if listed — add IDs here after validate confirms fails
+
 SKIP_ENTRIES: set = set()
 
 
@@ -777,38 +777,25 @@ if __name__ == "__main__":
         sys.exit(0)
 
     if args.batch or args.entries:
-        custom_pairs = None
+        custom_entries = None
         if args.entries:
-            custom_pairs = []
+            custom_entries = []
             for pair in args.entries:
                 parts = pair.split(":")
                 if len(parts) != 2:
                     print(f"Error: --entries format is BMRB_ID:PDB_ID, got '{pair}'")
                     sys.exit(1)
                 try:
-                    custom_pairs.append((int(parts[0]), parts[1].upper()))
+                    bmrb_int = int(parts[0])
+                    pdb_str  = parts[1].upper()
+                    match = [(b, p, l) for b, p, l in SOLID_STATE_ENTRIES if b == bmrb_int]
+                    label = match[0][2] if match else f"custom {pdb_str}"
+                    custom_entries.append((bmrb_int, pdb_str, label))
                 except ValueError:
                     print(f"Error: BMRB ID must be an integer, got '{parts[0]}'")
                     sys.exit(1)
-        run_pipeline_batch(
-            custom_pairs=custom_pairs,
-            no_ml=args.no_ml,
-        )
+        run_pipeline_batch(entries=custom_entries)
         sys.exit(0)
-
-    if args.list_entries:
-         print(f"\n{'BMRB':>6}  {'PDB':>6}  Label")
-         print("-" * 45)
-         for bmrb_id, pdb_id, label in SOLID_STATE_ENTRIES:
-             skip_flag = " [SKIP]" if bmrb_id in SKIP_ENTRIES else ""
-             print(f"{bmrb_id:>6}  {pdb_id:>6}  {label}{skip_flag}")
-         sys.exit(0)
-    
-    elif args.batch:
-         subset = None
-         if args.entries:
-             subset = [(b, p, l) for b, p, l in SOLID_STATE_ENTRIES if b in args.entries]
-         run_pipeline_batch(entries=subset)
  
     pdb_id = None if args.pdb == 'auto' else args.pdb
 
