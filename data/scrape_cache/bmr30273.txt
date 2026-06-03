@@ -1,0 +1,1296 @@
+data_30273
+
+
+#######################
+#  Entry information  #
+#######################
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             30273
+   _Entry.Title
+;
+SSNMR Structure of the Human RIP1/RIP3 Necrosome
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2017-03-21
+   _Entry.Accession_date                 2017-03-21
+   _Entry.Last_release_date              2018-01-12
+   _Entry.Original_release_date          2018-01-12
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.0.16
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          .
+   _Entry.Generated_software_label       .
+   _Entry.Generated_date                 .
+   _Entry.DOI                            .
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   M.   Mompean     M.   .    .   .   30273
+      2   W.   Li          W.   .    .   .   30273
+      3   J.   Li          J.   .    .   .   30273
+      4   S.   Laage       S.   .    .   .   30273
+      5   A.   Siemer      A.   B.   .   .   30273
+      6   H.   Wu          H.   .    .   .   30273
+      7   A.   McDermott   A.   E.   .   .   30273
+   stop_
+
+   loop_
+      _Struct_keywords.Keywords
+      _Struct_keywords.Text
+      _Struct_keywords.Entry_ID
+
+      'human functional amyloid'   .   30273
+      'signaling complex'          .   30273
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   30273
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   125   30273
+      '15N chemical shifts'   28    30273
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      2   .   .   2019-05-24   2017-03-21   update     BMRB     'update entry citation'   30273
+      1   .   .   2018-03-21   2017-03-21   original   author   'original release'        30273
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      PDB   5V7Z   'BMRB Entry Tracking System'   30273
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+save_citation_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citation_1
+   _Citation.Entry_ID                     30273
+   _Citation.ID                           1
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          10.1016/j.cell.2018.03.032
+   _Citation.PubMed_ID                    29681455
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+The Structure of the Necrosome RIPK1-RIPK3 Core, a Human Hetero-Amyloid Signaling Complex.
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               Cell
+   _Citation.Journal_name_full            Cell
+   _Citation.Journal_volume               173
+   _Citation.Journal_issue                5
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 1097-4172
+   _Citation.Journal_CSD                  0353
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   1244
+   _Citation.Page_last                    1253.e10
+   _Citation.Year                         2018
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Miguel     Mompean     M.   .    .   .   30273   1
+      2   Wenbo      Li          W.   .    .   .   30273   1
+      3   Jixi       Li          J.   .    .   .   30273   1
+      4   Segolene   Laage       S.   .    .   .   30273   1
+      5   Ansgar     Siemer      A.   B.   .   .   30273   1
+      6   Gunes      Bozkurt     G.   .    .   .   30273   1
+      7   Hao        Wu          H.   .    .   .   30273   1
+      8   Ann        McDermott   A.   E.   .   .   30273   1
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          30273
+   _Assembly.ID                                1
+   _Assembly.Name                              'Human RIP1/RIP3 complex'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   'entity_1, 1'   1   $entity_1   A   A   yes   .   .   .   .   .   .   30273   1
+      2   'entity_2, 1'   2   $entity_2   B   B   yes   .   .   .   .   .   .   30273   1
+      3   'entity_1, 2'   1   $entity_1   C   C   yes   .   .   .   .   .   .   30273   1
+      4   'entity_2, 2'   2   $entity_2   D   D   yes   .   .   .   .   .   .   30273   1
+      5   'entity_1, 3'   1   $entity_1   E   E   yes   .   .   .   .   .   .   30273   1
+      6   'entity_2, 3'   2   $entity_2   F   F   yes   .   .   .   .   .   .   30273   1
+      7   'entity_1, 4'   1   $entity_1   G   G   yes   .   .   .   .   .   .   30273   1
+      8   'entity_2, 4'   2   $entity_2   H   H   yes   .   .   .   .   .   .   30273   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+save_entity_1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_1
+   _Entity.Entry_ID                          30273
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              entity_1
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 A,C,E,G
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+PLVNIYNCSGVQVGD
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                15
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       .
+   _Entity.Src_method                        man
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    1577.758
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1    448   PRO   .   30273   1
+      2    449   LEU   .   30273   1
+      3    450   VAL   .   30273   1
+      4    451   ASN   .   30273   1
+      5    452   ILE   .   30273   1
+      6    453   TYR   .   30273   1
+      7    454   ASN   .   30273   1
+      8    455   CYS   .   30273   1
+      9    456   SER   .   30273   1
+      10   457   GLY   .   30273   1
+      11   458   VAL   .   30273   1
+      12   459   GLN   .   30273   1
+      13   460   VAL   .   30273   1
+      14   461   GLY   .   30273   1
+      15   462   ASP   .   30273   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   PRO   1    1    30273   1
+      .   LEU   2    2    30273   1
+      .   VAL   3    3    30273   1
+      .   ASN   4    4    30273   1
+      .   ILE   5    5    30273   1
+      .   TYR   6    6    30273   1
+      .   ASN   7    7    30273   1
+      .   CYS   8    8    30273   1
+      .   SER   9    9    30273   1
+      .   GLY   10   10   30273   1
+      .   VAL   11   11   30273   1
+      .   GLN   12   12   30273   1
+      .   VAL   13   13   30273   1
+      .   GLY   14   14   30273   1
+      .   ASP   15   15   30273   1
+   stop_
+save_
+
+save_entity_2
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_2
+   _Entity.Entry_ID                          30273
+   _Entity.ID                                2
+   _Entity.BMRB_code                         .
+   _Entity.Name                              entity_2
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 B,D,F,H
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+TIYNSTGIQIGAYNYMEI
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                18
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        man
+   _Entity.Parent_entity_ID                  2
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    2051.279
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1    532   THR   .   30273   2
+      2    533   ILE   .   30273   2
+      3    534   TYR   .   30273   2
+      4    535   ASN   .   30273   2
+      5    536   SER   .   30273   2
+      6    537   THR   .   30273   2
+      7    538   GLY   .   30273   2
+      8    539   ILE   .   30273   2
+      9    540   GLN   .   30273   2
+      10   541   ILE   .   30273   2
+      11   542   GLY   .   30273   2
+      12   543   ALA   .   30273   2
+      13   544   TYR   .   30273   2
+      14   545   ASN   .   30273   2
+      15   546   TYR   .   30273   2
+      16   547   MET   .   30273   2
+      17   548   GLU   .   30273   2
+      18   549   ILE   .   30273   2
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   THR   1    1    30273   2
+      .   ILE   2    2    30273   2
+      .   TYR   3    3    30273   2
+      .   ASN   4    4    30273   2
+      .   SER   5    5    30273   2
+      .   THR   6    6    30273   2
+      .   GLY   7    7    30273   2
+      .   ILE   8    8    30273   2
+      .   GLN   9    9    30273   2
+      .   ILE   10   10   30273   2
+      .   GLY   11   11   30273   2
+      .   ALA   12   12   30273   2
+      .   TYR   13   13   30273   2
+      .   ASN   14   14   30273   2
+      .   TYR   15   15   30273   2
+      .   MET   16   16   30273   2
+      .   GLU   17   17   30273   2
+      .   ILE   18   18   30273   2
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       30273
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $entity_1   .   9606   organism   .   'Homo sapiens'   Human   .   .   Eukaryota   Metazoa   Homo   sapiens   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      2   2   $entity_2   .   9606   organism   .   'Homo sapiens'   Human   .   .   Eukaryota   Metazoa   Homo   sapiens   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       30273
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $entity_1   .   'recombinant technology'   'Escherichia coli'   .   .   562   Escherichia   coli   .   .   .   .   .   .   .   .   .   .   30273   1
+      2   2   $entity_2   .   'recombinant technology'   'Escherichia coli'   .   .   562   Escherichia   coli   .   .   .   .   .   .   .   .   .   .   30273   1
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         30273
+   _Sample.ID                               1
+   _Sample.Type                             fiber
+   _Sample.Sub_type                         .
+   _Sample.Details                          '15 mg/mL [U-100% 13C; U-100% 15N] RIP1/RIP3'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '100% H2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   entity_1   '[U-100% 13C; U-100% 15N]'   .   .   1   $entity_1   .   .   15   .   .   mg/mL   .   .   .   .   30273   1
+      2   entity_2   '[U-100% 13C; U-100% 15N]'   .   .   2   $entity_2   .   .   15   .   .   mg/mL   .   .   .   .   30273   1
+   stop_
+save_
+
+save_sample_2
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_2
+   _Sample.Entry_ID                         30273
+   _Sample.ID                               2
+   _Sample.Type                             fiber
+   _Sample.Sub_type                         .
+   _Sample.Details                          '15 mg/mL [U-100% 15N; 2-13C-GLYCEROL] RIP1/RIP3'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '100% H2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   entity_1   '[U-100% 13C; U-100% 15N]'   .   .   1   $entity_1   .   .   15   .   .   mg/mL   .   .   .   .   30273   2
+      2   entity_2   '[U-100% 13C; U-100% 15N]'   .   .   2   $entity_2   .   .   15   .   .   mg/mL   .   .   .   .   30273   2
+   stop_
+save_
+
+save_sample_3
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_3
+   _Sample.Entry_ID                         30273
+   _Sample.ID                               3
+   _Sample.Type                             fiber
+   _Sample.Sub_type                         .
+   _Sample.Details                          '15 mg/mL [U-100% 15N; 1,3-13C-GLYCEROL] RIP1/RIP3'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '100% H2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   entity_1   '[U-100% 13C; U-100% 15N]'   .   .   1   $entity_1   .   .   15   .   .   mg/mL   .   .   .   .   30273   3
+      2   entity_2   '[U-100% 13C; U-100% 15N]'   .   .   2   $entity_2   .   .   15   .   .   mg/mL   .   .   .   .   30273   3
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       30273
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            6.5   .   pH    30273   1
+      pressure      1     .   atm   30273   1
+      temperature   278   .   K     30273   1
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+save_software_1
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_1
+   _Software.Entry_ID       30273
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           CYANA
+   _Software.Version        3.97
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Guntert, Mumenthaler and Wuthrich'   .   .   30273   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'structure calculation'   30273   1
+   stop_
+save_
+
+save_software_2
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_2
+   _Software.Entry_ID       30273
+   _Software.ID             2
+   _Software.Type           .
+   _Software.Name           AMBER
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Case, Darden, Cheatham III, Simmerling, Wang, Duke, Luo, ... and Kollman'   .   .   30273   2
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      refinement   30273   2
+   stop_
+save_
+
+save_software_3
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_3
+   _Software.Entry_ID       30273
+   _Software.ID             3
+   _Software.Type           .
+   _Software.Name           SPARKY
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      Goddard   .   .   30273   3
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'chemical shift assignment'   30273   3
+      'peak picking'                30273   3
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID         30273
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            AvanceII
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   900
+save_
+
+save_NMR_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_2
+   _NMR_spectrometer.Entry_ID         30273
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   750
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       30273
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1   NMR_spectrometer_1   Bruker   AvanceII   .   900   .   .   .   30273   1
+      2   NMR_spectrometer_2   Bruker   Avance     .   750   .   .   .   30273   1
+   stop_
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       30273
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1    'DARR 250 MS'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      2    'DARR 250 MS'   no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      3    'DARR 250 MS'   no   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      4    'CHHC 500 US'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      5    'CHHC 500 US'   no   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      6    'PAR 15 MS'     no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      7    'PAR 15 MS'     no   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      8    'PAIN 6 MS'     no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      9    'PAIN 6 MS'     no   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      10   'TEDOR 8 MS'    no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      11   'TEDOR 8 MS'    no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      12   'TEDOR 8 MS'    no   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      13   NCOCX           no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      14   NCOCA           no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      15   NCACX           no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      16   NCA             no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      17   'DARR 50 MS'    no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      18   'DARR 50 MS'    no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      19   'DARR 50 MS'    no   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      20   'DARR 20 MS'    no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      21   'DARR 20 MS'    no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      22   'DARR 20 MS'    no   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      23   'DARR 100 MS'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      24   'DARR 100 MS'   no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      25   'DARR 100 MS'   no   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      26   'DARR 500 MS'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      27   'DARR 500 MS'   no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+      28   'DARR 500 MS'   no   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   30273   1
+   stop_
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+save_chem_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chem_shift_reference_1
+   _Chem_shift_reference.Entry_ID       30273
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DSS   'methyl carbons'   .   .   .   .   ppm   0.00   external   indirect   1.0   .   .   .   .   .   30273   1
+   stop_
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Entry_ID                      30273
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chem_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1    'DARR 250 MS'   .   .   .   30273   1
+      2    'DARR 250 MS'   .   .   .   30273   1
+      3    'DARR 250 MS'   .   .   .   30273   1
+      4    'CHHC 500 US'   .   .   .   30273   1
+      5    'CHHC 500 US'   .   .   .   30273   1
+      6    'PAR 15 MS'     .   .   .   30273   1
+      7    'PAR 15 MS'     .   .   .   30273   1
+      8    'PAIN 6 MS'     .   .   .   30273   1
+      9    'PAIN 6 MS'     .   .   .   30273   1
+      10   'TEDOR 8 MS'    .   .   .   30273   1
+      11   'TEDOR 8 MS'    .   .   .   30273   1
+      12   'TEDOR 8 MS'    .   .   .   30273   1
+      13   NCOCX           .   .   .   30273   1
+      14   NCOCA           .   .   .   30273   1
+      15   NCACX           .   .   .   30273   1
+      16   NCA             .   .   .   30273   1
+      17   'DARR 50 MS'    .   .   .   30273   1
+      18   'DARR 50 MS'    .   .   .   30273   1
+      19   'DARR 50 MS'    .   .   .   30273   1
+      20   'DARR 20 MS'    .   .   .   30273   1
+      21   'DARR 20 MS'    .   .   .   30273   1
+      22   'DARR 20 MS'    .   .   .   30273   1
+      23   'DARR 100 MS'   .   .   .   30273   1
+      24   'DARR 100 MS'   .   .   .   30273   1
+      25   'DARR 100 MS'   .   .   .   30273   1
+      26   'DARR 500 MS'   .   .   .   30273   1
+      27   'DARR 500 MS'   .   .   .   30273   1
+      28   'DARR 500 MS'   .   .   .   30273   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   1   1    1    PRO   CA    C   13   63.060    0.000   .   1   .   .   .   .   A   448   PRO   CA    .   30273   1
+      2     .   1   1   1    1    PRO   CB    C   13   31.950    0.000   .   1   .   .   .   .   A   448   PRO   CB    .   30273   1
+      3     .   1   1   1    1    PRO   CG    C   13   27.440    0.000   .   1   .   .   .   .   A   448   PRO   CG    .   30273   1
+      4     .   1   1   1    1    PRO   CD    C   13   50.590    0.000   .   1   .   .   .   .   A   448   PRO   CD    .   30273   1
+      5     .   1   1   2    2    LEU   CA    C   13   55.097    0.000   .   1   .   .   .   .   A   449   LEU   CA    .   30273   1
+      6     .   1   1   2    2    LEU   CB    C   13   42.372    0.000   .   1   .   .   .   .   A   449   LEU   CB    .   30273   1
+      7     .   1   1   2    2    LEU   CG    C   13   27.010    0.000   .   1   .   .   .   .   A   449   LEU   CG    .   30273   1
+      8     .   1   1   2    2    LEU   CD1   C   13   25.232    0.000   .   1   .   .   .   .   A   449   LEU   CD1   .   30273   1
+      9     .   1   1   2    2    LEU   CD2   C   13   23.505    0.000   .   1   .   .   .   .   A   449   LEU   CD2   .   30273   1
+      10    .   1   1   3    3    VAL   CA    C   13   60.618    0.000   .   1   .   .   .   .   A   450   VAL   CA    .   30273   1
+      11    .   1   1   3    3    VAL   CB    C   13   33.216    0.000   .   1   .   .   .   .   A   450   VAL   CB    .   30273   1
+      12    .   1   1   3    3    VAL   CG1   C   13   24.705    0.000   .   1   .   .   .   .   A   450   VAL   CG1   .   30273   1
+      13    .   1   1   4    4    ASN   C     C   13   175.540   0.000   .   1   .   .   .   .   A   451   ASN   C     .   30273   1
+      14    .   1   1   4    4    ASN   CA    C   13   53.560    0.000   .   1   .   .   .   .   A   451   ASN   CA    .   30273   1
+      15    .   1   1   4    4    ASN   CB    C   13   38.928    0.000   .   1   .   .   .   .   A   451   ASN   CB    .   30273   1
+      16    .   1   1   4    4    ASN   N     N   15   115.920   0.000   .   1   .   .   .   .   A   451   ASN   N     .   30273   1
+      17    .   1   1   5    5    ILE   CA    C   13   59.680    0.000   .   1   .   .   .   .   A   452   ILE   CA    .   30273   1
+      18    .   1   1   5    5    ILE   CB    C   13   39.832    0.000   .   1   .   .   .   .   A   452   ILE   CB    .   30273   1
+      19    .   1   1   5    5    ILE   CG1   C   13   27.250    0.000   .   1   .   .   .   .   A   452   ILE   CG1   .   30273   1
+      20    .   1   1   5    5    ILE   CG2   C   13   17.961    0.000   .   1   .   .   .   .   A   452   ILE   CG2   .   30273   1
+      21    .   1   1   5    5    ILE   CD1   C   13   13.720    0.000   .   1   .   .   .   .   A   452   ILE   CD1   .   30273   1
+      22    .   1   1   5    5    ILE   N     N   15   122.990   0.000   .   1   .   .   .   .   A   452   ILE   N     .   30273   1
+      23    .   1   1   7    7    ASN   C     C   13   178.290   0.000   .   1   .   .   .   .   A   454   ASN   C     .   30273   1
+      24    .   1   1   7    7    ASN   CA    C   13   54.190    0.000   .   1   .   .   .   .   A   454   ASN   CA    .   30273   1
+      25    .   1   1   7    7    ASN   CB    C   13   37.590    0.000   .   1   .   .   .   .   A   454   ASN   CB    .   30273   1
+      26    .   1   1   7    7    ASN   CG    C   13   178.290   0.000   .   1   .   .   .   .   A   454   ASN   CG    .   30273   1
+      27    .   1   1   7    7    ASN   N     N   15   124.600   0.000   .   1   .   .   .   .   A   454   ASN   N     .   30273   1
+      28    .   1   1   8    8    CYS   C     C   13   174.230   0.000   .   1   .   .   .   .   A   455   CYS   C     .   30273   1
+      29    .   1   1   8    8    CYS   CA    C   13   58.270    0.000   .   1   .   .   .   .   A   455   CYS   CA    .   30273   1
+      30    .   1   1   8    8    CYS   CB    C   13   32.430    0.000   .   1   .   .   .   .   A   455   CYS   CB    .   30273   1
+      31    .   1   1   8    8    CYS   N     N   15   112.760   0.000   .   1   .   .   .   .   A   455   CYS   N     .   30273   1
+      32    .   1   1   9    9    SER   C     C   13   173.160   0.000   .   1   .   .   .   .   A   456   SER   C     .   30273   1
+      33    .   1   1   9    9    SER   CA    C   13   58.540    0.000   .   1   .   .   .   .   A   456   SER   CA    .   30273   1
+      34    .   1   1   9    9    SER   CB    C   13   64.010    0.000   .   1   .   .   .   .   A   456   SER   CB    .   30273   1
+      35    .   1   1   10   10   GLY   C     C   13   170.660   0.000   .   1   .   .   .   .   A   457   GLY   C     .   30273   1
+      36    .   1   1   10   10   GLY   CA    C   13   48.810    0.000   .   1   .   .   .   .   A   457   GLY   CA    .   30273   1
+      37    .   1   1   10   10   GLY   N     N   15   117.060   0.000   .   1   .   .   .   .   A   457   GLY   N     .   30273   1
+      38    .   1   1   11   11   VAL   C     C   13   174.370   0.000   .   1   .   .   .   .   A   458   VAL   C     .   30273   1
+      39    .   1   1   11   11   VAL   CA    C   13   59.350    0.000   .   1   .   .   .   .   A   458   VAL   CA    .   30273   1
+      40    .   1   1   11   11   VAL   CB    C   13   35.940    0.000   .   1   .   .   .   .   A   458   VAL   CB    .   30273   1
+      41    .   1   1   11   11   VAL   CG1   C   13   21.290    0.000   .   1   .   .   .   .   A   458   VAL   CG1   .   30273   1
+      42    .   1   1   11   11   VAL   CG2   C   13   20.250    0.000   .   1   .   .   .   .   A   458   VAL   CG2   .   30273   1
+      43    .   1   1   11   11   VAL   N     N   15   122.850   0.000   .   1   .   .   .   .   A   458   VAL   N     .   30273   1
+      44    .   1   1   12   12   GLN   C     C   13   174.230   0.000   .   1   .   .   .   .   A   459   GLN   C     .   30273   1
+      45    .   1   1   12   12   GLN   CA    C   13   54.101    0.000   .   1   .   .   .   .   A   459   GLN   CA    .   30273   1
+      46    .   1   1   12   12   GLN   CB    C   13   32.136    0.000   .   1   .   .   .   .   A   459   GLN   CB    .   30273   1
+      47    .   1   1   12   12   GLN   CG    C   13   33.601    0.000   .   1   .   .   .   .   A   459   GLN   CG    .   30273   1
+      48    .   1   1   12   12   GLN   CD    C   13   180.154   0.000   .   1   .   .   .   .   A   459   GLN   CD    .   30273   1
+      49    .   1   1   12   12   GLN   N     N   15   124.800   0.000   .   1   .   .   .   .   A   459   GLN   N     .   30273   1
+      50    .   1   1   13   13   VAL   C     C   13   174.510   0.000   .   1   .   .   .   .   A   460   VAL   C     .   30273   1
+      51    .   1   1   13   13   VAL   CA    C   13   60.560    0.000   .   1   .   .   .   .   A   460   VAL   CA    .   30273   1
+      52    .   1   1   13   13   VAL   CB    C   13   33.080    0.000   .   1   .   .   .   .   A   460   VAL   CB    .   30273   1
+      53    .   1   1   13   13   VAL   CG1   C   13   21.288    0.000   .   1   .   .   .   .   A   460   VAL   CG1   .   30273   1
+      54    .   1   1   13   13   VAL   CG2   C   13   19.760    0.000   .   1   .   .   .   .   A   460   VAL   CG2   .   30273   1
+      55    .   1   1   13   13   VAL   N     N   15   123.590   0.000   .   1   .   .   .   .   A   460   VAL   N     .   30273   1
+      56    .   1   1   14   14   GLY   C     C   13   171.000   0.000   .   1   .   .   .   .   A   461   GLY   C     .   30273   1
+      57    .   1   1   14   14   GLY   CA    C   13   44.610    0.000   .   1   .   .   .   .   A   461   GLY   CA    .   30273   1
+      58    .   1   1   14   14   GLY   N     N   15   116.860   0.000   .   1   .   .   .   .   A   461   GLY   N     .   30273   1
+      59    .   1   1   15   15   ASP   C     C   13   175.930   0.000   .   1   .   .   .   .   A   462   ASP   C     .   30273   1
+      60    .   1   1   15   15   ASP   CA    C   13   52.340    0.000   .   1   .   .   .   .   A   462   ASP   CA    .   30273   1
+      61    .   1   1   15   15   ASP   CB    C   13   43.990    0.000   .   1   .   .   .   .   A   462   ASP   CB    .   30273   1
+      62    .   1   1   15   15   ASP   CG    C   13   180.370   0.000   .   1   .   .   .   .   A   462   ASP   CG    .   30273   1
+      63    .   1   1   15   15   ASP   N     N   15   118.060   0.000   .   1   .   .   .   .   A   462   ASP   N     .   30273   1
+      64    .   2   2   1    1    THR   C     C   13   172.690   0.000   .   1   .   .   .   .   B   532   THR   C     .   30273   1
+      65    .   2   2   1    1    THR   CA    C   13   61.760    0.000   .   1   .   .   .   .   B   532   THR   CA    .   30273   1
+      66    .   2   2   1    1    THR   CB    C   13   69.950    0.000   .   1   .   .   .   .   B   532   THR   CB    .   30273   1
+      67    .   2   2   1    1    THR   CG2   C   13   21.960    0.000   .   1   .   .   .   .   B   532   THR   CG2   .   30273   1
+      68    .   2   2   1    1    THR   N     N   15   121.940   0.000   .   1   .   .   .   .   B   532   THR   N     .   30273   1
+      69    .   2   2   2    2    ILE   C     C   13   173.400   0.000   .   1   .   .   .   .   B   533   ILE   C     .   30273   1
+      70    .   2   2   2    2    ILE   CA    C   13   59.920    0.000   .   1   .   .   .   .   B   533   ILE   CA    .   30273   1
+      71    .   2   2   2    2    ILE   CB    C   13   41.570    0.000   .   1   .   .   .   .   B   533   ILE   CB    .   30273   1
+      72    .   2   2   2    2    ILE   CG1   C   13   27.790    0.000   .   1   .   .   .   .   B   533   ILE   CG1   .   30273   1
+      73    .   2   2   2    2    ILE   CG2   C   13   18.270    0.000   .   1   .   .   .   .   B   533   ILE   CG2   .   30273   1
+      74    .   2   2   2    2    ILE   CD1   C   13   14.210    0.000   .   1   .   .   .   .   B   533   ILE   CD1   .   30273   1
+      75    .   2   2   2    2    ILE   N     N   15   126.530   0.000   .   1   .   .   .   .   B   533   ILE   N     .   30273   1
+      76    .   2   2   3    3    TYR   C     C   13   174.340   0.000   .   1   .   .   .   .   B   534   TYR   C     .   30273   1
+      77    .   2   2   3    3    TYR   CA    C   13   56.315    0.000   .   1   .   .   .   .   B   534   TYR   CA    .   30273   1
+      78    .   2   2   3    3    TYR   CB    C   13   42.141    0.000   .   1   .   .   .   .   B   534   TYR   CB    .   30273   1
+      79    .   2   2   3    3    TYR   CG    C   13   128.680   0.000   .   1   .   .   .   .   B   534   TYR   CG    .   30273   1
+      80    .   2   2   3    3    TYR   N     N   15   123.510   0.000   .   1   .   .   .   .   B   534   TYR   N     .   30273   1
+      81    .   2   2   4    4    ASN   C     C   13   174.670   0.000   .   1   .   .   .   .   B   535   ASN   C     .   30273   1
+      82    .   2   2   4    4    ASN   CA    C   13   53.440    0.000   .   1   .   .   .   .   B   535   ASN   CA    .   30273   1
+      83    .   2   2   4    4    ASN   CB    C   13   36.021    0.000   .   1   .   .   .   .   B   535   ASN   CB    .   30273   1
+      84    .   2   2   4    4    ASN   CG    C   13   175.825   0.000   .   1   .   .   .   .   B   535   ASN   CG    .   30273   1
+      85    .   2   2   4    4    ASN   N     N   15   124.950   0.000   .   1   .   .   .   .   B   535   ASN   N     .   30273   1
+      86    .   2   2   5    5    SER   C     C   13   171.980   0.000   .   1   .   .   .   .   B   536   SER   C     .   30273   1
+      87    .   2   2   5    5    SER   CA    C   13   59.190    0.000   .   1   .   .   .   .   B   536   SER   CA    .   30273   1
+      88    .   2   2   5    5    SER   CB    C   13   67.880    0.000   .   1   .   .   .   .   B   536   SER   CB    .   30273   1
+      89    .   2   2   5    5    SER   N     N   15   112.710   0.000   .   1   .   .   .   .   B   536   SER   N     .   30273   1
+      90    .   2   2   6    6    THR   C     C   13   174.300   0.000   .   1   .   .   .   .   B   537   THR   C     .   30273   1
+      91    .   2   2   6    6    THR   CA    C   13   60.930    0.000   .   1   .   .   .   .   B   537   THR   CA    .   30273   1
+      92    .   2   2   6    6    THR   CB    C   13   72.140    0.000   .   1   .   .   .   .   B   537   THR   CB    .   30273   1
+      93    .   2   2   6    6    THR   CG2   C   13   21.080    0.000   .   1   .   .   .   .   B   537   THR   CG2   .   30273   1
+      94    .   2   2   6    6    THR   N     N   15   118.690   0.000   .   1   .   .   .   .   B   537   THR   N     .   30273   1
+      95    .   2   2   7    7    GLY   C     C   13   170.670   0.000   .   1   .   .   .   .   B   538   GLY   C     .   30273   1
+      96    .   2   2   7    7    GLY   CA    C   13   48.457    0.000   .   1   .   .   .   .   B   538   GLY   CA    .   30273   1
+      97    .   2   2   7    7    GLY   N     N   15   116.760   0.000   .   1   .   .   .   .   B   538   GLY   N     .   30273   1
+      98    .   2   2   8    8    ILE   C     C   13   174.450   0.000   .   1   .   .   .   .   B   539   ILE   C     .   30273   1
+      99    .   2   2   8    8    ILE   CA    C   13   59.170    0.000   .   1   .   .   .   .   B   539   ILE   CA    .   30273   1
+      100   .   2   2   8    8    ILE   CB    C   13   42.910    0.000   .   1   .   .   .   .   B   539   ILE   CB    .   30273   1
+      101   .   2   2   8    8    ILE   CG1   C   13   28.720    0.000   .   1   .   .   .   .   B   539   ILE   CG1   .   30273   1
+      102   .   2   2   8    8    ILE   CG2   C   13   18.390    0.000   .   1   .   .   .   .   B   539   ILE   CG2   .   30273   1
+      103   .   2   2   8    8    ILE   CD1   C   13   16.540    0.000   .   1   .   .   .   .   B   539   ILE   CD1   .   30273   1
+      104   .   2   2   8    8    ILE   N     N   15   124.770   0.000   .   1   .   .   .   .   B   539   ILE   N     .   30273   1
+      105   .   2   2   9    9    GLN   C     C   13   174.740   0.000   .   1   .   .   .   .   B   540   GLN   C     .   30273   1
+      106   .   2   2   9    9    GLN   CA    C   13   53.550    0.000   .   1   .   .   .   .   B   540   GLN   CA    .   30273   1
+      107   .   2   2   9    9    GLN   CB    C   13   32.460    0.000   .   1   .   .   .   .   B   540   GLN   CB    .   30273   1
+      108   .   2   2   9    9    GLN   CG    C   13   33.640    0.000   .   1   .   .   .   .   B   540   GLN   CG    .   30273   1
+      109   .   2   2   9    9    GLN   CD    C   13   177.680   0.000   .   1   .   .   .   .   B   540   GLN   CD    .   30273   1
+      110   .   2   2   9    9    GLN   N     N   15   124.880   0.000   .   1   .   .   .   .   B   540   GLN   N     .   30273   1
+      111   .   2   2   9    9    GLN   NE2   N   15   112.250   0.000   .   1   .   .   .   .   B   540   GLN   NE2   .   30273   1
+      112   .   2   2   10   10   ILE   C     C   13   174.540   0.000   .   1   .   .   .   .   B   541   ILE   C     .   30273   1
+      113   .   2   2   10   10   ILE   CA    C   13   60.560    0.000   .   1   .   .   .   .   B   541   ILE   CA    .   30273   1
+      114   .   2   2   10   10   ILE   CB    C   13   39.840    0.000   .   1   .   .   .   .   B   541   ILE   CB    .   30273   1
+      115   .   2   2   10   10   ILE   CG1   C   13   27.740    0.000   .   1   .   .   .   .   B   541   ILE   CG1   .   30273   1
+      116   .   2   2   10   10   ILE   CG2   C   13   17.490    0.000   .   1   .   .   .   .   B   541   ILE   CG2   .   30273   1
+      117   .   2   2   10   10   ILE   CD1   C   13   16.261    0.000   .   1   .   .   .   .   B   541   ILE   CD1   .   30273   1
+      118   .   2   2   10   10   ILE   N     N   15   124.480   0.000   .   1   .   .   .   .   B   541   ILE   N     .   30273   1
+      119   .   2   2   11   11   GLY   C     C   13   170.212   0.000   .   1   .   .   .   .   B   542   GLY   C     .   30273   1
+      120   .   2   2   11   11   GLY   CA    C   13   44.728    0.000   .   1   .   .   .   .   B   542   GLY   CA    .   30273   1
+      121   .   2   2   11   11   GLY   N     N   15   116.300   0.000   .   1   .   .   .   .   B   542   GLY   N     .   30273   1
+      122   .   2   2   12   12   ALA   C     C   13   176.010   0.000   .   1   .   .   .   .   B   543   ALA   C     .   30273   1
+      123   .   2   2   12   12   ALA   CA    C   13   49.830    0.000   .   1   .   .   .   .   B   543   ALA   CA    .   30273   1
+      124   .   2   2   12   12   ALA   CB    C   13   23.880    0.000   .   1   .   .   .   .   B   543   ALA   CB    .   30273   1
+      125   .   2   2   12   12   ALA   N     N   15   123.220   0.000   .   1   .   .   .   .   B   543   ALA   N     .   30273   1
+      126   .   2   2   13   13   TYR   C     C   13   174.600   0.000   .   1   .   .   .   .   B   544   TYR   C     .   30273   1
+      127   .   2   2   13   13   TYR   CA    C   13   57.989    0.000   .   1   .   .   .   .   B   544   TYR   CA    .   30273   1
+      128   .   2   2   13   13   TYR   CB    C   13   35.750    0.000   .   1   .   .   .   .   B   544   TYR   CB    .   30273   1
+      129   .   2   2   13   13   TYR   N     N   15   110.190   0.000   .   1   .   .   .   .   B   544   TYR   N     .   30273   1
+      130   .   2   2   14   14   ASN   C     C   13   175.720   0.000   .   1   .   .   .   .   B   545   ASN   C     .   30273   1
+      131   .   2   2   14   14   ASN   CA    C   13   53.300    0.000   .   1   .   .   .   .   B   545   ASN   CA    .   30273   1
+      132   .   2   2   14   14   ASN   CB    C   13   40.390    0.000   .   1   .   .   .   .   B   545   ASN   CB    .   30273   1
+      133   .   2   2   14   14   ASN   N     N   15   116.090   0.000   .   1   .   .   .   .   B   545   ASN   N     .   30273   1
+      134   .   2   2   15   15   TYR   C     C   13   174.290   0.000   .   1   .   .   .   .   B   546   TYR   C     .   30273   1
+      135   .   2   2   15   15   TYR   CA    C   13   56.890    0.000   .   1   .   .   .   .   B   546   TYR   CA    .   30273   1
+      136   .   2   2   15   15   TYR   CB    C   13   42.686    0.000   .   1   .   .   .   .   B   546   TYR   CB    .   30273   1
+      137   .   2   2   15   15   TYR   CG    C   13   129.380   0.000   .   1   .   .   .   .   B   546   TYR   CG    .   30273   1
+      138   .   2   2   15   15   TYR   N     N   15   122.410   0.000   .   1   .   .   .   .   B   546   TYR   N     .   30273   1
+      139   .   2   2   16   16   MET   C     C   13   172.600   0.000   .   1   .   .   .   .   B   547   MET   C     .   30273   1
+      140   .   2   2   16   16   MET   CA    C   13   54.200    0.000   .   1   .   .   .   .   B   547   MET   CA    .   30273   1
+      141   .   2   2   16   16   MET   CB    C   13   38.330    0.000   .   1   .   .   .   .   B   547   MET   CB    .   30273   1
+      142   .   2   2   16   16   MET   CG    C   13   30.843    0.000   .   1   .   .   .   .   B   547   MET   CG    .   30273   1
+      143   .   2   2   16   16   MET   CE    C   13   16.005    0.000   .   1   .   .   .   .   B   547   MET   CE    .   30273   1
+      144   .   2   2   16   16   MET   N     N   15   131.180   0.000   .   1   .   .   .   .   B   547   MET   N     .   30273   1
+      145   .   2   2   17   17   GLU   C     C   13   182.637   0.000   .   1   .   .   .   .   B   548   GLU   C     .   30273   1
+      146   .   2   2   17   17   GLU   CA    C   13   55.630    0.000   .   1   .   .   .   .   B   548   GLU   CA    .   30273   1
+      147   .   2   2   17   17   GLU   CB    C   13   29.680    0.000   .   1   .   .   .   .   B   548   GLU   CB    .   30273   1
+      148   .   2   2   17   17   GLU   CG    C   13   35.570    0.000   .   1   .   .   .   .   B   548   GLU   CG    .   30273   1
+      149   .   2   2   17   17   GLU   CD    C   13   182.710   0.000   .   1   .   .   .   .   B   548   GLU   CD    .   30273   1
+      150   .   2   2   17   17   GLU   N     N   15   124.371   0.000   .   1   .   .   .   .   B   548   GLU   N     .   30273   1
+      151   .   2   2   18   18   ILE   CB    C   13   36.390    0.000   .   1   .   .   .   .   B   549   ILE   CB    .   30273   1
+      152   .   2   2   18   18   ILE   CG1   C   13   26.800    0.000   .   1   .   .   .   .   B   549   ILE   CG1   .   30273   1
+      153   .   2   2   18   18   ILE   CD1   C   13   17.060    0.000   .   1   .   .   .   .   B   549   ILE   CD1   .   30273   1
+   stop_
+save_
+

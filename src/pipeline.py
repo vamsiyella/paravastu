@@ -345,24 +345,24 @@ def run_pipeline(
 # Curated solid-state NMR BMRB entries with linked PDB structures.
 # Selection criteria: ssNMR, 13C/15N shifts deposited, PDB structure available.
 SOLID_STATE_ENTRIES = [
-    # ── Confirmed working ─────────────────────────────────────────────────
-    (25123, "1UBQ", "Ubiquitin MPD crystal"),        # H=98 S=191 C=119 ✓
-    (15156, "2LGI", "GB1 MAS structure"),             # S=240 C=287
-    (15283, "2OED", "GB3 domain"),                    # S=160 C=181
-    (19025, "2M02", "CAP-Gly 19.9T dataset"),         # S=152 C=466
-    (15380, "1PGB", "GB1 crystal form B1"),           # S=345 C=273
-    (15380, "2QMT", "GB1 MAS polymorph"),             # S=277 C=341
-    (17561, "2LBH", "EETI-II knottin"),               # CB=0, CA+N only
+    # ── Confirmed working from --batch ────────────────────────────────────
+    (25123, "1UBQ",  "Ubiquitin MPD crystal"),        # H=98 S=191 C=119
+    (15156, "2LGI",  "GB1 MAS structure"),             # S=240 C=287
+    (15283, "2OED",  "GB3 domain"),                    # S=160 C=181
+    (19025, "2M02",  "CAP-Gly 19.9T dataset"),         # S=152 C=466
+    (15380, "1PGB",  "GB1 crystal form B1"),           # S=345 C=273
+    (15380, "2QMT",  "GB1 MAS polymorph"),             # S=277 C=341
+    (17561, "2LBH",  "EETI-II knottin"),               # H=152 S=204 C=522
+    (11512, "3ONS",  "Ubiquitin alt dataset"),         # H=50 S=69 C=93
+    (16327, "1FVK",  "DsbA oxidized"),                 # H=492 S=142 C=201 ← key helix
+    (18024, "2K0G",  "CNBD domain"),                   # H=192 S=145 C=192
+    (18397, "1GB1",  "GB1 proton-detected"),           # S=116 C=197
+    (19031, "2MPX",  "CAP-Gly+EB1 complex"),          # S=72 C=197
+    (25005, "2MPX",  "CAP-Gly on microtubule"),        # S=71 C=205
 
-    # ── New validated entries ─────────────────────────────────────────────
-    (11512, "3ONS", "Ubiquitin alt dataset"),         # PASS Δ=4
-    (16327, "1FVK", "DsbA oxidized"),                 # WARN Δ=8, H=16 segs ← key helix source
-    (18024, "2K0G", "CNBD domain"),                   # WARN Δ=10, helix+strand
-    (18397, "1GB1", "GB1 proton-detected"),           # WARN Δ=0
-    (19031, "2MPX", "CAP-Gly+EB1 complex"),          # WARN Δ=4
-    (25005, "2MPX", "CAP-Gly on microtubule"),        # WARN Δ=0
+    # ── From scraper — validate first with validate_pairs.py ─────────────
+    # (18808, "2M0G",  "ssNMR protein Δ=13, H=59%"),   # promising helix entry
 ]
-
 SKIP_ENTRIES: set = set()
 
 

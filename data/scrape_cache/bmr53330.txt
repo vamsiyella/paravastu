@@ -1,0 +1,1305 @@
+data_53330
+
+
+#######################
+#  Entry information  #
+#######################
+save_entry_information_1
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information_1
+   _Entry.ID                             53330
+   _Entry.Title
+;
+Chemical shift assignment of backbone 1H, 13C and 15N and tyrosine meta 1H, 13C for GB1-QDD crystals (MAS NMR)
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2025-08-28
+   _Entry.Accession_date                 2025-08-28
+   _Entry.Last_release_date              2025-08-28
+   _Entry.Original_release_date          2025-08-28
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.14.0
+   _Entry.NMR_STAR_dict_location         .
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solid-state
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          .
+   _Entry.Generated_software_label       .
+   _Entry.Generated_date                 .
+   _Entry.DOI                            .
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Lea    Becker    .   .   .   .   53330
+      2   Paul   Schanda   .   .   .   .   53330
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1   .   'Schanda group, ISTA'   .   53330
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   53330
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   155   53330
+      '15N chemical shifts'   50    53330
+      '1H chemical shifts'    56    53330
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      2   .   .   2025-10-31   2024-08-28   update     2024-08-28   'update assignment'   53330
+      1   .   .   2025-09-29   2024-08-28   original   2024-08-28   'original release'    53330
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      PDB   9I2I   'Crystal structure'   53330
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+save_citations_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citations_1
+   _Citation.Entry_ID                     53330
+   _Citation.ID                           1
+   _Citation.Name                         .
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.PubMed_ID                    .
+   _Citation.DOI                          10.1101/2025.08.20.671406
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Aromatic Ring Flips Reveal Reshaping of Protein Dynamics in Crystals and Complexes
+;
+   _Citation.Status                       published
+   _Citation.Type                         'other publication'
+   _Citation.Journal_abbrev               .
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               .
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   .
+   _Citation.Page_last                    .
+   _Citation.Year                         2025
+   _Citation.Details                      bioRxiv
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Lea          Becker       .   M.   .   .   53330   1
+      2   Haohao       Fu           .   .    .   .   53330   1
+      3   Ben          Tatman       .   P.   .   .   53330   1
+      4   Matthias     Dreydoppel   .   .    .   .   53330   1
+      5   Anna         Kapitonova   .   .    .   .   53330   1
+      6   Ulrich       Weininger    .   .    .   .   53330   1
+      7   Sylvain      Engilberge   .   .    .   .   53330   1
+      8   Christophe   Chipot       .   .    .   .   53330   1
+      9   Paul         Schanda      .   .    .   .   53330   1
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+save_assembly_1
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly_1
+   _Assembly.Entry_ID                          53330
+   _Assembly.ID                                1
+   _Assembly.Name                              'GB1 microcrystals'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              2
+   _Assembly.Organic_ligands                   0
+   _Assembly.Metal_ions                        1
+   _Assembly.Non_standard_bonds                no
+   _Assembly.Ambiguous_conformational_states   no
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    no
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           'Crystal with two molecules in the asymmetric unit'
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   'GB1 chain A'   1   $entity_1   .   .   yes   native   no   no   .   .   .   53330   1
+      2   'GB1 chain B'   1   $entity_1   .   .   yes   native   no   no   .   .   .   53330   1
+   stop_
+
+   loop_
+      _Assembly_db_link.Author_supplied
+      _Assembly_db_link.Database_code
+      _Assembly_db_link.Accession_code
+      _Assembly_db_link.Entry_mol_code
+      _Assembly_db_link.Entry_mol_name
+      _Assembly_db_link.Entry_experimental_method
+      _Assembly_db_link.Entry_structure_resolution
+      _Assembly_db_link.Entry_relation_type
+      _Assembly_db_link.Entry_details
+      _Assembly_db_link.Entry_ID
+      _Assembly_db_link.Assembly_ID
+
+      yes   PDB   9I2I   .   .   X-ray   .   .   .   53330   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+save_entity_1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_1
+   _Entity.Entry_ID                          53330
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              entity_1
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+MQYKLILDGKTLKGETTTEA
+VDAATAEKVFKQYANDDGVD
+GEWTYDDATKTFTVTE
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                56
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          'T2Q, N8D, N37D'
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    6225
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1    .   MET   .   53330   1
+      2    .   GLN   .   53330   1
+      3    .   TYR   .   53330   1
+      4    .   LYS   .   53330   1
+      5    .   LEU   .   53330   1
+      6    .   ILE   .   53330   1
+      7    .   LEU   .   53330   1
+      8    .   ASP   .   53330   1
+      9    .   GLY   .   53330   1
+      10   .   LYS   .   53330   1
+      11   .   THR   .   53330   1
+      12   .   LEU   .   53330   1
+      13   .   LYS   .   53330   1
+      14   .   GLY   .   53330   1
+      15   .   GLU   .   53330   1
+      16   .   THR   .   53330   1
+      17   .   THR   .   53330   1
+      18   .   THR   .   53330   1
+      19   .   GLU   .   53330   1
+      20   .   ALA   .   53330   1
+      21   .   VAL   .   53330   1
+      22   .   ASP   .   53330   1
+      23   .   ALA   .   53330   1
+      24   .   ALA   .   53330   1
+      25   .   THR   .   53330   1
+      26   .   ALA   .   53330   1
+      27   .   GLU   .   53330   1
+      28   .   LYS   .   53330   1
+      29   .   VAL   .   53330   1
+      30   .   PHE   .   53330   1
+      31   .   LYS   .   53330   1
+      32   .   GLN   .   53330   1
+      33   .   TYR   .   53330   1
+      34   .   ALA   .   53330   1
+      35   .   ASN   .   53330   1
+      36   .   ASP   .   53330   1
+      37   .   ASP   .   53330   1
+      38   .   GLY   .   53330   1
+      39   .   VAL   .   53330   1
+      40   .   ASP   .   53330   1
+      41   .   GLY   .   53330   1
+      42   .   GLU   .   53330   1
+      43   .   TRP   .   53330   1
+      44   .   THR   .   53330   1
+      45   .   TYR   .   53330   1
+      46   .   ASP   .   53330   1
+      47   .   ASP   .   53330   1
+      48   .   ALA   .   53330   1
+      49   .   THR   .   53330   1
+      50   .   LYS   .   53330   1
+      51   .   THR   .   53330   1
+      52   .   PHE   .   53330   1
+      53   .   THR   .   53330   1
+      54   .   VAL   .   53330   1
+      55   .   THR   .   53330   1
+      56   .   GLU   .   53330   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   MET   1    1    53330   1
+      .   GLN   2    2    53330   1
+      .   TYR   3    3    53330   1
+      .   LYS   4    4    53330   1
+      .   LEU   5    5    53330   1
+      .   ILE   6    6    53330   1
+      .   LEU   7    7    53330   1
+      .   ASP   8    8    53330   1
+      .   GLY   9    9    53330   1
+      .   LYS   10   10   53330   1
+      .   THR   11   11   53330   1
+      .   LEU   12   12   53330   1
+      .   LYS   13   13   53330   1
+      .   GLY   14   14   53330   1
+      .   GLU   15   15   53330   1
+      .   THR   16   16   53330   1
+      .   THR   17   17   53330   1
+      .   THR   18   18   53330   1
+      .   GLU   19   19   53330   1
+      .   ALA   20   20   53330   1
+      .   VAL   21   21   53330   1
+      .   ASP   22   22   53330   1
+      .   ALA   23   23   53330   1
+      .   ALA   24   24   53330   1
+      .   THR   25   25   53330   1
+      .   ALA   26   26   53330   1
+      .   GLU   27   27   53330   1
+      .   LYS   28   28   53330   1
+      .   VAL   29   29   53330   1
+      .   PHE   30   30   53330   1
+      .   LYS   31   31   53330   1
+      .   GLN   32   32   53330   1
+      .   TYR   33   33   53330   1
+      .   ALA   34   34   53330   1
+      .   ASN   35   35   53330   1
+      .   ASP   36   36   53330   1
+      .   ASP   37   37   53330   1
+      .   GLY   38   38   53330   1
+      .   VAL   39   39   53330   1
+      .   ASP   40   40   53330   1
+      .   GLY   41   41   53330   1
+      .   GLU   42   42   53330   1
+      .   TRP   43   43   53330   1
+      .   THR   44   44   53330   1
+      .   TYR   45   45   53330   1
+      .   ASP   46   46   53330   1
+      .   ASP   47   47   53330   1
+      .   ALA   48   48   53330   1
+      .   THR   49   49   53330   1
+      .   LYS   50   50   53330   1
+      .   THR   51   51   53330   1
+      .   PHE   52   52   53330   1
+      .   THR   53   53   53330   1
+      .   VAL   54   54   53330   1
+      .   THR   55   55   53330   1
+      .   GLU   56   56   53330   1
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+save_natural_source_1
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source_1
+   _Entity_natural_src_list.Entry_ID       53330
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $entity_1   .   1301   organism   .   Streptococcus   Streptococcus   .   .   Bacteria   .   Streptococcus   .   .   .   .   .   .   .   .   .   .   .   .   .   .   53330   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+save_experimental_source_1
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source_1
+   _Entity_experimental_src_list.Entry_ID       53330
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $entity_1   .   'recombinant technology'   'Escherichia coli'   .   .   .   Escherichia   coli   BL21(DE3)   .   .   plasmid   .   .   pGB1-Pet3a   .   .   .   53330   1
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         53330
+   _Sample.ID                               1
+   _Sample.Name                             DCN
+   _Sample.Type                             microcrystalline
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          1
+   _Sample.Solvent_system                   '100% H2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'GB1 microcrystals'        '[U-13C; U-15N; U-2H], NH back-exchanged'   .   .   1   $entity_1   .   .   16.5   13   20   mg   .   .   .   .   53330   1
+      2   'sodium phosphate'         'natural abundance'                         .   .   .   .           .   .   25     0    50   mM   .   .   .   .   53330   1
+      3   isopropanol                'natural abundance'                         .   .   .   .           .   .   12.5   0    25   %    .   .   .   .   53330   1
+      4   2-Methyl-2,4-pentanediol   'natural abundance'                         .   .   .   .           .   .   25     0    50   %    .   .   .   .   53330   1
+   stop_
+save_
+
+save_sample_2
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_2
+   _Sample.Entry_ID                         53330
+   _Sample.ID                               2
+   _Sample.Name                             'm-Phe, m-Tyr'
+   _Sample.Type                             microcrystalline
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          2
+   _Sample.Solvent_system                   '100% H2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   GB1                        '[U-15N; U-2H], NH back-exchanged, CE-Tyr, CE-Phe'   .   .   1   $entity_1   .   .   19     15   23   mg   .   .   .   .   53330   2
+      2   'sodium phosphate'         'natural abundance'                                  .   .   .   .           .   .   25     0    50   mM   .   .   .   .   53330   2
+      3   isopropanol                'natural abundance'                                  .   .   .   .           .   .   12.5   0    25   %    .   .   .   .   53330   2
+      4   2-Methyl-2,4-pentanediol   'natural abundance'                                  .   .   .   .           .   .   25     0    50   %    .   .   .   .   53330   2
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       53330
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Name           'Backbone assignment'
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            6.5   .   pH    53330   1
+      pressure      1     .   atm   53330   1
+      temperature   305   .   K     53330   1
+   stop_
+save_
+
+save_sample_conditions_2
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_2
+   _Sample_condition_list.Entry_ID       53330
+   _Sample_condition_list.ID             2
+   _Sample_condition_list.Name           'Tyrosine assignment, CH spectrum'
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            6.5   .   pH    53330   2
+      pressure      1     .   atm   53330   2
+      temperature   288   .   K     53330   2
+   stop_
+save_
+
+save_sample_conditions_3
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_3
+   _Sample_condition_list.Entry_ID       53330
+   _Sample_condition_list.ID             3
+   _Sample_condition_list.Name           'Tyrosine assignment, HNH RFDR'
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            6.5   .   pH    53330   3
+      pressure      1     .   atm   53330   3
+      temperature   307   .   K     53330   3
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+save_software_1
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_1
+   _Software.Entry_ID       53330
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           CYANA
+   _Software.Version        3.98.15
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'automatic chemical shift assignment'   .   53330   1
+   stop_
+save_
+
+save_software_2
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_2
+   _Software.Entry_ID       53330
+   _Software.ID             2
+   _Software.Type           .
+   _Software.Name           CcpNMR
+   _Software.Version        3.2.12
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'peak picking and chemical shift assignment'   .   53330   2
+   stop_
+save_
+
+save_software_3
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_3
+   _Software.Entry_ID       53330
+   _Software.ID             3
+   _Software.Type           .
+   _Software.Name           TOPSPIN
+   _Software.Version        4.1.4
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'acquisition and processing'   .   53330   3
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID         53330
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Name             'Bruker 700 MHz'
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            'AVANCE NEO'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   700
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+save_experiment_list_1
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list_1
+   _Experiment_list.Entry_ID       53330
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NUS_flag
+      _Experiment.Interleaved_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Details
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   '3D HNCA'         no   yes   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   53330   1
+      2   '3D HN(CO)CA'     no   yes   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   53330   1
+      3   '3D HN(CA)CB'     no   yes   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   53330   1
+      4   '3D HN(COCA)CB'   no   yes   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   53330   1
+      5   '3D HNCO'         no   yes   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   53330   1
+      6   '3D HN(CA)CO'     no   yes   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   53330   1
+      7   '3D HNH RFDR'     no   no    no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   3   $sample_conditions_3   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   53330   1
+      8   '2D (H)CH'        no   no    no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   2   $sample_conditions_2   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   53330   1
+   stop_
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+save_chem_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chem_shift_reference_1
+   _Chem_shift_reference.Entry_ID       53330
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Name           referencing
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   methylpentanediol   'methyl protons'   .   .   .   .   ppm   0.00   internal   indirect   0.251449530   .   .   .   .   .   53330   1
+      H   1    methylpentanediol   'methyl protons'   .   .   .   .   ppm   4.10   internal   direct     1.000000000   .   .   .   .   .   53330   1
+      N   15   methylpentanediol   'methyl protons'   .   .   .   .   ppm   0.00   internal   indirect   0.10133       .   .   .   .   .   53330   1
+   stop_
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Entry_ID                      53330
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Name                          'Backbone and Tyrosine CE/HE'
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chem_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1   '3D HNCA'         .   .   .   53330   1
+      2   '3D HN(CO)CA'     .   .   .   53330   1
+      3   '3D HN(CA)CB'     .   .   .   53330   1
+      4   '3D HN(COCA)CB'   .   .   .   53330   1
+      5   '3D HNCO'         .   .   .   53330   1
+      6   '3D HN(CA)CO'     .   .   .   53330   1
+      7   '3D HNH RFDR'     .   .   .   53330   1
+      8   '2D (H)CH'        .   .   .   53330   1
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+      1   $software_1   .   .   53330   1
+      2   $software_2   .   .   53330   1
+      3   $software_3   .   .   53330   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_assembly_asym_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   .   1   1    1    MET   C     C   13   170.6988603   0.08468540301     .   6   .   .   .   .   .   1    MET   C     .   53330   1
+      2     .   1   .   1   1    1    MET   CA    C   13   54.18590631   .                 .   6   .   .   .   .   .   1    MET   CA    .   53330   1
+      3     .   1   .   1   1    1    MET   CB    C   13   31.51360295   .                 .   6   .   .   .   .   .   1    MET   CB    .   53330   1
+      4     .   1   .   1   2    2    GLN   H     H   1    8.100365594   0.007432135854    .   6   .   .   .   .   .   2    GLN   H     .   53330   1
+      5     .   1   .   1   2    2    GLN   C     C   13   174.2225162   0.02901565591     .   6   .   .   .   .   .   2    GLN   C     .   53330   1
+      6     .   1   .   1   2    2    GLN   CA    C   13   55.11596496   0.01052275498     .   6   .   .   .   .   .   2    GLN   CA    .   53330   1
+      7     .   1   .   1   2    2    GLN   CB    C   13   29.22965846   0.04581873549     .   6   .   .   .   .   .   2    GLN   CB    .   53330   1
+      8     .   1   .   1   2    2    GLN   N     N   15   123.3804611   0.1289993746      .   6   .   .   .   .   .   2    GLN   N     .   53330   1
+      9     .   1   .   1   3    3    TYR   H     H   1    8.651509688   0.006422972317    .   6   .   .   .   .   .   3    TYR   H     .   53330   1
+      10    .   1   .   1   3    3    TYR   HE1   H   1    7.259989937   .                 .   3   .   .   .   .   .   3    TYR   HE1   .   53330   1
+      11    .   1   .   1   3    3    TYR   HE2   H   1    6.585179674   .                 .   3   .   .   .   .   .   3    TYR   HE2   .   53330   1
+      12    .   1   .   1   3    3    TYR   C     C   13   174.8164902   0.07553149399     .   6   .   .   .   .   .   3    TYR   C     .   53330   1
+      13    .   1   .   1   3    3    TYR   CA    C   13   56.80871665   0.05004279136     .   6   .   .   .   .   .   3    TYR   CA    .   53330   1
+      14    .   1   .   1   3    3    TYR   CB    C   13   43.3137479    0.08509620795     .   6   .   .   .   .   .   3    TYR   CB    .   53330   1
+      15    .   1   .   1   3    3    TYR   CE1   C   13   117.2716305   .                 .   3   .   .   .   .   .   3    TYR   CE1   .   53330   1
+      16    .   1   .   1   3    3    TYR   CE2   C   13   118.9087242   .                 .   3   .   .   .   .   .   3    TYR   CE2   .   53330   1
+      17    .   1   .   1   3    3    TYR   N     N   15   119.8347287   0.06465205586     .   6   .   .   .   .   .   3    TYR   N     .   53330   1
+      18    .   1   .   1   4    4    LYS   H     H   1    9.195566694   0.0113128236      .   1   .   .   .   .   .   4    LYS   H     .   53330   1
+      19    .   1   .   1   4    4    LYS   C     C   13   172.8479014   0.02802711326     .   1   .   .   .   .   .   4    LYS   C     .   53330   1
+      20    .   1   .   1   4    4    LYS   CA    C   13   54.56458021   0.01924638834     .   1   .   .   .   .   .   4    LYS   CA    .   53330   1
+      21    .   1   .   1   4    4    LYS   CB    C   13   34.74995508   0.08817776767     .   1   .   .   .   .   .   4    LYS   CB    .   53330   1
+      22    .   1   .   1   4    4    LYS   N     N   15   122.3320984   0.0614794817      .   1   .   .   .   .   .   4    LYS   N     .   53330   1
+      23    .   1   .   1   5    5    LEU   H     H   1    8.73442131    0.01416559735     .   1   .   .   .   .   .   5    LEU   H     .   53330   1
+      24    .   1   .   1   5    5    LEU   C     C   13   174.5035453   0.00818336078     .   1   .   .   .   .   .   5    LEU   C     .   53330   1
+      25    .   1   .   1   5    5    LEU   CA    C   13   52.65698295   0.06065158216     .   1   .   .   .   .   .   5    LEU   CA    .   53330   1
+      26    .   1   .   1   5    5    LEU   CB    C   13   42.11387805   0.1102956179      .   1   .   .   .   .   .   5    LEU   CB    .   53330   1
+      27    .   1   .   1   5    5    LEU   N     N   15   126.8393148   0.05661222852     .   1   .   .   .   .   .   5    LEU   N     .   53330   1
+      28    .   1   .   1   6    6    ILE   H     H   1    9.28281156    0.009838628684    .   1   .   .   .   .   .   6    ILE   H     .   53330   1
+      29    .   1   .   1   6    6    ILE   C     C   13   174.6865183   0.002507587555    .   1   .   .   .   .   .   6    ILE   C     .   53330   1
+      30    .   1   .   1   6    6    ILE   CA    C   13   59.48911813   0.02023196092     .   1   .   .   .   .   .   6    ILE   CA    .   53330   1
+      31    .   1   .   1   6    6    ILE   CB    C   13   37.17564709   0.07098835745     .   1   .   .   .   .   .   6    ILE   CB    .   53330   1
+      32    .   1   .   1   6    6    ILE   N     N   15   125.8932336   0.07193674922     .   1   .   .   .   .   .   6    ILE   N     .   53330   1
+      33    .   1   .   1   7    7    LEU   H     H   1    8.95451475    0.01378276551     .   1   .   .   .   .   .   7    LEU   H     .   53330   1
+      34    .   1   .   1   7    7    LEU   C     C   13   174.4897561   0.08208812298     .   1   .   .   .   .   .   7    LEU   C     .   53330   1
+      35    .   1   .   1   7    7    LEU   CA    C   13   53.71991626   0.02903555964     .   1   .   .   .   .   .   7    LEU   CA    .   53330   1
+      36    .   1   .   1   7    7    LEU   CB    C   13   41.50982688   0.0204686156      .   1   .   .   .   .   .   7    LEU   CB    .   53330   1
+      37    .   1   .   1   7    7    LEU   N     N   15   126.3998076   0.05467333534     .   1   .   .   .   .   .   7    LEU   N     .   53330   1
+      38    .   1   .   1   8    8    ASP   H     H   1    8.898327769   0.01116438407     .   1   .   .   .   .   .   8    ASP   H     .   53330   1
+      39    .   1   .   1   8    8    ASP   C     C   13   175.9702925   0.0525360687      .   1   .   .   .   .   .   8    ASP   C     .   53330   1
+      40    .   1   .   1   8    8    ASP   CA    C   13   51.60907847   0.004941383383    .   1   .   .   .   .   .   8    ASP   CA    .   53330   1
+      41    .   1   .   1   8    8    ASP   CB    C   13   39.74064831   0.03184923481     .   1   .   .   .   .   .   8    ASP   CB    .   53330   1
+      42    .   1   .   1   8    8    ASP   N     N   15   127.7635666   0.04599371858     .   1   .   .   .   .   .   8    ASP   N     .   53330   1
+      43    .   1   .   1   9    9    GLY   H     H   1    7.862657491   0.006066895601    .   1   .   .   .   .   .   9    GLY   H     .   53330   1
+      44    .   1   .   1   9    9    GLY   C     C   13   174.3313687   0.02955442664     .   1   .   .   .   .   .   9    GLY   C     .   53330   1
+      45    .   1   .   1   9    9    GLY   CA    C   13   44.46090964   0.0235847348      .   1   .   .   .   .   .   9    GLY   CA    .   53330   1
+      46    .   1   .   1   9    9    GLY   N     N   15   108.5814946   0.04047000086     .   1   .   .   .   .   .   9    GLY   N     .   53330   1
+      47    .   1   .   1   10   10   LYS   H     H   1    9.533428053   0.005317634678    .   1   .   .   .   .   .   10   LYS   H     .   53330   1
+      48    .   1   .   1   10   10   LYS   C     C   13   179.071745    0.003884706377    .   1   .   .   .   .   .   10   LYS   C     .   53330   1
+      49    .   1   .   1   10   10   LYS   CA    C   13   58.82372171   0.001415781959    .   1   .   .   .   .   .   10   LYS   CA    .   53330   1
+      50    .   1   .   1   10   10   LYS   CB    C   13   32.09189801   0.03219741526     .   1   .   .   .   .   .   10   LYS   CB    .   53330   1
+      51    .   1   .   1   10   10   LYS   N     N   15   120.5478157   0.07558087231     .   1   .   .   .   .   .   10   LYS   N     .   53330   1
+      52    .   1   .   1   11   11   THR   H     H   1    8.973091185   0.0072971919      .   1   .   .   .   .   .   11   THR   H     .   53330   1
+      53    .   1   .   1   11   11   THR   C     C   13   172.7220111   0.01857309327     .   1   .   .   .   .   .   11   THR   C     .   53330   1
+      54    .   1   .   1   11   11   THR   CA    C   13   60.44721494   0.006406646392    .   1   .   .   .   .   .   11   THR   CA    .   53330   1
+      55    .   1   .   1   11   11   THR   CB    C   13   69.3943228    0.1468322034      .   1   .   .   .   .   .   11   THR   CB    .   53330   1
+      56    .   1   .   1   11   11   THR   N     N   15   106.1206795   0.01610091181     .   1   .   .   .   .   .   11   THR   N     .   53330   1
+      57    .   1   .   1   12   12   LEU   H     H   1    6.780337127   0.008963000971    .   1   .   .   .   .   .   12   LEU   H     .   53330   1
+      58    .   1   .   1   12   12   LEU   C     C   13   173.8505686   0.0295971226      .   1   .   .   .   .   .   12   LEU   C     .   53330   1
+      59    .   1   .   1   12   12   LEU   CA    C   13   54.93188216   0.004354956507    .   1   .   .   .   .   .   12   LEU   CA    .   53330   1
+      60    .   1   .   1   12   12   LEU   CB    C   13   44.59121691   0.006887450719    .   1   .   .   .   .   .   12   LEU   CB    .   53330   1
+      61    .   1   .   1   12   12   LEU   N     N   15   122.2274507   0.05288192685     .   1   .   .   .   .   .   12   LEU   N     .   53330   1
+      62    .   1   .   1   13   13   LYS   H     H   1    8.980406658   0.01042290756     .   1   .   .   .   .   .   13   LYS   H     .   53330   1
+      63    .   1   .   1   13   13   LYS   C     C   13   175.6038785   0.0008270242557   .   1   .   .   .   .   .   13   LYS   C     .   53330   1
+      64    .   1   .   1   13   13   LYS   CA    C   13   53.22962274   0.0345970067      .   1   .   .   .   .   .   13   LYS   CA    .   53330   1
+      65    .   1   .   1   13   13   LYS   CB    C   13   35.85298914   0.0005531111664   .   1   .   .   .   .   .   13   LYS   CB    .   53330   1
+      66    .   1   .   1   13   13   LYS   N     N   15   121.1014859   0.03744286766     .   1   .   .   .   .   .   13   LYS   N     .   53330   1
+      67    .   1   .   1   14   14   GLY   H     H   1    8.623254066   0.004144217668    .   1   .   .   .   .   .   14   GLY   H     .   53330   1
+      68    .   1   .   1   14   14   GLY   C     C   13   171.1165582   0.03959489862     .   1   .   .   .   .   .   14   GLY   C     .   53330   1
+      69    .   1   .   1   14   14   GLY   CA    C   13   45.69902388   0.009398263192    .   1   .   .   .   .   .   14   GLY   CA    .   53330   1
+      70    .   1   .   1   14   14   GLY   N     N   15   107.3128322   0.08780535978     .   1   .   .   .   .   .   14   GLY   N     .   53330   1
+      71    .   1   .   1   15   15   GLU   H     H   1    8.440177887   0.003143611533    .   1   .   .   .   .   .   15   GLU   H     .   53330   1
+      72    .   1   .   1   15   15   GLU   C     C   13   174.9490675   0.0522613966      .   1   .   .   .   .   .   15   GLU   C     .   53330   1
+      73    .   1   .   1   15   15   GLU   CA    C   13   53.93519515   0.01076693425     .   1   .   .   .   .   .   15   GLU   CA    .   53330   1
+      74    .   1   .   1   15   15   GLU   CB    C   13   33.40635779   0.006386264234    .   1   .   .   .   .   .   15   GLU   CB    .   53330   1
+      75    .   1   .   1   15   15   GLU   N     N   15   117.3776068   0.04954085416     .   1   .   .   .   .   .   15   GLU   N     .   53330   1
+      76    .   1   .   1   16   16   THR   H     H   1    8.89334177    0.007084332788    .   1   .   .   .   .   .   16   THR   H     .   53330   1
+      77    .   1   .   1   16   16   THR   C     C   13   171.8629652   0.0340348826      .   1   .   .   .   .   .   16   THR   C     .   53330   1
+      78    .   1   .   1   16   16   THR   CA    C   13   60.29041654   0.02545744554     .   1   .   .   .   .   .   16   THR   CA    .   53330   1
+      79    .   1   .   1   16   16   THR   CB    C   13   69.21832514   0.0952293814      .   1   .   .   .   .   .   16   THR   CB    .   53330   1
+      80    .   1   .   1   16   16   THR   N     N   15   115.4809758   0.07157867104     .   1   .   .   .   .   .   16   THR   N     .   53330   1
+      81    .   1   .   1   17   17   THR   H     H   1    8.196828518   0.01442111462     .   1   .   .   .   .   .   17   THR   H     .   53330   1
+      82    .   1   .   1   17   17   THR   C     C   13   174.1463024   0.0217449208      .   1   .   .   .   .   .   17   THR   C     .   53330   1
+      83    .   1   .   1   17   17   THR   CA    C   13   59.99613317   0.09548053633     .   1   .   .   .   .   .   17   THR   CA    .   53330   1
+      84    .   1   .   1   17   17   THR   CB    C   13   72.79614079   0.2500720682      .   1   .   .   .   .   .   17   THR   CB    .   53330   1
+      85    .   1   .   1   17   17   THR   N     N   15   111.8203415   0.06485648807     .   1   .   .   .   .   .   17   THR   N     .   53330   1
+      86    .   1   .   1   18   18   THR   H     H   1    8.989133828   0.004979822485    .   6   .   .   .   .   .   18   THR   H     .   53330   1
+      87    .   1   .   1   18   18   THR   C     C   13   171.4981886   0.09209399442     .   6   .   .   .   .   .   18   THR   C     .   53330   1
+      88    .   1   .   1   18   18   THR   CA    C   13   62.15068233   0.08178996842     .   6   .   .   .   .   .   18   THR   CA    .   53330   1
+      89    .   1   .   1   18   18   THR   CB    C   13   69.4017359    0.08789288351     .   6   .   .   .   .   .   18   THR   CB    .   53330   1
+      90    .   1   .   1   18   18   THR   N     N   15   111.7660148   0.05528304292     .   6   .   .   .   .   .   18   THR   N     .   53330   1
+      91    .   1   .   1   19   19   GLU   H     H   1    7.777843757   0.008138740706    .   1   .   .   .   .   .   19   GLU   H     .   53330   1
+      92    .   1   .   1   19   19   GLU   C     C   13   175.4116742   0.007502355278    .   1   .   .   .   .   .   19   GLU   C     .   53330   1
+      93    .   1   .   1   19   19   GLU   CA    C   13   54.12556961   0.0537174009      .   1   .   .   .   .   .   19   GLU   CA    .   53330   1
+      94    .   1   .   1   19   19   GLU   CB    C   13   31.0569014    0.1090561084      .   1   .   .   .   .   .   19   GLU   CB    .   53330   1
+      95    .   1   .   1   19   19   GLU   N     N   15   124.6750894   0.0419448869      .   1   .   .   .   .   .   19   GLU   N     .   53330   1
+      96    .   1   .   1   20   20   ALA   H     H   1    9.51014005    0.05181881429     .   1   .   .   .   .   .   20   ALA   H     .   53330   1
+      97    .   1   .   1   20   20   ALA   C     C   13   177.5469425   0.1205424267      .   1   .   .   .   .   .   20   ALA   C     .   53330   1
+      98    .   1   .   1   20   20   ALA   CA    C   13   50.64361103   0.02617849819     .   1   .   .   .   .   .   20   ALA   CA    .   53330   1
+      99    .   1   .   1   20   20   ALA   CB    C   13   22.49981192   0.1905504527      .   1   .   .   .   .   .   20   ALA   CB    .   53330   1
+      100   .   1   .   1   20   20   ALA   N     N   15   126.1455023   0.1577422256      .   1   .   .   .   .   .   20   ALA   N     .   53330   1
+      101   .   1   .   1   21   21   VAL   H     H   1    8.613154331   0.004596873458    .   6   .   .   .   .   .   21   VAL   H     .   53330   1
+      102   .   1   .   1   21   21   VAL   C     C   13   174.2837781   0.007917079308    .   6   .   .   .   .   .   21   VAL   C     .   53330   1
+      103   .   1   .   1   21   21   VAL   CA    C   13   63.4264965    0.2067942074      .   6   .   .   .   .   .   21   VAL   CA    .   53330   1
+      104   .   1   .   1   21   21   VAL   CB    C   13   30.96837862   0.04510282339     .   6   .   .   .   .   .   21   VAL   CB    .   53330   1
+      105   .   1   .   1   21   21   VAL   N     N   15   117.1379371   0.05648192713     .   6   .   .   .   .   .   21   VAL   N     .   53330   1
+      106   .   1   .   1   22   22   ASP   H     H   1    7.243409265   0.02192107943     .   1   .   .   .   .   .   22   ASP   H     .   53330   1
+      107   .   1   .   1   22   22   ASP   C     C   13   175.673252    0.09020865158     .   1   .   .   .   .   .   22   ASP   C     .   53330   1
+      108   .   1   .   1   22   22   ASP   CA    C   13   52.53140046   0.03279170226     .   1   .   .   .   .   .   22   ASP   CA    .   53330   1
+      109   .   1   .   1   22   22   ASP   CB    C   13   41.50827315   0.02801507789     .   1   .   .   .   .   .   22   ASP   CB    .   53330   1
+      110   .   1   .   1   22   22   ASP   N     N   15   114.2657495   0.05855792476     .   1   .   .   .   .   .   22   ASP   N     .   53330   1
+      111   .   1   .   1   23   23   ALA   H     H   1    9.542038841   0.009779257732    .   1   .   .   .   .   .   23   ALA   H     .   53330   1
+      112   .   1   .   1   23   23   ALA   C     C   13   179.1680669   0.02242687548     .   1   .   .   .   .   .   23   ALA   C     .   53330   1
+      113   .   1   .   1   23   23   ALA   CA    C   13   54.06206885   0.0147940883      .   1   .   .   .   .   .   23   ALA   CA    .   53330   1
+      114   .   1   .   1   23   23   ALA   CB    C   13   16.73481063   0.07032254536     .   1   .   .   .   .   .   23   ALA   CB    .   53330   1
+      115   .   1   .   1   23   23   ALA   N     N   15   122.137552    0.07222530412     .   1   .   .   .   .   .   23   ALA   N     .   53330   1
+      116   .   1   .   1   24   24   ALA   H     H   1    7.887259937   0.03586496554     .   1   .   .   .   .   .   24   ALA   H     .   53330   1
+      117   .   1   .   1   24   24   ALA   C     C   13   181.0612434   0.01954088625     .   1   .   .   .   .   .   24   ALA   C     .   53330   1
+      118   .   1   .   1   24   24   ALA   CA    C   13   54.2085885    0.006685398579    .   1   .   .   .   .   .   24   ALA   CA    .   53330   1
+      119   .   1   .   1   24   24   ALA   N     N   15   120.295236    0.04550856638     .   1   .   .   .   .   .   24   ALA   N     .   53330   1
+      120   .   1   .   1   25   25   THR   H     H   1    8.292771484   0.01187888818     .   1   .   .   .   .   .   25   THR   H     .   53330   1
+      121   .   1   .   1   25   25   THR   C     C   13   175.5720273   0.05999838147     .   1   .   .   .   .   .   25   THR   C     .   53330   1
+      122   .   1   .   1   25   25   THR   CA    C   13   67.08217357   0.1800197723      .   1   .   .   .   .   .   25   THR   CA    .   53330   1
+      123   .   1   .   1   25   25   THR   N     N   15   116.7254374   0.05822198666     .   1   .   .   .   .   .   25   THR   N     .   53330   1
+      124   .   1   .   1   26   26   ALA   H     H   1    7.45621836    0.01611027965     .   1   .   .   .   .   .   26   ALA   H     .   53330   1
+      125   .   1   .   1   26   26   ALA   C     C   13   177.2200477   0.001051741507    .   1   .   .   .   .   .   26   ALA   C     .   53330   1
+      126   .   1   .   1   26   26   ALA   CA    C   13   54.60212164   0.02904552331     .   1   .   .   .   .   .   26   ALA   CA    .   53330   1
+      127   .   1   .   1   26   26   ALA   N     N   15   123.3648403   0.02935339968     .   1   .   .   .   .   .   26   ALA   N     .   53330   1
+      128   .   1   .   1   27   27   GLU   H     H   1    8.485267137   0.00875565043     .   1   .   .   .   .   .   27   GLU   H     .   53330   1
+      129   .   1   .   1   27   27   GLU   C     C   13   177.2797928   0.0001488954091   .   1   .   .   .   .   .   27   GLU   C     .   53330   1
+      130   .   1   .   1   27   27   GLU   CA    C   13   59.20898276   0.01640298655     .   1   .   .   .   .   .   27   GLU   CA    .   53330   1
+      131   .   1   .   1   27   27   GLU   CB    C   13   28.02725132   0.03098241937     .   1   .   .   .   .   .   27   GLU   CB    .   53330   1
+      132   .   1   .   1   27   27   GLU   N     N   15   116.2323714   0.07010392306     .   1   .   .   .   .   .   27   GLU   N     .   53330   1
+      133   .   1   .   1   28   28   LYS   H     H   1    6.878143246   0.005031130846    .   1   .   .   .   .   .   28   LYS   H     .   53330   1
+      134   .   1   .   1   28   28   LYS   C     C   13   179.3298544   0.0500420391      .   1   .   .   .   .   .   28   LYS   C     .   53330   1
+      135   .   1   .   1   28   28   LYS   CA    C   13   59.08329414   0.02928690315     .   1   .   .   .   .   .   28   LYS   CA    .   53330   1
+      136   .   1   .   1   28   28   LYS   CB    C   13   31.18120098   0.06762182101     .   1   .   .   .   .   .   28   LYS   CB    .   53330   1
+      137   .   1   .   1   28   28   LYS   N     N   15   116.0468836   0.04836518972     .   1   .   .   .   .   .   28   LYS   N     .   53330   1
+      138   .   1   .   1   29   29   VAL   H     H   1    7.504728758   0.02214785767     .   1   .   .   .   .   .   29   VAL   H     .   53330   1
+      139   .   1   .   1   29   29   VAL   C     C   13   178.6742216   0.005918638035    .   1   .   .   .   .   .   29   VAL   C     .   53330   1
+      140   .   1   .   1   29   29   VAL   CA    C   13   65.78722817   0.02018360913     .   1   .   .   .   .   .   29   VAL   CA    .   53330   1
+      141   .   1   .   1   29   29   VAL   CB    C   13   30.79441838   .                 .   1   .   .   .   .   .   29   VAL   CB    .   53330   1
+      142   .   1   .   1   29   29   VAL   N     N   15   119.5395256   0.1242269658      .   1   .   .   .   .   .   29   VAL   N     .   53330   1
+      143   .   1   .   1   30   30   PHE   H     H   1    8.635788816   0.01318428041     .   1   .   .   .   .   .   30   PHE   H     .   53330   1
+      144   .   1   .   1   30   30   PHE   C     C   13   178.5492458   0.01535520917     .   1   .   .   .   .   .   30   PHE   C     .   53330   1
+      145   .   1   .   1   30   30   PHE   CA    C   13   57.1733477    0.02111517173     .   1   .   .   .   .   .   30   PHE   CA    .   53330   1
+      146   .   1   .   1   30   30   PHE   CB    C   13   37.26302684   0.1092580352      .   1   .   .   .   .   .   30   PHE   CB    .   53330   1
+      147   .   1   .   1   30   30   PHE   N     N   15   118.3755438   0.01784011603     .   1   .   .   .   .   .   30   PHE   N     .   53330   1
+      148   .   1   .   1   31   31   LYS   H     H   1    8.850857374   0.008305538618    .   1   .   .   .   .   .   31   LYS   H     .   53330   1
+      149   .   1   .   1   31   31   LYS   CA    C   13   59.48222139   .                 .   1   .   .   .   .   .   31   LYS   CA    .   53330   1
+      150   .   1   .   1   31   31   LYS   CB    C   13   31.17817935   .                 .   1   .   .   .   .   .   31   LYS   CB    .   53330   1
+      151   .   1   .   1   31   31   LYS   N     N   15   120.2329669   0.09165345038     .   1   .   .   .   .   .   31   LYS   N     .   53330   1
+      152   .   1   .   1   33   33   TYR   HE1   H   1    6.698081766   .                 .   3   .   .   .   .   .   33   TYR   HE#   .   53330   1
+      153   .   1   .   1   33   33   TYR   HE2   H   1    6.698081766   .                 .   3   .   .   .   .   .   33   TYR   HE#   .   53330   1
+      154   .   1   .   1   33   33   TYR   CE1   C   13   118.2010268   .                 .   3   .   .   .   .   .   33   TYR   CE#   .   53330   1
+      155   .   1   .   1   33   33   TYR   CE2   C   13   118.2010268   .                 .   3   .   .   .   .   .   33   TYR   CE#   .   53330   1
+      156   .   1   .   1   41   41   GLY   H     H   1    7.597465081   0.005300102148    .   1   .   .   .   .   .   41   GLY   H     .   53330   1
+      157   .   1   .   1   41   41   GLY   C     C   13   171.9338095   0.002524374294    .   1   .   .   .   .   .   41   GLY   C     .   53330   1
+      158   .   1   .   1   41   41   GLY   CA    C   13   44.30395612   0.003000210745    .   1   .   .   .   .   .   41   GLY   CA    .   53330   1
+      159   .   1   .   1   41   41   GLY   N     N   15   104.3398144   0.05956130613     .   1   .   .   .   .   .   41   GLY   N     .   53330   1
+      160   .   1   .   1   42   42   GLU   H     H   1    8.388039439   0.01445296961     .   1   .   .   .   .   .   42   GLU   H     .   53330   1
+      161   .   1   .   1   42   42   GLU   C     C   13   176.2592224   0.03575067244     .   1   .   .   .   .   .   42   GLU   C     .   53330   1
+      162   .   1   .   1   42   42   GLU   CA    C   13   54.95458796   0.008371690345    .   1   .   .   .   .   .   42   GLU   CA    .   53330   1
+      163   .   1   .   1   42   42   GLU   CB    C   13   30.55934246   0.01287520034     .   1   .   .   .   .   .   42   GLU   CB    .   53330   1
+      164   .   1   .   1   42   42   GLU   N     N   15   119.1654626   0.0841460157      .   1   .   .   .   .   .   42   GLU   N     .   53330   1
+      165   .   1   .   1   43   43   TRP   H     H   1    8.845764196   0.008584970782    .   1   .   .   .   .   .   43   TRP   H     .   53330   1
+      166   .   1   .   1   43   43   TRP   C     C   13   176.2858161   0.05584443768     .   1   .   .   .   .   .   43   TRP   C     .   53330   1
+      167   .   1   .   1   43   43   TRP   CA    C   13   57.62167801   0.01114474568     .   1   .   .   .   .   .   43   TRP   CA    .   53330   1
+      168   .   1   .   1   43   43   TRP   CB    C   13   28.72079254   0.01293964151     .   1   .   .   .   .   .   43   TRP   CB    .   53330   1
+      169   .   1   .   1   43   43   TRP   N     N   15   131.7950732   0.04872114969     .   1   .   .   .   .   .   43   TRP   N     .   53330   1
+      170   .   1   .   1   44   44   THR   H     H   1    9.564082168   0.007148340757    .   1   .   .   .   .   .   44   THR   H     .   53330   1
+      171   .   1   .   1   44   44   THR   C     C   13   172.797457    0.006820336542    .   1   .   .   .   .   .   44   THR   C     .   53330   1
+      172   .   1   .   1   44   44   THR   CA    C   13   60.26933795   0.02758797175     .   1   .   .   .   .   .   44   THR   CA    .   53330   1
+      173   .   1   .   1   44   44   THR   CB    C   13   72.14931664   0.1038790573      .   1   .   .   .   .   .   44   THR   CB    .   53330   1
+      174   .   1   .   1   44   44   THR   N     N   15   114.837906    0.0373273884      .   1   .   .   .   .   .   44   THR   N     .   53330   1
+      175   .   1   .   1   45   45   TYR   H     H   1    8.73376316    0.007222046888    .   1   .   .   .   .   .   45   TYR   H     .   53330   1
+      176   .   1   .   1   45   45   TYR   HE1   H   1    6.435518486   .                 .   3   .   .   .   .   .   45   TYR   HE1   .   53330   1
+      177   .   1   .   1   45   45   TYR   HE2   H   1    6.145305828   .                 .   3   .   .   .   .   .   45   TYR   HE2   .   53330   1
+      178   .   1   .   1   45   45   TYR   C     C   13   172.8500245   0.01597999667     .   1   .   .   .   .   .   45   TYR   C     .   53330   1
+      179   .   1   .   1   45   45   TYR   CA    C   13   56.84805238   0.01690242975     .   1   .   .   .   .   .   45   TYR   CA    .   53330   1
+      180   .   1   .   1   45   45   TYR   CB    C   13   41.53327382   0.01119974919     .   1   .   .   .   .   .   45   TYR   CB    .   53330   1
+      181   .   1   .   1   45   45   TYR   CE1   C   13   115.8603932   .                 .   3   .   .   .   .   .   45   TYR   CE1   .   53330   1
+      182   .   1   .   1   45   45   TYR   CE2   C   13   118.2076123   .                 .   3   .   .   .   .   .   45   TYR   CE2   .   53330   1
+      183   .   1   .   1   45   45   TYR   N     N   15   121.2910774   0.06803349955     .   1   .   .   .   .   .   45   TYR   N     .   53330   1
+      184   .   1   .   1   46   46   ASP   H     H   1    7.784336228   0.007837821281    .   1   .   .   .   .   .   46   ASP   H     .   53330   1
+      185   .   1   .   1   46   46   ASP   C     C   13   174.8810034   0.002986808083    .   1   .   .   .   .   .   46   ASP   C     .   53330   1
+      186   .   1   .   1   46   46   ASP   CA    C   13   51.50798733   0.003857154666    .   1   .   .   .   .   .   46   ASP   CA    .   53330   1
+      187   .   1   .   1   46   46   ASP   CB    C   13   43.08011301   0.02911196226     .   1   .   .   .   .   .   46   ASP   CB    .   53330   1
+      188   .   1   .   1   46   46   ASP   N     N   15   127.5983142   0.06081685389     .   1   .   .   .   .   .   46   ASP   N     .   53330   1
+      189   .   1   .   1   47   47   ASP   H     H   1    8.890715008   0.005992886918    .   1   .   .   .   .   .   47   ASP   H     .   53330   1
+      190   .   1   .   1   47   47   ASP   C     C   13   178.3906936   0.02120965376     .   1   .   .   .   .   .   47   ASP   C     .   53330   1
+      191   .   1   .   1   47   47   ASP   CA    C   13   56.55704093   0.09870965102     .   1   .   .   .   .   .   47   ASP   CA    .   53330   1
+      192   .   1   .   1   47   47   ASP   CB    C   13   42.58643644   0.07390612395     .   1   .   .   .   .   .   47   ASP   CB    .   53330   1
+      193   .   1   .   1   47   47   ASP   N     N   15   125.2237425   0.05640767749     .   1   .   .   .   .   .   47   ASP   N     .   53330   1
+      194   .   1   .   1   48   48   ALA   H     H   1    8.198797015   0.01004669243     .   1   .   .   .   .   .   48   ALA   H     .   53330   1
+      195   .   1   .   1   48   48   ALA   C     C   13   179.1043983   0.003612442278    .   1   .   .   .   .   .   48   ALA   C     .   53330   1
+      196   .   1   .   1   48   48   ALA   CA    C   13   54.4798188    0.01098631666     .   1   .   .   .   .   .   48   ALA   CA    .   53330   1
+      197   .   1   .   1   48   48   ALA   CB    C   13   17.64132495   0.0235116301      .   1   .   .   .   .   .   48   ALA   CB    .   53330   1
+      198   .   1   .   1   48   48   ALA   N     N   15   118.1652922   0.04947435634     .   1   .   .   .   .   .   48   ALA   N     .   53330   1
+      199   .   1   .   1   49   49   THR   H     H   1    6.897924819   0.007870898356    .   1   .   .   .   .   .   49   THR   H     .   53330   1
+      200   .   1   .   1   49   49   THR   C     C   13   174.9017102   0.04207444218     .   1   .   .   .   .   .   49   THR   C     .   53330   1
+      201   .   1   .   1   49   49   THR   CA    C   13   59.87791451   0.009970567558    .   1   .   .   .   .   .   49   THR   CA    .   53330   1
+      202   .   1   .   1   49   49   THR   CB    C   13   69.90953736   0.1473440076      .   1   .   .   .   .   .   49   THR   CB    .   53330   1
+      203   .   1   .   1   49   49   THR   N     N   15   101.8568003   0.07148714856     .   1   .   .   .   .   .   49   THR   N     .   53330   1
+      204   .   1   .   1   50   50   LYS   H     H   1    7.832496301   0.01286412866     .   1   .   .   .   .   .   50   LYS   H     .   53330   1
+      205   .   1   .   1   50   50   LYS   C     C   13   174.9519544   0.02342546376     .   1   .   .   .   .   .   50   LYS   C     .   53330   1
+      206   .   1   .   1   50   50   LYS   CA    C   13   55.57800712   0.04709179557     .   1   .   .   .   .   .   50   LYS   CA    .   53330   1
+      207   .   1   .   1   50   50   LYS   CB    C   13   28.67729137   0.0007781357863   .   1   .   .   .   .   .   50   LYS   CB    .   53330   1
+      208   .   1   .   1   50   50   LYS   N     N   15   123.2502639   0.06856919582     .   1   .   .   .   .   .   50   LYS   N     .   53330   1
+      209   .   1   .   1   51   51   THR   H     H   1    7.566396442   0.01129788241     .   1   .   .   .   .   .   51   THR   H     .   53330   1
+      210   .   1   .   1   51   51   THR   C     C   13   174.8706802   0.003673102845    .   1   .   .   .   .   .   51   THR   C     .   53330   1
+      211   .   1   .   1   51   51   THR   CA    C   13   61.91742476   0.04605095112     .   1   .   .   .   .   .   51   THR   CA    .   53330   1
+      212   .   1   .   1   51   51   THR   CB    C   13   71.87149978   0.1588972305      .   1   .   .   .   .   .   51   THR   CB    .   53330   1
+      213   .   1   .   1   51   51   THR   N     N   15   110.9738495   0.03965772423     .   1   .   .   .   .   .   51   THR   N     .   53330   1
+      214   .   1   .   1   52   52   PHE   H     H   1    10.37646364   0.009555707751    .   1   .   .   .   .   .   52   PHE   H     .   53330   1
+      215   .   1   .   1   52   52   PHE   C     C   13   174.5920161   0.1259721246      .   1   .   .   .   .   .   52   PHE   C     .   53330   1
+      216   .   1   .   1   52   52   PHE   CA    C   13   56.89064117   0.03426478074     .   1   .   .   .   .   .   52   PHE   CA    .   53330   1
+      217   .   1   .   1   52   52   PHE   CB    C   13   41.64899874   0.03778416396     .   1   .   .   .   .   .   52   PHE   CB    .   53330   1
+      218   .   1   .   1   52   52   PHE   N     N   15   130.1576872   0.06161203836     .   1   .   .   .   .   .   52   PHE   N     .   53330   1
+      219   .   1   .   1   53   53   THR   H     H   1    9.079055264   0.007144054411    .   1   .   .   .   .   .   53   THR   H     .   53330   1
+      220   .   1   .   1   53   53   THR   C     C   13   172.6548029   0.00279587709     .   1   .   .   .   .   .   53   THR   C     .   53330   1
+      221   .   1   .   1   53   53   THR   CA    C   13   61.50160873   0.1553558096      .   1   .   .   .   .   .   53   THR   CA    .   53330   1
+      222   .   1   .   1   53   53   THR   CB    C   13   70.38733081   0.0950292514      .   1   .   .   .   .   .   53   THR   CB    .   53330   1
+      223   .   1   .   1   53   53   THR   N     N   15   117.9409519   0.07501192385     .   1   .   .   .   .   .   53   THR   N     .   53330   1
+      224   .   1   .   1   54   54   VAL   H     H   1    8.327949009   0.01999361332     .   1   .   .   .   .   .   54   VAL   H     .   53330   1
+      225   .   1   .   1   54   54   VAL   C     C   13   173.4883285   0.1011560017      .   1   .   .   .   .   .   54   VAL   C     .   53330   1
+      226   .   1   .   1   54   54   VAL   CA    C   13   58.45207511   0.04282325512     .   1   .   .   .   .   .   54   VAL   CA    .   53330   1
+      227   .   1   .   1   54   54   VAL   CB    C   13   31.35754813   0.07296737219     .   1   .   .   .   .   .   54   VAL   CB    .   53330   1
+      228   .   1   .   1   54   54   VAL   N     N   15   124.270527    0.1375387366      .   1   .   .   .   .   .   54   VAL   N     .   53330   1
+      229   .   1   .   1   55   55   THR   H     H   1    8.111385375   0.006346760085    .   1   .   .   .   .   .   55   THR   H     .   53330   1
+      230   .   1   .   1   55   55   THR   C     C   13   174.1408425   0.005102016055    .   1   .   .   .   .   .   55   THR   C     .   53330   1
+      231   .   1   .   1   55   55   THR   CA    C   13   61.17715863   0.03754950714     .   1   .   .   .   .   .   55   THR   CA    .   53330   1
+      232   .   1   .   1   55   55   THR   CB    C   13   70.25052918   0.1172766651      .   1   .   .   .   .   .   55   THR   CB    .   53330   1
+      233   .   1   .   1   55   55   THR   N     N   15   122.9436539   0.1014683956      .   1   .   .   .   .   .   55   THR   N     .   53330   1
+      234   .   1   .   1   56   56   GLU   H     H   1    7.967428613   0.01068802307     .   1   .   .   .   .   .   56   GLU   H     .   53330   1
+      235   .   1   .   1   56   56   GLU   C     C   13   180.1113156   .                 .   1   .   .   .   .   .   56   GLU   C     .   53330   1
+      236   .   1   .   1   56   56   GLU   CA    C   13   57.14845075   0.01326352759     .   1   .   .   .   .   .   56   GLU   CA    .   53330   1
+      237   .   1   .   1   56   56   GLU   CB    C   13   32.28308406   .                 .   1   .   .   .   .   .   56   GLU   CB    .   53330   1
+      238   .   1   .   1   56   56   GLU   N     N   15   133.242946    0.1189335737      .   1   .   .   .   .   .   56   GLU   N     .   53330   1
+      239   .   2   .   1   1    1    MET   C     C   13   170.9189348   .                 .   6   .   .   .   .   .   1    MET   C     .   53330   1
+      240   .   2   .   1   1    1    MET   CA    C   13   54.20710833   .                 .   6   .   .   .   .   .   1    MET   CA    .   53330   1
+      241   .   2   .   1   1    1    MET   CB    C   13   31.24766916   .                 .   6   .   .   .   .   .   1    MET   CB    .   53330   1
+      242   .   2   .   1   2    2    GLN   H     H   1    8.309360861   0.00469390194     .   6   .   .   .   .   .   2    GLN   H     .   53330   1
+      243   .   2   .   1   2    2    GLN   C     C   13   174.4181667   0.03127867368     .   6   .   .   .   .   .   2    GLN   C     .   53330   1
+      244   .   2   .   1   2    2    GLN   CA    C   13   55.68638608   0.002034965577    .   6   .   .   .   .   .   2    GLN   CA    .   53330   1
+      245   .   2   .   1   2    2    GLN   CB    C   13   29.5285217    0.03536555628     .   6   .   .   .   .   .   2    GLN   CB    .   53330   1
+      246   .   2   .   1   2    2    GLN   N     N   15   125.5791833   0.06033588784     .   6   .   .   .   .   .   2    GLN   N     .   53330   1
+      247   .   2   .   1   3    3    TYR   H     H   1    8.874761414   0.007780089604    .   6   .   .   .   .   .   3    TYR   H     .   53330   1
+      248   .   2   .   1   3    3    TYR   C     C   13   174.93967     .                 .   6   .   .   .   .   .   3    TYR   C     .   53330   1
+      249   .   2   .   1   3    3    TYR   CA    C   13   56.81019333   .                 .   6   .   .   .   .   .   3    TYR   CA    .   53330   1
+      250   .   2   .   1   3    3    TYR   CB    C   13   42.58156703   .                 .   6   .   .   .   .   .   3    TYR   CB    .   53330   1
+      251   .   2   .   1   3    3    TYR   N     N   15   123.6009067   0.09487397973     .   6   .   .   .   .   .   3    TYR   N     .   53330   1
+      252   .   2   .   1   18   18   THR   H     H   1    9.094892908   0.00994726217     .   6   .   .   .   .   .   18   THR   H     .   53330   1
+      253   .   2   .   1   18   18   THR   C     C   13   171.2237906   .                 .   6   .   .   .   .   .   18   THR   C     .   53330   1
+      254   .   2   .   1   18   18   THR   CA    C   13   61.88651568   .                 .   6   .   .   .   .   .   18   THR   CA    .   53330   1
+      255   .   2   .   1   18   18   THR   CB    C   13   69.43439316   .                 .   6   .   .   .   .   .   18   THR   CB    .   53330   1
+      256   .   2   .   1   18   18   THR   N     N   15   113.3296706   0.04592408849     .   6   .   .   .   .   .   18   THR   N     .   53330   1
+      257   .   2   .   1   21   21   VAL   H     H   1    9.171198862   0.01845469506     .   6   .   .   .   .   .   21   VAL   H     .   53330   1
+      258   .   2   .   1   21   21   VAL   C     C   13   175.0908645   0.007014435572    .   6   .   .   .   .   .   21   VAL   C     .   53330   1
+      259   .   2   .   1   21   21   VAL   CA    C   13   62.9843741    .                 .   6   .   .   .   .   .   21   VAL   CA    .   53330   1
+      260   .   2   .   1   21   21   VAL   CB    C   13   31.08722552   .                 .   6   .   .   .   .   .   21   VAL   CB    .   53330   1
+      261   .   2   .   1   21   21   VAL   N     N   15   114.7345816   0.08565509156     .   6   .   .   .   .   .   21   VAL   N     .   53330   1
+   stop_
+save_
+
