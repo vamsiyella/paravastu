@@ -345,23 +345,37 @@ def run_pipeline(
 # Curated solid-state NMR BMRB entries with linked PDB structures.
 # Selection criteria: ssNMR, 13C/15N shifts deposited, PDB structure available.
 SOLID_STATE_ENTRIES = [
-    # ── Confirmed working from --batch ────────────────────────────────────
-    (25123, "1UBQ",  "Ubiquitin MPD crystal"),        # H=98 S=191 C=119
-    (15156, "2LGI",  "GB1 MAS structure"),             # S=240 C=287
-    (15283, "2OED",  "GB3 domain"),                    # S=160 C=181
-    (19025, "2M02",  "CAP-Gly 19.9T dataset"),         # S=152 C=466
-    (15380, "1PGB",  "GB1 crystal form B1"),           # S=345 C=273
-    (15380, "2QMT",  "GB1 MAS polymorph"),             # S=277 C=341
-    (17561, "2LBH",  "EETI-II knottin"),               # H=152 S=204 C=522
-    (11512, "3ONS",  "Ubiquitin alt dataset"),         # H=50 S=69 C=93
-    (16327, "1FVK",  "DsbA oxidized"),                 # H=492 S=142 C=201 ← key helix
-    (18024, "2K0G",  "CNBD domain"),                   # H=192 S=145 C=192
-    (18397, "1GB1",  "GB1 proton-detected"),           # S=116 C=197
-    (19031, "2MPX",  "CAP-Gly+EB1 complex"),          # S=72 C=197
-    (25005, "2MPX",  "CAP-Gly on microtubule"),        # S=71 C=205
+    
 
+    # ── Confirmed working from --batch ────────────────────────────────────
+
+    
+
+    # TIER 1 additions — new protein families from scraper v3
+    (27059, "1OPB"),   # HlyE pore-forming toxin, mixed alpha/beta, score 97
+    (18493, "2ZUQ"),   # Mixed secondary structure, score 85
+    (18108, "2LME"),   # Helix-rich, score 61
+    (25642, "2N3D"),   # Pure strand/coil, fills strand gap, score 60
+    (6351,  "3ODV"),   # Mixed helix/strand, score 55
+    (16060, "1NOR"),   # Pure strand, fills strand gap, score 48
+    (12019, "1ED7"),   # Pure strand, score 42
     # ── From scraper — validate first with validate_pairs.py ─────────────
     # (18808, "2M0G",  "ssNMR protein Δ=13, H=59%"),   # promising helix entry
+
+        # New from literature search
+    (34178, "6EKA"),   # HELLF prion amyloid — genuinely new
+    (25334, "2N7H"),   # FimA pilus — scraper missed PDB link
+    (19747, "2MJZ"),   # M13 phage G8P — better PDB than scraper found
+
+    # Scraper passes not yet in batch
+    (25076, "2MS8"),   # MAVS CARD domain
+    (25788, "2N70"),   # M2 influenza channel
+    (30121, "5KK3"),   # Amyloid-beta 42
+    (30304, "5W3N"),   # FUS LC fibrils
+    (18170, "2LNL"),   # Helix-rich large
+    (50411, "7JK8"),   # Recent deposit
+
+    (30094, "5JZR")
 ]
 SKIP_ENTRIES: set = set()
 
@@ -387,6 +401,7 @@ def run_pipeline_batch(
         python src/retrainModel.py
     to rebuild the ML models from the full cached dataset.
     """
+    
     import time
     if entries is None:
         entries = SOLID_STATE_ENTRIES

@@ -1,0 +1,1860 @@
+data_15546
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             15546
+   _Entry.Title                         
+;
+Chemical Shift Assignment of the Transmembrane Helices of DsbB by 3D Magic Angle Spinning NMR
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2007-11-05
+   _Entry.Accession_date                 2007-11-05
+   _Entry.Last_release_date              2008-06-27
+   _Entry.Original_release_date          2008-06-27
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      3.0.8.100
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solid-state
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Ying    Li               . .  . 15546 
+      2 Deborah Berthold         . A. . 15546 
+      3 Heather Frericks-Schmidt . L. . 15546 
+      4 Robert  Gennis           . B. . 15546 
+      5 Chad    Rienstra         . M. . 15546 
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1 . 'Rienstra Group, University of Ilinois at Urbana-Champaign' . 15546 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 15546 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts' 201 15546 
+      '15N chemical shifts'  57 15546 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2008-06-27 2007-11-05 original author . 15546 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     15546
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    18227427
+   _Citation.Full_citation                .
+   _Citation.Title                       'Chemical shift assignment of the transmembrane helices of DsbB, a 20-kDa integral membrane enzyme, by 3D magic-angle spinning NMR spectroscopy'
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'Protein Sci.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               17
+   _Citation.Journal_issue                2
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   199
+   _Citation.Page_last                    204
+   _Citation.Year                         2008
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Ying    Li       . .  . 15546 1 
+      2 Deborah Berthold . A. . 15546 1 
+      3 Robert  Gennis   . B. . 15546 1 
+      4 Chad    Rienstra . M. . 15546 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          15546
+   _Assembly.ID                                1
+   _Assembly.Name                              DsbB-ubiquinone
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              2
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 'DsbB ploypeptide' 1 $DsbB A . yes native no no . . . 15546 1 
+      2  substrate         2 $UQ8  B . no  native no no . . . 15546 1 
+
+   stop_
+
+   loop_
+      _Bond.ID
+      _Bond.Type
+      _Bond.Value_order
+      _Bond.Assembly_atom_ID_1
+      _Bond.Entity_assembly_ID_1
+      _Bond.Entity_assembly_name_1
+      _Bond.Entity_ID_1
+      _Bond.Comp_ID_1
+      _Bond.Comp_index_ID_1
+      _Bond.Seq_ID_1
+      _Bond.Atom_ID_1
+      _Bond.Assembly_atom_ID_2
+      _Bond.Entity_assembly_ID_2
+      _Bond.Entity_assembly_name_2
+      _Bond.Entity_ID_2
+      _Bond.Comp_ID_2
+      _Bond.Comp_index_ID_2
+      _Bond.Seq_ID_2
+      _Bond.Atom_ID_2
+      _Bond.Auth_entity_assembly_ID_1
+      _Bond.Auth_entity_assembly_name_1
+      _Bond.Auth_seq_ID_1
+      _Bond.Auth_comp_ID_1
+      _Bond.Auth_atom_ID_1
+      _Bond.Auth_entity_assembly_ID_2
+      _Bond.Auth_entity_assembly_name_2
+      _Bond.Auth_seq_ID_2
+      _Bond.Auth_comp_ID_2
+      _Bond.Auth_atom_ID_2
+      _Bond.Entry_ID
+      _Bond.Assembly_ID
+
+      1 disulfide 1 . 1 'DsbB ploypeptide' 1 CYS 104 104 SG . 1 'DsbB ploypeptide' 1 CYS 130 130 SG . 'DsbB ploypeptide' 104 cys SG . 'DsbB ploypeptide' 130 cys SG 15546 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_DsbB
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      DsbB
+   _Entity.Entry_ID                          15546
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              DsbB
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+MLRFLNQASQGRGAWLLMAF
+TALALELTALWFQHVMLLKP
+SVLCIYERVALFGVLGAALI
+GAIAPKTPLRYVAMVIWLYS
+AFRGVQLTYEHTMLQLYPSP
+FATCDFMVRFPEWLPLDKWV
+PQVFVASGDCAERQWDFLGL
+EMPQWLLGIFIAYLIVAVLV
+VISQPFKAKKRDLFGRGSRS
+HHHHHH
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                186
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'free and disulfide bound'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-26
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no BMRB        18395 .  DsbB                                                                                                                         . . . . .  94.62 176  99.43  99.43 1.12e-121 . . . . 15546 1 
+       2 no BMRB        18493 .  DsbB                                                                                                                         . . . . .  94.62 176 100.00 100.00 1.71e-122 . . . . 15546 1 
+       3 no PDB  2HI7          . "Crystal Structure Of Dsba-Dsbb-Ubiquinone Complex"                                                                           . . . . .  94.62 176  98.86  98.86 2.79e-120 . . . . 15546 1 
+       4 no PDB  2LEG          . "Membrane Protein Complex Dsbb-Dsba Structure By Joint Calculations With Solid-State Nmr And X-Ray Experimental Data"         . . . . .  94.62 176  98.86  98.86 2.79e-120 . . . . 15546 1 
+       5 no PDB  2LTQ          . "High Resolution Structure Of Dsbb C41s By Joint Calculation With Solid-state Nmr And X-ray Data"                             . . . . .  94.62 176 100.00 100.00 1.71e-122 . . . . 15546 1 
+       6 no PDB  2ZUP          . "Updated Crystal Structure Of Dsbb-Dsba Complex From E. Coli"                                                                 . . . . .  94.62 176  98.86  98.86 2.79e-120 . . . . 15546 1 
+       7 no PDB  2ZUQ          . "Crystal Structure Of Dsbb-Fab Complex"                                                                                       . . . . .  94.62 176 100.00 100.00 1.71e-122 . . . . 15546 1 
+       8 no PDB  3E9J          . "Structure Of The Charge-Transfer Intermediate Of The Transmembrane Redox Catalyst Dsbb"                                      . . . . . 100.00 182  97.31  97.31 2.83e-125 . . . . 15546 1 
+       9 no DBJ  BAA36032      . "oxidoreductase that catalyzes reoxidation of DsbA protein disulfide isomerase I [Escherichia coli str. K12 substr. W3110]"   . . . . .  94.62 176  98.30  98.30 3.01e-120 . . . . 15546 1 
+      10 no DBJ  BAB35103      . "protein-disulfide oxidoreductase [Escherichia coli O157:H7 str. Sakai]"                                                      . . . . .  94.62 176  98.30  98.30 3.01e-120 . . . . 15546 1 
+      11 no DBJ  BAG76757      . "disulfide bond formation protein [Escherichia coli SE11]"                                                                    . . . . .  94.62 176  97.16  97.73 1.51e-118 . . . . 15546 1 
+      12 no DBJ  BAI24997      . "oxidoreductase DsbB [Escherichia coli O26:H11 str. 11368]"                                                                   . . . . .  94.62 176  97.73  98.30 6.69e-120 . . . . 15546 1 
+      13 no DBJ  BAI30121      . "oxidoreductase DsbB [Escherichia coli O103:H2 str. 12009]"                                                                   . . . . .  94.62 176  98.30  98.30 3.01e-120 . . . . 15546 1 
+      14 no EMBL CAP75720      . "Disulfide bond formation protein B [Escherichia coli LF82]"                                                                  . . . . .  94.62 176  97.16  97.73 6.02e-119 . . . . 15546 1 
+      15 no EMBL CAQ31687      . "DsbB[reduced] [Escherichia coli BL21(DE3)]"                                                                                  . . . . .  94.62 176  98.30  98.30 3.01e-120 . . . . 15546 1 
+      16 no EMBL CAQ98064      . "oxidoreductase that catalyzes reoxidation of DsbA protein disulfide isomerase I [Escherichia coli IAI1]"                     . . . . .  94.62 176  98.30  98.30 3.01e-120 . . . . 15546 1 
+      17 no EMBL CAR02574      . "oxidoreductase that catalyzes reoxidation of DsbA protein disulfide isomerase I [Escherichia coli S88]"                      . . . . .  94.62 176  97.16  97.73 6.02e-119 . . . . 15546 1 
+      18 no EMBL CAR12682      . "oxidoreductase that catalyzes reoxidation of DsbA protein disulfide isomerase I [Escherichia coli UMN026]"                   . . . . .  94.62 176  98.30  98.30 3.01e-120 . . . . 15546 1 
+      19 no GB   AAA23711      . "oxido-reductase [Escherichia coli]"                                                                                          . . . . .  94.62 178  98.30  98.30 1.93e-120 . . . . 15546 1 
+      20 no GB   AAB25233      . "DsbB=disulfide bond formation protein [Escherichia coli, Peptide, 176 aa]"                                                   . . . . .  94.62 176  98.30  98.30 3.01e-120 . . . . 15546 1 
+      21 no GB   AAC74269      . "oxidoreductase that catalyzes reoxidation of DsbA protein disulfide isomerase I [Escherichia coli str. K-12 substr. MG1655]" . . . . .  94.62 176  98.30  98.30 3.01e-120 . . . . 15546 1 
+      22 no GB   AAG56036      . "reoxidizes DsbA protein following formation of disulfide bond in P-ring of flagella [Escherichia coli O157:H7 str. EDL933]"  . . . . .  94.62 176  97.73  97.73 1.62e-119 . . . . 15546 1 
+      23 no GB   AAN42789      . "disulfide bond formation protein dsbB [Shigella flexneri 2a str. 301]"                                                       . . . . .  94.62 176  97.73  98.30 6.69e-120 . . . . 15546 1 
+      24 no PIR  H85696        . "hypothetical protein dsbB [imported] - Escherichia coli  (strain O157:H7, substrain EDL933)"                                 . . . . .  94.62 176  97.73  97.73 1.62e-119 . . . . 15546 1 
+      25 no REF  NP_309707     . "disulfide bond formation protein B [Escherichia coli O157:H7 str. Sakai]"                                                    . . . . .  94.62 176  98.30  98.30 3.01e-120 . . . . 15546 1 
+      26 no REF  NP_415703     . "oxidoreductase that catalyzes reoxidation of DsbA protein disulfide isomerase I [Escherichia coli str. K-12 substr. MG1655]" . . . . .  94.62 176  98.30  98.30 3.01e-120 . . . . 15546 1 
+      27 no REF  NP_707082     . "disulfide bond formation protein B [Shigella flexneri 2a str. 301]"                                                          . . . . .  94.62 176  97.73  98.30 6.69e-120 . . . . 15546 1 
+      28 no REF  WP_000652474  . "disulfide bond formation protein B, partial [Escherichia coli]"                                                              . . . . .  65.59 122 100.00 100.00 7.92e-82  . . . . 15546 1 
+      29 no REF  WP_000943442  . "disulfide bond formation protein B [Escherichia coli]"                                                                       . . . . .  94.62 176  97.73  98.30 1.09e-119 . . . . 15546 1 
+      30 no SP   A1AAA8        . "RecName: Full=Disulfide bond formation protein B; AltName: Full=Disulfide oxidoreductase"                                    . . . . .  94.62 176  97.16  97.73 6.02e-119 . . . . 15546 1 
+      31 no SP   P0A6M2        . "RecName: Full=Disulfide bond formation protein B; AltName: Full=Disulfide oxidoreductase"                                    . . . . .  94.62 176  98.30  98.30 3.01e-120 . . . . 15546 1 
+      32 no SP   P0A6M3        . "RecName: Full=Disulfide bond formation protein B; AltName: Full=Disulfide oxidoreductase"                                    . . . . .  94.62 176  98.30  98.30 3.01e-120 . . . . 15546 1 
+      33 no SP   P59343        . "RecName: Full=Disulfide bond formation protein B; AltName: Full=Disulfide oxidoreductase"                                    . . . . .  94.62 176  97.16  97.73 6.02e-119 . . . . 15546 1 
+      34 no SP   Q0T5L6        . "RecName: Full=Disulfide bond formation protein B; AltName: Full=Disulfide oxidoreductase"                                    . . . . .  94.62 176  97.73  98.30 6.69e-120 . . . . 15546 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+        1 . MET . 15546 1 
+        2 . LEU . 15546 1 
+        3 . ARG . 15546 1 
+        4 . PHE . 15546 1 
+        5 . LEU . 15546 1 
+        6 . ASN . 15546 1 
+        7 . GLN . 15546 1 
+        8 . ALA . 15546 1 
+        9 . SER . 15546 1 
+       10 . GLN . 15546 1 
+       11 . GLY . 15546 1 
+       12 . ARG . 15546 1 
+       13 . GLY . 15546 1 
+       14 . ALA . 15546 1 
+       15 . TRP . 15546 1 
+       16 . LEU . 15546 1 
+       17 . LEU . 15546 1 
+       18 . MET . 15546 1 
+       19 . ALA . 15546 1 
+       20 . PHE . 15546 1 
+       21 . THR . 15546 1 
+       22 . ALA . 15546 1 
+       23 . LEU . 15546 1 
+       24 . ALA . 15546 1 
+       25 . LEU . 15546 1 
+       26 . GLU . 15546 1 
+       27 . LEU . 15546 1 
+       28 . THR . 15546 1 
+       29 . ALA . 15546 1 
+       30 . LEU . 15546 1 
+       31 . TRP . 15546 1 
+       32 . PHE . 15546 1 
+       33 . GLN . 15546 1 
+       34 . HIS . 15546 1 
+       35 . VAL . 15546 1 
+       36 . MET . 15546 1 
+       37 . LEU . 15546 1 
+       38 . LEU . 15546 1 
+       39 . LYS . 15546 1 
+       40 . PRO . 15546 1 
+       41 . SER . 15546 1 
+       42 . VAL . 15546 1 
+       43 . LEU . 15546 1 
+       44 . CYS . 15546 1 
+       45 . ILE . 15546 1 
+       46 . TYR . 15546 1 
+       47 . GLU . 15546 1 
+       48 . ARG . 15546 1 
+       49 . VAL . 15546 1 
+       50 . ALA . 15546 1 
+       51 . LEU . 15546 1 
+       52 . PHE . 15546 1 
+       53 . GLY . 15546 1 
+       54 . VAL . 15546 1 
+       55 . LEU . 15546 1 
+       56 . GLY . 15546 1 
+       57 . ALA . 15546 1 
+       58 . ALA . 15546 1 
+       59 . LEU . 15546 1 
+       60 . ILE . 15546 1 
+       61 . GLY . 15546 1 
+       62 . ALA . 15546 1 
+       63 . ILE . 15546 1 
+       64 . ALA . 15546 1 
+       65 . PRO . 15546 1 
+       66 . LYS . 15546 1 
+       67 . THR . 15546 1 
+       68 . PRO . 15546 1 
+       69 . LEU . 15546 1 
+       70 . ARG . 15546 1 
+       71 . TYR . 15546 1 
+       72 . VAL . 15546 1 
+       73 . ALA . 15546 1 
+       74 . MET . 15546 1 
+       75 . VAL . 15546 1 
+       76 . ILE . 15546 1 
+       77 . TRP . 15546 1 
+       78 . LEU . 15546 1 
+       79 . TYR . 15546 1 
+       80 . SER . 15546 1 
+       81 . ALA . 15546 1 
+       82 . PHE . 15546 1 
+       83 . ARG . 15546 1 
+       84 . GLY . 15546 1 
+       85 . VAL . 15546 1 
+       86 . GLN . 15546 1 
+       87 . LEU . 15546 1 
+       88 . THR . 15546 1 
+       89 . TYR . 15546 1 
+       90 . GLU . 15546 1 
+       91 . HIS . 15546 1 
+       92 . THR . 15546 1 
+       93 . MET . 15546 1 
+       94 . LEU . 15546 1 
+       95 . GLN . 15546 1 
+       96 . LEU . 15546 1 
+       97 . TYR . 15546 1 
+       98 . PRO . 15546 1 
+       99 . SER . 15546 1 
+      100 . PRO . 15546 1 
+      101 . PHE . 15546 1 
+      102 . ALA . 15546 1 
+      103 . THR . 15546 1 
+      104 . CYS . 15546 1 
+      105 . ASP . 15546 1 
+      106 . PHE . 15546 1 
+      107 . MET . 15546 1 
+      108 . VAL . 15546 1 
+      109 . ARG . 15546 1 
+      110 . PHE . 15546 1 
+      111 . PRO . 15546 1 
+      112 . GLU . 15546 1 
+      113 . TRP . 15546 1 
+      114 . LEU . 15546 1 
+      115 . PRO . 15546 1 
+      116 . LEU . 15546 1 
+      117 . ASP . 15546 1 
+      118 . LYS . 15546 1 
+      119 . TRP . 15546 1 
+      120 . VAL . 15546 1 
+      121 . PRO . 15546 1 
+      122 . GLN . 15546 1 
+      123 . VAL . 15546 1 
+      124 . PHE . 15546 1 
+      125 . VAL . 15546 1 
+      126 . ALA . 15546 1 
+      127 . SER . 15546 1 
+      128 . GLY . 15546 1 
+      129 . ASP . 15546 1 
+      130 . CYS . 15546 1 
+      131 . ALA . 15546 1 
+      132 . GLU . 15546 1 
+      133 . ARG . 15546 1 
+      134 . GLN . 15546 1 
+      135 . TRP . 15546 1 
+      136 . ASP . 15546 1 
+      137 . PHE . 15546 1 
+      138 . LEU . 15546 1 
+      139 . GLY . 15546 1 
+      140 . LEU . 15546 1 
+      141 . GLU . 15546 1 
+      142 . MET . 15546 1 
+      143 . PRO . 15546 1 
+      144 . GLN . 15546 1 
+      145 . TRP . 15546 1 
+      146 . LEU . 15546 1 
+      147 . LEU . 15546 1 
+      148 . GLY . 15546 1 
+      149 . ILE . 15546 1 
+      150 . PHE . 15546 1 
+      151 . ILE . 15546 1 
+      152 . ALA . 15546 1 
+      153 . TYR . 15546 1 
+      154 . LEU . 15546 1 
+      155 . ILE . 15546 1 
+      156 . VAL . 15546 1 
+      157 . ALA . 15546 1 
+      158 . VAL . 15546 1 
+      159 . LEU . 15546 1 
+      160 . VAL . 15546 1 
+      161 . VAL . 15546 1 
+      162 . ILE . 15546 1 
+      163 . SER . 15546 1 
+      164 . GLN . 15546 1 
+      165 . PRO . 15546 1 
+      166 . PHE . 15546 1 
+      167 . LYS . 15546 1 
+      168 . ALA . 15546 1 
+      169 . LYS . 15546 1 
+      170 . LYS . 15546 1 
+      171 . ARG . 15546 1 
+      172 . ASP . 15546 1 
+      173 . LEU . 15546 1 
+      174 . PHE . 15546 1 
+      175 . GLY . 15546 1 
+      176 . ARG . 15546 1 
+      177 . GLY . 15546 1 
+      178 . SER . 15546 1 
+      179 . ARG . 15546 1 
+      180 . SER . 15546 1 
+      181 . HIS . 15546 1 
+      182 . HIS . 15546 1 
+      183 . HIS . 15546 1 
+      184 . HIS . 15546 1 
+      185 . HIS . 15546 1 
+      186 . HIS . 15546 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . MET   1   1 15546 1 
+      . LEU   2   2 15546 1 
+      . ARG   3   3 15546 1 
+      . PHE   4   4 15546 1 
+      . LEU   5   5 15546 1 
+      . ASN   6   6 15546 1 
+      . GLN   7   7 15546 1 
+      . ALA   8   8 15546 1 
+      . SER   9   9 15546 1 
+      . GLN  10  10 15546 1 
+      . GLY  11  11 15546 1 
+      . ARG  12  12 15546 1 
+      . GLY  13  13 15546 1 
+      . ALA  14  14 15546 1 
+      . TRP  15  15 15546 1 
+      . LEU  16  16 15546 1 
+      . LEU  17  17 15546 1 
+      . MET  18  18 15546 1 
+      . ALA  19  19 15546 1 
+      . PHE  20  20 15546 1 
+      . THR  21  21 15546 1 
+      . ALA  22  22 15546 1 
+      . LEU  23  23 15546 1 
+      . ALA  24  24 15546 1 
+      . LEU  25  25 15546 1 
+      . GLU  26  26 15546 1 
+      . LEU  27  27 15546 1 
+      . THR  28  28 15546 1 
+      . ALA  29  29 15546 1 
+      . LEU  30  30 15546 1 
+      . TRP  31  31 15546 1 
+      . PHE  32  32 15546 1 
+      . GLN  33  33 15546 1 
+      . HIS  34  34 15546 1 
+      . VAL  35  35 15546 1 
+      . MET  36  36 15546 1 
+      . LEU  37  37 15546 1 
+      . LEU  38  38 15546 1 
+      . LYS  39  39 15546 1 
+      . PRO  40  40 15546 1 
+      . SER  41  41 15546 1 
+      . VAL  42  42 15546 1 
+      . LEU  43  43 15546 1 
+      . CYS  44  44 15546 1 
+      . ILE  45  45 15546 1 
+      . TYR  46  46 15546 1 
+      . GLU  47  47 15546 1 
+      . ARG  48  48 15546 1 
+      . VAL  49  49 15546 1 
+      . ALA  50  50 15546 1 
+      . LEU  51  51 15546 1 
+      . PHE  52  52 15546 1 
+      . GLY  53  53 15546 1 
+      . VAL  54  54 15546 1 
+      . LEU  55  55 15546 1 
+      . GLY  56  56 15546 1 
+      . ALA  57  57 15546 1 
+      . ALA  58  58 15546 1 
+      . LEU  59  59 15546 1 
+      . ILE  60  60 15546 1 
+      . GLY  61  61 15546 1 
+      . ALA  62  62 15546 1 
+      . ILE  63  63 15546 1 
+      . ALA  64  64 15546 1 
+      . PRO  65  65 15546 1 
+      . LYS  66  66 15546 1 
+      . THR  67  67 15546 1 
+      . PRO  68  68 15546 1 
+      . LEU  69  69 15546 1 
+      . ARG  70  70 15546 1 
+      . TYR  71  71 15546 1 
+      . VAL  72  72 15546 1 
+      . ALA  73  73 15546 1 
+      . MET  74  74 15546 1 
+      . VAL  75  75 15546 1 
+      . ILE  76  76 15546 1 
+      . TRP  77  77 15546 1 
+      . LEU  78  78 15546 1 
+      . TYR  79  79 15546 1 
+      . SER  80  80 15546 1 
+      . ALA  81  81 15546 1 
+      . PHE  82  82 15546 1 
+      . ARG  83  83 15546 1 
+      . GLY  84  84 15546 1 
+      . VAL  85  85 15546 1 
+      . GLN  86  86 15546 1 
+      . LEU  87  87 15546 1 
+      . THR  88  88 15546 1 
+      . TYR  89  89 15546 1 
+      . GLU  90  90 15546 1 
+      . HIS  91  91 15546 1 
+      . THR  92  92 15546 1 
+      . MET  93  93 15546 1 
+      . LEU  94  94 15546 1 
+      . GLN  95  95 15546 1 
+      . LEU  96  96 15546 1 
+      . TYR  97  97 15546 1 
+      . PRO  98  98 15546 1 
+      . SER  99  99 15546 1 
+      . PRO 100 100 15546 1 
+      . PHE 101 101 15546 1 
+      . ALA 102 102 15546 1 
+      . THR 103 103 15546 1 
+      . CYS 104 104 15546 1 
+      . ASP 105 105 15546 1 
+      . PHE 106 106 15546 1 
+      . MET 107 107 15546 1 
+      . VAL 108 108 15546 1 
+      . ARG 109 109 15546 1 
+      . PHE 110 110 15546 1 
+      . PRO 111 111 15546 1 
+      . GLU 112 112 15546 1 
+      . TRP 113 113 15546 1 
+      . LEU 114 114 15546 1 
+      . PRO 115 115 15546 1 
+      . LEU 116 116 15546 1 
+      . ASP 117 117 15546 1 
+      . LYS 118 118 15546 1 
+      . TRP 119 119 15546 1 
+      . VAL 120 120 15546 1 
+      . PRO 121 121 15546 1 
+      . GLN 122 122 15546 1 
+      . VAL 123 123 15546 1 
+      . PHE 124 124 15546 1 
+      . VAL 125 125 15546 1 
+      . ALA 126 126 15546 1 
+      . SER 127 127 15546 1 
+      . GLY 128 128 15546 1 
+      . ASP 129 129 15546 1 
+      . CYS 130 130 15546 1 
+      . ALA 131 131 15546 1 
+      . GLU 132 132 15546 1 
+      . ARG 133 133 15546 1 
+      . GLN 134 134 15546 1 
+      . TRP 135 135 15546 1 
+      . ASP 136 136 15546 1 
+      . PHE 137 137 15546 1 
+      . LEU 138 138 15546 1 
+      . GLY 139 139 15546 1 
+      . LEU 140 140 15546 1 
+      . GLU 141 141 15546 1 
+      . MET 142 142 15546 1 
+      . PRO 143 143 15546 1 
+      . GLN 144 144 15546 1 
+      . TRP 145 145 15546 1 
+      . LEU 146 146 15546 1 
+      . LEU 147 147 15546 1 
+      . GLY 148 148 15546 1 
+      . ILE 149 149 15546 1 
+      . PHE 150 150 15546 1 
+      . ILE 151 151 15546 1 
+      . ALA 152 152 15546 1 
+      . TYR 153 153 15546 1 
+      . LEU 154 154 15546 1 
+      . ILE 155 155 15546 1 
+      . VAL 156 156 15546 1 
+      . ALA 157 157 15546 1 
+      . VAL 158 158 15546 1 
+      . LEU 159 159 15546 1 
+      . VAL 160 160 15546 1 
+      . VAL 161 161 15546 1 
+      . ILE 162 162 15546 1 
+      . SER 163 163 15546 1 
+      . GLN 164 164 15546 1 
+      . PRO 165 165 15546 1 
+      . PHE 166 166 15546 1 
+      . LYS 167 167 15546 1 
+      . ALA 168 168 15546 1 
+      . LYS 169 169 15546 1 
+      . LYS 170 170 15546 1 
+      . ARG 171 171 15546 1 
+      . ASP 172 172 15546 1 
+      . LEU 173 173 15546 1 
+      . PHE 174 174 15546 1 
+      . GLY 175 175 15546 1 
+      . ARG 176 176 15546 1 
+      . GLY 177 177 15546 1 
+      . SER 178 178 15546 1 
+      . ARG 179 179 15546 1 
+      . SER 180 180 15546 1 
+      . HIS 181 181 15546 1 
+      . HIS 182 182 15546 1 
+      . HIS 183 183 15546 1 
+      . HIS 184 184 15546 1 
+      . HIS 185 185 15546 1 
+      . HIS 186 186 15546 1 
+
+   stop_
+
+save_
+
+
+save_UQ8
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      UQ8
+   _Entity.Entry_ID                          15546
+   _Entity.ID                                2
+   _Entity.BMRB_code                         .
+   _Entity.Name                              UQ8
+   _Entity.Type                              non-polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      .
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code       .
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                UQ8
+   _Entity.Nonpolymer_comp_label            $chem_comp_UQ8
+   _Entity.Number_of_monomers                .
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                       .
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  2
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1 . UQ8 . 15546 2 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       15546
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $DsbB . 562 organism . 'Escherichia coli' . . . Bacteria . Escherichia coli . . . . . . . . . . . . . . . . . . . . . 15546 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       15546
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $DsbB . 'recombinant technology' 'Escherichia coli' . . . Escherichia coli C43(DE3) . . . . . . . . . . . . . . . dsbB(Cys41Ser)-pQE70 . . . 'Inaba, K., Takahashi, Y. H., Fujieda, N., Kano, K., Miyoshi, H., Ito, K. J. Biol. Chem. 2004, 279, 6761-6768' . . 15546 1 
+
+   stop_
+
+save_
+
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_UQ8
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_UQ8
+   _Chem_comp.Entry_ID                          15546
+   _Chem_comp.ID                                UQ8
+   _Chem_comp.Provenance                        .
+   _Chem_comp.Name                              UBIQUINONE-1
+   _Chem_comp.Type                              non-polymer
+   _Chem_comp.BMRB_code                         .
+   _Chem_comp.PDB_code                          UQ8
+   _Chem_comp.Ambiguous_flag                    .
+   _Chem_comp.Initial_date                      .
+   _Chem_comp.Modified_date                     .
+   _Chem_comp.Release_status                    .
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 .
+   _Chem_comp.Number_atoms_all                  .
+   _Chem_comp.Number_atoms_nh                   .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        .
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                          'C14 H18 O4'
+   _Chem_comp.Formula_weight                    250.290
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    .
+   _Chem_comp.Ideal_coordinates_details         .
+   _Chem_comp.Ideal_coordinates_missing_flag    .
+   _Chem_comp.Model_coordinates_db_code         .
+   _Chem_comp.Processing_site                   .
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                          
+;
+Information obtained from PDB's Chemical Component Dictionary
+at http://wwpdb-remediation.rutgers.edu/downloads.html
+Downloaded on Tue Aug 21 03:25:04 2007
+;
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)C                                             SMILES           OpenEye/OEToolkits 1.4.2    15546 UQ8 
+      CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)C                                             SMILES_CANONICAL OpenEye/OEToolkits 1.4.2    15546 UQ8 
+      COC1=C(OC)C(=O)C(=C(C)C1=O)CC=C(C)C                                             SMILES           CACTVS                 2.87 15546 UQ8 
+      COC1=C(OC)C(=O)C(=C(C)C1=O)CC=C(C)C                                             SMILES_CANONICAL CACTVS                 2.87 15546 UQ8 
+      InChI=1/C14H18O4/c1-8(2)6-7-10-9(3)11(15)13(17-4)14(18-5)12(10)16/h6H,7H2,1-5H3 INCHI            InChi                  1    15546 UQ8 
+
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      2,3-dimethoxy-5-methyl-6-(3-methylbut-2-enyl)cyclohexa-2,5-diene-1,4-dione 'SYSTEMATIC NAME' OpenEye/Lexichem 1.4 15546 UQ8 
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      C1   . C1   . . C . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      C10  . C10  . . C . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      C11  . C11  . . C . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      C2   . C2   . . C . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      C3   . C3   . . C . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      C4   . C4   . . C . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      C5   . C5   . . C . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      C6   . C6   . . C . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      C7   . C7   . . C . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      C8   . C8   . . C . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      C9   . C9   . . C . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      CM2  . CM2  . . C . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      CM3  . CM3  . . C . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      CM5  . CM5  . . C . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      H101 . H101 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      H102 . H102 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      H103 . H103 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      H111 . H111 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      H112 . H112 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      H113 . H113 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      H71  . H71  . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      H72  . H72  . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      H8   . H8   . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      HM21 . HM21 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      HM22 . HM22 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      HM23 . HM23 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      HM31 . HM31 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      HM32 . HM32 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      HM33 . HM33 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      HM51 . HM51 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      HM52 . HM52 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      HM53 . HM53 . . H . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      O1   . O1   . . O . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      O2   . O2   . . O . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      O3   . O3   . . O . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+      O4   . O4   . . O . N . 0 . . . . no no . . . . . . . . . . . . . . . 15546 UQ8 
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+       1 . DOUB C1  O1   . . . . 15546 UQ8 
+       2 . SING C1  C2   . . . . 15546 UQ8 
+       3 . SING C1  C6   . . . . 15546 UQ8 
+       4 . SING C2  O2   . . . . 15546 UQ8 
+       5 . DOUB C2  C3   . . . . 15546 UQ8 
+       6 . SING O2  CM2  . . . . 15546 UQ8 
+       7 . SING CM2 HM21 . . . . 15546 UQ8 
+       8 . SING CM2 HM22 . . . . 15546 UQ8 
+       9 . SING CM2 HM23 . . . . 15546 UQ8 
+      10 . SING C3  O3   . . . . 15546 UQ8 
+      11 . SING C3  C4   . . . . 15546 UQ8 
+      12 . SING O3  CM3  . . . . 15546 UQ8 
+      13 . SING CM3 HM31 . . . . 15546 UQ8 
+      14 . SING CM3 HM32 . . . . 15546 UQ8 
+      15 . SING CM3 HM33 . . . . 15546 UQ8 
+      16 . DOUB C4  O4   . . . . 15546 UQ8 
+      17 . SING C4  C5   . . . . 15546 UQ8 
+      18 . SING C5  CM5  . . . . 15546 UQ8 
+      19 . DOUB C5  C6   . . . . 15546 UQ8 
+      20 . SING CM5 HM51 . . . . 15546 UQ8 
+      21 . SING CM5 HM52 . . . . 15546 UQ8 
+      22 . SING CM5 HM53 . . . . 15546 UQ8 
+      23 . SING C6  C7   . . . . 15546 UQ8 
+      24 . SING C7  C8   . . . . 15546 UQ8 
+      25 . SING C7  H71  . . . . 15546 UQ8 
+      26 . SING C7  H72  . . . . 15546 UQ8 
+      27 . DOUB C8  C9   . . . . 15546 UQ8 
+      28 . SING C8  H8   . . . . 15546 UQ8 
+      29 . SING C9  C10  . . . . 15546 UQ8 
+      30 . SING C9  C11  . . . . 15546 UQ8 
+      31 . SING C10 H101 . . . . 15546 UQ8 
+      32 . SING C10 H102 . . . . 15546 UQ8 
+      33 . SING C10 H103 . . . . 15546 UQ8 
+      34 . SING C11 H111 . . . . 15546 UQ8 
+      35 . SING C11 H112 . . . . 15546 UQ8 
+      36 . SING C11 H113 . . . . 15546 UQ8 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         15546
+   _Sample.ID                               1
+   _Sample.Type                             solid
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 DsbB '[U-100% 13C; U-100% 15N]' . . 1 $DsbB . . 20 . . mg . . . . 15546 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       15546
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'                  25   . mM  15546 1 
+       pH                                7.5 . pH  15546 1 
+       pressure                          1   . atm 15546 1 
+      'temperature controller setting' 223   . K   15546 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_NMRPipe
+   _Software.Sf_category    software
+   _Software.Sf_framecode   NMRPipe
+   _Software.Entry_ID       15546
+   _Software.ID             1
+   _Software.Name           NMRPipe
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Delaglio, Grzesiek, Vuister, Zhu, Pfeifer and Bax' . . 15546 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      processing 15546 1 
+
+   stop_
+
+save_
+
+
+save_SPARKY
+   _Software.Sf_category    software
+   _Software.Sf_framecode   SPARKY
+   _Software.Entry_ID       15546
+   _Software.ID             2
+   _Software.Name           SPARKY
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      Goddard . . 15546 2 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'chemical shift assignment' 15546 2 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         15546
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            INOVA
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   750
+
+save_
+
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       15546
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 spectrometer_1 Varian INOVA . 750 . . . 15546 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       15546
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '2D CC DARR mixing' no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 15546 1 
+      2 '3D NCACX'          no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 15546 1 
+      3 '3D NCOCX'          no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 15546 1 
+      4 '3D CAN(CO)CX'      no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 15546 1 
+      5 '3D CON(CA)CX'      no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 15546 1 
+
+   stop_
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       15546
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C 13 DSS 'methyl protons' . . . . ppm 0.00 . indirect 0.251449530 . . . . . . . . . 15546 1 
+      N 15 DSS 'methyl protons' . . . . ppm 0.00 . indirect 0.101329118 . . . . . . . . . 15546 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      15546
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      2 '3D NCACX'     . . . 15546 1 
+      3 '3D NCOCX'     . . . 15546 1 
+      4 '3D CAN(CO)CX' . . . 15546 1 
+      5 '3D CON(CA)CX' . . . 15546 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1  16  16 LEU CA  C 13  58.20 0.00 . 1 . . . .  16 L CA  . 15546 1 
+        2 . 1 1  16  16 LEU CG  C 13  26.98 0.00 . 1 . . . .  16 L CG  . 15546 1 
+        3 . 1 1  17  17 LEU C   C 13 178.54 0.18 . 1 . . . .  17 L C   . 15546 1 
+        4 . 1 1  17  17 LEU CA  C 13  57.86 0.13 . 1 . . . .  17 L CA  . 15546 1 
+        5 . 1 1  17  17 LEU CB  C 13  41.40 0.10 . 1 . . . .  17 L CB  . 15546 1 
+        6 . 1 1  17  17 LEU CG  C 13  27.01 0.03 . 1 . . . .  17 L CG  . 15546 1 
+        7 . 1 1  17  17 LEU N   N 15 118.49 0.04 . 1 . . . .  17 L N   . 15546 1 
+        8 . 1 1  18  18 MET C   C 13 180.26 0.07 . 1 . . . .  18 M C   . 15546 1 
+        9 . 1 1  18  18 MET CA  C 13  60.33 0.12 . 1 . . . .  18 M CA  . 15546 1 
+       10 . 1 1  18  18 MET CB  C 13  31.67 0.11 . 1 . . . .  18 M CB  . 15546 1 
+       11 . 1 1  18  18 MET CG  C 13  33.35 0.09 . 1 . . . .  18 M CG  . 15546 1 
+       12 . 1 1  18  18 MET N   N 15 120.85 0.22 . 1 . . . .  18 M N   . 15546 1 
+       13 . 1 1  19  19 ALA C   C 13 178.04 0.10 . 1 . . . .  19 A C   . 15546 1 
+       14 . 1 1  19  19 ALA CA  C 13  55.59 0.10 . 1 . . . .  19 A CA  . 15546 1 
+       15 . 1 1  19  19 ALA CB  C 13  17.92 0.09 . 1 . . . .  19 A CB  . 15546 1 
+       16 . 1 1  19  19 ALA N   N 15 123.89 0.15 . 1 . . . .  19 A N   . 15546 1 
+       17 . 1 1  20  20 PHE C   C 13 176.53 0.01 . 1 . . . .  20 F C   . 15546 1 
+       18 . 1 1  20  20 PHE CA  C 13  62.49 0.15 . 1 . . . .  20 F CA  . 15546 1 
+       19 . 1 1  20  20 PHE N   N 15 118.19 0.10 . 1 . . . .  20 F N   . 15546 1 
+       20 . 1 1  21  21 THR C   C 13 174.08 0.08 . 1 . . . .  21 T C   . 15546 1 
+       21 . 1 1  21  21 THR CA  C 13  66.06 0.09 . 1 . . . .  21 T CA  . 15546 1 
+       22 . 1 1  21  21 THR CB  C 13  69.09 0.12 . 1 . . . .  21 T CB  . 15546 1 
+       23 . 1 1  21  21 THR CG2 C 13  22.60 0.00 . 1 . . . .  21 T CG2 . 15546 1 
+       24 . 1 1  21  21 THR N   N 15 109.25 0.13 . 1 . . . .  21 T N   . 15546 1 
+       25 . 1 1  22  22 ALA C   C 13 179.35 0.11 . 1 . . . .  22 A C   . 15546 1 
+       26 . 1 1  22  22 ALA CA  C 13  54.90 0.10 . 1 . . . .  22 A CA  . 15546 1 
+       27 . 1 1  22  22 ALA CB  C 13  17.73 0.08 . 1 . . . .  22 A CB  . 15546 1 
+       28 . 1 1  22  22 ALA N   N 15 123.53 0.08 . 1 . . . .  22 A N   . 15546 1 
+       29 . 1 1  23  23 LEU C   C 13 177.77 0.02 . 1 . . . .  23 L C   . 15546 1 
+       30 . 1 1  23  23 LEU CA  C 13  57.82 0.07 . 1 . . . .  23 L CA  . 15546 1 
+       31 . 1 1  23  23 LEU CB  C 13  41.43 0.00 . 1 . . . .  23 L CB  . 15546 1 
+       32 . 1 1  23  23 LEU CD1 C 13  22.92 0.00 . 2 . . . .  23 L CD1 . 15546 1 
+       33 . 1 1  23  23 LEU CG  C 13  26.89 0.11 . 1 . . . .  23 L CG  . 15546 1 
+       34 . 1 1  23  23 LEU N   N 15 118.99 0.06 . 1 . . . .  23 L N   . 15546 1 
+       35 . 1 1  24  24 ALA C   C 13 180.56 0.07 . 1 . . . .  24 A C   . 15546 1 
+       36 . 1 1  24  24 ALA CA  C 13  55.27 0.08 . 1 . . . .  24 A CA  . 15546 1 
+       37 . 1 1  24  24 ALA CB  C 13  17.52 0.14 . 1 . . . .  24 A CB  . 15546 1 
+       38 . 1 1  24  24 ALA N   N 15 119.86 0.12 . 1 . . . .  24 A N   . 15546 1 
+       39 . 1 1  25  25 LEU CA  C 13  58.13 0.13 . 1 . . . .  25 L CA  . 15546 1 
+       40 . 1 1  25  25 LEU CB  C 13  43.77 0.00 . 1 . . . .  25 L CB  . 15546 1 
+       41 . 1 1  25  25 LEU CG  C 13  27.23 0.00 . 1 . . . .  25 L CG  . 15546 1 
+       42 . 1 1  25  25 LEU N   N 15 119.96 0.23 . 1 . . . .  25 L N   . 15546 1 
+       43 . 1 1  28  28 THR C   C 13 175.03 0.12 . 1 . . . .  28 T C   . 15546 1 
+       44 . 1 1  28  28 THR CA  C 13  67.38 0.02 . 1 . . . .  28 T CA  . 15546 1 
+       45 . 1 1  29  29 ALA C   C 13 179.59 0.09 . 1 . . . .  29 A C   . 15546 1 
+       46 . 1 1  29  29 ALA CA  C 13  56.05 0.18 . 1 . . . .  29 A CA  . 15546 1 
+       47 . 1 1  29  29 ALA CB  C 13  16.67 0.06 . 1 . . . .  29 A CB  . 15546 1 
+       48 . 1 1  29  29 ALA N   N 15 122.54 0.35 . 1 . . . .  29 A N   . 15546 1 
+       49 . 1 1  30  30 LEU C   C 13 178.02 0.00 . 1 . . . .  30 L C   . 15546 1 
+       50 . 1 1  30  30 LEU CA  C 13  57.45 0.06 . 1 . . . .  30 L CA  . 15546 1 
+       51 . 1 1  30  30 LEU CB  C 13  41.81 0.12 . 1 . . . .  30 L CB  . 15546 1 
+       52 . 1 1  30  30 LEU CD1 C 13  22.23 0.00 . 2 . . . .  30 L CD1 . 15546 1 
+       53 . 1 1  30  30 LEU CG  C 13  26.51 0.05 . 1 . . . .  30 L CG  . 15546 1 
+       54 . 1 1  30  30 LEU N   N 15 117.40 0.03 . 1 . . . .  30 L N   . 15546 1 
+       55 . 1 1  43  43 LEU C   C 13 179.10 0.20 . 1 . . . .  43 L C   . 15546 1 
+       56 . 1 1  43  43 LEU CA  C 13  57.07 0.05 . 1 . . . .  43 L CA  . 15546 1 
+       57 . 1 1  43  43 LEU CG  C 13  26.82 0.00 . 1 . . . .  43 L CG  . 15546 1 
+       58 . 1 1  44  44 CYS C   C 13 177.46 0.05 . 1 . . . .  44 C C   . 15546 1 
+       59 . 1 1  44  44 CYS CA  C 13  59.06 0.12 . 1 . . . .  44 C CA  . 15546 1 
+       60 . 1 1  44  44 CYS CB  C 13  27.86 0.05 . 1 . . . .  44 C CB  . 15546 1 
+       61 . 1 1  44  44 CYS N   N 15 114.11 0.17 . 1 . . . .  44 C N   . 15546 1 
+       62 . 1 1  45  45 ILE N   N 15 121.76 0.03 . 1 . . . .  45 I N   . 15546 1 
+       63 . 1 1  49  49 VAL C   C 13 176.92 0.07 . 1 . . . .  49 V C   . 15546 1 
+       64 . 1 1  49  49 VAL CA  C 13  68.32 0.09 . 1 . . . .  49 V CA  . 15546 1 
+       65 . 1 1  49  49 VAL CB  C 13  30.88 0.21 . 1 . . . .  49 V CB  . 15546 1 
+       66 . 1 1  49  49 VAL N   N 15 120.91 0.00 . 1 . . . .  49 V N   . 15546 1 
+       67 . 1 1  50  50 ALA CA  C 13  56.25 0.01 . 1 . . . .  50 A CA  . 15546 1 
+       68 . 1 1  50  50 ALA CB  C 13  16.68 0.00 . 1 . . . .  50 A CB  . 15546 1 
+       69 . 1 1  50  50 ALA N   N 15 123.01 0.10 . 1 . . . .  50 A N   . 15546 1 
+       70 . 1 1  51  51 LEU C   C 13 177.84 0.06 . 1 . . . .  51 L C   . 15546 1 
+       71 . 1 1  51  51 LEU CA  C 13  57.43 0.12 . 1 . . . .  51 L CA  . 15546 1 
+       72 . 1 1  51  51 LEU CB  C 13  41.42 0.24 . 1 . . . .  51 L CB  . 15546 1 
+       73 . 1 1  51  51 LEU CG  C 13  26.44 0.06 . 1 . . . .  51 L CG  . 15546 1 
+       74 . 1 1  51  51 LEU N   N 15 115.50 0.01 . 1 . . . .  51 L N   . 15546 1 
+       75 . 1 1  52  52 PHE C   C 13 179.04 0.09 . 1 . . . .  52 F C   . 15546 1 
+       76 . 1 1  52  52 PHE CA  C 13  62.65 0.18 . 1 . . . .  52 F CA  . 15546 1 
+       77 . 1 1  52  52 PHE CB  C 13  38.27 0.00 . 1 . . . .  52 F CB  . 15546 1 
+       78 . 1 1  52  52 PHE N   N 15 122.69 0.12 . 1 . . . .  52 F N   . 15546 1 
+       79 . 1 1  53  53 GLY C   C 13 175.33 0.17 . 1 . . . .  53 G C   . 15546 1 
+       80 . 1 1  53  53 GLY CA  C 13  48.09 0.09 . 1 . . . .  53 G CA  . 15546 1 
+       81 . 1 1  53  53 GLY N   N 15 110.86 0.16 . 1 . . . .  53 G N   . 15546 1 
+       82 . 1 1  54  54 VAL C   C 13 176.90 0.07 . 1 . . . .  54 V C   . 15546 1 
+       83 . 1 1  54  54 VAL CA  C 13  67.51 0.08 . 1 . . . .  54 V CA  . 15546 1 
+       84 . 1 1  54  54 VAL CB  C 13  31.11 0.11 . 1 . . . .  54 V CB  . 15546 1 
+       85 . 1 1  54  54 VAL CG1 C 13  22.32 0.11 . 2 . . . .  54 V CG1 . 15546 1 
+       86 . 1 1  54  54 VAL CG2 C 13  21.20 0.03 . 2 . . . .  54 V CG2 . 15546 1 
+       87 . 1 1  54  54 VAL N   N 15 121.84 0.11 . 1 . . . .  54 V N   . 15546 1 
+       88 . 1 1  55  55 LEU C   C 13 178.02 0.19 . 1 . . . .  55 L C   . 15546 1 
+       89 . 1 1  55  55 LEU CA  C 13  57.97 0.22 . 1 . . . .  55 L CA  . 15546 1 
+       90 . 1 1  55  55 LEU N   N 15 120.01 0.09 . 1 . . . .  55 L N   . 15546 1 
+       91 . 1 1  56  56 GLY C   C 13 174.54 0.13 . 1 . . . .  56 G C   . 15546 1 
+       92 . 1 1  56  56 GLY CA  C 13  47.58 0.07 . 1 . . . .  56 G CA  . 15546 1 
+       93 . 1 1  56  56 GLY N   N 15 106.35 0.08 . 1 . . . .  56 G N   . 15546 1 
+       94 . 1 1  57  57 ALA C   C 13 178.57 0.07 . 1 . . . .  57 A C   . 15546 1 
+       95 . 1 1  57  57 ALA CA  C 13  55.59 0.09 . 1 . . . .  57 A CA  . 15546 1 
+       96 . 1 1  57  57 ALA CB  C 13  17.96 0.07 . 1 . . . .  57 A CB  . 15546 1 
+       97 . 1 1  57  57 ALA N   N 15 122.96 0.15 . 1 . . . .  57 A N   . 15546 1 
+       98 . 1 1  58  58 ALA C   C 13 179.27 0.18 . 1 . . . .  58 A C   . 15546 1 
+       99 . 1 1  58  58 ALA CA  C 13  54.76 0.11 . 1 . . . .  58 A CA  . 15546 1 
+      100 . 1 1  58  58 ALA CB  C 13  17.85 0.10 . 1 . . . .  58 A CB  . 15546 1 
+      101 . 1 1  58  58 ALA N   N 15 118.81 0.13 . 1 . . . .  58 A N   . 15546 1 
+      102 . 1 1  59  59 LEU C   C 13 177.70 0.05 . 1 . . . .  59 L C   . 15546 1 
+      103 . 1 1  59  59 LEU CA  C 13  57.45 0.07 . 1 . . . .  59 L CA  . 15546 1 
+      104 . 1 1  59  59 LEU CB  C 13  41.05 0.06 . 1 . . . .  59 L CB  . 15546 1 
+      105 . 1 1  59  59 LEU CG  C 13  26.22 0.03 . 1 . . . .  59 L CG  . 15546 1 
+      106 . 1 1  59  59 LEU N   N 15 115.36 0.13 . 1 . . . .  59 L N   . 15546 1 
+      107 . 1 1  60  60 ILE C   C 13 179.86 0.14 . 1 . . . .  60 I C   . 15546 1 
+      108 . 1 1  60  60 ILE CA  C 13  64.45 0.15 . 1 . . . .  60 I CA  . 15546 1 
+      109 . 1 1  60  60 ILE CB  C 13  37.10 0.00 . 1 . . . .  60 I CB  . 15546 1 
+      110 . 1 1  60  60 ILE N   N 15 116.19 0.13 . 1 . . . .  60 I N   . 15546 1 
+      111 . 1 1  61  61 GLY C   C 13 173.60 0.07 . 1 . . . .  61 G C   . 15546 1 
+      112 . 1 1  61  61 GLY CA  C 13  45.71 0.12 . 1 . . . .  61 G CA  . 15546 1 
+      113 . 1 1  61  61 GLY N   N 15 110.31 0.12 . 1 . . . .  61 G N   . 15546 1 
+      114 . 1 1  62  62 ALA C   C 13 176.26 0.00 . 1 . . . .  62 A C   . 15546 1 
+      115 . 1 1  62  62 ALA CA  C 13  53.21 0.10 . 1 . . . .  62 A CA  . 15546 1 
+      116 . 1 1  62  62 ALA CB  C 13  19.02 0.01 . 1 . . . .  62 A CB  . 15546 1 
+      117 . 1 1  62  62 ALA N   N 15 118.95 0.16 . 1 . . . .  62 A N   . 15546 1 
+      118 . 1 1  63  63 ILE N   N 15 116.46 0.00 . 1 . . . .  63 I N   . 15546 1 
+      119 . 1 1  72  72 VAL C   C 13 177.58 0.14 . 1 . . . .  72 V C   . 15546 1 
+      120 . 1 1  72  72 VAL CA  C 13  66.15 0.10 . 1 . . . .  72 V CA  . 15546 1 
+      121 . 1 1  72  72 VAL CB  C 13  31.38 0.14 . 1 . . . .  72 V CB  . 15546 1 
+      122 . 1 1  72  72 VAL CG1 C 13  22.75 0.00 . 2 . . . .  72 V CG1 . 15546 1 
+      123 . 1 1  72  72 VAL CG2 C 13  21.17 0.00 . 2 . . . .  72 V CG2 . 15546 1 
+      124 . 1 1  72  72 VAL N   N 15 119.00 0.00 . 1 . . . .  72 V N   . 15546 1 
+      125 . 1 1  73  73 ALA C   C 13 179.69 0.12 . 1 . . . .  73 A C   . 15546 1 
+      126 . 1 1  73  73 ALA CA  C 13  55.79 0.13 . 1 . . . .  73 A CA  . 15546 1 
+      127 . 1 1  73  73 ALA CB  C 13  19.29 0.08 . 1 . . . .  73 A CB  . 15546 1 
+      128 . 1 1  73  73 ALA N   N 15 120.04 0.13 . 1 . . . .  73 A N   . 15546 1 
+      129 . 1 1  74  74 MET C   C 13 177.07 0.17 . 1 . . . .  74 M C   . 15546 1 
+      130 . 1 1  74  74 MET CA  C 13  61.00 0.06 . 1 . . . .  74 M CA  . 15546 1 
+      131 . 1 1  74  74 MET CB  C 13  33.65 0.00 . 1 . . . .  74 M CB  . 15546 1 
+      132 . 1 1  74  74 MET CG  C 13  36.04 0.00 . 1 . . . .  74 M CG  . 15546 1 
+      133 . 1 1  74  74 MET N   N 15 115.58 0.14 . 1 . . . .  74 M N   . 15546 1 
+      134 . 1 1  75  75 VAL C   C 13 177.13 0.11 . 1 . . . .  75 V C   . 15546 1 
+      135 . 1 1  75  75 VAL CA  C 13  67.78 0.15 . 1 . . . .  75 V CA  . 15546 1 
+      136 . 1 1  75  75 VAL CB  C 13  31.47 0.18 . 1 . . . .  75 V CB  . 15546 1 
+      137 . 1 1  75  75 VAL CG1 C 13  23.33 0.15 . 2 . . . .  75 V CG1 . 15546 1 
+      138 . 1 1  75  75 VAL CG2 C 13  21.56 0.00 . 2 . . . .  75 V CG2 . 15546 1 
+      139 . 1 1  75  75 VAL N   N 15 118.57 0.20 . 1 . . . .  75 V N   . 15546 1 
+      140 . 1 1  76  76 ILE C   C 13 178.60 0.06 . 1 . . . .  76 I C   . 15546 1 
+      141 . 1 1  76  76 ILE CA  C 13  65.97 0.16 . 1 . . . .  76 I CA  . 15546 1 
+      142 . 1 1  76  76 ILE CB  C 13  38.46 0.06 . 1 . . . .  76 I CB  . 15546 1 
+      143 . 1 1  76  76 ILE CG1 C 13  31.33 0.00 . 1 . . . .  76 I CG1 . 15546 1 
+      144 . 1 1  76  76 ILE CG2 C 13  16.99 0.00 . 1 . . . .  76 I CG2 . 15546 1 
+      145 . 1 1  76  76 ILE N   N 15 119.01 0.23 . 1 . . . .  76 I N   . 15546 1 
+      146 . 1 1  77  77 TRP C   C 13 177.18 0.12 . 1 . . . .  77 W C   . 15546 1 
+      147 . 1 1  77  77 TRP CA  C 13  58.81 0.11 . 1 . . . .  77 W CA  . 15546 1 
+      148 . 1 1  77  77 TRP CB  C 13  30.83 0.18 . 1 . . . .  77 W CB  . 15546 1 
+      149 . 1 1  77  77 TRP CD1 C 13 122.57 0.00 . 4 . . . .  77 W CD1 . 15546 1 
+      150 . 1 1  77  77 TRP CG  C 13 114.13 0.00 . 1 . . . .  77 W CG  . 15546 1 
+      151 . 1 1  77  77 TRP N   N 15 125.39 0.17 . 1 . . . .  77 W N   . 15546 1 
+      152 . 1 1  78  78 LEU C   C 13 178.28 0.08 . 1 . . . .  78 L C   . 15546 1 
+      153 . 1 1  78  78 LEU CA  C 13  58.24 0.20 . 1 . . . .  78 L CA  . 15546 1 
+      154 . 1 1  78  78 LEU CB  C 13  43.80 0.18 . 1 . . . .  78 L CB  . 15546 1 
+      155 . 1 1  78  78 LEU CG  C 13  27.08 0.18 . 1 . . . .  78 L CG  . 15546 1 
+      156 . 1 1  78  78 LEU N   N 15 118.81 0.14 . 1 . . . .  78 L N   . 15546 1 
+      157 . 1 1  79  79 TYR C   C 13 176.67 0.13 . 1 . . . .  79 Y C   . 15546 1 
+      158 . 1 1  79  79 TYR CA  C 13  62.70 0.16 . 1 . . . .  79 Y CA  . 15546 1 
+      159 . 1 1  79  79 TYR N   N 15 118.36 0.03 . 1 . . . .  79 Y N   . 15546 1 
+      160 . 1 1  80  80 SER C   C 13 175.91 0.08 . 1 . . . .  80 S C   . 15546 1 
+      161 . 1 1  80  80 SER CA  C 13  63.55 0.04 . 1 . . . .  80 S CA  . 15546 1 
+      162 . 1 1  80  80 SER N   N 15 114.16 0.13 . 1 . . . .  80 S N   . 15546 1 
+      163 . 1 1  81  81 ALA C   C 13 178.02 0.09 . 1 . . . .  81 A C   . 15546 1 
+      164 . 1 1  81  81 ALA CA  C 13  55.18 0.09 . 1 . . . .  81 A CA  . 15546 1 
+      165 . 1 1  81  81 ALA CB  C 13  17.86 0.07 . 1 . . . .  81 A CB  . 15546 1 
+      166 . 1 1  81  81 ALA N   N 15 121.07 0.13 . 1 . . . .  81 A N   . 15546 1 
+      167 . 1 1  82  82 PHE N   N 15 119.34 0.00 . 1 . . . .  82 F N   . 15546 1 
+      168 . 1 1  84  84 GLY C   C 13 176.80 0.09 . 1 . . . .  84 G C   . 15546 1 
+      169 . 1 1  84  84 GLY CA  C 13  46.18 0.00 . 1 . . . .  84 G CA  . 15546 1 
+      170 . 1 1  85  85 VAL C   C 13 176.29 0.07 . 1 . . . .  85 V C   . 15546 1 
+      171 . 1 1  85  85 VAL CA  C 13  67.05 0.10 . 1 . . . .  85 V CA  . 15546 1 
+      172 . 1 1  85  85 VAL CB  C 13  30.83 0.08 . 1 . . . .  85 V CB  . 15546 1 
+      173 . 1 1  85  85 VAL CG1 C 13  23.76 0.00 . 2 . . . .  85 V CG1 . 15546 1 
+      174 . 1 1  85  85 VAL CG2 C 13  21.78 0.00 . 2 . . . .  85 V CG2 . 15546 1 
+      175 . 1 1  85  85 VAL N   N 15 124.85 0.24 . 1 . . . .  85 V N   . 15546 1 
+      176 . 1 1  86  86 GLN C   C 13 178.76 0.00 . 1 . . . .  86 Q C   . 15546 1 
+      177 . 1 1  86  86 GLN CA  C 13  59.49 0.07 . 1 . . . .  86 Q CA  . 15546 1 
+      178 . 1 1  86  86 GLN CB  C 13  29.28 0.00 . 1 . . . .  86 Q CB  . 15546 1 
+      179 . 1 1  86  86 GLN N   N 15 116.56 0.23 . 1 . . . .  86 Q N   . 15546 1 
+      180 . 1 1 146 146 LEU C   C 13 177.05 0.08 . 1 . . . . 146 L C   . 15546 1 
+      181 . 1 1 146 146 LEU CA  C 13  56.61 0.04 . 1 . . . . 146 L CA  . 15546 1 
+      182 . 1 1 146 146 LEU CB  C 13  41.56 0.00 . 1 . . . . 146 L CB  . 15546 1 
+      183 . 1 1 146 146 LEU CG  C 13  26.14 0.00 . 1 . . . . 146 L CG  . 15546 1 
+      184 . 1 1 147 147 LEU C   C 13 178.72 0.11 . 1 . . . . 147 L C   . 15546 1 
+      185 . 1 1 147 147 LEU CA  C 13  58.13 0.12 . 1 . . . . 147 L CA  . 15546 1 
+      186 . 1 1 147 147 LEU CB  C 13  40.83 0.08 . 1 . . . . 147 L CB  . 15546 1 
+      187 . 1 1 147 147 LEU CG  C 13  27.41 0.21 . 1 . . . . 147 L CG  . 15546 1 
+      188 . 1 1 147 147 LEU N   N 15 123.61 0.16 . 1 . . . . 147 L N   . 15546 1 
+      189 . 1 1 148 148 GLY C   C 13 174.48 0.20 . 1 . . . . 148 G C   . 15546 1 
+      190 . 1 1 148 148 GLY CA  C 13  48.15 0.04 . 1 . . . . 148 G CA  . 15546 1 
+      191 . 1 1 148 148 GLY N   N 15 104.53 0.09 . 1 . . . . 148 G N   . 15546 1 
+      192 . 1 1 149 149 ILE C   C 13 177.72 0.11 . 1 . . . . 149 I C   . 15546 1 
+      193 . 1 1 149 149 ILE CA  C 13  65.99 0.07 . 1 . . . . 149 I CA  . 15546 1 
+      194 . 1 1 149 149 ILE CB  C 13  38.37 0.08 . 1 . . . . 149 I CB  . 15546 1 
+      195 . 1 1 149 149 ILE CG1 C 13  29.86 0.06 . 1 . . . . 149 I CG1 . 15546 1 
+      196 . 1 1 149 149 ILE CG2 C 13  18.15 0.02 . 1 . . . . 149 I CG2 . 15546 1 
+      197 . 1 1 149 149 ILE N   N 15 121.82 0.12 . 1 . . . . 149 I N   . 15546 1 
+      198 . 1 1 150 150 PHE C   C 13 178.94 0.06 . 1 . . . . 150 F C   . 15546 1 
+      199 . 1 1 150 150 PHE CA  C 13  63.41 0.12 . 1 . . . . 150 F CA  . 15546 1 
+      200 . 1 1 150 150 PHE CB  C 13  38.27 0.19 . 1 . . . . 150 F CB  . 15546 1 
+      201 . 1 1 150 150 PHE N   N 15 118.87 0.14 . 1 . . . . 150 F N   . 15546 1 
+      202 . 1 1 151 151 ILE C   C 13 177.29 0.09 . 1 . . . . 151 I C   . 15546 1 
+      203 . 1 1 151 151 ILE CA  C 13  66.63 0.06 . 1 . . . . 151 I CA  . 15546 1 
+      204 . 1 1 151 151 ILE CB  C 13  37.38 0.07 . 1 . . . . 151 I CB  . 15546 1 
+      205 . 1 1 151 151 ILE CG1 C 13  31.01 0.00 . 1 . . . . 151 I CG1 . 15546 1 
+      206 . 1 1 151 151 ILE CG2 C 13  18.01 0.12 . 1 . . . . 151 I CG2 . 15546 1 
+      207 . 1 1 151 151 ILE N   N 15 120.44 0.22 . 1 . . . . 151 I N   . 15546 1 
+      208 . 1 1 152 152 ALA C   C 13 179.13 0.03 . 1 . . . . 152 A C   . 15546 1 
+      209 . 1 1 152 152 ALA CA  C 13  56.27 0.10 . 1 . . . . 152 A CA  . 15546 1 
+      210 . 1 1 152 152 ALA CB  C 13  17.92 0.14 . 1 . . . . 152 A CB  . 15546 1 
+      211 . 1 1 152 152 ALA N   N 15 122.85 0.15 . 1 . . . . 152 A N   . 15546 1 
+      212 . 1 1 153 153 TYR C   C 13 179.70 0.10 . 1 . . . . 153 Y C   . 15546 1 
+      213 . 1 1 153 153 TYR CA  C 13  64.37 0.09 . 1 . . . . 153 Y CA  . 15546 1 
+      214 . 1 1 153 153 TYR CB  C 13  39.56 0.05 . 1 . . . . 153 Y CB  . 15546 1 
+      215 . 1 1 153 153 TYR N   N 15 116.19 0.09 . 1 . . . . 153 Y N   . 15546 1 
+      216 . 1 1 154 154 LEU C   C 13 177.04 0.09 . 1 . . . . 154 L C   . 15546 1 
+      217 . 1 1 154 154 LEU CA  C 13  57.88 0.08 . 1 . . . . 154 L CA  . 15546 1 
+      218 . 1 1 154 154 LEU CB  C 13  41.88 0.11 . 1 . . . . 154 L CB  . 15546 1 
+      219 . 1 1 154 154 LEU CG  C 13  27.06 0.06 . 1 . . . . 154 L CG  . 15546 1 
+      220 . 1 1 154 154 LEU N   N 15 122.43 0.18 . 1 . . . . 154 L N   . 15546 1 
+      221 . 1 1 155 155 ILE C   C 13 177.59 0.13 . 1 . . . . 155 I C   . 15546 1 
+      222 . 1 1 155 155 ILE CA  C 13  66.04 0.13 . 1 . . . . 155 I CA  . 15546 1 
+      223 . 1 1 155 155 ILE CB  C 13  38.23 0.14 . 1 . . . . 155 I CB  . 15546 1 
+      224 . 1 1 155 155 ILE CG1 C 13  31.49 0.00 . 1 . . . . 155 I CG1 . 15546 1 
+      225 . 1 1 155 155 ILE N   N 15 119.04 0.18 . 1 . . . . 155 I N   . 15546 1 
+      226 . 1 1 156 156 VAL C   C 13 176.09 0.12 . 1 . . . . 156 V C   . 15546 1 
+      227 . 1 1 156 156 VAL CA  C 13  67.72 0.06 . 1 . . . . 156 V CA  . 15546 1 
+      228 . 1 1 156 156 VAL CB  C 13  31.75 0.11 . 1 . . . . 156 V CB  . 15546 1 
+      229 . 1 1 156 156 VAL CG1 C 13  24.32 0.00 . 2 . . . . 156 V CG1 . 15546 1 
+      230 . 1 1 156 156 VAL CG2 C 13  23.06 0.08 . 2 . . . . 156 V CG2 . 15546 1 
+      231 . 1 1 156 156 VAL N   N 15 117.53 0.16 . 1 . . . . 156 V N   . 15546 1 
+      232 . 1 1 157 157 ALA C   C 13 178.98 0.10 . 1 . . . . 157 A C   . 15546 1 
+      233 . 1 1 157 157 ALA CA  C 13  54.80 0.07 . 1 . . . . 157 A CA  . 15546 1 
+      234 . 1 1 157 157 ALA CB  C 13  16.04 0.07 . 1 . . . . 157 A CB  . 15546 1 
+      235 . 1 1 157 157 ALA N   N 15 122.43 0.12 . 1 . . . . 157 A N   . 15546 1 
+      236 . 1 1 158 158 VAL C   C 13 177.55 0.16 . 1 . . . . 158 V C   . 15546 1 
+      237 . 1 1 158 158 VAL CA  C 13  67.19 0.12 . 1 . . . . 158 V CA  . 15546 1 
+      238 . 1 1 158 158 VAL CB  C 13  31.40 0.12 . 1 . . . . 158 V CB  . 15546 1 
+      239 . 1 1 158 158 VAL CG1 C 13  23.55 0.00 . 2 . . . . 158 V CG1 . 15546 1 
+      240 . 1 1 158 158 VAL CG2 C 13  21.90 0.00 . 2 . . . . 158 V CG2 . 15546 1 
+      241 . 1 1 158 158 VAL N   N 15 116.12 0.16 . 1 . . . . 158 V N   . 15546 1 
+      242 . 1 1 159 159 LEU C   C 13 178.18 0.07 . 1 . . . . 159 L C   . 15546 1 
+      243 . 1 1 159 159 LEU CA  C 13  57.46 0.16 . 1 . . . . 159 L CA  . 15546 1 
+      244 . 1 1 159 159 LEU CB  C 13  41.28 0.20 . 1 . . . . 159 L CB  . 15546 1 
+      245 . 1 1 159 159 LEU CG  C 13  26.80 0.20 . 1 . . . . 159 L CG  . 15546 1 
+      246 . 1 1 159 159 LEU N   N 15 117.40 0.17 . 1 . . . . 159 L N   . 15546 1 
+      247 . 1 1 160 160 VAL C   C 13 177.56 0.04 . 1 . . . . 160 V C   . 15546 1 
+      248 . 1 1 160 160 VAL CA  C 13  67.30 0.15 . 1 . . . . 160 V CA  . 15546 1 
+      249 . 1 1 160 160 VAL CB  C 13  30.94 0.00 . 1 . . . . 160 V CB  . 15546 1 
+      250 . 1 1 160 160 VAL CG1 C 13  23.61 0.00 . 2 . . . . 160 V CG1 . 15546 1 
+      251 . 1 1 160 160 VAL N   N 15 118.94 0.15 . 1 . . . . 160 V N   . 15546 1 
+      252 . 1 1 161 161 VAL C   C 13 176.79 0.08 . 1 . . . . 161 V C   . 15546 1 
+      253 . 1 1 161 161 VAL CA  C 13  67.72 0.08 . 1 . . . . 161 V CA  . 15546 1 
+      254 . 1 1 161 161 VAL CB  C 13  31.68 0.01 . 1 . . . . 161 V CB  . 15546 1 
+      255 . 1 1 161 161 VAL CG1 C 13  23.19 0.00 . 2 . . . . 161 V CG1 . 15546 1 
+      256 . 1 1 161 161 VAL CG2 C 13  21.48 0.00 . 2 . . . . 161 V CG2 . 15546 1 
+      257 . 1 1 161 161 VAL N   N 15 118.53 0.07 . 1 . . . . 161 V N   . 15546 1 
+      258 . 1 1 162 162 ILE N   N 15 118.50 0.06 . 1 . . . . 162 I N   . 15546 1 
+
+   stop_
+
+save_
+

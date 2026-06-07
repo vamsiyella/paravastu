@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2ZLX7P4VR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-E2ZLX7P4VR');
+    </script>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="refresh" content="84400" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/includes/javascript/jquery/jquery-ui-1.14.1.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/bmrb.css" title="stylesheet" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "name": "Biological Magnetic Resonance Data Bank",
+        "alternateName": "BMRB",
+        "description": "A Repository for Data from NMR Spectroscopy on Proteins, Peptides, Nucleic Acids, and other Biomolecules",
+        "image": "https://bmrb.io/images/BMRB_logo_icon.svg",
+        "logo": "https://bmrb.io/images/BMRB_logo_icon.svg",
+        "url": "https://bmrb.io/",
+        "address": {
+          "addressCountry": "US",
+          "addressLocality": "Madison",
+          "addressRegion": "WI",
+          "postalCode": "53706",
+          "streetAddress": "420 Henry Mall #B1118"
+        }
+      }
+    </script>
+
+    <!-- Include scripts here -->
+    <script type="text/javascript" src="/includes/javascript/jquery/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="/includes/javascript/jquery/jquery-ui-1.14.1.min.js"></script>
+    <script async type="text/javascript" src="/includes/javascript/sorttable.min.js"></script>
+
+    <!-- Favicon and logo related definitions. Thanks to https://realfavicongenerator.net -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Start of nmrbox Zendesk Widget script -->
+    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=52d9c3ca-6310-45ad-a2dd-f02fe746ea2f"> </script>
+    <!-- End of nmrbox Zendesk Widget script -->
+<TITLE>Solid-state NMR entries</TITLE>
+
+
+    <script type="text/javascript">
+
+        /* attach to jquery to make it global */
+        $( document ).ready( function() {
+
+            /* because jQuery.text() returns "syntax error" on anything other than [A-Za-z]. or over 3 lines. or something. */
+            jQuery.strip_tags = function strip_tags( input ) {
+                var tags = /<\/?([a-z][a-z0-9]*)\b[^>]*>/gi,
+                commentsAndPhpTags = /<!--[\s\S]*?-->|<\?(?:php)?[\s\S]*?\?>/gi;
+                return input.replace( commentsAndPhpTags, "" ).replace( tags, "" );
+            }
+
+            /* Hide and show the various servers */
+            /* Only used on /software/wishart/ and /dictionary/tagdetail.php */
+            $( ".expandingBody" ).hide();
+
+            $( ".expandingHeader" ).bind( "click", function() {
+                if( $( this ).hasClass( "Selected" ) ) {
+                    $( this ).removeClass( "Selected" );
+                    $( this ).addClass( "NotSelected" );
+                }
+                else {
+                    $( this ).removeClass( "NotSelected" );
+                    $( this ).addClass( "Selected" );
+                }
+                $( this ).next( ".expandingBody" ).toggle();
+
+            } );
+        } );
+    </script>
+
+    <script type="text/javascript" src="/includes/javascript/bmrb_scripts/bmrb_main_menu.js"></script>
+
+    <!-- If the user hasn't set a title this will be used. -->
+    <title>BMRB - Biological Magnetic Resonance Bank</title>
+</head>
+
+<body>
+    <div id="wrapper" style="width: 100%">
+    <div class="mobile mobile_sidebar">
+        <div class="top_row" onclick="toggleMenu()">
+            <svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg>
+        </div>
+        <nav class="content">
+            <a id="menu-mobile-link-01" class="menu-mobile-link"><h2 onclick="open_subnav(this.parentNode)" class="menu-link-item">About</h2></a>
+            <a id="menu-mobile-link-02" class="menu-mobile-link"><h2 onclick="open_subnav(this.parentNode)" class="menu-link-item">Deposit</h2></a>
+            <a id="menu-mobile-link-03" class="menu-mobile-link"><h2 onclick="open_subnav(this.parentNode)" class="menu-link-item">Search</h2></a>
+            <a id="menu-mobile-link-04" class="menu-mobile-link"><h2 onclick="open_subnav(this.parentNode)" class="menu-link-item">Visualize</h2></a>
+            <a id="menu-mobile-link-05" class="menu-mobile-link"><h2 onclick="open_subnav(this.parentNode)" class="menu-link-item">Analyze</h2></a>
+            <a id="menu-mobile-link-06" class="menu-mobile-link"><h2 onclick="open_subnav(this.parentNode)" class="menu-link-item">Data</h2></a>
+            <a id="menu-mobile-link-07" class="menu-mobile-link"><h2 onclick="open_subnav(this.parentNode)" class="menu-link-item">Learn</h2></a>
+        </nav>
+    </div>
+    <header>
+        <div class="header-container">
+            <div class="header-row">
+                <div id="main-menu">
+                    <nav class="content-container">
+                        <div class="desktop">
+                            <div id="menu-link-home" class="menu-link"><a href="/"><img src="/images/BMRB_logo_icon.svg" alt="BMRB" title="BMRB homepage"><span>BMRB</span></a></div>
+                            <div id="menu-link-01" class="menu-link"><a href="/">About</a></div>
+                            <div id="menu-link-02" class="menu-link"><a href="/">Deposit</a></div>
+                            <div id="menu-link-03" class="menu-link"><a href="/">Search</a></div>
+                            <div id="menu-link-04" class="menu-link"><a href="/">Visualize</a></div>
+                            <div id="menu-link-05" class="menu-link"><a href="/">Analyze</a></div>
+                            <div id="menu-link-06" class="menu-link"><a href="/">Data</a></div>
+                            <div id="menu-link-07" class="menu-link"><a href="/">Learn</a></div> 
+                        </div>
+                        <div class="mobile top_nav">
+                            <div id="menu-link-home" class="menu-link"><a href="/"><img src="/images/BMRB_logo_icon.svg" alt="BMRB" title="BMRB homepage"><span>BMRB</span></a></div>
+                            <div class="hamburger" onclick="toggleMenu()">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-row content-container">
+                <div id="bmrb-logo" class="desktop left">
+                    <a href="/"><img src="/images/BMRB_logo_text.svg" alt="BMRB" title="BMRB homepage"></a>
+                </div>
+                <div id="instant" class="search-bar">
+                    <form method="get" action="/search/instant.php" target="_blank">
+                        <input type="text" id="instant_search" name="term" title="BMRB Instant Search">
+                        <div class="form-input-description">Searches all entries</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- sidebar + content -->
+    <section id="main" class="content-container">
+
+        <!-- Begin main content -->
+        <div id="bmrb_pagecontentcolumn">
+
+
+
+
+<!-- content goes here -->
+
+<div>
+    <h2>Solid-state NMR entries</h2>
+    
+<table class="alternating sortable"><tr><th>Entry ID</th><th>Title</th></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=4822" title="link to entry">4822</a></td>
+<td>Conformations of the Regulatory Domain of Cardiac Troponin C Examined by 
+Residual Dipolar Couplings; Apo form</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=4823" title="link to entry">4823</a></td>
+<td>Conformations of the Regulatory Domain of Cardiac Troponin C Examined by 
+Residual Dipolar Couplings; Holo form</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=4824" title="link to entry">4824</a></td>
+<td>Conformations of the Regulatory Domain of Cardiac Troponin C Examined by 
+Residual Dipolar Couplings; Complex with peptide</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=5757" title="link to entry">5757</a></td>
+<td>13C, 15N solid state NMR chemical shift assignments for the microcrystallin Crh 
+domain swapped dimer</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=5877" title="link to entry">5877</a></td>
+<td>Solid State NMR Structure of the Major Coat Protein in Bacteriophage Pf1</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=5934" title="link to entry">5934</a></td>
+<td>13C and 15N Chemical Shift Assignments for f-MLF-OH</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=6214" title="link to entry">6214</a></td>
+<td>Signal assignments and chemical-shift structural analysis of uniformly 13C, 
+15N-labeled peptide, mastoparan-X, by multidimensional solid-state NMR under 
+magic-angle spinning</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=6348" title="link to entry">6348</a></td>
+<td>13C, 15N solid state NMR chemical shift assignments for the intrinsic 
+transmembrane light-harvesting 2 protein complex</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=6351" title="link to entry">6351</a></td>
+<td>13C, 15N solid-state NMR chemical shift assignments for Kaliotoxin</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=7111" title="link to entry">7111</a></td>
+<td>Chemical shift assignment of multicrystalline ubiquitin using solid state MAS NMR spectroscopy</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=10001" title="link to entry">10001</a></td>
+<td>A high resolution structure of mastoparan-X strongly bound to lipid-bilayer
+membrane determined by solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=10021" title="link to entry">10021</a></td>
+<td>Backbone and sidechain 13C and 15N Chemical Shift Assignments of H+-ATP synthase
+subunit c in the solid state</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=10022" title="link to entry">10022</a></td>
+<td>3D Structure of amyloid protofibrils of beta2-microglobulin fragment probed by
+solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=11028" title="link to entry">11028</a></td>
+<td>Solid-state NMR assignment of the rigid core of the HET-s(218-289) prion protein 
+in its amyloid conformation.</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=11058" title="link to entry">11058</a></td>
+<td>Chemical shift assignment of PACAP21 bound to phospholipid membranes by magic 
+angle spinning solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=11059" title="link to entry">11059</a></td>
+<td>Chemical shift assignment of PACAP27 bound to phospholipid membranes by magic 
+angle spinning solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=11064" title="link to entry">11064</a></td>
+<td>Solid-state NMR assignment of the rigid core of the HET-s(218-289) prion protein 
+in its amyloid conformation.</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=11172" title="link to entry">11172</a></td>
+<td>13C and 15N chemical shifts of the membrane-reconstituted subunit c-ring of 
+E. coli H+-ATP synthase</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=11512" title="link to entry">11512</a></td>
+<td>Backbone 13C Chemical Shift Assignments for Ubiquitin in Lyophilized Powder</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=11550" title="link to entry">11550</a></td>
+<td>Active-Site Structure of the Thermophilic Foc-Subunit Ring in Membranes  
+Elucidated by Solid-State NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=12019" title="link to entry">12019</a></td>
+<td>Solid-state NMR C-13 and N-15 chemical shifts of the chitin binding domain of  chitinase A1 from Bacillus circulans WL-12</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=15138" title="link to entry">15138</a></td>
+<td>13C and 15N resonance assignments for the major coat protein in Pf1 filamentous bacteriophage</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=15156" title="link to entry">15156</a></td>
+<td>Solid-State Protein Structure Determination with Proton-Detected Triple
+Resonance 3D Magic-Angle Spinning NMR Spectroscopy: Beta-1 Immunoglobulin
+Binding Domain of Protein G (GB1)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=15226" title="link to entry">15226</a></td>
+<td>High resolution Solid state NMR structure of Kaliotoxin bound to Potassium channel</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=15283" title="link to entry">15283</a></td>
+<td>13C and 15N Chemical Shift Assignments and Secondary Structure of the B3
+Immunoglobulin-Binding Domain of Streptococcal Protein G (GB3) by Magic-Angle
+Spinning Solid-State NMR Spectroscopy</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=15380" title="link to entry">15380</a></td>
+<td>Crystal Polymorphism of GB1 Examined by Solid-State NMR Spectroscopy and X-ray Diffraction</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=15546" title="link to entry">15546</a></td>
+<td>Chemical Shift Assignment of the Transmembrane Helices of DsbB by 3D Magic Angle Spinning NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=15818" title="link to entry">15818</a></td>
+<td>Type III antifreeze protein isoform HPLC-12</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=15955" title="link to entry">15955</a></td>
+<td>Green Proteorhodopsin</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=16020" title="link to entry">16020</a></td>
+<td>Magic-Angle-Spinning Solid-State NMR Structure of Influenza A M2 Transmembrane Domain</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=16060" title="link to entry">16060</a></td>
+<td>Loop 3 of Short Neurotoxin II is an Additional Interaction Site with Membrane-Bound Nicotinic Acetylcholine Receptor as Detected by Solid-State NMR Spectroscopy</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=16254" title="link to entry">16254</a></td>
+<td>NMR Structure of human alpha defensin HNP-1</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=16327" title="link to entry">16327</a></td>
+<td>DsbA wild type oxidized</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=16391" title="link to entry">16391</a></td>
+<td>13C and 15N Chemical Shift Assignments for human alphaB-crystallin</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=16448" title="link to entry">16448</a></td>
+<td>Resonance assignments of the SH3 domain of phosphatidylinositol-3-kinase (PI3-SH3) in amyloid fibril form determined by MAS NMR spectroscopy</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=16565" title="link to entry">16565</a></td>
+<td>apo-WT yeast Triosephosphate Isomerase (TIM)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=16566" title="link to entry">16566</a></td>
+<td>D-G3P-bound WT yeast Triosephosphate Isomerase (TIM)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=16595" title="link to entry">16595</a></td>
+<td>HIV Fusion Peptide in Cholesterol-Rich Membranes</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=16597" title="link to entry">16597</a></td>
+<td>Influenza Virus Fusion Peptide in Membranes without Cholesterol at pH 5.0</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=16612" title="link to entry">16612</a></td>
+<td>Solid-state NMR structure of the M2 transmembrane peptide of the influenza A virus in DMPC lipid bilayers bound to deuterated amantadine</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=16873" title="link to entry">16873</a></td>
+<td>NMR determination of protein pKa values in the solid state</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=16939" title="link to entry">16939</a></td>
+<td>WT alpha-synuclein fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=16964" title="link to entry">16964</a></td>
+<td>Solid-state NMR assignment of the globular domain of HET-s(1-227) prion protein in microcrystalline form.</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17064" title="link to entry">17064</a></td>
+<td>13C, and 15N Chemical Shift Assignments for Anabaena sensory rhodopsin 1-229</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17214" title="link to entry">17214</a></td>
+<td>A30P alpha-synuclein fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17361" title="link to entry">17361</a></td>
+<td>The Conformation of Bacteriorhodopsin Loops in Purple Membranes resolved by Solid-state MAS-NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17498" title="link to entry">17498</a></td>
+<td>Solid-state NMR assignment of alpha-synuclein amyloid fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17499" title="link to entry">17499</a></td>
+<td>Solid-state NMR assignment of the Ure2p prion C-terminal 70-354 in microcrystalline form.</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17570" title="link to entry">17570</a></td>
+<td>Solid-state NMR assignment of the C-terminal domain of the Ure2p prion in its fibrillar form</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17648" title="link to entry">17648</a></td>
+<td>Partial 13C,15N chemical shift assignments of A30P alpha-synuclein fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17649" title="link to entry">17649</a></td>
+<td>Partial 13C, 15N chemical shift assignments of A53T alpha-synuclein fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17654" title="link to entry">17654</a></td>
+<td>Partial 13C, 15N chemical shift assignments of E46K alpha-synuclein fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17700" title="link to entry">17700</a></td>
+<td>13C, 15N Chemical shifts of E. coli thioredoxin using solid-state nmr spectroscopy</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17708" title="link to entry">17708</a></td>
+<td>Solution-state structures of monomeric and dimeric G-quadruplexes adopted by a sequence from N-myc</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17710" title="link to entry">17710</a></td>
+<td>Membrane protein complex DsbB-DsbA structure by joint calculations with solid-state NMR and X-ray experimental data</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17727" title="link to entry">17727</a></td>
+<td>3D ssNMR structure of membrane embedded KcsA-Kv1.3 channel (Closed state)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17728" title="link to entry">17728</a></td>
+<td>13C and 15N Chemical Shift Assignments for the fd Bacteriophage</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17744" title="link to entry">17744</a></td>
+<td>3D ssNMR structure of membrane embedded KcsA-Kv1.3 channel (Inactivated state)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17774" title="link to entry">17774</a></td>
+<td>Antiparallel beta-sheet structural model for Iowa-mutant beta-amyloid fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17810" title="link to entry">17810</a></td>
+<td>Atomic Resolution Protein Structures using NMR Chemical Shift Tensors</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17817" title="link to entry">17817</a></td>
+<td>Green Proteorhodopsin - Deuterated</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17910" title="link to entry">17910</a></td>
+<td>WT alpha-synuclein fibrils in the presence of phospholipid vesicles</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17914" title="link to entry">17914</a></td>
+<td>Integral membrane core domain of the mercury transporter MerF in lipid bilayer membranes</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17937" title="link to entry">17937</a></td>
+<td>Solid-state Chemical Shift Assignments for CAP-Gly Domain of Mammalian Dynactin</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=17944" title="link to entry">17944</a></td>
+<td>13C, 15N Chemical shifts of the C-terminal fragment of E. coli thioredoxin reassembly using solid-state NMR spectroscopy</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18024" title="link to entry">18024</a></td>
+<td>13C and 15N chemical shift assignments of cAMP bound Cyclic Nucleotide-Binding Domain from a bacterial Cyclic Nucleotide-Gated channel</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18108" title="link to entry">18108</a></td>
+<td>13C, 15N solid-state MAS NMR chemical shift assignment for YadA membrane anchor domain.</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18127" title="link to entry">18127</a></td>
+<td>Structural Model for a 40-Residue Beta-Amyloid Fibril with Two-Fold Symmetry, Positive Stagger</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18128" title="link to entry">18128</a></td>
+<td>Structural Model for a 40-Residue Beta-Amyloid Fibril with Two-Fold Symmetry, Negative Stagger</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18129" title="link to entry">18129</a></td>
+<td>Structural Model for a 40-residue Beta-Amyloid Fibril with Three-Fold Symmetry, Positive Stagger</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18131" title="link to entry">18131</a></td>
+<td>Structural Model for a 40-residue Beta-Amyloid Fibril with Three-Fold Symmetry, Negative Stagger</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18170" title="link to entry">18170</a></td>
+<td>Structure of human CXCR1 in phospholipid bilayers</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18175" title="link to entry">18175</a></td>
+<td>40-residue D23N beta amyloid fibril</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18184" title="link to entry">18184</a></td>
+<td>ShB peptide structure bound to negatively charged lipid-bilayer after Molecular Dynamics refinement</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18207" title="link to entry">18207</a></td>
+<td>A53T alpha-synuclein fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18208" title="link to entry">18208</a></td>
+<td>Chemical shift assignments of the E46K alpha-synuclein fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18232" title="link to entry">18232</a></td>
+<td>Solid-state NMR assignments for mouse alpha-synuclein fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18243" title="link to entry">18243</a></td>
+<td>WT AS fibrils (1H detection experiments)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18276" title="link to entry">18276</a></td>
+<td>1H, 13C and 15N chemical shifts for Salmonella Typhimurium PrgI Type three secretion system needle subunit</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18395" title="link to entry">18395</a></td>
+<td>Chemical shift assignments of deuterated DsbB by 1H-detected solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18396" title="link to entry">18396</a></td>
+<td>nanocrystalline DsbA 1H, 13C, 15N chemical shifts</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18397" title="link to entry">18397</a></td>
+<td>nanocrystalline GB1 1H, 13C, 15N assignments</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18406" title="link to entry">18406</a></td>
+<td>Solid-state NMR sequential assignments of Sup35NM</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18407" title="link to entry">18407</a></td>
+<td>Solid-state NMR sequential assignments of full-length Sup35p</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18493" title="link to entry">18493</a></td>
+<td>High resolution structure of DsbB C41S by joint calculation with solid-state NMR and X-ray data</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18509" title="link to entry">18509</a></td>
+<td>Structure and chemical shifts of Cu(I),Zn(II) superoxide dismutase by solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18543" title="link to entry">18543</a></td>
+<td>Chemical shift assignments of DsbA(C33S) by solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18544" title="link to entry">18544</a></td>
+<td>Chemical shift assignments of DsbA(C33S)/DsbB by solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18595" title="link to entry">18595</a></td>
+<td>Solid-state NMR 13C and 15N resonance assignments of a seven-transmembrane helical protein Anabaena Sensory Rhodopsin</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18651" title="link to entry">18651</a></td>
+<td>13C and 15N chemical shifts for Shigella Flexneri MxiH Type three secretion system needle subunit</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18708" title="link to entry">18708</a></td>
+<td>Structure of Co-substituted microcrystalline SOD using PCS and PRE restraints by solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18731" title="link to entry">18731</a></td>
+<td>Solid-state NMR sequential assignments of the C-terminal oligomerization domain of human C4b-binding protein</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18808" title="link to entry">18808</a></td>
+<td>Structure, phosphorylation and U2AF65 binding of the Nterminal
+domain of splicing factor 1 during 3 splice site recognition</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18814" title="link to entry">18814</a></td>
+<td>13C and 15N NMR chemical shifts of E. coli full-length H-NS protein</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=18860" title="link to entry">18860</a></td>
+<td>solid-state NMR assignment of a-synuclein fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19009" title="link to entry">19009</a></td>
+<td>40-residue beta-amyloid fibril derived from Alzheimer's disease brain</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19024" title="link to entry">19024</a></td>
+<td>single G-bulge in a conserved regulatory region of the HEV genome</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19025" title="link to entry">19025</a></td>
+<td>Solid-state Chemical Shift Assignments for CAP-Gly Domain of Mammalian at 19.9 T</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19031" title="link to entry">19031</a></td>
+<td>Solid-state Chemical Shift Assignments for p150Glued CAP-Gly Domain in complex with EB1 at 19.9 T</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19058" title="link to entry">19058</a></td>
+<td>Atomic-resolution structure of a doublet cross-beta amyloid fibril</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19060" title="link to entry">19060</a></td>
+<td>Atomic-resolution structure of a triplet cross-beta amyloid fibril</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19062" title="link to entry">19062</a></td>
+<td>Atomic-resolution structure of a cross-beta protofilament</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19115" title="link to entry">19115</a></td>
+<td>Full-length mercury transporter protein MerF in lipid bilayer membranes</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19157" title="link to entry">19157</a></td>
+<td>ATOMIC-RESOLUTION STRUCTURE OF A CROSS-BETA QUADRUPLET AMYLOID FIBRIL DETERMINED BY SOLID-STATE MAGIC ANGLE SPINNING NMR AND CRYO-EM</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19194" title="link to entry">19194</a></td>
+<td>Backbone resonance assignment of the alpha-subunit within the megadalton proteasome-activator complex</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19393" title="link to entry">19393</a></td>
+<td>Solid-state NMR sequential assignment of Osaka-Mutant Amyloid-beta (A  1-40 E22  ) fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19454" title="link to entry">19454</a></td>
+<td>Solid-state NMR structure of piscidin 1 in aligned 3:1 phosphatidylcholine/phosphoglycerol lipid bilayers</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19455" title="link to entry">19455</a></td>
+<td>Solid-state NMR structure of piscidin 1 in aligned 1:1 phosphatidylethanolamine/phosphoglycerol lipid bilayers</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19456" title="link to entry">19456</a></td>
+<td>Solid-state NMR structure of piscidin 3 in aligned 3:1 phosphatidylcholine/phosphoglycerol lipid bilayers</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19457" title="link to entry">19457</a></td>
+<td>Solid-state NMR structure of piscidin 3 in aligned 1:1 phosphatidylethanolamine/phosphoglycerol lipid bilayers</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19575" title="link to entry">19575</a></td>
+<td>HIV-1 capsid protein in tubular assemblies</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19734" title="link to entry">19734</a></td>
+<td>Complete chemical shift assignment of the ssDNA in the filamentous bacteriophage fd report on its conformation and on its interface with the capsid shell</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19747" title="link to entry">19747</a></td>
+<td>13C and 15N Chemical Shift Assignments for the M13 Bacteriophage</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19754" title="link to entry">19754</a></td>
+<td>Chemical shifts assignments of diacylglycerol kinase (DAGK) by solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19767" title="link to entry">19767</a></td>
+<td>Solid-state NMR assignment of metal-free SOD1 fibrillar structures</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19805" title="link to entry">19805</a></td>
+<td>13C and 15N Chemical Shift Assignments for the dsDNA in Bacteriophage T7</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19831" title="link to entry">19831</a></td>
+<td>13C and 15N Chemical Shift Assignments for the cellulose-binding protein CBM3b-Cbh9A</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=19867" title="link to entry">19867</a></td>
+<td>Structure of M. tuberculosis CrgA membrane protein in lipid bilayer</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=20074" title="link to entry">20074</a></td>
+<td>Protein Fibril</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=21097" title="link to entry">21097</a></td>
+<td>Structure of fungicidal Amphotericin B Sponge</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=21102" title="link to entry">21102</a></td>
+<td>Structure of Amphotericin B-Ergosterol Complex</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25004" title="link to entry">25004</a></td>
+<td>Chemical shift assignments for the parallel in-register D23N Iowa Mutant Beta Amyloid Fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25005" title="link to entry">25005</a></td>
+<td>THREE-DIMENSIONAL STRUCTURE OF CAP-GLY DOMAIN ASSEMBLED ON MICROTUBULES DETERMINED BY MAS NMR SPECTROSCOPY</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25076" title="link to entry">25076</a></td>
+<td>Solid-state NMR resonance assignments of the filament-forming CARD domain of the innate immunity signaling protein MAVS</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25123" title="link to entry">25123</a></td>
+<td>13C,15N solid-state NMR chemical shift assignments for microcrystallized Ubiquitin in MPD</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25146" title="link to entry">25146</a></td>
+<td>Solid-state NMR chemical shifts of amyloid-like fibrils formed by huntingtin N-terminal fragments (httNTQ30P10K2)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25178" title="link to entry">25178</a></td>
+<td>Three-dimensional structure of the p7 protein of hepatitis C virus in phospholipid bilayers by solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25192" title="link to entry">25192</a></td>
+<td>Haddock model of Bacillus subtilis L,D-transpeptidase in complex with a peptidoglycan hexamuropeptide</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25236" title="link to entry">25236</a></td>
+<td>ssNMR structure of a designed rocker protein</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25290" title="link to entry">25290</a></td>
+<td>Solid-state NMR 13C and 15N resonance assignments of a seven-transmembrane helical protein Anabaena Sensory Rhodopsin in the E. coli Inner Membrane</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25334" title="link to entry">25334</a></td>
+<td>Hybrid structure of the Type 1 Pilus of Uropathogenic E.coli</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25413" title="link to entry">25413</a></td>
+<td>Lipid-Bilayer-Bound Conformation of an Integral Membrane beta-Barrel Protein by Multidimensional MAS NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25429" title="link to entry">25429</a></td>
+<td>42-Residue Beta Amyloid Fibril</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25518" title="link to entry">25518</a></td>
+<td>Atomic-resolution structure of alpha-synuclein fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25534" title="link to entry">25534</a></td>
+<td>RNA structure determination by solid-state NMR spectroscopy</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25535" title="link to entry">25535</a></td>
+<td>Further exploration of the conformational space of alpha-synuclein fibrils: Solid-state NMR assignment of a high-pH polymorph</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25558" title="link to entry">25558</a></td>
+<td>MAX1 peptide fibril</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25591" title="link to entry">25591</a></td>
+<td>Solid-state NMR structure of Vpu</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25642" title="link to entry">25642</a></td>
+<td>Atomic structure of the cytoskeletal bactofilin BacA revealed by solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=25788" title="link to entry">25788</a></td>
+<td>Two-fold symmetric structure of the 18-60 construct of S31N M2 from Influenza A in lipid bilayers</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26307" title="link to entry">26307</a></td>
+<td>Sensitivity-Enhanced Solid-state NMR Detection of Structural Differences and Unique Polymorphs in Pico- to Nanomolar Amounts of Brain-derived and Synthetic 42-residue Amyloid-b Fibrils.</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26548" title="link to entry">26548</a></td>
+<td>Solid-state NMR sequential assignments of the N-terminal domain of HpDnaB helicase</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26550" title="link to entry">26550</a></td>
+<td>Sequence-specific solid-state NMR assignments of the mouse ASC PYRIN domain in its filament form</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26604" title="link to entry">26604</a></td>
+<td>Protein resonance assignment at MAS frequencies approaching 100 kHz: a quantitative comparison of J-coupling and dipolar-coupling-based transfer methods</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26614" title="link to entry">26614</a></td>
+<td>Solid-state NMR assignment of MxiH (serotype 5a) T3SS needles</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26692" title="link to entry">26692</a></td>
+<td>Solid State NMR sequential assignment of Amyloid b(1-42) fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26706" title="link to entry">26706</a></td>
+<td>Backbone 13C, and 15 N Chemical Shift Assignments for fibrillar Islet Amyloid Polypeptide (IAPP)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26715" title="link to entry">26715</a></td>
+<td>beta-endorphin</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26805" title="link to entry">26805</a></td>
+<td>13C,15N chemical shifts of human Aquaporin-1</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26811" title="link to entry">26811</a></td>
+<td>13C Chemical shifts of free backbone carbonyls in bovine rhodopsin and Meta II</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26812" title="link to entry">26812</a></td>
+<td>13C Chemical Shifts rhodopsion</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26813" title="link to entry">26813</a></td>
+<td>13C Chemical Shifts - Metarhodopsin II</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26879" title="link to entry">26879</a></td>
+<td>Solid-state NMR 13C and 15N chemical shift assignments for AL-09 VL immunoglobulin light chain fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26883" title="link to entry">26883</a></td>
+<td>HIV-1 Capsid-SP1 in immature virus-like particles</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26890" title="link to entry">26890</a></td>
+<td>Resonance assignments of an alpha-synuclein fibril prepared in Tris buffer at moderate ionic strength</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26891" title="link to entry">26891</a></td>
+<td>Solution and solid-state NMR studies of soluble tissue factor</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26900" title="link to entry">26900</a></td>
+<td>Beta-endorphin salt-free amyloid fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26910" title="link to entry">26910</a></td>
+<td>13C and 15N chemical shift assignment of the Y21M mutation of fd filamentous phage</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26913" title="link to entry">26913</a></td>
+<td>Partially-Deuterated Samples of HET-s(218-289) Fibrils: Assignment and Deuterium Isotope Effect</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26924" title="link to entry">26924</a></td>
+<td>13C and 15N Chemical Shift Assignments for Mouse Y145Stop Prion Protein Amyloid Fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26925" title="link to entry">26925</a></td>
+<td>13C and 15N Chemical Shift Assignments for human Y145Stop Prion Protein Amyloid Fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=26926" title="link to entry">26926</a></td>
+<td>13C and 15N Chemical Shift Assignments for Syrian Hamster Y145Stop Prion Protein Amyloid Fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27039" title="link to entry">27039</a></td>
+<td>Chemical shifts of amorphous-looking aggregates of the P23T mutant of human gamma-D-crystallin formed at pH 7.</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27045" title="link to entry">27045</a></td>
+<td>Solid-state NMR chemical shifts of amyloid-like fibrils formed by huntingtin exon 1 with a 44-residue polyQ domain.</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27059" title="link to entry">27059</a></td>
+<td>15N, 13C assignments of Leptosphaeria Rhodopsin</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27065" title="link to entry">27065</a></td>
+<td>13C, 15N chemical shift assignments of MAK33 VL S20N amyloid fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27099" title="link to entry">27099</a></td>
+<td>Chemical shift assignment of gp17.1 by proton-detected solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27201" title="link to entry">27201</a></td>
+<td>Partial solid-state NMR assignment of bacteriophage tail protein pb6 (C-ter domain assigned)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27212" title="link to entry">27212</a></td>
+<td>Backbone 13C and 15N Chemical Shift Assignments for fibrillar Amyloid Beta (1-42)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27219" title="link to entry">27219</a></td>
+<td>ssNMR assignment of membrane embedded NaK channel (ion-free conformer)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27220" title="link to entry">27220</a></td>
+<td>ssNMR assignment of membrane embedded NaK channel (ion-favored conformer)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27232" title="link to entry">27232</a></td>
+<td>13C chemical shifts of solid-state NMR signals of subunit c-ring of TFoF1 ATP synthase</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27244" title="link to entry">27244</a></td>
+<td>Chemical shifts assignments of Escherichia coli aquaporin (AqpZ) by solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27312" title="link to entry">27312</a></td>
+<td>Partial solid-state NMR 1H, 13C, 15N resonance assignments of a perdeuterated back-exchanged seven-transmembrane helical protein Anabaena Sensory Rhodopsin</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27317" title="link to entry">27317</a></td>
+<td>Solid-state NMR assignment of HBV core protein</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27346" title="link to entry">27346</a></td>
+<td>Backbone 1H, 13C, and 15N Chemical Shift Assignments for H2A in mono-nucleosome</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27402" title="link to entry">27402</a></td>
+<td>chemical shifts for human Axin DIX domain</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27434" title="link to entry">27434</a></td>
+<td>1H chemical shift assignment of the Interfacial contact of phycocyanobilin chromophore in the plant phytochrome A in its Pfr state.</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27437" title="link to entry">27437</a></td>
+<td>1H, 13CA, 13CB and 15N chemical shift assignments of b2-microglobulin and a-chain of the neonatal Fc receptor</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27457" title="link to entry">27457</a></td>
+<td>13C, 15N solid-state NMR assignments of human histone H4 in nucleosome core particle</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27468" title="link to entry">27468</a></td>
+<td>Isoleucine-, leucine-, valine-, alanine-, methionine-, threonine-methyl and backbone chemical shift assignment of gp17.1</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27480" title="link to entry">27480</a></td>
+<td>Structural studies suggest aggregation as one of the modes of action for teixobactin</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27555" title="link to entry">27555</a></td>
+<td>Backbone assignment of Rip2Card</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27556" title="link to entry">27556</a></td>
+<td>NMR chemical shifts of horse heart cytochrome c bound to 1:1 (molar) TOCL/DOPC vesicles.</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27562" title="link to entry">27562</a></td>
+<td>GB1 crystalline protein U-13C,15N</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27570" title="link to entry">27570</a></td>
+<td>Chemical shift assignment of wild-type E.coli diacylglycerol kinase (DGK) by solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27572" title="link to entry">27572</a></td>
+<td>High-resolution NMR studies of antibiotics in cellular membranes</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27589" title="link to entry">27589</a></td>
+<td>Assignment of crystalline E.coli asparaginase II (ANSII) by solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27590" title="link to entry">27590</a></td>
+<td>Assignment of pegylated E.coli asparaginase II (ANSII) by solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27600" title="link to entry">27600</a></td>
+<td>Ghrelin Binding at its G Protein-Coupled Receptor</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27602" title="link to entry">27602</a></td>
+<td>13C-15N solid-state chemical shifts of three polymorphs of 6aJL2-R24G amyloid fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27635" title="link to entry">27635</a></td>
+<td>Microsecond Protein Dynamics from Combined Bloch-McConnell and Near-Rotary-Resonance R1rho Relaxation-Dispersion MAS NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27639" title="link to entry">27639</a></td>
+<td>C55 13C Chemical Shifts</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27676" title="link to entry">27676</a></td>
+<td>1H/13C/15N Assignments for the TM domains of the KcsA potassium channel</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27678" title="link to entry">27678</a></td>
+<td>1H/13C/15N Assignments for the TM domains of the KcsA potassium channel</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27679" title="link to entry">27679</a></td>
+<td>1H/13C/15N Assignments for the TM domains of the KcsA potassium channel</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27680" title="link to entry">27680</a></td>
+<td>1H/13C/15N Assignments for the TM domains of the KcsA potassium channel</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27746" title="link to entry">27746</a></td>
+<td>The conduction pathway of potassium channels is water-free under physiological conditions</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27776" title="link to entry">27776</a></td>
+<td>ssNMR assignment of membrane embedded Rhomboid protease GlpG</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27845" title="link to entry">27845</a></td>
+<td>Solid-state NMR backbone assignment of HBV core protein at 100 kHz</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27861" title="link to entry">27861</a></td>
+<td>Characterization of H/D Exchange in Type 1 Pili by Proton-Detected Solid-State NMR and Molecular Dynamics Simulations</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27879" title="link to entry">27879</a></td>
+<td>Resonance assignemnt of HpDnaB:ADP:AlF4-:DNA</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27959" title="link to entry">27959</a></td>
+<td>Including protons in solid-state NMR resonance assignment and secondary structure analysis: The example of RNA polymerase II subunits Rpo4/7</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=27980" title="link to entry">27980</a></td>
+<td>13C-chemical-shifts-for_SPA_amyloid-beta42_oligomer</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=28029" title="link to entry">28029</a></td>
+<td>The short fibrillation segment in FUS-LC domain</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=28035" title="link to entry">28035</a></td>
+<td>Solid-state NMR assignments of the human H3 in the Widom '601' nucleosome core particle</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=28122" title="link to entry">28122</a></td>
+<td>1H-13C-15N solid-state NMR assignment of a second conformation of HBV capsid</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=30035" title="link to entry">30035</a></td>
+<td>Dimerization interface of the noncrystalline HIV-1 capsid protein lattice from solid state NMR spectroscopy of tubular assemblies</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=30076" title="link to entry">30076</a></td>
+<td>Domain 4 Segment 6 of voltage-gated sodium channel Nav1.4</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=30088" title="link to entry">30088</a></td>
+<td>Solid-state MAS NMR structure of beta 1 domain of protein G (GB1)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=30094" title="link to entry">30094</a></td>
+<td>Solid-state MAS NMR structure of Acinetobacter phage 205 (AP205) coat protein in assembled capsid particles</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=30121" title="link to entry">30121</a></td>
+<td>Atomic Resolution Structure of Monomorphic AB42 Amyloid Fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=30227" title="link to entry">30227</a></td>
+<td>Zinc-Binding Structure of a Catalytic Amyloid from Solid-State NMR Spectroscopy</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=30273" title="link to entry">30273</a></td>
+<td>SSNMR Structure of the Human RIP1/RIP3 Necrosome</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=30304" title="link to entry">30304</a></td>
+<td>Molecular structure of FUS low sequence complexity domain protein fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=34012" title="link to entry">34012</a></td>
+<td>In situ atomic-resolution structure of the baseplate antenna complex in
+Chlorobaculum tepidum obtained combining solid-state NMR spectroscopy, cryo
+electron microscopy and polarization spectroscopy</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=34088" title="link to entry">34088</a></td>
+<td>Solid-state NMR Structure of outer membrane protein G in lipid bilayers</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=34206" title="link to entry">34206</a></td>
+<td>Backbone structure of bradykinin (BK) peptide bound to human Bradykinin 2 Receptor (B2R) determined by MAS SSNMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=34207" title="link to entry">34207</a></td>
+<td>Backbone structure of free bradykinin (BK) in DDM/CHS detergent micelle determined by MAS SSNMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=34208" title="link to entry">34208</a></td>
+<td>Backbone structure of Des-Arg10-Kallidin (DAKD) peptide in frozen DDM/CHS detergent micelle solution determined by DNP-enhanced MAS SSNMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=34209" title="link to entry">34209</a></td>
+<td>Backbone structure of Des-Arg10-Kallidin (DAKD) peptide bound to human Bradykinin 1 Receptor (B1R) determined by DNP-enhanced MAS SSNMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50026" title="link to entry">50026</a></td>
+<td>2H,15N,13C-labeled FUS-LC fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50089" title="link to entry">50089</a></td>
+<td>MBP in the solid state</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50110" title="link to entry">50110</a></td>
+<td>Sequential solid-state NMR assignment of Snu13p in Snu13p:Rsa1p:Hit1p complex</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50123" title="link to entry">50123</a></td>
+<td>Backbone 13C, and 15N Chemical Shift Assignments for KirBac1.1</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50135" title="link to entry">50135</a></td>
+<td>KirBac1.1_POPC</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50192" title="link to entry">50192</a></td>
+<td>Solid state NMR assignments for the patient FOR005 l-III immunoglobulin light chain variable domain amyloid fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50202" title="link to entry">50202</a></td>
+<td>Mode of action of teixobactins in cellular conditions</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50275" title="link to entry">50275</a></td>
+<td>Maturation of the Functional Mouse CRES Amyloid from Globular Form</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50312" title="link to entry">50312</a></td>
+<td>13C and 15N Chemical Shift Assignments for human A117V variant Y145Stop Prion Protein Amyloid Fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50313" title="link to entry">50313</a></td>
+<td>13C and 15N Chemical Shift Assignments for human M129V variant Y145Stop Prion Protein Amyloid Fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50380" title="link to entry">50380</a></td>
+<td>Hepatits C virus NS5A protein AHD1 domain</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50385" title="link to entry">50385</a></td>
+<td>Proton solid-state NMR assignment of pRN1</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50411" title="link to entry">50411</a></td>
+<td>EmrE S64V Mutant Bound to tetra(4-fluorophenyl)phosphonium at pH 5.8</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50423" title="link to entry">50423</a></td>
+<td>Chemical shifts assignments of synaptobrevin-2 in trans-SNARE complex by solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50428" title="link to entry">50428</a></td>
+<td>1H, 13C, 15N solid-state MAS NMR assignments of influenza virus hemagglutinin stalk long alpha helix (LAH) antigen</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50541" title="link to entry">50541</a></td>
+<td>13C and 15N Chemical Shift Assignments for the Tubular Assembly of the Rous Sarcoma Virus Capsid Protein</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50550" title="link to entry">50550</a></td>
+<td>13C and 15N Chemical Shift Assignments for the Spherical Assembly of the Rous Sarcoma Virus Capsid Protein</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50585" title="link to entry">50585</a></td>
+<td>Assignment of alpha-synuclein fibrils in the presence of anionic phospholipids</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50718" title="link to entry">50718</a></td>
+<td>Monomeric phospholamban in oriented bicelles</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50719" title="link to entry">50719</a></td>
+<td>Monomeric phosphorylated phospholamban in oriented bicelles</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50720" title="link to entry">50720</a></td>
+<td>Phospholamban bound to SERCA in oriented bicelles (calcium-free E2 state)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50721" title="link to entry">50721</a></td>
+<td>Phospholamban bound to SERCA in oriented bicelles (calcium-bound E1 state)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50722" title="link to entry">50722</a></td>
+<td>Phosphorylated phospholamban bound to SERCA in oriented bicelles (calcium-free E2 state)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50723" title="link to entry">50723</a></td>
+<td>Phosphorylated phospholamban bound to SERCA in oriented bicelles (calcium-bound E1 state)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50746" title="link to entry">50746</a></td>
+<td>1H, 13C and 15N assignment of the flexible C-terminus of alpha-synuclein bound to lipid vesicles</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50778" title="link to entry">50778</a></td>
+<td>Structure and topology of DWORF in bicelles by oriented solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50779" title="link to entry">50779</a></td>
+<td>Structure and topology of DWORF-P15A in bicelles by oriented solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50785" title="link to entry">50785</a></td>
+<td>In Vitro Fibrillized 0N3R Tau</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50852" title="link to entry">50852</a></td>
+<td>Sequential backbone assignment of mature a-Synuclein fibrils prepared from a-helical intermediate species</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50938" title="link to entry">50938</a></td>
+<td>Natural Teixobactin - Lipid II complex</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50950" title="link to entry">50950</a></td>
+<td>MoPrP(89-230)_G4</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50951" title="link to entry">50951</a></td>
+<td>MoPrP(89-230)_G2</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50952" title="link to entry">50952</a></td>
+<td>MoPrP(89-230)_U3G1</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50959" title="link to entry">50959</a></td>
+<td>Resonance assignment of Mg-bound CorA in DMPC</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=50974" title="link to entry">50974</a></td>
+<td>Average nucleotide chemical shifts of the free full-length RNA from MS2 bacteriophage</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51008" title="link to entry">51008</a></td>
+<td>A novel in vitro Ab40 polymorph, which was used to study the PET agent flutemetamol binding to Ab40.</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51009" title="link to entry">51009</a></td>
+<td>A novel in vitro Ab40 polymorph, which was used to study the PET agent flutemetamol binding to Ab40.</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51166" title="link to entry">51166</a></td>
+<td>Solid-state NMR assignments of tryptophan synthase of S. typhimurium</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51180" title="link to entry">51180</a></td>
+<td>1H/13C/15N Assignments for the transmembrane domains of the potassium channel KcsA WT</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51181" title="link to entry">51181</a></td>
+<td>1H/13C/15N Assignments for the transmembrane domains of Kv-like E71V mutant of the potassium channel KcsA</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51228" title="link to entry">51228</a></td>
+<td>Sidechain chemical shift assignments of fully protonated SH3 of chicken alpha-spectrin through 5D and 4D experiments</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51284" title="link to entry">51284</a></td>
+<td>Solid state NMR chemical shift assignment of the non-structural single-stranded DNA binding protein gVp from fd bacteriophage</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51285" title="link to entry">51285</a></td>
+<td>Solid-state NMR study reveals that seeding can lead to in-vivo like fibrils for AA amyloidosis</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51331" title="link to entry">51331</a></td>
+<td>Solid-state NMR 13C and 15N resonance assignment of Vibrio sp. SemiSWEET transporter in lipid bilayers</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51391" title="link to entry">51391</a></td>
+<td>NMR Evidence for the Conformational Change of Phage Protein gVp Upon Binding to ssDNA</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51402" title="link to entry">51402</a></td>
+<td>Bacillus subtilis SepF protein assembly (wild type)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51483" title="link to entry">51483</a></td>
+<td>Solid-state NMR assignment of fibrils formed by tau(297-391)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51506" title="link to entry">51506</a></td>
+<td>Solid-state NMR 1H-13C-15N assignment of African cichlid nackednavirus capsid protein</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51584" title="link to entry">51584</a></td>
+<td>Backbone 13C and 15N Chemical Shift Assignments for fibrillar Amyloid Beta (1-42) at pH 7.0</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51610" title="link to entry">51610</a></td>
+<td>EcFTSZ_TEDOR_DNP</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51630" title="link to entry">51630</a></td>
+<td>Clovibactin-Lipid II bound state</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51639" title="link to entry">51639</a></td>
+<td>Solid State MAS NMR chemical shift assignment of KR2 in DMPC/DMPA proteoliposomes</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51678" title="link to entry">51678</a></td>
+<td>13C and 15N Resonance Assignments of Alpha Synuclein Fibrils Amplified from Dementia with Lewy Bodies Tissue</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51704" title="link to entry">51704</a></td>
+<td>Histone H3 Core Domain in Chromatin with Different DNA Linker Lengths Studied by 1H-Detected Solid-State NMR Spectrsocopy</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51705" title="link to entry">51705</a></td>
+<td>Histone H3 Core Domain in Chromatin with Different DNA Linker Lengths Studied by 1H-Detected Solid-State NMR Spectrsocopy</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51706" title="link to entry">51706</a></td>
+<td>Histone H3 Core Domain in Chromatin with Different DNA Linker Lengths Studied by 1H-Detected Solid-State NMR Spectrsocopy</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51779" title="link to entry">51779</a></td>
+<td>Bacillus subtilis SepF protein assembly (wild type)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51785" title="link to entry">51785</a></td>
+<td>Solid-state NMR assignment data of TasA filaments</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51788" title="link to entry">51788</a></td>
+<td>Solid-State NMR Assignment of Tsa1 Wild Type, a decameric Peroxiredoxin, in its native oxidized state</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51820" title="link to entry">51820</a></td>
+<td>13C,15N solid-state NMR assignments of H2B globular domain in NCP</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51825" title="link to entry">51825</a></td>
+<td>Solid-State NMR Assignment of Tsa1 Wild Type, a decameric Peroxiredoxin, in its reduced state</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51865" title="link to entry">51865</a></td>
+<td>Assignments for fibrillar Human Islet Amyloid Polypeptide (hIAPP)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51866" title="link to entry">51866</a></td>
+<td>Assignments for fibrillar Cysteine to Serine Double Mutant of Human Islet Amyloid Polypeptide (hIAPP_C2S/C7S)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51867" title="link to entry">51867</a></td>
+<td>human Insulin Fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51880" title="link to entry">51880</a></td>
+<td>Assignments for plectasin in complex with Lipid II in membranes</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51928" title="link to entry">51928</a></td>
+<td>Solid-state NMR data for 40-residue Arctic (E22G) Beta-Amyloid Fibril</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=51993" title="link to entry">51993</a></td>
+<td>Backbone 13C and 15N Chemical Shift Assignments for Fibrils of Pyroglutamate Amyloid beta (3-42) at pH 2</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52006" title="link to entry">52006</a></td>
+<td>Assignment of Lipidic amyloid-b (1-40) fibril</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52012" title="link to entry">52012</a></td>
+<td>Chemical shifts of Methanosarcina acetivorans mechanosensitive channel of large conductance(Ma-MscL) in native cellular membranes by solid-state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52014" title="link to entry">52014</a></td>
+<td>Solid-state NMR assignment of side-chain protons of HBV core protein at fast MAS and high field</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52049" title="link to entry">52049</a></td>
+<td>An analysis of nucleotide-amyloid interactions reveals selective binding to codon-sized RNA</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52070" title="link to entry">52070</a></td>
+<td>dGAE(297-391) tau CTE-like filaments</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52090" title="link to entry">52090</a></td>
+<td>Chemical shifts of Ost4 protein assigned by solid state NMR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52099" title="link to entry">52099</a></td>
+<td>backbone 13C and 15N chemical shift assignment of the conductance domain of Influenza A M2 protein in DPhPC proteoliposomes</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52104" title="link to entry">52104</a></td>
+<td>Solid State NMR chemical shift of Ost4V23D</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52197" title="link to entry">52197</a></td>
+<td>Partial solid-state NMR 13C, 15N resonance assignments of the two conformations of Bj-SemiSWEET in native celular membranes</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52223" title="link to entry">52223</a></td>
+<td>Transduction of motion through an intermolecular dynamic network at the protein-protein interface</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52235" title="link to entry">52235</a></td>
+<td>DNP ssNMR data of E.coli DHFR</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52252" title="link to entry">52252</a></td>
+<td>15N13C Chemical Shift Assignment of the NL63 ETM (7-37)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52337" title="link to entry">52337</a></td>
+<td>13C and 15N Chemical Shift Assignment for Abeta 40 amyloid fibrils polymorph 1 (P1)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52338" title="link to entry">52338</a></td>
+<td>13C and 15N Chemical Shift Assignment for Abeta 40 amyloid fibrils polymorph 2 (P2)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52340" title="link to entry">52340</a></td>
+<td>4E-tau(297-407) in vitro AD C-shaped</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52380" title="link to entry">52380</a></td>
+<td>Solid-state NMR backbone chemical shift assignments of a-synuclein amyloid fibrils at fast MAS regime</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52400" title="link to entry">52400</a></td>
+<td>Amide and a-hydrogens extension to the Solid-state NMR assignment of P. horikoshii TET2</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52468" title="link to entry">52468</a></td>
+<td>SY-tagged Tm1 I/C C-terminal Domain 13C 15N Fibril Assignments</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52512" title="link to entry">52512</a></td>
+<td>1H-MAS NMR assignment of the assembly domain of the hepatitis delta antigen</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52584" title="link to entry">52584</a></td>
+<td>Assignments of 2H13C15N labelled full length GlpG based on 1H detected solid-state NMR experiments</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52628" title="link to entry">52628</a></td>
+<td>p14ARF forms meso-scale assemblies upon phase separation with NPM1</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52654" title="link to entry">52654</a></td>
+<td>Solid-state NMR assignment of membrane-embedded SARS-CoV-2 ORF6 accessory protein</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52793" title="link to entry">52793</a></td>
+<td>Low pH backbone and sidechain assignments of S64V EmrE in lipid bilayers</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52889" title="link to entry">52889</a></td>
+<td>NCA, NCO, DARR_20ms of H4 in a tetrasome</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=52969" title="link to entry">52969</a></td>
+<td>Cofactor-Free 4E3Q 0N4R Tau Fibrils</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=53129" title="link to entry">53129</a></td>
+<td>The clinical drug candidate anle138b binds predominantly to a central cavity in lipidic Ab40 fibrils and modulates fibril formation.</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=53314" title="link to entry">53314</a></td>
+<td>MthK pore domain 1H detected</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=53315" title="link to entry">53315</a></td>
+<td>MthK pore domain 13C detection</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=53330" title="link to entry">53330</a></td>
+<td>Chemical shift assignment of backbone 1H, 13C and 15N and tyrosine meta 1H, 13C for GB1-QDD crystals (MAS NMR)</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=53484" title="link to entry">53484</a></td>
+<td>Cysteine-free N-domain of FAT10</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=53485" title="link to entry">53485</a></td>
+<td>Cysteine-free N-domain of FAT10 bound to NUB1L</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=53519" title="link to entry">53519</a></td>
+<td>Solid-state NMR assignment data of CalY2 filaments</td></tr>
+<tr><td><a href="/data_library/summary/?bmrbId=53571" title="link to entry">53571</a></td>
+<td>Aquifex aeolicus lumazine synthase-derived nucleocapsid variant NC-4</td></tr>
+</table>
+<hr size="1">321 entries<br>
+
+</div>
+
+    <!-- End main content -->
+    </div>
+
+    <!-- End main content + navbar section -->
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div id="footer-wrapper">
+            <div class="content-container">
+                <div style="float: left">
+                    <span>Supported by the National Institute of General Medical Sciences of the <br>National Institutes of Health under Award Number R24GM150793<br></span>
+                    <span>Contact <a href="mailto:help@bmrb.io">help@bmrb.io</a> if you have any questions about this site</span><br>
+                    <span>Copyright &copy; UConn Health</span><br>
+                    <span style="font-size: 0.9em;">The legacy version of this database was previously developed and maintained by the University of Wisconsin</span><br>
+                    <span>BMRB <a href="https://www.wwpdb.org/about/privacy">Privacy Policy</a></span><br>
+
+<!--                    <span id='modified_section'>Last Modified: &lt;!&ndash;#echo var="LAST_MODIFIED" &ndash;&gt;</span>-->
+<!--                    <script>-->
+<!--                        // Hide the last modified if it hasn't rendered (SSI not supported or unknown variable)-->
+<!--                        var _ms = document.getElementById('modified_section').innerHTML;-->
+<!--                        if (_ms.indexOf('LAST_MODIFIED') >= 0 || _ms.indexOf('(none)') >= 0) {-->
+<!--                            document.getElementById('modified_section').style.display = 'none';-->
+<!--                        }-->
+<!--                    </script>-->
+                </div>
+
+                <div style="float: right">
+                    <div>
+                    <span>Funded by:</span><br>
+                    <span><a href="https://www.nigms.nih.gov/" target="_blank">NIGMS</a></span>
+                    </div>
+                    <div>
+                        <span>Hosted by:</span><br>
+                        <span><a href="https://health.uconn.edu/" target="_blank">UCHC</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- End of whole-body wrapper div -->
+</div>
+
+<!-- Load any scripts we will need -->
+<script async type="text/javascript" src="/includes/javascript/bmrb_scripts/bmrb_scripts_v1.0.js"></script>
+
+</body>
+</html>
+

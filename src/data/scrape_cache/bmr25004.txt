@@ -1,0 +1,932 @@
+data_25004
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             25004
+   _Entry.Title                         
+;
+Chemical shift assignments for the parallel in-register D23N Iowa Mutant Beta Amyloid Fibrils
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2014-06-07
+   _Entry.Accession_date                 2014-06-07
+   _Entry.Last_release_date              2015-04-20
+   _Entry.Original_release_date          2015-04-20
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.77
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Nikolaos Sgourakis . . . 25004 
+      2 Wei      Qiang     . . . 25004 
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1 . 'Laboratory of Chemical Physics, National Institutes of Health' . 25004 
+      2 . 'Department of Chemistry, Binghamton University'                . 25004 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 25004 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts' 59 25004 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2015-04-20 . original BMRB . 25004 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_citation_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citation_1
+   _Citation.Entry_ID                     25004
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    25543257
+   _Citation.Full_citation                .
+   _Citation.Title                       
+;
+Modeling an in-register, parallel "iowa" a beta fibril structure using solid-state NMR data from labeled samples with rosetta
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               Structure
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               23
+   _Citation.Journal_issue                1
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   216
+   _Citation.Page_last                    227
+   _Citation.Year                         2015
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Nikolaos Sgourakis . . . 25004 1 
+      2 Wai-Ming Yau       . . . 25004 1 
+      3 Wei      Qiang     . . . 25004 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          25004
+   _Assembly.ID                                1
+   _Assembly.Name                              D23N_parallel
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 D23N_Abeta 1 $D23N_Abeta A . yes misfolded no no . . . 25004 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_D23N_Abeta
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      D23N_Abeta
+   _Entity.Entry_ID                          25004
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              D23N_Abeta
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+QKLVFFAENVGSNKGAIIGL
+MVGGVV
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                26
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-25
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+      1 no BMRB 17774 .  entity                                                                                       . . . . . 100.00 26 100.00 100.00 7.02e-07 . . . . 25004 1 
+      2 no BMRB 18175 .  entity                                                                                       . . . . . 100.00 26 100.00 100.00 7.02e-07 . . . . 25004 1 
+      3 no PDB  2LNQ   . "40-residue D23n Beta Amyloid Fibril"                                                         . . . . . 100.00 40 100.00 100.00 3.31e-07 . . . . 25004 1 
+      4 no PDB  2MPZ   . 'Atomic Model Of The Abeta D23n "iowa" Mutant Using Solid-state Nmr, Em And Rosetta Modeling' . . . . . 100.00 26 100.00 100.00 7.02e-07 . . . . 25004 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 15 GLN . 25004 1 
+       2 16 LYS . 25004 1 
+       3 17 LEU . 25004 1 
+       4 18 VAL . 25004 1 
+       5 19 PHE . 25004 1 
+       6 20 PHE . 25004 1 
+       7 21 ALA . 25004 1 
+       8 22 GLU . 25004 1 
+       9 23 ASN . 25004 1 
+      10 24 VAL . 25004 1 
+      11 25 GLY . 25004 1 
+      12 26 SER . 25004 1 
+      13 27 ASN . 25004 1 
+      14 28 LYS . 25004 1 
+      15 29 GLY . 25004 1 
+      16 30 ALA . 25004 1 
+      17 31 ILE . 25004 1 
+      18 32 ILE . 25004 1 
+      19 33 GLY . 25004 1 
+      20 34 LEU . 25004 1 
+      21 35 MET . 25004 1 
+      22 36 VAL . 25004 1 
+      23 37 GLY . 25004 1 
+      24 38 GLY . 25004 1 
+      25 39 VAL . 25004 1 
+      26 40 VAL . 25004 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . GLN  1  1 25004 1 
+      . LYS  2  2 25004 1 
+      . LEU  3  3 25004 1 
+      . VAL  4  4 25004 1 
+      . PHE  5  5 25004 1 
+      . PHE  6  6 25004 1 
+      . ALA  7  7 25004 1 
+      . GLU  8  8 25004 1 
+      . ASN  9  9 25004 1 
+      . VAL 10 10 25004 1 
+      . GLY 11 11 25004 1 
+      . SER 12 12 25004 1 
+      . ASN 13 13 25004 1 
+      . LYS 14 14 25004 1 
+      . GLY 15 15 25004 1 
+      . ALA 16 16 25004 1 
+      . ILE 17 17 25004 1 
+      . ILE 18 18 25004 1 
+      . GLY 19 19 25004 1 
+      . LEU 20 20 25004 1 
+      . MET 21 21 25004 1 
+      . VAL 22 22 25004 1 
+      . GLY 23 23 25004 1 
+      . GLY 24 24 25004 1 
+      . VAL 25 25 25004 1 
+      . VAL 26 26 25004 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       25004
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $D23N_Abeta . 9606 organism . 'Homo sapiens' Human . . Eukaryota Metazoa Homo sapiens . . . . . . . . . . . . . 25004 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       25004
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $D23N_Abeta . 'chemical synthesis' . . . . . . . . . . . . . . . . 25004 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_D23N_parallel
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     D23N_parallel
+   _Sample.Entry_ID                         25004
+   _Sample.ID                               1
+   _Sample.Type                            'gel solid'
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   solid
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 D23N_Abeta '[U-100% 13C; U-100% 15N]' . . 1 $D23N_Abeta . . . 25 100 uM . . . . 25004 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       25004
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'  10   . mM  25004 1 
+       pH                7.4 . pH  25004 1 
+       pressure           .  . atm 25004 1 
+       temperature     298   . K   25004 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_NA
+   _Software.Sf_category    software
+   _Software.Sf_framecode   NA
+   _Software.Entry_ID       25004
+   _Software.ID             1
+   _Software.Name           NA
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      NA . . 25004 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      NA 25004 1 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         25004
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            INOVA
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   400
+
+save_
+
+
+save_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_2
+   _NMR_spectrometer.Entry_ID         25004
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+
+save_
+
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       25004
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 spectrometer_1 Varian INOVA  . 400 . . . 25004 1 
+      2 spectrometer_2 Bruker Avance . 600 . . . 25004 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       25004
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '2D 13C-13C spin diffusion' no . . . . . . . . . . 1 $D23N_parallel solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 25004 1 
+      2 '1D 13C PITHIRDs'           no . . . . . . . . . . 1 $D23N_parallel solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 25004 1 
+      3 '1D 13C-15N REDOR'          no . . . . . . . . . . 1 $D23N_parallel solid . . 1 $sample_conditions_1 . . . . . . . . . . . . . . . . . . . . . 25004 1 
+
+   stop_
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       25004
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C 13 Alanine 'carbonyl carbon' . . . . ppm 177.95 external direct 1 . . . . . . . . . 25004 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      25004
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 '2D 13C-13C spin diffusion' . . . 25004 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+       1 . 1 1  2  2 LYS C  C 13 172.9 . . . . . . . 16 K C  . 25004 1 
+       2 . 1 1  2  2 LYS CA C 13  52.2 . . . . . . . 16 K CA . 25004 1 
+       3 . 1 1  2  2 LYS CB C 13  34.5 . . . . . . . 16 K CB . 25004 1 
+       4 . 1 1  3  3 LEU C  C 13 175.1 . . . . . . . 17 L C  . 25004 1 
+       5 . 1 1  3  3 LEU CA C 13  52.0 . . . . . . . 17 L CA . 25004 1 
+       6 . 1 1  3  3 LEU CB C 13  43.1 . . . . . . . 17 L CB . 25004 1 
+       7 . 1 1  5  5 PHE C  C 13 173.8 . . . . . . . 19 F C  . 25004 1 
+       8 . 1 1  5  5 PHE CA C 13  52.9 . . . . . . . 19 F CA . 25004 1 
+       9 . 1 1  5  5 PHE CB C 13  41.9 . . . . . . . 19 F CB . 25004 1 
+      10 . 1 1  6  6 PHE C  C 13 173.6 . . . . . . . 20 F C  . 25004 1 
+      11 . 1 1  6  6 PHE CA C 13  52.8 . . . . . . . 20 F CA . 25004 1 
+      12 . 1 1  6  6 PHE CB C 13  42.7 . . . . . . . 20 F CB . 25004 1 
+      13 . 1 1  7  7 ALA C  C 13 175.0 . . . . . . . 21 A C  . 25004 1 
+      14 . 1 1  7  7 ALA CA C 13  48.0 . . . . . . . 21 A CA . 25004 1 
+      15 . 1 1  7  7 ALA CB C 13  21.3 . . . . . . . 21 A CB . 25004 1 
+      16 . 1 1  8  8 GLU C  C 13 174.5 . . . . . . . 22 E C  . 25004 1 
+      17 . 1 1  8  8 GLU CA C 13  57.6 . . . . . . . 22 E CA . 25004 1 
+      18 . 1 1  8  8 GLU CB C 13  29.1 . . . . . . . 22 E CB . 25004 1 
+      19 . 1 1  9  9 ASN C  C 13 173.8 . . . . . . . 23 N C  . 25004 1 
+      20 . 1 1  9  9 ASN CA C 13  51.0 . . . . . . . 23 N CA . 25004 1 
+      21 . 1 1  9  9 ASN CB C 13  41.4 . . . . . . . 23 N CB . 25004 1 
+      22 . 1 1 10 10 VAL C  C 13 174.8 . . . . . . . 24 V C  . 25004 1 
+      23 . 1 1 10 10 VAL CA C 13  60.8 . . . . . . . 24 V CA . 25004 1 
+      24 . 1 1 10 10 VAL CB C 13  33.4 . . . . . . . 24 V CB . 25004 1 
+      25 . 1 1 14 14 LYS C  C 13 174.8 . . . . . . . 28 K C  . 25004 1 
+      26 . 1 1 14 14 LYS CA C 13  55.9 . . . . . . . 28 K CA . 25004 1 
+      27 . 1 1 14 14 LYS CB C 13  29.2 . . . . . . . 28 K CB . 25004 1 
+      28 . 1 1 15 15 GLY C  C 13 171.2 . . . . . . . 29 G C  . 25004 1 
+      29 . 1 1 15 15 GLY CA C 13  43.8 . . . . . . . 29 G CA . 25004 1 
+      30 . 1 1 16 16 ALA C  C 13 174.7 . . . . . . . 30 A C  . 25004 1 
+      31 . 1 1 16 16 ALA CA C 13  47.3 . . . . . . . 30 A CA . 25004 1 
+      32 . 1 1 16 16 ALA CB C 13  19.2 . . . . . . . 30 A CB . 25004 1 
+      33 . 1 1 17 17 ILE C  C 13 174.0 . . . . . . . 31 I C  . 25004 1 
+      34 . 1 1 17 17 ILE CA C 13  57.2 . . . . . . . 31 I CA . 25004 1 
+      35 . 1 1 17 17 ILE CB C 13  38.8 . . . . . . . 31 I CB . 25004 1 
+      36 . 1 1 18 18 ILE C  C 13 173.9 . . . . . . . 32 I C  . 25004 1 
+      37 . 1 1 18 18 ILE CA C 13  56.1 . . . . . . . 32 I CA . 25004 1 
+      38 . 1 1 18 18 ILE CB C 13  40.5 . . . . . . . 32 I CB . 25004 1 
+      39 . 1 1 19 19 GLY C  C 13 170.9 . . . . . . . 33 G C  . 25004 1 
+      40 . 1 1 19 19 GLY CA C 13  42.4 . . . . . . . 33 G CA . 25004 1 
+      41 . 1 1 20 20 LEU C  C 13 174.8 . . . . . . . 34 L C  . 25004 1 
+      42 . 1 1 20 20 LEU CA C 13  51.6 . . . . . . . 34 L CA . 25004 1 
+      43 . 1 1 20 20 LEU CB C 13  43.6 . . . . . . . 34 L CB . 25004 1 
+      44 . 1 1 21 21 MET C  C 13 172.7 . . . . . . . 35 M C  . 25004 1 
+      45 . 1 1 21 21 MET CA C 13  51.3 . . . . . . . 35 M CA . 25004 1 
+      46 . 1 1 21 21 MET CB C 13  34.0 . . . . . . . 35 M CB . 25004 1 
+      47 . 1 1 22 22 VAL C  C 13 174.4 . . . . . . . 36 V C  . 25004 1 
+      48 . 1 1 22 22 VAL CA C 13  58.3 . . . . . . . 36 V CA . 25004 1 
+      49 . 1 1 22 22 VAL CB C 13  33.0 . . . . . . . 36 V CB . 25004 1 
+      50 . 1 1 23 23 GLY C  C 13 171.4 . . . . . . . 37 G C  . 25004 1 
+      51 . 1 1 23 23 GLY CA C 13  43.7 . . . . . . . 37 G CA . 25004 1 
+      52 . 1 1 24 24 GLY C  C 13 169.7 . . . . . . . 38 G C  . 25004 1 
+      53 . 1 1 24 24 GLY CA C 13  42.3 . . . . . . . 38 G CA . 25004 1 
+      54 . 1 1 25 25 VAL C  C 13 172.9 . . . . . . . 39 V C  . 25004 1 
+      55 . 1 1 25 25 VAL CA C 13  58.2 . . . . . . . 39 V CA . 25004 1 
+      56 . 1 1 25 25 VAL CB C 13  32.4 . . . . . . . 39 V CB . 25004 1 
+      57 . 1 1 26 26 VAL C  C 13 169.0 . . . . . . . 40 V C  . 25004 1 
+      58 . 1 1 26 26 VAL CA C 13  60.0 . . . . . . . 40 V CA . 25004 1 
+      59 . 1 1 26 26 VAL CB C 13  33.9 . . . . . . . 40 V CB . 25004 1 
+
+   stop_
+
+save_
+

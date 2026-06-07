@@ -1,0 +1,1588 @@
+data_52654
+
+
+#######################
+#  Entry information  #
+#######################
+save_entry_information_1
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information_1
+   _Entry.ID                             52654
+   _Entry.Title
+;
+Solid-state NMR assignment of membrane-embedded SARS-CoV-2 ORF6 accessory protein
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2024-10-24
+   _Entry.Accession_date                 2024-10-24
+   _Entry.Last_release_date              2024-10-24
+   _Entry.Original_release_date          2024-10-24
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.14.0
+   _Entry.NMR_STAR_dict_location         .
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solid-state
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          .
+   _Entry.Generated_software_label       .
+   _Entry.Generated_date                 .
+   _Entry.DOI                            .
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        'H,C,N backbone and sidechain assignment of SARS-CoV-2 ORF6 accessory protein on ERGIC-PI4P membranes at 100 kHz MAS'
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Marti      'Ninot Pedrosa'   .   .    .   0000-0003-2851-9990   52654
+      2   Gyula      Palfy             .   .    .   0000-0003-1590-5331   52654
+      3   Anja       Bockmann          .   .    .   0000-0001-8149-7941   52654
+      4   Beat       Meier             .   H.   .   0000-0002-9107-4464   52654
+      5   Lauriane   Lecoq             .   .    .   0000-0002-5995-3733   52654
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1   .   'Molecular Microbiology and Structural Biochemistry - UMR5086'   .   52654
+      2   .   'Department of Chemistry and Applied Biosciences, ETH Zurich'    .   52654
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   52654
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   93    52654
+      '15N chemical shifts'   32    52654
+      '1H chemical shifts'    183   52654
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1   .   .   2025-05-21   .   original   BMRB   .   52654
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+save_citations_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citations_1
+   _Citation.Entry_ID                     52654
+   _Citation.ID                           1
+   _Citation.Name                         .
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.PubMed_ID                    .
+   _Citation.DOI                          10.1021/jacs.4c17030
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+NMR structure of SARS-CoV-2 ORF6 reveals an N-terminal membrane anchor
+;
+   _Citation.Status                       'in preparation'
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'J. Am. Chem. Soc.'
+   _Citation.Journal_name_full            'Journal of the American Chemical Society'
+   _Citation.Journal_volume               .
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   .
+   _Citation.Page_last                    .
+   _Citation.Year                         .
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1    Marti         'Ninot Pedrosa'   .   .    .   .   52654   1
+      2    Gyula         Palfy             .   .    .   .   52654   1
+      3    Hafez         Razmazma          .   .    .   .   52654   1
+      4    Jackson       Crowley           .   .    .   .   52654   1
+      5    Marie-Laure   Fogeron           .   .    .   .   52654   1
+      6    Beate         Bersch            .   .    .   .   52654   1
+      7    Alexander     Barnes            .   .    .   .   52654   1
+      8    Bernhard      Brutscher         .   .    .   .   52654   1
+      9    Luca          Monticelli        .   .    .   .   52654   1
+      10   Anja          Bockmann          .   .    .   .   52654   1
+      11   Beat          Meier             .   H.   .   .   52654   1
+      12   Lauriane      Lecoq             .   .    .   .   52654   1
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+save_assembly_1
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly_1
+   _Assembly.Entry_ID                          52654
+   _Assembly.ID                                1
+   _Assembly.Name                              'SARS-CoV-2 ORF6'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   0
+   _Assembly.Metal_ions                        0
+   _Assembly.Non_standard_bonds                no
+   _Assembly.Ambiguous_conformational_states   yes
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    no
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    7330
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           'Protein inserted in liposomes containing POPC, PI4P, POPE,POPS and Cholesterol at LPR 10 and 6 (w/w)'
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   ORF6   1   $entity_1   .   .   yes   native   no   no   .   .   .   52654   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+save_entity_1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_1
+   _Entity.Entry_ID                          52654
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              'SARS-CoV-2 ORF6'
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+MFHLVDFQVTIAEILLIIMR
+TFKVSIWNLDYIINLIIKNL
+SKSLTENKYSQLDEEQPMEI
+DG
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        'Additional glycine at the end of the original sequence'
+   _Entity.Ambiguous_conformational_states   yes
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                62
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    7330
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+      1   yes   UNP   P0DTC6   .   'ORF6 protein'   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+   stop_
+
+   loop_
+      _Entity_biological_function.Biological_function
+      _Entity_biological_function.Entry_ID
+      _Entity_biological_function.Entity_ID
+
+      'Interferon inhibitor'   52654   1
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1    .   MET   .   52654   1
+      2    .   PHE   .   52654   1
+      3    .   HIS   .   52654   1
+      4    .   LEU   .   52654   1
+      5    .   VAL   .   52654   1
+      6    .   ASP   .   52654   1
+      7    .   PHE   .   52654   1
+      8    .   GLN   .   52654   1
+      9    .   VAL   .   52654   1
+      10   .   THR   .   52654   1
+      11   .   ILE   .   52654   1
+      12   .   ALA   .   52654   1
+      13   .   GLU   .   52654   1
+      14   .   ILE   .   52654   1
+      15   .   LEU   .   52654   1
+      16   .   LEU   .   52654   1
+      17   .   ILE   .   52654   1
+      18   .   ILE   .   52654   1
+      19   .   MET   .   52654   1
+      20   .   ARG   .   52654   1
+      21   .   THR   .   52654   1
+      22   .   PHE   .   52654   1
+      23   .   LYS   .   52654   1
+      24   .   VAL   .   52654   1
+      25   .   SER   .   52654   1
+      26   .   ILE   .   52654   1
+      27   .   TRP   .   52654   1
+      28   .   ASN   .   52654   1
+      29   .   LEU   .   52654   1
+      30   .   ASP   .   52654   1
+      31   .   TYR   .   52654   1
+      32   .   ILE   .   52654   1
+      33   .   ILE   .   52654   1
+      34   .   ASN   .   52654   1
+      35   .   LEU   .   52654   1
+      36   .   ILE   .   52654   1
+      37   .   ILE   .   52654   1
+      38   .   LYS   .   52654   1
+      39   .   ASN   .   52654   1
+      40   .   LEU   .   52654   1
+      41   .   SER   .   52654   1
+      42   .   LYS   .   52654   1
+      43   .   SER   .   52654   1
+      44   .   LEU   .   52654   1
+      45   .   THR   .   52654   1
+      46   .   GLU   .   52654   1
+      47   .   ASN   .   52654   1
+      48   .   LYS   .   52654   1
+      49   .   TYR   .   52654   1
+      50   .   SER   .   52654   1
+      51   .   GLN   .   52654   1
+      52   .   LEU   .   52654   1
+      53   .   ASP   .   52654   1
+      54   .   GLU   .   52654   1
+      55   .   GLU   .   52654   1
+      56   .   GLN   .   52654   1
+      57   .   PRO   .   52654   1
+      58   .   MET   .   52654   1
+      59   .   GLU   .   52654   1
+      60   .   ILE   .   52654   1
+      61   .   ASP   .   52654   1
+      62   .   GLY   .   52654   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   MET   1    1    52654   1
+      .   PHE   2    2    52654   1
+      .   HIS   3    3    52654   1
+      .   LEU   4    4    52654   1
+      .   VAL   5    5    52654   1
+      .   ASP   6    6    52654   1
+      .   PHE   7    7    52654   1
+      .   GLN   8    8    52654   1
+      .   VAL   9    9    52654   1
+      .   THR   10   10   52654   1
+      .   ILE   11   11   52654   1
+      .   ALA   12   12   52654   1
+      .   GLU   13   13   52654   1
+      .   ILE   14   14   52654   1
+      .   LEU   15   15   52654   1
+      .   LEU   16   16   52654   1
+      .   ILE   17   17   52654   1
+      .   ILE   18   18   52654   1
+      .   MET   19   19   52654   1
+      .   ARG   20   20   52654   1
+      .   THR   21   21   52654   1
+      .   PHE   22   22   52654   1
+      .   LYS   23   23   52654   1
+      .   VAL   24   24   52654   1
+      .   SER   25   25   52654   1
+      .   ILE   26   26   52654   1
+      .   TRP   27   27   52654   1
+      .   ASN   28   28   52654   1
+      .   LEU   29   29   52654   1
+      .   ASP   30   30   52654   1
+      .   TYR   31   31   52654   1
+      .   ILE   32   32   52654   1
+      .   ILE   33   33   52654   1
+      .   ASN   34   34   52654   1
+      .   LEU   35   35   52654   1
+      .   ILE   36   36   52654   1
+      .   ILE   37   37   52654   1
+      .   LYS   38   38   52654   1
+      .   ASN   39   39   52654   1
+      .   LEU   40   40   52654   1
+      .   SER   41   41   52654   1
+      .   LYS   42   42   52654   1
+      .   SER   43   43   52654   1
+      .   LEU   44   44   52654   1
+      .   THR   45   45   52654   1
+      .   GLU   46   46   52654   1
+      .   ASN   47   47   52654   1
+      .   LYS   48   48   52654   1
+      .   TYR   49   49   52654   1
+      .   SER   50   50   52654   1
+      .   GLN   51   51   52654   1
+      .   LEU   52   52   52654   1
+      .   ASP   53   53   52654   1
+      .   GLU   54   54   52654   1
+      .   GLU   55   55   52654   1
+      .   GLN   56   56   52654   1
+      .   PRO   57   57   52654   1
+      .   MET   58   58   52654   1
+      .   GLU   59   59   52654   1
+      .   ILE   60   60   52654   1
+      .   ASP   61   61   52654   1
+      .   GLY   62   62   52654   1
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+save_natural_source_1
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source_1
+   _Entity_natural_src_list.Entry_ID       52654
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $entity_1   .   2697049   organism   .   'SARS coronavirus 2'   SARS-CoV-2   .   .   Viruses   .   Betacoronavirus   HCoV-SARS   SARS-CoV-2   .   .   .   .   .   .   .   .   .   .   ORF6   .   52654   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+save_experimental_source_1
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source_1
+   _Entity_experimental_src_list.Entry_ID       52654
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $entity_1   .   'cell free synthesis'   'wheat germ - cell free'   .   .   .   .   .   .   .   .   plasmid   .   .   pEU-E01-MCS   .   .   .   52654   1
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         52654
+   _Sample.ID                               1
+   _Sample.Name                             ORF6-ARKTV
+   _Sample.Type                             liposome
+   _Sample.Sub_type                         .
+   _Sample.Details                          'Membrane reconstituted ORF6'
+   _Sample.Aggregate_sample_number          1
+   _Sample.Solvent_system                   '100% H2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   ORF6                          '[U-13C; U-15N]-Ala,Arg,Lys,Thr,Val'   .   .   1   $entity_1   .   .   1       .   .   mg        .   .   .   .   52654   1
+      2   DSS                           'natural abundance'                    .   .   .   .           .   .   0.035   .   .   '% v/v'   .   .   .   .   52654   1
+      3   HEPES                         'natural abundance'                    .   .   .   .           .   .   50      .   .   mM        .   .   .   .   52654   1
+      4   'ERGIC-PI4P lipid membrane'   'natural abundance'                    .   .   .   .           .   .   1       .   .   mg        .   .   .   .   52654   1
+      5   'sodium chloride'             'natural abundance'                    .   .   .   .           .   .   100     .   .   mM        .   .   .   .   52654   1
+      6   TCEP                          'natural abundance'                    .   .   .   .           .   .   1       .   .   mM        .   .   .   .   52654   1
+   stop_
+save_
+
+save_sample_2
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_2
+   _Sample.Entry_ID                         52654
+   _Sample.ID                               2
+   _Sample.Name                             ORF6-FLATD
+   _Sample.Type                             liposome
+   _Sample.Sub_type                         .
+   _Sample.Details                          'Membrane reconstituted ORF6'
+   _Sample.Aggregate_sample_number          2
+   _Sample.Solvent_system                   '100% H2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   ORF6                          '[U-13C; U-15N]-Phe,Leu,Ala,Thr,Asp (other amino acids deuterated)'   .   .   1   $entity_1   .   .   1.2     .   .   mg        .   .   .   .   52654   2
+      2   DSS                           'natural abundance'                                                   .   .   .   .           .   .   0.035   .   .   '% v/v'   .   .   .   .   52654   2
+      3   HEPES                         'natural abundance'                                                   .   .   .   .           .   .   50      .   .   mM        .   .   .   .   52654   2
+      4   'ERGIC-PI4P lipid membrane'   'natural abundance'                                                   .   .   .   .           .   .   0.8     .   .   mg        .   .   .   .   52654   2
+      5   'sodium chloride'             'natural abundance'                                                   .   .   .   .           .   .   100     .   .   mM        .   .   .   .   52654   2
+      6   TCEP                          'natural abundance'                                                   .   .   .   .           .   .   1       .   .   mM        .   .   .   .   52654   2
+   stop_
+save_
+
+save_sample_3
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_3
+   _Sample.Entry_ID                         52654
+   _Sample.ID                               3
+   _Sample.Name                             ORF6-HANGYWE
+   _Sample.Type                             liposome
+   _Sample.Sub_type                         .
+   _Sample.Details                          'Membrane reconstituted ORF6'
+   _Sample.Aggregate_sample_number          3
+   _Sample.Solvent_system                   '100% H2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   ORF6                          '[U-13C; U-15N]-His,Ala,Asn,Gly,Tyr,Trp,Glu (other amino acids deuterated)'   .   .   1   $entity_1   .   .   1.2     .   .   mg        .   .   .   .   52654   3
+      2   DSS                           'natural abundance'                                                           .   .   .   .           .   .   0.035   .   .   '% v/v'   .   .   .   .   52654   3
+      3   HEPES                         'natural abundance'                                                           .   .   .   .           .   .   50      .   .   mM        .   .   .   .   52654   3
+      4   'ERGIC-PI4P lipid membrane'   'natural abundance'                                                           .   .   .   .           .   .   0.8     .   .   mg        .   .   .   .   52654   3
+      5   'sodium chloride'             'natural abundance'                                                           .   .   .   .           .   .   100     .   .   mM        .   .   .   .   52654   3
+      6   TCEP                          'natural abundance'                                                           .   .   .   .           .   .   1       .   .   mM        .   .   .   .   52654   3
+   stop_
+save_
+
+save_sample_4
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_4
+   _Sample.Entry_ID                         52654
+   _Sample.ID                               4
+   _Sample.Name                             ORF6-SIMPAQ
+   _Sample.Type                             liposome
+   _Sample.Sub_type                         .
+   _Sample.Details                          'Membrane reconstituted ORF6'
+   _Sample.Aggregate_sample_number          4
+   _Sample.Solvent_system                   '100% H2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   ORF6                          '[U-13C; U-15N]-Ser,Ile,Met,Pro,Ala,Gln (other amino acids deuterated)'   .   .   1   $entity_1   .   .   1.2     .   .   mg        .   .   .   .   52654   4
+      2   DSS                           'natural abundance'                                                       .   .   .   .           .   .   0.035   .   .   '% v/v'   .   .   .   .   52654   4
+      3   HEPES                         'natural abundance'                                                       .   .   .   .           .   .   50      .   .   mM        .   .   .   .   52654   4
+      4   'ERGIC-PI4P lipid membrane'   'natural abundance'                                                       .   .   .   .           .   .   0.8     .   .   mg        .   .   .   .   52654   4
+      5   'sodium chloride'             'natural abundance'                                                       .   .   .   .           .   .   100     .   .   mM        .   .   .   .   52654   4
+      6   TCEP                          'natural abundance'                                                       .   .   .   .           .   .   1       .   .   mM        .   .   .   .   52654   4
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       52654
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Name           Cold
+   _Sample_condition_list.Details        'at 8oC'
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   125   .      mM    52654   1
+      pH                 7.4   0.05   pH    52654   1
+      pressure           1     .      atm   52654   1
+      temperature        281   .      K     52654   1
+   stop_
+save_
+
+save_sample_conditions_2
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_2
+   _Sample_condition_list.Entry_ID       52654
+   _Sample_condition_list.ID             2
+   _Sample_condition_list.Name           'Room temp'
+   _Sample_condition_list.Details        'at 24oC'
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   125   .      mM    52654   2
+      pH                 7.4   0.05   pH    52654   2
+      pressure           1     .      atm   52654   2
+      temperature        297   .      K     52654   2
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+save_software_1
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_1
+   _Software.Entry_ID       52654
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           TOPSPIN
+   _Software.Version        '3.5, 4.0.9 and 4.1'
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'Spectra recording'   .   52654   1
+   stop_
+save_
+
+save_software_2
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_2
+   _Software.Entry_ID       52654
+   _Software.ID             2
+   _Software.Type           .
+   _Software.Name           CcpNMR
+   _Software.Version        3.2
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'chemical shift assignment'   .   52654   2
+   stop_
+save_
+
+save_software_3
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_3
+   _Software.Entry_ID       52654
+   _Software.ID             3
+   _Software.Type           .
+   _Software.Name           NMRbox
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        'National Center for Biomolecular NMR Data Processing and Analysis from UConn Health and University of Wisconsin.'
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis'   .   52654   3
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID         52654
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Name             '800 MHz'
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            'AVANCE III'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   800
+save_
+
+save_NMR_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_2
+   _NMR_spectrometer.Entry_ID         52654
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Name             '850 MHz'
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            'AVANCE III'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   850
+save_
+
+save_NMR_spectrometer_3
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_3
+   _NMR_spectrometer.Entry_ID         52654
+   _NMR_spectrometer.ID               3
+   _NMR_spectrometer.Name             '950 MHz'
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            'AVANCE NEO'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   950
+save_
+
+save_NMR_spectrometer_4
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_4
+   _NMR_spectrometer.Entry_ID         52654
+   _NMR_spectrometer.ID               4
+   _NMR_spectrometer.Name             '1.2 GHz'
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            'AVANCE NEO'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   1200
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+save_experiment_list_1
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list_1
+   _Experiment_list.Entry_ID       52654
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NUS_flag
+      _Experiment.Interleaved_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Details
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1    '1H-detected CP-based SAFR-hCH'          no   no   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      2    '1H-detected CP-based SAFR-hNH'          no   no   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      3    '1H-detected CP-based SAFR-hCCH'         no   no   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   2   $sample_conditions_2   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      4    '1H-detected CP-based SAFR-hNCAH'        no   no   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   2   $sample_conditions_2   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      5    '1H-detected SAFR hCH refocused INEPT'   no   no   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   2   $sample_conditions_2   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      6    '1H-detected CP-based SAFR hCoNH'        no   no   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      7    '1H-detected SAFR hNH refocused INEPT'   no   no   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      8    '1H-detected CP-based SAFR-hCANH'        no   no   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   2   $sample_conditions_2   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      9    '1H-detected SAFR CP-based hNcoCAH'      no   no   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      10   '1H-detected CP-based SAFR-hCH'          no   no   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   2   $sample_conditions_2   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      11   '1H-detected CP-based SAFR-hNH'          no   no   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   2   $sample_conditions_2   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      12   '1H-detected CP-based SAFR-hCH'          no   no   .   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      13   '1H-detected CP-based SAFR-hNH'          no   no   .   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      14   '1H-detected CP-based SAFR-hCCH'         no   no   .   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      15   '1H-detected CP-based SAFR-hNCAH'        no   no   .   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      16   '1H-detected SAFR hCH refocused INEPT'   no   no   .   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      17   '1H-detected CP-based SAFR hCoNH'        no   no   .   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      18   '1H-detected SAFR hNH refocused INEPT'   no   no   .   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      19   '1H-detected CP-based SAFR-hCANH'        no   no   .   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      20   '1H-detected CP-based SAFR-hCH'          no   no   .   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      21   '1H-detected CP-based SAFR-hNH'          no   no   .   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      22   '1H-detected CP-based SAFR-hCH'          no   no   .   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   2   $sample_conditions_2   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      23   '1H-detected CP-based SAFR-hNH'          no   no   .   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   2   $sample_conditions_2   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      24   '1H-detected CP-based SAFR-hCCH'         no   no   .   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      25   '1H-detected CP-based SAFR-hNCAH'        no   no   .   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      26   '1H-detected SAFR hCH refocused INEPT'   no   no   .   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      27   '1H-detected SAFR hNH refocused INEPT'   no   no   .   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      28   '1H-detected CP-based SAFR hCoNH'        no   no   .   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      29   '1H-detected CP-based SAFR-hCANH'        no   no   .   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      30   '1H-detected CP-based SAFR-hCH'          no   no   .   .   .   .   .   .   .   .   .   .   .   4   $sample_4   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      31   '1H-detected CP-based SAFR-hNH'          no   no   .   .   .   .   .   .   .   .   .   .   .   4   $sample_4   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      32   '1H-detected CP-based SAFR-hCCH'         no   no   .   .   .   .   .   .   .   .   .   .   .   4   $sample_4   isotropic   .   .   2   $sample_conditions_2   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      33   '1H-detected CP-based SAFR-hNCAH'        no   no   .   .   .   .   .   .   .   .   .   .   .   4   $sample_4   isotropic   .   .   2   $sample_conditions_2   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      34   '1H-detected SAFR hCH refocused INEPT'   no   no   .   .   .   .   .   .   .   .   .   .   .   4   $sample_4   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      35   '1H-detected SAFR hNH refocused INEPT'   no   no   .   .   .   .   .   .   .   .   .   .   .   4   $sample_4   isotropic   .   .   2   $sample_conditions_2   .   .   .   2   $NMR_spectrometer_2   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      36   '1H-detected CP-based SAFR hCoNH'        no   no   .   .   .   .   .   .   .   .   .   .   .   4   $sample_4   isotropic   .   .   2   $sample_conditions_2   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+      37   '1H-detected CP-based SAFR-hCANH'        no   no   .   .   .   .   .   .   .   .   .   .   .   4   $sample_4   isotropic   .   .   2   $sample_conditions_2   .   .   .   4   $NMR_spectrometer_4   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52654   1
+   stop_
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+save_chem_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chem_shift_reference_1
+   _Chem_shift_reference.Entry_ID       52654
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Name           ORF6_cs
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DSS   'methyl protons'   .   .   .   .   ppm   0   na         indirect   0.25144953    .   .   .   .   .   52654   1
+      H   1    DSS   'methyl protons'   .   .   .   .   ppm   0   internal   direct     1             .   .   .   .   .   52654   1
+      N   15   DSS   'methyl protons'   .   .   .   .   ppm   0   na         indirect   0.101329118   .   .   .   .   .   52654   1
+   stop_
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Entry_ID                      52654
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Name                          ORF6g_G
+   _Assigned_chem_shift_list.Sample_condition_list_ID      2
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_2
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chem_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1    '1H-detected CP-based SAFR-hCH'          .   .   .   52654   1
+      2    '1H-detected CP-based SAFR-hNH'          .   .   .   52654   1
+      3    '1H-detected CP-based SAFR-hCCH'         .   .   .   52654   1
+      4    '1H-detected CP-based SAFR-hNCAH'        .   .   .   52654   1
+      5    '1H-detected SAFR hCH refocused INEPT'   .   .   .   52654   1
+      6    '1H-detected CP-based SAFR hCoNH'        .   .   .   52654   1
+      7    '1H-detected SAFR hNH refocused INEPT'   .   .   .   52654   1
+      8    '1H-detected CP-based SAFR-hCANH'        .   .   .   52654   1
+      9    '1H-detected SAFR CP-based hNcoCAH'      .   .   .   52654   1
+      10   '1H-detected CP-based SAFR-hCH'          .   .   .   52654   1
+      11   '1H-detected CP-based SAFR-hNH'          .   .   .   52654   1
+      12   '1H-detected CP-based SAFR-hCH'          .   .   .   52654   1
+      13   '1H-detected CP-based SAFR-hNH'          .   .   .   52654   1
+      14   '1H-detected CP-based SAFR-hCCH'         .   .   .   52654   1
+      15   '1H-detected CP-based SAFR-hNCAH'        .   .   .   52654   1
+      16   '1H-detected SAFR hCH refocused INEPT'   .   .   .   52654   1
+      17   '1H-detected CP-based SAFR hCoNH'        .   .   .   52654   1
+      18   '1H-detected SAFR hNH refocused INEPT'   .   .   .   52654   1
+      19   '1H-detected CP-based SAFR-hCANH'        .   .   .   52654   1
+      20   '1H-detected CP-based SAFR-hCH'          .   .   .   52654   1
+      21   '1H-detected CP-based SAFR-hNH'          .   .   .   52654   1
+      22   '1H-detected CP-based SAFR-hCH'          .   .   .   52654   1
+      23   '1H-detected CP-based SAFR-hNH'          .   .   .   52654   1
+      24   '1H-detected CP-based SAFR-hCCH'         .   .   .   52654   1
+      25   '1H-detected CP-based SAFR-hNCAH'        .   .   .   52654   1
+      26   '1H-detected SAFR hCH refocused INEPT'   .   .   .   52654   1
+      27   '1H-detected SAFR hNH refocused INEPT'   .   .   .   52654   1
+      28   '1H-detected CP-based SAFR hCoNH'        .   .   .   52654   1
+      29   '1H-detected CP-based SAFR-hCANH'        .   .   .   52654   1
+      30   '1H-detected CP-based SAFR-hCH'          .   .   .   52654   1
+      31   '1H-detected CP-based SAFR-hNH'          .   .   .   52654   1
+      32   '1H-detected CP-based SAFR-hCCH'         .   .   .   52654   1
+      33   '1H-detected CP-based SAFR-hNCAH'        .   .   .   52654   1
+      34   '1H-detected SAFR hCH refocused INEPT'   .   .   .   52654   1
+      35   '1H-detected SAFR hNH refocused INEPT'   .   .   .   52654   1
+      36   '1H-detected CP-based SAFR hCoNH'        .   .   .   52654   1
+      37   '1H-detected CP-based SAFR-hCANH'        .   .   .   52654   1
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+      1   $software_1   .   .   52654   1
+      2   $software_2   .   .   52654   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_assembly_asym_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   .   1   3    3    HIS   HA     H   1    3.756186277    0.03033012001     .   1   .   .   .   .   .   3    HIS   HA    .   52654   1
+      2     .   1   .   1   3    3    HIS   HB2    H   1    2.641550147    0.04737208253     .   2   .   .   .   .   .   3    HIS   HB    .   52654   1
+      3     .   1   .   1   3    3    HIS   HB3    H   1    2.641550147    0.04737208253     .   2   .   .   .   .   .   3    HIS   HB    .   52654   1
+      4     .   1   .   1   3    3    HIS   HD2    H   1    6.410158849    .                 .   1   .   .   .   .   .   3    HIS   HD2   .   52654   1
+      5     .   1   .   1   3    3    HIS   HE1    H   1    7.424524554    0.009772180978    .   1   .   .   .   .   .   3    HIS   HE1   .   52654   1
+      6     .   1   .   1   3    3    HIS   CA     C   13   55.70630248    0.1182648322      .   1   .   .   .   .   .   3    HIS   CA    .   52654   1
+      7     .   1   .   1   3    3    HIS   CB     C   13   30.76672068    0.2442012365      .   1   .   .   .   .   .   3    HIS   CB    .   52654   1
+      8     .   1   .   1   3    3    HIS   CD2    C   13   116.0072537    0.0708384179      .   1   .   .   .   .   .   3    HIS   CD2   .   52654   1
+      9     .   1   .   1   3    3    HIS   CE1    C   13   139.709995     0.2756003458      .   1   .   .   .   .   .   3    HIS   CE1   .   52654   1
+      10    .   1   .   1   5    5    VAL   H      H   1    7.128546542    .                 .   1   .   .   .   .   .   5    VAL   H     .   52654   1
+      11    .   1   .   1   5    5    VAL   HA     H   1    3.952111516    0.005779069873    .   1   .   .   .   .   .   5    VAL   HA    .   52654   1
+      12    .   1   .   1   5    5    VAL   HB     H   1    1.966262646    0.0180392517      .   1   .   .   .   .   .   5    VAL   HB    .   52654   1
+      13    .   1   .   1   5    5    VAL   HG11   H   1    0.953520092    0.01588302536     .   2   .   .   .   .   .   5    VAL   HG    .   52654   1
+      14    .   1   .   1   5    5    VAL   HG12   H   1    0.953520092    0.01588302536     .   2   .   .   .   .   .   5    VAL   HG    .   52654   1
+      15    .   1   .   1   5    5    VAL   HG13   H   1    0.953520092    0.01588302536     .   2   .   .   .   .   .   5    VAL   HG    .   52654   1
+      16    .   1   .   1   5    5    VAL   HG21   H   1    0.953520092    0.01588302536     .   2   .   .   .   .   .   5    VAL   HG    .   52654   1
+      17    .   1   .   1   5    5    VAL   HG22   H   1    0.953520092    0.01588302536     .   2   .   .   .   .   .   5    VAL   HG    .   52654   1
+      18    .   1   .   1   5    5    VAL   HG23   H   1    0.953520092    0.01588302536     .   2   .   .   .   .   .   5    VAL   HG    .   52654   1
+      19    .   1   .   1   5    5    VAL   CA     C   13   62.12188278    0.1594461035      .   1   .   .   .   .   .   5    VAL   CA    .   52654   1
+      20    .   1   .   1   5    5    VAL   CB     C   13   32.97342228    0.2615780302      .   1   .   .   .   .   .   5    VAL   CB    .   52654   1
+      21    .   1   .   1   5    5    VAL   CG1    C   13   21.36432948    0.2936934601      .   2   .   .   .   .   .   5    VAL   CG#   .   52654   1
+      22    .   1   .   1   5    5    VAL   CG2    C   13   21.36432948    0.2936934601      .   2   .   .   .   .   .   5    VAL   CG#   .   52654   1
+      23    .   1   .   1   5    5    VAL   N      N   15   122.0218991    0.0458658584      .   1   .   .   .   .   .   5    VAL   N     .   52654   1
+      24    .   1   .   1   6    6    ASP   HA     H   1    4.839266267    0.09652558121     .   1   .   .   .   .   .   6    ASP   HA    .   52654   1
+      25    .   1   .   1   6    6    ASP   HB2    H   1    2.380217322    0.01376121157     .   2   .   .   .   .   .   6    ASP   HB2   .   52654   1
+      26    .   1   .   1   6    6    ASP   CA     C   13   54.09181403    0.06678874296     .   1   .   .   .   .   .   6    ASP   CA    .   52654   1
+      27    .   1   .   1   6    6    ASP   CB     C   13   42.45095821    .                 .   1   .   .   .   .   .   6    ASP   CB    .   52654   1
+      28    .   1   .   1   8    8    GLN   H      H   1    8.135004233    0.008683660886    .   1   .   .   .   .   .   8    GLN   H     .   52654   1
+      29    .   1   .   1   8    8    GLN   HA     H   1    4.710671789    0.06822645762     .   1   .   .   .   .   .   8    GLN   HA    .   52654   1
+      30    .   1   .   1   8    8    GLN   HB2    H   1    1.871691594    0.05926808869     .   2   .   .   .   .   .   8    GLN   HB    .   52654   1
+      31    .   1   .   1   8    8    GLN   HB3    H   1    1.871691594    0.05926808869     .   2   .   .   .   .   .   8    GLN   HB    .   52654   1
+      32    .   1   .   1   8    8    GLN   HG2    H   1    2.201389059    0.01133260585     .   2   .   .   .   .   .   8    GLN   HG    .   52654   1
+      33    .   1   .   1   8    8    GLN   HG3    H   1    2.201389059    0.01133260585     .   2   .   .   .   .   .   8    GLN   HG    .   52654   1
+      34    .   1   .   1   8    8    GLN   HE22   H   1    7.058201554    0.4543975977      .   2   .   .   .   .   .   8    GLN   HE2   .   52654   1
+      35    .   1   .   1   8    8    GLN   CA     C   13   54.96996391    0.2522822024      .   1   .   .   .   .   .   8    GLN   CA    .   52654   1
+      36    .   1   .   1   8    8    GLN   CB     C   13   30.3541276     0.1672053355      .   1   .   .   .   .   .   8    GLN   CB    .   52654   1
+      37    .   1   .   1   8    8    GLN   CG     C   13   34.1411210     0.2027633951      .   1   .   .   .   .   .   8    GLN   CG    .   52654   1
+      38    .   1   .   1   8    8    GLN   N      N   15   118.2360635    0.1578957761      .   1   .   .   .   .   .   8    GLN   N     .   52654   1
+      39    .   1   .   1   8    8    GLN   NE2    N   15   110.9047381    0.007949987092    .   1   .   .   .   .   .   8    GLN   NE2   .   52654   1
+      40    .   1   .   1   9    9    VAL   H      H   1    8.758531958    0.04121548702     .   1   .   .   .   .   .   9    VAL   H     .   52654   1
+      41    .   1   .   1   9    9    VAL   HA     H   1    4.555160839    0.0250886403      .   1   .   .   .   .   .   9    VAL   HA    .   52654   1
+      42    .   1   .   1   9    9    VAL   HB     H   1    1.824960397    0.02486982593     .   1   .   .   .   .   .   9    VAL   HB    .   52654   1
+      43    .   1   .   1   9    9    VAL   HG11   H   1    0.4659482165   0.0805972892      .   2   .   .   .   .   .   9    VAL   HG    .   52654   1
+      44    .   1   .   1   9    9    VAL   HG12   H   1    0.4659482165   0.0805972892      .   2   .   .   .   .   .   9    VAL   HG    .   52654   1
+      45    .   1   .   1   9    9    VAL   HG13   H   1    0.4659482165   0.0805972892      .   2   .   .   .   .   .   9    VAL   HG    .   52654   1
+      46    .   1   .   1   9    9    VAL   HG21   H   1    0.4659482165   0.0805972892      .   2   .   .   .   .   .   9    VAL   HG    .   52654   1
+      47    .   1   .   1   9    9    VAL   HG22   H   1    0.4659482165   0.0805972892      .   2   .   .   .   .   .   9    VAL   HG    .   52654   1
+      48    .   1   .   1   9    9    VAL   HG23   H   1    0.4659482165   0.0805972892      .   2   .   .   .   .   .   9    VAL   HG    .   52654   1
+      49    .   1   .   1   9    9    VAL   CA     C   13   59.67267592    0.1146544619      .   1   .   .   .   .   .   9    VAL   CA    .   52654   1
+      50    .   1   .   1   9    9    VAL   CB     C   13   35.76871846    0.1262272931      .   1   .   .   .   .   .   9    VAL   CB    .   52654   1
+      51    .   1   .   1   9    9    VAL   CG1    C   13   20.8890212     0.2305391127      .   1   .   .   .   .   .   9    VAL   CG#   .   52654   1
+      52    .   1   .   1   9    9    VAL   CG2    C   13   20.8890212     0.2305391127      .   2   .   .   .   .   .   9    VAL   CG#   .   52654   1
+      53    .   1   .   1   9    9    VAL   N      N   15   120.9539394    0.1323647122      .   1   .   .   .   .   .   9    VAL   N     .   52654   1
+      54    .   1   .   1   10   10   THR   H      H   1    7.358563725    0.2587651664      .   1   .   .   .   .   .   10   THR   H     .   52654   1
+      55    .   1   .   1   10   10   THR   HA     H   1    5.012302952    0.08741272083     .   1   .   .   .   .   .   10   THR   HA    .   52654   1
+      56    .   1   .   1   10   10   THR   HB     H   1    4.591414512    0.1256570228      .   1   .   .   .   .   .   10   THR   HB    .   52654   1
+      57    .   1   .   1   10   10   THR   HG21   H   1    1.007200432    0.02139715433     .   1   .   .   .   .   .   10   THR   HG2   .   52654   1
+      58    .   1   .   1   10   10   THR   HG22   H   1    1.007200432    0.02139715433     .   1   .   .   .   .   .   10   THR   HG2   .   52654   1
+      59    .   1   .   1   10   10   THR   HG23   H   1    1.007200432    0.02139715433     .   1   .   .   .   .   .   10   THR   HG2   .   52654   1
+      60    .   1   .   1   10   10   THR   CA     C   13   59.48442153    0.1589190167      .   1   .   .   .   .   .   10   THR   CA    .   52654   1
+      61    .   1   .   1   10   10   THR   CB     C   13   72.53778165    0.2340314778      .   1   .   .   .   .   .   10   THR   CB    .   52654   1
+      62    .   1   .   1   10   10   THR   CG2    C   13   22.14720978    0.1671704126      .   1   .   .   .   .   .   10   THR   CG2   .   52654   1
+      63    .   1   .   1   10   10   THR   N      N   15   108.5077668    0.7804892326      .   1   .   .   .   .   .   10   THR   N     .   52654   1
+      64    .   1   .   1   12   12   ALA   H      H   1    9.266918358    0.06467516266     .   1   .   .   .   .   .   12   ALA   H     .   52654   1
+      65    .   1   .   1   12   12   ALA   HA     H   1    3.907774452    0.01963847397     .   1   .   .   .   .   .   12   ALA   HA    .   52654   1
+      66    .   1   .   1   12   12   ALA   HB1    H   1    1.358508173    0.02650657234     .   1   .   .   .   .   .   12   ALA   HB    .   52654   1
+      67    .   1   .   1   12   12   ALA   HB2    H   1    1.358508173    0.02650657234     .   1   .   .   .   .   .   12   ALA   HB    .   52654   1
+      68    .   1   .   1   12   12   ALA   HB3    H   1    1.358508173    0.02650657234     .   1   .   .   .   .   .   12   ALA   HB    .   52654   1
+      69    .   1   .   1   12   12   ALA   CA     C   13   55.87872557    0.1646315861      .   1   .   .   .   .   .   12   ALA   CA    .   52654   1
+      70    .   1   .   1   12   12   ALA   CB     C   13   18.3803855     0.1959448466      .   1   .   .   .   .   .   12   ALA   CB    .   52654   1
+      71    .   1   .   1   12   12   ALA   N      N   15   120.2579213    0.2570725684      .   1   .   .   .   .   .   12   ALA   N     .   52654   1
+      72    .   1   .   1   13   13   GLU   H      H   1    7.857120297    0.0280786392      .   1   .   .   .   .   .   13   GLU   H     .   52654   1
+      73    .   1   .   1   13   13   GLU   HA     H   1    3.868477242    0.007551084679    .   1   .   .   .   .   .   13   GLU   HA    .   52654   1
+      74    .   1   .   1   13   13   GLU   HB2    H   1    2.050075542    .                 .   2   .   .   .   .   .   13   GLU   HB2   .   52654   1
+      75    .   1   .   1   13   13   GLU   HB3    H   1    1.896437682    .                 .   2   .   .   .   .   .   13   GLU   HB3   .   52654   1
+      76    .   1   .   1   13   13   GLU   HG2    H   1    2.23569129     0.01483911937     .   2   .   .   .   .   .   13   GLU   HG2   .   52654   1
+      77    .   1   .   1   13   13   GLU   CA     C   13   59.31639405    0.1876821114      .   1   .   .   .   .   .   13   GLU   CA    .   52654   1
+      78    .   1   .   1   13   13   GLU   CB     C   13   30.21289136    0.2361449011      .   1   .   .   .   .   .   13   GLU   CB    .   52654   1
+      79    .   1   .   1   13   13   GLU   CG     C   13   38.6169235     0.2130908163      .   1   .   .   .   .   .   13   GLU   CG    .   52654   1
+      80    .   1   .   1   13   13   GLU   N      N   15   114.8521327    0.07768932047     .   1   .   .   .   .   .   13   GLU   N     .   52654   1
+      81    .   1   .   1   16   16   LEU   H      H   1    8.475783465    0.02065352644     .   1   .   .   .   .   .   16   LEU   H     .   52654   1
+      82    .   1   .   1   16   16   LEU   HA     H   1    3.875458612    0.00515344864     .   1   .   .   .   .   .   16   LEU   HA    .   52654   1
+      83    .   1   .   1   16   16   LEU   HB2    H   1    1.696903174    0.005141596213    .   2   .   .   .   .   .   16   LEU   HB2   .   52654   1
+      84    .   1   .   1   16   16   LEU   HB3    H   1    1.484040261    0.006942841574    .   2   .   .   .   .   .   16   LEU   HB3   .   52654   1
+      85    .   1   .   1   16   16   LEU   HG     H   1    0.8590373946   .                 .   1   .   .   .   .   .   16   LEU   HG    .   52654   1
+      86    .   1   .   1   16   16   LEU   CA     C   13   58.39625675    0.1703442972      .   1   .   .   .   .   .   16   LEU   CA    .   52654   1
+      87    .   1   .   1   16   16   LEU   CB     C   13   41.75203243    0.1017685098      .   1   .   .   .   .   .   16   LEU   CB    .   52654   1
+      88    .   1   .   1   16   16   LEU   CG     C   13   26.14782250    .                 .   1   .   .   .   .   .   16   LEU   CG    .   52654   1
+      89    .   1   .   1   16   16   LEU   N      N   15   120.0635921    0.0454163927      .   1   .   .   .   .   .   16   LEU   N     .   52654   1
+      90    .   1   .   1   19   19   MET   H      H   1    8.512158536    0.1510506718      .   1   .   .   .   .   .   19   MET   H     .   52654   1
+      91    .   1   .   1   19   19   MET   HA     H   1    4.47011552     0.03893172771     .   1   .   .   .   .   .   19   MET   HA    .   52654   1
+      92    .   1   .   1   19   19   MET   HB2    H   1    2.361258868    0.1411091811      .   2   .   .   .   .   .   19   MET   HB2   .   52654   1
+      93    .   1   .   1   19   19   MET   HB3    H   1    2.193          .                 .   2   .   .   .   .   .   19   MET   HB3   .   52654   1
+      94    .   1   .   1   19   19   MET   HG2    H   1    2.634          0.3243852998      .   2   .   .   .   .   .   19   MET   HG    .   52654   1
+      95    .   1   .   1   19   19   MET   HG3    H   1    2.595          0.3243852998      .   2   .   .   .   .   .   19   MET   HG    .   52654   1
+      96    .   1   .   1   19   19   MET   CA     C   13   57.39102926    0.24692228        .   1   .   .   .   .   .   19   MET   CA    .   52654   1
+      97    .   1   .   1   19   19   MET   CB     C   13   32.37910036    0.2759338628      .   1   .   .   .   .   .   19   MET   CB    .   52654   1
+      98    .   1   .   1   19   19   MET   CG     C   13   32.12017111    0.3179475078      .   1   .   .   .   .   .   19   MET   CG    .   52654   1
+      99    .   1   .   1   19   19   MET   CE     C   13   17.29331877    0.2685133416      .   1   .   .   .   .   .   19   MET   CE    .   52654   1
+      100   .   1   .   1   19   19   MET   N      N   15   116.5309691    0.1900897427      .   1   .   .   .   .   .   19   MET   N     .   52654   1
+      101   .   1   .   1   20   20   ARG   H      H   1    8.689041247    .                 .   1   .   .   .   .   .   20   ARG   H     .   52654   1
+      102   .   1   .   1   20   20   ARG   HA     H   1    3.918579132    0.05004400308     .   1   .   .   .   .   .   20   ARG   HA    .   52654   1
+      103   .   1   .   1   20   20   ARG   HB2    H   1    1.996028418    0.06044191005     .   2   .   .   .   .   .   20   ARG   HB    .   52654   1
+      104   .   1   .   1   20   20   ARG   HB3    H   1    1.996028418    0.06044191005     .   2   .   .   .   .   .   20   ARG   HB    .   52654   1
+      105   .   1   .   1   20   20   ARG   HG2    H   1    1.92636494     0.01368580924     .   2   .   .   .   .   .   20   ARG   HG    .   52654   1
+      106   .   1   .   1   20   20   ARG   HG3    H   1    1.92636494     0.01368580924     .   2   .   .   .   .   .   20   ARG   HG    .   52654   1
+      107   .   1   .   1   20   20   ARG   HD2    H   1    3.108263048    0.01677277515     .   2   .   .   .   .   .   20   ARG   HD#   .   52654   1
+      108   .   1   .   1   20   20   ARG   HD3    H   1    3.108263048    0.01677277515     .   2   .   .   .   .   .   20   ARG   HD#   .   52654   1
+      109   .   1   .   1   20   20   ARG   HE     H   1    7.435884583    .                 .   1   .   .   .   .   .   20   ARG   HE    .   52654   1
+      110   .   1   .   1   20   20   ARG   CA     C   13   60.13080556    0.195256654       .   1   .   .   .   .   .   20   ARG   CA    .   52654   1
+      111   .   1   .   1   20   20   ARG   CB     C   13   29.70468352    0.1947804593      .   1   .   .   .   .   .   20   ARG   CB    .   52654   1
+      112   .   1   .   1   20   20   ARG   CG     C   13   28.90071911    0.2917445297      .   1   .   .   .   .   .   20   ARG   CG    .   52654   1
+      113   .   1   .   1   20   20   ARG   CD     C   13   43.49202492    0.2544730349      .   1   .   .   .   .   .   20   ARG   CD    .   52654   1
+      114   .   1   .   1   20   20   ARG   N      N   15   119.1071971    .                 .   1   .   .   .   .   .   20   ARG   N     .   52654   1
+      115   .   1   .   1   20   20   ARG   NE     N   15   84.3990177     .                 .   1   .   .   .   .   .   20   ARG   NE    .   52654   1
+      116   .   1   .   1   21   21   THR   H      H   1    8.09868886     0.00652829682     .   1   .   .   .   .   .   21   THR   H     .   52654   1
+      117   .   1   .   1   21   21   THR   HA     H   1    3.855734539    0.06282512874     .   1   .   .   .   .   .   21   THR   HA    .   52654   1
+      118   .   1   .   1   21   21   THR   HB     H   1    4.383452261    0.02477710373     .   1   .   .   .   .   .   21   THR   HB    .   52654   1
+      119   .   1   .   1   21   21   THR   HG21   H   1    1.115385716    0.01045166839     .   1   .   .   .   .   .   21   THR   HG    .   52654   1
+      120   .   1   .   1   21   21   THR   HG22   H   1    1.115385716    0.01045166839     .   1   .   .   .   .   .   21   THR   HG    .   52654   1
+      121   .   1   .   1   21   21   THR   HG23   H   1    1.115385716    0.01045166839     .   1   .   .   .   .   .   21   THR   HG    .   52654   1
+      122   .   1   .   1   21   21   THR   CA     C   13   67.51041821    0.1688048591      .   1   .   .   .   .   .   21   THR   CA    .   52654   1
+      123   .   1   .   1   21   21   THR   CB     C   13   67.45275109    0.1574414703      .   1   .   .   .   .   .   21   THR   CB    .   52654   1
+      124   .   1   .   1   21   21   THR   CG2    C   13   21.49928241    0.2163145984      .   1   .   .   .   .   .   21   THR   CG    .   52654   1
+      125   .   1   .   1   21   21   THR   N      N   15   117.1669703    0.1461157279      .   1   .   .   .   .   .   21   THR   N     .   52654   1
+      126   .   1   .   1   23   23   LYS   H      H   1    7.856536877    0.02321085323     .   1   .   .   .   .   .   23   LYS   H     .   52654   1
+      127   .   1   .   1   23   23   LYS   HA     H   1    4.073485344    0.01235021506     .   1   .   .   .   .   .   23   LYS   HA    .   52654   1
+      128   .   1   .   1   23   23   LYS   HB2    H   1    1.874229299    .                 .   2   .   .   .   .   .   23   LYS   HB    .   52654   1
+      129   .   1   .   1   23   23   LYS   HB3    H   1    1.874229299    .                 .   2   .   .   .   .   .   23   LYS   HB    .   52654   1
+      130   .   1   .   1   23   23   LYS   HG2    H   1    1.459491595    .                 .   2   .   .   .   .   .   23   LYS   HG2   .   52654   1
+      131   .   1   .   1   23   23   LYS   CA     C   13   59.04491346    0.4743357588      .   1   .   .   .   .   .   23   LYS   CA    .   52654   1
+      132   .   1   .   1   23   23   LYS   CB     C   13   32.08501213    0.08455623318     .   1   .   .   .   .   .   23   LYS   CB    .   52654   1
+      133   .   1   .   1   23   23   LYS   CG     C   13   24.81271416    0.2315390259      .   1   .   .   .   .   .   23   LYS   CG    .   52654   1
+      134   .   1   .   1   23   23   LYS   N      N   15   122.6636404    0.07539857103     .   1   .   .   .   .   .   23   LYS   N     .   52654   1
+      135   .   1   .   1   24   24   VAL   H      H   1    7.621332733    0.1464660518      .   1   .   .   .   .   .   24   VAL   H     .   52654   1
+      136   .   1   .   1   24   24   VAL   HA     H   1    3.76222503     0.1983176586      .   1   .   .   .   .   .   24   VAL   HA    .   52654   1
+      137   .   1   .   1   24   24   VAL   HB     H   1    2.281811814    0.07771206645     .   1   .   .   .   .   .   24   VAL   HB    .   52654   1
+      138   .   1   .   1   24   24   VAL   HG11   H   1    1.135226694    0.06619467451     .   2   .   .   .   .   .   24   VAL   HG1   .   52654   1
+      139   .   1   .   1   24   24   VAL   HG12   H   1    1.135226694    0.06619467451     .   2   .   .   .   .   .   24   VAL   HG1   .   52654   1
+      140   .   1   .   1   24   24   VAL   HG13   H   1    1.135226694    0.06619467451     .   2   .   .   .   .   .   24   VAL   HG1   .   52654   1
+      141   .   1   .   1   24   24   VAL   HG21   H   1    0.6994758496   .                 .   2   .   .   .   .   .   24   VAL   HG2   .   52654   1
+      142   .   1   .   1   24   24   VAL   HG22   H   1    0.6994758496   .                 .   2   .   .   .   .   .   24   VAL   HG2   .   52654   1
+      143   .   1   .   1   24   24   VAL   HG23   H   1    0.6994758496   .                 .   2   .   .   .   .   .   24   VAL   HG2   .   52654   1
+      144   .   1   .   1   24   24   VAL   CA     C   13   66.09669704    0.3952818792      .   1   .   .   .   .   .   24   VAL   CA    .   52654   1
+      145   .   1   .   1   24   24   VAL   CB     C   13   31.42537309    0.3196623803      .   1   .   .   .   .   .   24   VAL   CB    .   52654   1
+      146   .   1   .   1   24   24   VAL   CG1    C   13   22.1352707     0.3455462952      .   2   .   .   .   .   .   24   VAL   CG#   .   52654   1
+      147   .   1   .   1   24   24   VAL   CG2    C   13   22.1352707     0.3455462952      .   2   .   .   .   .   .   24   VAL   CG#   .   52654   1
+      148   .   1   .   1   24   24   VAL   N      N   15   117.0836068    0.3514672926      .   1   .   .   .   .   .   24   VAL   N     .   52654   1
+      149   .   1   .   1   27   27   TRP   HA     H   1    4.590604543    0.02370940942     .   1   .   .   .   .   .   27   TRP   HA    .   52654   1
+      150   .   1   .   1   27   27   TRP   HB2    H   1    3.564930415    0.06818508498     .   2   .   .   .   .   .   27   TRP   HB    .   52654   1
+      151   .   1   .   1   27   27   TRP   HB3    H   1    3.564930415    0.06818508498     .   2   .   .   .   .   .   27   TRP   HB    .   52654   1
+      152   .   1   .   1   27   27   TRP   HE1    H   1    10.51890608    .                 .   1   .   .   .   .   .   27   TRP   HE1   .   52654   1
+      153   .   1   .   1   27   27   TRP   HE3    H   1    7.750301068    .                 .   1   .   .   .   .   .   27   TRP   HE3   .   52654   1
+      154   .   1   .   1   27   27   TRP   HZ2    H   1    7.523674427    .                 .   1   .   .   .   .   .   27   TRP   HZ2   .   52654   1
+      155   .   1   .   1   27   27   TRP   CA     C   13   59.69088238    0.2547838537      .   1   .   .   .   .   .   27   TRP   CA    .   52654   1
+      156   .   1   .   1   27   27   TRP   CB     C   13   28.04405971    0.1878219677      .   1   .   .   .   .   .   27   TRP   CB    .   52654   1
+      157   .   1   .   1   27   27   TRP   CE3    C   13   120.5823381    .                 .   1   .   .   .   .   .   27   TRP   CE3   .   52654   1
+      158   .   1   .   1   27   27   TRP   CZ2    C   13   114.4851712    .                 .   1   .   .   .   .   .   27   TRP   CZ2   .   52654   1
+      159   .   1   .   1   27   27   TRP   NE1    N   15   128.8045017    .                 .   1   .   .   .   .   .   27   TRP   NE1   .   52654   1
+      160   .   1   .   1   28   28   ASN   H      H   1    8.568808191    0.08301654368     .   1   .   .   .   .   .   28   ASN   H     .   52654   1
+      161   .   1   .   1   28   28   ASN   HA     H   1    4.365173034    0.01241131669     .   1   .   .   .   .   .   28   ASN   HA    .   52654   1
+      162   .   1   .   1   28   28   ASN   HB2    H   1    2.927009246    0.02145938284     .   2   .   .   .   .   .   28   ASN   HB2   .   52654   1
+      163   .   1   .   1   28   28   ASN   HB3    H   1    2.601943811    0.06301180201     .   2   .   .   .   .   .   28   ASN   HB3   .   52654   1
+      164   .   1   .   1   28   28   ASN   CA     C   13   55.85606364    0.1640798383      .   1   .   .   .   .   .   28   ASN   CA    .   52654   1
+      165   .   1   .   1   28   28   ASN   CB     C   13   37.25327503    0.1896596918      .   1   .   .   .   .   .   28   ASN   CB    .   52654   1
+      166   .   1   .   1   28   28   ASN   N      N   15   118.107479     0.1730482575      .   1   .   .   .   .   .   28   ASN   N     .   52654   1
+      167   .   1   .   1   30   30   ASP   H      H   1    8.49368785     0.002869661898    .   1   .   .   .   .   .   30   ASP   H     .   52654   1
+      168   .   1   .   1   30   30   ASP   HA     H   1    4.322451464    .                 .   1   .   .   .   .   .   30   ASP   HA    .   52654   1
+      169   .   1   .   1   30   30   ASP   HB2    H   1    2.646283889    0.02545637314     .   2   .   .   .   .   .   30   ASP   HB2   .   52654   1
+      170   .   1   .   1   30   30   ASP   HB3    H   1    2.899463442    0.001486464654    .   2   .   .   .   .   .   30   ASP   HB3   .   52654   1
+      171   .   1   .   1   30   30   ASP   CA     C   13   58.20059006    0.1201128839      .   1   .   .   .   .   .   30   ASP   CA    .   52654   1
+      172   .   1   .   1   30   30   ASP   CB     C   13   43.02384002    0.05544470827     .   1   .   .   .   .   .   30   ASP   CB    .   52654   1
+      173   .   1   .   1   30   30   ASP   N      N   15   118.8868465    0.01932651593     .   1   .   .   .   .   .   30   ASP   N     .   52654   1
+      174   .   1   .   1   45   45   THR   H      H   1    8.114744678    0.03269028116     .   1   .   .   .   .   .   45   THR   H     .   52654   1
+      175   .   1   .   1   45   45   THR   HA     H   1    4.028793318    0.02287880715     .   1   .   .   .   .   .   45   THR   HA    .   52654   1
+      176   .   1   .   1   45   45   THR   HB     H   1    4.270165519    0.03160350321     .   1   .   .   .   .   .   45   THR   HB    .   52654   1
+      177   .   1   .   1   45   45   THR   HG21   H   1    1.222605258    0.0143622068      .   1   .   .   .   .   .   45   THR   HG    .   52654   1
+      178   .   1   .   1   45   45   THR   HG22   H   1    1.222605258    0.0143622068      .   1   .   .   .   .   .   45   THR   HG    .   52654   1
+      179   .   1   .   1   45   45   THR   HG23   H   1    1.222605258    0.0143622068      .   1   .   .   .   .   .   45   THR   HG    .   52654   1
+      180   .   1   .   1   45   45   THR   CA     C   13   65.23736741    0.1174454335      .   1   .   .   .   .   .   45   THR   CA    .   52654   1
+      181   .   1   .   1   45   45   THR   CB     C   13   69.05994604    0.1497675089      .   1   .   .   .   .   .   45   THR   CB    .   52654   1
+      182   .   1   .   1   45   45   THR   CG2    C   13   21.48753806    0.04679942326     .   1   .   .   .   .   .   45   THR   CG    .   52654   1
+      183   .   1   .   1   45   45   THR   N      N   15   115.6109322    0.08913228242     .   1   .   .   .   .   .   45   THR   N     .   52654   1
+      184   .   1   .   1   46   46   GLU   HA     H   1    4.124533861    0.03773674675     .   1   .   .   .   .   .   46   GLU   HA    .   52654   1
+      185   .   1   .   1   46   46   GLU   HB2    H   1    1.953338281    0.01717845772     .   2   .   .   .   .   .   46   GLU   HB    .   52654   1
+      186   .   1   .   1   46   46   GLU   HB3    H   1    1.953338281    0.01717845772     .   2   .   .   .   .   .   46   GLU   HB    .   52654   1
+      187   .   1   .   1   46   46   GLU   CA     C   13   57.39723252    0.279624816       .   1   .   .   .   .   .   46   GLU   CA    .   52654   1
+      188   .   1   .   1   46   46   GLU   CB     C   13   29.35670385    0.01986974649     .   1   .   .   .   .   .   46   GLU   CB    .   52654   1
+      189   .   1   .   1   47   47   ASN   HA     H   1    4.675001816    0.05075897457     .   1   .   .   .   .   .   47   ASN   HA    .   52654   1
+      190   .   1   .   1   47   47   ASN   HB2    H   1    2.769504451    0.004751345348    .   2   .   .   .   .   .   47   ASN   HB    .   52654   1
+      191   .   1   .   1   47   47   ASN   HB3    H   1    2.769504451    0.004751345348    .   2   .   .   .   .   .   47   ASN   HB    .   52654   1
+      192   .   1   .   1   47   47   ASN   CA     C   13   54.40869873    0.2091507921      .   1   .   .   .   .   .   47   ASN   CA    .   52654   1
+      193   .   1   .   1   47   47   ASN   CB     C   13   39.68023405    0.1808955027      .   1   .   .   .   .   .   47   ASN   CB    .   52654   1
+      194   .   1   .   1   48   48   LYS   H      H   1    8.21983409     .                 .   1   .   .   .   .   .   48   LYS   H     .   52654   1
+      195   .   1   .   1   48   48   LYS   N      N   15   120.2140654    .                 .   1   .   .   .   .   .   48   LYS   N     .   52654   1
+      196   .   1   .   1   50   50   SER   H      H   1    8.009516411    .                 .   1   .   .   .   .   .   50   SER   H     .   52654   1
+      197   .   1   .   1   50   50   SER   HA     H   1    4.390158335    .                 .   1   .   .   .   .   .   50   SER   HA    .   52654   1
+      198   .   1   .   1   50   50   SER   CA     C   13   58.57645383    .                 .   1   .   .   .   .   .   50   SER   CA    .   52654   1
+      199   .   1   .   1   50   50   SER   N      N   15   116.2342822    .                 .   1   .   .   .   .   .   50   SER   N     .   52654   1
+      200   .   1   .   1   51   51   GLN   HA     H   1    4.282709727    .                 .   1   .   .   .   .   .   51   GLN   HA    .   52654   1
+      201   .   1   .   1   51   51   GLN   HB2    H   1    2.080370327    .                 .   2   .   .   .   .   .   51   GLN   HB    .   52654   1
+      202   .   1   .   1   51   51   GLN   HB3    H   1    2.080370327    .                 .   2   .   .   .   .   .   51   GLN   HB    .   52654   1
+      203   .   1   .   1   51   51   GLN   HE22   H   1    7.055879651    0.4445347265      .   2   .   .   .   .   .   51   GLN   HE2   .   52654   1
+      204   .   1   .   1   51   51   GLN   CA     C   13   56.28377777    .                 .   1   .   .   .   .   .   51   GLN   CA    .   52654   1
+      205   .   1   .   1   51   51   GLN   CB     C   13   29.00335115    .                 .   1   .   .   .   .   .   51   GLN   CB    .   52654   1
+      206   .   1   .   1   51   51   GLN   NE2    N   15   111.0083334    0.0007314116246   .   1   .   .   .   .   .   51   GLN   NE2   .   52654   1
+      207   .   1   .   1   52   52   LEU   H      H   1    8.096146253    .                 .   1   .   .   .   .   .   52   LEU   H     .   52654   1
+      208   .   1   .   1   52   52   LEU   HA     H   1    4.282912228    0.02420788346     .   1   .   .   .   .   .   52   LEU   HA    .   52654   1
+      209   .   1   .   1   52   52   LEU   HB2    H   1    1.59076096     .                 .   2   .   .   .   .   .   52   LEU   HB    .   52654   1
+      210   .   1   .   1   52   52   LEU   HB3    H   1    1.59076096     .                 .   2   .   .   .   .   .   52   LEU   HB    .   52654   1
+      211   .   1   .   1   52   52   LEU   HG     H   1    1.622027608    0.007607703404    .   1   .   .   .   .   .   52   LEU   HG    .   52654   1
+      212   .   1   .   1   52   52   LEU   HD11   H   1    0.8874522733   .                 .   2   .   .   .   .   .   52   LEU   HD1   .   52654   1
+      213   .   1   .   1   52   52   LEU   HD12   H   1    0.8874522733   .                 .   2   .   .   .   .   .   52   LEU   HD1   .   52654   1
+      214   .   1   .   1   52   52   LEU   HD13   H   1    0.8874522733   .                 .   2   .   .   .   .   .   52   LEU   HD1   .   52654   1
+      215   .   1   .   1   52   52   LEU   HD21   H   1    0.8341361802   .                 .   2   .   .   .   .   .   52   LEU   HD2   .   52654   1
+      216   .   1   .   1   52   52   LEU   HD22   H   1    0.8341361802   .                 .   2   .   .   .   .   .   52   LEU   HD2   .   52654   1
+      217   .   1   .   1   52   52   LEU   HD23   H   1    0.8341361802   .                 .   2   .   .   .   .   .   52   LEU   HD2   .   52654   1
+      218   .   1   .   1   52   52   LEU   CA     C   13   55.20189615    .                 .   1   .   .   .   .   .   52   LEU   CA    .   52654   1
+      219   .   1   .   1   52   52   LEU   CB     C   13   42.06934472    .                 .   1   .   .   .   .   .   52   LEU   CB    .   52654   1
+      220   .   1   .   1   52   52   LEU   CG     C   13   26.70953829    .                 .   1   .   .   .   .   .   52   LEU   CG    .   52654   1
+      221   .   1   .   1   52   52   LEU   CD1    C   13   24.87285227    .                 .   2   .   .   .   .   .   52   LEU   CD1   .   52654   1
+      222   .   1   .   1   52   52   LEU   CD2    C   13   23.23912754    .                 .   2   .   .   .   .   .   52   LEU   CD2   .   52654   1
+      223   .   1   .   1   52   52   LEU   N      N   15   122.391187     .                 .   1   .   .   .   .   .   52   LEU   N     .   52654   1
+      224   .   1   .   1   53   53   ASP   H      H   1    8.233596862    0.01055939361     .   1   .   .   .   .   .   53   ASP   H     .   52654   1
+      225   .   1   .   1   53   53   ASP   HA     H   1    4.635998784    .                 .   1   .   .   .   .   .   53   ASP   HA    .   52654   1
+      226   .   1   .   1   53   53   ASP   HB2    H   1    2.692303471    .                 .   2   .   .   .   .   .   53   ASP   HB    .   52654   1
+      227   .   1   .   1   53   53   ASP   HB3    H   1    2.692303471    .                 .   2   .   .   .   .   .   53   ASP   HB    .   52654   1
+      228   .   1   .   1   53   53   ASP   CA     C   13   54.14765442    .                 .   1   .   .   .   .   .   53   ASP   CA    .   52654   1
+      229   .   1   .   1   53   53   ASP   CB     C   13   41.05442585    .                 .   1   .   .   .   .   .   53   ASP   CB    .   52654   1
+      230   .   1   .   1   53   53   ASP   N      N   15   120.6200177    0.03558868242     .   1   .   .   .   .   .   53   ASP   N     .   52654   1
+      231   .   1   .   1   54   54   GLU   H      H   1    8.243542381    0.004279306869    .   1   .   .   .   .   .   54   GLU   H     .   52654   1
+      232   .   1   .   1   54   54   GLU   HA     H   1    4.257571098    .                 .   1   .   .   .   .   .   54   GLU   HA    .   52654   1
+      233   .   1   .   1   54   54   GLU   CA     C   13   56.36585988    .                 .   1   .   .   .   .   .   54   GLU   CA    .   52654   1
+      234   .   1   .   1   54   54   GLU   N      N   15   120.7749335    0.01866662218     .   1   .   .   .   .   .   54   GLU   N     .   52654   1
+      235   .   1   .   1   55   55   GLU   H      H   1    8.369708829    0.01393032833     .   1   .   .   .   .   .   55   GLU   H     .   52654   1
+      236   .   1   .   1   55   55   GLU   HA     H   1    4.257571098    .                 .   1   .   .   .   .   .   55   GLU   HA    .   52654   1
+      237   .   1   .   1   55   55   GLU   CA     C   13   56.36585988    .                 .   1   .   .   .   .   .   55   GLU   CA    .   52654   1
+      238   .   1   .   1   55   55   GLU   N      N   15   121.6366675    0.04847159782     .   1   .   .   .   .   .   55   GLU   N     .   52654   1
+      239   .   1   .   1   56   56   GLN   H      H   1    8.357146042    .                 .   1   .   .   .   .   .   56   GLN   H     .   52654   1
+      240   .   1   .   1   56   56   GLN   HA     H   1    4.567607423    0.007653644209    .   1   .   .   .   .   .   56   GLN   HA    .   52654   1
+      241   .   1   .   1   56   56   GLN   HB2    H   1    1.900743254    .                 .   2   .   .   .   .   .   56   GLN   HB    .   52654   1
+      242   .   1   .   1   56   56   GLN   HB3    H   1    1.900743254    .                 .   2   .   .   .   .   .   56   GLN   HB    .   52654   1
+      243   .   1   .   1   56   56   GLN   HG2    H   1    2.341232943    0.001564663419    .   2   .   .   .   .   .   56   GLN   HG    .   52654   1
+      244   .   1   .   1   56   56   GLN   HG3    H   1    2.341232943    0.001564663419    .   2   .   .   .   .   .   56   GLN   HG    .   52654   1
+      245   .   1   .   1   56   56   GLN   HE22   H   1    7.18513958     0.3389233591      .   2   .   .   .   .   .   56   GLN   HE2   .   52654   1
+      246   .   1   .   1   56   56   GLN   CA     C   13   53.48278717    0.001956476748    .   1   .   .   .   .   .   56   GLN   CA    .   52654   1
+      247   .   1   .   1   56   56   GLN   CB     C   13   28.97801003    .                 .   1   .   .   .   .   .   56   GLN   CB    .   52654   1
+      248   .   1   .   1   56   56   GLN   CG     C   13   33.52755881    0.0004938658869   .   1   .   .   .   .   .   56   GLN   CG    .   52654   1
+      249   .   1   .   1   56   56   GLN   N      N   15   122.2068587    .                 .   1   .   .   .   .   .   56   GLN   N     .   52654   1
+      250   .   1   .   1   56   56   GLN   NE2    N   15   112.5873369    0.004840563742    .   1   .   .   .   .   .   56   GLN   NE2   .   52654   1
+      251   .   1   .   1   57   57   PRO   HA     H   1    4.394795127    .                 .   1   .   .   .   .   .   57   PRO   HA    .   52654   1
+      252   .   1   .   1   57   57   PRO   HB2    H   1    1.876351317    .                 .   2   .   .   .   .   .   57   PRO   HB2   .   52654   1
+      253   .   1   .   1   57   57   PRO   HB3    H   1    2.250928943    .                 .   2   .   .   .   .   .   57   PRO   HB3   .   52654   1
+      254   .   1   .   1   57   57   PRO   HG2    H   1    1.986449665    .                 .   2   .   .   .   .   .   57   PRO   HG    .   52654   1
+      255   .   1   .   1   57   57   PRO   HG3    H   1    1.986449665    .                 .   2   .   .   .   .   .   57   PRO   HG    .   52654   1
+      256   .   1   .   1   57   57   PRO   HD2    H   1    3.732375062    .                 .   2   .   .   .   .   .   57   PRO   HD2   .   52654   1
+      257   .   1   .   1   57   57   PRO   HD3    H   1    3.638815017    .                 .   2   .   .   .   .   .   57   PRO   HD3   .   52654   1
+      258   .   1   .   1   57   57   PRO   CA     C   13   63.02963701    .                 .   1   .   .   .   .   .   57   PRO   CA    .   52654   1
+      259   .   1   .   1   57   57   PRO   CB     C   13   32.15076267    0.00695917476     .   1   .   .   .   .   .   57   PRO   CB    .   52654   1
+      260   .   1   .   1   57   57   PRO   CG     C   13   27.37566525    .                 .   1   .   .   .   .   .   57   PRO   CG    .   52654   1
+      261   .   1   .   1   57   57   PRO   CD     C   13   50.58867452    0.004755578857    .   1   .   .   .   .   .   57   PRO   CD    .   52654   1
+      262   .   1   .   1   58   58   MET   H      H   1    8.449961693    .                 .   1   .   .   .   .   .   58   MET   H     .   52654   1
+      263   .   1   .   1   58   58   MET   HA     H   1    4.40376631     .                 .   1   .   .   .   .   .   58   MET   HA    .   52654   1
+      264   .   1   .   1   58   58   MET   HB2    H   1    1.99892908     .                 .   2   .   .   .   .   .   58   MET   HB    .   52654   1
+      265   .   1   .   1   58   58   MET   HB3    H   1    1.99892908     .                 .   2   .   .   .   .   .   58   MET   HB    .   52654   1
+      266   .   1   .   1   58   58   MET   HG2    H   1    2.5435435      .                 .   2   .   .   .   .   .   58   MET   HG    .   52654   1
+      267   .   1   .   1   58   58   MET   HG3    H   1    2.5435435      .                 .   2   .   .   .   .   .   58   MET   HG    .   52654   1
+      268   .   1   .   1   58   58   MET   HE1    H   1    2.061860281    .                 .   1   .   .   .   .   .   58   MET   HE#   .   52654   1
+      269   .   1   .   1   58   58   MET   HE2    H   1    2.061860281    .                 .   1   .   .   .   .   .   58   MET   HE#   .   52654   1
+      270   .   1   .   1   58   58   MET   HE3    H   1    2.061860281    .                 .   1   .   .   .   .   .   58   MET   HE#   .   52654   1
+      271   .   1   .   1   58   58   MET   CA     C   13   55.53525415    .                 .   1   .   .   .   .   .   58   MET   CA    .   52654   1
+      272   .   1   .   1   58   58   MET   CB     C   13   33.31158221    .                 .   1   .   .   .   .   .   58   MET   CB    .   52654   1
+      273   .   1   .   1   58   58   MET   CG     C   13   31.87933251    .                 .   1   .   .   .   .   .   58   MET   CG    .   52654   1
+      274   .   1   .   1   58   58   MET   CE     C   13   17.03971062    .                 .   1   .   .   .   .   .   58   MET   CE    .   52654   1
+      275   .   1   .   1   58   58   MET   N      N   15   120.8206875    .                 .   1   .   .   .   .   .   58   MET   N     .   52654   1
+      276   .   1   .   1   59   59   GLU   H      H   1    8.423240147    0.0033959383      .   1   .   .   .   .   .   59   GLU   H     .   52654   1
+      277   .   1   .   1   59   59   GLU   HA     H   1    4.257571098    .                 .   1   .   .   .   .   .   59   GLU   HA    .   52654   1
+      278   .   1   .   1   59   59   GLU   HB2    H   1    1.894416014    .                 .   2   .   .   .   .   .   59   GLU   HB    .   52654   1
+      279   .   1   .   1   59   59   GLU   HB3    H   1    1.894416014    .                 .   2   .   .   .   .   .   59   GLU   HB    .   52654   1
+      280   .   1   .   1   59   59   GLU   CA     C   13   56.36585988    .                 .   1   .   .   .   .   .   59   GLU   CA    .   52654   1
+      281   .   1   .   1   59   59   GLU   CB     C   13   30.33882598    .                 .   1   .   .   .   .   .   59   GLU   CB    .   52654   1
+      282   .   1   .   1   59   59   GLU   N      N   15   122.4265433    0.06611327915     .   1   .   .   .   .   .   59   GLU   N     .   52654   1
+      283   .   1   .   1   60   60   ILE   H      H   1    8.200354674    .                 .   1   .   .   .   .   .   60   ILE   H     .   52654   1
+      284   .   1   .   1   60   60   ILE   HA     H   1    4.147604294    .                 .   1   .   .   .   .   .   60   ILE   HA    .   52654   1
+      285   .   1   .   1   60   60   ILE   HB     H   1    1.827309518    .                 .   1   .   .   .   .   .   60   ILE   HB    .   52654   1
+      286   .   1   .   1   60   60   ILE   HG12   H   1    1.133718829    .                 .   2   .   .   .   .   .   60   ILE   HG1   .   52654   1
+      287   .   1   .   1   60   60   ILE   HG13   H   1    1.133718829    .                 .   2   .   .   .   .   .   60   ILE   HG1   .   52654   1
+      288   .   1   .   1   60   60   ILE   HG21   H   1    0.8573114724   .                 .   1   .   .   .   .   .   60   ILE   HG2   .   52654   1
+      289   .   1   .   1   60   60   ILE   HG22   H   1    0.8573114724   .                 .   1   .   .   .   .   .   60   ILE   HG2   .   52654   1
+      290   .   1   .   1   60   60   ILE   HG23   H   1    0.8573114724   .                 .   1   .   .   .   .   .   60   ILE   HG2   .   52654   1
+      291   .   1   .   1   60   60   ILE   HD11   H   1    0.8065310754   .                 .   1   .   .   .   .   .   60   ILE   HD    .   52654   1
+      292   .   1   .   1   60   60   ILE   HD12   H   1    0.8065310754   .                 .   1   .   .   .   .   .   60   ILE   HD    .   52654   1
+      293   .   1   .   1   60   60   ILE   HD13   H   1    0.8065310754   .                 .   1   .   .   .   .   .   60   ILE   HD    .   52654   1
+      294   .   1   .   1   60   60   ILE   CA     C   13   61.0820149     .                 .   1   .   .   .   .   .   60   ILE   CA    .   52654   1
+      295   .   1   .   1   60   60   ILE   CB     C   13   39.02502896    .                 .   1   .   .   .   .   .   60   ILE   CB    .   52654   1
+      296   .   1   .   1   60   60   ILE   CG1    C   13   27.09797139    .                 .   1   .   .   .   .   .   60   ILE   CG1   .   52654   1
+      297   .   1   .   1   60   60   ILE   CG2    C   13   17.5185221     .                 .   1   .   .   .   .   .   60   ILE   CG2   .   52654   1
+      298   .   1   .   1   60   60   ILE   CD1    C   13   13.06910602    .                 .   1   .   .   .   .   .   60   ILE   CD    .   52654   1
+      299   .   1   .   1   60   60   ILE   N      N   15   121.6579161    .                 .   1   .   .   .   .   .   60   ILE   N     .   52654   1
+      300   .   1   .   1   61   61   ASP   H      H   1    8.386495053    0                 .   1   .   .   .   .   .   61   ASP   H     .   52654   1
+      301   .   1   .   1   61   61   ASP   HA     H   1    4.635998784    .                 .   1   .   .   .   .   .   61   ASP   HA    .   52654   1
+      302   .   1   .   1   61   61   ASP   HB2    H   1    2.472103809    0.1244022571      .   2   .   .   .   .   .   61   ASP   HB    .   52654   1
+      303   .   1   .   1   61   61   ASP   HB3    H   1    2.472103809    0.1244022571      .   2   .   .   .   .   .   61   ASP   HB    .   52654   1
+      304   .   1   .   1   61   61   ASP   CA     C   13   54.11556111    0.03209331599     .   1   .   .   .   .   .   61   ASP   CA    .   52654   1
+      305   .   1   .   1   61   61   ASP   CB     C   13   41.06522184    0.01079599137     .   1   .   .   .   .   .   61   ASP   CB    .   52654   1
+      306   .   1   .   1   61   61   ASP   N      N   15   124.2336599    0                 .   1   .   .   .   .   .   61   ASP   N     .   52654   1
+      307   .   1   .   1   62   62   GLY   H      H   1    7.816297319    0.0008081106735   .   1   .   .   .   .   .   62   GLY   H     .   52654   1
+      308   .   1   .   1   62   62   GLY   N      N   15   115.1294468    0.03875164322     .   1   .   .   .   .   .   62   GLY   N     .   52654   1
+   stop_
+save_
+

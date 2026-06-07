@@ -1,0 +1,1334 @@
+data_5877
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             5877
+   _Entry.Title                         
+;
+Solid State NMR Structure of the Major Coat Protein in Bacteriophage Pf1 
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2003-07-21
+   _Entry.Accession_date                 2003-07-22
+   _Entry.Last_release_date              .
+   _Entry.Original_release_date          .
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      2.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 D. Thiriot . S. . 5877 
+      2 S. Opella  . J. . 5877 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 5877 
+      coupling_constants       1 5877 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '15N chemical shifts' 43 5877 
+      'coupling constants'  43 5877 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2007-02-22 . update   BMRB   'add relationship loop' 5877 
+      2 . . 2004-10-25 . original author 'original release'      5877 
+
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB 15138 '13C and 15N resonance assignments' 5877 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     5877
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    15288792
+   _Citation.Full_citation                .
+   _Citation.Title                       
+;
+Structure of the coat protein in Pf1 bacteriophage determined by
+solid-state NMR spectroscopy.
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'J. Mol. Biol.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               341
+   _Citation.Journal_issue                3
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   869
+   _Citation.Page_last                    879
+   _Citation.Year                         2004
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 D. Thiriot    . S. . 5877 1 
+      2 A. Nevzorov   . A. . 5877 1 
+      3 L. Zagyanskiy . .  . 5877 1 
+      4 C. Wu         . H. . 5877 1 
+      5 S. Opella     . J. . 5877 1 
+
+   stop_
+
+   loop_
+      _Citation_keyword.Keyword
+      _Citation_keyword.Entry_ID
+      _Citation_keyword.Citation_ID
+
+      'Virus/Viral protein' 5877 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_system_Pf3_major_coat_protein
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      system_Pf3_major_coat_protein
+   _Assembly.Entry_ID                          5877
+   _Assembly.ID                                1
+   _Assembly.Name                             'Bacteriophage Pf1 major coat protein'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                      'not present'
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Assembly_type.Type
+      _Assembly_type.Entry_ID
+      _Assembly_type.Assembly_ID
+
+      monomer 5877 1 
+
+   stop_
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 'Pf1 major coat protein' 1 $Pf1_coat_protein . . . native . . . . . 5877 1 
+
+   stop_
+
+   loop_
+      _Assembly_db_link.Author_supplied
+      _Assembly_db_link.Database_code
+      _Assembly_db_link.Accession_code
+      _Assembly_db_link.Entry_mol_code
+      _Assembly_db_link.Entry_mol_name
+      _Assembly_db_link.Entry_experimental_method
+      _Assembly_db_link.Entry_structure_resolution
+      _Assembly_db_link.Entry_relation_type
+      _Assembly_db_link.Entry_details
+      _Assembly_db_link.Entry_ID
+      _Assembly_db_link.Assembly_ID
+
+      yes PDB 1PJF . . . . . . 5877 1 
+
+   stop_
+
+   loop_
+      _Assembly_common_name.Name
+      _Assembly_common_name.Type
+      _Assembly_common_name.Entry_ID
+      _Assembly_common_name.Assembly_ID
+
+      'Bacteriophage Pf1 major coat protein' system       5877 1 
+      'Pf3 major coat protein'               abbreviation 5877 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_Pf1_coat_protein
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      Pf1_coat_protein
+   _Entity.Entry_ID                          5877
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                             'Pf1 phage major coat protein'
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+GVIDTSAVESAITDGQGDMK
+AIGGYIVGALVILAVAGLIY
+SMLRKA
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                46
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-01-28
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no BMRB        15138 .  Pf1_phage_coat_protein                                                                                                           . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+       2 no PDB  1IFM          . "Two Forms Of Pf1 Inovirus: X-Ray Diffraction Studies On A Structural Phase Transition And A Calculated Libration Normal Mode Of" . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+       3 no PDB  1IFN          . "Two Forms Of Pf1 Inovirus: X-Ray Diffraction Studies On A Structural Phase Transition And A Calculated Libration Normal Mode Of" . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+       4 no PDB  1PFI          . "Pf1 Virus Structure: Helical Coat Protein And Dna With Paraxial Phosphates"                                                      . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+       5 no PDB  1PJF          . "Solid State Nmr Structure Of The Pf1 Major Coat Protein In Magnetically Aligned Bacteriophage"                                   . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+       6 no PDB  1QL1          . "Inovirus (Filamentous Bacteriophage) Strain Pf1 Major Coat Protein Assembly"                                                     . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+       7 no PDB  1QL2          . "Inovirus (Filamentous Bacteriophage) Strain Pf1 Major Coat Protein Assembly"                                                     . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+       8 no PDB  1ZN5          . "Solid State Nmr Structure Of The Low-Temperature Form Of The Pf1 Major Coat Protein In Magnetically Aligned Bacteriophage"       . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+       9 no PDB  2IFM          . "Pf1 Filamentous Bacteriophage: Refinement Of A Molecular Model By Simulated Annealing Using 3.3 Angstroms Resolution X-Ray Fibr" . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+      10 no PDB  2IFN          . "Pf1 Filamentous Bacteriophage: Refinement Of A Molecular Model By Simulated Annealing Using 3.3 Angstroms Resolution X-Ray Fibr" . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+      11 no PDB  2KLV          . "Membrane-Bound Structure Of The Pf1 Major Coat Protein In Dhpc Micelle"                                                          . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+      12 no PDB  2KSJ          . "Structure And Dynamics Of The Membrane-Bound Form Of Pf1 Coat Protein: Implications For Structural Rearrangement During Virus A" . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+      13 no PDB  2XKM          . "Consensus Structure Of Pf1 Filamentous Bacteriophage From X- Ray Fibre Diffraction And Solid-State Nmr"                          . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+      14 no PDB  3IFM          . "Pf1 Filamentous Bacteriophage: Refinement Of A Molecular Model By Simulated Annealing Using 3.3 Angstroms Resolution X-Ray Fibr" . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+      15 no PDB  4IFM          . "Pf1 Filamentous Bacteriophage: Refinement Of A Molecular Model By Simulated Annealing Using 3.3 Angstroms Resolution X-Ray Fibr" . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+      16 no EMBL CAA36331      . "major coat protein [Pseudomonas phage Pf1]"                                                                                      . . . . . 100.00 82 100.00 100.00 3.26e-21 . . . . 5877 1 
+      17 no EMBL CCQ85809      . "hypothetical protein PA18A_2405 [Pseudomonas aeruginosa 18A]"                                                                    . . . . . 100.00 82 100.00 100.00 3.26e-21 . . . . 5877 1 
+      18 no EMBL CDH73426      . "putative secreted protein [Pseudomonas aeruginosa MH38]"                                                                         . . . . . 100.00 82 100.00 100.00 3.55e-21 . . . . 5877 1 
+      19 no EMBL CDO83853      . "coat protein B of bacteriophage Pf1) [Pseudomonas aeruginosa]"                                                                   . . . . . 100.00 82 100.00 100.00 3.26e-21 . . . . 5877 1 
+      20 no GB   AAG04112      . "coat protein B of bacteriophage Pf1 [Pseudomonas aeruginosa PAO1]"                                                               . . . . . 100.00 82 100.00 100.00 3.26e-21 . . . . 5877 1 
+      21 no GB   AAT50608      . "PA0723, partial [synthetic construct]"                                                                                           . . . . . 100.00 83 100.00 100.00 3.88e-21 . . . . 5877 1 
+      22 no GB   ACS36651      . "phage coat protein B [Pseudomonas aeruginosa PAO1]"                                                                              . . . . . 100.00 82 100.00 100.00 3.26e-21 . . . . 5877 1 
+      23 no GB   AGV62109      . "capsid protein G8P [Pseudomonas aeruginosa PAO581]"                                                                              . . . . . 100.00 82 100.00 100.00 3.26e-21 . . . . 5877 1 
+      24 no GB   AGV64452      . "capsid protein G8P [Pseudomonas aeruginosa c7447m]"                                                                              . . . . . 100.00 82 100.00 100.00 3.26e-21 . . . . 5877 1 
+      25 no PRF  754922A       .  protein,coat                                                                                                                     . . . . . 100.00 46  97.83 100.00 3.02e-20 . . . . 5877 1 
+      26 no REF  NP_039603     . "major coat protein [Pseudomonas phage Pf1]"                                                                                      . . . . . 100.00 82 100.00 100.00 3.26e-21 . . . . 5877 1 
+      27 no REF  NP_249414     . "coat protein B of bacteriophage Pf1 [Pseudomonas aeruginosa PAO1]"                                                               . . . . . 100.00 82 100.00 100.00 3.26e-21 . . . . 5877 1 
+      28 no REF  NP_955532     . "major coat protein [Pseudomonas phage Pf1]"                                                                                      . . . . . 100.00 46 100.00 100.00 1.03e-20 . . . . 5877 1 
+      29 no REF  WP_003125072  . "MULTISPECIES: capsid protein [Pseudomonas]"                                                                                      . . . . . 100.00 82 100.00 100.00 3.26e-21 . . . . 5877 1 
+      30 no REF  WP_019372527  . "hypothetical protein, partial [Pseudomonas aeruginosa]"                                                                          . . . . .  50.00 56 100.00 100.00 1.31e-05 . . . . 5877 1 
+      31 no SP   P03621        . "RecName: Full=Capsid protein G8P; AltName: Full=Coat protein B; AltName: Full=Gene 8 protein; Short=G8P; AltName: Full=Major co" . . . . . 100.00 82 100.00 100.00 3.26e-21 . . . . 5877 1 
+
+   stop_
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      'Pf1 phage major coat protein' common       5877 1 
+      'Pf1 coat protein'             abbreviation 5877 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . GLY . 5877 1 
+       2 . VAL . 5877 1 
+       3 . ILE . 5877 1 
+       4 . ASP . 5877 1 
+       5 . THR . 5877 1 
+       6 . SER . 5877 1 
+       7 . ALA . 5877 1 
+       8 . VAL . 5877 1 
+       9 . GLU . 5877 1 
+      10 . SER . 5877 1 
+      11 . ALA . 5877 1 
+      12 . ILE . 5877 1 
+      13 . THR . 5877 1 
+      14 . ASP . 5877 1 
+      15 . GLY . 5877 1 
+      16 . GLN . 5877 1 
+      17 . GLY . 5877 1 
+      18 . ASP . 5877 1 
+      19 . MET . 5877 1 
+      20 . LYS . 5877 1 
+      21 . ALA . 5877 1 
+      22 . ILE . 5877 1 
+      23 . GLY . 5877 1 
+      24 . GLY . 5877 1 
+      25 . TYR . 5877 1 
+      26 . ILE . 5877 1 
+      27 . VAL . 5877 1 
+      28 . GLY . 5877 1 
+      29 . ALA . 5877 1 
+      30 . LEU . 5877 1 
+      31 . VAL . 5877 1 
+      32 . ILE . 5877 1 
+      33 . LEU . 5877 1 
+      34 . ALA . 5877 1 
+      35 . VAL . 5877 1 
+      36 . ALA . 5877 1 
+      37 . GLY . 5877 1 
+      38 . LEU . 5877 1 
+      39 . ILE . 5877 1 
+      40 . TYR . 5877 1 
+      41 . SER . 5877 1 
+      42 . MET . 5877 1 
+      43 . LEU . 5877 1 
+      44 . ARG . 5877 1 
+      45 . LYS . 5877 1 
+      46 . ALA . 5877 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . GLY  1  1 5877 1 
+      . VAL  2  2 5877 1 
+      . ILE  3  3 5877 1 
+      . ASP  4  4 5877 1 
+      . THR  5  5 5877 1 
+      . SER  6  6 5877 1 
+      . ALA  7  7 5877 1 
+      . VAL  8  8 5877 1 
+      . GLU  9  9 5877 1 
+      . SER 10 10 5877 1 
+      . ALA 11 11 5877 1 
+      . ILE 12 12 5877 1 
+      . THR 13 13 5877 1 
+      . ASP 14 14 5877 1 
+      . GLY 15 15 5877 1 
+      . GLN 16 16 5877 1 
+      . GLY 17 17 5877 1 
+      . ASP 18 18 5877 1 
+      . MET 19 19 5877 1 
+      . LYS 20 20 5877 1 
+      . ALA 21 21 5877 1 
+      . ILE 22 22 5877 1 
+      . GLY 23 23 5877 1 
+      . GLY 24 24 5877 1 
+      . TYR 25 25 5877 1 
+      . ILE 26 26 5877 1 
+      . VAL 27 27 5877 1 
+      . GLY 28 28 5877 1 
+      . ALA 29 29 5877 1 
+      . LEU 30 30 5877 1 
+      . VAL 31 31 5877 1 
+      . ILE 32 32 5877 1 
+      . LEU 33 33 5877 1 
+      . ALA 34 34 5877 1 
+      . VAL 35 35 5877 1 
+      . ALA 36 36 5877 1 
+      . GLY 37 37 5877 1 
+      . LEU 38 38 5877 1 
+      . ILE 39 39 5877 1 
+      . TYR 40 40 5877 1 
+      . SER 41 41 5877 1 
+      . MET 42 42 5877 1 
+      . LEU 43 43 5877 1 
+      . ARG 44 44 5877 1 
+      . LYS 45 45 5877 1 
+      . ALA 46 46 5877 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       5877
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $Pf1_coat_protein . 10871 . . 'Inovirus Pseudomonas phage Pf1' 'Pseudomonas phage Pf1' . . Viruses . Inovirus 'Pseudomonas phage Pf1' . . . . . . . . 25102-B1 . . . . . . . . . . . . 5877 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       5877
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $Pf1_coat_protein . 'purified from the natural source' . . . . . . . . . . . . . . . . . . . . . . . . . . 'Bacterial Host was Pseudomonas aeruginosa, ATCC# 25102.' . . 5877 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         5877
+   _Sample.ID                               1
+   _Sample.Type                             gel
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 'Pf1 phage major coat protein' [U-15N] . . 1 $Pf1_coat_protein . . 50 . . mg/mL . . . . 5877 1 
+      2 'sodium borate buffer'         .       . .  .  .                . .  5 . . mM    . . . . 5877 1 
+      3  H2O                           .       . .  .  .                . .   . . . M     . . . . 5877 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_cond_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_cond_1
+   _Sample_condition_list.Entry_ID       5877
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            8 0.2 na  5877 1 
+      temperature 303 1   K   5877 1 
+      pressure      1  .  atm 5877 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_FELIX
+   _Software.Sf_category    software
+   _Software.Sf_framecode   FELIX
+   _Software.Entry_ID       5877
+   _Software.ID             1
+   _Software.Name           FELIX
+   _Software.Version        2000.1
+   _Software.Details        Accelrys
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      processing 5877 1 
+
+   stop_
+
+save_
+
+
+save_XWINNMR_MacNMR_NTNMR
+   _Software.Sf_category    software
+   _Software.Sf_framecode   XWINNMR_MacNMR_NTNMR
+   _Software.Entry_ID       5877
+   _Software.ID             2
+   _Software.Name          'XWINNMR, MacNMR, NTNMR'
+   _Software.Version        .
+   _Software.Details       'Bruker, Tecmag'
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      collection 5877 2 
+
+   stop_
+
+save_
+
+
+save_MATLAB_script
+   _Software.Sf_category    software
+   _Software.Sf_framecode   MATLAB_script
+   _Software.Entry_ID       5877
+   _Software.ID             3
+   _Software.Name          'MATLAB script'
+   _Software.Version        6.5
+   _Software.Details        Nevzorov
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'structure solution' 5877 3 
+
+   stop_
+
+save_
+
+
+save_MATLAB_scripts
+   _Software.Sf_category    software
+   _Software.Sf_framecode   MATLAB_scripts
+   _Software.Entry_ID       5877
+   _Software.ID             4
+   _Software.Name          'MATLAB scripts'
+   _Software.Version        6.5
+   _Software.Details       'Nevzorov, Thiriot'
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      refinement 5877 4 
+
+   stop_
+
+save_
+
+
+save_SCWRL_modified
+   _Software.Sf_category    software
+   _Software.Sf_framecode   SCWRL_modified
+   _Software.Entry_ID       5877
+   _Software.ID             5
+   _Software.Name           SCWRL
+   _Software.Version       '2.95 - Blue Horizon modified'
+   _Software.Details       'Bower, Cohen, Dunbrack, Majumdar, Chukkapalli'
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      refinement 5877 5 
+
+   stop_
+
+save_
+
+
+save_SCWRL
+   _Software.Sf_category    software
+   _Software.Sf_framecode   SCWRL
+   _Software.Entry_ID       5877
+   _Software.ID             6
+   _Software.Name           SCWRL
+   _Software.Version        2.95
+   _Software.Details       'Bower, Cohen, Dunbrack'
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      refinement 5877 6 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID         5877
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            AVANCE
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   750
+
+save_
+
+
+save_NMR_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_2
+   _NMR_spectrometer.Entry_ID         5877
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Homebuilt
+   _NMR_spectrometer.Model            Apollo
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   550
+
+save_
+
+
+save_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       5877
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 NMR_spectrometer_1 Bruker    AVANCE . 750 . . . 5877 1 
+      2 NMR_spectrometer_2 Homebuilt Apollo . 550 . . . 5877 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       5877
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1  PISEMA       . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5877 1 
+      2 'Magic Sammy' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5877 1 
+
+   stop_
+
+save_
+
+
+save_NMR_spec_expt__0_1
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__0_1
+   _NMR_spec_expt.Entry_ID                        5877
+   _NMR_spec_expt.ID                              1
+   _NMR_spec_expt.Name                            PISEMA
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             .
+   _NMR_spec_expt.NMR_spectrometer_label          .
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+save_NMR_spec_expt__0_2
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    NMR_spec_expt__0_2
+   _NMR_spec_expt.Entry_ID                        5877
+   _NMR_spec_expt.ID                              2
+   _NMR_spec_expt.Name                           'Magic Sammy'
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             .
+   _NMR_spec_expt.NMR_spectrometer_label          .
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                         .
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference
+   _Chem_shift_reference.Entry_ID       5877
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      N 15 'ammonium sulfate' 'ammonium ion' . . . . ppm 26.8 external direct 1.0 external cylindrical perpendicular . . . . . . 5877 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_chemical_shift_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  chemical_shift_1
+   _Assigned_chem_shift_list.Entry_ID                      5877
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_cond_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1  PISEMA       1 $sample_1 . 5877 1 
+      2 'Magic Sammy' 1 $sample_1 . 5877 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+       1 . 1 1  2  2 VAL N N 15 164.1 0.5 . . . . . . . . . . 5877 1 
+       2 . 1 1  3  3 ILE N N 15  91.4 0.5 . . . . . . . . . . 5877 1 
+       3 . 1 1  4  4 ASP N N 15  90.3 0.5 . . . . . . . . . . 5877 1 
+       4 . 1 1  5  5 THR N N 15 101.5 0.5 . . . . . . . . . . 5877 1 
+       5 . 1 1  6  6 SER N N 15 153.6 0.5 . . . . . . . . . . 5877 1 
+       6 . 1 1  7  7 ALA N N 15 171   0.5 . . . . . . . . . . 5877 1 
+       7 . 1 1  8  8 VAL N N 15 203.1 0.5 . . . . . . . . . . 5877 1 
+       8 . 1 1  9  9 GLU N N 15 221.4 0.5 . . . . . . . . . . 5877 1 
+       9 . 1 1 10 10 SER N N 15 196.2 0.5 . . . . . . . . . . 5877 1 
+      10 . 1 1 11 11 ALA N N 15 162.8 0.5 . . . . . . . . . . 5877 1 
+      11 . 1 1 12 12 ILE N N 15 188.3 0.5 . . . . . . . . . . 5877 1 
+      12 . 1 1 13 13 THR N N 15 217.8 0.5 . . . . . . . . . . 5877 1 
+      13 . 1 1 14 14 ASP N N 15 223.7 0.5 . . . . . . . . . . 5877 1 
+      14 . 1 1 17 17 GLY N N 15 204.4 0.5 . . . . . . . . . . 5877 1 
+      15 . 1 1 18 18 ASP N N 15 183.2 0.5 . . . . . . . . . . 5877 1 
+      16 . 1 1 19 19 MET N N 15 175.5 0.5 . . . . . . . . . . 5877 1 
+      17 . 1 1 20 20 LYS N N 15 211.1 0.5 . . . . . . . . . . 5877 1 
+      18 . 1 1 21 21 ALA N N 15 210.2 0.5 . . . . . . . . . . 5877 1 
+      19 . 1 1 22 22 ILE N N 15 164.3 0.5 . . . . . . . . . . 5877 1 
+      20 . 1 1 23 23 GLY N N 15 180.4 0.5 . . . . . . . . . . 5877 1 
+      21 . 1 1 24 24 GLY N N 15 213.1 0.5 . . . . . . . . . . 5877 1 
+      22 . 1 1 25 25 TYR N N 15 190.9 0.5 . . . . . . . . . . 5877 1 
+      23 . 1 1 26 26 ILE N N 15 166.9 0.5 . . . . . . . . . . 5877 1 
+      24 . 1 1 27 27 VAL N N 15 191   0.5 . . . . . . . . . . 5877 1 
+      25 . 1 1 28 28 GLY N N 15 204.4 0.5 . . . . . . . . . . 5877 1 
+      26 . 1 1 29 29 ALA N N 15 181.8 0.5 . . . . . . . . . . 5877 1 
+      27 . 1 1 30 30 LEU N N 15 176.9 0.5 . . . . . . . . . . 5877 1 
+      28 . 1 1 31 31 VAL N N 15 205.2 0.5 . . . . . . . . . . 5877 1 
+      29 . 1 1 32 32 ILE N N 15 219.4 0.5 . . . . . . . . . . 5877 1 
+      30 . 1 1 33 33 LEU N N 15 174.3 0.5 . . . . . . . . . . 5877 1 
+      31 . 1 1 34 34 ALA N N 15 192.1 0.5 . . . . . . . . . . 5877 1 
+      32 . 1 1 35 35 VAL N N 15 215   0.5 . . . . . . . . . . 5877 1 
+      33 . 1 1 36 36 ALA N N 15 208.7 0.5 . . . . . . . . . . 5877 1 
+      34 . 1 1 37 37 GLY N N 15 158.9 0.5 . . . . . . . . . . 5877 1 
+      35 . 1 1 38 38 LEU N N 15 212.6 0.5 . . . . . . . . . . 5877 1 
+      36 . 1 1 39 39 ILE N N 15 219.9 0.5 . . . . . . . . . . 5877 1 
+      37 . 1 1 40 40 TYR N N 15 188.8 0.5 . . . . . . . . . . 5877 1 
+      38 . 1 1 41 41 SER N N 15 182.8 0.5 . . . . . . . . . . 5877 1 
+      39 . 1 1 42 42 MET N N 15 221   0.5 . . . . . . . . . . 5877 1 
+      40 . 1 1 43 43 LEU N N 15 203.6 0.5 . . . . . . . . . . 5877 1 
+      41 . 1 1 44 44 ARG N N 15 143   0.5 . . . . . . . . . . 5877 1 
+      42 . 1 1 45 45 LYS N N 15 142.6 0.5 . . . . . . . . . . 5877 1 
+      43 . 1 1 46 46 ALA N N 15 201.1 0.5 . . . . . . . . . . 5877 1 
+
+   stop_
+
+save_
+
+
+    ########################
+    #  Coupling constants  #
+    ########################
+
+save_coupling_constants_1
+   _Coupling_constant_list.Sf_category                   coupling_constants
+   _Coupling_constant_list.Sf_framecode                  coupling_constants_1
+   _Coupling_constant_list.Entry_ID                      5877
+   _Coupling_constant_list.ID                            1
+   _Coupling_constant_list.Sample_condition_list_ID      1
+   _Coupling_constant_list.Sample_condition_list_label  $sample_cond_1
+   _Coupling_constant_list.Spectrometer_frequency_1H     750
+   _Coupling_constant_list.Details                       .
+   _Coupling_constant_list.Text_data_format              .
+   _Coupling_constant_list.Text_data                     .
+
+   loop_
+      _Coupling_constant_experiment.Experiment_ID
+      _Coupling_constant_experiment.Experiment_name
+      _Coupling_constant_experiment.Sample_ID
+      _Coupling_constant_experiment.Sample_label
+      _Coupling_constant_experiment.Sample_state
+      _Coupling_constant_experiment.Entry_ID
+      _Coupling_constant_experiment.Coupling_constant_list_ID
+
+      . . 1 $sample_1 . 5877 1 
+
+   stop_
+
+   loop_
+      _Coupling_constant.ID
+      _Coupling_constant.Code
+      _Coupling_constant.Assembly_atom_ID_1
+      _Coupling_constant.Entity_assembly_ID_1
+      _Coupling_constant.Entity_ID_1
+      _Coupling_constant.Comp_index_ID_1
+      _Coupling_constant.Seq_ID_1
+      _Coupling_constant.Comp_ID_1
+      _Coupling_constant.Atom_ID_1
+      _Coupling_constant.Atom_type_1
+      _Coupling_constant.Atom_isotope_number_1
+      _Coupling_constant.Ambiguity_code_1
+      _Coupling_constant.Assembly_atom_ID_2
+      _Coupling_constant.Entity_assembly_ID_2
+      _Coupling_constant.Entity_ID_2
+      _Coupling_constant.Comp_index_ID_2
+      _Coupling_constant.Seq_ID_2
+      _Coupling_constant.Comp_ID_2
+      _Coupling_constant.Atom_ID_2
+      _Coupling_constant.Atom_type_2
+      _Coupling_constant.Atom_isotope_number_2
+      _Coupling_constant.Ambiguity_code_2
+      _Coupling_constant.Val
+      _Coupling_constant.Val_min
+      _Coupling_constant.Val_max
+      _Coupling_constant.Val_err
+      _Coupling_constant.Resonance_ID_1
+      _Coupling_constant.Resonance_ID_2
+      _Coupling_constant.Auth_entity_assembly_ID_1
+      _Coupling_constant.Auth_seq_ID_1
+      _Coupling_constant.Auth_comp_ID_1
+      _Coupling_constant.Auth_atom_ID_1
+      _Coupling_constant.Auth_entity_assembly_ID_2
+      _Coupling_constant.Auth_seq_ID_2
+      _Coupling_constant.Auth_comp_ID_2
+      _Coupling_constant.Auth_atom_ID_2
+      _Coupling_constant.Details
+      _Coupling_constant.Entry_ID
+      _Coupling_constant.Coupling_constant_list_ID
+
+       1 DHN . 1 1  2  2 VAL H H 1 . . 1 1  2  2 VAL N N 15 . 1.79 . . 0.1 . . . . . . . . . . . 5877 1 
+       2 DHN . 1 1  3  3 ILE H H 1 . . 1 1  3  3 ILE N N 15 . 2.64 . . 0.1 . . . . . . . . . . . 5877 1 
+       3 DHN . 1 1  4  4 ASP H H 1 . . 1 1  4  4 ASP N N 15 . 3.09 . . 0.1 . . . . . . . . . . . 5877 1 
+       4 DHN . 1 1  5  5 THR H H 1 . . 1 1  5  5 THR N N 15 . 4.26 . . 0.1 . . . . . . . . . . . 5877 1 
+       5 DHN . 1 1  6  6 SER H H 1 . . 1 1  6  6 SER N N 15 . 6.69 . . 0.1 . . . . . . . . . . . 5877 1 
+       6 DHN . 1 1  7  7 ALA H H 1 . . 1 1  7  7 ALA N N 15 . 7.29 . . 0.1 . . . . . . . . . . . 5877 1 
+       7 DHN . 1 1  8  8 VAL H H 1 . . 1 1  8  8 VAL N N 15 . 4.63 . . 0.1 . . . . . . . . . . . 5877 1 
+       8 DHN . 1 1  9  9 GLU H H 1 . . 1 1  9  9 GLU N N 15 . 8.18 . . 0.1 . . . . . . . . . . . 5877 1 
+       9 DHN . 1 1 10 10 SER H H 1 . . 1 1 10 10 SER N N 15 . 9.38 . . 0.1 . . . . . . . . . . . 5877 1 
+      10 DHN . 1 1 11 11 ALA H H 1 . . 1 1 11 11 ALA N N 15 . 6.98 . . 0.1 . . . . . . . . . . . 5877 1 
+      11 DHN . 1 1 12 12 ILE H H 1 . . 1 1 12 12 ILE N N 15 . 4.22 . . 0.1 . . . . . . . . . . . 5877 1 
+      12 DHN . 1 1 13 13 THR H H 1 . . 1 1 13 13 THR N N 15 . 7.44 . . 0.1 . . . . . . . . . . . 5877 1 
+      13 DHN . 1 1 14 14 ASP H H 1 . . 1 1 14 14 ASP N N 15 . 9.49 . . 0.1 . . . . . . . . . . . 5877 1 
+      14 DHN . 1 1 17 17 GLY H H 1 . . 1 1 17 17 GLY N N 15 . 8.67 . . 0.1 . . . . . . . . . . . 5877 1 
+      15 DHN . 1 1 18 18 ASP H H 1 . . 1 1 18 18 ASP N N 15 . 9.38 . . 0.1 . . . . . . . . . . . 5877 1 
+      16 DHN . 1 1 19 19 MET H H 1 . . 1 1 19 19 MET N N 15 . 5.01 . . 0.1 . . . . . . . . . . . 5877 1 
+      17 DHN . 1 1 20 20 LYS H H 1 . . 1 1 20 20 LYS N N 15 . 5.52 . . 0.1 . . . . . . . . . . . 5877 1 
+      18 DHN . 1 1 21 21 ALA H H 1 . . 1 1 21 21 ALA N N 15 . 9.22 . . 0.1 . . . . . . . . . . . 5877 1 
+      19 DHN . 1 1 22 22 ILE H H 1 . . 1 1 22 22 ILE N N 15 . 7.56 . . 0.1 . . . . . . . . . . . 5877 1 
+      20 DHN . 1 1 23 23 GLY H H 1 . . 1 1 23 23 GLY N N 15 . 4.92 . . 0.1 . . . . . . . . . . . 5877 1 
+      21 DHN . 1 1 24 24 GLY H H 1 . . 1 1 24 24 GLY N N 15 . 7.05 . . 0.1 . . . . . . . . . . . 5877 1 
+      22 DHN . 1 1 25 25 TYR H H 1 . . 1 1 25 25 TYR N N 15 . 8.99 . . 0.1 . . . . . . . . . . . 5877 1 
+      23 DHN . 1 1 26 26 ILE H H 1 . . 1 1 26 26 ILE N N 15 . 5.99 . . 0.1 . . . . . . . . . . . 5877 1 
+      24 DHN . 1 1 27 27 VAL H H 1 . . 1 1 27 27 VAL N N 15 . 5.63 . . 0.1 . . . . . . . . . . . 5877 1 
+      25 DHN . 1 1 28 28 GLY H H 1 . . 1 1 28 28 GLY N N 15 . 8.67 . . 0.1 . . . . . . . . . . . 5877 1 
+      26 DHN . 1 1 29 29 ALA H H 1 . . 1 1 29 29 ALA N N 15 . 7.64 . . 0.1 . . . . . . . . . . . 5877 1 
+      27 DHN . 1 1 30 30 LEU H H 1 . . 1 1 30 30 LEU N N 15 . 6.11 . . 0.1 . . . . . . . . . . . 5877 1 
+      28 DHN . 1 1 31 31 VAL H H 1 . . 1 1 31 31 VAL N N 15 . 4.62 . . 0.1 . . . . . . . . . . . 5877 1 
+      29 DHN . 1 1 32 32 ILE H H 1 . . 1 1 32 32 ILE N N 15 . 9.18 . . 0.1 . . . . . . . . . . . 5877 1 
+      30 DHN . 1 1 33 33 LEU H H 1 . . 1 1 33 33 LEU N N 15 . 8.12 . . 0.1 . . . . . . . . . . . 5877 1 
+      31 DHN . 1 1 34 34 ALA H H 1 . . 1 1 34 34 ALA N N 15 . 5.4  . . 0.1 . . . . . . . . . . . 5877 1 
+      32 DHN . 1 1 35 35 VAL H H 1 . . 1 1 35 35 VAL N N 15 . 6.6  . . 0.1 . . . . . . . . . . . 5877 1 
+      33 DHN . 1 1 36 36 ALA H H 1 . . 1 1 36 36 ALA N N 15 . 9.73 . . 0.1 . . . . . . . . . . . 5877 1 
+      34 DHN . 1 1 37 37 GLY H H 1 . . 1 1 37 37 GLY N N 15 . 7.81 . . 0.1 . . . . . . . . . . . 5877 1 
+      35 DHN . 1 1 38 38 LEU H H 1 . . 1 1 38 38 LEU N N 15 . 5.19 . . 0.1 . . . . . . . . . . . 5877 1 
+      36 DHN . 1 1 39 39 ILE H H 1 . . 1 1 39 39 ILE N N 15 . 9    . . 0.1 . . . . . . . . . . . 5877 1 
+      37 DHN . 1 1 40 40 TYR H H 1 . . 1 1 40 40 TYR N N 15 . 9.25 . . 0.1 . . . . . . . . . . . 5877 1 
+      38 DHN . 1 1 41 41 SER H H 1 . . 1 1 41 41 SER N N 15 . 6.21 . . 0.1 . . . . . . . . . . . 5877 1 
+      39 DHN . 1 1 42 42 MET H H 1 . . 1 1 42 42 MET N N 15 . 6.06 . . 0.1 . . . . . . . . . . . 5877 1 
+      40 DHN . 1 1 43 43 LEU H H 1 . . 1 1 43 43 LEU N N 15 . 9.7  . . 0.1 . . . . . . . . . . . 5877 1 
+      41 DHN . 1 1 44 44 ARG H H 1 . . 1 1 44 44 ARG N N 15 . 6.29 . . 0.1 . . . . . . . . . . . 5877 1 
+      42 DHN . 1 1 45 45 LYS H H 1 . . 1 1 45 45 LYS N N 15 . 1.56 . . 0.1 . . . . . . . . . . . 5877 1 
+      43 DHN . 1 1 46 46 ALA H H 1 . . 1 1 46 46 ALA N N 15 . 4.43 . . 0.1 . . . . . . . . . . . 5877 1 
+
+   stop_
+
+save_
+

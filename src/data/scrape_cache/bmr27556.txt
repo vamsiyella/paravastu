@@ -1,0 +1,1585 @@
+data_27556
+
+
+#######################
+#  Entry information  #
+#######################
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             27556
+   _Entry.Title
+;
+NMR chemical shifts of horse heart cytochrome c bound to 1:1 (molar) TOCL/DOPC vesicles.
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2018-07-24
+   _Entry.Accession_date                 2018-07-24
+   _Entry.Last_release_date              2018-07-24
+   _Entry.Original_release_date          2018-07-24
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.0.16
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          .
+   _Entry.Generated_software_label       .
+   _Entry.Generated_date                 .
+   _Entry.DOI                            .
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        'Solid-state NMR chemical shifts of horse heart cytochrome c bound to 50 mol% TOCL and 50 mol% DOPC unilamellar vesicles.'
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Mingyue    Li              .   .      .   .   27556
+      2   Abhishek   Mandal          .   .      .   .   27556
+      3   Vladimir   Tyurin          .   .      .   .   27556
+      4   Maria      DeLucia         .   .      .   .   27556
+      5   Jinwoo     Ahn             .   .      .   .   27556
+      6   Valerian   Kagan           .   .      .   .   27556
+      7   Patrick    'van der Wel'   .   C.A.   .   .   27556
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   27556
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   152   27556
+      '15N chemical shifts'   50    27556
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      2   .   .   2019-05-30   2018-07-24   update     BMRB     'update entry citation'   27556
+      1   .   .   2019-03-07   2018-07-24   original   author   'original release'        27556
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     27556
+   _Citation.ID                           1
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          10.1016/j.str.2019.02.007
+   _Citation.PubMed_ID                    30879887
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Surface-Binding to Cardiolipin Nanodomains Triggers Cytochrome c Pro-apoptotic Peroxidase Activity via Localized Dynamics.
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               Structure
+   _Citation.Journal_name_full            'Structure (London, England : 1993)'
+   _Citation.Journal_volume               27
+   _Citation.Journal_issue                5
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 1878-4186
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   806
+   _Citation.Page_last                    815
+   _Citation.Year                         2019
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Mingyue    Li              .   .      .   .   27556   1
+      2   Abhishek   Mandal          .   .      .   .   27556   1
+      3   Vladimir   Tyurin          .   .      .   .   27556   1
+      4   Maria      DeLucia         .   .      .   .   27556   1
+      5   Jinwoo     Ahn             .   .      .   .   27556   1
+      6   Valerian   Kagan           .   .      .   .   27556   1
+      7   Patrick    'van der Wel'   .   C.A.   .   .   27556   1
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          27556
+   _Assembly.ID                                1
+   _Assembly.Name                              'horse heart cytochrome c'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              2
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                no
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      yes
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   protein   1   $horse_heart_cytochrome_c   A   .   yes   PA       no   no   .   .   .   27556   1
+      2   ligand    2   $entity_HEM                 A   .   no    native   no   no   .   .   .   27556   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+save_horse_heart_cytochrome_c
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      horse_heart_cytochrome_c
+   _Entity.Entry_ID                          27556
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              horse_heart_cytochrome_c
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+GDVEKGKKIFVQKCAQCHTV
+EKGGKHKTGPNLHGLFGRKT
+GQAPGFTYTDANKNKGITWK
+EETLMEYLENPKKYIPGTKM
+IFAGIKKKTEREDLIAYLKK
+ATNE
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                104
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      yes
+   _Entity.Thiol_state                       'all free'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+      1   yes   UNP   P00004   .   CYC_HORSE   .   .   .   .   .   .   .   .   .   .   .   .   .   .   27556   1
+   stop_
+
+   loop_
+      _Entity_biological_function.Biological_function
+      _Entity_biological_function.Entry_ID
+      _Entity_biological_function.Entity_ID
+
+      apoptosis              27556   1
+      'electron transport'   27556   1
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1     .   GLY   .   27556   1
+      2     .   ASP   .   27556   1
+      3     .   VAL   .   27556   1
+      4     .   GLU   .   27556   1
+      5     .   LYS   .   27556   1
+      6     .   GLY   .   27556   1
+      7     .   LYS   .   27556   1
+      8     .   LYS   .   27556   1
+      9     .   ILE   .   27556   1
+      10    .   PHE   .   27556   1
+      11    .   VAL   .   27556   1
+      12    .   GLN   .   27556   1
+      13    .   LYS   .   27556   1
+      14    .   CYS   .   27556   1
+      15    .   ALA   .   27556   1
+      16    .   GLN   .   27556   1
+      17    .   CYS   .   27556   1
+      18    .   HIS   .   27556   1
+      19    .   THR   .   27556   1
+      20    .   VAL   .   27556   1
+      21    .   GLU   .   27556   1
+      22    .   LYS   .   27556   1
+      23    .   GLY   .   27556   1
+      24    .   GLY   .   27556   1
+      25    .   LYS   .   27556   1
+      26    .   HIS   .   27556   1
+      27    .   LYS   .   27556   1
+      28    .   THR   .   27556   1
+      29    .   GLY   .   27556   1
+      30    .   PRO   .   27556   1
+      31    .   ASN   .   27556   1
+      32    .   LEU   .   27556   1
+      33    .   HIS   .   27556   1
+      34    .   GLY   .   27556   1
+      35    .   LEU   .   27556   1
+      36    .   PHE   .   27556   1
+      37    .   GLY   .   27556   1
+      38    .   ARG   .   27556   1
+      39    .   LYS   .   27556   1
+      40    .   THR   .   27556   1
+      41    .   GLY   .   27556   1
+      42    .   GLN   .   27556   1
+      43    .   ALA   .   27556   1
+      44    .   PRO   .   27556   1
+      45    .   GLY   .   27556   1
+      46    .   PHE   .   27556   1
+      47    .   THR   .   27556   1
+      48    .   TYR   .   27556   1
+      49    .   THR   .   27556   1
+      50    .   ASP   .   27556   1
+      51    .   ALA   .   27556   1
+      52    .   ASN   .   27556   1
+      53    .   LYS   .   27556   1
+      54    .   ASN   .   27556   1
+      55    .   LYS   .   27556   1
+      56    .   GLY   .   27556   1
+      57    .   ILE   .   27556   1
+      58    .   THR   .   27556   1
+      59    .   TRP   .   27556   1
+      60    .   LYS   .   27556   1
+      61    .   GLU   .   27556   1
+      62    .   GLU   .   27556   1
+      63    .   THR   .   27556   1
+      64    .   LEU   .   27556   1
+      65    .   MET   .   27556   1
+      66    .   GLU   .   27556   1
+      67    .   TYR   .   27556   1
+      68    .   LEU   .   27556   1
+      69    .   GLU   .   27556   1
+      70    .   ASN   .   27556   1
+      71    .   PRO   .   27556   1
+      72    .   LYS   .   27556   1
+      73    .   LYS   .   27556   1
+      74    .   TYR   .   27556   1
+      75    .   ILE   .   27556   1
+      76    .   PRO   .   27556   1
+      77    .   GLY   .   27556   1
+      78    .   THR   .   27556   1
+      79    .   LYS   .   27556   1
+      80    .   MET   .   27556   1
+      81    .   ILE   .   27556   1
+      82    .   PHE   .   27556   1
+      83    .   ALA   .   27556   1
+      84    .   GLY   .   27556   1
+      85    .   ILE   .   27556   1
+      86    .   LYS   .   27556   1
+      87    .   LYS   .   27556   1
+      88    .   LYS   .   27556   1
+      89    .   THR   .   27556   1
+      90    .   GLU   .   27556   1
+      91    .   ARG   .   27556   1
+      92    .   GLU   .   27556   1
+      93    .   ASP   .   27556   1
+      94    .   LEU   .   27556   1
+      95    .   ILE   .   27556   1
+      96    .   ALA   .   27556   1
+      97    .   TYR   .   27556   1
+      98    .   LEU   .   27556   1
+      99    .   LYS   .   27556   1
+      100   .   LYS   .   27556   1
+      101   .   ALA   .   27556   1
+      102   .   THR   .   27556   1
+      103   .   ASN   .   27556   1
+      104   .   GLU   .   27556   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   GLY   1     1     27556   1
+      .   ASP   2     2     27556   1
+      .   VAL   3     3     27556   1
+      .   GLU   4     4     27556   1
+      .   LYS   5     5     27556   1
+      .   GLY   6     6     27556   1
+      .   LYS   7     7     27556   1
+      .   LYS   8     8     27556   1
+      .   ILE   9     9     27556   1
+      .   PHE   10    10    27556   1
+      .   VAL   11    11    27556   1
+      .   GLN   12    12    27556   1
+      .   LYS   13    13    27556   1
+      .   CYS   14    14    27556   1
+      .   ALA   15    15    27556   1
+      .   GLN   16    16    27556   1
+      .   CYS   17    17    27556   1
+      .   HIS   18    18    27556   1
+      .   THR   19    19    27556   1
+      .   VAL   20    20    27556   1
+      .   GLU   21    21    27556   1
+      .   LYS   22    22    27556   1
+      .   GLY   23    23    27556   1
+      .   GLY   24    24    27556   1
+      .   LYS   25    25    27556   1
+      .   HIS   26    26    27556   1
+      .   LYS   27    27    27556   1
+      .   THR   28    28    27556   1
+      .   GLY   29    29    27556   1
+      .   PRO   30    30    27556   1
+      .   ASN   31    31    27556   1
+      .   LEU   32    32    27556   1
+      .   HIS   33    33    27556   1
+      .   GLY   34    34    27556   1
+      .   LEU   35    35    27556   1
+      .   PHE   36    36    27556   1
+      .   GLY   37    37    27556   1
+      .   ARG   38    38    27556   1
+      .   LYS   39    39    27556   1
+      .   THR   40    40    27556   1
+      .   GLY   41    41    27556   1
+      .   GLN   42    42    27556   1
+      .   ALA   43    43    27556   1
+      .   PRO   44    44    27556   1
+      .   GLY   45    45    27556   1
+      .   PHE   46    46    27556   1
+      .   THR   47    47    27556   1
+      .   TYR   48    48    27556   1
+      .   THR   49    49    27556   1
+      .   ASP   50    50    27556   1
+      .   ALA   51    51    27556   1
+      .   ASN   52    52    27556   1
+      .   LYS   53    53    27556   1
+      .   ASN   54    54    27556   1
+      .   LYS   55    55    27556   1
+      .   GLY   56    56    27556   1
+      .   ILE   57    57    27556   1
+      .   THR   58    58    27556   1
+      .   TRP   59    59    27556   1
+      .   LYS   60    60    27556   1
+      .   GLU   61    61    27556   1
+      .   GLU   62    62    27556   1
+      .   THR   63    63    27556   1
+      .   LEU   64    64    27556   1
+      .   MET   65    65    27556   1
+      .   GLU   66    66    27556   1
+      .   TYR   67    67    27556   1
+      .   LEU   68    68    27556   1
+      .   GLU   69    69    27556   1
+      .   ASN   70    70    27556   1
+      .   PRO   71    71    27556   1
+      .   LYS   72    72    27556   1
+      .   LYS   73    73    27556   1
+      .   TYR   74    74    27556   1
+      .   ILE   75    75    27556   1
+      .   PRO   76    76    27556   1
+      .   GLY   77    77    27556   1
+      .   THR   78    78    27556   1
+      .   LYS   79    79    27556   1
+      .   MET   80    80    27556   1
+      .   ILE   81    81    27556   1
+      .   PHE   82    82    27556   1
+      .   ALA   83    83    27556   1
+      .   GLY   84    84    27556   1
+      .   ILE   85    85    27556   1
+      .   LYS   86    86    27556   1
+      .   LYS   87    87    27556   1
+      .   LYS   88    88    27556   1
+      .   THR   89    89    27556   1
+      .   GLU   90    90    27556   1
+      .   ARG   91    91    27556   1
+      .   GLU   92    92    27556   1
+      .   ASP   93    93    27556   1
+      .   LEU   94    94    27556   1
+      .   ILE   95    95    27556   1
+      .   ALA   96    96    27556   1
+      .   TYR   97    97    27556   1
+      .   LEU   98    98    27556   1
+      .   LYS   99    99    27556   1
+      .   LYS   100   100   27556   1
+      .   ALA   101   101   27556   1
+      .   THR   102   102   27556   1
+      .   ASN   103   103   27556   1
+      .   GLU   104   104   27556   1
+   stop_
+save_
+
+save_entity_HEM
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_HEM
+   _Entity.Entry_ID                          27556
+   _Entity.ID                                2
+   _Entity.BMRB_code                         HEM
+   _Entity.Name                              'PROTOPORPHYRIN IX CONTAINING FE'
+   _Entity.Type                              non-polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      .
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code       .
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                HEM
+   _Entity.Nonpolymer_comp_label             $chem_comp_HEM
+   _Entity.Number_of_monomers                .
+   _Entity.Number_of_nonpolymer_components   1
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                       .
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    616.487
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      'PROTOPORPHYRIN IX CONTAINING FE'   BMRB   27556   2
+   stop_
+
+   loop_
+      _Entity_systematic_name.Name
+      _Entity_systematic_name.Naming_system
+      _Entity_systematic_name.Entry_ID
+      _Entity_systematic_name.Entity_ID
+
+      'PROTOPORPHYRIN IX CONTAINING FE'   BMRB                  27556   2
+      HEM                                 'Three letter code'   27556   2
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1   1   HEM   $chem_comp_HEM   27556   2
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       27556
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $horse_heart_cytochrome_c   .   562   organism   .   'Escherichia coli'   'E. coli'   .   .   Bacteria   .   Escherichia   coli   .   .   .   .   .   .   .   .   .   .   .   .   .   27556   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       27556
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $horse_heart_cytochrome_c   .   'recombinant technology'   'Escherichia coli'   .   .   .   Escherichia   coli   .   .   .   .   .   .   pETDuet   .   .   .   27556   1
+   stop_
+save_
+
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+save_chem_comp_HEM
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_HEM
+   _Chem_comp.Entry_ID                          27556
+   _Chem_comp.ID                                HEM
+   _Chem_comp.Provenance                        PDB
+   _Chem_comp.Name                              'PROTOPORPHYRIN IX CONTAINING FE'
+   _Chem_comp.Type                              NON-POLYMER
+   _Chem_comp.BMRB_code                         HEM
+   _Chem_comp.PDB_code                          HEM
+   _Chem_comp.Ambiguous_flag                    yes
+   _Chem_comp.Initial_date                      2016-01-20
+   _Chem_comp.Modified_date                     2016-01-20
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          MHM
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 HEM
+   _Chem_comp.Number_atoms_all                  75
+   _Chem_comp.Number_atoms_nh                   43
+   _Chem_comp.Atom_nomenclature_source          .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code
+;
+InChI=1S/C34H34N4O4.Fe/c1-7-21-17(3)25-13-26-19(5)23(9-11-33(39)40)31(37-26)16-32-24(10-12-34(41)42)20(6)28(38-32)15-30-22(8-2)18(4)27(36-30)14-29(21)35-25;/h7-8,13-16H,1-2,9-12H2,3-6H3,(H4,35,36,37,38,39,40,41,42);/q;+2/p-2/b25-13-,26-13-,27-14-,28-15-,29-14-,30-15-,31-16-,32-16-;
+;
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          HEME
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          yes
+   _Chem_comp.Formula                           'C34 H32 Fe N4 O4'
+   _Chem_comp.Formula_weight                    616.487
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         Corina
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         3IA3
+   _Chem_comp.Processing_site                   RCSB
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      C=1c3c(c(c4C=C5C(=C(C=6C=C7C(=C(C8=CC=2C(=C(C=1N=2[Fe](n34)(N5=6)N78)CCC(=O)O)C)\C=C)C)\C=C)C)C)CCC(=O)O   SMILES             ACDLabs                12.01   27556   HEM
+      CC1=C(CCC(O)=O)C2=Cc3n4[Fe]5|6|N2=C1C=c7n5c(=CC8=N|6C(=Cc4c(C)c3CCC(O)=O)C(=C8C=C)C)c(C)c7C=C              SMILES             CACTVS                 3.385   27556   HEM
+      CC1=C(CCC(O)=O)C2=Cc3n4[Fe]5|6|N2=C1C=c7n5c(=CC8=N|6C(=Cc4c(C)c3CCC(O)=O)C(=C8C=C)C)c(C)c7C=C              SMILES_CANONICAL   CACTVS                 3.385   27556   HEM
+      Cc1c2n3c(c1CCC(=O)O)C=C4C(=C(C5=[N]4[Fe]36[N]7=C(C=C8N6C(=C5)C(=C8C)C=C)C(=C(C7=C2)C)C=C)C)CCC(=O)O        SMILES             'OpenEye OEToolkits'   1.7.6   27556   HEM
+      Cc1c2n3c(c1CCC(=O)O)C=C4C(=C(C5=[N]4[Fe]36[N]7=C(C=C8N6C(=C5)C(=C8C)C=C)C(=C(C7=C2)C)C=C)C)CCC(=O)O        SMILES_CANONICAL   'OpenEye OEToolkits'   1.7.6   27556   HEM
+
+;
+InChI=1S/C34H34N4O4.Fe/c1-7-21-17(3)25-13-26-19(5)23(9-11-33(39)40)31(37-26)16-32-24(10-12-34(41)42)20(6)28(38-32)15-30-22(8-2)18(4)27(36-30)14-29(21)35-25;/h7-8,13-16H,1-2,9-12H2,3-6H3,(H4,35,36,37,38,39,40,41,42);/q;+2/p-2/b25-13-,26-13-,27-14-,28-15-,29-14-,30-15-,31-16-,32-16-;
+;
+                                                                                                                 InChI              InChI                  1.03    27556   HEM
+      KABFMIBPWCXCRK-RGGAHWMASA-L                                                                                InChIKey           InChI                  1.03    27556   HEM
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      '3-[(5Z,10Z,14Z,19Z)-18-(2-carboxyethyl)-8,13-bis(ethenyl)-3,7,12,17-tetramethyl-21,23-dihydroporphyrin-2-yl]propanoic acid'   'SYSTEMATIC NAME'   'OpenEye OEToolkits'   1.6.1   27556   HEM
+      [3,3'-(7,12-diethenyl-3,8,13,17-tetramethylporphyrin-2,18-diyl-kappa~4~N~21~,N~22~,N~23~,N~24~)dipropanoato(2-)]iron           'SYSTEMATIC NAME'   ACDLabs                12.01   27556   HEM
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      CHA    CHA    CHA    CHA    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   2.748    .   -19.531   .   39.896   .   -2.161   -0.125   0.490    1    .   27556   HEM
+      CHB    CHB    CHB    CHB    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   3.258    .   -17.744   .   35.477   .   1.458    -3.419   0.306    2    .   27556   HEM
+      CHC    CHC    CHC    CHC    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   1.703    .   -21.900   .   33.637   .   4.701    0.169    -0.069   3    .   27556   HEM
+      CHD    CHD    CHD    CHD    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   1.149    .   -23.677   .   38.059   .   1.075    3.460    0.018    4    .   27556   HEM
+      C1A    C1A    C1A    C1A    .   C    .   .   N   0   .   .   .   1   yes   no   .   .   .   .   3.031    .   -18.673   .   38.872   .   -1.436   -1.305   0.380    5    .   27556   HEM
+      C2A    C2A    C2A    C2A    .   C    .   .   N   0   .   .   .   1   yes   no   .   .   .   .   3.578    .   -17.325   .   39.013   .   -2.015   -2.587   0.320    6    .   27556   HEM
+      C3A    C3A    C3A    C3A    .   C    .   .   N   0   .   .   .   1   yes   no   .   .   .   .   3.705    .   -16.820   .   37.785   .   -1.009   -3.500   0.270    7    .   27556   HEM
+      C4A    C4A    C4A    C4A    .   C    .   .   N   0   .   .   .   1   yes   no   .   .   .   .   3.256    .   -17.863   .   36.862   .   0.216    -2.803   0.298    8    .   27556   HEM
+      CMA    CMA    CMA    CMA    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   4.227    .   -15.469   .   37.393   .   -1.175   -4.996   0.197    9    .   27556   HEM
+      CAA    CAA    CAA    CAA    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   3.945    .   -16.670   .   40.296   .   -3.490   -2.893   0.314    10   .   27556   HEM
+      CBA    CBA    CBA    CBA    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   5.391    .   -17.138   .   40.581   .   -3.998   -2.926   -1.129   11   .   27556   HEM
+      CGA    CGA    CGA    CGA    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   6.095    .   -16.663   .   41.825   .   -5.473   -3.232   -1.136   12   .   27556   HEM
+      O1A    O1A    O1A    O1A    .   O    .   .   N   0   .   .   .   1   no    no   .   .   .   .   7.098    .   -15.928   .   41.683   .   -6.059   -3.405   -0.094   13   .   27556   HEM
+      O2A    O2A    O2A    O2A    .   O    .   .   N   0   .   .   .   1   no    no   .   .   .   .   5.657    .   -17.040   .   42.940   .   -6.137   -3.311   -2.300   14   .   27556   HEM
+      C1B    C1B    C1B    C1B    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   2.888    .   -18.698   .   34.579   .   2.664    -2.707   0.308    15   .   27556   HEM
+      C2B    C2B    C2B    C2B    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   2.933    .   -18.535   .   33.146   .   3.937    -3.328   0.418    16   .   27556   HEM
+      C3B    C3B    C3B    C3B    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   2.499    .   -19.716   .   32.632   .   4.874    -2.341   0.314    17   .   27556   HEM
+      C4B    C4B    C4B    C4B    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   2.187    .   -20.580   .   33.743   .   4.117    -1.079   0.139    18   .   27556   HEM
+      CMB    CMB    CMB    CMB    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   3.391    .   -17.290   .   32.422   .   4.203    -4.798   0.613    19   .   27556   HEM
+      CAB    CAB    CAB    CAB    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   2.345    .   -20.140   .   31.217   .   6.339    -2.497   0.365    20   .   27556   HEM
+      CBB    CBB    CBB    CBB    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   1.755    .   -19.492   .   30.233   .   6.935    -3.419   -0.385   21   .   27556   HEM
+      C1C    C1C    C1C    C1C    .   C    .   .   N   0   .   .   .   1   yes   no   .   .   .   .   1.395    .   -22.786   .   34.659   .   3.964    1.345    -0.174   22   .   27556   HEM
+      C2C    C2C    C2C    C2C    .   C    .   .   N   0   .   .   .   1   yes   no   .   .   .   .   0.854    .   -24.130   .   34.500   .   4.531    2.601    -0.445   23   .   27556   HEM
+      C3C    C3C    C3C    C3C    .   C    .   .   N   0   .   .   .   1   yes   no   .   .   .   .   0.689    .   -24.626   .   35.757   .   3.510    3.536    -0.437   24   .   27556   HEM
+      C4C    C4C    C4C    C4C    .   C    .   .   N   0   .   .   .   1   yes   no   .   .   .   .   1.139    .   -23.583   .   36.674   .   2.304    2.846    -0.139   25   .   27556   HEM
+      CMC    CMC    CMC    CMC    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   0.550    .   -24.782   .   33.175   .   5.991    2.880    -0.697   26   .   27556   HEM
+      CAC    CAC    CAC    CAC    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   0.164    .   -25.943   .   36.196   .   3.649    4.981    -0.692   27   .   27556   HEM
+      CBC    CBC    CBC    CBC    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   0.498    .   -27.158   .   35.750   .   4.201    5.407    -1.823   28   .   27556   HEM
+      C1D    C1D    C1D    C1D    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   1.550    .   -22.718   .   38.980   .   -0.102   2.753    0.298    29   .   27556   HEM
+      C2D    C2D    C2D    C2D    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   1.513    .   -22.879   .   40.415   .   -1.382   3.388    0.641    30   .   27556   HEM
+      C3D    C3D    C3D    C3D    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   1.951    .   -21.691   .   40.929   .   -2.283   2.389    0.774    31   .   27556   HEM
+      C4D    C4D    C4D    C4D    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   2.277    .   -20.826   .   39.811   .   -1.561   1.137    0.511    32   .   27556   HEM
+      CMD    CMD    CMD    CMD    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   1.055    .   -24.094   .   41.156   .   -1.639   4.863    0.811    33   .   27556   HEM
+      CAD    CAD    CAD    CAD    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   2.048    .   -21.326   .   42.352   .   -3.741   2.532    1.123    34   .   27556   HEM
+      CBD    CBD    CBD    CBD    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   0.741    .   -20.498   .   42.530   .   -4.573   2.563    -0.160   35   .   27556   HEM
+      CGD    CGD    CGD    CGD    .   C    .   .   N   0   .   .   .   1   no    no   .   .   .   .   0.578    .   -19.987   .   43.892   .   -6.032   2.706    0.189    36   .   27556   HEM
+      O1D    O1D    O1D    O1D    .   O    .   .   N   0   .   .   .   1   no    no   .   .   .   .   1.387    .   -19.103   .   44.303   .   -6.372   2.776    1.347    37   .   27556   HEM
+      O2D    O2D    O2D    O2D    .   O    .   .   N   0   .   .   .   1   no    no   .   .   .   .   -0.401   .   -20.468   .   44.537   .   -6.954   2.755    -0.785   38   .   27556   HEM
+      NA     NA     NA     NA     .   N    .   .   N   0   .   .   .   1   yes   no   .   .   .   .   2.863    .   -18.969   .   37.554   .   -0.068   -1.456   0.321    39   .   27556   HEM
+      NB     NB     NB     NB     .   N    .   .   N   0   .   .   .   1   no    no   .   .   .   .   2.439    .   -19.944   .   34.911   .   2.820    -1.386   0.207    40   .   27556   HEM
+      NC     NC     NC     NC     .   N    .   .   N   0   .   .   .   1   yes   no   .   .   .   .   1.537    .   -22.509   .   35.976   .   2.604    1.506    -0.033   41   .   27556   HEM
+      ND     ND     ND     ND     .   N    .   .   N   0   .   .   .   1   no    no   .   .   .   .   2.008    .   -21.465   .   38.663   .   -0.276   1.431    0.298    42   .   27556   HEM
+      FE     FE     FE     FE     .   FE   .   .   N   0   .   .   .   0   no    no   .   .   .   .   2.196    .   -20.749   .   36.814   .   1.010    0.157    -0.060   43   .   27556   HEM
+      HHB    HHB    HHB    HHB    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   3.587    .   -16.798   .   35.072   .   1.498    -4.508   0.309    44   .   27556   HEM
+      HHC    HHC    HHC    HHC    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   1.553    .   -22.268   .   32.633   .   5.786    0.229    -0.153   45   .   27556   HEM
+      HHD    HHD    HHD    HHD    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   0.802    .   -24.613   .   38.472   .   1.018    4.543    -0.083   46   .   27556   HEM
+      HMA    HMA    HMA    HMA    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   5.316    .   -15.524   .   37.249   .   -1.220   -5.306   -0.847   47   .   27556   HEM
+      HMAA   HMAA   HMAA   HMAA   .   H    .   .   N   0   .   .   .   0   no    no   .   .   .   .   3.749    .   -15.149   .   36.455   .   -0.328   -5.480   0.683    48   .   27556   HEM
+      HMAB   HMAB   HMAB   HMAB   .   H    .   .   N   0   .   .   .   0   no    no   .   .   .   .   3.998    .   -14.743   .   38.187   .   -2.097   -5.285   0.702    49   .   27556   HEM
+      HAA    HAA    HAA    HAA    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   3.905    .   -15.575   .   40.197   .   -3.662   -3.862   0.782    50   .   27556   HEM
+      HAAA   HAAA   HAAA   HAAA   .   H    .   .   N   0   .   .   .   0   no    no   .   .   .   .   3.268    .   -16.991   .   41.102   .   -4.024   -2.121   0.869    51   .   27556   HEM
+      HBA    HBA    HBA    HBA    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   5.368    .   -18.237   .   40.627   .   -3.825   -1.956   -1.597   52   .   27556   HEM
+      HBAA   HBAA   HBAA   HBAA   .   H    .   .   N   0   .   .   .   0   no    no   .   .   .   .   6.004    .   -16.819   .   39.725   .   -3.464   -3.697   -1.684   53   .   27556   HEM
+      HMB    HMB    HMB    HMB    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   3.319    .   -17.449   .   31.336   .   3.256    -5.336   0.660    54   .   27556   HEM
+      HMBA   HMBA   HMBA   HMBA   .   H    .   .   N   0   .   .   .   0   no    no   .   .   .   .   2.753    .   -16.442   .   32.711   .   4.794    -5.175   -0.222   55   .   27556   HEM
+      HMBB   HMBB   HMBB   HMBB   .   H    .   .   N   0   .   .   .   0   no    no   .   .   .   .   4.435    .   -17.072   .   32.692   .   4.752    -4.948   1.543    56   .   27556   HEM
+      HAB    HAB    HAB    HAB    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   2.770    .   -21.100   .   30.963   .   6.927    -1.863   1.011    57   .   27556   HEM
+      HBB    HBB    HBB    HBB    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   1.719    .   -19.927   .   29.245   .   7.994    -3.600   -0.277   58   .   27556   HEM
+      HBBA   HBBA   HBBA   HBBA   .   H    .   .   N   0   .   .   .   0   no    no   .   .   .   .   1.308    .   -18.526   .   30.414   .   6.360    -3.987   -1.102   59   .   27556   HEM
+      HMC    HMC    HMC    HMC    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   0.153    .   -25.793   .   33.346   .   6.554    1.949    -0.639   60   .   27556   HEM
+      HMCA   HMCA   HMCA   HMCA   .   H    .   .   N   0   .   .   .   0   no    no   .   .   .   .   -0.196   .   -24.182   .   32.634   .   6.110    3.316    -1.689   61   .   27556   HEM
+      HMCB   HMCB   HMCB   HMCB   .   H    .   .   N   0   .   .   .   0   no    no   .   .   .   .   1.472    .   -24.846   .   32.578   .   6.362    3.578    0.053    62   .   27556   HEM
+      HAC    HAC    HAC    HAC    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   -0.583   .   -25.916   .   36.975   .   3.303    5.694    0.042    63   .   27556   HEM
+      HBC    HBC    HBC    HBC    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   0.027    .   -28.035   .   36.169   .   4.614    4.696    -2.523   64   .   27556   HEM
+      HBCA   HBCA   HBCA   HBCA   .   H    .   .   N   0   .   .   .   0   no    no   .   .   .   .   1.239    .   -27.263   .   34.971   .   4.235    6.464    -2.043   65   .   27556   HEM
+      HMD    HMD    HMD    HMD    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   1.142    .   -23.919   .   42.238   .   -0.715   5.415    0.639    66   .   27556   HEM
+      HMDA   HMDA   HMDA   HMDA   .   H    .   .   N   0   .   .   .   0   no    no   .   .   .   .   0.006    .   -24.304   .   40.902   .   -2.394   5.185    0.094    67   .   27556   HEM
+      HMDB   HMDB   HMDB   HMDB   .   H    .   .   N   0   .   .   .   0   no    no   .   .   .   .   1.680    .   -24.954   .   40.872   .   -1.994   5.055    1.824    68   .   27556   HEM
+      HAD    HAD    HAD    HAD    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   2.055    .   -22.216   .   42.999   .   -4.052   1.687    1.738    69   .   27556   HEM
+      HADA   HADA   HADA   HADA   .   H    .   .   N   0   .   .   .   0   no    no   .   .   .   .   2.943    .   -20.719   .   42.554   .   -3.893   3.459    1.677    70   .   27556   HEM
+      HBD    HBD    HBD    HBD    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   0.767    .   -19.646   .   41.835   .   -4.262   3.408    -0.775   71   .   27556   HEM
+      HBDA   HBDA   HBDA   HBDA   .   H    .   .   N   0   .   .   .   0   no    no   .   .   .   .   -0.119   .   -21.141   .   42.290   .   -4.421   1.636    -0.714   72   .   27556   HEM
+      H2A    H2A    H2A    H2A    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   6.201    .   -16.682   .   43.632   .   -7.082   -3.510   -2.254   73   .   27556   HEM
+      H2D    H2D    H2D    H2D    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   -0.445   .   -20.063   .   45.395   .   -7.877   2.847    -0.512   74   .   27556   HEM
+      HHA    HHA    HHA    HHA    .   H    .   .   N   0   .   .   .   1   no    no   .   .   .   .   2.913    .   -19.150   .   40.893   .   -3.246   -0.188   0.567    75   .   27556   HEM
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1    .   SING   CHA   C1A    no    N   1    .   27556   HEM
+      2    .   DOUB   CHA   C4D    no    N   2    .   27556   HEM
+      3    .   SING   CHA   HHA    no    N   3    .   27556   HEM
+      4    .   SING   CHB   C4A    no    N   4    .   27556   HEM
+      5    .   DOUB   CHB   C1B    no    N   5    .   27556   HEM
+      6    .   SING   CHB   HHB    no    N   6    .   27556   HEM
+      7    .   SING   CHC   C4B    no    N   7    .   27556   HEM
+      8    .   DOUB   CHC   C1C    no    N   8    .   27556   HEM
+      9    .   SING   CHC   HHC    no    N   9    .   27556   HEM
+      10   .   DOUB   CHD   C4C    no    N   10   .   27556   HEM
+      11   .   SING   CHD   C1D    no    N   11   .   27556   HEM
+      12   .   SING   CHD   HHD    no    N   12   .   27556   HEM
+      13   .   DOUB   C1A   C2A    yes   N   13   .   27556   HEM
+      14   .   SING   C1A   NA     yes   N   14   .   27556   HEM
+      15   .   SING   C2A   C3A    yes   N   15   .   27556   HEM
+      16   .   SING   C2A   CAA    no    N   16   .   27556   HEM
+      17   .   DOUB   C3A   C4A    yes   N   17   .   27556   HEM
+      18   .   SING   C3A   CMA    no    N   18   .   27556   HEM
+      19   .   SING   C4A   NA     yes   N   19   .   27556   HEM
+      20   .   SING   CMA   HMA    no    N   20   .   27556   HEM
+      21   .   SING   CMA   HMAA   no    N   21   .   27556   HEM
+      22   .   SING   CMA   HMAB   no    N   22   .   27556   HEM
+      23   .   SING   CAA   CBA    no    N   23   .   27556   HEM
+      24   .   SING   CAA   HAA    no    N   24   .   27556   HEM
+      25   .   SING   CAA   HAAA   no    N   25   .   27556   HEM
+      26   .   SING   CBA   CGA    no    N   26   .   27556   HEM
+      27   .   SING   CBA   HBA    no    N   27   .   27556   HEM
+      28   .   SING   CBA   HBAA   no    N   28   .   27556   HEM
+      29   .   DOUB   CGA   O1A    no    N   29   .   27556   HEM
+      30   .   SING   CGA   O2A    no    N   30   .   27556   HEM
+      31   .   SING   C1B   C2B    no    N   31   .   27556   HEM
+      32   .   SING   C1B   NB     no    N   32   .   27556   HEM
+      33   .   DOUB   C2B   C3B    no    N   33   .   27556   HEM
+      34   .   SING   C2B   CMB    no    N   34   .   27556   HEM
+      35   .   SING   C3B   C4B    no    N   35   .   27556   HEM
+      36   .   SING   C3B   CAB    no    N   36   .   27556   HEM
+      37   .   DOUB   C4B   NB     no    N   37   .   27556   HEM
+      38   .   SING   CMB   HMB    no    N   38   .   27556   HEM
+      39   .   SING   CMB   HMBA   no    N   39   .   27556   HEM
+      40   .   SING   CMB   HMBB   no    N   40   .   27556   HEM
+      41   .   DOUB   CAB   CBB    no    N   41   .   27556   HEM
+      42   .   SING   CAB   HAB    no    N   42   .   27556   HEM
+      43   .   SING   CBB   HBB    no    N   43   .   27556   HEM
+      44   .   SING   CBB   HBBA   no    N   44   .   27556   HEM
+      45   .   SING   C1C   C2C    yes   N   45   .   27556   HEM
+      46   .   SING   C1C   NC     yes   N   46   .   27556   HEM
+      47   .   DOUB   C2C   C3C    yes   N   47   .   27556   HEM
+      48   .   SING   C2C   CMC    no    N   48   .   27556   HEM
+      49   .   SING   C3C   C4C    yes   N   49   .   27556   HEM
+      50   .   SING   C3C   CAC    no    N   50   .   27556   HEM
+      51   .   SING   C4C   NC     yes   N   51   .   27556   HEM
+      52   .   SING   CMC   HMC    no    N   52   .   27556   HEM
+      53   .   SING   CMC   HMCA   no    N   53   .   27556   HEM
+      54   .   SING   CMC   HMCB   no    N   54   .   27556   HEM
+      55   .   DOUB   CAC   CBC    no    N   55   .   27556   HEM
+      56   .   SING   CAC   HAC    no    N   56   .   27556   HEM
+      57   .   SING   CBC   HBC    no    N   57   .   27556   HEM
+      58   .   SING   CBC   HBCA   no    N   58   .   27556   HEM
+      59   .   SING   C1D   C2D    no    N   59   .   27556   HEM
+      60   .   DOUB   C1D   ND     no    N   60   .   27556   HEM
+      61   .   DOUB   C2D   C3D    no    N   61   .   27556   HEM
+      62   .   SING   C2D   CMD    no    N   62   .   27556   HEM
+      63   .   SING   C3D   C4D    no    N   63   .   27556   HEM
+      64   .   SING   C3D   CAD    no    N   64   .   27556   HEM
+      65   .   SING   C4D   ND     no    N   65   .   27556   HEM
+      66   .   SING   CMD   HMD    no    N   66   .   27556   HEM
+      67   .   SING   CMD   HMDA   no    N   67   .   27556   HEM
+      68   .   SING   CMD   HMDB   no    N   68   .   27556   HEM
+      69   .   SING   CAD   CBD    no    N   69   .   27556   HEM
+      70   .   SING   CAD   HAD    no    N   70   .   27556   HEM
+      71   .   SING   CAD   HADA   no    N   71   .   27556   HEM
+      72   .   SING   CBD   CGD    no    N   72   .   27556   HEM
+      73   .   SING   CBD   HBD    no    N   73   .   27556   HEM
+      74   .   SING   CBD   HBDA   no    N   74   .   27556   HEM
+      75   .   DOUB   CGD   O1D    no    N   75   .   27556   HEM
+      76   .   SING   CGD   O2D    no    N   76   .   27556   HEM
+      77   .   SING   O2A   H2A    no    N   77   .   27556   HEM
+      78   .   SING   O2D   H2D    no    N   78   .   27556   HEM
+      79   .   SING   FE    NA     no    N   79   .   27556   HEM
+      80   .   SING   FE    NB     no    N   80   .   27556   HEM
+      81   .   SING   FE    NC     no    N   81   .   27556   HEM
+      82   .   SING   FE    ND     no    N   82   .   27556   HEM
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+save_ssNMR_sample
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     ssNMR_sample
+   _Sample.Entry_ID                         27556
+   _Sample.ID                               1
+   _Sample.Type                             liposome
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   'H2O buffer'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'horse heart cytochrome c'   '[U-99% 13C; U-99% 15N]'   .   .   1   $horse_heart_cytochrome_c   .   .   30   .   .   uL   .   .   .   .   27556   1
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       27556
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            7.4   .   pH    27556   1
+      pressure      1     .   atm   27556   1
+      temperature   252   .   K     27556   1
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+save_NMRPipe
+   _Software.Sf_category    software
+   _Software.Sf_framecode   NMRPipe
+   _Software.Entry_ID       27556
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           NMRPipe
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Delaglio, Grzesiek, Vuister, Zhu, Pfeifer and Bax'   .   .   27556   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      processing   27556   1
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         27556
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   750
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       27556
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1   spectrometer_1   Bruker   Avance   .   750   .   .   .   27556   1
+   stop_
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       27556
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   '2D DARR'    no   .   .   .   .   .   .   .   .   .   .   1   $ssNMR_sample   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   27556   1
+      2   '2D NCA'     no   .   .   .   .   .   .   .   .   .   .   1   $ssNMR_sample   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   27556   1
+      3   '3D NCACX'   no   .   .   .   .   .   .   .   .   .   .   1   $ssNMR_sample   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   27556   1
+      4   '3D NCOCX'   no   .   .   .   .   .   .   .   .   .   .   1   $ssNMR_sample   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   27556   1
+   stop_
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       27556
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na   indirect   0.251449530   .   .   .   .   .   27556   1
+      N   15   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na   indirect   0.101329118   .   .   .   .   .   27556   1
+   stop_
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      27556
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1   '2D DARR'    .   .   .   27556   1
+      2   '2D NCA'     .   .   .   27556   1
+      3   '3D NCACX'   .   .   .   27556   1
+      4   '3D NCOCX'   .   .   .   27556   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1     .   1   1   2     2     ASP   CA    C   13   52.7    0.4   .   1   .   .   .   .   .   2     ASP   CA    .   27556   1
+      2     .   1   1   2     2     ASP   N     N   15   124.6   0.5   .   1   .   .   .   .   .   2     ASP   N     .   27556   1
+      3     .   1   1   3     3     VAL   CA    C   13   66.2    0.4   .   1   .   .   .   .   .   3     VAL   CA    .   27556   1
+      4     .   1   1   3     3     VAL   N     N   15   124.1   0.5   .   1   .   .   .   .   .   3     VAL   N     .   27556   1
+      5     .   1   1   6     6     GLY   C     C   13   174.4   0.5   .   1   .   .   .   .   .   6     GLY   C     .   27556   1
+      6     .   1   1   6     6     GLY   CA    C   13   46.5    0.4   .   1   .   .   .   .   .   6     GLY   CA    .   27556   1
+      7     .   1   1   6     6     GLY   N     N   15   108.1   0.5   .   1   .   .   .   .   .   6     GLY   N     .   27556   1
+      8     .   1   1   9     9     ILE   C     C   13   177.1   0.4   .   1   .   .   .   .   .   9     ILE   C     .   27556   1
+      9     .   1   1   9     9     ILE   CA    C   13   64.4    0.4   .   1   .   .   .   .   .   9     ILE   CA    .   27556   1
+      10    .   1   1   9     9     ILE   CB    C   13   37.7    0.4   .   1   .   .   .   .   .   9     ILE   CB    .   27556   1
+      11    .   1   1   9     9     ILE   CG1   C   13   27.9    0.4   .   1   .   .   .   .   .   9     ILE   CG1   .   27556   1
+      12    .   1   1   9     9     ILE   CG2   C   13   18.2    0.4   .   1   .   .   .   .   .   9     ILE   CG2   .   27556   1
+      13    .   1   1   9     9     ILE   CD1   C   13   14.6    0.4   .   1   .   .   .   .   .   9     ILE   CD1   .   27556   1
+      14    .   1   1   9     9     ILE   N     N   15   119.7   0.5   .   1   .   .   .   .   .   9     ILE   N     .   27556   1
+      15    .   1   1   10    10    PHE   C     C   13   179.2   0.4   .   1   .   .   .   .   .   10    PHE   C     .   27556   1
+      16    .   1   1   10    10    PHE   CA    C   13   62.5    0.4   .   1   .   .   .   .   .   10    PHE   CA    .   27556   1
+      17    .   1   1   10    10    PHE   CB    C   13   39.9    0.4   .   1   .   .   .   .   .   10    PHE   CB    .   27556   1
+      18    .   1   1   10    10    PHE   N     N   15   121.1   0.5   .   1   .   .   .   .   .   10    PHE   N     .   27556   1
+      19    .   1   1   11    11    VAL   C     C   13   178.0   0.4   .   1   .   .   .   .   .   11    VAL   C     .   27556   1
+      20    .   1   1   11    11    VAL   CA    C   13   66.6    0.4   .   1   .   .   .   .   .   11    VAL   CA    .   27556   1
+      21    .   1   1   11    11    VAL   CB    C   13   32.4    0.4   .   1   .   .   .   .   .   11    VAL   CB    .   27556   1
+      22    .   1   1   11    11    VAL   CG1   C   13   23.5    0.4   .   1   .   .   .   .   .   11    VAL   CG1   .   27556   1
+      23    .   1   1   11    11    VAL   CG2   C   13   21.7    0.4   .   1   .   .   .   .   .   11    VAL   CG2   .   27556   1
+      24    .   1   1   11    11    VAL   N     N   15   122.6   0.5   .   1   .   .   .   .   .   11    VAL   N     .   27556   1
+      25    .   1   1   13    13    LYS   CA    C   13   57.0    0.4   .   1   .   .   .   .   .   13    LYS   CA    .   27556   1
+      26    .   1   1   13    13    LYS   N     N   15   112.1   0.5   .   1   .   .   .   .   .   13    LYS   N     .   27556   1
+      27    .   1   1   14    14    CYS   CA    C   13   54.6    0.4   .   1   .   .   .   .   .   14    CYS   CA    .   27556   1
+      28    .   1   1   14    14    CYS   N     N   15   115.3   0.5   .   1   .   .   .   .   .   14    CYS   N     .   27556   1
+      29    .   1   1   15    15    ALA   C     C   13   179.2   0.4   .   1   .   .   .   .   .   15    ALA   C     .   27556   1
+      30    .   1   1   15    15    ALA   CA    C   13   55.4    0.4   .   1   .   .   .   .   .   15    ALA   CA    .   27556   1
+      31    .   1   1   15    15    ALA   CB    C   13   20.8    0.4   .   1   .   .   .   .   .   15    ALA   CB    .   27556   1
+      32    .   1   1   15    15    ALA   N     N   15   124.5   0.5   .   1   .   .   .   .   .   15    ALA   N     .   27556   1
+      33    .   1   1   19    19    THR   C     C   13   176.8   0.4   .   1   .   .   .   .   .   19    THR   C     .   27556   1
+      34    .   1   1   19    19    THR   CA    C   13   61.3    0.4   .   1   .   .   .   .   .   19    THR   CA    .   27556   1
+      35    .   1   1   19    19    THR   CB    C   13   72.5    0.4   .   1   .   .   .   .   .   19    THR   CB    .   27556   1
+      36    .   1   1   19    19    THR   CG2   C   13   23.8    0.4   .   1   .   .   .   .   .   19    THR   CG2   .   27556   1
+      37    .   1   1   19    19    THR   N     N   15   115.7   0.5   .   1   .   .   .   .   .   19    THR   N     .   27556   1
+      38    .   1   1   20    20    VAL   C     C   13   179.0   0.4   .   1   .   .   .   .   .   20    VAL   C     .   27556   1
+      39    .   1   1   20    20    VAL   CA    C   13   62.3    0.4   .   1   .   .   .   .   .   20    VAL   CA    .   27556   1
+      40    .   1   1   20    20    VAL   CB    C   13   35.1    0.4   .   1   .   .   .   .   .   20    VAL   CB    .   27556   1
+      41    .   1   1   20    20    VAL   CG1   C   13   24.0    0.4   .   1   .   .   .   .   .   20    VAL   CG1   .   27556   1
+      42    .   1   1   20    20    VAL   CG2   C   13   18.8    0.4   .   1   .   .   .   .   .   20    VAL   CG2   .   27556   1
+      43    .   1   1   20    20    VAL   N     N   15   112.1   0.5   .   1   .   .   .   .   .   20    VAL   N     .   27556   1
+      44    .   1   1   23    23    GLY   C     C   13   175.1   0.4   .   1   .   .   .   .   .   23    GLY   C     .   27556   1
+      45    .   1   1   23    23    GLY   CA    C   13   45.7    0.4   .   1   .   .   .   .   .   23    GLY   CA    .   27556   1
+      46    .   1   1   23    23    GLY   N     N   15   118.8   0.5   .   1   .   .   .   .   .   23    GLY   N     .   27556   1
+      47    .   1   1   24    24    GLY   C     C   13   173.1   0.4   .   1   .   .   .   .   .   24    GLY   C     .   27556   1
+      48    .   1   1   24    24    GLY   CA    C   13   45.2    0.4   .   1   .   .   .   .   .   24    GLY   CA    .   27556   1
+      49    .   1   1   24    24    GLY   N     N   15   108.9   0.5   .   1   .   .   .   .   .   24    GLY   N     .   27556   1
+      50    .   1   1   27    27    LYS   CA    C   13   55.4    0.4   .   1   .   .   .   .   .   27    LYS   CA    .   27556   1
+      51    .   1   1   27    27    LYS   N     N   15   126.4   0.5   .   1   .   .   .   .   .   27    LYS   N     .   27556   1
+      52    .   1   1   31    31    ASN   CA    C   13   56.5    0.4   .   1   .   .   .   .   .   31    ASN   CA    .   27556   1
+      53    .   1   1   31    31    ASN   N     N   15   127.9   0.5   .   1   .   .   .   .   .   31    ASN   N     .   27556   1
+      54    .   1   1   34    34    GLY   C     C   13   174.3   0.4   .   1   .   .   .   .   .   34    GLY   C     .   27556   1
+      55    .   1   1   34    34    GLY   CA    C   13   46.2    0.4   .   1   .   .   .   .   .   34    GLY   CA    .   27556   1
+      56    .   1   1   34    34    GLY   N     N   15   115.4   0.5   .   1   .   .   .   .   .   34    GLY   N     .   27556   1
+      57    .   1   1   40    40    THR   C     C   13   176.9   0.4   .   1   .   .   .   .   .   40    THR   C     .   27556   1
+      58    .   1   1   40    40    THR   CA    C   13   61.3    0.4   .   1   .   .   .   .   .   40    THR   CA    .   27556   1
+      59    .   1   1   40    40    THR   CB    C   13   68.5    0.4   .   1   .   .   .   .   .   40    THR   CB    .   27556   1
+      60    .   1   1   40    40    THR   CG2   C   13   23.8    0.4   .   1   .   .   .   .   .   40    THR   CG2   .   27556   1
+      61    .   1   1   40    40    THR   N     N   15   108.7   0.5   .   1   .   .   .   .   .   40    THR   N     .   27556   1
+      62    .   1   1   41    41    GLY   C     C   13   175.0   0.4   .   1   .   .   .   .   .   41    GLY   C     .   27556   1
+      63    .   1   1   41    41    GLY   CA    C   13   45.6    0.4   .   1   .   .   .   .   .   41    GLY   CA    .   27556   1
+      64    .   1   1   41    41    GLY   N     N   15   109.5   0.5   .   1   .   .   .   .   .   41    GLY   N     .   27556   1
+      65    .   1   1   42    42    GLN   CA    C   13   54.5    0.4   .   1   .   .   .   .   .   42    GLN   CA    .   27556   1
+      66    .   1   1   42    42    GLN   N     N   15   113.2   0.5   .   1   .   .   .   .   .   42    GLN   N     .   27556   1
+      67    .   1   1   43    43    ALA   C     C   13   176.4   0.4   .   1   .   .   .   .   .   43    ALA   C     .   27556   1
+      68    .   1   1   43    43    ALA   CA    C   13   51.7    0.4   .   1   .   .   .   .   .   43    ALA   CA    .   27556   1
+      69    .   1   1   43    43    ALA   CB    C   13   18.9    0.4   .   1   .   .   .   .   .   43    ALA   CB    .   27556   1
+      70    .   1   1   43    43    ALA   N     N   15   126.0   0.5   .   1   .   .   .   .   .   43    ALA   N     .   27556   1
+      71    .   1   1   47    47    THR   C     C   13   171.1   0.4   .   1   .   .   .   .   .   47    THR   C     .   27556   1
+      72    .   1   1   47    47    THR   CA    C   13   61.0    0.4   .   1   .   .   .   .   .   47    THR   CA    .   27556   1
+      73    .   1   1   47    47    THR   CB    C   13   67.2    0.4   .   1   .   .   .   .   .   47    THR   CB    .   27556   1
+      74    .   1   1   47    47    THR   CG2   C   13   22.2    0.4   .   1   .   .   .   .   .   47    THR   CG2   .   27556   1
+      75    .   1   1   47    47    THR   N     N   15   124.3   0.5   .   1   .   .   .   .   .   47    THR   N     .   27556   1
+      76    .   1   1   48    48    TYR   C     C   13   178.6   0.4   .   1   .   .   .   .   .   48    TYR   C     .   27556   1
+      77    .   1   1   48    48    TYR   CA    C   13   57.6    0.4   .   1   .   .   .   .   .   48    TYR   CA    .   27556   1
+      78    .   1   1   48    48    TYR   CB    C   13   41.3    0.4   .   1   .   .   .   .   .   48    TYR   CB    .   27556   1
+      79    .   1   1   48    48    TYR   N     N   15   127.2   0.5   .   1   .   .   .   .   .   48    TYR   N     .   27556   1
+      80    .   1   1   49    49    THR   C     C   13   176.1   0.4   .   1   .   .   .   .   .   49    THR   C     .   27556   1
+      81    .   1   1   49    49    THR   CA    C   13   62.0    0.4   .   1   .   .   .   .   .   49    THR   CA    .   27556   1
+      82    .   1   1   49    49    THR   CB    C   13   70.9    0.4   .   1   .   .   .   .   .   49    THR   CB    .   27556   1
+      83    .   1   1   49    49    THR   CG2   C   13   22.4    0.4   .   1   .   .   .   .   .   49    THR   CG2   .   27556   1
+      84    .   1   1   49    49    THR   N     N   15   113.2   0.5   .   1   .   .   .   .   .   49    THR   N     .   27556   1
+      85    .   1   1   50    50    ASP   C     C   13   178.1   0.4   .   1   .   .   .   .   .   50    ASP   C     .   27556   1
+      86    .   1   1   50    50    ASP   CA    C   13   57.1    0.4   .   1   .   .   .   .   .   50    ASP   CA    .   27556   1
+      87    .   1   1   50    50    ASP   CB    C   13   40.6    0.4   .   1   .   .   .   .   .   50    ASP   CB    .   27556   1
+      88    .   1   1   50    50    ASP   N     N   15   123.4   0.5   .   1   .   .   .   .   .   50    ASP   N     .   27556   1
+      89    .   1   1   51    51    ALA   C     C   13   180.4   0.4   .   1   .   .   .   .   .   51    ALA   C     .   27556   1
+      90    .   1   1   51    51    ALA   CA    C   13   55.1    0.4   .   1   .   .   .   .   .   51    ALA   CA    .   27556   1
+      91    .   1   1   51    51    ALA   CB    C   13   19.2    0.4   .   1   .   .   .   .   .   51    ALA   CB    .   27556   1
+      92    .   1   1   51    51    ALA   N     N   15   120.1   0.5   .   1   .   .   .   .   .   51    ALA   N     .   27556   1
+      93    .   1   1   52    52    ASN   CA    C   13   55.1    0.4   .   1   .   .   .   .   .   52    ASN   CA    .   27556   1
+      94    .   1   1   52    52    ASN   N     N   15   117.8   0.5   .   1   .   .   .   .   .   52    ASN   N     .   27556   1
+      95    .   1   1   56    56    GLY   C     C   13   175.0   0.4   .   1   .   .   .   .   .   56    GLY   C     .   27556   1
+      96    .   1   1   56    56    GLY   CA    C   13   46.8    0.4   .   1   .   .   .   .   .   56    GLY   CA    .   27556   1
+      97    .   1   1   56    56    GLY   N     N   15   104.3   0.5   .   1   .   .   .   .   .   56    GLY   N     .   27556   1
+      98    .   1   1   59    59    TRP   CA    C   13   57.1    0.4   .   1   .   .   .   .   .   59    TRP   CA    .   27556   1
+      99    .   1   1   59    59    TRP   N     N   15   129.6   0.5   .   1   .   .   .   .   .   59    TRP   N     .   27556   1
+      100   .   1   1   63    63    THR   C     C   13   177.7   0.4   .   1   .   .   .   .   .   63    THR   C     .   27556   1
+      101   .   1   1   63    63    THR   CA    C   13   62.9    0.4   .   1   .   .   .   .   .   63    THR   CA    .   27556   1
+      102   .   1   1   63    63    THR   CB    C   13   68.9    0.4   .   1   .   .   .   .   .   63    THR   CB    .   27556   1
+      103   .   1   1   63    63    THR   CG2   C   13   24.6    0.4   .   1   .   .   .   .   .   63    THR   CG2   .   27556   1
+      104   .   1   1   63    63    THR   N     N   15   109.0   0.5   .   1   .   .   .   .   .   63    THR   N     .   27556   1
+      105   .   1   1   64    64    LEU   C     C   13   178.3   0.4   .   1   .   .   .   .   .   64    LEU   C     .   27556   1
+      106   .   1   1   64    64    LEU   CA    C   13   57.9    0.4   .   1   .   .   .   .   .   64    LEU   CA    .   27556   1
+      107   .   1   1   64    64    LEU   CB    C   13   42.0    0.4   .   1   .   .   .   .   .   64    LEU   CB    .   27556   1
+      108   .   1   1   64    64    LEU   CG    C   13   27.3    0.4   .   1   .   .   .   .   .   64    LEU   CG    .   27556   1
+      109   .   1   1   64    64    LEU   CD1   C   13   26.3    0.4   .   1   .   .   .   .   .   64    LEU   CD1   .   27556   1
+      110   .   1   1   64    64    LEU   CD2   C   13   23.0    0.4   .   1   .   .   .   .   .   64    LEU   CD2   .   27556   1
+      111   .   1   1   64    64    LEU   N     N   15   122.1   0.5   .   1   .   .   .   .   .   64    LEU   N     .   27556   1
+      112   .   1   1   68    68    LEU   CA    C   13   55.5    0.4   .   1   .   .   .   .   .   68    LEU   CA    .   27556   1
+      113   .   1   1   68    68    LEU   N     N   15   111.1   0.5   .   1   .   .   .   .   .   68    LEU   N     .   27556   1
+      114   .   1   1   70    70    ASN   CA    C   13   52.5    0.4   .   1   .   .   .   .   .   70    ASN   CA    .   27556   1
+      115   .   1   1   70    70    ASN   N     N   15   104.9   0.5   .   1   .   .   .   .   .   70    ASN   N     .   27556   1
+      116   .   1   1   74    74    TYR   C     C   13   176.9   0.4   .   1   .   .   .   .   .   74    TYR   C     .   27556   1
+      117   .   1   1   74    74    TYR   CA    C   13   61.3    0.4   .   1   .   .   .   .   .   74    TYR   CA    .   27556   1
+      118   .   1   1   74    74    TYR   CB    C   13   40.8    0.4   .   1   .   .   .   .   .   74    TYR   CB    .   27556   1
+      119   .   1   1   74    74    TYR   N     N   15   121.9   0.5   .   1   .   .   .   .   .   74    TYR   N     .   27556   1
+      120   .   1   1   75    75    ILE   C     C   13   171.3   0.4   .   1   .   .   .   .   .   75    ILE   C     .   27556   1
+      121   .   1   1   75    75    ILE   CA    C   13   59.7    0.4   .   1   .   .   .   .   .   75    ILE   CA    .   27556   1
+      122   .   1   1   75    75    ILE   CB    C   13   38.6    0.4   .   1   .   .   .   .   .   75    ILE   CB    .   27556   1
+      123   .   1   1   75    75    ILE   CG1   C   13   28.9    0.4   .   1   .   .   .   .   .   75    ILE   CG1   .   27556   1
+      124   .   1   1   75    75    ILE   CG2   C   13   19.4    0.4   .   1   .   .   .   .   .   75    ILE   CG2   .   27556   1
+      125   .   1   1   75    75    ILE   CD1   C   13   13.8    0.4   .   1   .   .   .   .   .   75    ILE   CD1   .   27556   1
+      126   .   1   1   75    75    ILE   N     N   15   115.6   0.5   .   1   .   .   .   .   .   75    ILE   N     .   27556   1
+      127   .   1   1   76    76    PRO   C     C   13   179.5   0.4   .   1   .   .   .   .   .   76    PRO   C     .   27556   1
+      128   .   1   1   76    76    PRO   CA    C   13   63.3    0.4   .   1   .   .   .   .   .   76    PRO   CA    .   27556   1
+      129   .   1   1   76    76    PRO   CB    C   13   32.3    0.4   .   1   .   .   .   .   .   76    PRO   CB    .   27556   1
+      130   .   1   1   76    76    PRO   CG    C   13   28.3    0.4   .   1   .   .   .   .   .   76    PRO   CG    .   27556   1
+      131   .   1   1   76    76    PRO   CD    C   13   51.2    0.4   .   1   .   .   .   .   .   76    PRO   CD    .   27556   1
+      132   .   1   1   77    77    GLY   C     C   13   176.7   0.4   .   1   .   .   .   .   .   77    GLY   C     .   27556   1
+      133   .   1   1   77    77    GLY   CA    C   13   45.0    0.4   .   1   .   .   .   .   .   77    GLY   CA    .   27556   1
+      134   .   1   1   77    77    GLY   N     N   15   112.9   0.5   .   1   .   .   .   .   .   77    GLY   N     .   27556   1
+      135   .   1   1   78    78    THR   C     C   13   173.8   0.4   .   1   .   .   .   .   .   78    THR   C     .   27556   1
+      136   .   1   1   78    78    THR   CA    C   13   62.0    0.4   .   1   .   .   .   .   .   78    THR   CA    .   27556   1
+      137   .   1   1   78    78    THR   CB    C   13   70.9    0.4   .   1   .   .   .   .   .   78    THR   CB    .   27556   1
+      138   .   1   1   78    78    THR   CG2   C   13   22.7    0.4   .   1   .   .   .   .   .   78    THR   CG2   .   27556   1
+      139   .   1   1   78    78    THR   N     N   15   115.2   0.5   .   1   .   .   .   .   .   78    THR   N     .   27556   1
+      140   .   1   1   81    81    ILE   CA    C   13   61.2    0.4   .   1   .   .   .   .   .   81    ILE   CA    .   27556   1
+      141   .   1   1   81    81    ILE   CB    C   13   35.5    0.4   .   1   .   .   .   .   .   81    ILE   CB    .   27556   1
+      142   .   1   1   81    81    ILE   CG1   C   13   26.9    0.4   .   1   .   .   .   .   .   81    ILE   CG1   .   27556   1
+      143   .   1   1   81    81    ILE   CG2   C   13   18.0    0.4   .   1   .   .   .   .   .   81    ILE   CG2   .   27556   1
+      144   .   1   1   81    81    ILE   CD1   C   13   11.4    0.4   .   1   .   .   .   .   .   81    ILE   CD1   .   27556   1
+      145   .   1   1   81    81    ILE   N     N   15   137.4   0.5   .   1   .   .   .   .   .   81    ILE   N     .   27556   1
+      146   .   1   1   82    82    PHE   CA    C   13   60.0    0.4   .   1   .   .   .   .   .   82    PHE   CA    .   27556   1
+      147   .   1   1   82    82    PHE   N     N   15   127.2   0.5   .   1   .   .   .   .   .   82    PHE   N     .   27556   1
+      148   .   1   1   83    83    ALA   C     C   13   177.5   0.4   .   1   .   .   .   .   .   83    ALA   C     .   27556   1
+      149   .   1   1   83    83    ALA   CA    C   13   55.3    0.4   .   1   .   .   .   .   .   83    ALA   CA    .   27556   1
+      150   .   1   1   83    83    ALA   CB    C   13   19.6    0.4   .   1   .   .   .   .   .   83    ALA   CB    .   27556   1
+      151   .   1   1   84    84    GLY   C     C   13   171.9   0.4   .   1   .   .   .   .   .   84    GLY   C     .   27556   1
+      152   .   1   1   84    84    GLY   CA    C   13   43.0    0.4   .   1   .   .   .   .   .   84    GLY   CA    .   27556   1
+      153   .   1   1   84    84    GLY   N     N   15   100.7   0.5   .   1   .   .   .   .   .   84    GLY   N     .   27556   1
+      154   .   1   1   85    85    ILE   CA    C   13   59.1    0.4   .   1   .   .   .   .   .   85    ILE   CA    .   27556   1
+      155   .   1   1   85    85    ILE   CB    C   13   40.3    0.4   .   1   .   .   .   .   .   85    ILE   CB    .   27556   1
+      156   .   1   1   85    85    ILE   CG1   C   13   26.4    0.4   .   1   .   .   .   .   .   85    ILE   CG1   .   27556   1
+      157   .   1   1   85    85    ILE   CG2   C   13   18.2    0.4   .   1   .   .   .   .   .   85    ILE   CG2   .   27556   1
+      158   .   1   1   85    85    ILE   CD1   C   13   13.7    0.4   .   1   .   .   .   .   .   85    ILE   CD1   .   27556   1
+      159   .   1   1   85    85    ILE   N     N   15   121.1   0.5   .   1   .   .   .   .   .   85    ILE   N     .   27556   1
+      160   .   1   1   89    89    THR   CA    C   13   65.2    0.4   .   1   .   .   .   .   .   89    THR   CA    .   27556   1
+      161   .   1   1   89    89    THR   CB    C   13   68.1    0.4   .   1   .   .   .   .   .   89    THR   CB    .   27556   1
+      162   .   1   1   89    89    THR   CG2   C   13   22.8    0.4   .   1   .   .   .   .   .   89    THR   CG2   .   27556   1
+      163   .   1   1   89    89    THR   N     N   15   111.2   0.5   .   1   .   .   .   .   .   89    THR   N     .   27556   1
+      164   .   1   1   90    90    GLU   C     C   13   178.7   0.4   .   1   .   .   .   .   .   90    GLU   C     .   27556   1
+      165   .   1   1   90    90    GLU   CA    C   13   59.3    0.4   .   1   .   .   .   .   .   90    GLU   CA    .   27556   1
+      166   .   1   1   90    90    GLU   CB    C   13   30.5    0.4   .   1   .   .   .   .   .   90    GLU   CB    .   27556   1
+      167   .   1   1   90    90    GLU   CG    C   13   37.7    0.4   .   1   .   .   .   .   .   90    GLU   CG    .   27556   1
+      168   .   1   1   90    90    GLU   N     N   15   118.2   0.5   .   1   .   .   .   .   .   90    GLU   N     .   27556   1
+      169   .   1   1   91    91    ARG   C     C   13   177.6   0.4   .   1   .   .   .   .   .   91    ARG   C     .   27556   1
+      170   .   1   1   91    91    ARG   CA    C   13   61.2    0.4   .   1   .   .   .   .   .   91    ARG   CA    .   27556   1
+      171   .   1   1   91    91    ARG   CB    C   13   30.9    0.4   .   1   .   .   .   .   .   91    ARG   CB    .   27556   1
+      172   .   1   1   91    91    ARG   N     N   15   117.4   0.5   .   1   .   .   .   .   .   91    ARG   N     .   27556   1
+      173   .   1   1   92    92    GLU   C     C   13   180.4   0.4   .   1   .   .   .   .   .   92    GLU   C     .   27556   1
+      174   .   1   1   92    92    GLU   CA    C   13   59.3    0.4   .   1   .   .   .   .   .   92    GLU   CA    .   27556   1
+      175   .   1   1   92    92    GLU   CB    C   13   29.5    0.4   .   1   .   .   .   .   .   92    GLU   CB    .   27556   1
+      176   .   1   1   92    92    GLU   N     N   15   117.3   0.5   .   1   .   .   .   .   .   92    GLU   N     .   27556   1
+      177   .   1   1   93    93    ASP   C     C   13   177.6   0.4   .   1   .   .   .   .   .   93    ASP   C     .   27556   1
+      178   .   1   1   93    93    ASP   CA    C   13   57.9    0.4   .   1   .   .   .   .   .   93    ASP   CA    .   27556   1
+      179   .   1   1   93    93    ASP   CB    C   13   39.3    0.4   .   1   .   .   .   .   .   93    ASP   CB    .   27556   1
+      180   .   1   1   93    93    ASP   N     N   15   123.8   0.5   .   1   .   .   .   .   .   93    ASP   N     .   27556   1
+      181   .   1   1   94    94    LEU   C     C   13   178.4   0.4   .   1   .   .   .   .   .   94    LEU   C     .   27556   1
+      182   .   1   1   94    94    LEU   CA    C   13   57.8    0.4   .   1   .   .   .   .   .   94    LEU   CA    .   27556   1
+      183   .   1   1   94    94    LEU   CB    C   13   41.0    0.4   .   1   .   .   .   .   .   94    LEU   CB    .   27556   1
+      184   .   1   1   94    94    LEU   CG    C   13   27.2    0.4   .   1   .   .   .   .   .   94    LEU   CG    .   27556   1
+      185   .   1   1   94    94    LEU   CD1   C   13   26.8    0.4   .   1   .   .   .   .   .   94    LEU   CD1   .   27556   1
+      186   .   1   1   94    94    LEU   CD2   C   13   23.0    0.4   .   1   .   .   .   .   .   94    LEU   CD2   .   27556   1
+      187   .   1   1   94    94    LEU   N     N   15   121.0   0.5   .   1   .   .   .   .   .   94    LEU   N     .   27556   1
+      188   .   1   1   95    95    ILE   C     C   13   176.4   0.4   .   1   .   .   .   .   .   95    ILE   C     .   27556   1
+      189   .   1   1   95    95    ILE   CA    C   13   66.0    0.4   .   1   .   .   .   .   .   95    ILE   CA    .   27556   1
+      190   .   1   1   95    95    ILE   CB    C   13   37.5    0.4   .   1   .   .   .   .   .   95    ILE   CB    .   27556   1
+      191   .   1   1   95    95    ILE   CG1   C   13   31.8    0.4   .   1   .   .   .   .   .   95    ILE   CG1   .   27556   1
+      192   .   1   1   95    95    ILE   CG2   C   13   17.9    0.4   .   1   .   .   .   .   .   95    ILE   CG2   .   27556   1
+      193   .   1   1   95    95    ILE   CD1   C   13   14.6    0.4   .   1   .   .   .   .   .   95    ILE   CD1   .   27556   1
+      194   .   1   1   95    95    ILE   N     N   15   119.4   0.5   .   1   .   .   .   .   .   95    ILE   N     .   27556   1
+      195   .   1   1   96    96    ALA   C     C   13   181.1   0.4   .   1   .   .   .   .   .   96    ALA   C     .   27556   1
+      196   .   1   1   96    96    ALA   CA    C   13   54.8    0.4   .   1   .   .   .   .   .   96    ALA   CA    .   27556   1
+      197   .   1   1   96    96    ALA   CB    C   13   17.6    0.4   .   1   .   .   .   .   .   96    ALA   CB    .   27556   1
+      198   .   1   1   96    96    ALA   N     N   15   123.0   0.5   .   1   .   .   .   .   .   96    ALA   N     .   27556   1
+      199   .   1   1   102   102   THR   CA    C   13   62.4    0.4   .   1   .   .   .   .   .   102   THR   CA    .   27556   1
+      200   .   1   1   102   102   THR   N     N   15   102.6   0.5   .   1   .   .   .   .   .   102   THR   N     .   27556   1
+      201   .   1   1   103   103   ASN   CA    C   13   52.6    0.4   .   1   .   .   .   .   .   103   ASN   CA    .   27556   1
+      202   .   1   1   103   103   ASN   N     N   15   118.0   0.5   .   1   .   .   .   .   .   103   ASN   N     .   27556   1
+   stop_
+save_
+

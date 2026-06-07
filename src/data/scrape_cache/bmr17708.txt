@@ -1,0 +1,981 @@
+data_17708
+
+#######################
+#  Entry information  #
+#######################
+
+
+save_entry_information
+  _Entry.Sf_category                   entry_information
+  _Entry.Sf_framecode                  entry_information
+  _Entry.ID                            17708
+  _Entry.Title                         
+;
+Solution-state structures of monomeric and dimeric G-quadruplexes adopted by a sequence from N-myc
+;
+  _Entry.Type                          macromolecule
+  _Entry.Version_type                  original
+  _Entry.Submission_date               2011-06-15
+  _Entry.Accession_date                2011-06-15
+  _Entry.Last_release_date             2012-03-09
+  _Entry.Original_release_date         2012-03-09
+  _Entry.Origination                   author
+  _Entry.NMR_STAR_version              3.1.1.61
+  _Entry.Original_NMR_STAR_version     3.1
+  _Entry.Experimental_method           NMR
+  _Entry.Experimental_method_subtype   SOLID-STATE
+  _Entry.Details                       .
+  _Entry.BMRB_internal_directory_name  .
+
+  loop_
+    _Entry_author.Ordinal
+    _Entry_author.Given_name
+    _Entry_author.Family_name
+    _Entry_author.First_initial
+    _Entry_author.Middle_initials
+    _Entry_author.Family_title
+    _Entry_author.Entry_ID
+
+    1    Marko     Trajkovski        .   .   .   17708    
+    2    Janez     Plavec            .   .   .   17708    
+    3    Mateus    'Webba da Silva'  .   .   .   17708    
+  stop_
+
+  loop_
+    _SG_project.SG_project_ID
+    _SG_project.Project_name
+    _SG_project.Full_name_of_center
+    _SG_project.Initial_of_center
+    _SG_project.Entry_ID
+
+    1    'not applicable'  'not applicable'  .   17708    
+  stop_
+
+  loop_
+    _Struct_keywords.Keywords
+    _Struct_keywords.Text
+    _Struct_keywords.Entry_ID
+
+    dimeric         .   17708    
+    DNA             .   17708    
+    G-quadruplex    .   17708    
+    monomeric       .   17708    
+    N-myc           .   17708    
+    promoter        .   17708    
+  stop_
+
+  loop_
+    _Data_set.Type
+    _Data_set.Count
+    _Data_set.Entry_ID
+
+    assigned_chemical_shifts    1    17708    
+  stop_
+
+  loop_
+    _Datum.Type
+    _Datum.Count
+    _Datum.Entry_ID
+
+    '1H chemical shifts'  130    17708    
+  stop_
+
+  loop_
+    _Release.Release_number
+    _Release.Format_type
+    _Release.Format_version
+    _Release.Date
+    _Release.Submission_date
+    _Release.Type
+    _Release.Author
+    _Release.Detail
+    _Release.Entry_ID
+
+    1    .   .   2012-03-09    2011-06-15    original    author    .   17708    
+  stop_
+
+  loop_
+    _Related_entries.Database_name
+    _Related_entries.Database_accession_code
+    _Related_entries.Relationship
+    _Related_entries.Entry_ID
+
+    BMRB    17709    'Solution-state structures of monomeric and dimeric G-quadruplexes formed by a sequence from N-myc'  17708    
+    PDB     2LED     'BMRB Entry Tracking System'                                                                         17708    
+  stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+
+save_entry_citation
+  _Citation.Sf_category                 citations
+  _Citation.Sf_framecode                entry_citation
+  _Citation.Entry_ID                    17708
+  _Citation.ID                          1
+  _Citation.Class                       'entry citation'
+  _Citation.CAS_abstract_code           .
+  _Citation.MEDLINE_UI_code             .
+  _Citation.DOI                         .
+  _Citation.PubMed_ID                   22303871
+  _Citation.Full_citation               .
+  _Citation.Title                       'Unique Structural Features of Interconverting Monomeric and Dimeric G-Quadruplexes Adopted by a Sequence from the Intron of the N-myc Gene.'
+  _Citation.Status                      published
+  _Citation.Type                        journal
+  _Citation.Journal_abbrev              'J. Am. Chem. Soc.'
+  _Citation.Journal_name_full           'Journal of the American Chemical Society'
+  _Citation.Journal_volume              134
+  _Citation.Journal_issue               9
+  _Citation.Journal_ASTM                .
+  _Citation.Journal_ISSN                .
+  _Citation.Journal_CSD                 .
+  _Citation.Book_title                  .
+  _Citation.Book_chapter_title          .
+  _Citation.Book_volume                 .
+  _Citation.Book_series                 .
+  _Citation.Book_publisher              .
+  _Citation.Book_publisher_city         .
+  _Citation.Book_ISBN                   .
+  _Citation.Conference_title            .
+  _Citation.Conference_site             .
+  _Citation.Conference_state_province   .
+  _Citation.Conference_country          .
+  _Citation.Conference_start_date       .
+  _Citation.Conference_end_date         .
+  _Citation.Conference_abstract_number  .
+  _Citation.Thesis_institution          .
+  _Citation.Thesis_institution_city     .
+  _Citation.Thesis_institution_country  .
+  _Citation.WWW_URL                     .
+  _Citation.Page_first                  4132
+  _Citation.Page_last                   4141
+  _Citation.Year                        2012
+  _Citation.Details                     .
+
+  loop_
+    _Citation_author.Ordinal
+    _Citation_author.Given_name
+    _Citation_author.Family_name
+    _Citation_author.First_initial
+    _Citation_author.Middle_initials
+    _Citation_author.Family_title
+    _Citation_author.Entry_ID
+    _Citation_author.Citation_ID
+
+    1    Marko     Trajkovski        .   .   .   17708    1    
+    2    Mateus    'Webba da Silva'  .   .   .   17708    1    
+    3    Janez     Plavec            .   .   .   17708    1    
+  stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+
+save_assembly
+  _Assembly.Sf_category                      assembly
+  _Assembly.Sf_framecode                     assembly
+  _Assembly.Entry_ID                         17708
+  _Assembly.ID                               1
+  _Assembly.Name                             N-myc
+  _Assembly.BMRB_code                        .
+  _Assembly.Number_of_components             2
+  _Assembly.Organic_ligands                  .
+  _Assembly.Metal_ions                       .
+  _Assembly.Non_standard_bonds               .
+  _Assembly.Ambiguous_conformational_states  .
+  _Assembly.Ambiguous_chem_comp_sites        .
+  _Assembly.Molecules_in_chemical_exchange   .
+  _Assembly.Paramagnetic                     no
+  _Assembly.Thiol_state                      .
+  _Assembly.Molecular_mass                   .
+  _Assembly.Enzyme_commission_number         .
+  _Assembly.Details                          .
+  _Assembly.DB_query_date                    .
+  _Assembly.DB_query_revised_last_date       .
+
+  loop_
+    _Entity_assembly.ID
+    _Entity_assembly.Entity_assembly_name
+    _Entity_assembly.Entity_ID
+    _Entity_assembly.Entity_label
+    _Entity_assembly.Asym_ID
+    _Entity_assembly.PDB_chain_ID
+    _Entity_assembly.Experimental_data_reported
+    _Entity_assembly.Physical_state
+    _Entity_assembly.Conformational_isomer
+    _Entity_assembly.Chemical_exchange_state
+    _Entity_assembly.Magnetic_equivalence_group_code
+    _Entity_assembly.Role
+    _Entity_assembly.Details
+    _Entity_assembly.Entry_ID
+    _Entity_assembly.Assembly_ID
+
+    1    'N-myc, chain a'  1    $N-myc   A    .   yes    native    no    no    .   .   .   17708    1    
+    2    'N-myc, chain b'  1    $N-myc   B    .   yes    native    no    no    .   .   .   17708    1    
+  stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+
+save_N-myc
+  _Entity.Sf_category                      entity
+  _Entity.Sf_framecode                     N-myc
+  _Entity.Entry_ID                         17708
+  _Entity.ID                               1
+  _Entity.BMRB_code                        .
+  _Entity.Name                             N-myc
+  _Entity.Type                             polymer
+  _Entity.Polymer_common_type              .
+  _Entity.Polymer_type                     polydeoxyribonucleotide
+  _Entity.Polymer_type_details             .
+  _Entity.Polymer_strand_ID                a,b
+  _Entity.Polymer_seq_one_letter_code_can  .
+  _Entity.Polymer_seq_one_letter_code      TAGGGCGGGAGGGAGGGAA
+  _Entity.Target_identifier                .
+  _Entity.Polymer_author_defined_seq       .
+  _Entity.Polymer_author_seq_details       .
+  _Entity.Ambiguous_conformational_states  no
+  _Entity.Ambiguous_chem_comp_sites        no
+  _Entity.Nstd_monomer                     no
+  _Entity.Nstd_chirality                   no
+  _Entity.Nstd_linkage                     no
+  _Entity.Nonpolymer_comp_ID               .
+  _Entity.Nonpolymer_comp_label            .
+  _Entity.Number_of_monomers               19
+  _Entity.Number_of_nonpolymer_components  .
+  _Entity.Paramagnetic                     no
+  _Entity.Thiol_state                      'not present'
+  _Entity.Src_method                       syn
+  _Entity.Parent_entity_ID                 .
+  _Entity.Fragment                         .
+  _Entity.Mutation                         .
+  _Entity.EC_number                        .
+  _Entity.Calc_isoelectric_point           .
+  _Entity.Formula_weight                   6064.968
+  _Entity.Formula_weight_exptl             .
+  _Entity.Formula_weight_exptl_meth        .
+  _Entity.Details                          .
+  _Entity.DB_query_date                    .
+  _Entity.DB_query_revised_last_date       .
+
+  loop_
+    _Entity_comp_index.ID
+    _Entity_comp_index.Auth_seq_ID
+    _Entity_comp_index.Comp_ID
+    _Entity_comp_index.Comp_label
+    _Entity_comp_index.Entry_ID
+    _Entity_comp_index.Entity_ID
+
+    1     .   DT    .   17708    1    
+    2     .   DA    .   17708    1    
+    3     .   DG    .   17708    1    
+    4     .   DG    .   17708    1    
+    5     .   DG    .   17708    1    
+    6     .   DC    .   17708    1    
+    7     .   DG    .   17708    1    
+    8     .   DG    .   17708    1    
+    9     .   DG    .   17708    1    
+    10    .   DA    .   17708    1    
+    11    .   DG    .   17708    1    
+    12    .   DG    .   17708    1    
+    13    .   DG    .   17708    1    
+    14    .   DA    .   17708    1    
+    15    .   DG    .   17708    1    
+    16    .   DG    .   17708    1    
+    17    .   DG    .   17708    1    
+    18    .   DA    .   17708    1    
+    19    .   DA    .   17708    1    
+  stop_
+
+  loop_
+    _Entity_poly_seq.Hetero
+    _Entity_poly_seq.Mon_ID
+    _Entity_poly_seq.Num
+    _Entity_poly_seq.Comp_index_ID
+    _Entity_poly_seq.Entry_ID
+    _Entity_poly_seq.Entity_ID
+
+    .   DT    1     1     17708    1    
+    .   DA    2     2     17708    1    
+    .   DG    3     3     17708    1    
+    .   DG    4     4     17708    1    
+    .   DG    5     5     17708    1    
+    .   DC    6     6     17708    1    
+    .   DG    7     7     17708    1    
+    .   DG    8     8     17708    1    
+    .   DG    9     9     17708    1    
+    .   DA    10    10    17708    1    
+    .   DG    11    11    17708    1    
+    .   DG    12    12    17708    1    
+    .   DG    13    13    17708    1    
+    .   DA    14    14    17708    1    
+    .   DG    15    15    17708    1    
+    .   DG    16    16    17708    1    
+    .   DG    17    17    17708    1    
+    .   DA    18    18    17708    1    
+    .   DA    19    19    17708    1    
+  stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+
+save_natural_source
+  _Entity_natural_src_list.Sf_category   natural_source
+  _Entity_natural_src_list.Sf_framecode  natural_source
+  _Entity_natural_src_list.Entry_ID      17708
+  _Entity_natural_src_list.ID            1
+
+  loop_
+    _Entity_natural_src.ID
+    _Entity_natural_src.Entity_ID
+    _Entity_natural_src.Entity_label
+    _Entity_natural_src.Entity_chimera_segment_ID
+    _Entity_natural_src.NCBI_taxonomy_ID
+    _Entity_natural_src.Type
+    _Entity_natural_src.Common
+    _Entity_natural_src.Organism_name_scientific
+    _Entity_natural_src.Organism_name_common
+    _Entity_natural_src.Organism_acronym
+    _Entity_natural_src.ICTVdb_decimal_code
+    _Entity_natural_src.Superkingdom
+    _Entity_natural_src.Kingdom
+    _Entity_natural_src.Genus
+    _Entity_natural_src.Species
+    _Entity_natural_src.Strain
+    _Entity_natural_src.Variant
+    _Entity_natural_src.Subvariant
+    _Entity_natural_src.Organ
+    _Entity_natural_src.Tissue
+    _Entity_natural_src.Tissue_fraction
+    _Entity_natural_src.Cell_line
+    _Entity_natural_src.Cell_type
+    _Entity_natural_src.ATCC_number
+    _Entity_natural_src.Organelle
+    _Entity_natural_src.Cellular_location
+    _Entity_natural_src.Fragment
+    _Entity_natural_src.Fraction
+    _Entity_natural_src.Secretion
+    _Entity_natural_src.Plasmid
+    _Entity_natural_src.Plasmid_details
+    _Entity_natural_src.Gene_mnemonic
+    _Entity_natural_src.Dev_stage
+    _Entity_natural_src.Details
+    _Entity_natural_src.Citation_ID
+    _Entity_natural_src.Citation_label
+    _Entity_natural_src.Entry_ID
+    _Entity_natural_src.Entity_natural_src_list_ID
+
+    1    1    $N-myc   .   9606    organism    .   'Homo sapiens'  humans    .   .   Eukaryota    Metazoa    Homo    sapiens    .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   N-myc    .   .   .   .   17708    1    
+  stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+
+save_experimental_source
+  _Entity_experimental_src_list.Sf_category   experimental_source
+  _Entity_experimental_src_list.Sf_framecode  experimental_source
+  _Entity_experimental_src_list.Entry_ID      17708
+  _Entity_experimental_src_list.ID            1
+
+  loop_
+    _Entity_experimental_src.ID
+    _Entity_experimental_src.Entity_ID
+    _Entity_experimental_src.Entity_label
+    _Entity_experimental_src.Entity_chimera_segment_ID
+    _Entity_experimental_src.Production_method
+    _Entity_experimental_src.Host_org_scientific_name
+    _Entity_experimental_src.Host_org_name_common
+    _Entity_experimental_src.Host_org_details
+    _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+    _Entity_experimental_src.Host_org_genus
+    _Entity_experimental_src.Host_org_species
+    _Entity_experimental_src.Host_org_strain
+    _Entity_experimental_src.Host_org_variant
+    _Entity_experimental_src.Host_org_subvariant
+    _Entity_experimental_src.Host_org_organ
+    _Entity_experimental_src.Host_org_tissue
+    _Entity_experimental_src.Host_org_tissue_fraction
+    _Entity_experimental_src.Host_org_cell_line
+    _Entity_experimental_src.Host_org_cell_type
+    _Entity_experimental_src.Host_org_cellular_location
+    _Entity_experimental_src.Host_org_organelle
+    _Entity_experimental_src.Host_org_gene
+    _Entity_experimental_src.Host_org_culture_collection
+    _Entity_experimental_src.Host_org_ATCC_number
+    _Entity_experimental_src.Vector_type
+    _Entity_experimental_src.PDBview_host_org_vector_name
+    _Entity_experimental_src.PDBview_plasmid_name
+    _Entity_experimental_src.Vector_name
+    _Entity_experimental_src.Vector_details
+    _Entity_experimental_src.Vendor_name
+    _Entity_experimental_src.Host_org_dev_stage
+    _Entity_experimental_src.Details
+    _Entity_experimental_src.Citation_ID
+    _Entity_experimental_src.Citation_label
+    _Entity_experimental_src.Entry_ID
+    _Entity_experimental_src.Entity_experimental_src_list_ID
+
+    1    1    $N-myc   .   'chemical synthesis'  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   17708    1    
+  stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+
+save_sample_1
+  _Sample.Sf_category                     sample
+  _Sample.Sf_framecode                    sample_1
+  _Sample.Entry_ID                        17708
+  _Sample.ID                              1
+  _Sample.Type                            solution
+  _Sample.Sub_type                        .
+  _Sample.Details                         .
+  _Sample.Aggregate_sample_number         .
+  _Sample.Solvent_system                  '90% H2O/10% D2O'
+  _Sample.Preparation_date                .
+  _Sample.Preparation_expiration_date     .
+  _Sample.Polycrystallization_protocol    .
+  _Sample.Single_crystal_protocol         .
+  _Sample.Crystal_grow_apparatus          .
+  _Sample.Crystal_grow_atmosphere         .
+  _Sample.Crystal_grow_details            .
+  _Sample.Crystal_grow_method             .
+  _Sample.Crystal_grow_method_cit_ID      .
+  _Sample.Crystal_grow_pH                 .
+  _Sample.Crystal_grow_pH_range           .
+  _Sample.Crystal_grow_pressure           .
+  _Sample.Crystal_grow_pressure_esd       .
+  _Sample.Crystal_grow_seeding            .
+  _Sample.Crystal_grow_seeding_cit_ID     .
+  _Sample.Crystal_grow_temp               .
+  _Sample.Crystal_grow_temp_details       .
+  _Sample.Crystal_grow_temp_esd           .
+  _Sample.Crystal_grow_time               .
+  _Sample.Oriented_sample_prep_protocol   .
+  _Sample.Lyophilization_cryo_protectant  .
+  _Sample.Storage_protocol                .
+
+  loop_
+    _Sample_component.ID
+    _Sample_component.Mol_common_name
+    _Sample_component.Isotopic_labeling
+    _Sample_component.Assembly_ID
+    _Sample_component.Assembly_label
+    _Sample_component.Entity_ID
+    _Sample_component.Entity_label
+    _Sample_component.Product_ID
+    _Sample_component.Type
+    _Sample_component.Concentration_val
+    _Sample_component.Concentration_val_min
+    _Sample_component.Concentration_val_max
+    _Sample_component.Concentration_val_units
+    _Sample_component.Concentration_val_err
+    _Sample_component.Vendor
+    _Sample_component.Vendor_product_name
+    _Sample_component.Vendor_product_code
+    _Sample_component.Entry_ID
+    _Sample_component.Sample_ID
+
+    1    N-myc    'natural abundance'  .   .   1    $N-myc   .   .   .     0.4    6.6    mM    .   .   .   .   17708    1    
+    2    D2O      'natural abundance'  .   .   .    .        .   .   10    .      .      %     .   .   .   .   17708    1    
+    3    H2O      'natural abundance'  .   .   .    .        .   .   90    .      .      %     .   .   .   .   17708    1    
+  stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+
+save_sample_conditions_1
+  _Sample_condition_list.Sf_category   sample_conditions
+  _Sample_condition_list.Sf_framecode  sample_conditions_1
+  _Sample_condition_list.Entry_ID      17708
+  _Sample_condition_list.ID            1
+  _Sample_condition_list.Details       .
+
+  loop_
+    _Sample_condition_variable.Type
+    _Sample_condition_variable.Val
+    _Sample_condition_variable.Val_err
+    _Sample_condition_variable.Val_units
+    _Sample_condition_variable.Entry_ID
+    _Sample_condition_variable.Sample_condition_list_ID
+
+    'ionic strength'  120       .   mM     17708    1    
+    pH                6.5       .   pH     17708    1    
+    pressure          1         .   atm    17708    1    
+    temperature       298.15    .   K      17708    1    
+  stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+
+save_AMBER
+  _Software.Sf_category   software
+  _Software.Sf_framecode  AMBER
+  _Software.Entry_ID      17708
+  _Software.ID            1
+  _Software.Name          AMBER
+  _Software.Version       9
+  _Software.Details       .
+
+  loop_
+    _Vendor.Name
+    _Vendor.Address
+    _Vendor.Electronic_address
+    _Vendor.Entry_ID
+    _Vendor.Software_ID
+
+    'Case, Darden, Cheatham, III, Simmerling, Wang, Duke, Luo, ... and Kollm'  .   .   17708    1    
+  stop_
+
+  loop_
+    _Task.Task
+    _Task.Entry_ID
+    _Task.Software_ID
+
+    'structure solution'  17708    1    
+  stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+
+save_spectrometer_1
+  _NMR_spectrometer.Sf_category     NMR_spectrometer
+  _NMR_spectrometer.Sf_framecode    spectrometer_1
+  _NMR_spectrometer.Entry_ID        17708
+  _NMR_spectrometer.ID              1
+  _NMR_spectrometer.Details         .
+  _NMR_spectrometer.Manufacturer    Varian
+  _NMR_spectrometer.Model           VNMRS
+  _NMR_spectrometer.Serial_number   .
+  _NMR_spectrometer.Field_strength  800
+
+save_
+
+save_spectrometer_2
+  _NMR_spectrometer.Sf_category     NMR_spectrometer
+  _NMR_spectrometer.Sf_framecode    spectrometer_2
+  _NMR_spectrometer.Entry_ID        17708
+  _NMR_spectrometer.ID              2
+  _NMR_spectrometer.Details         .
+  _NMR_spectrometer.Manufacturer    Varian
+  _NMR_spectrometer.Model           VNMRS
+  _NMR_spectrometer.Serial_number   .
+  _NMR_spectrometer.Field_strength  600
+
+save_
+
+save_NMR_spectrometer_list
+  _NMR_spectrometer_list.Sf_category   NMR_spectrometer_list
+  _NMR_spectrometer_list.Sf_framecode  NMR_spectrometer_list
+  _NMR_spectrometer_list.Entry_ID      17708
+  _NMR_spectrometer_list.ID            1
+
+  loop_
+    _NMR_spectrometer_view.ID
+    _NMR_spectrometer_view.Name
+    _NMR_spectrometer_view.Manufacturer
+    _NMR_spectrometer_view.Model
+    _NMR_spectrometer_view.Serial_number
+    _NMR_spectrometer_view.Field_strength
+    _NMR_spectrometer_view.Details
+    _NMR_spectrometer_view.Citation_ID
+    _NMR_spectrometer_view.Citation_label
+    _NMR_spectrometer_view.Entry_ID
+    _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+    1    spectrometer_1    Varian    VNMRS    .   800    .   .   .   17708    1    
+    2    spectrometer_2    Varian    VNMRS    .   600    .   .   .   17708    1    
+  stop_
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+
+save_experiment_list
+  _Experiment_list.Sf_category   experiment_list
+  _Experiment_list.Sf_framecode  experiment_list
+  _Experiment_list.Entry_ID      17708
+  _Experiment_list.ID            1
+  _Experiment_list.Details       .
+
+  loop_
+    _Experiment.ID
+    _Experiment.Name
+    _Experiment.Raw_data_flag
+    _Experiment.NMR_spec_expt_ID
+    _Experiment.NMR_spec_expt_label
+    _Experiment.MS_expt_ID
+    _Experiment.MS_expt_label
+    _Experiment.SAXS_expt_ID
+    _Experiment.SAXS_expt_label
+    _Experiment.FRET_expt_ID
+    _Experiment.FRET_expt_label
+    _Experiment.EMR_expt_ID
+    _Experiment.EMR_expt_label
+    _Experiment.Sample_ID
+    _Experiment.Sample_label
+    _Experiment.Sample_state
+    _Experiment.Sample_volume
+    _Experiment.Sample_volume_units
+    _Experiment.Sample_condition_list_ID
+    _Experiment.Sample_condition_list_label
+    _Experiment.Sample_spinning_rate
+    _Experiment.Sample_angle
+    _Experiment.NMR_tube_type
+    _Experiment.NMR_spectrometer_ID
+    _Experiment.NMR_spectrometer_label
+    _Experiment.NMR_spectrometer_probe_ID
+    _Experiment.NMR_spectrometer_probe_label
+    _Experiment.NMR_spectral_processing_ID
+    _Experiment.NMR_spectral_processing_label
+    _Experiment.Mass_spectrometer_ID
+    _Experiment.Mass_spectrometer_label
+    _Experiment.Xray_instrument_ID
+    _Experiment.Xray_instrument_label
+    _Experiment.Fluorescence_instrument_ID
+    _Experiment.Fluorescence_instrument_label
+    _Experiment.EMR_instrument_ID
+    _Experiment.EMR_instrument_label
+    _Experiment.Chromatographic_system_ID
+    _Experiment.Chromatographic_system_label
+    _Experiment.Chromatographic_column_ID
+    _Experiment.Chromatographic_column_label
+    _Experiment.Entry_ID
+    _Experiment.Experiment_list_ID
+
+    1    '2D 1H-1H NOESY'  no    .   .   .   .   .   .   .   .   .   .   1    $sample_1   isotropic    .   .   1    $sample_conditions_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   17708    1    
+    2    '2D 1H-15N HSQC'  no    .   .   .   .   .   .   .   .   .   .   1    $sample_1   isotropic    .   .   1    $sample_conditions_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   17708    1    
+    3    '2D 1H-1H TOCSY'  no    .   .   .   .   .   .   .   .   .   .   1    $sample_1   isotropic    .   .   1    $sample_conditions_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   17708    1    
+    4    JRHMBC            no    .   .   .   .   .   .   .   .   .   .   1    $sample_1   isotropic    .   .   1    $sample_conditions_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   17708    1    
+  stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+
+save_chemical_shift_reference_1
+  _Chem_shift_reference.Sf_category   chem_shift_reference
+  _Chem_shift_reference.Sf_framecode  chemical_shift_reference_1
+  _Chem_shift_reference.Entry_ID      17708
+  _Chem_shift_reference.ID            1
+  _Chem_shift_reference.Details       .
+
+  loop_
+    _Chem_shift_ref.Atom_type
+    _Chem_shift_ref.Atom_isotope_number
+    _Chem_shift_ref.Mol_common_name
+    _Chem_shift_ref.Atom_group
+    _Chem_shift_ref.Concentration_val
+    _Chem_shift_ref.Concentration_units
+    _Chem_shift_ref.Solvent
+    _Chem_shift_ref.Rank
+    _Chem_shift_ref.Chem_shift_units
+    _Chem_shift_ref.Chem_shift_val
+    _Chem_shift_ref.Ref_method
+    _Chem_shift_ref.Ref_type
+    _Chem_shift_ref.Indirect_shift_ratio
+    _Chem_shift_ref.External_ref_loc
+    _Chem_shift_ref.External_ref_sample_geometry
+    _Chem_shift_ref.External_ref_axis
+    _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+    _Chem_shift_ref.Indirect_shift_ratio_cit_label
+    _Chem_shift_ref.Ref_correction_type
+    _Chem_shift_ref.Correction_val
+    _Chem_shift_ref.Correction_val_cit_ID
+    _Chem_shift_ref.Correction_val_cit_label
+    _Chem_shift_ref.Entry_ID
+    _Chem_shift_ref.Chem_shift_reference_ID
+
+    H    1    DSS    'methyl protons'  .   .   .   .   ppm    0    external    direct    1.0    .   .   .   .   .   .   .   .   .   17708    1    
+  stop_
+
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_assigned_chem_shift_list_1
+  _Assigned_chem_shift_list.Sf_category                  assigned_chemical_shifts
+  _Assigned_chem_shift_list.Sf_framecode                 assigned_chem_shift_list_1
+  _Assigned_chem_shift_list.Entry_ID                     17708
+  _Assigned_chem_shift_list.ID                           1
+  _Assigned_chem_shift_list.Sample_condition_list_ID     1
+  _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+  _Assigned_chem_shift_list.Chem_shift_reference_ID      1
+  _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+  _Assigned_chem_shift_list.Chem_shift_1H_err            .
+  _Assigned_chem_shift_list.Chem_shift_13C_err           .
+  _Assigned_chem_shift_list.Chem_shift_15N_err           .
+  _Assigned_chem_shift_list.Chem_shift_31P_err           .
+  _Assigned_chem_shift_list.Chem_shift_2H_err            .
+  _Assigned_chem_shift_list.Chem_shift_19F_err           .
+  _Assigned_chem_shift_list.Error_derivation_method      .
+  _Assigned_chem_shift_list.Details                      .
+  _Assigned_chem_shift_list.Text_data_format             .
+  _Assigned_chem_shift_list.Text_data                    .
+
+  loop_
+    _Chem_shift_experiment.Experiment_ID
+    _Chem_shift_experiment.Experiment_name
+    _Chem_shift_experiment.Sample_ID
+    _Chem_shift_experiment.Sample_label
+    _Chem_shift_experiment.Sample_state
+    _Chem_shift_experiment.Entry_ID
+    _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+    1    '2D 1H-1H NOESY'  .   .   .   17708    1    
+    2    '2D 1H-15N HSQC'  .   .   .   17708    1    
+    3    '2D 1H-1H TOCSY'  .   .   .   17708    1    
+    4    JRHMBC            .   .   .   17708    1    
+  stop_
+
+  loop_
+    _Atom_chem_shift.ID
+    _Atom_chem_shift.Assembly_atom_ID
+    _Atom_chem_shift.Entity_assembly_ID
+    _Atom_chem_shift.Entity_ID
+    _Atom_chem_shift.Comp_index_ID
+    _Atom_chem_shift.Seq_ID
+    _Atom_chem_shift.Comp_ID
+    _Atom_chem_shift.Atom_ID
+    _Atom_chem_shift.Atom_type
+    _Atom_chem_shift.Atom_isotope_number
+    _Atom_chem_shift.Val
+    _Atom_chem_shift.Val_err
+    _Atom_chem_shift.Assign_fig_of_merit
+    _Atom_chem_shift.Ambiguity_code
+    _Atom_chem_shift.Occupancy
+    _Atom_chem_shift.Resonance_ID
+    _Atom_chem_shift.Auth_entity_assembly_ID
+    _Atom_chem_shift.Auth_asym_ID
+    _Atom_chem_shift.Auth_seq_ID
+    _Atom_chem_shift.Auth_comp_ID
+    _Atom_chem_shift.Auth_atom_ID
+    _Atom_chem_shift.Details
+    _Atom_chem_shift.Entry_ID
+    _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+    1      .   1    1    1     1     DT    H1'     H    1    5.808     0.003    .   1    .   .   .   A    1     DT    H1'     .   17708    1    
+    2      .   1    1    1     1     DT    H2'     H    1    1.690     0.000    .   1    .   .   .   A    1     DT    H2'     .   17708    1    
+    3      .   1    1    1     1     DT    H2''    H    1    2.078     0.014    .   1    .   .   .   A    1     DT    H2''    .   17708    1    
+    4      .   1    1    1     1     DT    H3'     H    1    4.430     0.003    .   1    .   .   .   A    1     DT    H3'     .   17708    1    
+    5      .   1    1    1     1     DT    H4'     H    1    3.761     0.005    .   1    .   .   .   A    1     DT    H4'     .   17708    1    
+    6      .   1    1    1     1     DT    H5'     H    1    3.414     0.001    .   2    .   .   .   A    1     DT    H5'     .   17708    1    
+    7      .   1    1    1     1     DT    H5''    H    1    3.371     0.061    .   2    .   .   .   A    1     DT    H5''    .   17708    1    
+    8      .   1    1    1     1     DT    H6      H    1    7.090     0.001    .   1    .   .   .   A    1     DT    H6      .   17708    1    
+    9      .   1    1    1     1     DT    H71     H    1    1.482     0.010    .   1    .   .   .   A    1     DT    H71     .   17708    1    
+    10     .   1    1    1     1     DT    H72     H    1    1.482     0.010    .   1    .   .   .   A    1     DT    H72     .   17708    1    
+    11     .   1    1    1     1     DT    H73     H    1    1.482     0.010    .   1    .   .   .   A    1     DT    H73     .   17708    1    
+    12     .   1    1    2     2     DA    H1'     H    1    5.770     0.001    .   1    .   .   .   A    2     DA    H1'     .   17708    1    
+    13     .   1    1    2     2     DA    H2      H    1    7.783     0.000    .   1    .   .   .   A    2     DA    H2      .   17708    1    
+    14     .   1    1    2     2     DA    H2'     H    1    2.441     0.000    .   1    .   .   .   A    2     DA    H2'     .   17708    1    
+    15     .   1    1    2     2     DA    H2''    H    1    2.641     0.002    .   1    .   .   .   A    2     DA    H2''    .   17708    1    
+    16     .   1    1    2     2     DA    H3'     H    1    4.828     0.001    .   1    .   .   .   A    2     DA    H3'     .   17708    1    
+    17     .   1    1    2     2     DA    H4'     H    1    4.129     0.001    .   1    .   .   .   A    2     DA    H4'     .   17708    1    
+    18     .   1    1    2     2     DA    H5'     H    1    3.805     0.001    .   2    .   .   .   A    2     DA    H5'     .   17708    1    
+    19     .   1    1    2     2     DA    H5''    H    1    3.663     0.001    .   2    .   .   .   A    2     DA    H5''    .   17708    1    
+    20     .   1    1    2     2     DA    H8      H    1    7.855     0.001    .   1    .   .   .   A    2     DA    H8      .   17708    1    
+    21     .   1    1    3     3     DG    H1      H    1    11.483    0.000    .   1    .   .   .   A    3     DG    H1      .   17708    1    
+    22     .   1    1    3     3     DG    H1'     H    1    5.988     0.001    .   1    .   .   .   A    3     DG    H1'     .   17708    1    
+    23     .   1    1    3     3     DG    H2'     H    1    2.414     0.000    .   1    .   .   .   A    3     DG    H2'     .   17708    1    
+    24     .   1    1    3     3     DG    H2''    H    1    2.869     0.003    .   1    .   .   .   A    3     DG    H2''    .   17708    1    
+    25     .   1    1    3     3     DG    H3'     H    1    4.846     0.003    .   1    .   .   .   A    3     DG    H3'     .   17708    1    
+    26     .   1    1    3     3     DG    H4'     H    1    4.386     0.000    .   1    .   .   .   A    3     DG    H4'     .   17708    1    
+    27     .   1    1    3     3     DG    H5'     H    1    3.864     0.000    .   2    .   .   .   A    3     DG    H5'     .   17708    1    
+    28     .   1    1    3     3     DG    H5''    H    1    3.865     0.000    .   2    .   .   .   A    3     DG    H5''    .   17708    1    
+    29     .   1    1    3     3     DG    H8      H    1    7.676     0.001    .   1    .   .   .   A    3     DG    H8      .   17708    1    
+    30     .   1    1    4     4     DG    H1      H    1    10.940    0.000    .   1    .   .   .   A    4     DG    H1      .   17708    1    
+    31     .   1    1    4     4     DG    H1'     H    1    6.108     0.000    .   1    .   .   .   A    4     DG    H1'     .   17708    1    
+    32     .   1    1    4     4     DG    H2'     H    1    2.404     0.001    .   1    .   .   .   A    4     DG    H2'     .   17708    1    
+    33     .   1    1    4     4     DG    H2''    H    1    2.868     0.000    .   1    .   .   .   A    4     DG    H2''    .   17708    1    
+    34     .   1    1    4     4     DG    H3'     H    1    4.917     0.002    .   1    .   .   .   A    4     DG    H3'     .   17708    1    
+    35     .   1    1    4     4     DG    H8      H    1    7.495     0.000    .   1    .   .   .   A    4     DG    H8      .   17708    1    
+    36     .   1    1    5     5     DG    H1      H    1    10.635    0.000    .   1    .   .   .   A    5     DG    H1      .   17708    1    
+    37     .   1    1    5     5     DG    H1'     H    1    6.138     0.013    .   1    .   .   .   A    5     DG    H1'     .   17708    1    
+    38     .   1    1    5     5     DG    H2'     H    1    2.754     0.000    .   1    .   .   .   A    5     DG    H2'     .   17708    1    
+    39     .   1    1    5     5     DG    H2''    H    1    2.698     0.002    .   1    .   .   .   A    5     DG    H2''    .   17708    1    
+    40     .   1    1    5     5     DG    H3'     H    1    5.203     0.001    .   1    .   .   .   A    5     DG    H3'     .   17708    1    
+    41     .   1    1    5     5     DG    H4'     H    1    4.550     0.000    .   1    .   .   .   A    5     DG    H4'     .   17708    1    
+    42     .   1    1    5     5     DG    H8      H    1    7.651     0.001    .   1    .   .   .   A    5     DG    H8      .   17708    1    
+    43     .   1    1    6     6     DC    H1'     H    1    6.462     0.000    .   1    .   .   .   A    6     DC    H1'     .   17708    1    
+    44     .   1    1    6     6     DC    H2'     H    1    2.393     0.000    .   2    .   .   .   A    6     DC    H2'     .   17708    1    
+    45     .   1    1    6     6     DC    H2''    H    1    2.667     0.000    .   2    .   .   .   A    6     DC    H2''    .   17708    1    
+    46     .   1    1    6     6     DC    H3'     H    1    5.062     0.002    .   1    .   .   .   A    6     DC    H3'     .   17708    1    
+    47     .   1    1    6     6     DC    H4'     H    1    4.525     0.000    .   1    .   .   .   A    6     DC    H4'     .   17708    1    
+    48     .   1    1    6     6     DC    H5      H    1    6.183     0.001    .   1    .   .   .   A    6     DC    H5      .   17708    1    
+    49     .   1    1    6     6     DC    H6      H    1    8.050     0.000    .   1    .   .   .   A    6     DC    H6      .   17708    1    
+    50     .   1    1    7     7     DG    H1      H    1    11.195    0.000    .   1    .   .   .   A    7     DG    H1      .   17708    1    
+    51     .   1    1    7     7     DG    H1'     H    1    6.003     0.002    .   1    .   .   .   A    7     DG    H1'     .   17708    1    
+    52     .   1    1    7     7     DG    H2'     H    1    2.356     0.000    .   1    .   .   .   A    7     DG    H2'     .   17708    1    
+    53     .   1    1    7     7     DG    H2''    H    1    2.845     0.002    .   1    .   .   .   A    7     DG    H2''    .   17708    1    
+    54     .   1    1    7     7     DG    H3'     H    1    5.004     0.000    .   1    .   .   .   A    7     DG    H3'     .   17708    1    
+    55     .   1    1    7     7     DG    H8      H    1    7.880     0.001    .   1    .   .   .   A    7     DG    H8      .   17708    1    
+    56     .   1    1    8     8     DG    H1      H    1    11.075    0.000    .   1    .   .   .   A    8     DG    H1      .   17708    1    
+    57     .   1    1    8     8     DG    H1'     H    1    6.060     0.003    .   1    .   .   .   A    8     DG    H1'     .   17708    1    
+    58     .   1    1    8     8     DG    H2'     H    1    2.399     0.000    .   1    .   .   .   A    8     DG    H2'     .   17708    1    
+    59     .   1    1    8     8     DG    H2''    H    1    2.799     0.000    .   1    .   .   .   A    8     DG    H2''    .   17708    1    
+    60     .   1    1    8     8     DG    H3'     H    1    5.001     0.000    .   1    .   .   .   A    8     DG    H3'     .   17708    1    
+    61     .   1    1    8     8     DG    H8      H    1    7.699     0.001    .   1    .   .   .   A    8     DG    H8      .   17708    1    
+    62     .   1    1    9     9     DG    H1      H    1    10.858    0.000    .   1    .   .   .   A    9     DG    H1      .   17708    1    
+    63     .   1    1    9     9     DG    H1'     H    1    6.042     0.006    .   1    .   .   .   A    9     DG    H1'     .   17708    1    
+    64     .   1    1    9     9     DG    H2'     H    1    2.636     0.000    .   1    .   .   .   A    9     DG    H2'     .   17708    1    
+    65     .   1    1    9     9     DG    H2''    H    1    2.737     0.001    .   1    .   .   .   A    9     DG    H2''    .   17708    1    
+    66     .   1    1    9     9     DG    H3'     H    1    5.060     0.000    .   1    .   .   .   A    9     DG    H3'     .   17708    1    
+    67     .   1    1    9     9     DG    H8      H    1    7.638     0.001    .   1    .   .   .   A    9     DG    H8      .   17708    1    
+    68     .   1    1    10    10    DA    H1'     H    1    6.561     0.000    .   1    .   .   .   A    10    DA    H1'     .   17708    1    
+    69     .   1    1    10    10    DA    H2'     H    1    3.115     0.001    .   1    .   .   .   A    10    DA    H2'     .   17708    1    
+    70     .   1    1    10    10    DA    H2''    H    1    2.864     0.002    .   1    .   .   .   A    10    DA    H2''    .   17708    1    
+    71     .   1    1    10    10    DA    H3'     H    1    5.081     0.001    .   1    .   .   .   A    10    DA    H3'     .   17708    1    
+    72     .   1    1    10    10    DA    H4'     H    1    4.403     0.000    .   1    .   .   .   A    10    DA    H4'     .   17708    1    
+    73     .   1    1    10    10    DA    H8      H    1    8.483     0.001    .   1    .   .   .   A    10    DA    H8      .   17708    1    
+    74     .   1    1    11    11    DG    H1      H    1    10.936    0.000    .   1    .   .   .   A    11    DG    H1      .   17708    1    
+    75     .   1    1    11    11    DG    H1'     H    1    6.026     0.004    .   1    .   .   .   A    11    DG    H1'     .   17708    1    
+    76     .   1    1    11    11    DG    H2'     H    1    2.364     0.000    .   1    .   .   .   A    11    DG    H2'     .   17708    1    
+    77     .   1    1    11    11    DG    H2''    H    1    2.853     0.003    .   1    .   .   .   A    11    DG    H2''    .   17708    1    
+    78     .   1    1    11    11    DG    H8      H    1    7.484     0.002    .   1    .   .   .   A    11    DG    H8      .   17708    1    
+    79     .   1    1    12    12    DG    H1      H    1    10.928    0.000    .   1    .   .   .   A    12    DG    H1      .   17708    1    
+    80     .   1    1    12    12    DG    H1'     H    1    6.037     0.004    .   1    .   .   .   A    12    DG    H1'     .   17708    1    
+    81     .   1    1    12    12    DG    H2'     H    1    2.567     0.000    .   1    .   .   .   A    12    DG    H2'     .   17708    1    
+    82     .   1    1    12    12    DG    H2''    H    1    2.854     0.001    .   1    .   .   .   A    12    DG    H2''    .   17708    1    
+    83     .   1    1    12    12    DG    H3'     H    1    5.001     0.000    .   1    .   .   .   A    12    DG    H3'     .   17708    1    
+    84     .   1    1    12    12    DG    H8      H    1    7.750     0.001    .   1    .   .   .   A    12    DG    H8      .   17708    1    
+    85     .   1    1    13    13    DG    H1      H    1    10.967    0.000    .   1    .   .   .   A    13    DG    H1      .   17708    1    
+    86     .   1    1    13    13    DG    H1'     H    1    6.369     0.002    .   1    .   .   .   A    13    DG    H1'     .   17708    1    
+    87     .   1    1    13    13    DG    H2'     H    1    2.730     0.000    .   1    .   .   .   A    13    DG    H2'     .   17708    1    
+    88     .   1    1    13    13    DG    H2''    H    1    2.538     0.004    .   1    .   .   .   A    13    DG    H2''    .   17708    1    
+    89     .   1    1    13    13    DG    H3'     H    1    5.101     0.002    .   1    .   .   .   A    13    DG    H3'     .   17708    1    
+    90     .   1    1    13    13    DG    H4'     H    1    4.615     0.001    .   1    .   .   .   A    13    DG    H4'     .   17708    1    
+    91     .   1    1    13    13    DG    H8      H    1    7.737     0.002    .   1    .   .   .   A    13    DG    H8      .   17708    1    
+    92     .   1    1    14    14    DA    H1'     H    1    6.652     0.002    .   1    .   .   .   A    14    DA    H1'     .   17708    1    
+    93     .   1    1    14    14    DA    H2'     H    1    2.937     0.000    .   1    .   .   .   A    14    DA    H2'     .   17708    1    
+    94     .   1    1    14    14    DA    H2''    H    1    3.002     0.000    .   1    .   .   .   A    14    DA    H2''    .   17708    1    
+    95     .   1    1    14    14    DA    H3'     H    1    5.173     0.002    .   1    .   .   .   A    14    DA    H3'     .   17708    1    
+    96     .   1    1    14    14    DA    H4'     H    1    4.685     0.000    .   1    .   .   .   A    14    DA    H4'     .   17708    1    
+    97     .   1    1    14    14    DA    H8      H    1    8.497     0.000    .   1    .   .   .   A    14    DA    H8      .   17708    1    
+    98     .   1    1    15    15    DG    H1      H    1    10.626    0.000    .   1    .   .   .   A    15    DG    H1      .   17708    1    
+    99     .   1    1    15    15    DG    H1'     H    1    6.050     0.001    .   1    .   .   .   A    15    DG    H1'     .   17708    1    
+    100    .   1    1    15    15    DG    H2'     H    1    2.193     0.000    .   1    .   .   .   A    15    DG    H2'     .   17708    1    
+    101    .   1    1    15    15    DG    H2''    H    1    2.738     0.007    .   1    .   .   .   A    15    DG    H2''    .   17708    1    
+    102    .   1    1    15    15    DG    H3'     H    1    5.265     0.001    .   1    .   .   .   A    15    DG    H3'     .   17708    1    
+    103    .   1    1    15    15    DG    H4'     H    1    4.613     0.000    .   1    .   .   .   A    15    DG    H4'     .   17708    1    
+    104    .   1    1    15    15    DG    H8      H    1    7.528     0.001    .   1    .   .   .   A    15    DG    H8      .   17708    1    
+    105    .   1    1    16    16    DG    H1      H    1    10.863    0.000    .   1    .   .   .   A    16    DG    H1      .   17708    1    
+    106    .   1    1    16    16    DG    H1'     H    1    5.918     0.001    .   1    .   .   .   A    16    DG    H1'     .   17708    1    
+    107    .   1    1    16    16    DG    H2'     H    1    2.630     0.000    .   1    .   .   .   A    16    DG    H2'     .   17708    1    
+    108    .   1    1    16    16    DG    H2''    H    1    2.758     0.002    .   1    .   .   .   A    16    DG    H2''    .   17708    1    
+    109    .   1    1    16    16    DG    H3'     H    1    5.057     0.000    .   1    .   .   .   A    16    DG    H3'     .   17708    1    
+    110    .   1    1    16    16    DG    H8      H    1    7.861     0.000    .   1    .   .   .   A    16    DG    H8      .   17708    1    
+    111    .   1    1    17    17    DG    H1      H    1    10.728    0.000    .   1    .   .   .   A    17    DG    H1      .   17708    1    
+    112    .   1    1    17    17    DG    H1'     H    1    5.816     0.001    .   1    .   .   .   A    17    DG    H1'     .   17708    1    
+    113    .   1    1    17    17    DG    H2'     H    1    2.330     0.000    .   1    .   .   .   A    17    DG    H2'     .   17708    1    
+    114    .   1    1    17    17    DG    H2''    H    1    2.575     0.003    .   1    .   .   .   A    17    DG    H2''    .   17708    1    
+    115    .   1    1    17    17    DG    H3'     H    1    4.914     0.002    .   1    .   .   .   A    17    DG    H3'     .   17708    1    
+    116    .   1    1    17    17    DG    H4'     H    1    4.436     0.002    .   1    .   .   .   A    17    DG    H4'     .   17708    1    
+    117    .   1    1    17    17    DG    H8      H    1    7.417     0.001    .   1    .   .   .   A    17    DG    H8      .   17708    1    
+    118    .   1    1    18    18    DA    H1'     H    1    5.880     0.001    .   1    .   .   .   A    18    DA    H1'     .   17708    1    
+    119    .   1    1    18    18    DA    H2      H    1    7.332     0.000    .   1    .   .   .   A    18    DA    H2      .   17708    1    
+    120    .   1    1    18    18    DA    H2'     H    1    2.232     0.000    .   1    .   .   .   A    18    DA    H2'     .   17708    1    
+    121    .   1    1    18    18    DA    H2''    H    1    2.398     0.000    .   1    .   .   .   A    18    DA    H2''    .   17708    1    
+    122    .   1    1    18    18    DA    H3'     H    1    4.814     0.001    .   1    .   .   .   A    18    DA    H3'     .   17708    1    
+    123    .   1    1    18    18    DA    H4'     H    1    4.271     0.002    .   1    .   .   .   A    18    DA    H4'     .   17708    1    
+    124    .   1    1    18    18    DA    H8      H    1    7.822     0.000    .   1    .   .   .   A    18    DA    H8      .   17708    1    
+    125    .   1    1    19    19    DA    H1'     H    1    5.950     0.001    .   1    .   .   .   A    19    DA    H1'     .   17708    1    
+    126    .   1    1    19    19    DA    H2'     H    1    2.392     0.000    .   1    .   .   .   A    19    DA    H2'     .   17708    1    
+    127    .   1    1    19    19    DA    H2''    H    1    2.254     0.004    .   1    .   .   .   A    19    DA    H2''    .   17708    1    
+    128    .   1    1    19    19    DA    H3'     H    1    4.517     0.001    .   1    .   .   .   A    19    DA    H3'     .   17708    1    
+    129    .   1    1    19    19    DA    H4'     H    1    4.052     0.001    .   1    .   .   .   A    19    DA    H4'     .   17708    1    
+    130    .   1    1    19    19    DA    H8      H    1    7.986     0.000    .   1    .   .   .   A    19    DA    H8      .   17708    1    
+  stop_
+
+save_
+

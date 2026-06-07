@@ -1,0 +1,981 @@
+data_18184
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             18184
+   _Entry.Title                         
+;
+ShB peptide structure bound to negatively charged lipid-bilayer after Molecular Dynamics refinement
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2012-01-06
+   _Entry.Accession_date                 2012-01-06
+   _Entry.Last_release_date              .
+   _Entry.Original_release_date          .
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Markus Weingarth . . . 18184 
+
+   stop_
+
+   loop_
+      _SG_project.SG_project_ID
+      _SG_project.Project_name
+      _SG_project.Full_name_of_center
+      _SG_project.Initial_of_center
+      _SG_project.Entry_ID
+
+      1 'not applicable' 'not applicable' . 18184 
+
+   stop_
+
+   loop_
+      _Struct_keywords.Keywords
+      _Struct_keywords.Text
+      _Struct_keywords.Entry_ID
+
+      'ShB peptide bound to lipid bilayer' . 18184 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 18184 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts' 43 18184 
+      '15N chemical shifts' 11 18184 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      2 . . 2013-02-12 2012-01-16 update   BMRB   'update entry citation' 18184 
+      1 . . 2012-08-06 2012-01-16 original author 'original release'      18184 
+
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      PDB 2LNY 'BMRB Entry Tracking System' 18184 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     18184
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    22828329
+   _Citation.Full_citation                .
+   _Citation.Title                       'Supramolecular structure of membrane-associated polypeptides by combining solid-state NMR and molecular dynamics simulations.'
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'Biophys. J.'
+   _Citation.Journal_name_full           'Biophysical journal'
+   _Citation.Journal_volume               103
+   _Citation.Journal_issue                1
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   29
+   _Citation.Page_last                    37
+   _Citation.Year                         2012
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1  Markus           Weingarth . .    . 18184 1 
+      2  Christian        Ader      . .    . 18184 1 
+      3  Adrien           Melquiond . S.J. . 18184 1 
+      4  Deepak           Nand      . .    . 18184 1 
+      5  Olaf             Pongs     . .    . 18184 1 
+      6  Stefan           Becker    . .    . 18184 1 
+      7 'Alexandre M J J' Bonvin    . .    . 18184 1 
+      8  Marc             Baldus    . .    . 18184 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          18184
+   _Assembly.ID                                1
+   _Assembly.Name                             'ShB peptide'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 'ShB peptide' 1 $entity A . yes native no no . . . 18184 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_entity
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity
+   _Entity.Entry_ID                          18184
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              entity
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 A
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+MAAVAGLYGLGEDRQHRKKQ
+
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                20
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        man
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    2233.591
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-25
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 no PDB  2LNY         . "Shb Peptide Structure Bound To Negatively Charged Lipid-Bilayer After Molecular Dynamics Refinement" . . . . . 100.00  20 100.00 100.00 5.19e-04 . . . . 18184 1 
+       2 no EMBL CAA29917     . "Shaker [Drosophila melanogaster]"                                                                    . . . . . 100.00 656 100.00 100.00 1.28e-03 . . . . 18184 1 
+       3 no EMBL CAA30143     . "unnamed protein product [Drosophila melanogaster]"                                                   . . . . . 100.00 616 100.00 100.00 5.94e-04 . . . . 18184 1 
+       4 no EMBL CAA30146     . "unnamed protein product [Drosophila melanogaster]"                                                   . . . . . 100.00 349 100.00 100.00 2.52e-04 . . . . 18184 1 
+       5 no GB   AAA28417     . "potassium channel component [Drosophila melanogaster]"                                               . . . . . 100.00 616 100.00 100.00 5.94e-04 . . . . 18184 1 
+       6 no GB   AAF48785     . "shaker, isoform B [Drosophila melanogaster]"                                                         . . . . . 100.00 616 100.00 100.00 5.39e-04 . . . . 18184 1 
+       7 no GB   AAF48786     . "shaker, isoform E [Drosophila melanogaster]"                                                         . . . . . 100.00 655 100.00 100.00 1.25e-03 . . . . 18184 1 
+       8 no GB   AAS65396     . "shaker, isoform F [Drosophila melanogaster]"                                                         . . . . . 100.00 349 100.00 100.00 2.52e-04 . . . . 18184 1 
+       9 no GB   AGB95507     . "shaker, isoform Q [Drosophila melanogaster]"                                                         . . . . . 100.00 616 100.00 100.00 5.39e-04 . . . . 18184 1 
+      10 no PRF  1402312A     . "K channel protein"                                                                                   . . . . . 100.00 656 100.00 100.00 1.28e-03 . . . . 18184 1 
+      11 no REF  NP_001259665 . "shaker, isoform Q [Drosophila melanogaster]"                                                         . . . . . 100.00 616 100.00 100.00 5.39e-04 . . . . 18184 1 
+      12 no REF  NP_001303569 . "shaker, isoform T [Drosophila melanogaster]"                                                         . . . . . 100.00 655 100.00 100.00 1.44e-03 . . . . 18184 1 
+      13 no REF  NP_523393    . "shaker, isoform B [Drosophila melanogaster]"                                                         . . . . . 100.00 616 100.00 100.00 5.39e-04 . . . . 18184 1 
+      14 no REF  NP_728123    . "shaker, isoform E [Drosophila melanogaster]"                                                         . . . . . 100.00 655 100.00 100.00 1.25e-03 . . . . 18184 1 
+      15 no REF  NP_996497    . "shaker, isoform F [Drosophila melanogaster]"                                                         . . . . . 100.00 349 100.00 100.00 2.52e-04 . . . . 18184 1 
+      16 no SP   P08510       . "RecName: Full=Potassium voltage-gated channel protein Shaker; AltName: Full=Protein minisleep"       . . . . . 100.00 655 100.00 100.00 1.25e-03 . . . . 18184 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . MET . 18184 1 
+       2 . ALA . 18184 1 
+       3 . ALA . 18184 1 
+       4 . VAL . 18184 1 
+       5 . ALA . 18184 1 
+       6 . GLY . 18184 1 
+       7 . LEU . 18184 1 
+       8 . TYR . 18184 1 
+       9 . GLY . 18184 1 
+      10 . LEU . 18184 1 
+      11 . GLY . 18184 1 
+      12 . GLU . 18184 1 
+      13 . ASP . 18184 1 
+      14 . ARG . 18184 1 
+      15 . GLN . 18184 1 
+      16 . HIS . 18184 1 
+      17 . ARG . 18184 1 
+      18 . LYS . 18184 1 
+      19 . LYS . 18184 1 
+      20 . GLN . 18184 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . MET  1  1 18184 1 
+      . ALA  2  2 18184 1 
+      . ALA  3  3 18184 1 
+      . VAL  4  4 18184 1 
+      . ALA  5  5 18184 1 
+      . GLY  6  6 18184 1 
+      . LEU  7  7 18184 1 
+      . TYR  8  8 18184 1 
+      . GLY  9  9 18184 1 
+      . LEU 10 10 18184 1 
+      . GLY 11 11 18184 1 
+      . GLU 12 12 18184 1 
+      . ASP 13 13 18184 1 
+      . ARG 14 14 18184 1 
+      . GLN 15 15 18184 1 
+      . HIS 16 16 18184 1 
+      . ARG 17 17 18184 1 
+      . LYS 18 18 18184 1 
+      . LYS 19 19 18184 1 
+      . GLN 20 20 18184 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       18184
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $entity . . 'not applicable' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18184 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       18184
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $entity . 'obtained from a collaborator' 'Escherichia coli' . . . Escherichia coli . . . . . . . . . . . . . . . . . . . . 'coding sequewnce of ShB peptide was cloned into a modified pMal vector (NEB)' . . 18184 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         18184
+   _Sample.ID                               1
+   _Sample.Type                             solid
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   H2O/Lipid
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1  DOPC            'natural abundance' . .  .  .      . .   7     . . mM    . . . . 18184 1 
+      2  Cardiolipin     'natural abundance' . .  .  .      . .   3     . . mM    . . . . 18184 1 
+      3  H2O             'natural abundance' . .  .  .      . . 100     . . %     . . . . 18184 1 
+      4 'sodium citrate' 'natural abundance' . .  .  .      . . 100     . . mM    . . . . 18184 1 
+      5  Calbiochem      'natural abundance' . .  .  .      . .   4     . . mM    . . . . 18184 1 
+      6  Entity          'natural abundance' . . 1 $entity . .   0.055 . . mg/uL . . . . 18184 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       18184
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   0.3  . M  18184 1 
+       pH                4.0  . pH 18184 1 
+       temperature     280   3 K  18184 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_GROMOS
+   _Software.Sf_category    software
+   _Software.Sf_framecode   GROMOS
+   _Software.Entry_ID       18184
+   _Software.ID             1
+   _Software.Name           GROMOS
+   _Software.Version        53a6
+   _Software.Details       'with the Berger lipid parameter'
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'van Gunsteren and Berendsen' . . 18184 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      refinement 18184 1 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         18184
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   500
+
+save_
+
+
+save_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_2
+   _NMR_spectrometer.Entry_ID         18184
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   700
+
+save_
+
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       18184
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 spectrometer_1 Bruker Avance . 500 . . . 18184 1 
+      2 spectrometer_2 Bruker Avance . 700 . . . 18184 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       18184
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '13C-13C PARISxy' no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 18184 1 
+      2 '13c-13C PDSD'    no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . 2 $spectrometer_2 . . . . . . . . . . . . . . . . 18184 1 
+      3  SPECIFIC-NCA     no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . 2 $spectrometer_2 . . . . . . . . . . . . . . . . 18184 1 
+      4  SPECIFIC-NCO     no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . 2 $spectrometer_2 . . . . . . . . . . . . . . . . 18184 1 
+      5  CHHC             no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . 2 $spectrometer_2 . . . . . . . . . . . . . . . . 18184 1 
+      6  NHHC             no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . 2 $spectrometer_2 . . . . . . . . . . . . . . . . 18184 1 
+      7  HHC              no . . . . . . . . . . 1 $sample_1 solid . . 1 $sample_conditions_1 . . . 2 $spectrometer_2 . . . . . . . . . . . . . . . . 18184 1 
+
+   stop_
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       18184
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C 13 Adamantane 'methyl carbon' . . . . ppm 31.48 external direct 1 . . . . . . . . . 18184 1 
+      N 15 AGG         nitrogen       . . . . ppm 38.9  external direct 1 . . . . . . . . . 18184 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      18184
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 '13C-13C PARISxy' . . . 18184 1 
+      2 '13c-13C PDSD'    . . . 18184 1 
+      3  SPECIFIC-NCA     . . . 18184 1 
+      4  SPECIFIC-NCO     . . . 18184 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+       1 . 1 1  1  1 MET CA  C 13  54.8 . . . . . . .  1 MET CA  2 18184 1 
+       2 . 1 1  1  1 MET CB  C 13  32.3 . . . . . . .  1 MET CB  2 18184 1 
+       3 . 1 1  1  1 MET CG  C 13  30.7 . . . . . . .  1 MET CG  1 18184 1 
+       4 . 1 1  1  1 MET CE  C 13  17.2 . . . . . . .  1 MET CE  1 18184 1 
+       5 . 1 1  2  2 ALA C   C 13 175.4 . . . . . . .  2 ALA CO  3 18184 1 
+       6 . 1 1  2  2 ALA CA  C 13  51.2 . . . . . . .  2 ALA CA  4 18184 1 
+       7 . 1 1  2  2 ALA CB  C 13  23.5 . . . . . . .  2 ALA CB  3 18184 1 
+       8 . 1 1  2  2 ALA N   N 15 123.4 . . . . . . .  2 ALA N   2 18184 1 
+       9 . 1 1  3  3 ALA C   C 13 175.4 . . . . . . .  3 ALA C0  3 18184 1 
+      10 . 1 1  3  3 ALA CA  C 13  51.1 . . . . . . .  3 ALA CA  4 18184 1 
+      11 . 1 1  3  3 ALA CB  C 13  23.6 . . . . . . .  3 ALA CB  3 18184 1 
+      12 . 1 1  3  3 ALA N   N 15 120.7 . . . . . . .  3 ALA N   2 18184 1 
+      13 . 1 1  4  4 VAL C   C 13 172.6 . . . . . . .  4 VAL CO  3 18184 1 
+      14 . 1 1  4  4 VAL CA  C 13  59.5 . . . . . . .  4 VAL CA  4 18184 1 
+      15 . 1 1  4  4 VAL CB  C 13  35.9 . . . . . . .  4 VAL CB  3 18184 1 
+      16 . 1 1  4  4 VAL N   N 15 115.8 . . . . . . .  4 VAL N   2 18184 1 
+      17 . 1 1  4  4 VAL CG1 C 13  21.2 . . . . . . .  4 VAL CG  1 18184 1 
+      18 . 1 1  5  5 ALA C   C 13 176.0 . . . . . . .  5 ALA CO  3 18184 1 
+      19 . 1 1  5  5 ALA CA  C 13  51.2 . . . . . . .  5 ALA CA  4 18184 1 
+      20 . 1 1  5  5 ALA CB  C 13  23.6 . . . . . . .  5 ALA CB  3 18184 1 
+      21 . 1 1  5  5 ALA N   N 15 124.1 . . . . . . .  5 ALA N   2 18184 1 
+      22 . 1 1  6  6 GLY C   C 13 169.7 . . . . . . .  6 GLY CO  3 18184 1 
+      23 . 1 1  6  6 GLY CA  C 13  47.2 . . . . . . .  6 GLY CA  3 18184 1 
+      24 . 1 1  6  6 GLY N   N 15 106.4 . . . . . . .  6 GLY N   2 18184 1 
+      25 . 1 1  7  7 LEU C   C 13 173.4 . . . . . . .  7 LEU CO  3 18184 1 
+      26 . 1 1  7  7 LEU CA  C 13  52.9 . . . . . . .  7 LEU CA  4 18184 1 
+      27 . 1 1  7  7 LEU CB  C 13  46.8 . . . . . . .  7 LEU CB  3 18184 1 
+      28 . 1 1  7  7 LEU CD1 C 13  23.2 . . . . . . .  7 LEU CD  1 18184 1 
+      29 . 1 1  7  7 LEU CD2 C 13  23.2 . . . . . . .  7 LEU CD  1 18184 1 
+      30 . 1 1  7  7 LEU CG  C 13  26.8 . . . . . . .  7 LEU CG1 1 18184 1 
+      31 . 1 1  7  7 LEU N   N 15 116.1 . . . . . . .  7 LEU N   2 18184 1 
+      32 . 1 1  8  8 TYR C   C 13 175.2 . . . . . . .  8 TYR CO  3 18184 1 
+      33 . 1 1  8  8 TYR CA  C 13  55.7 . . . . . . .  8 TYR CA  4 18184 1 
+      34 . 1 1  8  8 TYR CB  C 13  46.8 . . . . . . .  8 TYR CB  3 18184 1 
+      35 . 1 1  8  8 TYR N   N 15 116.2 . . . . . . .  8 TYR N   2 18184 1 
+      36 . 1 1  9  9 GLY C   C 13 170.5 . . . . . . .  9 GLY CO  3 18184 1 
+      37 . 1 1  9  9 GLY CA  C 13  46.0 . . . . . . .  9 GLY CA  4 18184 1 
+      38 . 1 1  9  9 GLY N   N 15 104.5 . . . . . . .  9 GLY N   2 18184 1 
+      39 . 1 1 10 10 LEU C   C 13 175.3 . . . . . . . 10 LEU CO  3 18184 1 
+      40 . 1 1 10 10 LEU CA  C 13  54.7 . . . . . . . 10 LEU CA  4 18184 1 
+      41 . 1 1 10 10 LEU CB  C 13  45.7 . . . . . . . 10 LEU CB  3 18184 1 
+      42 . 1 1 10 10 LEU CD1 C 13  23.7 . . . . . . . 10 LEU CD  1 18184 1 
+      43 . 1 1 10 10 LEU CD2 C 13  23.7 . . . . . . . 10 LEU CD  1 18184 1 
+      44 . 1 1 10 10 LEU N   N 15 119.5 . . . . . . . 10 LEU N   2 18184 1 
+      45 . 1 1 10 10 LEU CG  C 13  26.6 . . . . . . . 10 LEU CG1 1 18184 1 
+      46 . 1 1 11 11 GLY C   C 13 170.6 . . . . . . . 11 GLY CO  3 18184 1 
+      47 . 1 1 11 11 GLY CA  C 13  46.1 . . . . . . . 11 GLY CA  4 18184 1 
+      48 . 1 1 11 11 GLY N   N 15 104.9 . . . . . . . 11 GLY N   2 18184 1 
+      49 . 1 1 12 12 GLU C   C 13 171.7 . . . . . . . 12 GLU CO  3 18184 1 
+      50 . 1 1 12 12 GLU CA  C 13  54.6 . . . . . . . 12 GLU CA  4 18184 1 
+      51 . 1 1 12 12 GLU CB  C 13  29.8 . . . . . . . 12 GLU CB  3 18184 1 
+      52 . 1 1 12 12 GLU CG  C 13  34.0 . . . . . . . 12 GLU CG  1 18184 1 
+      53 . 1 1 12 12 GLU CD  C 13 180.0 . . . . . . . 12 GLU CD  1 18184 1 
+      54 . 1 1 12 12 GLU N   N 15 122.4 . . . . . . . 12 GLU N   2 18184 1 
+
+   stop_
+
+save_
+

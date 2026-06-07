@@ -1,0 +1,1844 @@
+data_16060
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             16060
+   _Entry.Title                         
+;
+Loop 3 of Short Neurotoxin II is an Additional Interaction Site with Membrane-Bound Nicotinic Acetylcholine Receptor as Detected by Solid-State NMR Spectroscopy
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2008-12-16
+   _Entry.Accession_date                 2008-12-16
+   _Entry.Last_release_date              .
+   _Entry.Original_release_date          .
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      3.0.8.116
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solid-state
+   _Entry.Details                       'Neurotoxin II was studied whilst bound to the nicotinic Acetylcholine receptor in a native membrane'
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Barth-Jan 'van Rossum' . . . 16060 
+      2 Hartmut    Oschkinat   . . . 16060 
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1 . 'Leibniz-Institut fuer Molekulare Pharmakologie (FMP)' . 16060 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 16060 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts' 272 16060 
+      '15N chemical shifts'  60 16060 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      3 . . 2011-06-03 2008-12-16 update   BMRB   'correct experiment saveframes, etc.' 16060 
+      2 . . 2009-07-13 2008-12-16 update   BMRB   'complete entry citation'             16060 
+      1 . . 2009-05-20 2008-12-16 original author 'original release'                    16060 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     16060
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    19447114
+   _Citation.Full_citation                .
+   _Citation.Title                       'Loop 3 of Short Neurotoxin II is an Additional Interaction Site with Membrane-Bound Nicotinic Acetylcholine Receptor as Detected by Solid-State NMR Spectroscopy'
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'J. Mol. Biol.'
+   _Citation.Journal_name_full           'Journal of Molecular Biology'
+   _Citation.Journal_volume               390
+   _Citation.Journal_issue                4
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   662
+   _Citation.Page_last                    671
+   _Citation.Year                         2009
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Ludwig     Krabben     . .  . 16060 1 
+      2 Barth-Jan 'van Rossum' . .  . 16060 1 
+      3 Stefan     Jehle       . .  . 16060 1 
+      4 Eduard     Bocharov    . .  . 16060 1 
+      5 Ekaterina  Lyukmanova  . N. . 16060 1 
+      6 Alexey     Schulga     . A. . 16060 1 
+      7 Alexander  Arseniev    . .  . 16060 1 
+      8 Ferdinand  Hucho       . .  . 16060 1 
+      9 Hartmut    Oschkinat   . .  . 16060 1 
+
+   stop_
+
+   loop_
+      _Citation_keyword.Keyword
+      _Citation_keyword.Entry_ID
+      _Citation_keyword.Citation_ID
+
+       ligand                            16060 1 
+      'membrane protein'                 16060 1 
+       neurotoxin                        16060 1 
+      'nicotinic acetylcholine receptor' 16060 1 
+      'Solid-state NMR'                  16060 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          16060
+   _Assembly.ID                                1
+   _Assembly.Name                              NTII-nAChR
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              2
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                no
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                          'on average 1.5 NTII molecules bind to nAChR in the preparation'
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 'neurotoxin II'                   1 $NT_II A . yes native no no . antagonist 'the neurotoxin II molecules (on average 1.5 per nAChR) are magnetically equivalent' 16060 1 
+      2 'nicotinic Acetylcholin receptor' 2 $nAChR B . no  native no no . receptor    .                                                                                   16060 1 
+
+   stop_
+
+   loop_
+      _Assembly_db_link.Author_supplied
+      _Assembly_db_link.Database_code
+      _Assembly_db_link.Accession_code
+      _Assembly_db_link.Entry_mol_code
+      _Assembly_db_link.Entry_mol_name
+      _Assembly_db_link.Entry_experimental_method
+      _Assembly_db_link.Entry_structure_resolution
+      _Assembly_db_link.Entry_relation_type
+      _Assembly_db_link.Entry_details
+      _Assembly_db_link.Entry_ID
+      _Assembly_db_link.Assembly_ID
+
+      yes PDB 1nor . . 'solution NMR' . 'structure for the free neurotoxin' . 16060 1 
+
+   stop_
+
+   loop_
+      _Assembly_bio_function.Biological_function
+      _Assembly_bio_function.Entry_ID
+      _Assembly_bio_function.Assembly_ID
+
+      'toxin acts as antagonist, its binding to nAChR blocks the binding site of acetylcholine, prevents opening of nAChRs' 16060 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_NT_II
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      NT_II
+   _Entity.Entry_ID                          16060
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              NT_II
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+LECHNQQSSQPPTTKTCSGE
+TNCYKKWWSDHRGTIIERGC
+GCPKVKPGVNLNCCRTDRCN
+N
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                61
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'all disulfide bound'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-25
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+      1 no BMRB  19704 .  entity                                                                                                       . . . . . 100.00 61 100.00 100.00 1.07e-35 . . . . 16060 1 
+      2 no PDB  1JE9    . "Nmr Solution Structure Of Nt2"                                                                               . . . . . 100.00 61  98.36  98.36 5.88e-35 . . . . 16060 1 
+      3 no PDB  1NOR    . "Two-Dimensional 1h-Nmr Study Of The Spatial Structure Of Neurotoxin Ii From Naja Oxiana"                     . . . . . 100.00 61 100.00 100.00 1.07e-35 . . . . 16060 1 
+      4 no PDB  2MJ4    . "Neurotoxin Ii From Snake Venom Naja Oxiana In Solution"                                                      . . . . . 100.00 61 100.00 100.00 1.07e-35 . . . . 16060 1 
+      5 no SP   P01427  . "RecName: Full=Short neurotoxin 1; AltName: Full=Neurotoxin II; Short=NTX II; AltName: Full=Neurotoxin alpha" . . . . . 100.00 61 100.00 100.00 1.07e-35 . . . . 16060 1 
+      6 no SP   P59276  . "RecName: Full=Cobrotoxin-c; Short=CBT-c; AltName: Full=Short neurotoxin II; Short=NT2"                       . . . . . 100.00 61  98.36  98.36 5.88e-35 . . . . 16060 1 
+
+   stop_
+
+   loop_
+      _Entity_biological_function.Biological_function
+      _Entity_biological_function.Entry_ID
+      _Entity_biological_function.Entity_ID
+
+      'Snake poison' 16060 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . LEU . 16060 1 
+       2 . GLU . 16060 1 
+       3 . CYS . 16060 1 
+       4 . HIS . 16060 1 
+       5 . ASN . 16060 1 
+       6 . GLN . 16060 1 
+       7 . GLN . 16060 1 
+       8 . SER . 16060 1 
+       9 . SER . 16060 1 
+      10 . GLN . 16060 1 
+      11 . PRO . 16060 1 
+      12 . PRO . 16060 1 
+      13 . THR . 16060 1 
+      14 . THR . 16060 1 
+      15 . LYS . 16060 1 
+      16 . THR . 16060 1 
+      17 . CYS . 16060 1 
+      18 . SER . 16060 1 
+      19 . GLY . 16060 1 
+      20 . GLU . 16060 1 
+      21 . THR . 16060 1 
+      22 . ASN . 16060 1 
+      23 . CYS . 16060 1 
+      24 . TYR . 16060 1 
+      25 . LYS . 16060 1 
+      26 . LYS . 16060 1 
+      27 . TRP . 16060 1 
+      28 . TRP . 16060 1 
+      29 . SER . 16060 1 
+      30 . ASP . 16060 1 
+      31 . HIS . 16060 1 
+      32 . ARG . 16060 1 
+      33 . GLY . 16060 1 
+      34 . THR . 16060 1 
+      35 . ILE . 16060 1 
+      36 . ILE . 16060 1 
+      37 . GLU . 16060 1 
+      38 . ARG . 16060 1 
+      39 . GLY . 16060 1 
+      40 . CYS . 16060 1 
+      41 . GLY . 16060 1 
+      42 . CYS . 16060 1 
+      43 . PRO . 16060 1 
+      44 . LYS . 16060 1 
+      45 . VAL . 16060 1 
+      46 . LYS . 16060 1 
+      47 . PRO . 16060 1 
+      48 . GLY . 16060 1 
+      49 . VAL . 16060 1 
+      50 . ASN . 16060 1 
+      51 . LEU . 16060 1 
+      52 . ASN . 16060 1 
+      53 . CYS . 16060 1 
+      54 . CYS . 16060 1 
+      55 . ARG . 16060 1 
+      56 . THR . 16060 1 
+      57 . ASP . 16060 1 
+      58 . ARG . 16060 1 
+      59 . CYS . 16060 1 
+      60 . ASN . 16060 1 
+      61 . ASN . 16060 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . LEU  1  1 16060 1 
+      . GLU  2  2 16060 1 
+      . CYS  3  3 16060 1 
+      . HIS  4  4 16060 1 
+      . ASN  5  5 16060 1 
+      . GLN  6  6 16060 1 
+      . GLN  7  7 16060 1 
+      . SER  8  8 16060 1 
+      . SER  9  9 16060 1 
+      . GLN 10 10 16060 1 
+      . PRO 11 11 16060 1 
+      . PRO 12 12 16060 1 
+      . THR 13 13 16060 1 
+      . THR 14 14 16060 1 
+      . LYS 15 15 16060 1 
+      . THR 16 16 16060 1 
+      . CYS 17 17 16060 1 
+      . SER 18 18 16060 1 
+      . GLY 19 19 16060 1 
+      . GLU 20 20 16060 1 
+      . THR 21 21 16060 1 
+      . ASN 22 22 16060 1 
+      . CYS 23 23 16060 1 
+      . TYR 24 24 16060 1 
+      . LYS 25 25 16060 1 
+      . LYS 26 26 16060 1 
+      . TRP 27 27 16060 1 
+      . TRP 28 28 16060 1 
+      . SER 29 29 16060 1 
+      . ASP 30 30 16060 1 
+      . HIS 31 31 16060 1 
+      . ARG 32 32 16060 1 
+      . GLY 33 33 16060 1 
+      . THR 34 34 16060 1 
+      . ILE 35 35 16060 1 
+      . ILE 36 36 16060 1 
+      . GLU 37 37 16060 1 
+      . ARG 38 38 16060 1 
+      . GLY 39 39 16060 1 
+      . CYS 40 40 16060 1 
+      . GLY 41 41 16060 1 
+      . CYS 42 42 16060 1 
+      . PRO 43 43 16060 1 
+      . LYS 44 44 16060 1 
+      . VAL 45 45 16060 1 
+      . LYS 46 46 16060 1 
+      . PRO 47 47 16060 1 
+      . GLY 48 48 16060 1 
+      . VAL 49 49 16060 1 
+      . ASN 50 50 16060 1 
+      . LEU 51 51 16060 1 
+      . ASN 52 52 16060 1 
+      . CYS 53 53 16060 1 
+      . CYS 54 54 16060 1 
+      . ARG 55 55 16060 1 
+      . THR 56 56 16060 1 
+      . ASP 57 57 16060 1 
+      . ARG 58 58 16060 1 
+      . CYS 59 59 16060 1 
+      . ASN 60 60 16060 1 
+      . ASN 61 61 16060 1 
+
+   stop_
+
+save_
+
+
+save_nAChR
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      nAChR
+   _Entity.Entry_ID                          16060
+   _Entity.ID                                2
+   _Entity.BMRB_code                         .
+   _Entity.Name                              nAChR
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code       X
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                .
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       .
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_biological_function.Biological_function
+      _Entity_biological_function.Entry_ID
+      _Entity_biological_function.Entity_ID
+
+      'Nicotinic Acetylcholine Receptor' 16060 2 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1 . X . 16060 2 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . X 1 1 16060 2 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       16060
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $NT_II . 8657 organism . 'Naja naja oxiana'    'Central Asian cobra'  . . Eukaryota Metazoa Naja    oxiana      . . . . . . . . . . . . . . . . . . 'expressed in E. coli BL21'                    . . 16060 1 
+      2 2 $nAChR . 7787 organism . 'Torpedo californica' 'Pacific electric ray' . . Eukaryota Metazoa Torpedo californica . . . . . . . . . . . . . . . . . . 'Cell membrane fragments from electric tissue' . . 16060 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       16060
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $NT_II . 'recombinant technology'           'Escherichia coli' . . . Escherichia coli BL21 . . . . . . . . . . . . . . . . . . . . . . 16060 1 
+      2 2 $nAChR . 'purified from the natural source'  .                 . . . .           .    .    . . . . . . . . . . . . . . . . . . . . . . 16060 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_neurotoxin
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     neurotoxin
+   _Sample.Entry_ID                         16060
+   _Sample.ID                               1
+   _Sample.Type                             solid
+   _Sample.Sub_type                         .
+   _Sample.Details                         'Neurotoxin II was expressed in E. coli BL21 cells. The medium contained 15NH4Cl and [u-13C]-glycerol as sole nitrogen and carbon sources, respectively.'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   solid-state
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 'NT II' '[U-100% 13C; U-100% 15N]' . . 1 $NT_II . . . . . . 0 . . . 16060 1 
+
+   stop_
+
+save_
+
+
+save_13neurotoxin
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     13neurotoxin
+   _Sample.Entry_ID                         16060
+   _Sample.ID                               2
+   _Sample.Type                             solid
+   _Sample.Sub_type                         .
+   _Sample.Details                         'Neurotoxin II was expressed in E. coli BL21 cells. The medium contained 15NH4Cl and [1,3-13C]-glycerol as sole nitrogen and carbon sources, respectively.'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   solid-state
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 'NT II' '[1,3-13C]-Glycerol; [U-15N]' . . 1 $NT_II . . . . . . 0 . . . 16060 2 
+
+   stop_
+
+save_
+
+
+save_2neurotoxin
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     2neurotoxin
+   _Sample.Entry_ID                         16060
+   _Sample.ID                               3
+   _Sample.Type                             solid
+   _Sample.Sub_type                         .
+   _Sample.Details                         'Neurotoxin II was expressed in E. coli BL21 cells. The medium contained 15NH4Cl and [2-13C]-glycerol as sole nitrogen and carbon sources, respectively.'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   solid-state
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 'NT II' '[2-13C]-Glycerol; [U-15N]' . . 1 $NT_II . . . . . . 0 . . . 16060 3 
+
+   stop_
+
+save_
+
+
+save_nAChR_sample
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     nAChR_sample
+   _Sample.Entry_ID                         16060
+   _Sample.ID                               4
+   _Sample.Type                             solid
+   _Sample.Sub_type                         .
+   _Sample.Details                         'nAChR-rich membranes were prepared from the electric tissue of T. californica'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   solid-state
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 nAChR 'natural abundance' . . . $nAChR . . . . . . 0 . . . 16060 4 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_NTII-nAChR_complex
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   NTII-nAChR_complex
+   _Sample_condition_list.Entry_ID       16060
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details       'solid sample, neurotoxin II bound to nAChR, in sedimented fragments of nAChR-rich membranes from electric tissue'
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      temperature 265 3 K 16060 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_SPARKY
+   _Software.Sf_category    software
+   _Software.Sf_framecode   SPARKY
+   _Software.Entry_ID       16060
+   _Software.ID             1
+   _Software.Name           SPARKY
+   _Software.Version        3.1
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      Goddard 'University of California, San Francisco, USA' . 16060 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'chemical shift assignment' 16060 1 
+
+   stop_
+
+save_
+
+
+save_xwinnmr
+   _Software.Sf_category    software
+   _Software.Sf_framecode   xwinnmr
+   _Software.Entry_ID       16060
+   _Software.ID             2
+   _Software.Name           xwinnmr
+   _Software.Version        2.6
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Bruker Biospin' 'Bruker, Karlsruhe, Germany' . 16060 2 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      collection 16060 2 
+
+   stop_
+
+save_
+
+
+save_TOPSPIN
+   _Software.Sf_category    software
+   _Software.Sf_framecode   TOPSPIN
+   _Software.Entry_ID       16060
+   _Software.ID             3
+   _Software.Name           TOPSPIN
+   _Software.Version        1.3
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Bruker Biospin' 'Bruker, Karlsruhe, Germany' . 16060 3 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      collection 16060 3 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         16060
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details         'Wide-bore, with 4mm triple resonance MAS probe'
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   400
+
+save_
+
+
+save_spectrometer_2
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_2
+   _NMR_spectrometer.Entry_ID         16060
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details         'Wide-bore, with 4mm triple resonance MAS probe'
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+
+save_
+
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       16060
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 spectrometer_1 Bruker Avance . 400 'Wide-bore, with 4mm triple resonance MAS probe' . . 16060 1 
+      2 spectrometer_2 Bruker Avance . 600 'Wide-bore, with 4mm triple resonance MAS probe' . . 16060 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       16060
+   _Experiment_list.ID             1
+   _Experiment_list.Details       
+;
+The spectrometers were equipped with 4 mm MAS probes, operating in double- or
+triple-resonance mode (Bruker, Karlsruhe, Germany). The samples were confined to
+the centre of the rotor by the use of spacers. MAS frequencies were 8.0 kHz (9.4
+T) or 9.5 10 kHz (14.1 T).All spectra were recorded at temperatures just above
+freezing point of the sample (typically 265 270 K). The freezing point was found
+experimentally by monitoring the 1H tuning during step-wise cooling.
+;
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '2D PDSD'  no . . . . . . . . . . 1 $neurotoxin   solid . . 1 $NTII-nAChR_complex . . . 2 $spectrometer_2 . . . . . . . . . . . . . . . . 16060 1 
+      2 '2D PDSD'  no . . . . . . . . . . 2 $13neurotoxin solid . . 1 $NTII-nAChR_complex . . . 2 $spectrometer_2 . . . . . . . . . . . . . . . . 16060 1 
+      3 '2D PDSD'  no . . . . . . . . . . 3 $2neurotoxin  solid . . 1 $NTII-nAChR_complex . . . 2 $spectrometer_2 . . . . . . . . . . . . . . . . 16060 1 
+      4 '2D TEDOR' no . . . . . . . . . . 2 $13neurotoxin solid . . 1 $NTII-nAChR_complex . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 16060 1 
+      5 '2D TEDOR' no . . . . . . . . . . 3 $2neurotoxin  solid . . 1 $NTII-nAChR_complex . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 16060 1 
+
+   stop_
+
+save_
+
+
+save_2D_PDSD_neurotoxin_NTII-nAChR_complex
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    2D_PDSD_neurotoxin_NTII-nAChR_complex
+   _NMR_spec_expt.Entry_ID                        16060
+   _NMR_spec_expt.ID                              1
+   _NMR_spec_expt.Name                            2D_PDSD_neurotoxin_NTII-nAChR_complex
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $spectrometer_2
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                        
+;
+PDSD mixing time: 40ms;   
+4mm double-resonance probe; 
+10 kHz MAS
+;
+
+save_
+
+
+save_2D_PDSD_13neurotoxin_NTII-nAChR_complex
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    2D_PDSD_13neurotoxin_NTII-nAChR_complex
+   _NMR_spec_expt.Entry_ID                        16060
+   _NMR_spec_expt.ID                              2
+   _NMR_spec_expt.Name                            2D_PDSD_13neurotoxin_NTII-nAChR_complex
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $spectrometer_2
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                        
+;
+PDSD mixing time: 150ms;    
+4mm double-resonance probe;  
+10 kHz MAS
+;
+
+save_
+
+
+save_2D_PDSD_2neurotoxin_NTII-nAChR_complex
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    2D_PDSD_2neurotoxin_NTII-nAChR_complex
+   _NMR_spec_expt.Entry_ID                        16060
+   _NMR_spec_expt.ID                              3
+   _NMR_spec_expt.Name                            2D_PDSD_2neurotoxin_NTII-nAChR_complex
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             2
+   _NMR_spec_expt.NMR_spectrometer_label         $spectrometer_2
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                        
+;
+PDSD mixing time: 150ms;     
+4mm double-resonance probe;   
+10 kHz MAS
+;
+
+save_
+
+
+save_2D_TEDOR
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    2D_TEDOR
+   _NMR_spec_expt.Entry_ID                        16060
+   _NMR_spec_expt.ID                              4
+   _NMR_spec_expt.Name                            2D_TEDOR
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $spectrometer_1
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                        
+;
+0.8 ms TEDOR mixing  
+4mm triple-resonance probe
+;
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       16060
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details       'referenced to standard compound (e.g. adamantane) that was referenced to DSS'
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C 13 DSS 'methyl protons' . . . . ppm 0.00 . indirect 0.251449530 'separate tube (no insert) similar to the experimental sample tube' . . . . . . . . 16060 1 
+      N 15 DSS 'methyl protons' . . . . ppm 0.00 . indirect 0.101329118 'separate tube (no insert) similar to the experimental sample tube' . . . . . . . . 16060 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      16060
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $NTII-nAChR_complex
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            0.2
+   _Assigned_chem_shift_list.Chem_shift_15N_err            0.4
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 '2D PDSD'  . . . 16060 1 
+      2 '2D PDSD'  . . . 16060 1 
+      3 '2D PDSD'  . . . 16060 1 
+      4 '2D TEDOR' . . . 16060 1 
+      5 '2D TEDOR' . . . 16060 1 
+
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+      1 $SPARKY . . 16060 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1  1  1 LEU C   C 13 171.2 0.2 . 1 . . . .  1 LEU C   a 16060 1 
+        2 . 1 1  1  1 LEU CA  C 13  54.2 0.2 . 1 . . . .  1 LEU CA  . 16060 1 
+        3 . 1 1  1  1 LEU CB  C 13  43.3 0.2 . 1 . . . .  1 LEU CB  . 16060 1 
+        4 . 1 1  1  1 LEU CD1 C 13  26.4 0.2 . 1 . . . .  1 LEU CD1 . 16060 1 
+        5 . 1 1  1  1 LEU CD2 C 13  22.1 0.2 . 1 . . . .  1 LEU CD2 . 16060 1 
+        6 . 1 1  1  1 LEU CG  C 13  26.4 0.2 . 1 . . . .  1 LEU CG  . 16060 1 
+        7 . 1 1  1  1 LEU N   N 15  40.2 0.4 . 1 . . . .  1 LEU N   c 16060 1 
+        8 . 1 1  2  2 GLU C   C 13 175.3 0.2 . 1 . . . .  2 GLU C   . 16060 1 
+        9 . 1 1  2  2 GLU CA  C 13  54.4 0.2 . 1 . . . .  2 GLU CA  . 16060 1 
+       10 . 1 1  2  2 GLU CB  C 13  30.8 0.2 . 9 . . . .  2 GLU CB  . 16060 1 
+       11 . 1 1  2  2 GLU CD  C 13 180.6 0.2 . 9 . . . .  2 GLU CD  c 16060 1 
+       12 . 1 1  2  2 GLU CG  C 13  33.6 0.2 . 9 . . . .  2 GLU CG  . 16060 1 
+       13 . 1 1  3  3 CYS C   C 13 175.3 0.2 . 9 . . . .  3 CYS C   . 16060 1 
+       14 . 1 1  3  3 CYS CA  C 13  51.3 0.2 . 1 . . . .  3 CYS CA  . 16060 1 
+       15 . 1 1  3  3 CYS CB  C 13  40.5 0.2 . 1 . . . .  3 CYS CB  a 16060 1 
+       16 . 1 1  3  3 CYS N   N 15 121.2 0.4 . 1 . . . .  3 CYS N   b 16060 1 
+       17 . 1 1  4  4 HIS C   C 13 176.6 0.2 . 9 . . . .  4 HIS C   a 16060 1 
+       18 . 1 1  4  4 HIS CA  C 13  57.1 0.2 . 1 . . . .  4 HIS CA  . 16060 1 
+       19 . 1 1  4  4 HIS CB  C 13  28.4 0.2 . 1 . . . .  4 HIS CB  a 16060 1 
+       20 . 1 1  4  4 HIS CD2 C 13 120.4 0.2 . 1 . . . .  4 HIS CD2 a 16060 1 
+       21 . 1 1  4  4 HIS CE1 C 13 138.6 0.2 . 1 . . . .  4 HIS CE1 b 16060 1 
+       22 . 1 1  4  4 HIS CG  C 13 130.1 0.2 . 1 . . . .  4 HIS CG  c 16060 1 
+       23 . 1 1  4  4 HIS N   N 15 120.6 0.4 . 1 . . . .  4 HIS N   a 16060 1 
+       24 . 1 1  5  5 ASN C   C 13 173.5 0.2 . 1 . . . .  5 ASN C   . 16060 1 
+       25 . 1 1  5  5 ASN CA  C 13  51.7 0.2 . 1 . . . .  5 ASN CA  . 16060 1 
+       26 . 1 1  5  5 ASN CB  C 13  37.9 0.2 . 1 . . . .  5 ASN CB  a 16060 1 
+       27 . 1 1  5  5 ASN N   N 15 115.8 0.4 . 1 . . . .  5 ASN N   a 16060 1 
+       28 . 1 1  6  6 GLN C   C 13 174.6 0.2 . 9 . . . .  6 GLN C   . 16060 1 
+       29 . 1 1  6  6 GLN CA  C 13  55.7 0.2 . 1 . . . .  6 GLN CA  . 16060 1 
+       30 . 1 1  6  6 GLN CB  C 13  26.6 0.2 . 1 . . . .  6 GLN CB  . 16060 1 
+       31 . 1 1  6  6 GLN CD  C 13 182.1 0.2 . 1 . . . .  6 GLN CD  c 16060 1 
+       32 . 1 1  6  6 GLN CG  C 13  32.9 0.2 . 1 . . . .  6 GLN CG  . 16060 1 
+       33 . 1 1  6  6 GLN N   N 15 126.4 0.4 . 1 . . . .  6 GLN N   . 16060 1 
+       34 . 1 1  7  7 GLN C   C 13 176.8 0.2 . 1 . . . .  7 GLN C   . 16060 1 
+       35 . 1 1  7  7 GLN CA  C 13  54.1 0.2 . 9 . . . .  7 GLN CA  . 16060 1 
+       36 . 1 1  7  7 GLN CB  C 13  30.9 0.2 . 9 . . . .  7 GLN CB  . 16060 1 
+       37 . 1 1  7  7 GLN CD  C 13 183.2 0.2 . 9 . . . .  7 GLN CD  . 16060 1 
+       38 . 1 1  7  7 GLN CG  C 13  34.3 0.2 . 9 . . . .  7 GLN CG  . 16060 1 
+       39 . 1 1  8  8 SER C   C 13 174.9 0.2 . 9 . . . .  8 SER C   . 16060 1 
+       40 . 1 1  8  8 SER CA  C 13  60.2 0.2 . 1 . . . .  8 SER CA  . 16060 1 
+       41 . 1 1  8  8 SER CB  C 13  62.7 0.2 . 1 . . . .  8 SER CB  . 16060 1 
+       42 . 1 1  8  8 SER N   N 15 115.0 0.4 . 9 . . . .  8 SER N   a 16060 1 
+       43 . 1 1  9  9 SER C   C 13 174.0 0.2 . 9 . . . .  9 SER C   . 16060 1 
+       44 . 1 1  9  9 SER CA  C 13  56.7 0.2 . 1 . . . .  9 SER CA  a 16060 1 
+       45 . 1 1  9  9 SER CB  C 13  63.0 0.2 . 1 . . . .  9 SER CB  . 16060 1 
+       46 . 1 1  9  9 SER N   N 15 119.6 0.4 . 9 . . . .  9 SER N   . 16060 1 
+       47 . 1 1 10 10 GLN C   C 13 172.4 0.2 . 1 . . . . 10 GLN C   . 16060 1 
+       48 . 1 1 10 10 GLN CA  C 13  55.7 0.2 . 9 . . . . 10 GLN CA  a 16060 1 
+       49 . 1 1 10 10 GLN CB  C 13  28.1 0.3 . 1 . . . . 10 GLN CB  a 16060 1 
+       50 . 1 1 10 10 GLN CD  C 13 179.8 0.2 . 9 . . . . 10 GLN CD  . 16060 1 
+       51 . 1 1 10 10 GLN CG  C 13  34.7 0.2 . 9 . . . . 10 GLN CG  . 16060 1 
+       52 . 1 1 10 10 GLN N   N 15 120.5 0.4 . 9 . . . . 10 GLN N   . 16060 1 
+       53 . 1 1 11 11 PRO C   C 13 175.4 0.2 . 1 . . . . 11 PRO C   . 16060 1 
+       54 . 1 1 11 11 PRO CA  C 13  61.6 0.2 . 1 . . . . 11 PRO CA  . 16060 1 
+       55 . 1 1 11 11 PRO CB  C 13  30.8 0.2 . 1 . . . . 11 PRO CB  . 16060 1 
+       56 . 1 1 11 11 PRO CD  C 13  50.1 0.2 . 1 . . . . 11 PRO CD  . 16060 1 
+       57 . 1 1 11 11 PRO CG  C 13  28.2 0.2 . 1 . . . . 11 PRO CG  . 16060 1 
+       58 . 1 1 11 11 PRO N   N 15 137.4 0.4 . 1 . . . . 11 PRO N   c 16060 1 
+       59 . 1 1 12 12 PRO CA  C 13  63.5 0.2 . 1 . . . . 12 PRO CA  . 16060 1 
+       60 . 1 1 12 12 PRO CB  C 13  32.0 0.2 . 1 . . . . 12 PRO CB  . 16060 1 
+       61 . 1 1 12 12 PRO CD  C 13  50.5 0.2 . 1 . . . . 12 PRO CD  . 16060 1 
+       62 . 1 1 12 12 PRO CG  C 13  27.7 0.2 . 1 . . . . 12 PRO CG  . 16060 1 
+       63 . 1 1 12 12 PRO N   N 15 134.5 0.4 . 9 . . . . 12 PRO N   c 16060 1 
+       64 . 1 1 13 13 THR C   C 13 175.5 0.2 . 1 . . . . 13 THR C   . 16060 1 
+       65 . 1 1 13 13 THR CA  C 13  60.2 0.2 . 1 . . . . 13 THR CA  . 16060 1 
+       66 . 1 1 13 13 THR CB  C 13  73.0 0.2 . 1 . . . . 13 THR CB  . 16060 1 
+       67 . 1 1 13 13 THR CG2 C 13  21.6 0.2 . 1 . . . . 13 THR CG2 . 16060 1 
+       68 . 1 1 13 13 THR N   N 15 114.2 0.3 . 1 . . . . 13 THR N   a 16060 1 
+       69 . 1 1 14 14 THR C   C 13 173.2 0.2 . 9 . . . . 14 THR C   a 16060 1 
+       70 . 1 1 14 14 THR CA  C 13  60.1 0.2 . 1 . . . . 14 THR CA  a 16060 1 
+       71 . 1 1 14 14 THR CB  C 13  72.3 0.2 . 1 . . . . 14 THR CB  . 16060 1 
+       72 . 1 1 14 14 THR CG2 C 13  21.5 0.2 . 1 . . . . 14 THR CG2 a 16060 1 
+       73 . 1 1 14 14 THR N   N 15 115.3 0.3 . 9 . . . . 14 THR N   a 16060 1 
+       74 . 1 1 15 15 LYS C   C 13 174.0 0.2 . 9 . . . . 15 LYS C   . 16060 1 
+       75 . 1 1 15 15 LYS CA  C 13  54.0 0.2 . 1 . . . . 15 LYS CA  . 16060 1 
+       76 . 1 1 15 15 LYS CB  C 13  36.0 0.2 . 1 . . . . 15 LYS CB  . 16060 1 
+       77 . 1 1 15 15 LYS CD  C 13  29.5 0.2 . 1 . . . . 15 LYS CD  . 16060 1 
+       78 . 1 1 15 15 LYS CE  C 13  42.1 0.2 . 1 . . . . 15 LYS CE  . 16060 1 
+       79 . 1 1 15 15 LYS CG  C 13  23.3 0.2 . 1 . . . . 15 LYS CG  a 16060 1 
+       80 . 1 1 15 15 LYS N   N 15 121.0 0.4 . 9 . . . . 15 LYS N   . 16060 1 
+       81 . 1 1 16 16 THR C   C 13 174.5 0.2 . 1 . . . . 16 THR C   . 16060 1 
+       82 . 1 1 16 16 THR CA  C 13  62.7 0.2 . 1 . . . . 16 THR CA  . 16060 1 
+       83 . 1 1 16 16 THR CB  C 13  69.0 0.2 . 1 . . . . 16 THR CB  . 16060 1 
+       84 . 1 1 16 16 THR CG2 C 13  21.9 0.2 . 1 . . . . 16 THR CG2 . 16060 1 
+       85 . 1 1 16 16 THR N   N 15 119.7 0.4 . 9 . . . . 16 THR N   . 16060 1 
+       86 . 1 1 17 17 CYS C   C 13 175.0 0.2 . 9 . . . . 17 CYS C   . 16060 1 
+       87 . 1 1 17 17 CYS CA  C 13  52.9 0.2 . 1 . . . . 17 CYS CA  . 16060 1 
+       88 . 1 1 17 17 CYS CB  C 13  39.4 0.2 . 1 . . . . 17 CYS CB  . 16060 1 
+       89 . 1 1 17 17 CYS N   N 15 126.1 0.4 . 1 . . . . 17 CYS N   . 16060 1 
+       90 . 1 1 18 18 SER C   C 13 175.0 0.2 . 9 . . . . 18 SER C   . 16060 1 
+       91 . 1 1 18 18 SER CA  C 13  57.9 0.2 . 1 . . . . 18 SER CA  a 16060 1 
+       92 . 1 1 18 18 SER CB  C 13  62.8 0.2 . 1 . . . . 18 SER CB  . 16060 1 
+       93 . 1 1 18 18 SER N   N 15 120.5 0.4 . 9 . . . . 18 SER N   a 16060 1 
+       94 . 1 1 19 19 GLY C   C 13 174.1 0.2 . 9 . . . . 19 GLY C   . 16060 1 
+       95 . 1 1 19 19 GLY CA  C 13  45.0 0.2 . 9 . . . . 19 GLY CA  a 16060 1 
+       96 . 1 1 19 19 GLY N   N 15 112.6 0.4 . 9 . . . . 19 GLY N   . 16060 1 
+       97 . 1 1 20 20 GLU C   C 13 175.8 0.2 . 9 . . . . 20 GLU C   . 16060 1 
+       98 . 1 1 20 20 GLU CA  C 13  55.6 0.2 . 1 . . . . 20 GLU CA  . 16060 1 
+       99 . 1 1 20 20 GLU CB  C 13  30.9 0.2 . 1 . . . . 20 GLU CB  . 16060 1 
+      100 . 1 1 20 20 GLU CD  C 13 181.5 0.2 . 9 . . . . 20 GLU CD  c 16060 1 
+      101 . 1 1 20 20 GLU CG  C 13  34.5 0.2 . 9 . . . . 20 GLU CG  . 16060 1 
+      102 . 1 1 20 20 GLU N   N 15 117.5 0.4 . 9 . . . . 20 GLU N   . 16060 1 
+      103 . 1 1 21 21 THR C   C 13 174.0 0.2 . 1 . . . . 21 THR C   . 16060 1 
+      104 . 1 1 21 21 THR CA  C 13  61.4 0.2 . 1 . . . . 21 THR CA  . 16060 1 
+      105 . 1 1 21 21 THR CB  C 13  69.4 0.2 . 1 . . . . 21 THR CB  . 16060 1 
+      106 . 1 1 21 21 THR CG2 C 13  21.8 0.2 . 1 . . . . 21 THR CG2 a 16060 1 
+      107 . 1 1 21 21 THR N   N 15 109.5 0.4 . 1 . . . . 21 THR N   . 16060 1 
+      108 . 1 1 22 22 ASN C   C 13 173.7 0.2 . 1 . . . . 22 ASN C   . 16060 1 
+      109 . 1 1 22 22 ASN CA  C 13  52.3 0.2 . 1 . . . . 22 ASN CA  . 16060 1 
+      110 . 1 1 22 22 ASN CB  C 13  44.4 0.2 . 1 . . . . 22 ASN CB  . 16060 1 
+      111 . 1 1 23 23 CYS C   C 13 174.6 0.2 . 9 . . . . 23 CYS C   . 16060 1 
+      112 . 1 1 23 23 CYS CA  C 13  52.6 0.2 . 1 . . . . 23 CYS CA  . 16060 1 
+      113 . 1 1 23 23 CYS CB  C 13  39.6 0.2 . 1 . . . . 23 CYS CB  . 16060 1 
+      114 . 1 1 23 23 CYS N   N 15 116.2 0.4 . 1 . . . . 23 CYS N   . 16060 1 
+      115 . 1 1 24 24 TYR C   C 13 175.1 0.2 . 9 . . . . 24 TYR C   . 16060 1 
+      116 . 1 1 24 24 TYR CA  C 13  56.2 0.2 . 1 . . . . 24 TYR CA  . 16060 1 
+      117 . 1 1 24 24 TYR CB  C 13  41.8 0.2 . 9 . . . . 24 TYR CB  . 16060 1 
+      118 . 1 1 24 24 TYR CD1 C 13 133.2 0.2 . 1 . . . . 24 TYR CD1 a 16060 1 
+      119 . 1 1 24 24 TYR CD2 C 13 134.8 0.2 . 1 . . . . 24 TYR CD2 a 16060 1 
+      120 . 1 1 24 24 TYR CE1 C 13 117.4 0.2 . 1 . . . . 24 TYR CE1 . 16060 1 
+      121 . 1 1 24 24 TYR CE2 C 13 116.5 0.2 . 1 . . . . 24 TYR CE2 a 16060 1 
+      122 . 1 1 24 24 TYR CG  C 13 129.9 0.2 . 1 . . . . 24 TYR CG  c 16060 1 
+      123 . 1 1 24 24 TYR CZ  C 13 157.7 0.3 . 1 . . . . 24 TYR CZ  . 16060 1 
+      124 . 1 1 24 24 TYR N   N 15 113.1 0.4 . 1 . . . . 24 TYR N   a 16060 1 
+      125 . 1 1 25 25 LYS C   C 13 172.5 0.2 . 1 . . . . 25 LYS C   a 16060 1 
+      126 . 1 1 25 25 LYS CA  C 13  56.1 0.2 . 1 . . . . 25 LYS CA  . 16060 1 
+      127 . 1 1 25 25 LYS CB  C 13  37.3 0.2 . 1 . . . . 25 LYS CB  . 16060 1 
+      128 . 1 1 25 25 LYS CD  C 13  29.8 0.2 . 1 . . . . 25 LYS CD  . 16060 1 
+      129 . 1 1 25 25 LYS CE  C 13  41.7 0.2 . 9 . . . . 25 LYS CE  . 16060 1 
+      130 . 1 1 25 25 LYS CG  C 13  26.3 0.2 . 1 . . . . 25 LYS CG  . 16060 1 
+      131 . 1 1 25 25 LYS N   N 15 126.7 0.4 . 1 . . . . 25 LYS N   b 16060 1 
+      132 . 1 1 26 26 LYS C   C 13 174.4 0.2 . 9 . . . . 26 LYS C   . 16060 1 
+      133 . 1 1 26 26 LYS CA  C 13  54.0 0.2 . 1 . . . . 26 LYS CA  . 16060 1 
+      134 . 1 1 26 26 LYS CB  C 13  38.5 0.2 . 1 . . . . 26 LYS CB  a 16060 1 
+      135 . 1 1 26 26 LYS CD  C 13  31.1 0.2 . 1 . . . . 26 LYS CD  a 16060 1 
+      136 . 1 1 26 26 LYS CE  C 13  42.2 0.2 . 1 . . . . 26 LYS CE  a 16060 1 
+      137 . 1 1 26 26 LYS CG  C 13  25.3 0.2 . 1 . . . . 26 LYS CG  . 16060 1 
+      138 . 1 1 26 26 LYS N   N 15 132.3 0.4 . 1 . . . . 26 LYS N   b 16060 1 
+      139 . 1 1 27 27 TRP C   C 13 173.3 0.2 . 9 . . . . 27 TRP C   . 16060 1 
+      140 . 1 1 27 27 TRP CA  C 13  57.3 0.2 . 1 . . . . 27 TRP CA  . 16060 1 
+      141 . 1 1 27 27 TRP CB  C 13  34.3 0.2 . 1 . . . . 27 TRP CB  . 16060 1 
+      142 . 1 1 27 27 TRP CD1 C 13 127.3 0.2 . 1 . . . . 27 TRP CD1 . 16060 1 
+      143 . 1 1 27 27 TRP CD2 C 13 130.0 0.2 . 1 . . . . 27 TRP CD2 . 16060 1 
+      144 . 1 1 27 27 TRP CE2 C 13 139.8 0.2 . 1 . . . . 27 TRP CE2 c 16060 1 
+      145 . 1 1 27 27 TRP CE3 C 13 122.1 0.2 . 9 . . . . 27 TRP CE3 a 16060 1 
+      146 . 1 1 27 27 TRP CG  C 13 112.2 0.2 . 1 . . . . 27 TRP CG  c 16060 1 
+      147 . 1 1 27 27 TRP CH2 C 13 124.5 0.2 . 1 . . . . 27 TRP CH2 . 16060 1 
+      148 . 1 1 27 27 TRP CZ2 C 13 115.4 0.2 . 9 . . . . 27 TRP CZ2 . 16060 1 
+      149 . 1 1 27 27 TRP CZ3 C 13 122.3 0.2 . 9 . . . . 27 TRP CZ3 . 16060 1 
+      150 . 1 1 27 27 TRP N   N 15 125.3 0.4 . 1 . . . . 27 TRP N   b 16060 1 
+      151 . 1 1 27 27 TRP NE1 N 15 133.3 0.4 . 9 . . . . 27 TRP NE1 a 16060 1 
+      152 . 1 1 28 28 TRP C   C 13 172.1 0.2 . 1 . . . . 28 TRP C   a 16060 1 
+      153 . 1 1 28 28 TRP CA  C 13  56.9 0.2 . 1 . . . . 28 TRP CA  . 16060 1 
+      154 . 1 1 28 28 TRP CB  C 13  32.1 0.2 . 9 . . . . 28 TRP CB  . 16060 1 
+      155 . 1 1 28 28 TRP CD1 C 13 127.3 0.2 . 1 . . . . 28 TRP CD1 c 16060 1 
+      156 . 1 1 28 28 TRP CD2 C 13 130.0 0.2 . 1 . . . . 28 TRP CD2 . 16060 1 
+      157 . 1 1 28 28 TRP CE2 C 13 139.5 0.2 . 1 . . . . 28 TRP CE2 c 16060 1 
+      158 . 1 1 28 28 TRP CE3 C 13 121.3 0.2 . 1 . . . . 28 TRP CE3 . 16060 1 
+      159 . 1 1 28 28 TRP CG  C 13 112.3 0.2 . 1 . . . . 28 TRP CG  . 16060 1 
+      160 . 1 1 28 28 TRP CH2 C 13 123.8 0.2 . 1 . . . . 28 TRP CH2 . 16060 1 
+      161 . 1 1 28 28 TRP CZ2 C 13 115.1 0.2 . 9 . . . . 28 TRP CZ2 . 16060 1 
+      162 . 1 1 28 28 TRP CZ3 C 13 120.9 0.2 . 9 . . . . 28 TRP CZ3 . 16060 1 
+      163 . 1 1 28 28 TRP N   N 15 121.6 0.4 . 1 . . . . 28 TRP N   b 16060 1 
+      164 . 1 1 28 28 TRP NE1 N 15 132.3 0.4 . 1 . . . . 28 TRP NE1 b 16060 1 
+      165 . 1 1 29 29 SER C   C 13 173.7 0.2 . 9 . . . . 29 SER C   . 16060 1 
+      166 . 1 1 29 29 SER CA  C 13  56.6 0.2 . 1 . . . . 29 SER CA  a 16060 1 
+      167 . 1 1 29 29 SER CB  C 13  65.9 0.2 . 1 . . . . 29 SER CB  a 16060 1 
+      168 . 1 1 29 29 SER N   N 15 112.8 0.4 . 1 . . . . 29 SER N   . 16060 1 
+      169 . 1 1 30 30 ASP C   C 13 176.5 0.2 . 1 . . . . 30 ASP C   . 16060 1 
+      170 . 1 1 30 30 ASP CA  C 13  51.9 0.2 . 1 . . . . 30 ASP CA  a 16060 1 
+      171 . 1 1 30 30 ASP CB  C 13  41.7 0.2 . 1 . . . . 30 ASP CB  . 16060 1 
+      172 . 1 1 30 30 ASP N   N 15 124.4 0.4 . 9 . . . . 30 ASP N   . 16060 1 
+      173 . 1 1 31 31 HIS C   C 13 175.1 0.2 . 9 . . . . 31 HIS C   . 16060 1 
+      174 . 1 1 31 31 HIS CA  C 13  58.1 0.2 . 1 . . . . 31 HIS CA  a 16060 1 
+      175 . 1 1 31 31 HIS CB  C 13  28.5 0.2 . 1 . . . . 31 HIS CB  b 16060 1 
+      176 . 1 1 31 31 HIS CD2 C 13 121.5 0.2 . 1 . . . . 31 HIS CD2 b 16060 1 
+      177 . 1 1 31 31 HIS CE1 C 13 138.4 0.2 . 1 . . . . 31 HIS CE1 b 16060 1 
+      178 . 1 1 31 31 HIS CG  C 13 130.4 0.2 . 1 . . . . 31 HIS CG  c 16060 1 
+      179 . 1 1 31 31 HIS N   N 15 117.1 0.4 . 9 . . . . 31 HIS N   . 16060 1 
+      180 . 1 1 32 32 ARG C   C 13 175.5 0.2 . 1 . . . . 32 ARG C   . 16060 1 
+      181 . 1 1 32 32 ARG CA  C 13  56.1 0.2 . 9 . . . . 32 ARG CA  a 16060 1 
+      182 . 1 1 32 32 ARG CB  C 13  30.2 0.2 . 9 . . . . 32 ARG CB  . 16060 1 
+      183 . 1 1 32 32 ARG CD  C 13  43.3 0.2 . 9 . . . . 32 ARG CD  . 16060 1 
+      184 . 1 1 32 32 ARG CG  C 13  27.1 0.2 . 9 . . . . 32 ARG CG  . 16060 1 
+      185 . 1 1 32 32 ARG CZ  C 13 159.6 0.5 . 5 . . . . 32 ARG CZ  d 16060 1 
+      186 . 1 1 32 32 ARG N   N 15 117.5 0.5 . 9 . . . . 32 ARG N   . 16060 1 
+      187 . 1 1 33 33 GLY C   C 13 172.8 0.2 . 9 . . . . 33 GLY C   a 16060 1 
+      188 . 1 1 33 33 GLY CA  C 13  46.5 0.2 . 1 . . . . 33 GLY CA  b 16060 1 
+      189 . 1 1 33 33 GLY N   N 15 107.3 0.4 . 1 . . . . 33 GLY N   b 16060 1 
+      190 . 1 1 34 34 THR C   C 13 171.3 0.2 . 1 . . . . 34 THR C   b 16060 1 
+      191 . 1 1 34 34 THR CA  C 13  62.2 0.2 . 1 . . . . 34 THR CA  . 16060 1 
+      192 . 1 1 34 34 THR CB  C 13  70.6 0.2 . 1 . . . . 34 THR CB  . 16060 1 
+      193 . 1 1 34 34 THR CG2 C 13  21.1 0.2 . 1 . . . . 34 THR CG2 . 16060 1 
+      194 . 1 1 34 34 THR N   N 15 118.6 0.4 . 1 . . . . 34 THR N   b 16060 1 
+      195 . 1 1 35 35 ILE C   C 13 173.3 0.2 . 9 . . . . 35 ILE C   . 16060 1 
+      196 . 1 1 35 35 ILE CA  C 13  60.2 0.2 . 1 . . . . 35 ILE CA  . 16060 1 
+      197 . 1 1 35 35 ILE CB  C 13  40.6 0.2 . 1 . . . . 35 ILE CB  b 16060 1 
+      198 . 1 1 35 35 ILE CD1 C 13  14.3 0.2 . 1 . . . . 35 ILE CD1 b 16060 1 
+      199 . 1 1 35 35 ILE CG1 C 13  28.0 0.2 . 1 . . . . 35 ILE CG1 . 16060 1 
+      200 . 1 1 35 35 ILE CG2 C 13  19.4 0.2 . 1 . . . . 35 ILE CG2 b 16060 1 
+      201 . 1 1 35 35 ILE N   N 15 130.5 0.4 . 1 . . . . 35 ILE N   . 16060 1 
+      202 . 1 1 36 36 ILE C   C 13 175.5 0.2 . 9 . . . . 36 ILE C   . 16060 1 
+      203 . 1 1 36 36 ILE CA  C 13  59.2 0.2 . 1 . . . . 36 ILE CA  a 16060 1 
+      204 . 1 1 36 36 ILE CB  C 13  41.3 0.2 . 1 . . . . 36 ILE CB  a 16060 1 
+      205 . 1 1 36 36 ILE CD1 C 13  14.7 0.2 . 1 . . . . 36 ILE CD1 . 16060 1 
+      206 . 1 1 36 36 ILE CG1 C 13  26.4 0.2 . 1 . . . . 36 ILE CG1 a 16060 1 
+      207 . 1 1 36 36 ILE CG2 C 13  19.2 0.2 . 1 . . . . 36 ILE CG2 . 16060 1 
+      208 . 1 1 36 36 ILE N   N 15 120.8 0.4 . 1 . . . . 36 ILE N   a 16060 1 
+      209 . 1 1 37 37 GLU CA  C 13  53.8 0.2 . 1 . . . . 37 GLU CA  . 16060 1 
+      210 . 1 1 37 37 GLU CB  C 13  32.1 0.2 . 9 . . . . 37 GLU CB  a 16060 1 
+      211 . 1 1 37 37 GLU CG  C 13  35.7 0.2 . 9 . . . . 37 GLU CG  a 16060 1 
+      212 . 1 1 37 37 GLU N   N 15 127.2 0.4 . 1 . . . . 37 GLU N   . 16060 1 
+      213 . 1 1 38 38 ARG C   C 13 175.4 0.2 . 1 . . . . 38 ARG C   . 16060 1 
+      214 . 1 1 38 38 ARG CA  C 13  53.6 0.2 . 9 . . . . 38 ARG CA  . 16060 1 
+      215 . 1 1 38 38 ARG CB  C 13  34.7 0.2 . 1 . . . . 38 ARG CB  . 16060 1 
+      216 . 1 1 38 38 ARG CD  C 13  44.0 0.2 . 1 . . . . 38 ARG CD  . 16060 1 
+      217 . 1 1 38 38 ARG CG  C 13  28.8 0.2 . 9 . . . . 38 ARG CG  . 16060 1 
+      218 . 1 1 38 38 ARG CZ  C 13 159.6 0.5 . 5 . . . . 38 ARG CZ  d 16060 1 
+      219 . 1 1 38 38 ARG N   N 15 122.9 0.4 . 1 . . . . 38 ARG N   . 16060 1 
+      220 . 1 1 39 39 GLY C   C 13 172.0 0.2 . 9 . . . . 39 GLY C   . 16060 1 
+      221 . 1 1 39 39 GLY CA  C 13  46.5 0.2 . 1 . . . . 39 GLY CA  . 16060 1 
+      222 . 1 1 39 39 GLY N   N 15 104.2 0.4 . 1 . . . . 39 GLY N   . 16060 1 
+      223 . 1 1 40 40 CYS C   C 13 174.6 0.4 . 9 . . . . 40 CYS C   . 16060 1 
+      224 . 1 1 40 40 CYS CA  C 13  56.7 0.2 . 1 . . . . 40 CYS CA  a 16060 1 
+      225 . 1 1 40 40 CYS CB  C 13  45.0 0.4 . 9 . . . . 40 CYS CB  a 16060 1 
+      226 . 1 1 40 40 CYS N   N 15 118.9 0.4 . 1 . . . . 40 CYS N   . 16060 1 
+      227 . 1 1 41 41 GLY C   C 13 170.9 0.2 . 1 . . . . 41 GLY C   . 16060 1 
+      228 . 1 1 41 41 GLY CA  C 13  43.4 0.2 . 1 . . . . 41 GLY CA  a 16060 1 
+      229 . 1 1 41 41 GLY N   N 15 111.3 0.4 . 1 . . . . 41 GLY N   . 16060 1 
+      230 . 1 1 42 42 CYS C   C 13 171.1 0.2 . 1 . . . . 42 CYS C   c 16060 1 
+      231 . 1 1 42 42 CYS CA  C 13  53.3 0.2 . 1 . . . . 42 CYS CA  . 16060 1 
+      232 . 1 1 42 42 CYS CB  C 13  37.6 0.2 . 1 . . . . 42 CYS CB  . 16060 1 
+      233 . 1 1 42 42 CYS N   N 15 113.2 0.4 . 1 . . . . 42 CYS N   . 16060 1 
+      234 . 1 1 43 43 PRO C   C 13 174.8 0.2 . 1 . . . . 43 PRO C   . 16060 1 
+      235 . 1 1 43 43 PRO CA  C 13  62.3 0.2 . 1 . . . . 43 PRO CA  . 16060 1 
+      236 . 1 1 43 43 PRO CB  C 13  32.3 0.2 . 1 . . . . 43 PRO CB  . 16060 1 
+      237 . 1 1 43 43 PRO CD  C 13  50.2 0.2 . 1 . . . . 43 PRO CD  . 16060 1 
+      238 . 1 1 43 43 PRO CG  C 13  25.2 0.2 . 1 . . . . 43 PRO CG  . 16060 1 
+      239 . 1 1 43 43 PRO N   N 15 139.1 0.4 . 1 . . . . 43 PRO N   . 16060 1 
+      240 . 1 1 44 44 LYS C   C 13 177.6 0.2 . 9 . . . . 44 LYS C   . 16060 1 
+      241 . 1 1 44 44 LYS CA  C 13  55.5 0.2 . 1 . . . . 44 LYS CA  . 16060 1 
+      242 . 1 1 44 44 LYS CB  C 13  32.4 0.2 . 9 . . . . 44 LYS CB  . 16060 1 
+      243 . 1 1 44 44 LYS CD  C 13  29.1 0.2 . 1 . . . . 44 LYS CD  . 16060 1 
+      244 . 1 1 44 44 LYS CE  C 13  42.0 0.2 . 9 . . . . 44 LYS CE  . 16060 1 
+      245 . 1 1 44 44 LYS CG  C 13  24.9 0.2 . 9 . . . . 44 LYS CG  . 16060 1 
+      246 . 1 1 44 44 LYS N   N 15 117.2 0.4 . 9 . . . . 44 LYS N   . 16060 1 
+      247 . 1 1 45 45 VAL C   C 13 175.3 0.2 . 1 . . . . 45 VAL C   . 16060 1 
+      248 . 1 1 45 45 VAL CA  C 13  58.3 0.2 . 1 . . . . 45 VAL CA  b 16060 1 
+      249 . 1 1 45 45 VAL CB  C 13  35.4 0.2 . 1 . . . . 45 VAL CB  a 16060 1 
+      250 . 1 1 45 45 VAL CG1 C 13  18.2 0.2 . 1 . . . . 45 VAL CG1 a 16060 1 
+      251 . 1 1 45 45 VAL CG2 C 13  22.4 0.2 . 1 . . . . 45 VAL CG2 . 16060 1 
+      252 . 1 1 45 45 VAL N   N 15 116.9 0.4 . 9 . . . . 45 VAL N   . 16060 1 
+      253 . 1 1 46 46 LYS C   C 13 173.4 0.2 . 9 . . . . 46 LYS C   c 16060 1 
+      254 . 1 1 46 46 LYS CA  C 13  55.5 0.5 . 1 . . . . 46 LYS CA  a 16060 1 
+      255 . 1 1 46 46 LYS CB  C 13  31.4 0.5 . 9 . . . . 46 LYS CB  a 16060 1 
+      256 . 1 1 46 46 LYS CD  C 13  29.1 0.2 . 9 . . . . 46 LYS CD  . 16060 1 
+      257 . 1 1 46 46 LYS CE  C 13  42.0 0.2 . 9 . . . . 46 LYS CE  . 16060 1 
+      258 . 1 1 46 46 LYS CG  C 13  26.4 0.2 . 9 . . . . 46 LYS CG  b 16060 1 
+      259 . 1 1 46 46 LYS N   N 15 123.2 0.4 . 9 . . . . 46 LYS N   . 16060 1 
+      260 . 1 1 47 47 PRO C   C 13 177.5 0.2 . 1 . . . . 47 PRO C   . 16060 1 
+      261 . 1 1 47 47 PRO CA  C 13  63.7 0.2 . 1 . . . . 47 PRO CA  . 16060 1 
+      262 . 1 1 47 47 PRO CB  C 13  31.6 0.2 . 1 . . . . 47 PRO CB  . 16060 1 
+      263 . 1 1 47 47 PRO CD  C 13  50.3 0.2 . 1 . . . . 47 PRO CD  . 16060 1 
+      264 . 1 1 47 47 PRO CG  C 13  27.8 0.2 . 1 . . . . 47 PRO CG  . 16060 1 
+      265 . 1 1 47 47 PRO N   N 15 134.6 0.4 . 1 . . . . 47 PRO N   c 16060 1 
+      266 . 1 1 48 48 GLY CA  C 13  45.0 0.2 . 1 . . . . 48 GLY CA  . 16060 1 
+      267 . 1 1 48 48 GLY N   N 15 112.5 0.4 . 1 . . . . 48 GLY N   . 16060 1 
+      268 . 1 1 49 49 VAL C   C 13 174.1 0.2 . 1 . . . . 49 VAL C   a 16060 1 
+      269 . 1 1 49 49 VAL CA  C 13  62.9 0.2 . 1 . . . . 49 VAL CA  b 16060 1 
+      270 . 1 1 49 49 VAL CB  C 13  31.7 0.2 . 1 . . . . 49 VAL CB  b 16060 1 
+      271 . 1 1 49 49 VAL CG1 C 13  21.8 0.2 . 1 . . . . 49 VAL CG1 . 16060 1 
+      272 . 1 1 49 49 VAL CG2 C 13  23.0 0.2 . 1 . . . . 49 VAL CG2 b 16060 1 
+      273 . 1 1 49 49 VAL N   N 15 122.6 0.4 . 1 . . . . 49 VAL N   b 16060 1 
+      274 . 1 1 50 50 ASN C   C 13 172.8 0.2 . 9 . . . . 50 ASN C   . 16060 1 
+      275 . 1 1 50 50 ASN CA  C 13  53.4 0.2 . 1 . . . . 50 ASN CA  a 16060 1 
+      276 . 1 1 50 50 ASN CB  C 13  38.5 0.2 . 9 . . . . 50 ASN CB  . 16060 1 
+      277 . 1 1 50 50 ASN N   N 15 124.8 0.4 . 9 . . . . 50 ASN N   . 16060 1 
+      278 . 1 1 51 51 LEU C   C 13 175.3 0.2 . 1 . . . . 51 LEU C   . 16060 1 
+      279 . 1 1 51 51 LEU CA  C 13  54.4 0.2 . 1 . . . . 51 LEU CA  . 16060 1 
+      280 . 1 1 51 51 LEU CB  C 13  47.0 0.2 . 1 . . . . 51 LEU CB  . 16060 1 
+      281 . 1 1 51 51 LEU CD1 C 13  24.1 0.2 . 1 . . . . 51 LEU CD1 . 16060 1 
+      282 . 1 1 51 51 LEU CD2 C 13  27.6 0.2 . 1 . . . . 51 LEU CD2 . 16060 1 
+      283 . 1 1 51 51 LEU CG  C 13  27.8 0.2 . 1 . . . . 51 LEU CG  . 16060 1 
+      284 . 1 1 51 51 LEU N   N 15 121.6 0.4 . 1 . . . . 51 LEU N   . 16060 1 
+      285 . 1 1 52 52 ASN C   C 13 174.1 0.2 . 9 . . . . 52 ASN C   . 16060 1 
+      286 . 1 1 52 52 ASN CA  C 13  52.8 0.2 . 1 . . . . 52 ASN CA  . 16060 1 
+      287 . 1 1 52 52 ASN CB  C 13  42.6 0.2 . 1 . . . . 52 ASN CB  . 16060 1 
+      288 . 1 1 52 52 ASN N   N 15 125.4 0.4 . 1 . . . . 52 ASN N   . 16060 1 
+      289 . 1 1 53 53 CYS C   C 13 172.2 0.2 . 1 . . . . 53 CYS C   . 16060 1 
+      290 . 1 1 53 53 CYS CA  C 13  53.5 0.2 . 1 . . . . 53 CYS CA  . 16060 1 
+      291 . 1 1 53 53 CYS CB  C 13  43.4 0.2 . 1 . . . . 53 CYS CB  . 16060 1 
+      292 . 1 1 53 53 CYS N   N 15 122.9 0.2 . 1 . . . . 53 CYS N   . 16060 1 
+      293 . 1 1 54 54 CYS C   C 13 174.3 0.2 . 9 . . . . 54 CYS C   . 16060 1 
+      294 . 1 1 54 54 CYS CA  C 13  54.4 0.2 . 1 . . . . 54 CYS CA  . 16060 1 
+      295 . 1 1 54 54 CYS CB  C 13  45.8 0.2 . 1 . . . . 54 CYS CB  . 16060 1 
+      296 . 1 1 54 54 CYS N   N 15 120.1 0.4 . 1 . . . . 54 CYS N   . 16060 1 
+      297 . 1 1 55 55 ARG C   C 13 175.3 0.2 . 9 . . . . 55 ARG C   . 16060 1 
+      298 . 1 1 55 55 ARG CA  C 13  56.9 0.2 . 1 . . . . 55 ARG CA  . 16060 1 
+      299 . 1 1 55 55 ARG CB  C 13  32.3 0.2 . 1 . . . . 55 ARG CB  . 16060 1 
+      300 . 1 1 55 55 ARG CD  C 13  43.4 0.2 . 1 . . . . 55 ARG CD  . 16060 1 
+      301 . 1 1 55 55 ARG CG  C 13  27.0 0.2 . 1 . . . . 55 ARG CG  . 16060 1 
+      302 . 1 1 55 55 ARG CZ  C 13 159.6 0.5 . 5 . . . . 55 ARG CZ  d 16060 1 
+      303 . 1 1 55 55 ARG N   N 15 118.2 0.5 . 1 . . . . 55 ARG N   . 16060 1 
+      304 . 1 1 56 56 THR C   C 13 173.4 0.2 . 1 . . . . 56 THR C   . 16060 1 
+      305 . 1 1 56 56 THR CA  C 13  59.8 0.2 . 1 . . . . 56 THR CA  . 16060 1 
+      306 . 1 1 56 56 THR CB  C 13  71.7 0.2 . 1 . . . . 56 THR CB  . 16060 1 
+      307 . 1 1 56 56 THR CG2 C 13  22.3 0.2 . 1 . . . . 56 THR CG2 . 16060 1 
+      308 . 1 1 56 56 THR N   N 15 111.7 0.4 . 1 . . . . 56 THR N   b 16060 1 
+      309 . 1 1 57 57 ASP C   C 13 177.5 0.2 . 1 . . . . 57 ASP C   . 16060 1 
+      310 . 1 1 57 57 ASP CA  C 13  55.9 0.2 . 1 . . . . 57 ASP CA  . 16060 1 
+      311 . 1 1 57 57 ASP CB  C 13  41.2 0.2 . 1 . . . . 57 ASP CB  . 16060 1 
+      312 . 1 1 57 57 ASP CG  C 13 179.1 0.2 . 1 . . . . 57 ASP CG  c 16060 1 
+      313 . 1 1 57 57 ASP N   N 15 119.5 0.5 . 9 . . . . 57 ASP N   . 16060 1 
+      314 . 1 1 58 58 ARG C   C 13 175.4 0.2 . 1 . . . . 58 ARG C   . 16060 1 
+      315 . 1 1 58 58 ARG CA  C 13  58.2 0.2 . 1 . . . . 58 ARG CA  . 16060 1 
+      316 . 1 1 58 58 ARG CB  C 13  26.5 0.2 . 1 . . . . 58 ARG CB  . 16060 1 
+      317 . 1 1 58 58 ARG CD  C 13  42.5 0.2 . 1 . . . . 58 ARG CD  . 16060 1 
+      318 . 1 1 58 58 ARG CG  C 13  28.7 0.2 . 1 . . . . 58 ARG CG  . 16060 1 
+      319 . 1 1 58 58 ARG CZ  C 13 159.6 0.5 . 5 . . . . 58 ARG CZ  d 16060 1 
+      320 . 1 1 58 58 ARG N   N 15 114.0 0.4 . 1 . . . . 58 ARG N   c 16060 1 
+      321 . 1 1 59 59 CYS C   C 13 174.2 0.2 . 9 . . . . 59 CYS C   . 16060 1 
+      322 . 1 1 59 59 CYS CA  C 13  57.1 0.2 . 1 . . . . 59 CYS CA  . 16060 1 
+      323 . 1 1 59 59 CYS CB  C 13  45.1 0.2 . 1 . . . . 59 CYS CB  . 16060 1 
+      324 . 1 1 59 59 CYS N   N 15 113.5 0.4 . 9 . . . . 59 CYS N   a 16060 1 
+      325 . 1 1 60 60 ASN C   C 13 173.4 0.2 . 9 . . . . 60 ASN C   a 16060 1 
+      326 . 1 1 60 60 ASN CA  C 13  52.8 0.2 . 1 . . . . 60 ASN CA  . 16060 1 
+      327 . 1 1 60 60 ASN CB  C 13  36.6 0.2 . 1 . . . . 60 ASN CB  a 16060 1 
+      328 . 1 1 60 60 ASN N   N 15 121.7 0.4 . 1 . . . . 60 ASN N   . 16060 1 
+      329 . 1 1 61 61 ASN C   C 13 177.7 0.2 . 9 . . . . 61 ASN C   c 16060 1 
+      330 . 1 1 61 61 ASN CA  C 13  56.1 0.2 . 9 . . . . 61 ASN CA  . 16060 1 
+      331 . 1 1 61 61 ASN CB  C 13  41.2 0.2 . 9 . . . . 61 ASN CB  b 16060 1 
+      332 . 1 1 61 61 ASN N   N 15 121.9 0.4 . 9 . . . . 61 ASN N   . 16060 1 
+
+   stop_
+
+   loop_
+      _Ambiguous_atom_chem_shift.Ambiguous_shift_set_ID
+      _Ambiguous_atom_chem_shift.Atom_chem_shift_ID
+      _Ambiguous_atom_chem_shift.Entry_ID
+      _Ambiguous_atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1 185 16060 1 
+      1 218 16060 1 
+      1 302 16060 1 
+      1 319 16060 1 
+
+   stop_
+
+save_
+

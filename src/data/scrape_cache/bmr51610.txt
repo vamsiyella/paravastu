@@ -1,0 +1,1999 @@
+data_51610
+
+
+#######################
+#  Entry information  #
+#######################
+save_entry_information_1
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information_1
+   _Entry.ID                             51610
+   _Entry.Title
+;
+EcFTSZ_TEDOR_DNP
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2022-08-31
+   _Entry.Accession_date                 2022-08-31
+   _Entry.Last_release_date              2022-08-31
+   _Entry.Original_release_date          2022-08-31
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.14.0
+   _Entry.NMR_STAR_dict_location         .
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solid-state
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          1
+   _Entry.Generated_software_label       $software_1
+   _Entry.Generated_date                 .
+   _Entry.DOI                            .
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        'Time domain data for E. coli FtsZ ZF-TEDOR data sets covering multiple samples'
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Kelsey   McCoy         .   M.   .   0000-0001-5389-6304   51610
+      2   Keith    Fritzsching   .   J.   .   .                     51610
+      3   Ann      McDermott     .   E.   .   .                     51610
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      2   .   .   2023-02-07   2022-08-31   update     BMRB     'update entry citation'   51610
+      1   .   .   2022-09-21   2022-08-31   original   author   'original release'        51610
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+save_citations_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citations_1
+   _Citation.Entry_ID                     51610
+   _Citation.ID                           1
+   _Citation.Name                         .
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.PubMed_ID                    36214571
+   _Citation.DOI                          .
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+GTP-Bound Escherichia coli FtsZ Filaments Are Composed of Tense Monomers: a Dynamic Nuclear Polarization-Nuclear Magnetic Resonance Study Using Interface Detection
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               mBio
+   _Citation.Journal_name_full            mBio
+   _Citation.Journal_volume               13
+   _Citation.Journal_issue                6
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 2150-7511
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   e0235822
+   _Citation.Page_last                    e0235822
+   _Citation.Year                         2022
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Kelsey   McCoy         .   M.   .   .   51610   1
+      2   Keith    Fritzsching   .   J.   .   .   51610   1
+      3   Ann      McDermott     .   E.   .   .   51610   1
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+save_assembly_1
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly_1
+   _Assembly.Entry_ID                          51610
+   _Assembly.ID                                1
+   _Assembly.Name                              'FtsZ filament'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              2
+   _Assembly.Organic_ligands                   1
+   _Assembly.Metal_ions                        0
+   _Assembly.Non_standard_bonds                no
+   _Assembly.Ambiguous_conformational_states   no
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    no
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   'FtsZ filament'   1   $entity_1     .   .   yes   native   no   no   .   .   .   51610   1
+      2   GTP               2   $entity_GTP   .   .   no    native   no   no   .   .   .   51610   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+save_entity_1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_1
+   _Entity.Entry_ID                          51610
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              entity_1
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+MFEPMELTNDAVIKVIGVGG
+GGGNAVEHMVRERIEGVEFF
+AVNTDAQALRKTAVGQTIQI
+GSGITKGLGAGANPEVGRNA
+ADEDRDALRAALEGADMVFI
+AAGMGGGTGTGAAPVVAEVA
+KDLGILTVAVVTKPFNFEGK
+KRMAFAEQGITELSKHVDSL
+ITIPNDKLLKVLGRGISLLD
+AFGAANDVLKGAVQGIAELI
+TRPGLMNVDFADVRTVMSEM
+GYAMMGSGVASGEDRAEEAA
+EMAISSPLLEDIDLSGARGV
+LVNITAGFDLRLDEFETVGN
+TIRAFASDNATVVIGTSLDP
+DMNDELRVTVVATGIGMDKR
+PEITLVTNKQVQQPVMDRYQ
+QHGMAPLTQEQKPVAKVVND
+NAPQTAKEPDYLDIPAFLRK
+QAD
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   yes
+   _Entity.Ambiguous_chem_comp_sites         yes
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                383
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1     .   MET   .   51610   1
+      2     .   PHE   .   51610   1
+      3     .   GLU   .   51610   1
+      4     .   PRO   .   51610   1
+      5     .   MET   .   51610   1
+      6     .   GLU   .   51610   1
+      7     .   LEU   .   51610   1
+      8     .   THR   .   51610   1
+      9     .   ASN   .   51610   1
+      10    .   ASP   .   51610   1
+      11    .   ALA   .   51610   1
+      12    .   VAL   .   51610   1
+      13    .   ILE   .   51610   1
+      14    .   LYS   .   51610   1
+      15    .   VAL   .   51610   1
+      16    .   ILE   .   51610   1
+      17    .   GLY   .   51610   1
+      18    .   VAL   .   51610   1
+      19    .   GLY   .   51610   1
+      20    .   GLY   .   51610   1
+      21    .   GLY   .   51610   1
+      22    .   GLY   .   51610   1
+      23    .   GLY   .   51610   1
+      24    .   ASN   .   51610   1
+      25    .   ALA   .   51610   1
+      26    .   VAL   .   51610   1
+      27    .   GLU   .   51610   1
+      28    .   HIS   .   51610   1
+      29    .   MET   .   51610   1
+      30    .   VAL   .   51610   1
+      31    .   ARG   .   51610   1
+      32    .   GLU   .   51610   1
+      33    .   ARG   .   51610   1
+      34    .   ILE   .   51610   1
+      35    .   GLU   .   51610   1
+      36    .   GLY   .   51610   1
+      37    .   VAL   .   51610   1
+      38    .   GLU   .   51610   1
+      39    .   PHE   .   51610   1
+      40    .   PHE   .   51610   1
+      41    .   ALA   .   51610   1
+      42    .   VAL   .   51610   1
+      43    .   ASN   .   51610   1
+      44    .   THR   .   51610   1
+      45    .   ASP   .   51610   1
+      46    .   ALA   .   51610   1
+      47    .   GLN   .   51610   1
+      48    .   ALA   .   51610   1
+      49    .   LEU   .   51610   1
+      50    .   ARG   .   51610   1
+      51    .   LYS   .   51610   1
+      52    .   THR   .   51610   1
+      53    .   ALA   .   51610   1
+      54    .   VAL   .   51610   1
+      55    .   GLY   .   51610   1
+      56    .   GLN   .   51610   1
+      57    .   THR   .   51610   1
+      58    .   ILE   .   51610   1
+      59    .   GLN   .   51610   1
+      60    .   ILE   .   51610   1
+      61    .   GLY   .   51610   1
+      62    .   SER   .   51610   1
+      63    .   GLY   .   51610   1
+      64    .   ILE   .   51610   1
+      65    .   THR   .   51610   1
+      66    .   LYS   .   51610   1
+      67    .   GLY   .   51610   1
+      68    .   LEU   .   51610   1
+      69    .   GLY   .   51610   1
+      70    .   ALA   .   51610   1
+      71    .   GLY   .   51610   1
+      72    .   ALA   .   51610   1
+      73    .   ASN   .   51610   1
+      74    .   PRO   .   51610   1
+      75    .   GLU   .   51610   1
+      76    .   VAL   .   51610   1
+      77    .   GLY   .   51610   1
+      78    .   ARG   .   51610   1
+      79    .   ASN   .   51610   1
+      80    .   ALA   .   51610   1
+      81    .   ALA   .   51610   1
+      82    .   ASP   .   51610   1
+      83    .   GLU   .   51610   1
+      84    .   ASP   .   51610   1
+      85    .   ARG   .   51610   1
+      86    .   ASP   .   51610   1
+      87    .   ALA   .   51610   1
+      88    .   LEU   .   51610   1
+      89    .   ARG   .   51610   1
+      90    .   ALA   .   51610   1
+      91    .   ALA   .   51610   1
+      92    .   LEU   .   51610   1
+      93    .   GLU   .   51610   1
+      94    .   GLY   .   51610   1
+      95    .   ALA   .   51610   1
+      96    .   ASP   .   51610   1
+      97    .   MET   .   51610   1
+      98    .   VAL   .   51610   1
+      99    .   PHE   .   51610   1
+      100   .   ILE   .   51610   1
+      101   .   ALA   .   51610   1
+      102   .   ALA   .   51610   1
+      103   .   GLY   .   51610   1
+      104   .   MET   .   51610   1
+      105   .   GLY   .   51610   1
+      106   .   GLY   .   51610   1
+      107   .   GLY   .   51610   1
+      108   .   THR   .   51610   1
+      109   .   GLY   .   51610   1
+      110   .   THR   .   51610   1
+      111   .   GLY   .   51610   1
+      112   .   ALA   .   51610   1
+      113   .   ALA   .   51610   1
+      114   .   PRO   .   51610   1
+      115   .   VAL   .   51610   1
+      116   .   VAL   .   51610   1
+      117   .   ALA   .   51610   1
+      118   .   GLU   .   51610   1
+      119   .   VAL   .   51610   1
+      120   .   ALA   .   51610   1
+      121   .   LYS   .   51610   1
+      122   .   ASP   .   51610   1
+      123   .   LEU   .   51610   1
+      124   .   GLY   .   51610   1
+      125   .   ILE   .   51610   1
+      126   .   LEU   .   51610   1
+      127   .   THR   .   51610   1
+      128   .   VAL   .   51610   1
+      129   .   ALA   .   51610   1
+      130   .   VAL   .   51610   1
+      131   .   VAL   .   51610   1
+      132   .   THR   .   51610   1
+      133   .   LYS   .   51610   1
+      134   .   PRO   .   51610   1
+      135   .   PHE   .   51610   1
+      136   .   ASN   .   51610   1
+      137   .   PHE   .   51610   1
+      138   .   GLU   .   51610   1
+      139   .   GLY   .   51610   1
+      140   .   LYS   .   51610   1
+      141   .   LYS   .   51610   1
+      142   .   ARG   .   51610   1
+      143   .   MET   .   51610   1
+      144   .   ALA   .   51610   1
+      145   .   PHE   .   51610   1
+      146   .   ALA   .   51610   1
+      147   .   GLU   .   51610   1
+      148   .   GLN   .   51610   1
+      149   .   GLY   .   51610   1
+      150   .   ILE   .   51610   1
+      151   .   THR   .   51610   1
+      152   .   GLU   .   51610   1
+      153   .   LEU   .   51610   1
+      154   .   SER   .   51610   1
+      155   .   LYS   .   51610   1
+      156   .   HIS   .   51610   1
+      157   .   VAL   .   51610   1
+      158   .   ASP   .   51610   1
+      159   .   SER   .   51610   1
+      160   .   LEU   .   51610   1
+      161   .   ILE   .   51610   1
+      162   .   THR   .   51610   1
+      163   .   ILE   .   51610   1
+      164   .   PRO   .   51610   1
+      165   .   ASN   .   51610   1
+      166   .   ASP   .   51610   1
+      167   .   LYS   .   51610   1
+      168   .   LEU   .   51610   1
+      169   .   LEU   .   51610   1
+      170   .   LYS   .   51610   1
+      171   .   VAL   .   51610   1
+      172   .   LEU   .   51610   1
+      173   .   GLY   .   51610   1
+      174   .   ARG   .   51610   1
+      175   .   GLY   .   51610   1
+      176   .   ILE   .   51610   1
+      177   .   SER   .   51610   1
+      178   .   LEU   .   51610   1
+      179   .   LEU   .   51610   1
+      180   .   ASP   .   51610   1
+      181   .   ALA   .   51610   1
+      182   .   PHE   .   51610   1
+      183   .   GLY   .   51610   1
+      184   .   ALA   .   51610   1
+      185   .   ALA   .   51610   1
+      186   .   ASN   .   51610   1
+      187   .   ASP   .   51610   1
+      188   .   VAL   .   51610   1
+      189   .   LEU   .   51610   1
+      190   .   LYS   .   51610   1
+      191   .   GLY   .   51610   1
+      192   .   ALA   .   51610   1
+      193   .   VAL   .   51610   1
+      194   .   GLN   .   51610   1
+      195   .   GLY   .   51610   1
+      196   .   ILE   .   51610   1
+      197   .   ALA   .   51610   1
+      198   .   GLU   .   51610   1
+      199   .   LEU   .   51610   1
+      200   .   ILE   .   51610   1
+      201   .   THR   .   51610   1
+      202   .   ARG   .   51610   1
+      203   .   PRO   .   51610   1
+      204   .   GLY   .   51610   1
+      205   .   LEU   .   51610   1
+      206   .   MET   .   51610   1
+      207   .   ASN   .   51610   1
+      208   .   VAL   .   51610   1
+      209   .   ASP   .   51610   1
+      210   .   PHE   .   51610   1
+      211   .   ALA   .   51610   1
+      212   .   ASP   .   51610   1
+      213   .   VAL   .   51610   1
+      214   .   ARG   .   51610   1
+      215   .   THR   .   51610   1
+      216   .   VAL   .   51610   1
+      217   .   MET   .   51610   1
+      218   .   SER   .   51610   1
+      219   .   GLU   .   51610   1
+      220   .   MET   .   51610   1
+      221   .   GLY   .   51610   1
+      222   .   TYR   .   51610   1
+      223   .   ALA   .   51610   1
+      224   .   MET   .   51610   1
+      225   .   MET   .   51610   1
+      226   .   GLY   .   51610   1
+      227   .   SER   .   51610   1
+      228   .   GLY   .   51610   1
+      229   .   VAL   .   51610   1
+      230   .   ALA   .   51610   1
+      231   .   SER   .   51610   1
+      232   .   GLY   .   51610   1
+      233   .   GLU   .   51610   1
+      234   .   ASP   .   51610   1
+      235   .   ARG   .   51610   1
+      236   .   ALA   .   51610   1
+      237   .   GLU   .   51610   1
+      238   .   GLU   .   51610   1
+      239   .   ALA   .   51610   1
+      240   .   ALA   .   51610   1
+      241   .   GLU   .   51610   1
+      242   .   MET   .   51610   1
+      243   .   ALA   .   51610   1
+      244   .   ILE   .   51610   1
+      245   .   SER   .   51610   1
+      246   .   SER   .   51610   1
+      247   .   PRO   .   51610   1
+      248   .   LEU   .   51610   1
+      249   .   LEU   .   51610   1
+      250   .   GLU   .   51610   1
+      251   .   ASP   .   51610   1
+      252   .   ILE   .   51610   1
+      253   .   ASP   .   51610   1
+      254   .   LEU   .   51610   1
+      255   .   SER   .   51610   1
+      256   .   GLY   .   51610   1
+      257   .   ALA   .   51610   1
+      258   .   ARG   .   51610   1
+      259   .   GLY   .   51610   1
+      260   .   VAL   .   51610   1
+      261   .   LEU   .   51610   1
+      262   .   VAL   .   51610   1
+      263   .   ASN   .   51610   1
+      264   .   ILE   .   51610   1
+      265   .   THR   .   51610   1
+      266   .   ALA   .   51610   1
+      267   .   GLY   .   51610   1
+      268   .   PHE   .   51610   1
+      269   .   ASP   .   51610   1
+      270   .   LEU   .   51610   1
+      271   .   ARG   .   51610   1
+      272   .   LEU   .   51610   1
+      273   .   ASP   .   51610   1
+      274   .   GLU   .   51610   1
+      275   .   PHE   .   51610   1
+      276   .   GLU   .   51610   1
+      277   .   THR   .   51610   1
+      278   .   VAL   .   51610   1
+      279   .   GLY   .   51610   1
+      280   .   ASN   .   51610   1
+      281   .   THR   .   51610   1
+      282   .   ILE   .   51610   1
+      283   .   ARG   .   51610   1
+      284   .   ALA   .   51610   1
+      285   .   PHE   .   51610   1
+      286   .   ALA   .   51610   1
+      287   .   SER   .   51610   1
+      288   .   ASP   .   51610   1
+      289   .   ASN   .   51610   1
+      290   .   ALA   .   51610   1
+      291   .   THR   .   51610   1
+      292   .   VAL   .   51610   1
+      293   .   VAL   .   51610   1
+      294   .   ILE   .   51610   1
+      295   .   GLY   .   51610   1
+      296   .   THR   .   51610   1
+      297   .   SER   .   51610   1
+      298   .   LEU   .   51610   1
+      299   .   ASP   .   51610   1
+      300   .   PRO   .   51610   1
+      301   .   ASP   .   51610   1
+      302   .   MET   .   51610   1
+      303   .   ASN   .   51610   1
+      304   .   ASP   .   51610   1
+      305   .   GLU   .   51610   1
+      306   .   LEU   .   51610   1
+      307   .   ARG   .   51610   1
+      308   .   VAL   .   51610   1
+      309   .   THR   .   51610   1
+      310   .   VAL   .   51610   1
+      311   .   VAL   .   51610   1
+      312   .   ALA   .   51610   1
+      313   .   THR   .   51610   1
+      314   .   GLY   .   51610   1
+      315   .   ILE   .   51610   1
+      316   .   GLY   .   51610   1
+      317   .   MET   .   51610   1
+      318   .   ASP   .   51610   1
+      319   .   LYS   .   51610   1
+      320   .   ARG   .   51610   1
+      321   .   PRO   .   51610   1
+      322   .   GLU   .   51610   1
+      323   .   ILE   .   51610   1
+      324   .   THR   .   51610   1
+      325   .   LEU   .   51610   1
+      326   .   VAL   .   51610   1
+      327   .   THR   .   51610   1
+      328   .   ASN   .   51610   1
+      329   .   LYS   .   51610   1
+      330   .   GLN   .   51610   1
+      331   .   VAL   .   51610   1
+      332   .   GLN   .   51610   1
+      333   .   GLN   .   51610   1
+      334   .   PRO   .   51610   1
+      335   .   VAL   .   51610   1
+      336   .   MET   .   51610   1
+      337   .   ASP   .   51610   1
+      338   .   ARG   .   51610   1
+      339   .   TYR   .   51610   1
+      340   .   GLN   .   51610   1
+      341   .   GLN   .   51610   1
+      342   .   HIS   .   51610   1
+      343   .   GLY   .   51610   1
+      344   .   MET   .   51610   1
+      345   .   ALA   .   51610   1
+      346   .   PRO   .   51610   1
+      347   .   LEU   .   51610   1
+      348   .   THR   .   51610   1
+      349   .   GLN   .   51610   1
+      350   .   GLU   .   51610   1
+      351   .   GLN   .   51610   1
+      352   .   LYS   .   51610   1
+      353   .   PRO   .   51610   1
+      354   .   VAL   .   51610   1
+      355   .   ALA   .   51610   1
+      356   .   LYS   .   51610   1
+      357   .   VAL   .   51610   1
+      358   .   VAL   .   51610   1
+      359   .   ASN   .   51610   1
+      360   .   ASP   .   51610   1
+      361   .   ASN   .   51610   1
+      362   .   ALA   .   51610   1
+      363   .   PRO   .   51610   1
+      364   .   GLN   .   51610   1
+      365   .   THR   .   51610   1
+      366   .   ALA   .   51610   1
+      367   .   LYS   .   51610   1
+      368   .   GLU   .   51610   1
+      369   .   PRO   .   51610   1
+      370   .   ASP   .   51610   1
+      371   .   TYR   .   51610   1
+      372   .   LEU   .   51610   1
+      373   .   ASP   .   51610   1
+      374   .   ILE   .   51610   1
+      375   .   PRO   .   51610   1
+      376   .   ALA   .   51610   1
+      377   .   PHE   .   51610   1
+      378   .   LEU   .   51610   1
+      379   .   ARG   .   51610   1
+      380   .   LYS   .   51610   1
+      381   .   GLN   .   51610   1
+      382   .   ALA   .   51610   1
+      383   .   ASP   .   51610   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   MET   1     1     51610   1
+      .   PHE   2     2     51610   1
+      .   GLU   3     3     51610   1
+      .   PRO   4     4     51610   1
+      .   MET   5     5     51610   1
+      .   GLU   6     6     51610   1
+      .   LEU   7     7     51610   1
+      .   THR   8     8     51610   1
+      .   ASN   9     9     51610   1
+      .   ASP   10    10    51610   1
+      .   ALA   11    11    51610   1
+      .   VAL   12    12    51610   1
+      .   ILE   13    13    51610   1
+      .   LYS   14    14    51610   1
+      .   VAL   15    15    51610   1
+      .   ILE   16    16    51610   1
+      .   GLY   17    17    51610   1
+      .   VAL   18    18    51610   1
+      .   GLY   19    19    51610   1
+      .   GLY   20    20    51610   1
+      .   GLY   21    21    51610   1
+      .   GLY   22    22    51610   1
+      .   GLY   23    23    51610   1
+      .   ASN   24    24    51610   1
+      .   ALA   25    25    51610   1
+      .   VAL   26    26    51610   1
+      .   GLU   27    27    51610   1
+      .   HIS   28    28    51610   1
+      .   MET   29    29    51610   1
+      .   VAL   30    30    51610   1
+      .   ARG   31    31    51610   1
+      .   GLU   32    32    51610   1
+      .   ARG   33    33    51610   1
+      .   ILE   34    34    51610   1
+      .   GLU   35    35    51610   1
+      .   GLY   36    36    51610   1
+      .   VAL   37    37    51610   1
+      .   GLU   38    38    51610   1
+      .   PHE   39    39    51610   1
+      .   PHE   40    40    51610   1
+      .   ALA   41    41    51610   1
+      .   VAL   42    42    51610   1
+      .   ASN   43    43    51610   1
+      .   THR   44    44    51610   1
+      .   ASP   45    45    51610   1
+      .   ALA   46    46    51610   1
+      .   GLN   47    47    51610   1
+      .   ALA   48    48    51610   1
+      .   LEU   49    49    51610   1
+      .   ARG   50    50    51610   1
+      .   LYS   51    51    51610   1
+      .   THR   52    52    51610   1
+      .   ALA   53    53    51610   1
+      .   VAL   54    54    51610   1
+      .   GLY   55    55    51610   1
+      .   GLN   56    56    51610   1
+      .   THR   57    57    51610   1
+      .   ILE   58    58    51610   1
+      .   GLN   59    59    51610   1
+      .   ILE   60    60    51610   1
+      .   GLY   61    61    51610   1
+      .   SER   62    62    51610   1
+      .   GLY   63    63    51610   1
+      .   ILE   64    64    51610   1
+      .   THR   65    65    51610   1
+      .   LYS   66    66    51610   1
+      .   GLY   67    67    51610   1
+      .   LEU   68    68    51610   1
+      .   GLY   69    69    51610   1
+      .   ALA   70    70    51610   1
+      .   GLY   71    71    51610   1
+      .   ALA   72    72    51610   1
+      .   ASN   73    73    51610   1
+      .   PRO   74    74    51610   1
+      .   GLU   75    75    51610   1
+      .   VAL   76    76    51610   1
+      .   GLY   77    77    51610   1
+      .   ARG   78    78    51610   1
+      .   ASN   79    79    51610   1
+      .   ALA   80    80    51610   1
+      .   ALA   81    81    51610   1
+      .   ASP   82    82    51610   1
+      .   GLU   83    83    51610   1
+      .   ASP   84    84    51610   1
+      .   ARG   85    85    51610   1
+      .   ASP   86    86    51610   1
+      .   ALA   87    87    51610   1
+      .   LEU   88    88    51610   1
+      .   ARG   89    89    51610   1
+      .   ALA   90    90    51610   1
+      .   ALA   91    91    51610   1
+      .   LEU   92    92    51610   1
+      .   GLU   93    93    51610   1
+      .   GLY   94    94    51610   1
+      .   ALA   95    95    51610   1
+      .   ASP   96    96    51610   1
+      .   MET   97    97    51610   1
+      .   VAL   98    98    51610   1
+      .   PHE   99    99    51610   1
+      .   ILE   100   100   51610   1
+      .   ALA   101   101   51610   1
+      .   ALA   102   102   51610   1
+      .   GLY   103   103   51610   1
+      .   MET   104   104   51610   1
+      .   GLY   105   105   51610   1
+      .   GLY   106   106   51610   1
+      .   GLY   107   107   51610   1
+      .   THR   108   108   51610   1
+      .   GLY   109   109   51610   1
+      .   THR   110   110   51610   1
+      .   GLY   111   111   51610   1
+      .   ALA   112   112   51610   1
+      .   ALA   113   113   51610   1
+      .   PRO   114   114   51610   1
+      .   VAL   115   115   51610   1
+      .   VAL   116   116   51610   1
+      .   ALA   117   117   51610   1
+      .   GLU   118   118   51610   1
+      .   VAL   119   119   51610   1
+      .   ALA   120   120   51610   1
+      .   LYS   121   121   51610   1
+      .   ASP   122   122   51610   1
+      .   LEU   123   123   51610   1
+      .   GLY   124   124   51610   1
+      .   ILE   125   125   51610   1
+      .   LEU   126   126   51610   1
+      .   THR   127   127   51610   1
+      .   VAL   128   128   51610   1
+      .   ALA   129   129   51610   1
+      .   VAL   130   130   51610   1
+      .   VAL   131   131   51610   1
+      .   THR   132   132   51610   1
+      .   LYS   133   133   51610   1
+      .   PRO   134   134   51610   1
+      .   PHE   135   135   51610   1
+      .   ASN   136   136   51610   1
+      .   PHE   137   137   51610   1
+      .   GLU   138   138   51610   1
+      .   GLY   139   139   51610   1
+      .   LYS   140   140   51610   1
+      .   LYS   141   141   51610   1
+      .   ARG   142   142   51610   1
+      .   MET   143   143   51610   1
+      .   ALA   144   144   51610   1
+      .   PHE   145   145   51610   1
+      .   ALA   146   146   51610   1
+      .   GLU   147   147   51610   1
+      .   GLN   148   148   51610   1
+      .   GLY   149   149   51610   1
+      .   ILE   150   150   51610   1
+      .   THR   151   151   51610   1
+      .   GLU   152   152   51610   1
+      .   LEU   153   153   51610   1
+      .   SER   154   154   51610   1
+      .   LYS   155   155   51610   1
+      .   HIS   156   156   51610   1
+      .   VAL   157   157   51610   1
+      .   ASP   158   158   51610   1
+      .   SER   159   159   51610   1
+      .   LEU   160   160   51610   1
+      .   ILE   161   161   51610   1
+      .   THR   162   162   51610   1
+      .   ILE   163   163   51610   1
+      .   PRO   164   164   51610   1
+      .   ASN   165   165   51610   1
+      .   ASP   166   166   51610   1
+      .   LYS   167   167   51610   1
+      .   LEU   168   168   51610   1
+      .   LEU   169   169   51610   1
+      .   LYS   170   170   51610   1
+      .   VAL   171   171   51610   1
+      .   LEU   172   172   51610   1
+      .   GLY   173   173   51610   1
+      .   ARG   174   174   51610   1
+      .   GLY   175   175   51610   1
+      .   ILE   176   176   51610   1
+      .   SER   177   177   51610   1
+      .   LEU   178   178   51610   1
+      .   LEU   179   179   51610   1
+      .   ASP   180   180   51610   1
+      .   ALA   181   181   51610   1
+      .   PHE   182   182   51610   1
+      .   GLY   183   183   51610   1
+      .   ALA   184   184   51610   1
+      .   ALA   185   185   51610   1
+      .   ASN   186   186   51610   1
+      .   ASP   187   187   51610   1
+      .   VAL   188   188   51610   1
+      .   LEU   189   189   51610   1
+      .   LYS   190   190   51610   1
+      .   GLY   191   191   51610   1
+      .   ALA   192   192   51610   1
+      .   VAL   193   193   51610   1
+      .   GLN   194   194   51610   1
+      .   GLY   195   195   51610   1
+      .   ILE   196   196   51610   1
+      .   ALA   197   197   51610   1
+      .   GLU   198   198   51610   1
+      .   LEU   199   199   51610   1
+      .   ILE   200   200   51610   1
+      .   THR   201   201   51610   1
+      .   ARG   202   202   51610   1
+      .   PRO   203   203   51610   1
+      .   GLY   204   204   51610   1
+      .   LEU   205   205   51610   1
+      .   MET   206   206   51610   1
+      .   ASN   207   207   51610   1
+      .   VAL   208   208   51610   1
+      .   ASP   209   209   51610   1
+      .   PHE   210   210   51610   1
+      .   ALA   211   211   51610   1
+      .   ASP   212   212   51610   1
+      .   VAL   213   213   51610   1
+      .   ARG   214   214   51610   1
+      .   THR   215   215   51610   1
+      .   VAL   216   216   51610   1
+      .   MET   217   217   51610   1
+      .   SER   218   218   51610   1
+      .   GLU   219   219   51610   1
+      .   MET   220   220   51610   1
+      .   GLY   221   221   51610   1
+      .   TYR   222   222   51610   1
+      .   ALA   223   223   51610   1
+      .   MET   224   224   51610   1
+      .   MET   225   225   51610   1
+      .   GLY   226   226   51610   1
+      .   SER   227   227   51610   1
+      .   GLY   228   228   51610   1
+      .   VAL   229   229   51610   1
+      .   ALA   230   230   51610   1
+      .   SER   231   231   51610   1
+      .   GLY   232   232   51610   1
+      .   GLU   233   233   51610   1
+      .   ASP   234   234   51610   1
+      .   ARG   235   235   51610   1
+      .   ALA   236   236   51610   1
+      .   GLU   237   237   51610   1
+      .   GLU   238   238   51610   1
+      .   ALA   239   239   51610   1
+      .   ALA   240   240   51610   1
+      .   GLU   241   241   51610   1
+      .   MET   242   242   51610   1
+      .   ALA   243   243   51610   1
+      .   ILE   244   244   51610   1
+      .   SER   245   245   51610   1
+      .   SER   246   246   51610   1
+      .   PRO   247   247   51610   1
+      .   LEU   248   248   51610   1
+      .   LEU   249   249   51610   1
+      .   GLU   250   250   51610   1
+      .   ASP   251   251   51610   1
+      .   ILE   252   252   51610   1
+      .   ASP   253   253   51610   1
+      .   LEU   254   254   51610   1
+      .   SER   255   255   51610   1
+      .   GLY   256   256   51610   1
+      .   ALA   257   257   51610   1
+      .   ARG   258   258   51610   1
+      .   GLY   259   259   51610   1
+      .   VAL   260   260   51610   1
+      .   LEU   261   261   51610   1
+      .   VAL   262   262   51610   1
+      .   ASN   263   263   51610   1
+      .   ILE   264   264   51610   1
+      .   THR   265   265   51610   1
+      .   ALA   266   266   51610   1
+      .   GLY   267   267   51610   1
+      .   PHE   268   268   51610   1
+      .   ASP   269   269   51610   1
+      .   LEU   270   270   51610   1
+      .   ARG   271   271   51610   1
+      .   LEU   272   272   51610   1
+      .   ASP   273   273   51610   1
+      .   GLU   274   274   51610   1
+      .   PHE   275   275   51610   1
+      .   GLU   276   276   51610   1
+      .   THR   277   277   51610   1
+      .   VAL   278   278   51610   1
+      .   GLY   279   279   51610   1
+      .   ASN   280   280   51610   1
+      .   THR   281   281   51610   1
+      .   ILE   282   282   51610   1
+      .   ARG   283   283   51610   1
+      .   ALA   284   284   51610   1
+      .   PHE   285   285   51610   1
+      .   ALA   286   286   51610   1
+      .   SER   287   287   51610   1
+      .   ASP   288   288   51610   1
+      .   ASN   289   289   51610   1
+      .   ALA   290   290   51610   1
+      .   THR   291   291   51610   1
+      .   VAL   292   292   51610   1
+      .   VAL   293   293   51610   1
+      .   ILE   294   294   51610   1
+      .   GLY   295   295   51610   1
+      .   THR   296   296   51610   1
+      .   SER   297   297   51610   1
+      .   LEU   298   298   51610   1
+      .   ASP   299   299   51610   1
+      .   PRO   300   300   51610   1
+      .   ASP   301   301   51610   1
+      .   MET   302   302   51610   1
+      .   ASN   303   303   51610   1
+      .   ASP   304   304   51610   1
+      .   GLU   305   305   51610   1
+      .   LEU   306   306   51610   1
+      .   ARG   307   307   51610   1
+      .   VAL   308   308   51610   1
+      .   THR   309   309   51610   1
+      .   VAL   310   310   51610   1
+      .   VAL   311   311   51610   1
+      .   ALA   312   312   51610   1
+      .   THR   313   313   51610   1
+      .   GLY   314   314   51610   1
+      .   ILE   315   315   51610   1
+      .   GLY   316   316   51610   1
+      .   MET   317   317   51610   1
+      .   ASP   318   318   51610   1
+      .   LYS   319   319   51610   1
+      .   ARG   320   320   51610   1
+      .   PRO   321   321   51610   1
+      .   GLU   322   322   51610   1
+      .   ILE   323   323   51610   1
+      .   THR   324   324   51610   1
+      .   LEU   325   325   51610   1
+      .   VAL   326   326   51610   1
+      .   THR   327   327   51610   1
+      .   ASN   328   328   51610   1
+      .   LYS   329   329   51610   1
+      .   GLN   330   330   51610   1
+      .   VAL   331   331   51610   1
+      .   GLN   332   332   51610   1
+      .   GLN   333   333   51610   1
+      .   PRO   334   334   51610   1
+      .   VAL   335   335   51610   1
+      .   MET   336   336   51610   1
+      .   ASP   337   337   51610   1
+      .   ARG   338   338   51610   1
+      .   TYR   339   339   51610   1
+      .   GLN   340   340   51610   1
+      .   GLN   341   341   51610   1
+      .   HIS   342   342   51610   1
+      .   GLY   343   343   51610   1
+      .   MET   344   344   51610   1
+      .   ALA   345   345   51610   1
+      .   PRO   346   346   51610   1
+      .   LEU   347   347   51610   1
+      .   THR   348   348   51610   1
+      .   GLN   349   349   51610   1
+      .   GLU   350   350   51610   1
+      .   GLN   351   351   51610   1
+      .   LYS   352   352   51610   1
+      .   PRO   353   353   51610   1
+      .   VAL   354   354   51610   1
+      .   ALA   355   355   51610   1
+      .   LYS   356   356   51610   1
+      .   VAL   357   357   51610   1
+      .   VAL   358   358   51610   1
+      .   ASN   359   359   51610   1
+      .   ASP   360   360   51610   1
+      .   ASN   361   361   51610   1
+      .   ALA   362   362   51610   1
+      .   PRO   363   363   51610   1
+      .   GLN   364   364   51610   1
+      .   THR   365   365   51610   1
+      .   ALA   366   366   51610   1
+      .   LYS   367   367   51610   1
+      .   GLU   368   368   51610   1
+      .   PRO   369   369   51610   1
+      .   ASP   370   370   51610   1
+      .   TYR   371   371   51610   1
+      .   LEU   372   372   51610   1
+      .   ASP   373   373   51610   1
+      .   ILE   374   374   51610   1
+      .   PRO   375   375   51610   1
+      .   ALA   376   376   51610   1
+      .   PHE   377   377   51610   1
+      .   LEU   378   378   51610   1
+      .   ARG   379   379   51610   1
+      .   LYS   380   380   51610   1
+      .   GLN   381   381   51610   1
+      .   ALA   382   382   51610   1
+      .   ASP   383   383   51610   1
+   stop_
+save_
+
+save_entity_GTP
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_GTP
+   _Entity.Entry_ID                          51610
+   _Entity.ID                                2
+   _Entity.BMRB_code                         GTP
+   _Entity.Name                              entity_GTP
+   _Entity.Type                              non-polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      .
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code       .
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                GTP
+   _Entity.Nonpolymer_comp_label             $chem_comp_GTP
+   _Entity.Number_of_monomers                .
+   _Entity.Number_of_nonpolymer_components   1
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                       .
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  2
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    523.180
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      GUANOSINE-5'-TRIPHOSPHATE   BMRB   51610   2
+   stop_
+
+   loop_
+      _Entity_systematic_name.Name
+      _Entity_systematic_name.Naming_system
+      _Entity_systematic_name.Entry_ID
+      _Entity_systematic_name.Entity_ID
+
+      GUANOSINE-5'-TRIPHOSPHATE   BMRB                  51610   2
+      GTP                         'Three letter code'   51610   2
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1   1   GTP   $chem_comp_GTP   51610   2
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+save_natural_source_1
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source_1
+   _Entity_natural_src_list.Entry_ID       51610
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $entity_1   .   562   organism   .   'Escherichia coli'   'E. coli'   .   .   Bacteria   .   Escherichia   coli   .   .   .   .   .   .   .   .   .   .   .   ftsz   .   51610   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+save_experimental_source_1
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source_1
+   _Entity_experimental_src_list.Entry_ID       51610
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $entity_1   .   'recombinant technology'   'Escherichia coli'   .   .   .   Escherichia   coli   BL21(DE3)   .   .   plasmid   .   .   pet11   .   .   .   51610   1
+   stop_
+save_
+
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+save_chem_comp_GTP
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_GTP
+   _Chem_comp.Entry_ID                          51610
+   _Chem_comp.ID                                GTP
+   _Chem_comp.Provenance                        PDB
+   _Chem_comp.Name                              GUANOSINE-5'-TRIPHOSPHATE
+   _Chem_comp.Type                              NON-POLYMER
+   _Chem_comp.BMRB_code                         GTP
+   _Chem_comp.PDB_code                          GTP
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      2020-07-10
+   _Chem_comp.Modified_date                     2020-07-10
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   G
+   _Chem_comp.Three_letter_code                 GTP
+   _Chem_comp.Number_atoms_all                  48
+   _Chem_comp.Number_atoms_nh                   32
+   _Chem_comp.Atom_nomenclature_source          .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code
+;
+InChI=1S/C10H16N5O14P3/c11-10-13-7-4(8(18)14-10)12-2-15(7)9-6(17)5(16)3(27-9)1-26-31(22,23)29-32(24,25)28-30(19,20)21/h2-3,5-6,9,16-17H,1H2,(H,22,23)(H,24,25)(H2,19,20,21)(H3,11,13,14,18)/t3-,5-,6-,9-/m1/s1
+;
+   _Chem_comp.Mon_nstd_flag                     no
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           G
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                           'C10 H16 N5 O14 P3'
+   _Chem_comp.Formula_weight                    523.180
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         Corina
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         1QRA
+   _Chem_comp.Processing_site                   EBI
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+
+;
+InChI=1S/C10H16N5O14P3/c11-10-13-7-4(8(18)14-10)12-2-15(7)9-6(17)5(16)3(27-9)1-26-31(22,23)29-32(24,25)28-30(19,20)21/h2-3,5-6,9,16-17H,1H2,(H,22,23)(H,24,25)(H2,19,20,21)(H3,11,13,14,18)/t3-,5-,6-,9-/m1/s1
+;
+                                                                                                  InChI              InChI                  1.03    51610   GTP
+      NC1=Nc2n(cnc2C(=O)N1)[C@@H]3O[C@H](CO[P](O)(=O)O[P](O)(=O)O[P](O)(O)=O)[C@@H](O)[C@H]3O     SMILES_CANONICAL   CACTVS                 3.370   51610   GTP
+      NC1=Nc2n(cnc2C(=O)N1)[CH]3O[CH](CO[P](O)(=O)O[P](O)(=O)O[P](O)(O)=O)[CH](O)[CH]3O           SMILES             CACTVS                 3.370   51610   GTP
+      O=P(O)(O)OP(=O)(O)OP(=O)(O)OCC3OC(n2cnc1c2N=C(N)NC1=O)C(O)C3O                               SMILES             ACDLabs                12.01   51610   GTP
+      XKMLYUALXHKNFT-UUOKFMHZSA-N                                                                 InChIKey           InChI                  1.03    51610   GTP
+      c1nc2c(n1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)N=C(NC2=O)N                           SMILES             'OpenEye OEToolkits'   1.7.6   51610   GTP
+      c1nc2c(n1[C@H]3[C@@H]([C@@H]([C@H](O3)CO[P@](=O)(O)O[P@](=O)(O)OP(=O)(O)O)O)O)N=C(NC2=O)N   SMILES_CANONICAL   'OpenEye OEToolkits'   1.7.6   51610   GTP
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+
+;
+[[(2R,3S,4R,5R)-5-(2-azanyl-6-oxidanylidene-1H-purin-9-yl)-3,4-bis(oxidanyl)oxolan-2-yl]methoxy-oxidanyl-phosphoryl] phosphono hydrogen phosphate
+;
+                                                    'SYSTEMATIC NAME'   'OpenEye OEToolkits'   1.7.6   51610   GTP
+      "guanosine 5'-(tetrahydrogen triphosphate)"   'SYSTEMATIC NAME'   ACDLabs                12.01   51610   GTP
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      PG     PG     PG     PG     .   P   .   .   N   0   .   .   .   1   N   N   .   .   .   .   4.566    .   31.391   .   21.635   .   -6.030   -2.367   0.637    1    .   51610   GTP
+      O1G    O1G    O1G    O1G    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   4.613    .   31.907   .   23.069   .   -7.326   -1.996   0.026    2    .   51610   GTP
+      O2G    O2G    O2G    O2G    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   3.892    .   32.319   .   20.631   .   -6.285   -2.982   2.103    3    .   51610   GTP
+      O3G    O3G    O3G    O3G    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   4.143    .   30.012   .   21.613   .   -5.296   -3.463   -0.286   4    .   51610   GTP
+      O3B    O3B    O3B    O3B    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   6.160    .   31.360   .   21.228   .   -5.101   -1.058   0.758    5    .   51610   GTP
+      PB     PB     PB     PB     .   P   .   .   N   0   .   .   .   1   N   N   .   .   .   .   6.877    .   31.202   .   19.745   .   -4.818   0.206    -0.199   6    .   51610   GTP
+      O1B    O1B    O1B    O1B    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   7.079    .   29.709   .   19.473   .   -4.732   -0.250   -1.605   7    .   51610   GTP
+      O2B    O2B    O2B    O2B    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   6.125    .   31.970   .   18.749   .   -6.017   1.269    -0.052   8    .   51610   GTP
+      O3A    O3A    O3A    O3A    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   8.251    .   31.890   .   20.003   .   -3.429   0.900    0.226    9    .   51610   GTP
+      PA     PA     PA     PA     .   P   .   .   N   0   .   .   .   1   N   N   .   .   .   .   8.846    .   33.261   .   19.411   .   -2.449   1.965    -0.479   10   .   51610   GTP
+      O1A    O1A    O1A    O1A    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   8.888    .   33.256   .   17.957   .   -2.350   1.662    -1.925   11   .   51610   GTP
+      O2A    O2A    O2A    O2A    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   8.105    .   34.398   .   20.129   .   -3.040   3.450    -0.282   12   .   51610   GTP
+      O5'    O5'    O5'    O5'    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   10.430   .   33.153   .   19.900   .   -0.988   1.876    0.190    13   .   51610   GTP
+      C5'    C5'    C5'    C5'    .   C   .   .   N   0   .   .   .   1   N   N   .   .   .   .   10.549   .   33.044   .   21.378   .   0.134    2.622    -0.287   14   .   51610   GTP
+      C4'    C4'    C4'    C4'    .   C   .   .   R   0   .   .   .   1   N   N   .   .   .   .   12.046   .   33.618   .   21.474   .   1.360    2.304    0.570    15   .   51610   GTP
+      O4'    O4'    O4'    O4'    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   13.052   .   32.830   .   20.818   .   1.749    0.933    0.378    16   .   51610   GTP
+      C3'    C3'    C3'    C3'    .   C   .   .   S   0   .   .   .   1   N   N   .   .   .   .   12.307   .   34.969   .   21.057   .   2.548    3.182    0.132    17   .   51610   GTP
+      O3'    O3'    O3'    O3'    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   13.109   .   35.672   .   21.971   .   2.994    3.997    1.218    18   .   51610   GTP
+      C2'    C2'    C2'    C2'    .   C   .   .   R   0   .   .   .   1   N   N   .   .   .   .   12.839   .   34.971   .   19.593   .   3.645    2.166    -0.269   19   .   51610   GTP
+      O2'    O2'    O2'    O2'    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   13.672   .   35.961   .   19.355   .   4.929    2.593    0.190    20   .   51610   GTP
+      C1'    C1'    C1'    C1'    .   C   .   .   R   0   .   .   .   1   N   N   .   .   .   .   13.846   .   33.622   .   19.927   .   3.188    0.886    0.476    21   .   51610   GTP
+      N9     N9     N9     N9     .   N   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   14.001   .   32.833   .   18.649   .   3.711    -0.311   -0.188   22   .   51610   GTP
+      C8     C8     C8     C8     .   C   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   12.934   .   32.452   .   17.848   .   3.094    -1.021   -1.176   23   .   51610   GTP
+      N7     N7     N7     N7     .   N   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   13.640   .   31.798   .   16.899   .   3.843    -2.023   -1.533   24   .   51610   GTP
+      C5     C5     C5     C5     .   C   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   15.029   .   31.889   .   17.001   .   4.981    -2.017   -0.798   25   .   51610   GTP
+      C6     C6     C6     C6     .   C   .   .   N   0   .   .   .   1   N   N   .   .   .   .   15.899   .   31.394   .   16.238   .   6.129    -2.842   -0.753   26   .   51610   GTP
+      O6     O6     O6     O6     .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   15.982   .   30.680   .   15.191   .   6.235    -3.807   -1.491   27   .   51610   GTP
+      N1     N1     N1     N1     .   N   .   .   N   0   .   .   .   1   N   N   .   .   .   .   17.274   .   31.628   .   16.800   .   7.106    -2.535   0.129    28   .   51610   GTP
+      C2     C2     C2     C2     .   C   .   .   N   0   .   .   .   1   N   N   .   .   .   .   17.304   .   32.295   .   17.896   .   6.978    -1.454   0.950    29   .   51610   GTP
+      N2     N2     N2     N2     .   N   .   .   N   0   .   .   .   1   N   N   .   .   .   .   18.677   .   32.450   .   18.475   .   7.986    -1.165   1.835    30   .   51610   GTP
+      N3     N3     N3     N3     .   N   .   .   N   0   .   .   .   1   N   N   .   .   .   .   16.384   .   32.736   .   18.739   .   5.916    -0.679   0.917    31   .   51610   GTP
+      C4     C4     C4     C4     .   C   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   15.218   .   32.517   .   18.135   .   4.911    -0.918   0.066    32   .   51610   GTP
+      HOG2   HOG2   HOG2   HOG2   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   3.595    .   33.105   .   21.075   .   -6.838   -3.775   2.106    33   .   51610   GTP
+      HOG3   HOG3   HOG3   HOG3   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   3.982    .   29.715   .   22.501   .   -4.439   -3.753   0.055    34   .   51610   GTP
+      HOB2   HOB2   HOB2   HOB2   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   5.858    .   31.396   .   18.041   .   -6.132   1.611    0.846    35   .   51610   GTP
+      HOA2   HOA2   HOA2   HOA2   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   7.743    .   34.996   .   19.486   .   -3.133   3.717    0.643    36   .   51610   GTP
+      H5'    H5'    H5'    H5'1   .   H   .   .   N   0   .   .   .   1   N   N   .   .   .   .   9.819    .   33.672   .   21.910   .   0.335    2.352    -1.324   37   .   51610   GTP
+      H5''   H5''   H5''   H5'2   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   10.469   .   32.007   .   21.735   .   -0.086   3.688    -0.226   38   .   51610   GTP
+      H4'    H4'    H4'    H4'    .   H   .   .   N   0   .   .   .   1   N   N   .   .   .   .   12.283   .   33.581   .   22.548   .   1.133    2.480    1.621    39   .   51610   GTP
+      H3'    H3'    H3'    H3'    .   H   .   .   N   0   .   .   .   1   N   N   .   .   .   .   11.335   .   35.482   .   21.016   .   2.270    3.803    -0.720   40   .   51610   GTP
+      HO3'   HO3'   HO3'   HO3'   .   H   .   .   N   0   .   .   .   0   N   Y   .   .   .   .   13.253   .   36.555   .   21.653   .   3.741    4.571    0.998    41   .   51610   GTP
+      H2'    H2'    H2'    H2'    .   H   .   .   N   0   .   .   .   1   N   N   .   .   .   .   12.075   .   34.730   .   18.840   .   3.652    2.007    -1.347   42   .   51610   GTP
+      HO2'   HO2'   HO2'   HO2'   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   13.966   .   35.918   .   18.453   .   5.218    3.438    -0.180   43   .   51610   GTP
+      H1'    H1'    H1'    H1'    .   H   .   .   N   0   .   .   .   1   N   N   .   .   .   .   14.805   .   33.958   .   20.347   .   3.503    0.916    1.519    44   .   51610   GTP
+      H8     H8     H8     H8     .   H   .   .   N   0   .   .   .   1   N   N   .   .   .   .   11.873   .   32.624   .   17.951   .   2.128    -0.786   -1.599   45   .   51610   GTP
+      HN1    HN1    HN1    HN1    .   H   .   .   N   0   .   .   .   1   N   N   .   .   .   .   18.102   .   31.290   .   16.354   .   7.903    -3.086   0.179    46   .   51610   GTP
+      HN21   HN21   HN21   HN21   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   18.794   .   32.845   .   19.386   .   8.776    -1.728   1.870    47   .   51610   GTP
+      HN22   HN22   HN22   HN22   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   19.477   .   32.159   .   17.950   .   7.909    -0.399   2.425    48   .   51610   GTP
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1    .   DOUB   PG    O1G    N   N   1    .   51610   GTP
+      2    .   SING   PG    O2G    N   N   2    .   51610   GTP
+      3    .   SING   PG    O3G    N   N   3    .   51610   GTP
+      4    .   SING   PG    O3B    N   N   4    .   51610   GTP
+      5    .   SING   O2G   HOG2   N   N   5    .   51610   GTP
+      6    .   SING   O3G   HOG3   N   N   6    .   51610   GTP
+      7    .   SING   O3B   PB     N   N   7    .   51610   GTP
+      8    .   DOUB   PB    O1B    N   N   8    .   51610   GTP
+      9    .   SING   PB    O2B    N   N   9    .   51610   GTP
+      10   .   SING   PB    O3A    N   N   10   .   51610   GTP
+      11   .   SING   O2B   HOB2   N   N   11   .   51610   GTP
+      12   .   SING   O3A   PA     N   N   12   .   51610   GTP
+      13   .   DOUB   PA    O1A    N   N   13   .   51610   GTP
+      14   .   SING   PA    O2A    N   N   14   .   51610   GTP
+      15   .   SING   PA    O5'    N   N   15   .   51610   GTP
+      16   .   SING   O2A   HOA2   N   N   16   .   51610   GTP
+      17   .   SING   O5'   C5'    N   N   17   .   51610   GTP
+      18   .   SING   C5'   C4'    N   N   18   .   51610   GTP
+      19   .   SING   C5'   H5'    N   N   19   .   51610   GTP
+      20   .   SING   C5'   H5''   N   N   20   .   51610   GTP
+      21   .   SING   C4'   O4'    N   N   21   .   51610   GTP
+      22   .   SING   C4'   C3'    N   N   22   .   51610   GTP
+      23   .   SING   C4'   H4'    N   N   23   .   51610   GTP
+      24   .   SING   O4'   C1'    N   N   24   .   51610   GTP
+      25   .   SING   C3'   O3'    N   N   25   .   51610   GTP
+      26   .   SING   C3'   C2'    N   N   26   .   51610   GTP
+      27   .   SING   C3'   H3'    N   N   27   .   51610   GTP
+      28   .   SING   O3'   HO3'   N   N   28   .   51610   GTP
+      29   .   SING   C2'   O2'    N   N   29   .   51610   GTP
+      30   .   SING   C2'   C1'    N   N   30   .   51610   GTP
+      31   .   SING   C2'   H2'    N   N   31   .   51610   GTP
+      32   .   SING   O2'   HO2'   N   N   32   .   51610   GTP
+      33   .   SING   C1'   N9     N   N   33   .   51610   GTP
+      34   .   SING   C1'   H1'    N   N   34   .   51610   GTP
+      35   .   SING   N9    C8     Y   N   35   .   51610   GTP
+      36   .   SING   N9    C4     Y   N   36   .   51610   GTP
+      37   .   DOUB   C8    N7     Y   N   37   .   51610   GTP
+      38   .   SING   C8    H8     N   N   38   .   51610   GTP
+      39   .   SING   N7    C5     Y   N   39   .   51610   GTP
+      40   .   SING   C5    C6     N   N   40   .   51610   GTP
+      41   .   DOUB   C5    C4     Y   N   41   .   51610   GTP
+      42   .   DOUB   C6    O6     N   N   42   .   51610   GTP
+      43   .   SING   C6    N1     N   N   43   .   51610   GTP
+      44   .   SING   N1    C2     N   N   44   .   51610   GTP
+      45   .   SING   N1    HN1    N   N   45   .   51610   GTP
+      46   .   SING   C2    N2     N   N   46   .   51610   GTP
+      47   .   DOUB   C2    N3     N   N   47   .   51610   GTP
+      48   .   SING   N2    HN21   N   N   48   .   51610   GTP
+      49   .   SING   N2    HN22   N   N   49   .   51610   GTP
+      50   .   SING   N3    C4     N   N   50   .   51610   GTP
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         51610
+   _Sample.ID                               1
+   _Sample.Name                             2-glycerol
+   _Sample.Type                             'gel solution'
+   _Sample.Sub_type                         .
+   _Sample.Details                          '2-13C-glyercol FtsZ + U-15N, 12C FtsZ polymerized together with GTP'
+   _Sample.Aggregate_sample_number          1
+   _Sample.Solvent_system                   '50% H2O/50% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   EcFtsZ     2-[13C]-glycerol      .   .   1   $entity_1     .   .   2.5   .   .   mg   .   .   .   .   51610   1
+      2   EcFtsZ     '[U-15N, 12C]'        .   .   1   $entity_1     .   .   2.5   .   .   mg   .   .   .   .   51610   1
+      3   GTP        'natural abundance'   .   .   2   $entity_GTP   .   .   5     .   .   mM   .   .   .   .   51610   1
+      4   KCl        'natural abundance'   .   .   .   .             .   .   25    .   .   mM   .   .   .   .   51610   1
+      5   MgCl2      'natural abundance'   .   .   .   .             .   .   5     .   .   mM   .   .   .   .   51610   1
+      6   MES        'natural abundance'   .   .   .   .             .   .   50    .   .   mM   .   .   .   .   51610   1
+      7   EGTA       'natural abundance'   .   .   .   .             .   .   1     .   .   mM   .   .   .   .   51610   1
+      8   glycerol   [U-12C]               .   .   .   .             .   .   30    .   .   %    .   .   .   .   51610   1
+   stop_
+save_
+
+save_sample_2
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_2
+   _Sample.Entry_ID                         51610
+   _Sample.ID                               2
+   _Sample.Name                             1,3-glycerol
+   _Sample.Type                             'gel solution'
+   _Sample.Sub_type                         .
+   _Sample.Details                          '[1,3]-13C-glyercol FtsZ + U-15N, 12C FtsZ polymerized together with GTP'
+   _Sample.Aggregate_sample_number          1
+   _Sample.Solvent_system                   '50% H2O/50% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   EcFtsZ     1,3-[13C]-glycerol    .   .   1   $entity_1     .   .   2.5   .   .   mg   .   .   .   .   51610   2
+      2   EcFtsZ     '[U-15N, 12C]'        .   .   1   $entity_1     .   .   2.5   .   .   mg   .   .   .   .   51610   2
+      3   GTP        'natural abundance'   .   .   2   $entity_GTP   .   .   5     .   .   mM   .   .   .   .   51610   2
+      4   KCl        'natural abundance'   .   .   .   .             .   .   25    .   .   mM   .   .   .   .   51610   2
+      5   MgCl2      'natural abundance'   .   .   .   .             .   .   5     .   .   mM   .   .   .   .   51610   2
+      6   MES        'natural abundance'   .   .   .   .             .   .   50    .   .   mM   .   .   .   .   51610   2
+      7   EGTA       'natural abundance'   .   .   .   .             .   .   1     .   .   mM   .   .   .   .   51610   2
+      8   glycerol   [U-12C]               .   .   .   .             .   .   30    .   .   %    .   .   .   .   51610   2
+   stop_
+save_
+
+save_sample_3
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_3
+   _Sample.Entry_ID                         51610
+   _Sample.ID                               3
+   _Sample.Name                             '1,3-glycerol natural abundance'
+   _Sample.Type                             'gel solution'
+   _Sample.Sub_type                         .
+   _Sample.Details                          '[1,3]-13C-glyercol FtsZ + U-15N FtsZ polymerized together with GTP'
+   _Sample.Aggregate_sample_number          1
+   _Sample.Solvent_system                   '50% H2O/50% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   EcFtsZ     1,3-[13C]-glycerol    .   .   1   $entity_1     .   .   2.5   .   .   mg   .   .   .   .   51610   3
+      2   EcFtsZ     [U-15N]               .   .   1   $entity_1     .   .   2.5   .   .   mg   .   .   .   .   51610   3
+      3   GTP        'natural abundance'   .   .   2   $entity_GTP   .   .   5     .   .   mM   .   .   .   .   51610   3
+      4   KCl        'natural abundance'   .   .   .   .             .   .   25    .   .   mM   .   .   .   .   51610   3
+      5   MgCl2      'natural abundance'   .   .   .   .             .   .   5     .   .   mM   .   .   .   .   51610   3
+      6   MES        'natural abundance'   .   .   .   .             .   .   50    .   .   mM   .   .   .   .   51610   3
+      7   EGTA       'natural abundance'   .   .   .   .             .   .   1     .   .   mM   .   .   .   .   51610   3
+      8   glycerol   [U-12C]               .   .   .   .             .   .   30    .   .   %    .   .   .   .   51610   3
+   stop_
+save_
+
+save_sample_4
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_4
+   _Sample.Entry_ID                         51610
+   _Sample.ID                               4
+   _Sample.Name                             AG
+   _Sample.Type                             'gel solution'
+   _Sample.Sub_type                         .
+   _Sample.Details                          '[13Cb]-Ala, [13Ca]-Gly FtsZ + U-15N FtsZ polymerized together with GTP'
+   _Sample.Aggregate_sample_number          1
+   _Sample.Solvent_system                   '50% H2O/50% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   EcFtsZ     '[13Ca]-GLY, [13Cb]-ALA'   .   .   1   $entity_1     .   .   2.5   .   .   mg   .   .   .   .   51610   4
+      2   EcFtsZ     '[U-15N, 12C]'             .   .   1   $entity_1     .   .   2.5   .   .   mg   .   .   .   .   51610   4
+      3   GTP        'natural abundance'        .   .   2   $entity_GTP   .   .   5     .   .   mM   .   .   .   .   51610   4
+      4   KCl        'natural abundance'        .   .   .   .             .   .   25    .   .   mM   .   .   .   .   51610   4
+      5   MgCl2      'natural abundance'        .   .   .   .             .   .   5     .   .   mM   .   .   .   .   51610   4
+      6   MES        'natural abundance'        .   .   .   .             .   .   50    .   .   mM   .   .   .   .   51610   4
+      7   EGTA       'natural abundance'        .   .   .   .             .   .   1     .   .   mM   .   .   .   .   51610   4
+      8   glycerol   [U-12C]                    .   .   .   .             .   .   30    .   .   %    .   .   .   .   51610   4
+   stop_
+save_
+
+save_sample_5
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_5
+   _Sample.Entry_ID                         51610
+   _Sample.ID                               5
+   _Sample.Name                             '15N control'
+   _Sample.Type                             'gel solution'
+   _Sample.Sub_type                         .
+   _Sample.Details                          'U-15N FtsZ polymerized together with GTP'
+   _Sample.Aggregate_sample_number          1
+   _Sample.Solvent_system                   '50% H2O/50% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   EcFtsZ     [U-15N]               .   .   1   $entity_1     .   .   5    .   .   mg   .   .   .   .   51610   5
+      2   GTP        'natural abundance'   .   .   2   $entity_GTP   .   .   5    .   .   mM   .   .   .   .   51610   5
+      3   KCl        'natural abundance'   .   .   .   .             .   .   25   .   .   mM   .   .   .   .   51610   5
+      4   MgCl2      'natural abundance'   .   .   .   .             .   .   5    .   .   mM   .   .   .   .   51610   5
+      5   MES        'natural abundance'   .   .   .   .             .   .   50   .   .   mM   .   .   .   .   51610   5
+      6   EGTA       'natural abundance'   .   .   .   .             .   .   1    .   .   mM   .   .   .   .   51610   5
+      7   glycerol   [U-12C]               .   .   .   .             .   .   30   .   .   %    .   .   .   .   51610   5
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       51610
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Name           DNP
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   50    .     mM    51610   1
+      pH                 6.5   0.1   pH    51610   1
+      pressure           1     .     atm   51610   1
+      temperature        115   2.5   K     51610   1
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+save_software_1
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_1
+   _Software.Entry_ID       51610
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           TOPSPIN
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      collection   .   51610   1
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID         51610
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Name             '600 DNP'
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            'AVANCE III'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+save_experiment_list_1
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list_1
+   _Experiment_list.Entry_ID       51610
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NUS_flag
+      _Experiment.Interleaved_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Details
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1    '13C CP'        yes   no   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   51610   1
+      2    '1D ZF-TEDOR'   yes   no   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   51610   1
+      3    '13C CP'        yes   no   no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   51610   1
+      4    '1D ZF-TEDOR'   yes   no   no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   51610   1
+      5    '13C CP'        yes   no   no   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   51610   1
+      6    '1D ZF-TEDOR'   yes   no   no   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   51610   1
+      7    '13C CP'        yes   no   no   .   .   .   .   .   .   .   .   .   .   4   $sample_4   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   51610   1
+      8    '1D ZF-TEDOR'   yes   no   no   .   .   .   .   .   .   .   .   .   .   4   $sample_4   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   51610   1
+      9    '13C CP'        yes   no   no   .   .   .   .   .   .   .   .   .   .   5   $sample_5   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   51610   1
+      10   '1D ZF-TEDOR'   yes   no   no   .   .   .   .   .   .   .   .   .   .   5   $sample_5   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   51610   1
+   stop_
+
+   loop_
+      _Experiment_file.Experiment_ID
+      _Experiment_file.Experiment_name
+      _Experiment_file.Name
+      _Experiment_file.Type
+      _Experiment_file.Content
+      _Experiment_file.Directory_path
+      _Experiment_file.Details
+      _Experiment_file.Entry_ID
+      _Experiment_file.Experiment_list_ID
+
+      1    '13C CP'        2gly_cp_fid               .   'Time-domain (raw spectral data)'   .   .   51610   1
+      2    '1D ZF-TEDOR'   2gly_10ms_TEDOR_fid       .   'Time-domain (raw spectral data)'   .   .   51610   1
+      2    '1D ZF-TEDOR'   2gly_12ms_TEDOR_fid       .   'Time-domain (raw spectral data)'   .   .   51610   1
+      2    '1D ZF-TEDOR'   2gly_14ms_TEDOR_fid       .   'Time-domain (raw spectral data)'   .   .   51610   1
+      2    '1D ZF-TEDOR'   2gly_16ms_TEDOR_fid       .   'Time-domain (raw spectral data)'   .   .   51610   1
+      2    '1D ZF-TEDOR'   2gly_18ms_TEDOR_fid       .   'Time-domain (raw spectral data)'   .   .   51610   1
+      2    '1D ZF-TEDOR'   2gly_2ms_TEDOR_fid        .   'Time-domain (raw spectral data)'   .   .   51610   1
+      2    '1D ZF-TEDOR'   2gly_4ms_TEDOR_fid        .   'Time-domain (raw spectral data)'   .   .   51610   1
+      2    '1D ZF-TEDOR'   2gly_6ms_TEDOR_fid        .   'Time-domain (raw spectral data)'   .   .   51610   1
+      2    '1D ZF-TEDOR'   2gly_8ms_TEDOR_fid        .   'Time-domain (raw spectral data)'   .   .   51610   1
+      3    '13C CP'        13gly_cp_fid              .   'Time-domain (raw spectral data)'   .   .   51610   1
+      4    '1D ZF-TEDOR'   13gly_12ms_TEDOR_fid      .   'Time-domain (raw spectral data)'   .   .   51610   1
+      4    '1D ZF-TEDOR'   13gly_16ms_TEDOR_fid      .   'Time-domain (raw spectral data)'   .   .   51610   1
+      4    '1D ZF-TEDOR'   13gly_24ms_TEDOR_fid      .   'Time-domain (raw spectral data)'   .   .   51610   1
+      4    '1D ZF-TEDOR'   13gly_2ms_TEDOR_fid       .   'Time-domain (raw spectral data)'   .   .   51610   1
+      4    '1D ZF-TEDOR'   13gly_8ms_TEDOR_fid       .   'Time-domain (raw spectral data)'   .   .   51610   1
+      5    '13C CP'        13gly_na_cp_fid           .   'Time-domain (raw spectral data)'   .   .   51610   1
+      6    '1D ZF-TEDOR'   13gly_na_12ms_TEDOR_fid   .   'Time-domain (raw spectral data)'   .   .   51610   1
+      6    '1D ZF-TEDOR'   13gly_na_16ms_fid         .   'Time-domain (raw spectral data)'   .   .   51610   1
+      6    '1D ZF-TEDOR'   13gly_na_1ms_TEDOR_fid    .   'Time-domain (raw spectral data)'   .   .   51610   1
+      6    '1D ZF-TEDOR'   13gly_na_2ms_TEDOR_fid    .   'Time-domain (raw spectral data)'   .   .   51610   1
+      6    '1D ZF-TEDOR'   13gly_na_4ms_TEDOR_fid    .   'Time-domain (raw spectral data)'   .   .   51610   1
+      6    '1D ZF-TEDOR'   13gly_na_6ms_TEDOR_fid    .   'Time-domain (raw spectral data)'   .   .   51610   1
+      6    '1D ZF-TEDOR'   13gly_na_8ms_TEDOR_fid    .   'Time-domain (raw spectral data)'   .   .   51610   1
+      7    '13C CP'        AG_cp_fid                 .   'Time-domain (raw spectral data)'   .   .   51610   1
+      8    '1D ZF-TEDOR'   AG_10ms_TEDOR_fid         .   'Time-domain (raw spectral data)'   .   .   51610   1
+      8    '1D ZF-TEDOR'   AG_12ms_TEDOR_fid         .   'Time-domain (raw spectral data)'   .   .   51610   1
+      8    '1D ZF-TEDOR'   AG_14ms_TEDOR_fid         .   'Time-domain (raw spectral data)'   .   .   51610   1
+      8    '1D ZF-TEDOR'   AG_16ms_TEDOR_fid         .   'Time-domain (raw spectral data)'   .   .   51610   1
+      8    '1D ZF-TEDOR'   AG_18ms_TEDOR_fid         .   'Time-domain (raw spectral data)'   .   .   51610   1
+      8    '1D ZF-TEDOR'   AG_24ms_TEDOR_fid         .   'Time-domain (raw spectral data)'   .   .   51610   1
+      8    '1D ZF-TEDOR'   AG_2ms_TEDOR_fid          .   'Time-domain (raw spectral data)'   .   .   51610   1
+      8    '1D ZF-TEDOR'   AG_4ms_TEDOR_fid          .   'Time-domain (raw spectral data)'   .   .   51610   1
+      8    '1D ZF-TEDOR'   AG_6ms_TEDOR_fid          .   'Time-domain (raw spectral data)'   .   .   51610   1
+      8    '1D ZF-TEDOR'   AG_8ms_TEDOR_fid          .   'Time-domain (raw spectral data)'   .   .   51610   1
+      9    '13C CP'        15N_cp_fid                .   'Time-domain (raw spectral data)'   .   .   51610   1
+      10   '1D ZF-TEDOR'   15N_12ms_TEDOR_fid        .   'Time-domain (raw spectral data)'   .   .   51610   1
+      10   '1D ZF-TEDOR'   15N_16ms_TEDOR_fid        .   'Time-domain (raw spectral data)'   .   .   51610   1
+      10   '1D ZF-TEDOR'   15N_1ms_TEDOR_fid         .   'Time-domain (raw spectral data)'   .   .   51610   1
+      10   '1D ZF-TEDOR'   15N_2ms_TEDOR_fid         .   'Time-domain (raw spectral data)'   .   .   51610   1
+      10   '1D ZF-TEDOR'   15N_4ms_TEDOR_fid         .   'Time-domain (raw spectral data)'   .   .   51610   1
+      10   '1D ZF-TEDOR'   15N_6ms_TEDOR_fid         .   'Time-domain (raw spectral data)'   .   .   51610   1
+      10   '1D ZF-TEDOR'   15N_8ms_TEDOR_fid         .   'Time-domain (raw spectral data)'   .   .   51610   1
+   stop_
+save_
+

@@ -1,0 +1,1358 @@
+data_10001
+
+save_study_list
+   _Study_list.Sf_category    study_list
+   _Study_list.Sf_framecode   study_list
+   _Study_list.Entry_ID       10001
+   _Study_list.ID             1
+
+   loop_
+      _Study.ID
+      _Study.Name
+      _Study.Type
+      _Study.Details
+      _Study.Entry_ID
+      _Study.Study_list_ID
+
+      1   
+;
+Signal assignments and chemical-shift structural analysis of uniformly 13C, 
+15N-labeled peptide, mastoparan-X, by multidimensional solid-state NMR under 
+magic-angle spinning
+;
+              'Structure analysis'   .   10001   1
+   stop_
+
+   loop_
+      _Study_entry_list.Study_ID
+      _Study_entry_list.BMRB_accession_code
+      _Study_entry_list.BMRB_entry_description
+      _Study_entry_list.Details
+      _Study_entry_list.Entry_ID
+      _Study_entry_list.Study_list_ID
+
+      1   6214   'Glycinated Mastoparan-X in the other condition'   
+;
+NMR spectra were obtained from Glycinated Mastoparan-X after the evaporation of 
+methanol that contained it.
+;
+                                                                        10001   1
+   stop_
+save_
+
+#######################
+#  Entry information  #
+#######################
+
+
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             10001
+   _Entry.Title
+;
+A high resolution structure of mastoparan-X strongly bound to lipid-bilayer
+membrane determined by solid-state NMR
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2005-07-31
+   _Entry.Accession_date                 2005-08-01
+   _Entry.Last_release_date              2015-09-03
+   _Entry.Original_release_date          2015-09-03
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.2.6
+   _Entry.Original_NMR_STAR_version      'production 3.0.2.8'
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solid-state
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Hideo        Akutsu     .   .   .   .   10001
+      2   Toshimichi   Fujiwara   .   .   .   .   10001
+      3   Yasuto       Todokoro   .   .   .   .   10001
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   10001
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   73   10001
+      '15N chemical shifts'   20   10001
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      3   .   .   2009-07-15   2005-07-31   update     BMRB     'C-terminal a.a. is LEUCINE AMIDE'   10001
+      2   .   .   2007-11-14   2005-07-31   update     BMRB     'complete entry citation'            10001
+      1   .   .   2006-06-28   2005-07-31   original   author   'original release'                   10001
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB   6214   'Mastopran X in the other condition'   10001
+      PDB    2CZP   'BMRB Entry Tracking System'           10001
+   stop_
+save_
+
+###############
+#  Citations  #
+###############
+
+
+
+save_citation_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citation_1
+   _Citation.Entry_ID                     10001
+   _Citation.ID                           1
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    16714348
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Structure of Tightly Membrane-Bound Mastoparan-X, a G-protein-Activating
+Peptide, Determined by Solid-State NMR
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'Biophys. J.'
+   _Citation.Journal_name_full            'Biophys. Journal'
+   _Citation.Journal_volume               91
+   _Citation.Journal_issue                4
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   1368
+   _Citation.Page_last                    1379
+   _Citation.Year                         2006
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Yasuto       Todokoro    .   .   .   .   10001   1
+      2   Ikuko        Yumen       .   .   .   .   10001   1
+      3   Kei          Fukushima   .   .   .   .   10001   1
+      4   S.-W.        Kang        .   .   .   .   10001   1
+      5   J.-S.        Park        .   .   .   .   10001   1
+      6   Toshiyuki    Kohno       .   .   .   .   10001   1
+      7   Kaori        Wakamatsu   .   .   .   .   10001   1
+      8   Hideo        Akutsu      .   .   .   .   10001   1
+      9   Toshimichi   Fujiwara    .   .   .   .   10001   1
+   stop_
+
+   loop_
+      _Citation_keyword.Keyword
+      _Citation_keyword.Entry_ID
+      _Citation_keyword.Citation_ID
+
+      3D-structure                10001   1
+      Amidation                   10001   1
+      'MASTOPARAN X'              10001   1
+      MP-X                        10001   1
+      'Mast cell degranulation'   10001   1
+      Venom                       10001   1
+      'membrane bound'            10001   1
+   stop_
+save_
+
+save_citation_2
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citation_2
+   _Citation.Entry_ID                     10001
+   _Citation.ID                           2
+   _Citation.Class                        'reference citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    12810033
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Chemical shift referencing in MAS solid state NMR.
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'J. Magn. Reson.'
+   _Citation.Journal_name_full            'Journal of Magnetic Resonance'
+   _Citation.Journal_volume               162
+   _Citation.Journal_issue                2
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   479
+   _Citation.Page_last                    486
+   _Citation.Year                         2003
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Morcombe   Corey   .   R.   .   .   10001   2
+      2   Zilm       Kurt    .   W.   .   .   10001   2
+   stop_
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          10001
+   _Assembly.ID                                1
+   _Assembly.Name                              mastoparan-X
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   MP-X   1   $MP-X   .   .   no   native   no   no   .   .   .   10001   1
+   stop_
+
+   loop_
+      _Assembly_db_link.Author_supplied
+      _Assembly_db_link.Database_code
+      _Assembly_db_link.Accession_code
+      _Assembly_db_link.Entry_mol_code
+      _Assembly_db_link.Entry_mol_name
+      _Assembly_db_link.Entry_experimental_method
+      _Assembly_db_link.Entry_structure_resolution
+      _Assembly_db_link.Entry_relation_type
+      _Assembly_db_link.Entry_details
+      _Assembly_db_link.Entry_ID
+      _Assembly_db_link.Assembly_ID
+
+      yes   PDB   2CZP   .   .   'Minimized Average Structure from solid state NMR'   .   'Structure from this entry'   .   10001   1
+   stop_
+
+   loop_
+      _Assembly_systematic_name.Name
+      _Assembly_systematic_name.Naming_system
+      _Assembly_systematic_name.Entry_ID
+      _Assembly_systematic_name.Assembly_ID
+
+      mastoparan-X   na   10001   1
+   stop_
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+
+
+save_MP-X
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      MP-X
+   _Entity.Entry_ID                          10001
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              MP-X
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+INWKGIAAMAKKLX
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      yes
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                14
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    1556
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1    .   ILE   .   10001   1
+      2    .   ASN   .   10001   1
+      3    .   TRP   .   10001   1
+      4    .   LYS   .   10001   1
+      5    .   GLY   .   10001   1
+      6    .   ILE   .   10001   1
+      7    .   ALA   .   10001   1
+      8    .   ALA   .   10001   1
+      9    .   MET   .   10001   1
+      10   .   ALA   .   10001   1
+      11   .   LYS   .   10001   1
+      12   .   LYS   .   10001   1
+      13   .   LEU   .   10001   1
+      14   .   NLW   .   10001   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   ILE   1    1    10001   1
+      .   ASN   2    2    10001   1
+      .   TRP   3    3    10001   1
+      .   LYS   4    4    10001   1
+      .   GLY   5    5    10001   1
+      .   ILE   6    6    10001   1
+      .   ALA   7    7    10001   1
+      .   ALA   8    8    10001   1
+      .   MET   9    9    10001   1
+      .   ALA   10   10   10001   1
+      .   LYS   11   11   10001   1
+      .   LYS   12   12   10001   1
+      .   LEU   13   13   10001   1
+      .   NLW   14   14   10001   1
+   stop_
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       10001
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $MP-X   .   7448   organism   .   'Vespa simillima xanthoptera'   wasps   .   .   Eukaryota   Metazoa   Vespa   simillima   .   .   .   .   .   .   .   .   .   .   .   .   .   10001   1
+   stop_
+
+   loop_
+      _Natural_source_db.Entity_natural_src_ID
+      _Natural_source_db.Entity_ID
+      _Natural_source_db.Entity_label
+      _Natural_source_db.Entity_chimera_segment_ID
+      _Natural_source_db.Database_code
+      _Natural_source_db.Database_type
+      _Natural_source_db.Entry_code
+      _Natural_source_db.Entry_type
+      _Natural_source_db.ORF_code
+      _Natural_source_db.Gene_locus_code
+      _Natural_source_db.Gene_cDNA_code
+      _Natural_source_db.Entry_ID
+      _Natural_source_db.Entity_natural_src_list_ID
+
+      1   1   $MP-X   .   SWISS-PROT   .   P01515   .   .   .   .   10001   1
+   stop_
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       10001
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $MP-X   .   'recombinant technology'   'Escherichia coli'   .   .   469008   Escherichia   coli   'BL21 Star (DE3)'   PLASMID   .   .   .   .   pUBK19   .   .   
+;
+MP-X was overexpressed as a recombinant fusion protein with Saccharomyces 
+cerevisiae ubiquitin.
+;
+                                                                                                                                                                                   10001   1
+   stop_
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+
+
+save_chem_comp_NLW
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_NLW
+   _Chem_comp.Entry_ID                          10001
+   _Chem_comp.ID                                NLW
+   _Chem_comp.Provenance                        PDB
+   _Chem_comp.Name                              L-leucinamide
+   _Chem_comp.Type                              'L-PEPTIDE LINKING'
+   _Chem_comp.BMRB_code                         NLW
+   _Chem_comp.PDB_code                          NLW
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      2016-07-29
+   _Chem_comp.Modified_date                     2016-07-29
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   L
+   _Chem_comp.Three_letter_code                 NLW
+   _Chem_comp.Number_atoms_all                  23
+   _Chem_comp.Number_atoms_nh                   9
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        InChI=1S/C6H14N2O/c1-4(2)3-5(7)6(8)9/h4-5H,3,7H2,1-2H3,(H2,8,9)/t5-/m0/s1
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           Leu
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                           'C6 H14 N2 O'
+   _Chem_comp.Formula_weight                    130.188
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         Corina
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         5EXC
+   _Chem_comp.Processing_site                   EBI
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      CC(C)CC(C(=O)N)N                                                            SMILES             'OpenEye OEToolkits'   2.0.4   10001   NLW
+      CC(C)C[C@@H](C(=O)N)N                                                       SMILES_CANONICAL   'OpenEye OEToolkits'   2.0.4   10001   NLW
+      CC(C)C[C@H](N)C(N)=O                                                        SMILES_CANONICAL   CACTVS                 3.385   10001   NLW
+      CC(C)C[CH](N)C(N)=O                                                         SMILES             CACTVS                 3.385   10001   NLW
+      CC(CC(C(N)=O)N)C                                                            SMILES             ACDLabs                12.01   10001   NLW
+      FORGMRSGVSYZQR-YFKPBYRVSA-N                                                 InChIKey           InChI                  1.03    10001   NLW
+      InChI=1S/C6H14N2O/c1-4(2)3-5(7)6(8)9/h4-5H,3,7H2,1-2H3,(H2,8,9)/t5-/m0/s1   InChI              InChI                  1.03    10001   NLW
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      (2~{S})-2-azanyl-4-methyl-pentanamide   'SYSTEMATIC NAME'   'OpenEye OEToolkits'   2.0.4   10001   NLW
+      L-leucinamide                           'SYSTEMATIC NAME'   ACDLabs                12.01   10001   NLW
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      CD2   CD2   CD2   C1    .   C   .   .   N   0   .   .   .   1   no   no   .   .   .   .   2.067   .   -6.769   .   -4.970   .   3.027    -0.064   1.098    1    .   10001   NLW
+      CG    CG    CG    C2    .   C   .   .   N   0   .   .   .   1   no   no   .   .   .   .   2.744   .   -5.409   .   -4.992   .   1.965    0.197    0.028    2    .   10001   NLW
+      CD1   CD1   CD1   C3    .   C   .   .   N   0   .   .   .   1   no   no   .   .   .   .   4.083   .   -5.512   .   -5.704   .   2.266    -0.653   -1.208   3    .   10001   NLW
+      CB    CB    CB    C4    .   C   .   .   N   0   .   .   .   1   no   no   .   .   .   .   2.935   .   -4.920   .   -3.570   .   0.586    -0.173   0.578    4    .   10001   NLW
+      CA    CA    CA    C5    .   C   .   .   S   0   .   .   .   1   no   no   .   .   .   .   1.637   .   -4.897   .   -2.746   .   -0.490   0.217    -0.438   5    .   10001   NLW
+      N     N     N     N1    .   N   .   .   N   0   .   .   .   1   no   no   .   .   .   .   0.886   .   -3.695   .   -3.108   .   -0.493   1.675    -0.613   6    .   10001   NLW
+      C     C     C     C6    .   C   .   .   N   0   .   .   .   1   no   no   .   .   .   .   2.003   .   -4.922   .   -1.271   .   -1.839   -0.232   0.061    7    .   10001   NLW
+      O     O     O     O1    .   O   .   .   N   0   .   .   .   1   no   no   .   .   .   .   1.882   .   -5.984   .   -0.618   .   -2.584   0.563    0.592    8    .   10001   NLW
+      NH2   NH2   NH2   N2    .   N   .   .   N   0   .   .   .   1   no   no   .   .   .   .   2.882   .   -4.019   .   -0.864   .   -2.217   -1.518   -0.083   9    .   10001   NLW
+      H1    H1    H1    H1    .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   1.099   .   -6.689   .   -4.454   .   2.863    0.605    1.943    10   .   10001   NLW
+      H2    H2    H2    H2    .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   1.905   .   -7.114   .   -6.002   .   2.958    -1.098   1.434    11   .   10001   NLW
+      H3    H3    H3    H3    .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   2.707   .   -7.489   .   -4.439   .   4.017    0.117    0.679    12   .   10001   NLW
+      H4    H4    H4    H4    .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   2.103   .   -4.698   .   -5.534   .   1.976    1.252    -0.245   13   .   10001   NLW
+      H5    H5    H5    H5    .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   4.569   .   -4.525   .   -5.717   .   2.255    -1.708   -0.934   14   .   10001   NLW
+      H6    H6    H6    H6    .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   4.726   .   -6.230   .   -5.174   .   1.510    -0.467   -1.970   15   .   10001   NLW
+      H7    H7    H7    H7    .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   3.924   .   -5.856   .   -6.737   .   3.249    -0.389   -1.599   16   .   10001   NLW
+      H8    H8    H8    H8    .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   3.654   .   -5.584   .   -3.068   .   0.543    -1.247   0.758    17   .   10001   NLW
+      H9    H9    H9    H9    .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   3.342   .   -3.899   .   -3.605   .   0.412    0.360    1.513    18   .   10001   NLW
+      H10   H10   H10   H10   .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   1.047   .   -5.794   .   -2.986   .   -0.278   -0.263   -1.394   19   .   10001   NLW
+      H11   H11   H11   H11   .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   0.036   .   -3.661   .   -2.582   .   -1.150   1.953    -1.327   20   .   10001   NLW
+      H12   H12   H12   H12   .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   1.436   .   -2.885   .   -2.905   .   -0.687   2.144    0.259    21   .   10001   NLW
+      H14   H14   H14   H14   .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   3.435   .   -4.191   .   -0.049   .   -1.620   -2.154   -0.507   22   .   10001   NLW
+      H15   H15   H15   H15   .   H   .   .   N   0   .   .   .   1   no   no   .   .   .   .   2.993   .   -3.165   .   -1.372   .   -3.085   -1.807   0.239    23   .   10001   NLW
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1    .   SING   CD1   CG    no   N   1    .   10001   NLW
+      2    .   SING   CG    CD2   no   N   2    .   10001   NLW
+      3    .   SING   CG    CB    no   N   3    .   10001   NLW
+      4    .   SING   CB    CA    no   N   4    .   10001   NLW
+      5    .   SING   N     CA    no   N   5    .   10001   NLW
+      6    .   SING   CA    C     no   N   6    .   10001   NLW
+      7    .   SING   C     NH2   no   N   7    .   10001   NLW
+      8    .   DOUB   C     O     no   N   8    .   10001   NLW
+      9    .   SING   CD2   H1    no   N   9    .   10001   NLW
+      10   .   SING   CD2   H2    no   N   10   .   10001   NLW
+      11   .   SING   CD2   H3    no   N   11   .   10001   NLW
+      12   .   SING   CG    H4    no   N   12   .   10001   NLW
+      13   .   SING   CD1   H5    no   N   13   .   10001   NLW
+      14   .   SING   CD1   H6    no   N   14   .   10001   NLW
+      15   .   SING   CD1   H7    no   N   15   .   10001   NLW
+      16   .   SING   CB    H8    no   N   16   .   10001   NLW
+      17   .   SING   CB    H9    no   N   17   .   10001   NLW
+      18   .   SING   CA    H10   no   N   18   .   10001   NLW
+      19   .   SING   N     H11   no   N   19   .   10001   NLW
+      20   .   SING   N     H12   no   N   20   .   10001   NLW
+      21   .   SING   NH2   H14   no   N   21   .   10001   NLW
+      22   .   SING   NH2   H15   no   N   22   .   10001   NLW
+   stop_
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         10001
+   _Sample.ID                               1
+   _Sample.Type                             solid
+   _Sample.Sub_type                         .
+   _Sample.Details                          'Mastoparan-X was bound with liposome (DPPC:DPPG=4:1).'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   mastoparan-X   '[U-95% 13C; U-95% 15N]'   1   $assembly   1   $MP-X   .   .   5    .   .   mg   .   .   .   .   10001   1
+      2   liposome       .                          .   .           .   .       .   .   50   .   .   mg   .   .   .   .   10001   1
+   stop_
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+
+
+save_condition_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   condition_1
+   _Sample_condition_list.Entry_ID       10001
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            7.4   0.1   pH   10001   1
+      temperature   253   0.1   K    10001   1
+   stop_
+save_
+
+save_condition_2
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   condition_2
+   _Sample_condition_list.Entry_ID       10001
+   _Sample_condition_list.ID             2
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            7.4   0.1   pH   10001   2
+      temperature   283   0.1   K    10001   2
+   stop_
+save_
+
+############################
+#  Computer software used  #
+############################
+
+
+
+save_Felix2000
+   _Software.Sf_category    software
+   _Software.Sf_framecode   Felix2000
+   _Software.Entry_ID       10001
+   _Software.ID             1
+   _Software.Name           Felix2000
+   _Software.Version        2000
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Accelrys Inc.'   .   .   10001   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      assignment   10001   1
+   stop_
+save_
+
+save_spinsight
+   _Software.Sf_category    software
+   _Software.Sf_framecode   spinsight
+   _Software.Entry_ID       10001
+   _Software.ID             2
+   _Software.Name           spinsight
+   _Software.Version        4.3.2
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      VARIAN   .   .   10001   2
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      processing   10001   2
+   stop_
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+
+
+save_CMX600infinity
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     CMX600infinity
+   _NMR_spectrometer.Entry_ID         10001
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            CMX
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+save_
+
+save_CMX500infinity
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     CMX500infinity
+   _NMR_spectrometer.Entry_ID         10001
+   _NMR_spectrometer.ID               2
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            CMX
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   500
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       10001
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1   CMX600infinity   Varian   CMX   .   600   .   .   .   10001   1
+      2   CMX500infinity   Varian   CMX   .   500   .   .   .   10001   1
+   stop_
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       10001
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   '3D N-CA-CO'             no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $condition_1   .   .   .   2   $CMX500infinity   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   10001   1
+      2   '3D Ni-COi+1-CAi+1'      no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $condition_1   .   .   .   2   $CMX500infinity   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   10001   1
+      3   '2D RFDR'                no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $condition_1   .   .   .   1   $CMX600infinity   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   10001   1
+      4   '2D SPCz5'               no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $condition_1   .   .   .   1   $CMX600infinity   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   10001   1
+      5   '2D (CACB)i+1-(COCA)i'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   2   $condition_2   .   .   .   2   $CMX500infinity   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   10001   1
+      6   '2D Ni-(COCA)i+1'        no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   2   $condition_2   .   .   .   2   $CMX500infinity   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   10001   1
+      7   '2D N-CA'                no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   2   $condition_2   .   .   .   2   $CMX500infinity   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   10001   1
+      8   '2D Ni-(COCACB)i+1'      no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $condition_1   .   .   .   2   $CMX500infinity   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   10001   1
+   stop_
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+
+
+save_ref_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   ref_1
+   _Chem_shift_reference.Entry_ID       10001
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details
+;
+The 13C chemical shift was referenced to the methyl signal of hexamethyl benzene
+resonating at 19.2 ppm which gives chemical shift relative to DSS (2, 2-
+dimethylsilapentane-5-sulfonic acid) (Morcombe and Zilm, 2003).
+The 15N chemical shift reference was computed from the ratios of resonance
+frequencies in the IUPAC recommendations.
+;
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na   indirect   0.251449530   .   .   .   .   .   10001   1
+      N   15   DSS   'methyl protons'   .   .   .   .   ppm   0.00   na   indirect   0.101329118   .   .   .   .   .   10001   1
+   stop_
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+
+save_mpx_assign
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  mpx_assign
+   _Assigned_chem_shift_list.Entry_ID                      10001
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $condition_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $ref_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1   '3D N-CA-CO'             1   $sample_1   isotropic   10001   1
+      2   '3D Ni-COi+1-CAi+1'      1   $sample_1   isotropic   10001   1
+      3   '2D RFDR'                1   $sample_1   isotropic   10001   1
+      4   '2D SPCz5'               1   $sample_1   isotropic   10001   1
+      5   '2D (CACB)i+1-(COCA)i'   1   $sample_1   isotropic   10001   1
+      6   '2D Ni-(COCA)i+1'        1   $sample_1   isotropic   10001   1
+      7   '2D N-CA'                1   $sample_1   isotropic   10001   1
+      8   '2D Ni-(COCACB)i+1'      1   $sample_1   isotropic   10001   1
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+      2   $spinsight   .   .   10001   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1    .   1   1   1    1    ILE   C     C   13   172.8   0.5   .   1   .   .   .   .   1    ILE   C     .   10001   1
+      2    .   1   1   1    1    ILE   CA    C   13   59.2    0.6   .   1   .   .   .   .   1    ILE   CA    .   10001   1
+      3    .   1   1   1    1    ILE   CB    C   13   37.5    0.6   .   1   .   .   .   .   1    ILE   CB    .   10001   1
+      4    .   1   1   1    1    ILE   CD1   C   13   12.9    0.4   .   5   .   .   .   .   1    ILE   CD1   .   10001   1
+      5    .   1   1   1    1    ILE   CG1   C   13   27.5    0.5   .   1   .   .   .   .   1    ILE   CG1   .   10001   1
+      6    .   1   1   1    1    ILE   CG2   C   13   15.7    0.4   .   1   .   .   .   .   1    ILE   CG2   .   10001   1
+      7    .   1   1   1    1    ILE   N     N   15   36.9    0.5   .   1   .   .   .   .   1    ILE   N     .   10001   1
+      8    .   1   1   2    2    ASN   C     C   13   175.1   0.4   .   1   .   .   .   .   2    ASN   C     .   10001   1
+      9    .   1   1   2    2    ASN   CA    C   13   50.6    0.4   .   1   .   .   .   .   2    ASN   CA    .   10001   1
+      10   .   1   1   2    2    ASN   CB    C   13   37.1    0.5   .   1   .   .   .   .   2    ASN   CB    .   10001   1
+      11   .   1   1   2    2    ASN   CG    C   13   178.5   0.5   .   1   .   .   .   .   2    ASN   CG    .   10001   1
+      12   .   1   1   2    2    ASN   N     N   15   126.5   0.9   .   1   .   .   .   .   2    ASN   N     .   10001   1
+      13   .   1   1   2    2    ASN   ND2   N   15   111.6   2.0   .   1   .   .   .   .   2    ASN   ND2   .   10001   1
+      14   .   1   1   3    3    TRP   C     C   13   178.1   0.5   .   1   .   .   .   .   3    TRP   C     .   10001   1
+      15   .   1   1   3    3    TRP   CA    C   13   59.5    0.6   .   1   .   .   .   .   3    TRP   CA    .   10001   1
+      16   .   1   1   3    3    TRP   CB    C   13   31.9    0.6   .   1   .   .   .   .   3    TRP   CB    .   10001   1
+      17   .   1   1   3    3    TRP   CD1   C   13   128.2   0.7   .   1   .   .   .   .   3    TRP   CD1   .   10001   1
+      18   .   1   1   3    3    TRP   CD2   C   13   128.8   0.6   .   1   .   .   .   .   3    TRP   CD2   .   10001   1
+      19   .   1   1   3    3    TRP   CE2   C   13   140.2   0.4   .   1   .   .   .   .   3    TRP   CE2   .   10001   1
+      20   .   1   1   3    3    TRP   CE3   C   13   120.2   0.9   .   1   .   .   .   .   3    TRP   CE3   .   10001   1
+      21   .   1   1   3    3    TRP   CG    C   13   109.4   0.6   .   1   .   .   .   .   3    TRP   CG    .   10001   1
+      22   .   1   1   3    3    TRP   CH2   C   13   123.4   0.6   .   1   .   .   .   .   3    TRP   CH2   .   10001   1
+      23   .   1   1   3    3    TRP   CZ2   C   13   114.1   0.6   .   1   .   .   .   .   3    TRP   CZ2   .   10001   1
+      24   .   1   1   3    3    TRP   CZ3   C   13   120.9   0.7   .   1   .   .   .   .   3    TRP   CZ3   .   10001   1
+      25   .   1   1   3    3    TRP   N     N   15   125.6   0.7   .   1   .   .   .   .   3    TRP   N     .   10001   1
+      26   .   1   1   3    3    TRP   NE1   N   15   131.9   0.8   .   1   .   .   .   .   3    TRP   NE1   .   10001   1
+      27   .   1   1   4    4    LYS   C     C   13   178.9   0.5   .   1   .   .   .   .   4    LYS   C     .   10001   1
+      28   .   1   1   4    4    LYS   CA    C   13   59.9    0.6   .   1   .   .   .   .   4    LYS   CA    .   10001   1
+      29   .   1   1   4    4    LYS   CB    C   13   32.4    0.6   .   1   .   .   .   .   4    LYS   CB    .   10001   1
+      30   .   1   1   4    4    LYS   CD    C   13   30.4    1.2   .   1   .   .   .   .   4    LYS   CD    .   10001   1
+      31   .   1   1   4    4    LYS   CE    C   13   41.8    0.5   .   5   .   .   .   .   4    LYS   CE    .   10001   1
+      32   .   1   1   4    4    LYS   CG    C   13   27.5    0.4   .   1   .   .   .   .   4    LYS   CG    .   10001   1
+      33   .   1   1   4    4    LYS   N     N   15   116.7   0.8   .   1   .   .   .   .   4    LYS   N     .   10001   1
+      34   .   1   1   4    4    LYS   NZ    N   15   31.7    0.8   .   5   .   .   .   .   4    LYS   NZ    .   10001   1
+      35   .   1   1   5    5    GLY   C     C   13   174.9   0.4   .   1   .   .   .   .   5    GLY   C     .   10001   1
+      36   .   1   1   5    5    GLY   CA    C   13   47.2    0.4   .   1   .   .   .   .   5    GLY   CA    .   10001   1
+      37   .   1   1   5    5    GLY   N     N   15   107.2   0.9   .   1   .   .   .   .   5    GLY   N     .   10001   1
+      38   .   1   1   6    6    ILE   C     C   13   178.7   0.3   .   1   .   .   .   .   6    ILE   C     .   10001   1
+      39   .   1   1   6    6    ILE   CA    C   13   65.5    0.4   .   1   .   .   .   .   6    ILE   CA    .   10001   1
+      40   .   1   1   6    6    ILE   CB    C   13   37.2    0.4   .   1   .   .   .   .   6    ILE   CB    .   10001   1
+      41   .   1   1   6    6    ILE   CD1   C   13   12.9    0.4   .   5   .   .   .   .   6    ILE   CD1   .   10001   1
+      42   .   1   1   6    6    ILE   CG1   C   13   27.2    0.5   .   1   .   .   .   .   6    ILE   CG1   .   10001   1
+      43   .   1   1   6    6    ILE   CG2   C   13   17.9    0.3   .   1   .   .   .   .   6    ILE   CG2   .   10001   1
+      44   .   1   1   6    6    ILE   N     N   15   122.1   0.6   .   1   .   .   .   .   6    ILE   N     .   10001   1
+      45   .   1   1   7    7    ALA   C     C   13   178.1   0.6   .   1   .   .   .   .   7    ALA   C     .   10001   1
+      46   .   1   1   7    7    ALA   CA    C   13   54.9    0.7   .   1   .   .   .   .   7    ALA   CA    .   10001   1
+      47   .   1   1   7    7    ALA   CB    C   13   18.1    0.6   .   1   .   .   .   .   7    ALA   CB    .   10001   1
+      48   .   1   1   7    7    ALA   N     N   15   122.1   0.8   .   1   .   .   .   .   7    ALA   N     .   10001   1
+      49   .   1   1   8    8    ALA   C     C   13   180.2   0.5   .   1   .   .   .   .   8    ALA   C     .   10001   1
+      50   .   1   1   8    8    ALA   CA    C   13   54.7    0.6   .   1   .   .   .   .   8    ALA   CA    .   10001   1
+      51   .   1   1   8    8    ALA   CB    C   13   17.9    0.7   .   1   .   .   .   .   8    ALA   CB    .   10001   1
+      52   .   1   1   8    8    ALA   N     N   15   121.0   0.6   .   1   .   .   .   .   8    ALA   N     .   10001   1
+      53   .   1   1   9    9    MET   C     C   13   177.4   0.5   .   1   .   .   .   .   9    MET   C     .   10001   1
+      54   .   1   1   9    9    MET   CA    C   13   59.4    0.7   .   1   .   .   .   .   9    MET   CA    .   10001   1
+      55   .   1   1   9    9    MET   CB    C   13   33.5    0.6   .   1   .   .   .   .   9    MET   CB    .   10001   1
+      56   .   1   1   9    9    MET   CE    C   13   15.8    0.4   .   9   .   .   .   .   9    MET   CE    .   10001   1
+      57   .   1   1   9    9    MET   CG    C   13   35.3    0.7   .   1   .   .   .   .   9    MET   CG    .   10001   1
+      58   .   1   1   9    9    MET   N     N   15   118.1   0.7   .   1   .   .   .   .   9    MET   N     .   10001   1
+      59   .   1   1   10   10   ALA   C     C   13   179.1   0.4   .   1   .   .   .   .   10   ALA   C     .   10001   1
+      60   .   1   1   10   10   ALA   CA    C   13   55.1    0.5   .   1   .   .   .   .   10   ALA   CA    .   10001   1
+      61   .   1   1   10   10   ALA   CB    C   13   18.0    0.5   .   1   .   .   .   .   10   ALA   CB    .   10001   1
+      62   .   1   1   10   10   ALA   N     N   15   121.2   0.6   .   1   .   .   .   .   10   ALA   N     .   10001   1
+      63   .   1   1   11   11   LYS   C     C   13   178.1   0.5   .   1   .   .   .   .   11   LYS   C     .   10001   1
+      64   .   1   1   11   11   LYS   CA    C   13   59.6    0.6   .   1   .   .   .   .   11   LYS   CA    .   10001   1
+      65   .   1   1   11   11   LYS   CB    C   13   31.6    0.5   .   1   .   .   .   .   11   LYS   CB    .   10001   1
+      66   .   1   1   11   11   LYS   CD    C   13   30.4    1.2   .   1   .   .   .   .   11   LYS   CD    .   10001   1
+      67   .   1   1   11   11   LYS   CE    C   13   41.8    0.5   .   5   .   .   .   .   11   LYS   CE    .   10001   1
+      68   .   1   1   11   11   LYS   CG    C   13   27.0    0.4   .   1   .   .   .   .   11   LYS   CG    .   10001   1
+      69   .   1   1   11   11   LYS   N     N   15   117.4   0.6   .   1   .   .   .   .   11   LYS   N     .   10001   1
+      70   .   1   1   11   11   LYS   NZ    N   15   31.7    0.8   .   5   .   .   .   .   11   LYS   NZ    .   10001   1
+      71   .   1   1   12   12   LYS   C     C   13   176.9   0.4   .   1   .   .   .   .   12   LYS   C     .   10001   1
+      72   .   1   1   12   12   LYS   CA    C   13   56.9    0.7   .   1   .   .   .   .   12   LYS   CA    .   10001   1
+      73   .   1   1   12   12   LYS   CB    C   13   31.7    0.4   .   1   .   .   .   .   12   LYS   CB    .   10001   1
+      74   .   1   1   12   12   LYS   CD    C   13   30.4    1.2   .   1   .   .   .   .   12   LYS   CD    .   10001   1
+      75   .   1   1   12   12   LYS   CE    C   13   41.8    0.5   .   5   .   .   .   .   12   LYS   CE    .   10001   1
+      76   .   1   1   12   12   LYS   CG    C   13   27.0    0.4   .   1   .   .   .   .   12   LYS   CG    .   10001   1
+      77   .   1   1   12   12   LYS   N     N   15   117.8   0.8   .   1   .   .   .   .   12   LYS   N     .   10001   1
+      78   .   1   1   12   12   LYS   NZ    N   15   31.7    0.8   .   5   .   .   .   .   12   LYS   NZ    .   10001   1
+      79   .   1   1   13   13   LEU   C     C   13   176.2   0.6   .   1   .   .   .   .   13   LEU   C     .   10001   1
+      80   .   1   1   13   13   LEU   CA    C   13   56.8    0.6   .   1   .   .   .   .   13   LEU   CA    .   10001   1
+      81   .   1   1   13   13   LEU   CB    C   13   43.6    0.5   .   1   .   .   .   .   13   LEU   CB    .   10001   1
+      82   .   1   1   13   13   LEU   CD1   C   13   24.3    0.7   .   5   .   .   .   .   13   LEU   CD1   .   10001   1
+      83   .   1   1   13   13   LEU   CD2   C   13   23.3    0.7   .   5   .   .   .   .   13   LEU   CD2   .   10001   1
+      84   .   1   1   13   13   LEU   CG    C   13   27.5    0.5   .   1   .   .   .   .   13   LEU   CG    .   10001   1
+      85   .   1   1   13   13   LEU   N     N   15   116.1   0.8   .   1   .   .   .   .   13   LEU   N     .   10001   1
+      86   .   1   1   14   14   NLW   C     C   13   182.4   0.5   .   1   .   .   .   .   14   LEU   C     .   10001   1
+      87   .   1   1   14   14   NLW   CA    C   13   55.9    0.6   .   1   .   .   .   .   14   LEU   CA    .   10001   1
+      88   .   1   1   14   14   NLW   CB    C   13   44.5    0.5   .   1   .   .   .   .   14   LEU   CB    .   10001   1
+      89   .   1   1   14   14   NLW   CD1   C   13   24.3    0.7   .   5   .   .   .   .   14   LEU   CD1   .   10001   1
+      90   .   1   1   14   14   NLW   CD2   C   13   23.3    0.7   .   5   .   .   .   .   14   LEU   CD2   .   10001   1
+      91   .   1   1   14   14   NLW   CG    C   13   27.1    0.5   .   1   .   .   .   .   14   LEU   CG    .   10001   1
+      92   .   1   1   14   14   NLW   N     N   15   115.0   1.0   .   1   .   .   .   .   14   LEU   N     .   10001   1
+      93   .   1   1   14   14   NLW   N2    N   15   106.0   1.0   .   1   .   .   .   .   14   LEU   NH2   .   10001   1
+   stop_
+
+   loop_
+      _Ambiguous_atom_chem_shift.Ambiguous_shift_set_ID
+      _Ambiguous_atom_chem_shift.Atom_chem_shift_ID
+      _Ambiguous_atom_chem_shift.Entry_ID
+      _Ambiguous_atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1   4    10001   1
+      1   41   10001   1
+      2   31   10001   1
+      2   67   10001   1
+      2   75   10001   1
+      3   34   10001   1
+      3   70   10001   1
+      3   78   10001   1
+      4   82   10001   1
+      4   89   10001   1
+      5   83   10001   1
+      5   90   10001   1
+   stop_
+save_
+

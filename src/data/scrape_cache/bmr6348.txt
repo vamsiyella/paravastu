@@ -1,0 +1,2599 @@
+data_6348
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             6348
+   _Entry.Title                         
+;
+13C, 15N solid state NMR chemical shift assignments for the intrinsic 
+transmembrane light-harvesting 2 protein complex
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2004-10-12
+   _Entry.Accession_date                 2004-10-12
+   _Entry.Last_release_date              2005-06-02
+   _Entry.Original_release_date          2005-06-02
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      2.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Details                       
+;
+The LH2 complex is an intrinsic transmembrane protein complex, consisting of
+nine identical units. Each subunit consist of an alpha- and a beta subunit.
+Three bacteriochlorophylls and 2 carotenoids are embedded in the protein and
+are important for the function of the protein, i.e. light-harvesting. The
+protein has been assigned sequence specifically by solid state NMR in
+combination with pattern labeling.
+;
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Adriaan 'van Gammeren' . J.   . 6348 
+      2 Frans    Hulsbergen    . B.   . 6348 
+      3 Johan    Hollander     . G.   . 6348 
+      4 Huub    'de Groot'     . J.M. . 6348 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 2 6348 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts' 310 6348 
+      '15N chemical shifts'  81 6348 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2005-06-02 2004-10-12 original author . 6348 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     6348
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    15754054
+   _Citation.Full_citation                .
+   _Citation.Title                       
+;
+Residual backbone and side-chain 13C and 15N resonance assignments of the 
+intrinsic transmembrane light-harvesting 2 protein complex by solid state Magic 
+Angle Spinning NMR spectroscopy
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'J. Biomol. NMR'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               31
+   _Citation.Journal_issue                4
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   279
+   _Citation.Page_last                    293
+   _Citation.Year                         2005
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Adriaan 'van Gammeren' . J.   . 6348 1 
+      2 Frans    Hulsbergen    . B.   . 6348 1 
+      3 Johan    Hollander     . G.   . 6348 1 
+      4 Huub    'de Groot'     . J.M. . 6348 1 
+
+   stop_
+
+   loop_
+      _Citation_keyword.Keyword
+      _Citation_keyword.Entry_ID
+      _Citation_keyword.Citation_ID
+
+      'transmembrane protein NMR assignment' 6348 1 
+      'solid state NMR'                      6348 1 
+      'light-harvesting complex'             6348 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_molecular_system_LH2
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      molecular_system_LH2
+   _Assembly.Entry_ID                          6348
+   _Assembly.ID                                1
+   _Assembly.Name                             'light-harvesting 2 protein complex'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                      'not present'
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                          
+;
+The light-harvesting complex consist of 9 monomeric units. Each unit consists
+of 2 different subunits.
+;
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Assembly_type.Type
+      _Assembly_type.Entry_ID
+      _Assembly_type.Assembly_ID
+
+      multimer 6348 1 
+
+   stop_
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+       1 'Chain 1, Alpha-subunit'    1 $Alpha-subunit . . . native . . 1 . . 6348 1 
+       2 'Chain 1, Beta-subunit'     2 $Beta-subunit  . . . native . . 2 . . 6348 1 
+       3 'Chain 2, Alpha-subunit'    1 $Alpha-subunit . . . native . . 1 . . 6348 1 
+       4 'Chain 2, Beta-subunit'     2 $Beta-subunit  . . . native . . 2 . . 6348 1 
+       5 'Chain 3, Alpha-subunit'    1 $Alpha-subunit . . . native . . 1 . . 6348 1 
+       6 'Chain 3, Beta-subunit'     2 $Beta-subunit  . . . native . . 2 . . 6348 1 
+       7 'Chain 4, Alpha-subunit'    1 $Alpha-subunit . . . native . . 1 . . 6348 1 
+       8 'Chain 4, Beta-subunit'     2 $Beta-subunit  . . . native . . 2 . . 6348 1 
+       9 'Chain 5, Alpha-subunit'    1 $Alpha-subunit . . . native . . 1 . . 6348 1 
+      10 'Chain 5, Beta-subunit'     2 $Beta-subunit  . . . native . . 2 . . 6348 1 
+      11 'Chain 6, Alpha-subunit'    1 $Alpha-subunit . . . native . . 1 . . 6348 1 
+      12 'Chain 6, Beta-subunit'     2 $Beta-subunit  . . . native . . 2 . . 6348 1 
+      13 'Chain 7, Alpha-subunit'    1 $Alpha-subunit . . . native . . 1 . . 6348 1 
+      14 'Chain 7, Beta-subunit'     2 $Beta-subunit  . . . native . . 2 . . 6348 1 
+      15 'Chain 8, Alpha-subunit'    1 $Alpha-subunit . . . native . . 1 . . 6348 1 
+      16 'Chain 8, Beta-subunit'     2 $Beta-subunit  . . . native . . 2 . . 6348 1 
+      17 'Chain 9, Alpha-subunit'    1 $Alpha-subunit . . . native . . 1 . . 6348 1 
+      18 'Chain 9, Beta-subunit'     2 $Beta-subunit  . . . native . . 2 . . 6348 1 
+      19 'bacteriochlorophylls A, 1' 4 $BCL           . . . native . .  . . . 6348 1 
+      20 'bacteriochlorophylls A, 2' 4 $BCL           . . . native . .  . . . 6348 1 
+      21 'bacteriochlorophylls A, 3' 4 $BCL           . . . native . .  . . . 6348 1 
+      22 'rhodopin glucoside, 1'     3 $RG1           . . . native . .  . . . 6348 1 
+      23 'rhodopin glucoside, 2'     3 $RG1           . . . native . .  . . . 6348 1 
+
+   stop_
+
+   loop_
+      _Assembly_db_link.Author_supplied
+      _Assembly_db_link.Database_code
+      _Assembly_db_link.Accession_code
+      _Assembly_db_link.Entry_mol_code
+      _Assembly_db_link.Entry_mol_name
+      _Assembly_db_link.Entry_experimental_method
+      _Assembly_db_link.Entry_structure_resolution
+      _Assembly_db_link.Entry_relation_type
+      _Assembly_db_link.Entry_details
+      _Assembly_db_link.Entry_ID
+      _Assembly_db_link.Assembly_ID
+
+      . PDB 1KZU . . . . . 'X-ray structrure' 6348 1 
+
+   stop_
+
+   loop_
+      _Assembly_common_name.Name
+      _Assembly_common_name.Type
+      _Assembly_common_name.Entry_ID
+      _Assembly_common_name.Assembly_ID
+
+      'light-harvesting 2 protein complex' system       6348 1 
+      'light-harvesting 2 protein complex' abbreviation 6348 1 
+
+   stop_
+
+   loop_
+      _Assembly_bio_function.Biological_function
+      _Assembly_bio_function.Entry_ID
+      _Assembly_bio_function.Assembly_ID
+
+      light-harvesting 6348 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_Alpha-subunit
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      Alpha-subunit
+   _Entity.Entry_ID                          6348
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              alpha-subunit
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+MNQGKIWTVVNPAIGIPALL
+GSVTVIAILVHLAILSHTTW
+FPAYWQGGVKKAA
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                53
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                          'The Alpha-subunit consist of 53 residues.'
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-01-28
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+      1 no PDB  1KZU     . "Integral Membrane Peripheral Light Harvesting Complex From Rhodopseudomonas Acidophila Strain 10050"                             . . . . . 100.00 41 100.00 100.00 1.08e-19 . . . . 6348 1 
+      2 no PDB  1NKZ     . "Crystal Structure Of Lh2 B800-850 From Rps. Acidophila At 2.0 Angstrom Resolution"                                               . . . . . 100.00 41 100.00 100.00 1.08e-19 . . . . 6348 1 
+      3 no PDB  2FKW     . "Structure Of Lh2 From Rps. Acidophila Crystallized In Lipidic Mesophases"                                                        . . . . . 100.00 41 100.00 100.00 1.08e-19 . . . . 6348 1 
+      4 no EMBL CAB52385 . "LH2beta5 [Rhodoblastus acidophilus]"                                                                                             . . . . . 100.00 42  97.56  97.56 4.61e-19 . . . . 6348 1 
+      5 no EMBL CAB52387 . "LH2beta6 [Rhodoblastus acidophilus]"                                                                                             . . . . . 100.00 42 100.00 100.00 9.22e-20 . . . . 6348 1 
+      6 no EMBL CAB52389 . "LH2beta7 [Rhodoblastus acidophilus]"                                                                                             . . . . . 100.00 46 100.00 100.00 1.01e-19 . . . . 6348 1 
+      7 no PRF  1404442B . "B800-850 antenna peptide beta"                                                                                                   . . . . . 100.00 41 100.00 100.00 1.08e-19 . . . . 6348 1 
+      8 no SP   P26790   . "RecName: Full=Light-harvesting protein B-800/850 beta chain; AltName: Full=Antenna pigment protein beta chain [Rhodoblastus aci" . . . . . 100.00 41 100.00 100.00 1.08e-19 . . . . 6348 1 
+
+   stop_
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      alpha-subunit common       6348 1 
+      LH2           variant      6348 1 
+      LH2           abbreviation 6348 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . MET . 6348 1 
+       2 . ASN . 6348 1 
+       3 . GLN . 6348 1 
+       4 . GLY . 6348 1 
+       5 . LYS . 6348 1 
+       6 . ILE . 6348 1 
+       7 . TRP . 6348 1 
+       8 . THR . 6348 1 
+       9 . VAL . 6348 1 
+      10 . VAL . 6348 1 
+      11 . ASN . 6348 1 
+      12 . PRO . 6348 1 
+      13 . ALA . 6348 1 
+      14 . ILE . 6348 1 
+      15 . GLY . 6348 1 
+      16 . ILE . 6348 1 
+      17 . PRO . 6348 1 
+      18 . ALA . 6348 1 
+      19 . LEU . 6348 1 
+      20 . LEU . 6348 1 
+      21 . GLY . 6348 1 
+      22 . SER . 6348 1 
+      23 . VAL . 6348 1 
+      24 . THR . 6348 1 
+      25 . VAL . 6348 1 
+      26 . ILE . 6348 1 
+      27 . ALA . 6348 1 
+      28 . ILE . 6348 1 
+      29 . LEU . 6348 1 
+      30 . VAL . 6348 1 
+      31 . HIS . 6348 1 
+      32 . LEU . 6348 1 
+      33 . ALA . 6348 1 
+      34 . ILE . 6348 1 
+      35 . LEU . 6348 1 
+      36 . SER . 6348 1 
+      37 . HIS . 6348 1 
+      38 . THR . 6348 1 
+      39 . THR . 6348 1 
+      40 . TRP . 6348 1 
+      41 . PHE . 6348 1 
+      42 . PRO . 6348 1 
+      43 . ALA . 6348 1 
+      44 . TYR . 6348 1 
+      45 . TRP . 6348 1 
+      46 . GLN . 6348 1 
+      47 . GLY . 6348 1 
+      48 . GLY . 6348 1 
+      49 . VAL . 6348 1 
+      50 . LYS . 6348 1 
+      51 . LYS . 6348 1 
+      52 . ALA . 6348 1 
+      53 . ALA . 6348 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . MET  1  1 6348 1 
+      . ASN  2  2 6348 1 
+      . GLN  3  3 6348 1 
+      . GLY  4  4 6348 1 
+      . LYS  5  5 6348 1 
+      . ILE  6  6 6348 1 
+      . TRP  7  7 6348 1 
+      . THR  8  8 6348 1 
+      . VAL  9  9 6348 1 
+      . VAL 10 10 6348 1 
+      . ASN 11 11 6348 1 
+      . PRO 12 12 6348 1 
+      . ALA 13 13 6348 1 
+      . ILE 14 14 6348 1 
+      . GLY 15 15 6348 1 
+      . ILE 16 16 6348 1 
+      . PRO 17 17 6348 1 
+      . ALA 18 18 6348 1 
+      . LEU 19 19 6348 1 
+      . LEU 20 20 6348 1 
+      . GLY 21 21 6348 1 
+      . SER 22 22 6348 1 
+      . VAL 23 23 6348 1 
+      . THR 24 24 6348 1 
+      . VAL 25 25 6348 1 
+      . ILE 26 26 6348 1 
+      . ALA 27 27 6348 1 
+      . ILE 28 28 6348 1 
+      . LEU 29 29 6348 1 
+      . VAL 30 30 6348 1 
+      . HIS 31 31 6348 1 
+      . LEU 32 32 6348 1 
+      . ALA 33 33 6348 1 
+      . ILE 34 34 6348 1 
+      . LEU 35 35 6348 1 
+      . SER 36 36 6348 1 
+      . HIS 37 37 6348 1 
+      . THR 38 38 6348 1 
+      . THR 39 39 6348 1 
+      . TRP 40 40 6348 1 
+      . PHE 41 41 6348 1 
+      . PRO 42 42 6348 1 
+      . ALA 43 43 6348 1 
+      . TYR 44 44 6348 1 
+      . TRP 45 45 6348 1 
+      . GLN 46 46 6348 1 
+      . GLY 47 47 6348 1 
+      . GLY 48 48 6348 1 
+      . VAL 49 49 6348 1 
+      . LYS 50 50 6348 1 
+      . LYS 51 51 6348 1 
+      . ALA 52 52 6348 1 
+      . ALA 53 53 6348 1 
+
+   stop_
+
+save_
+
+
+save_Beta-subunit
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      Beta-subunit
+   _Entity.Entry_ID                          6348
+   _Entity.ID                                2
+   _Entity.BMRB_code                         .
+   _Entity.Name                              Beta-subunit
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+ATLTAEQSEELHKYVIDGTR
+VFLGLALVAHFLAFSATPWL
+H
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                41
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  2
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                          'The Beta-subunit consist of 41 residues'
+   _Entity.DB_query_date                     2010-09-18
+   _Entity.DB_query_revised_last_date        2009-10-07
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+      . . SP   P26790   . 'RecName: Full=Light-harvesting protein B-800/850 beta chain; AltName: Full=Antenna pigment protein beta chain' . . . . . 100.00 41 100.00 100.00 7.85e-15 . . . . 6348 2 
+      . . PRF  1404442B . 'B800-850 antenna peptide beta'                                                                                 . . . . . 100.00 41 100.00 100.00 7.85e-15 . . . . 6348 2 
+      . . EMBL CAB52389 . 'LH2beta7 [Rhodoblastus acidophilus]'                                                                           . . . . . 100.00 46 100.00 100.00 6.99e-15 . . . . 6348 2 
+      . . EMBL CAB52387 . 'LH2beta6 [Rhodoblastus acidophilus]'                                                                           . . . . . 100.00 42 100.00 100.00 6.87e-15 . . . . 6348 2 
+      . . PDB  2FKW     . 'Structure Of Lh2 From Rps. Acidophila Crystallized In Lipidic Mesophases'                                      . . . . . 100.00 41 100.00 100.00 7.85e-15 . . . . 6348 2 
+      . . PDB  1NKZ     . 'Crystal Structure Of Lh2 B800-850 From Rps. Acidophila At 2.0 Angstrom Resolution'                             . . . . . 100.00 41 100.00 100.00 7.85e-15 . . . . 6348 2 
+      . . PDB  1KZU     . 'Integral Membrane Peripheral Light Harvesting Complex From Rhodopseudomonas Acidophila Strain 10050'           . . . . . 100.00 41 100.00 100.00 7.85e-15 . . . . 6348 2 
+
+   stop_
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      Beta-subunit common       6348 2 
+      LH2          variant      6348 2 
+      LH2          abbreviation 6348 2 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . ALA . 6348 2 
+       2 . THR . 6348 2 
+       3 . LEU . 6348 2 
+       4 . THR . 6348 2 
+       5 . ALA . 6348 2 
+       6 . GLU . 6348 2 
+       7 . GLN . 6348 2 
+       8 . SER . 6348 2 
+       9 . GLU . 6348 2 
+      10 . GLU . 6348 2 
+      11 . LEU . 6348 2 
+      12 . HIS . 6348 2 
+      13 . LYS . 6348 2 
+      14 . TYR . 6348 2 
+      15 . VAL . 6348 2 
+      16 . ILE . 6348 2 
+      17 . ASP . 6348 2 
+      18 . GLY . 6348 2 
+      19 . THR . 6348 2 
+      20 . ARG . 6348 2 
+      21 . VAL . 6348 2 
+      22 . PHE . 6348 2 
+      23 . LEU . 6348 2 
+      24 . GLY . 6348 2 
+      25 . LEU . 6348 2 
+      26 . ALA . 6348 2 
+      27 . LEU . 6348 2 
+      28 . VAL . 6348 2 
+      29 . ALA . 6348 2 
+      30 . HIS . 6348 2 
+      31 . PHE . 6348 2 
+      32 . LEU . 6348 2 
+      33 . ALA . 6348 2 
+      34 . PHE . 6348 2 
+      35 . SER . 6348 2 
+      36 . ALA . 6348 2 
+      37 . THR . 6348 2 
+      38 . PRO . 6348 2 
+      39 . TRP . 6348 2 
+      40 . LEU . 6348 2 
+      41 . HIS . 6348 2 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . ALA  1  1 6348 2 
+      . THR  2  2 6348 2 
+      . LEU  3  3 6348 2 
+      . THR  4  4 6348 2 
+      . ALA  5  5 6348 2 
+      . GLU  6  6 6348 2 
+      . GLN  7  7 6348 2 
+      . SER  8  8 6348 2 
+      . GLU  9  9 6348 2 
+      . GLU 10 10 6348 2 
+      . LEU 11 11 6348 2 
+      . HIS 12 12 6348 2 
+      . LYS 13 13 6348 2 
+      . TYR 14 14 6348 2 
+      . VAL 15 15 6348 2 
+      . ILE 16 16 6348 2 
+      . ASP 17 17 6348 2 
+      . GLY 18 18 6348 2 
+      . THR 19 19 6348 2 
+      . ARG 20 20 6348 2 
+      . VAL 21 21 6348 2 
+      . PHE 22 22 6348 2 
+      . LEU 23 23 6348 2 
+      . GLY 24 24 6348 2 
+      . LEU 25 25 6348 2 
+      . ALA 26 26 6348 2 
+      . LEU 27 27 6348 2 
+      . VAL 28 28 6348 2 
+      . ALA 29 29 6348 2 
+      . HIS 30 30 6348 2 
+      . PHE 31 31 6348 2 
+      . LEU 32 32 6348 2 
+      . ALA 33 33 6348 2 
+      . PHE 34 34 6348 2 
+      . SER 35 35 6348 2 
+      . ALA 36 36 6348 2 
+      . THR 37 37 6348 2 
+      . PRO 38 38 6348 2 
+      . TRP 39 39 6348 2 
+      . LEU 40 40 6348 2 
+      . HIS 41 41 6348 2 
+
+   stop_
+
+save_
+
+
+save_RG1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      RG1
+   _Entity.Entry_ID                          6348
+   _Entity.ID                                3
+   _Entity.BMRB_code                         .
+   _Entity.Name                              RG1
+   _Entity.Type                              non-polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      .
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code       .
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                RG1
+   _Entity.Nonpolymer_comp_label            $chem_comp_RG1
+   _Entity.Number_of_monomers                .
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                       .
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  3
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1 . RG1 . 6348 3 
+
+   stop_
+
+save_
+
+
+save_BCL
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      BCL
+   _Entity.Entry_ID                          6348
+   _Entity.ID                                4
+   _Entity.BMRB_code                         .
+   _Entity.Name                              BCL
+   _Entity.Type                              non-polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      .
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code       .
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                BCL
+   _Entity.Nonpolymer_comp_label            $chem_comp_BCL
+   _Entity.Number_of_monomers                .
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                       .
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  4
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1 . BCL . 6348 4 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       6348
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $Alpha-subunit . 1074 organism . 'Rhodopseudomonas acidophila' 'purple bacterium' . . Bacteria . Rhodopseudomonas acidophila 10050 . . . . . . . . . . . . . . . . . . . . 6348 1 
+      2 2 $Beta-subunit  . 1074 organism . 'Rhodopseudomonas acidophila' 'purple bacterium' . . Bacteria . Rhodopseudomonas acidophila 10050 . . . . . . . . . . . . . . . . . . . . 6348 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       6348
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $Alpha-subunit . 'Purified from the natural source' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6348 1 
+      2 2 $Beta-subunit  . 'Purified from the natural source' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6348 1 
+
+   stop_
+
+save_
+
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_RG1
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_RG1
+   _Chem_comp.Entry_ID                          6348
+   _Chem_comp.ID                                RG1
+   _Chem_comp.Provenance                        .
+   _Chem_comp.Name                             'RHODOPIN GLUCOSIDE'
+   _Chem_comp.Type                              D-saccharide
+   _Chem_comp.BMRB_code                         .
+   _Chem_comp.PDB_code                          RG1
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      1999-07-08
+   _Chem_comp.Modified_date                     2011-06-04
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 RG1
+   _Chem_comp.Number_atoms_all                  .
+   _Chem_comp.Number_atoms_nh                   .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        .
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                          'C46 H66 O6'
+   _Chem_comp.Formula_weight                    715.013
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         .
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         1KZU
+   _Chem_comp.Processing_site                   PDBJ
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                          
+;
+Information obtained from PDB's Chemical Component Dictionary
+at http://wwpdb-remediation.rutgers.edu/downloads.html
+Downloaded on Fri Jun 17 15:10:52 2011
+;
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      O(C(CCCC(=C\C=C\C(=C\C=C\C(=C\C=C\C=C(\C=C\C=C(\C=C\C=C(\C=C\C=C(\C)C)C)C)C)C)C)\C)(C)C)C1OC(C(O)C(O)C1O)CO                                                                                                                                                                                                                          SMILES            ACDLabs                10.04  6348 RG1 
+      CC(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C=C(C)/CCCC(C)(C)O[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O                                                                                                                                                                                                        SMILES_CANONICAL  CACTVS                  3.341 6348 RG1 
+      CC(C)=CC=CC(C)=CC=CC(C)=CC=CC(C)=CC=CC=C(C)C=CC=C(C)C=CC=C(C)CCCC(C)(C)O[CH]1O[CH](CO)[CH](O)[CH](O)[CH]1O                                                                                                                                                                                                                           SMILES            CACTVS                  3.341 6348 RG1 
+      CC(=C\C=C\C(=C\C=CC(=C\C=C\C(=C\C=C\C=C(/C)\C=C\C=C(/C)\C=C\C=C(C)CCCC(C)(C)O[C@@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)\C)C)\C)C                                                                                                                                                                                                  SMILES_CANONICAL 'OpenEye OEToolkits' 1.5.0     6348 RG1 
+      CC(=CC=CC(=CC=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC=C(C)CCCC(C)(C)OC1C(C(C(C(O1)CO)O)O)O)C)C)C)C                                                                                                                                                                                                                                        SMILES           'OpenEye OEToolkits' 1.5.0     6348 RG1 
+      InChI=1S/C46H66O6/c1-34(2)19-13-22-37(5)25-16-28-38(6)26-14-23-35(3)20-11-12-21-36(4)24-15-27-39(7)29-17-30-40(8)31-18-32-46(9,10)52-45-44(50)43(49)42(48)41(33-47)51-45/h11-17,19-30,41-45,47-50H,18,31-33H2,1-10H3/b12-11+,22-13+,23-14+,24-15+,28-16+,29-17+,35-20+,36-21+,37-25+,38-26+,39-27+,40-30+/t41-,42-,43+,44-,45-/m1/s1 InChI             InChI                   1.03  6348 RG1 
+      ISHBHDBCVQRMDY-BXSPIYSNSA-N                                                                                                                                                                                                                                                                                                          InChIKey          InChI                   1.03  6348 RG1 
+
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      '(3E)-3,4-didehydro-1',2'-dihydro-psi,psi-caroten-1'-yl alpha-D-glucopyranoside'                                                                                                              'SYSTEMATIC NAME'  ACDLabs                10.04 6348 RG1 
+       (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[(8E,10E,14E,16E,18E,20E,26E,28E)-2,6,10,14,19,23,27,31-octamethyldotriaconta-6,8,10,12,14,16,18,20,22,24,26,28,30-tridecaen-2-yl]oxy-oxane-3,4,5-triol 'SYSTEMATIC NAME' 'OpenEye OEToolkits' 1.5.0    6348 RG1 
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      C1'  . C1'  . . C . . R 0 . . . . no no . . . .  6.581 . 27.134 . 49.881 .  1.842 -1.322 -11.956   1 . 6348 RG1 
+      C2'  . C2'  . . C . . R 0 . . . . no no . . . .  7.466 . 26.470 . 50.945 .  2.809 -1.757 -10.853   2 . 6348 RG1 
+      C3'  . C3'  . . C . . S 0 . . . . no no . . . .  7.020 . 25.033 . 51.250 .  3.349 -0.513 -10.142   3 . 6348 RG1 
+      C4'  . C4'  . . C . . S 0 . . . . no no . . . .  5.505 . 24.959 . 51.444 .  3.943  0.432 -11.193   4 . 6348 RG1 
+      C5'  . C5'  . . C . . R 0 . . . . no no . . . .  4.785 . 25.594 . 50.256 .  2.891  0.702 -12.271   5 . 6348 RG1 
+      C6'  . C6'  . . C . . N 0 . . . . no no . . . .  3.265 . 25.543 . 50.451 .  3.464  1.672 -13.307   6 . 6348 RG1 
+      O1'  . O1'  . . O . . N 0 . . . . no no . . . .  6.924 . 26.747 . 48.551 .  0.775 -0.565 -11.382   7 . 6348 RG1 
+      O2'  . O2'  . . O . . N 0 . . . . no no . . . .  8.822 . 26.481 . 50.539 .  2.121 -2.584  -9.912   8 . 6348 RG1 
+      O3'  . O3'  . . O . . N 0 . . . . no no . . . .  7.672 . 24.576 . 52.432 .  4.364 -0.891  -9.210   9 . 6348 RG1 
+      O4'  . O4'  . . O . . N 0 . . . . no no . . . .  5.084 . 23.612 . 51.605 .  4.319  1.663 -10.572  10 . 6348 RG1 
+      O5'  . O5'  . . O . . N 0 . . . . no no . . . .  5.194 . 26.957 . 50.144 .  2.532 -0.519 -12.912  11 . 6348 RG1 
+      O6'  . O6'  . . O . . N 0 . . . . no no . . . .  2.614 . 26.625 . 49.785 .  2.439  2.042 -14.231  12 . 6348 RG1 
+      C1   . C1   . . C . . N 0 . . . . no no . . . .  6.772 . 27.825 . 47.621 . -0.324 -0.645 -12.291  13 . 6348 RG1 
+      CM1  . CM1  . . C . . N 0 . . . . no no . . . .  7.527 . 29.016 . 48.132 . -0.835 -2.086 -12.347  14 . 6348 RG1 
+      CM2  . CM2  . . C . . N 0 . . . . no no . . . .  5.311 . 28.195 . 47.508 .  0.134 -0.213 -13.685  15 . 6348 RG1 
+      C2   . C2   . . C . . N 0 . . . . no no . . . .  7.365 . 27.414 . 46.193 . -1.448  0.276 -11.815  16 . 6348 RG1 
+      C3   . C3   . . C . . N 0 . . . . no no . . . .  6.479 . 26.440 . 45.436 . -1.906 -0.156 -10.421  17 . 6348 RG1 
+      C4   . C4   . . C . . N 0 . . . . no no . . . .  7.264 . 25.615 . 44.402 . -3.031  0.766  -9.945  18 . 6348 RG1 
+      C5   . C5   . . C . . N 0 . . . . no no . . . .  7.477 . 26.335 . 43.086 . -3.482  0.340  -8.572  19 . 6348 RG1 
+      CM3  . CM3  . . C . . N 0 . . . . no no . . . .  8.821 . 26.943 . 42.824 . -4.590 -0.670  -8.423  20 . 6348 RG1 
+      C6   . C6   . . C . . N 0 . . . . no no . . . .  6.588 . 26.099 . 42.030 . -2.900  0.858  -7.486  21 . 6348 RG1 
+      C7   . C7   . . C . . N 0 . . . . no no . . . .  6.962 . 26.234 . 40.687 . -3.239  0.370  -6.199  22 . 6348 RG1 
+      C8   . C8   . . C . . N 0 . . . . no no . . . .  6.075 . 25.820 . 39.684 . -2.570  0.819  -5.104  23 . 6348 RG1 
+      C9   . C9   . . C . . N 0 . . . . no no . . . .  6.329 . 26.005 . 38.316 . -2.815  0.242  -3.846  24 . 6348 RG1 
+      CM4  . CM4  . . C . . N 0 . . . . no no . . . .  7.741 . 25.913 . 37.824 . -3.712 -0.962  -3.731  25 . 6348 RG1 
+      C10  . C10  . . C . . N 0 . . . . no no . . . .  5.279 . 25.821 . 37.411 . -2.239  0.774  -2.728  26 . 6348 RG1 
+      C11  . C11  . . C . . N 0 . . . . no no . . . .  5.419 . 25.997 . 36.031 . -2.483  0.199  -1.473  27 . 6348 RG1 
+      C12  . C12  . . C . . N 0 . . . . no no . . . .  4.271 . 26.195 . 35.271 . -1.902  0.736  -0.345  28 . 6348 RG1 
+      C13  . C13  . . C . . N 0 . . . . no no . . . .  4.193 . 25.926 . 33.903 . -2.245  0.245   0.918  29 . 6348 RG1 
+      CM5  . CM5  . . C . . N 0 . . . . no no . . . .  5.424 . 26.063 . 33.042 . -3.349 -0.771   1.058  30 . 6348 RG1 
+      C14  . C14  . . C . . N 0 . . . . no no . . . .  2.923 . 25.917 . 33.319 . -1.574  0.692   2.037  31 . 6348 RG1 
+      C15  . C15  . . C . . N 0 . . . . no no . . . .  2.691 . 25.812 . 31.949 . -1.917  0.202   3.301  32 . 6348 RG1 
+      C16  . C16  . . C . . N 0 . . . . no no . . . .  1.362 . 25.722 . 31.501 . -1.245  0.649   4.420  33 . 6348 RG1 
+      C17  . C17  . . C . . N 0 . . . . no no . . . .  1.038 . 25.673 . 30.149 . -1.589  0.159   5.683  34 . 6348 RG1 
+      C18  . C18  . . C . . N 0 . . . . no no . . . . -0.227 . 25.256 . 29.737 . -0.853  0.530   6.791  35 . 6348 RG1 
+      CM6  . CM6  . . C . . N 0 . . . . no no . . . . -1.327 . 25.110 . 30.745 .  0.231  1.568   6.662  36 . 6348 RG1 
+      C19  . C19  . . C . . N 0 . . . . no no . . . . -0.501 . 25.073 . 28.376 . -1.116 -0.055   8.032  37 . 6348 RG1 
+      C20  . C20  . . C . . N 0 . . . . no no . . . . -1.582 . 24.286 . 27.942 . -0.381  0.316   9.139  38 . 6348 RG1 
+      C21  . C21  . . C . . N 0 . . . . no no . . . . -1.832 . 24.152 . 26.570 . -0.643 -0.270  10.381  39 . 6348 RG1 
+      C22  . C22  . . C . . N 0 . . . . no no . . . . -2.878 . 23.370 . 26.057 .  0.018  0.174  11.507  40 . 6348 RG1 
+      CM7  . CM7  . . C . . N 0 . . . . no no . . . . -4.016 . 22.939 . 26.955 .  0.956  1.349  11.415  41 . 6348 RG1 
+      C23  . C23  . . C . . N 0 . . . . no no . . . . -3.033 . 23.281 . 24.671 . -0.181 -0.466  12.734  42 . 6348 RG1 
+      C24  . C24  . . C . . N 0 . . . . no no . . . . -3.851 . 22.321 . 24.072 .  0.479 -0.022  13.859  43 . 6348 RG1 
+      C25  . C25  . . C . . N 0 . . . . no no . . . . -3.701 . 22.064 . 22.716 .  0.278 -0.664  15.088  44 . 6348 RG1 
+      C26  . C26  . . C . . N 0 . . . . no no . . . . -4.624 . 21.323 . 21.991 .  0.844 -0.158  16.223  45 . 6348 RG1 
+      CM8  . CM8  . . C . . N 0 . . . . no no . . . . -5.817 . 20.714 . 22.648 .  1.562  1.166  16.181  46 . 6348 RG1 
+      C27  . C27  . . C . . N 0 . . . . no no . . . . -4.572 . 21.356 . 20.493 .  0.758 -0.872  17.430  47 . 6348 RG1 
+      C28  . C28  . . C . . N 0 . . . . no no . . . . -3.746 . 20.218 . 19.944 .  1.322 -0.369  18.560  48 . 6348 RG1 
+      C29  . C29  . . C . . N 0 . . . . no no . . . . -3.850 . 20.197 . 18.447 .  1.236 -1.089  19.777  49 . 6348 RG1 
+      C30  . C30  . . C . . N 0 . . . . no no . . . . -3.282 . 19.174 . 17.726 .  1.698 -0.548  20.909  50 . 6348 RG1 
+      CM9  . CM9  . . C . . N 0 . . . . no no . . . . -3.008 . 19.367 . 16.280 .  1.720 -1.360  22.178  51 . 6348 RG1 
+      CM0  . CM0  . . C . . N 0 . . . . no no . . . . -2.684 . 18.004 . 18.432 .  2.199  0.872  20.915  52 . 6348 RG1 
+      H1'  . H1'  . . H . . N 0 . . . . no no . . . .  6.789 . 28.227 . 49.952 .  1.436 -2.204 -12.450  53 . 6348 RG1 
+      H2'  . H2'  . . H . . N 0 . . . . no no . . . .  7.357 . 27.064 . 51.882 .  3.637 -2.314 -11.292  54 . 6348 RG1 
+      H3'  . H3'  . . H . . N 0 . . . . no no . . . .  7.297 . 24.385 . 50.385 .  2.538 -0.011  -9.615  55 . 6348 RG1 
+      H4'  . H4'  . . H . . N 0 . . . . no no . . . .  5.244 . 25.524 . 52.368 .  4.819 -0.030 -11.646  56 . 6348 RG1 
+      H5'  . H5'  . . H . . N 0 . . . . no no . . . .  5.046 . 25.028 . 49.331 .  2.007  1.144 -11.811  57 . 6348 RG1 
+      H6'1 . H6'1 . . H . . N 0 . . . . no no . . . .  2.846 . 24.559 . 50.135 .  3.838  2.563 -12.803  58 . 6348 RG1 
+      H6'2 . H6'2 . . H . . N 0 . . . . no no . . . .  2.993 . 25.507 . 51.531 .  4.280  1.189 -13.844  59 . 6348 RG1 
+      HO2' . HO2' . . H . . N 0 . . . . no no . . . .  9.369 . 26.070 . 51.197 .  1.798 -3.353 -10.401  60 . 6348 RG1 
+      HO3' . HO3' . . H . . N 0 . . . . no no . . . .  7.396 . 23.686 . 52.620 .  3.948 -1.484  -8.569  61 . 6348 RG1 
+      HO4' . HO4' . . H . . N 0 . . . . no no . . . .  4.142 . 23.566 . 51.725 .  4.982  1.447  -9.902  62 . 6348 RG1 
+      HO6' . HO6' . . H . . N 0 . . . . no no . . . .  1.672 . 26.593 . 49.905 .  2.841  2.652 -14.864  63 . 6348 RG1 
+      HM11 . HM11 . . H . . N 0 . . . . no no . . . .  7.408 . 29.855 . 47.407 . -1.072 -2.427 -11.339  64 . 6348 RG1 
+      HM12 . HM12 . . H . . N 0 . . . . no no . . . .  7.223 . 29.300 . 49.166 . -1.732 -2.130 -12.965  65 . 6348 RG1 
+      HM13 . HM13 . . H . . N 0 . . . . no no . . . .  8.596 . 28.783 . 48.342 . -0.067 -2.728 -12.777  66 . 6348 RG1 
+      HM21 . HM21 . . H . . N 0 . . . . no no . . . .  5.192 . 29.034 . 46.783 .  0.640  0.749 -13.619  67 . 6348 RG1 
+      HM22 . HM22 . . H . . N 0 . . . . no no . . . .  4.674 . 27.318 . 47.243 .  0.821 -0.957 -14.089  68 . 6348 RG1 
+      HM23 . HM23 . . H . . N 0 . . . . no no . . . .  4.858 . 28.428 . 48.499 . -0.731 -0.123 -14.341  69 . 6348 RG1 
+      H21A . H21A . . H . . N 0 . . . . no no . . . .  7.578 . 28.318 . 45.576 . -2.286  0.215 -12.509  70 . 6348 RG1 
+      H22  . H22  . . H . . N 0 . . . . no no . . . .  8.400 . 27.012 . 46.293 . -1.083  1.303 -11.775  71 . 6348 RG1 
+      H31  . H31  . . H . . N 0 . . . . no no . . . .  5.919 . 25.777 . 46.136 . -1.068 -0.095  -9.727  72 . 6348 RG1 
+      H32  . H32  . . H . . N 0 . . . . no no . . . .  5.618 . 26.965 . 44.960 . -2.271 -1.182 -10.461  73 . 6348 RG1 
+      H41  . H41  . . H . . N 0 . . . . no no . . . .  8.237 . 25.274 . 44.826 . -3.869  0.705 -10.639  74 . 6348 RG1 
+      H42  . H42  . . H . . N 0 . . . . no no . . . .  6.777 . 24.625 . 44.235 . -2.666  1.792  -9.905  75 . 6348 RG1 
+      HM31 . HM31 . . H . . N 0 . . . . no no . . . .  8.977 . 27.472 . 41.855 . -4.712 -0.924  -7.370  76 . 6348 RG1 
+      HM32 . HM32 . . H . . N 0 . . . . no no . . . .  9.079 . 27.631 . 43.662 . -5.520 -0.248  -8.805  77 . 6348 RG1 
+      HM33 . HM33 . . H . . N 0 . . . . no no . . . .  9.605 . 26.159 . 42.942 . -4.341 -1.569  -8.987  78 . 6348 RG1 
+      H6   . H6   . . H . . N 0 . . . . no no . . . .  5.554 . 25.795 . 42.265 . -2.171  1.648  -7.589  79 . 6348 RG1 
+      H7   . H7   . . H . . N 0 . . . . no no . . . .  7.943 . 26.661 . 40.422 . -4.029 -0.357  -6.088  80 . 6348 RG1 
+      H8   . H8   . . H . . N 0 . . . . no no . . . .  5.135 . 25.326 . 39.984 . -1.851  1.619  -5.201  81 . 6348 RG1 
+      HM41 . HM41 . . H . . N 0 . . . . no no . . . .  7.942 . 26.060 . 36.737 . -4.138 -1.192  -4.708  82 . 6348 RG1 
+      HM42 . HM42 . . H . . N 0 . . . . no no . . . .  8.372 . 26.623 . 38.406 . -3.132 -1.814  -3.377  83 . 6348 RG1 
+      HM43 . HM43 . . H . . N 0 . . . . no no . . . .  8.169 . 24.933 . 38.140 . -4.516 -0.751  -3.025  84 . 6348 RG1 
+      H10  . H10  . . H . . N 0 . . . . no no . . . .  4.292 . 25.522 . 37.804 . -1.596  1.638  -2.810  85 . 6348 RG1 
+      H11  . H11  . . H . . N 0 . . . . no no . . . .  6.412 . 25.980 . 35.552 . -3.126 -0.664  -1.391  86 . 6348 RG1 
+      H12  . H12  . . H . . N 0 . . . . no no . . . .  3.374 . 26.586 . 35.780 . -1.181  1.535  -0.437  87 . 6348 RG1 
+      HM51 . HM51 . . H . . N 0 . . . . no no . . . .  5.361 . 25.848 . 31.949 . -3.705 -1.059   0.068  88 . 6348 RG1 
+      HM52 . HM52 . . H . . N 0 . . . . no no . . . .  5.839 . 27.088 . 33.178 . -2.970 -1.650   1.578  89 . 6348 RG1 
+      HM53 . HM53 . . H . . N 0 . . . . no no . . . .  6.234 . 25.435 . 33.480 . -4.172 -0.338   1.627  90 . 6348 RG1 
+      H14  . H14  . . H . . N 0 . . . . no no . . . .  2.046 . 25.998 . 33.983 . -0.783  1.420   1.937  91 . 6348 RG1 
+      H15  . H15  . . H . . N 0 . . . . no no . . . .  3.535 . 25.800 . 31.239 . -2.708 -0.526   3.400  92 . 6348 RG1 
+      H16  . H16  . . H . . N 0 . . . . no no . . . .  0.542 . 25.688 . 32.238 . -0.454  1.377   4.320  93 . 6348 RG1 
+      H17  . H17  . . H . . N 0 . . . . no no . . . .  1.790 . 25.967 . 29.397 . -2.429 -0.510   5.792  94 . 6348 RG1 
+      HM61 . HM61 . . H . . N 0 . . . . no no . . . . -2.338 . 24.776 . 30.415 .  0.372  2.067   7.620  95 . 6348 RG1 
+      HM62 . HM62 . . H . . N 0 . . . . no no . . . . -0.976 . 24.429 . 31.555 .  1.161  1.085   6.362  96 . 6348 RG1 
+      HM63 . HM63 . . H . . N 0 . . . . no no . . . . -1.433 . 26.074 . 31.295 . -0.055  2.302   5.909  97 . 6348 RG1 
+      H19  . H19  . . H . . N 0 . . . . no no . . . .  0.149 . 25.559 . 27.629 . -1.893 -0.799   8.125  98 . 6348 RG1 
+      H20  . H20  . . H . . N 0 . . . . no no . . . . -2.230 . 23.776 . 28.674 .  0.396  1.059   9.047  99 . 6348 RG1 
+      H21  . H21  . . H . . N 0 . . . . no no . . . . -1.176 . 24.686 . 25.862 . -1.363 -1.071  10.459 100 . 6348 RG1 
+      HM71 . HM71 . . H . . N 0 . . . . no no . . . . -4.847 . 22.317 . 26.547 .  1.778  1.214  12.118 101 . 6348 RG1 
+      HM72 . HM72 . . H . . N 0 . . . . no no . . . . -3.586 . 22.414 . 27.839 .  1.353  1.419  10.402 102 . 6348 RG1 
+      HM73 . HM73 . . H . . N 0 . . . . no no . . . . -4.455 . 23.848 . 27.426 .  0.417  2.265  11.658 103 . 6348 RG1 
+      H23  . H23  . . H . . N 0 . . . . no no . . . . -2.490 . 23.993 . 24.027 . -0.854 -1.309  12.800 104 . 6348 RG1 
+      H24  . H24  . . H . . N 0 . . . . no no . . . . -4.605 . 21.773 . 24.661 .  1.151  0.819  13.793 105 . 6348 RG1 
+      H25  . H25  . . H . . N 0 . . . . no no . . . . -2.814 . 22.463 . 22.194 . -0.323 -1.559  15.138 106 . 6348 RG1 
+      HM81 . HM81 . . H . . N 0 . . . . no no . . . . -6.558 . 20.118 . 22.065 .  1.410  1.691  17.124 107 . 6348 RG1 
+      HM82 . HM82 . . H . . N 0 . . . . no no . . . . -5.459 . 20.083 . 23.495 .  2.627  0.997  16.026 108 . 6348 RG1 
+      HM83 . HM83 . . H . . N 0 . . . . no no . . . . -6.367 . 21.524 . 23.180 .  1.166  1.767  15.363 109 . 6348 RG1 
+      H27  . H27  . . H . . N 0 . . . . no no . . . . -5.075 . 22.118 . 19.875 .  0.245 -1.822  17.460 110 . 6348 RG1 
+      H28  . H28  . . H . . N 0 . . . . no no . . . . -3.154 . 19.508 . 20.546 .  1.836  0.580  18.530 111 . 6348 RG1 
+      H29  . H29  . . H . . N 0 . . . . no no . . . . -4.366 . 20.967 . 17.850 .  0.795 -2.075  19.791 112 . 6348 RG1 
+      HM91 . HM91 . . H . . N 0 . . . . no no . . . . -2.547 . 18.537 . 15.695 .  2.128 -0.756  22.989 113 . 6348 RG1 
+      HM92 . HM92 . . H . . N 0 . . . . no no . . . . -3.953 . 19.676 . 15.776 .  0.705 -1.668  22.430 114 . 6348 RG1 
+      HM93 . HM93 . . H . . N 0 . . . . no no . . . . -2.382 . 20.281 . 16.154 .  2.342 -2.243  22.035 115 . 6348 RG1 
+      HM01 . HM01 . . H . . N 0 . . . . no no . . . . -2.223 . 17.174 . 17.847 .  1.423  1.533  20.528 116 . 6348 RG1 
+      HM02 . HM02 . . H . . N 0 . . . . no no . . . . -1.930 . 18.380 . 19.162 .  2.451  1.165  21.934 117 . 6348 RG1 
+      HM03 . HM03 . . H . . N 0 . . . . no no . . . . -3.455 . 17.570 . 19.110 .  3.086  0.948  20.286 118 . 6348 RG1 
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+        1 . SING C1' C2'  no N   1 . 6348 RG1 
+        2 . SING C1' O1'  no N   2 . 6348 RG1 
+        3 . SING C1' O5'  no N   3 . 6348 RG1 
+        4 . SING C1' H1'  no N   4 . 6348 RG1 
+        5 . SING C2' C3'  no N   5 . 6348 RG1 
+        6 . SING C2' O2'  no N   6 . 6348 RG1 
+        7 . SING C2' H2'  no N   7 . 6348 RG1 
+        8 . SING C3' C4'  no N   8 . 6348 RG1 
+        9 . SING C3' O3'  no N   9 . 6348 RG1 
+       10 . SING C3' H3'  no N  10 . 6348 RG1 
+       11 . SING C4' C5'  no N  11 . 6348 RG1 
+       12 . SING C4' O4'  no N  12 . 6348 RG1 
+       13 . SING C4' H4'  no N  13 . 6348 RG1 
+       14 . SING C5' C6'  no N  14 . 6348 RG1 
+       15 . SING C5' O5'  no N  15 . 6348 RG1 
+       16 . SING C5' H5'  no N  16 . 6348 RG1 
+       17 . SING C6' O6'  no N  17 . 6348 RG1 
+       18 . SING C6' H6'1 no N  18 . 6348 RG1 
+       19 . SING C6' H6'2 no N  19 . 6348 RG1 
+       20 . SING O1' C1   no N  20 . 6348 RG1 
+       21 . SING O2' HO2' no N  21 . 6348 RG1 
+       22 . SING O3' HO3' no N  22 . 6348 RG1 
+       23 . SING O4' HO4' no N  23 . 6348 RG1 
+       24 . SING O6' HO6' no N  24 . 6348 RG1 
+       25 . SING C1  CM1  no N  25 . 6348 RG1 
+       26 . SING C1  CM2  no N  26 . 6348 RG1 
+       27 . SING C1  C2   no N  27 . 6348 RG1 
+       28 . SING CM1 HM11 no N  28 . 6348 RG1 
+       29 . SING CM1 HM12 no N  29 . 6348 RG1 
+       30 . SING CM1 HM13 no N  30 . 6348 RG1 
+       31 . SING CM2 HM21 no N  31 . 6348 RG1 
+       32 . SING CM2 HM22 no N  32 . 6348 RG1 
+       33 . SING CM2 HM23 no N  33 . 6348 RG1 
+       34 . SING C2  C3   no N  34 . 6348 RG1 
+       35 . SING C2  H21A no N  35 . 6348 RG1 
+       36 . SING C2  H22  no N  36 . 6348 RG1 
+       37 . SING C3  C4   no N  37 . 6348 RG1 
+       38 . SING C3  H31  no N  38 . 6348 RG1 
+       39 . SING C3  H32  no N  39 . 6348 RG1 
+       40 . SING C4  C5   no N  40 . 6348 RG1 
+       41 . SING C4  H41  no N  41 . 6348 RG1 
+       42 . SING C4  H42  no N  42 . 6348 RG1 
+       43 . SING C5  CM3  no N  43 . 6348 RG1 
+       44 . DOUB C5  C6   no E  44 . 6348 RG1 
+       45 . SING CM3 HM31 no N  45 . 6348 RG1 
+       46 . SING CM3 HM32 no N  46 . 6348 RG1 
+       47 . SING CM3 HM33 no N  47 . 6348 RG1 
+       48 . SING C6  C7   no N  48 . 6348 RG1 
+       49 . SING C6  H6   no N  49 . 6348 RG1 
+       50 . DOUB C7  C8   no E  50 . 6348 RG1 
+       51 . SING C7  H7   no N  51 . 6348 RG1 
+       52 . SING C8  C9   no N  52 . 6348 RG1 
+       53 . SING C8  H8   no N  53 . 6348 RG1 
+       54 . SING C9  CM4  no N  54 . 6348 RG1 
+       55 . DOUB C9  C10  no E  55 . 6348 RG1 
+       56 . SING CM4 HM41 no N  56 . 6348 RG1 
+       57 . SING CM4 HM42 no N  57 . 6348 RG1 
+       58 . SING CM4 HM43 no N  58 . 6348 RG1 
+       59 . SING C10 C11  no N  59 . 6348 RG1 
+       60 . SING C10 H10  no N  60 . 6348 RG1 
+       61 . DOUB C11 C12  no E  61 . 6348 RG1 
+       62 . SING C11 H11  no N  62 . 6348 RG1 
+       63 . SING C12 C13  no N  63 . 6348 RG1 
+       64 . SING C12 H12  no N  64 . 6348 RG1 
+       65 . SING C13 CM5  no N  65 . 6348 RG1 
+       66 . DOUB C13 C14  no E  66 . 6348 RG1 
+       67 . SING CM5 HM51 no N  67 . 6348 RG1 
+       68 . SING CM5 HM52 no N  68 . 6348 RG1 
+       69 . SING CM5 HM53 no N  69 . 6348 RG1 
+       70 . SING C14 C15  no N  70 . 6348 RG1 
+       71 . SING C14 H14  no N  71 . 6348 RG1 
+       72 . DOUB C15 C16  no E  72 . 6348 RG1 
+       73 . SING C15 H15  no N  73 . 6348 RG1 
+       74 . SING C16 C17  no N  74 . 6348 RG1 
+       75 . SING C16 H16  no N  75 . 6348 RG1 
+       76 . DOUB C17 C18  no E  76 . 6348 RG1 
+       77 . SING C17 H17  no N  77 . 6348 RG1 
+       78 . SING C18 CM6  no N  78 . 6348 RG1 
+       79 . SING C18 C19  no N  79 . 6348 RG1 
+       80 . SING CM6 HM61 no N  80 . 6348 RG1 
+       81 . SING CM6 HM62 no N  81 . 6348 RG1 
+       82 . SING CM6 HM63 no N  82 . 6348 RG1 
+       83 . DOUB C19 C20  no E  83 . 6348 RG1 
+       84 . SING C19 H19  no N  84 . 6348 RG1 
+       85 . SING C20 C21  no N  85 . 6348 RG1 
+       86 . SING C20 H20  no N  86 . 6348 RG1 
+       87 . DOUB C21 C22  no E  87 . 6348 RG1 
+       88 . SING C21 H21  no N  88 . 6348 RG1 
+       89 . SING C22 CM7  no N  89 . 6348 RG1 
+       90 . SING C22 C23  no N  90 . 6348 RG1 
+       91 . SING CM7 HM71 no N  91 . 6348 RG1 
+       92 . SING CM7 HM72 no N  92 . 6348 RG1 
+       93 . SING CM7 HM73 no N  93 . 6348 RG1 
+       94 . DOUB C23 C24  no E  94 . 6348 RG1 
+       95 . SING C23 H23  no N  95 . 6348 RG1 
+       96 . SING C24 C25  no N  96 . 6348 RG1 
+       97 . SING C24 H24  no N  97 . 6348 RG1 
+       98 . DOUB C25 C26  no E  98 . 6348 RG1 
+       99 . SING C25 H25  no N  99 . 6348 RG1 
+      100 . SING C26 CM8  no N 100 . 6348 RG1 
+      101 . SING C26 C27  no N 101 . 6348 RG1 
+      102 . SING CM8 HM81 no N 102 . 6348 RG1 
+      103 . SING CM8 HM82 no N 103 . 6348 RG1 
+      104 . SING CM8 HM83 no N 104 . 6348 RG1 
+      105 . DOUB C27 C28  no E 105 . 6348 RG1 
+      106 . SING C27 H27  no N 106 . 6348 RG1 
+      107 . SING C28 C29  no N 107 . 6348 RG1 
+      108 . SING C28 H28  no N 108 . 6348 RG1 
+      109 . DOUB C29 C30  no N 109 . 6348 RG1 
+      110 . SING C29 H29  no N 110 . 6348 RG1 
+      111 . SING C30 CM9  no N 111 . 6348 RG1 
+      112 . SING C30 CM0  no N 112 . 6348 RG1 
+      113 . SING CM9 HM91 no N 113 . 6348 RG1 
+      114 . SING CM9 HM92 no N 114 . 6348 RG1 
+      115 . SING CM9 HM93 no N 115 . 6348 RG1 
+      116 . SING CM0 HM01 no N 116 . 6348 RG1 
+      117 . SING CM0 HM02 no N 117 . 6348 RG1 
+      118 . SING CM0 HM03 no N 118 . 6348 RG1 
+
+   stop_
+
+save_
+
+
+save_chem_comp_BCL
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_BCL
+   _Chem_comp.Entry_ID                          6348
+   _Chem_comp.ID                                BCL
+   _Chem_comp.Provenance                        .
+   _Chem_comp.Name                             'BACTERIOCHLOROPHYLL A'
+   _Chem_comp.Type                              non-polymer
+   _Chem_comp.BMRB_code                         .
+   _Chem_comp.PDB_code                          BCL
+   _Chem_comp.Ambiguous_flag                    yes
+   _Chem_comp.Initial_date                      1999-07-08
+   _Chem_comp.Modified_date                     2008-11-03
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 BCL
+   _Chem_comp.Number_atoms_all                  .
+   _Chem_comp.Number_atoms_nh                   .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        .
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          yes
+   _Chem_comp.Formula                          'C55 H74 Mg N4 O6'
+   _Chem_comp.Formula_weight                    911.504
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         .
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         4BCL
+   _Chem_comp.Processing_site                   RCSB
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                          
+;
+Information obtained from PDB's Chemical Component Dictionary
+at http://wwpdb-remediation.rutgers.edu/downloads.html
+Downloaded on Fri Jun 17 15:12:04 2011
+;
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      InChI=1/C55H75N4O6.Mg/c1-13-39-34(7)41-29-46-48(38(11)60)36(9)43(57-46)27-42-35(8)40(52(58-42)50-51(55(63)64-12)54(62)49-37(10)44(59-53(49)50)28-45(39)56-41)23-24-47(61)65-26-25-33(6)22-16-21-32(5)20-15-19-31(4)18-14-17-30(2)3;/h25,27-32,34-35,39-40,51H,13-24,26H2,1-12H3,(H-,56,57,58,59,60,62);/q-1;+2/p-1/b33-25+;/t31-,32-,34-,35+,39-,40+,51-;/m1./s1/fC55H74N4O6.Mg/q-2;m/b33-25+,41-29-,42-27-,43-27-,44-28-,45-28-,46-29-,52-50-;/rC55H74MgN4O6/c1-13-39-34(7)41-29-46-48(38(11)61)36(9)43-27-42-35(8)40(23-24-47(62)66-26-25-33(6)22-16-21-32(5)20-15-19-31(4)18-14-17-30(2)3)52-50-51(55(64)65-12)54(63)49-37(10)44-28-45(39)57(41)56(58(43)46,59(42)52)60(44)53(49)50/h25,27-32,34-35,39-40,51H,13-24,26H2,1-12H3/b33-25+/t31-,32-,34-,35+,39-,40+,51-/m1/s1 InChI             InChI               1.02b     6348 BCL 
+      DSJXIQQMORJERS-RUUWGSCADZ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     InChIKey          InChI               1.02b     6348 BCL 
+      [Mg++]|1|2|3|[n-]4c5C=C6N|1=C([C@@H](CCC(=O)OC\C=C(/C)CCC[C@H](C)CCC[C@H](C)CCCC(C)C)[C@@H]6C)C7=c8[n-]|2c(=CC9=N|3C(=Cc4c(C(C)=O)c5C)[C@H](C)[C@H]9CC)c(C)c8C(=O)[C@@H]7C(=O)OC                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              SMILES_CANONICAL  CACTVS                  3.341 6348 BCL 
+      [Mg++]|1|2|3|[n-]4c5C=C6N|1=C([CH](CCC(=O)OCC=C(C)CCC[CH](C)CCC[CH](C)CCCC(C)C)[CH]6C)C7=c8[n-]|2c(=CC9=N|3C(=Cc4c(C(C)=O)c5C)[CH](C)[CH]9CC)c(C)c8C(=O)[CH]7C(=O)OC                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          SMILES            CACTVS                  3.341 6348 BCL 
+      CC[C@@H]1[C@H](C2=CC3=C(C(=C4[N-]3[Mg@+2]56[N]2=C1C=C7[N-]5C8=C([C@H](C(=O)C8=C7C)C(=O)OC)C9=[N]6C(=C4)[C@H]([C@@H]9CCC(=O)OC\C=C(/C)\CCC[C@H](C)CCC[C@H](C)CCCC(C)C)C)C)C(=O)C)C                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             SMILES_CANONICAL 'OpenEye OEToolkits' 1.5.0     6348 BCL 
+      CCC1C(C2=CC3=C(C(=C4[N-]3[Mg+2]56[N]2=C1C=C7[N-]5C8=C(C(C(=O)C8=C7C)C(=O)OC)C9=[N]6C(=C4)C(C9CCC(=O)OCC=C(C)CCCC(C)CCCC(C)CCCC(C)C)C)C)C(=O)C)C                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               SMILES           'OpenEye OEToolkits' 1.5.0     6348 BCL 
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      MG   . MG   . . MG . . N  2 . . . . no  no . . . . 41.707 . 47.680 . 22.121 . 41.707 47.680 22.121   1 . 6348 BCL 
+      CHA  . CHA  . . C  . . N  0 . . . . no  no . . . . 38.575 . 48.897 . 22.425 . 38.575 48.897 22.425   2 . 6348 BCL 
+      CHB  . CHB  . . C  . . N  0 . . . . no  no . . . . 42.547 . 50.559 . 20.576 . 42.547 50.559 20.576   3 . 6348 BCL 
+      CHC  . CHC  . . C  . . N  0 . . . . no  no . . . . 44.968 . 47.023 . 22.877 . 44.968 47.023 22.877   4 . 6348 BCL 
+      CHD  . CHD  . . C  . . N  0 . . . . no  no . . . . 40.832 . 45.174 . 24.432 . 40.832 45.174 24.432   5 . 6348 BCL 
+      NA   . NA   . . N  . . N  0 . . . . no  no . . . . 40.684 . 49.374 . 21.459 . 40.684 49.374 21.459   6 . 6348 BCL 
+      C1A  . C1A  . . C  . . N  0 . . . . no  no . . . . 39.344 . 49.683 . 21.640 . 39.344 49.683 21.640   7 . 6348 BCL 
+      C2A  . C2A  . . C  . . S  0 . . . . no  no . . . . 38.995 . 51.096 . 21.157 . 38.995 51.096 21.157   8 . 6348 BCL 
+      C3A  . C3A  . . C  . . S  0 . . . . no  no . . . . 40.214 . 51.397 . 20.201 . 40.214 51.397 20.201   9 . 6348 BCL 
+      C4A  . C4A  . . C  . . N  0 . . . . no  no . . . . 41.197 . 50.400 . 20.779 . 41.197 50.400 20.779  10 . 6348 BCL 
+      CMA  . CMA  . . C  . . N  0 . . . . no  no . . . . 39.891 . 50.869 . 18.799 . 39.891 50.869 18.799  11 . 6348 BCL 
+      CAA  . CAA  . . C  . . N  0 . . . . no  no . . . . 38.821 . 52.038 . 22.331 . 38.821 52.038 22.331  12 . 6348 BCL 
+      CBA  . CBA  . . C  . . N  0 . . . . no  no . . . . 40.075 . 52.291 . 23.124 . 40.075 52.291 23.124  13 . 6348 BCL 
+      CGA  . CGA  . . C  . . N  0 . . . . no  no . . . . 39.808 . 53.348 . 24.186 . 39.808 53.348 24.186  14 . 6348 BCL 
+      O1A  . O1A  . . O  . . N  0 . . . . no  no . . . . 38.921 . 54.061 . 24.226 . 38.921 54.061 24.226  15 . 6348 BCL 
+      O2A  . O2A  . . O  . . N  0 . . . . no  no . . . . 40.689 . 53.503 . 25.048 . 40.689 53.503 25.048  16 . 6348 BCL 
+      NB   . NB   . . N  . . N -1 . . . . yes no . . . . 43.434 . 48.539 . 21.744 . 43.434 48.539 21.744  17 . 6348 BCL 
+      C1B  . C1B  . . C  . . N  0 . . . . yes no . . . . 43.563 . 49.733 . 21.089 . 43.563 49.733 21.089  18 . 6348 BCL 
+      C2B  . C2B  . . C  . . N  0 . . . . yes no . . . . 44.903 . 50.042 . 21.015 . 44.903 50.042 21.015  19 . 6348 BCL 
+      C3B  . C3B  . . C  . . N  0 . . . . yes no . . . . 45.602 . 49.064 . 21.609 . 45.602 49.064 21.609  20 . 6348 BCL 
+      C4B  . C4B  . . C  . . N  0 . . . . yes no . . . . 44.681 . 48.126 . 22.137 . 44.681 48.126 22.137  21 . 6348 BCL 
+      CMB  . CMB  . . C  . . N  0 . . . . no  no . . . . 45.415 . 51.190 . 20.192 . 45.415 51.190 20.192  22 . 6348 BCL 
+      CAB  . CAB  . . C  . . N  0 . . . . no  no . . . . 47.100 . 49.137 . 21.895 . 47.100 49.137 21.895  23 . 6348 BCL 
+      OBB  . OBB  . . O  . . N  0 . . . . no  no . . . . 47.641 . 48.355 . 22.585 . 47.641 48.355 22.585  24 . 6348 BCL 
+      CBB  . CBB  . . C  . . N  0 . . . . no  no . . . . 48.031 . 50.021 . 21.111 . 48.031 50.021 21.111  25 . 6348 BCL 
+      NC   . NC   . . N  . . N  0 . . . . no  no . . . . 42.646 . 46.268 . 23.293 . 42.646 46.268 23.293  26 . 6348 BCL 
+      C1C  . C1C  . . C  . . N  0 . . . . no  no . . . . 43.992 . 46.205 . 23.465 . 43.992 46.205 23.465  27 . 6348 BCL 
+      C2C  . C2C  . . C  . . R  0 . . . . no  no . . . . 44.410 . 45.044 . 24.336 . 44.410 45.044 24.336  28 . 6348 BCL 
+      C3C  . C3C  . . C  . . R  0 . . . . no  no . . . . 43.166 . 44.254 . 24.546 . 43.166 44.254 24.546  29 . 6348 BCL 
+      C4C  . C4C  . . C  . . N  0 . . . . no  no . . . . 42.149 . 45.334 . 24.158 . 42.149 45.334 24.158  30 . 6348 BCL 
+      CMC  . CMC  . . C  . . N  0 . . . . no  no . . . . 45.287 . 44.103 . 23.541 . 45.287 44.103 23.541  31 . 6348 BCL 
+      CAC  . CAC  . . C  . . N  0 . . . . no  no . . . . 43.178 . 44.010 . 26.059 . 43.178 44.010 26.059  32 . 6348 BCL 
+      CBC  . CBC  . . C  . . N  0 . . . . no  no . . . . 42.917 . 45.263 . 26.909 . 42.917 45.263 26.909  33 . 6348 BCL 
+      ND   . ND   . . N  . . N -1 . . . . yes no . . . . 40.166 . 47.108 . 23.164 . 40.166 47.108 23.164  34 . 6348 BCL 
+      C1D  . C1D  . . C  . . N  0 . . . . yes no . . . . 39.876 . 46.122 . 24.089 . 39.876 46.122 24.089  35 . 6348 BCL 
+      C2D  . C2D  . . C  . . N  0 . . . . yes no . . . . 38.509 . 46.010 . 24.394 . 38.509 46.010 24.394  36 . 6348 BCL 
+      C3D  . C3D  . . C  . . N  0 . . . . yes no . . . . 37.978 . 47.011 . 23.690 . 37.978 47.011 23.690  37 . 6348 BCL 
+      C4D  . C4D  . . C  . . N  0 . . . . yes no . . . . 38.992 . 47.684 . 23.013 . 38.992 47.684 23.013  38 . 6348 BCL 
+      CMD  . CMD  . . C  . . N  0 . . . . no  no . . . . 37.802 . 44.889 . 25.099 . 37.802 44.889 25.099  39 . 6348 BCL 
+      CAD  . CAD  . . C  . . N  0 . . . . no  no . . . . 36.731 . 47.838 . 23.628 . 36.731 47.838 23.628  40 . 6348 BCL 
+      OBD  . OBD  . . O  . . N  0 . . . . no  no . . . . 35.496 . 47.526 . 23.900 . 35.496 47.526 23.900  41 . 6348 BCL 
+      CBD  . CBD  . . C  . . R  0 . . . . no  no . . . . 37.099 . 49.129 . 22.796 . 37.099 49.129 22.796  42 . 6348 BCL 
+      CGD  . CGD  . . C  . . N  0 . . . . no  no . . . . 36.223 . 49.030 . 21.522 . 36.223 49.030 21.522  43 . 6348 BCL 
+      O1D  . O1D  . . O  . . N  0 . . . . no  no . . . . 35.972 . 48.085 . 21.001 . 35.972 48.085 21.001  44 . 6348 BCL 
+      O2D  . O2D  . . O  . . N  0 . . . . no  no . . . . 35.881 . 50.068 . 20.906 . 35.881 50.068 20.906  45 . 6348 BCL 
+      CED  . CED  . . C  . . N  0 . . . . no  no . . . . 35.647 . 49.778 . 19.424 . 35.647 49.778 19.424  46 . 6348 BCL 
+      C1   . C1   . . C  . . N  0 . . . . no  no . . . . 40.458 . 54.391 . 26.198 . 40.458 54.391 26.198  47 . 6348 BCL 
+      C2   . C2   . . C  . . N  0 . . . . no  no . . . . 40.550 . 53.651 . 27.525 . 40.550 53.651 27.525  48 . 6348 BCL 
+      C3   . C3   . . C  . . N  0 . . . . no  no . . . . 41.638 . 53.614 . 28.270 . 41.638 53.614 28.270  49 . 6348 BCL 
+      C4   . C4   . . C  . . N  0 . . . . no  no . . . . 42.917 . 54.259 . 27.830 . 42.917 54.259 27.830  50 . 6348 BCL 
+      C5   . C5   . . C  . . N  0 . . . . no  no . . . . 41.720 . 52.859 . 29.618 . 41.720 52.859 29.618  51 . 6348 BCL 
+      C6   . C6   . . C  . . N  0 . . . . no  no . . . . 41.016 . 51.487 . 29.492 . 41.016 51.487 29.492  52 . 6348 BCL 
+      C7   . C7   . . C  . . N  0 . . . . no  no . . . . 40.742 . 51.034 . 30.929 . 40.742 51.034 30.929  53 . 6348 BCL 
+      C8   . C8   . . C  . . R  0 . . . . no  no . . . . 40.642 . 49.541 . 31.084 . 40.642 49.541 31.084  54 . 6348 BCL 
+      C9   . C9   . . C  . . N  0 . . . . no  no . . . . 41.139 . 48.768 . 29.863 . 41.139 48.768 29.863  55 . 6348 BCL 
+      C10  . C10  . . C  . . N  0 . . . . no  no . . . . 39.177 . 49.291 . 31.263 . 39.177 49.291 31.263  56 . 6348 BCL 
+      C11  . C11  . . C  . . N  0 . . . . no  no . . . . 38.978 . 49.007 . 32.703 . 38.978 49.007 32.703  57 . 6348 BCL 
+      C12  . C12  . . C  . . N  0 . . . . no  no . . . . 37.477 . 49.127 . 32.881 . 37.477 49.127 32.881  58 . 6348 BCL 
+      C13  . C13  . . C  . . R  0 . . . . no  no . . . . 37.203 . 49.277 . 34.381 . 37.203 49.277 34.381  59 . 6348 BCL 
+      C14  . C14  . . C  . . N  0 . . . . no  no . . . . 37.582 . 47.952 . 35.048 . 37.582 47.952 35.048  60 . 6348 BCL 
+      C15  . C15  . . C  . . N  0 . . . . no  no . . . . 35.746 . 49.588 . 34.636 . 35.746 49.588 34.636  61 . 6348 BCL 
+      C16  . C16  . . C  . . N  0 . . . . no  no . . . . 35.513 . 50.923 . 33.995 . 35.513 50.923 33.995  62 . 6348 BCL 
+      C17  . C17  . . C  . . N  0 . . . . no  no . . . . 34.173 . 51.431 . 34.475 . 34.173 51.431 34.475  63 . 6348 BCL 
+      C18  . C18  . . C  . . N  0 . . . . no  no . . . . 34.070 . 52.954 . 34.420 . 34.070 52.954 34.420  64 . 6348 BCL 
+      C19  . C19  . . C  . . N  0 . . . . no  no . . . . 33.035 . 53.320 . 35.451 . 33.035 53.320 35.451  65 . 6348 BCL 
+      C20  . C20  . . C  . . N  0 . . . . no  no . . . . 33.515 . 53.424 . 33.060 . 33.515 53.424 33.060  66 . 6348 BCL 
+      HHB  . HHB  . . H  . . N  0 . . . . no  no . . . . 42.856 . 51.395 . 19.966 . 42.856 51.395 19.966  67 . 6348 BCL 
+      HHC  . HHC  . . H  . . N  0 . . . . no  no . . . . 46.006 . 46.761 . 23.020 . 46.006 46.762 23.021  68 . 6348 BCL 
+      HHD  . HHD  . . H  . . N  0 . . . . no  no . . . . 40.513 . 44.274 . 24.937 . 40.513 44.274 24.937  69 . 6348 BCL 
+      H2A  . H2A  . . H  . . N  0 . . . . no  no . . . . 38.035 . 51.214 . 20.632 . 38.035 51.214 20.632  70 . 6348 BCL 
+      H3A  . H3A  . . H  . . N  0 . . . . no  no . . . . 40.510 . 52.454 . 20.137 . 40.510 52.454 20.137  71 . 6348 BCL 
+      HMA1 . HMA1 . . H  . . N  0 . . . . no  no . . . . 39.814 . 51.713 . 18.098 . 39.814 51.713 18.098  72 . 6348 BCL 
+      HMA2 . HMA2 . . H  . . N  0 . . . . no  no . . . . 40.692 . 50.191 . 18.469 . 40.692 50.191 18.469  73 . 6348 BCL 
+      HMA3 . HMA3 . . H  . . N  0 . . . . no  no . . . . 38.936 . 50.324 . 18.824 . 38.936 50.324 18.824  74 . 6348 BCL 
+      HAA1 . HAA1 . . H  . . N  0 . . . . no  no . . . . 38.472 . 53.004 . 21.938 . 38.472 53.004 21.938  75 . 6348 BCL 
+      HAA2 . HAA2 . . H  . . N  0 . . . . no  no . . . . 38.107 . 51.557 . 23.016 . 38.107 51.557 23.016  76 . 6348 BCL 
+      HBA1 . HBA1 . . H  . . N  0 . . . . no  no . . . . 40.394 . 51.357 . 23.611 . 40.394 51.357 23.611  77 . 6348 BCL 
+      HBA2 . HBA2 . . H  . . N  0 . . . . no  no . . . . 40.867 . 52.646 . 22.448 . 40.867 52.646 22.448  78 . 6348 BCL 
+      HMB1 . HMB1 . . H  . . N  0 . . . . no  no . . . . 45.540 . 52.075 . 20.834 . 45.540 52.075 20.834  79 . 6348 BCL 
+      HMB2 . HMB2 . . H  . . N  0 . . . . no  no . . . . 46.384 . 50.919 . 19.748 . 46.384 50.919 19.748  80 . 6348 BCL 
+      HMB3 . HMB3 . . H  . . N  0 . . . . no  no . . . . 44.695 . 51.417 . 19.392 . 44.695 51.417 19.392  81 . 6348 BCL 
+      HBB1 . HBB1 . . H  . . N  0 . . . . no  no . . . . 47.590 . 50.237 . 20.126 . 47.590 50.237 20.126  82 . 6348 BCL 
+      HBB2 . HBB2 . . H  . . N  0 . . . . no  no . . . . 48.188 . 50.963 . 21.657 . 48.188 50.963 21.657  83 . 6348 BCL 
+      HBB3 . HBB3 . . H  . . N  0 . . . . no  no . . . . 48.995 . 49.509 . 20.977 . 48.995 49.509 20.976  84 . 6348 BCL 
+      H2C  . H2C  . . H  . . N  0 . . . . no  no . . . . 44.913 . 45.407 . 25.244 . 44.913 45.407 25.244  85 . 6348 BCL 
+      H3C  . H3C  . . H  . . N  0 . . . . no  no . . . . 43.006 . 43.301 . 24.021 . 43.006 43.301 24.021  86 . 6348 BCL 
+      HMC1 . HMC1 . . H  . . N  0 . . . . no  no . . . . 45.500 . 44.544 . 22.556 . 45.500 44.544 22.556  87 . 6348 BCL 
+      HMC2 . HMC2 . . H  . . N  0 . . . . no  no . . . . 46.231 . 43.938 . 24.081 . 46.231 43.938 24.081  88 . 6348 BCL 
+      HMC3 . HMC3 . . H  . . N  0 . . . . no  no . . . . 44.768 . 43.142 . 23.408 . 44.768 43.143 23.408  89 . 6348 BCL 
+      HAC1 . HAC1 . . H  . . N  0 . . . . no  no . . . . 42.390 . 43.278 . 26.288 . 42.390 43.278 26.288  90 . 6348 BCL 
+      HAC2 . HAC2 . . H  . . N  0 . . . . no  no . . . . 44.189 . 43.661 . 26.314 . 44.189 43.661 26.314  91 . 6348 BCL 
+      HBC1 . HBC1 . . H  . . N  0 . . . . no  no . . . . 42.855 . 44.980 . 27.970 . 42.855 44.980 27.970  92 . 6348 BCL 
+      HBC2 . HBC2 . . H  . . N  0 . . . . no  no . . . . 43.740 . 45.979 . 26.768 . 43.740 45.979 26.768  93 . 6348 BCL 
+      HBC3 . HBC3 . . H  . . N  0 . . . . no  no . . . . 41.969 . 45.727 . 26.597 . 41.970 45.727 26.597  94 . 6348 BCL 
+      HMD1 . HMD1 . . H  . . N  0 . . . . no  no . . . . 37.629 . 44.063 . 24.394 . 37.629 44.063 24.394  95 . 6348 BCL 
+      HMD2 . HMD2 . . H  . . N  0 . . . . no  no . . . . 38.422 . 44.533 . 25.935 . 38.422 44.533 25.935  96 . 6348 BCL 
+      HMD3 . HMD3 . . H  . . N  0 . . . . no  no . . . . 36.837 . 45.250 . 25.485 . 36.837 45.250 25.485  97 . 6348 BCL 
+      HBD  . HBD  . . H  . . N  0 . . . . no  no . . . . 36.949 . 50.096 . 23.299 . 36.949 50.096 23.299  98 . 6348 BCL 
+      HED1 . HED1 . . H  . . N  0 . . . . no  no . . . . 35.591 . 50.726 . 18.869 . 35.591 50.726 18.869  99 . 6348 BCL 
+      HED2 . HED2 . . H  . . N  0 . . . . no  no . . . . 36.478 . 49.173 . 19.033 . 36.479 49.173 19.033 100 . 6348 BCL 
+      HED3 . HED3 . . H  . . N  0 . . . . no  no . . . . 34.703 . 49.226 . 19.303 . 34.703 49.226 19.303 101 . 6348 BCL 
+      H11  . H11  . . H  . . N  0 . . . . no  no . . . . 41.220 . 55.185 . 26.186 . 41.220 55.185 26.186 102 . 6348 BCL 
+      H12  . H12  . . H  . . N  0 . . . . no  no . . . . 39.442 . 54.802 . 26.109 . 39.442 54.802 26.109 103 . 6348 BCL 
+      H2   . H2   . . H  . . N  0 . . . . no  no . . . . 39.674 . 53.126 . 27.877 . 39.674 53.126 27.877 104 . 6348 BCL 
+      H41  . H41  . . H  . . N  0 . . . . no  no . . . . 42.893 . 54.417 . 26.742 . 42.893 54.417 26.742 105 . 6348 BCL 
+      H42  . H42  . . H  . . N  0 . . . . no  no . . . . 43.033 . 55.227 . 28.339 . 43.033 55.228 28.338 106 . 6348 BCL 
+      H43  . H43  . . H  . . N  0 . . . . no  no . . . . 43.764 . 53.606 . 28.087 . 43.764 53.606 28.087 107 . 6348 BCL 
+      H51  . H51  . . H  . . N  0 . . . . no  no . . . . 42.776 . 52.704 . 29.886 . 42.776 52.704 29.886 108 . 6348 BCL 
+      H52  . H52  . . H  . . N  0 . . . . no  no . . . . 41.223 . 53.453 . 30.399 . 41.223 53.453 30.399 109 . 6348 BCL 
+      H61  . H61  . . H  . . N  0 . . . . no  no . . . . 40.078 . 51.580 . 28.926 . 40.077 51.580 28.926 110 . 6348 BCL 
+      H62  . H62  . . H  . . N  0 . . . . no  no . . . . 41.637 . 50.760 . 28.948 . 41.637 50.760 28.948 111 . 6348 BCL 
+      H71  . H71  . . H  . . N  0 . . . . no  no . . . . 41.569 . 51.388 . 31.562 . 41.569 51.388 31.562 112 . 6348 BCL 
+      H72  . H72  . . H  . . N  0 . . . . no  no . . . . 39.769 . 51.456 . 31.221 . 39.769 51.456 31.221 113 . 6348 BCL 
+      H8   . H8   . . H  . . N  0 . . . . no  no . . . . 41.269 . 49.199 . 31.920 . 41.270 49.199 31.920 114 . 6348 BCL 
+      H91  . H91  . . H  . . N  0 . . . . no  no . . . . 41.258 . 49.458 . 29.015 . 41.258 49.458 29.015 115 . 6348 BCL 
+      H92  . H92  . . H  . . N  0 . . . . no  no . . . . 42.108 . 48.301 . 30.094 . 42.108 48.301 30.094 116 . 6348 BCL 
+      H93  . H93  . . H  . . N  0 . . . . no  no . . . . 40.409 . 47.988 . 29.601 . 40.409 47.988 29.601 117 . 6348 BCL 
+      H101 . H101 . . H  . . N  0 . . . . no  no . . . . 38.595 . 50.173 . 30.959 . 38.595 50.173 30.959 118 . 6348 BCL 
+      H102 . H102 . . H  . . N  0 . . . . no  no . . . . 38.837 . 48.451 . 30.640 . 38.837 48.451 30.640 119 . 6348 BCL 
+      H111 . H111 . . H  . . N  0 . . . . no  no . . . . 39.337 . 48.002 . 32.970 . 39.337 48.002 32.970 120 . 6348 BCL 
+      H112 . H112 . . H  . . N  0 . . . . no  no . . . . 39.541 . 49.691 . 33.355 . 39.541 49.691 33.355 121 . 6348 BCL 
+      H121 . H121 . . H  . . N  0 . . . . no  no . . . . 37.100 . 50.006 . 32.337 . 37.100 50.006 32.337 122 . 6348 BCL 
+      H122 . H122 . . H  . . N  0 . . . . no  no . . . . 36.968 . 48.238 . 32.482 . 36.968 48.238 32.482 123 . 6348 BCL 
+      H13  . H13  . . H  . . N  0 . . . . no  no . . . . 37.793 . 50.109 . 34.792 . 37.793 50.109 34.792 124 . 6348 BCL 
+      H141 . H141 . . H  . . N  0 . . . . no  no . . . . 37.673 . 47.168 . 34.282 . 37.673 47.168 34.282 125 . 6348 BCL 
+      H142 . H142 . . H  . . N  0 . . . . no  no . . . . 38.543 . 48.067 . 35.571 . 38.543 48.067 35.571 126 . 6348 BCL 
+      H143 . H143 . . H  . . N  0 . . . . no  no . . . . 36.802 . 47.669 . 35.771 . 36.802 47.669 35.771 127 . 6348 BCL 
+      H151 . H151 . . H  . . N  0 . . . . no  no . . . . 35.096 . 48.820 . 34.192 . 35.096 48.820 34.192 128 . 6348 BCL 
+      H152 . H152 . . H  . . N  0 . . . . no  no . . . . 35.512 . 49.603 . 35.711 . 35.512 49.603 35.711 129 . 6348 BCL 
+      H161 . H161 . . H  . . N  0 . . . . no  no . . . . 36.309 . 51.625 . 34.283 . 36.309 51.625 34.283 130 . 6348 BCL 
+      H162 . H162 . . H  . . N  0 . . . . no  no . . . . 35.521 . 50.832 . 32.899 . 35.521 50.832 32.899 131 . 6348 BCL 
+      H171 . H171 . . H  . . N  0 . . . . no  no . . . . 33.389 . 51.005 . 33.832 . 33.389 51.005 33.832 132 . 6348 BCL 
+      H172 . H172 . . H  . . N  0 . . . . no  no . . . . 34.054 . 51.124 . 35.525 . 34.054 51.124 35.525 133 . 6348 BCL 
+      H18  . H18  . . H  . . N  0 . . . . no  no . . . . 35.059 . 53.408 . 34.583 . 35.059 53.408 34.583 134 . 6348 BCL 
+      H191 . H191 . . H  . . N  0 . . . . no  no . . . . 33.514 . 53.409 . 36.437 . 33.514 53.409 36.437 135 . 6348 BCL 
+      H192 . H192 . . H  . . N  0 . . . . no  no . . . . 32.572 . 54.280 . 35.180 . 32.572 54.280 35.180 136 . 6348 BCL 
+      H193 . H193 . . H  . . N  0 . . . . no  no . . . . 32.263 . 52.538 . 35.489 . 32.263 52.538 35.489 137 . 6348 BCL 
+      H201 . H201 . . H  . . N  0 . . . . no  no . . . . 32.423 . 53.536 . 33.128 . 32.423 53.536 33.128 138 . 6348 BCL 
+      H202 . H202 . . H  . . N  0 . . . . no  no . . . . 33.967 . 54.391 . 32.794 . 33.967 54.391 32.794 139 . 6348 BCL 
+      H203 . H203 . . H  . . N  0 . . . . no  no . . . . 33.760 . 52.680 . 32.288 . 33.760 52.680 32.288 140 . 6348 BCL 
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+        1 . SING MG  NA   no  N   1 . 6348 BCL 
+        2 . SING MG  NB   no  N   2 . 6348 BCL 
+        3 . SING MG  NC   no  N   3 . 6348 BCL 
+        4 . SING MG  ND   no  N   4 . 6348 BCL 
+        5 . SING CHA C1A  no  N   5 . 6348 BCL 
+        6 . DOUB CHA C4D  no  N   6 . 6348 BCL 
+        7 . SING CHA CBD  no  N   7 . 6348 BCL 
+        8 . DOUB CHB C4A  no  N   8 . 6348 BCL 
+        9 . SING CHB C1B  no  N   9 . 6348 BCL 
+       10 . SING CHB HHB  no  N  10 . 6348 BCL 
+       11 . SING CHC C4B  no  N  11 . 6348 BCL 
+       12 . DOUB CHC C1C  no  N  12 . 6348 BCL 
+       13 . SING CHC HHC  no  N  13 . 6348 BCL 
+       14 . SING CHD C4C  no  N  14 . 6348 BCL 
+       15 . DOUB CHD C1D  no  N  15 . 6348 BCL 
+       16 . SING CHD HHD  no  N  16 . 6348 BCL 
+       17 . DOUB NA  C1A  no  N  17 . 6348 BCL 
+       18 . SING NA  C4A  no  N  18 . 6348 BCL 
+       19 . SING C1A C2A  no  N  19 . 6348 BCL 
+       20 . SING C2A C3A  no  N  20 . 6348 BCL 
+       21 . SING C2A CAA  no  N  21 . 6348 BCL 
+       22 . SING C2A H2A  no  N  22 . 6348 BCL 
+       23 . SING C3A C4A  no  N  23 . 6348 BCL 
+       24 . SING C3A CMA  no  N  24 . 6348 BCL 
+       25 . SING C3A H3A  no  N  25 . 6348 BCL 
+       26 . SING CMA HMA1 no  N  26 . 6348 BCL 
+       27 . SING CMA HMA2 no  N  27 . 6348 BCL 
+       28 . SING CMA HMA3 no  N  28 . 6348 BCL 
+       29 . SING CAA CBA  no  N  29 . 6348 BCL 
+       30 . SING CAA HAA1 no  N  30 . 6348 BCL 
+       31 . SING CAA HAA2 no  N  31 . 6348 BCL 
+       32 . SING CBA CGA  no  N  32 . 6348 BCL 
+       33 . SING CBA HBA1 no  N  33 . 6348 BCL 
+       34 . SING CBA HBA2 no  N  34 . 6348 BCL 
+       35 . DOUB CGA O1A  no  N  35 . 6348 BCL 
+       36 . SING CGA O2A  no  N  36 . 6348 BCL 
+       37 . SING O2A C1   no  N  37 . 6348 BCL 
+       38 . SING NB  C1B  yes N  38 . 6348 BCL 
+       39 . SING NB  C4B  yes N  39 . 6348 BCL 
+       40 . DOUB C1B C2B  yes N  40 . 6348 BCL 
+       41 . SING C2B C3B  yes N  41 . 6348 BCL 
+       42 . SING C2B CMB  no  N  42 . 6348 BCL 
+       43 . DOUB C3B C4B  yes N  43 . 6348 BCL 
+       44 . SING C3B CAB  no  N  44 . 6348 BCL 
+       45 . SING CMB HMB1 no  N  45 . 6348 BCL 
+       46 . SING CMB HMB2 no  N  46 . 6348 BCL 
+       47 . SING CMB HMB3 no  N  47 . 6348 BCL 
+       48 . DOUB CAB OBB  no  N  48 . 6348 BCL 
+       49 . SING CAB CBB  no  N  49 . 6348 BCL 
+       50 . SING CBB HBB1 no  N  50 . 6348 BCL 
+       51 . SING CBB HBB2 no  N  51 . 6348 BCL 
+       52 . SING CBB HBB3 no  N  52 . 6348 BCL 
+       53 . SING NC  C1C  no  N  53 . 6348 BCL 
+       54 . DOUB NC  C4C  no  N  54 . 6348 BCL 
+       55 . SING C1C C2C  no  N  55 . 6348 BCL 
+       56 . SING C2C C3C  no  N  56 . 6348 BCL 
+       57 . SING C2C CMC  no  N  57 . 6348 BCL 
+       58 . SING C2C H2C  no  N  58 . 6348 BCL 
+       59 . SING C3C C4C  no  N  59 . 6348 BCL 
+       60 . SING C3C CAC  no  N  60 . 6348 BCL 
+       61 . SING C3C H3C  no  N  61 . 6348 BCL 
+       62 . SING CMC HMC1 no  N  62 . 6348 BCL 
+       63 . SING CMC HMC2 no  N  63 . 6348 BCL 
+       64 . SING CMC HMC3 no  N  64 . 6348 BCL 
+       65 . SING CAC CBC  no  N  65 . 6348 BCL 
+       66 . SING CAC HAC1 no  N  66 . 6348 BCL 
+       67 . SING CAC HAC2 no  N  67 . 6348 BCL 
+       68 . SING CBC HBC1 no  N  68 . 6348 BCL 
+       69 . SING CBC HBC2 no  N  69 . 6348 BCL 
+       70 . SING CBC HBC3 no  N  70 . 6348 BCL 
+       71 . SING ND  C1D  yes N  71 . 6348 BCL 
+       72 . SING ND  C4D  yes N  72 . 6348 BCL 
+       73 . SING C1D C2D  yes N  73 . 6348 BCL 
+       74 . DOUB C2D C3D  yes N  74 . 6348 BCL 
+       75 . SING C2D CMD  no  N  75 . 6348 BCL 
+       76 . SING C3D C4D  yes N  76 . 6348 BCL 
+       77 . SING C3D CAD  no  N  77 . 6348 BCL 
+       78 . SING CMD HMD1 no  N  78 . 6348 BCL 
+       79 . SING CMD HMD2 no  N  79 . 6348 BCL 
+       80 . SING CMD HMD3 no  N  80 . 6348 BCL 
+       81 . DOUB CAD OBD  no  N  81 . 6348 BCL 
+       82 . SING CAD CBD  no  N  82 . 6348 BCL 
+       83 . SING CBD CGD  no  N  83 . 6348 BCL 
+       84 . SING CBD HBD  no  N  84 . 6348 BCL 
+       85 . DOUB CGD O1D  no  N  85 . 6348 BCL 
+       86 . SING CGD O2D  no  N  86 . 6348 BCL 
+       87 . SING O2D CED  no  N  87 . 6348 BCL 
+       88 . SING CED HED1 no  N  88 . 6348 BCL 
+       89 . SING CED HED2 no  N  89 . 6348 BCL 
+       90 . SING CED HED3 no  N  90 . 6348 BCL 
+       91 . SING C1  C2   no  N  91 . 6348 BCL 
+       92 . SING C1  H11  no  N  92 . 6348 BCL 
+       93 . SING C1  H12  no  N  93 . 6348 BCL 
+       94 . DOUB C2  C3   no  E  94 . 6348 BCL 
+       95 . SING C2  H2   no  N  95 . 6348 BCL 
+       96 . SING C3  C4   no  N  96 . 6348 BCL 
+       97 . SING C3  C5   no  N  97 . 6348 BCL 
+       98 . SING C4  H41  no  N  98 . 6348 BCL 
+       99 . SING C4  H42  no  N  99 . 6348 BCL 
+      100 . SING C4  H43  no  N 100 . 6348 BCL 
+      101 . SING C5  C6   no  N 101 . 6348 BCL 
+      102 . SING C5  H51  no  N 102 . 6348 BCL 
+      103 . SING C5  H52  no  N 103 . 6348 BCL 
+      104 . SING C6  C7   no  N 104 . 6348 BCL 
+      105 . SING C6  H61  no  N 105 . 6348 BCL 
+      106 . SING C6  H62  no  N 106 . 6348 BCL 
+      107 . SING C7  C8   no  N 107 . 6348 BCL 
+      108 . SING C7  H71  no  N 108 . 6348 BCL 
+      109 . SING C7  H72  no  N 109 . 6348 BCL 
+      110 . SING C8  C9   no  N 110 . 6348 BCL 
+      111 . SING C8  C10  no  N 111 . 6348 BCL 
+      112 . SING C8  H8   no  N 112 . 6348 BCL 
+      113 . SING C9  H91  no  N 113 . 6348 BCL 
+      114 . SING C9  H92  no  N 114 . 6348 BCL 
+      115 . SING C9  H93  no  N 115 . 6348 BCL 
+      116 . SING C10 C11  no  N 116 . 6348 BCL 
+      117 . SING C10 H101 no  N 117 . 6348 BCL 
+      118 . SING C10 H102 no  N 118 . 6348 BCL 
+      119 . SING C11 C12  no  N 119 . 6348 BCL 
+      120 . SING C11 H111 no  N 120 . 6348 BCL 
+      121 . SING C11 H112 no  N 121 . 6348 BCL 
+      122 . SING C12 C13  no  N 122 . 6348 BCL 
+      123 . SING C12 H121 no  N 123 . 6348 BCL 
+      124 . SING C12 H122 no  N 124 . 6348 BCL 
+      125 . SING C13 C14  no  N 125 . 6348 BCL 
+      126 . SING C13 C15  no  N 126 . 6348 BCL 
+      127 . SING C13 H13  no  N 127 . 6348 BCL 
+      128 . SING C14 H141 no  N 128 . 6348 BCL 
+      129 . SING C14 H142 no  N 129 . 6348 BCL 
+      130 . SING C14 H143 no  N 130 . 6348 BCL 
+      131 . SING C15 C16  no  N 131 . 6348 BCL 
+      132 . SING C15 H151 no  N 132 . 6348 BCL 
+      133 . SING C15 H152 no  N 133 . 6348 BCL 
+      134 . SING C16 C17  no  N 134 . 6348 BCL 
+      135 . SING C16 H161 no  N 135 . 6348 BCL 
+      136 . SING C16 H162 no  N 136 . 6348 BCL 
+      137 . SING C17 C18  no  N 137 . 6348 BCL 
+      138 . SING C17 H171 no  N 138 . 6348 BCL 
+      139 . SING C17 H172 no  N 139 . 6348 BCL 
+      140 . SING C18 C19  no  N 140 . 6348 BCL 
+      141 . SING C18 C20  no  N 141 . 6348 BCL 
+      142 . SING C18 H18  no  N 142 . 6348 BCL 
+      143 . SING C19 H191 no  N 143 . 6348 BCL 
+      144 . SING C19 H192 no  N 144 . 6348 BCL 
+      145 . SING C19 H193 no  N 145 . 6348 BCL 
+      146 . SING C20 H201 no  N 146 . 6348 BCL 
+      147 . SING C20 H202 no  N 147 . 6348 BCL 
+      148 . SING C20 H203 no  N 148 . 6348 BCL 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         6348
+   _Sample.ID                               1
+   _Sample.Type                             solid
+   _Sample.Sub_type                         .
+   _Sample.Details                         'Solid state NMR in combination with pattern labeling.'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 alpha-subunit . . . 1 $Alpha-subunit . . . . . . . . . . 6348 1 
+      2 Beta-subunit  . . . 2 $Beta-subunit  . . . . . . . . . . 6348 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions
+   _Sample_condition_list.Entry_ID       6348
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH             .  .  n/a 6348 1 
+      temperature 253 0.1 K   6348 1 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_NMR_spectrometer
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer
+   _NMR_spectrometer.Entry_ID         6348
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            AV
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   750
+
+save_
+
+
+save_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       6348
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 NMR_spectrometer Bruker AV . 750 . . . 6348 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       6348
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 . . . . . . . . . . . . 1 $sample_1 . . . 1 $sample_conditions . . . 1 $NMR_spectrometer . . . . . . . . . . . . . . . . 6348 1 
+
+   stop_
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference
+   _Chem_shift_reference.Entry_ID       6348
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      N 15 Tyrosine(HCl)  nitrogen         . . . . ppm 0 external direct 1.0 . . . 1 $entry_citation . . 1 $entry_citation 6348 1 
+      C 13 Tyrosine(HCl) 'Carbonyl carbon' . . . . ppm 0 external direct 1.0 . . . 1 $entry_citation . . 1 $entry_citation 6348 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Entry_ID                      6348
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                      'sequence A-subunit MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA'
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      . . 1 $sample_1 . 6348 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1  1  1 MET N   N 15  87.6  0.3 . . . . . . . . . . 6348 1 
+        2 . 1 1  1  1 MET CA  C 13  55.3  0.3 . . . . . . . . . . 6348 1 
+        3 . 1 1  1  1 MET C   C 13 169.8  0.3 . . . . . . . . . . 6348 1 
+        4 . 1 1  1  1 MET CB  C 13  31.2  0.3 . . . . . . . . . . 6348 1 
+        5 . 1 1  1  1 MET CG  C 13  27.8  0.3 . . . . . . . . . . 6348 1 
+        6 . 1 1  2  2 ASN N   N 15 123.5  0.3 . . . . . . . . . . 6348 1 
+        7 . 1 1  2  2 ASN CA  C 13  46.8  0.3 . . . . . . . . . . 6348 1 
+        8 . 1 1  2  2 ASN C   C 13 172.4  0.3 . . . . . . . . . . 6348 1 
+        9 . 1 1  2  2 ASN CB  C 13  34.9  0.3 . . . . . . . . . . 6348 1 
+       10 . 1 1  3  3 GLN N   N 15 112.8  0.3 . . . . . . . . . . 6348 1 
+       11 . 1 1  3  3 GLN CA  C 13  53.7  0.3 . . . . . . . . . . 6348 1 
+       12 . 1 1  4  4 GLY N   N 15 104.7  0.3 . . . . . . . . . . 6348 1 
+       13 . 1 1  4  4 GLY CA  C 13  42.6  0.3 . . . . . . . . . . 6348 1 
+       14 . 1 1  4  4 GLY C   C 13 170.9  0.3 . . . . . . . . . . 6348 1 
+       15 . 1 1  5  5 LYS N   N 15 113.6  0.3 . . . . . . . . . . 6348 1 
+       16 . 1 1  6  6 ILE CA  C 13  57.6  0.3 . . . . . . . . . . 6348 1 
+       17 . 1 1  6  6 ILE C   C 13 174.0  0.3 . . . . . . . . . . 6348 1 
+       18 . 1 1  6  6 ILE CB  C 13  36.5  0.3 . . . . . . . . . . 6348 1 
+       19 . 1 1  6  6 ILE CG2 C 13  14.1  0.3 . . . . . . . . . . 6348 1 
+       20 . 1 1  6  6 ILE CG1 C 13  25.3  0.3 . . . . . . . . . . 6348 1 
+       21 . 1 1  6  6 ILE CD1 C 13   9.0  0.3 . . . . . . . . . . 6348 1 
+       22 . 1 1  7  7 TRP N   N 15 121.0  0.3 . . . . . . . . . . 6348 1 
+       23 . 1 1  7  7 TRP CA  C 13  51.4  0.3 . . . . . . . . . . 6348 1 
+       24 . 1 1  7  7 TRP C   C 13 172.0  0.3 . . . . . . . . . . 6348 1 
+       25 . 1 1  7  7 TRP CB  C 13  24.1  0.3 . . . . . . . . . . 6348 1 
+       26 . 1 1  7  7 TRP CG  C 13 109.1  0.3 . . . . . . . . . . 6348 1 
+       27 . 1 1  7  7 TRP CD1 C 13 125.5  0.3 . . . . . . . . . . 6348 1 
+       28 . 1 1  7  7 TRP NE1 N 15 135.6  0.3 . . . . . . . . . . 6348 1 
+       29 . 1 1  7  7 TRP CE2 C 13 137.7  0.3 . . . . . . . . . . 6348 1 
+       30 . 1 1  8  8 THR N   N 15 110.2  0.3 . . . . . . . . . . 6348 1 
+       31 . 1 1  8  8 THR CA  C 13  56.7  0.3 . . . . . . . . . . 6348 1 
+       32 . 1 1  8  8 THR C   C 13 174.4  0.3 . . . . . . . . . . 6348 1 
+       33 . 1 1  8  8 THR CB  C 13  64.1  0.3 . . . . . . . . . . 6348 1 
+       34 . 1 1  8  8 THR CG2 C 13  17.8  0.3 . . . . . . . . . . 6348 1 
+       35 . 1 1 10 10 VAL N   N 15 120.5  0.3 . . . . . . . . . . 6348 1 
+       36 . 1 1 10 10 VAL CA  C 13  57.2  0.3 . . . . . . . . . . 6348 1 
+       37 . 1 1 10 10 VAL C   C 13 170.3  0.3 . . . . . . . . . . 6348 1 
+       38 . 1 1 10 10 VAL CB  C 13  29.2  0.3 . . . . . . . . . . 6348 1 
+       39 . 1 1 10 10 VAL CG1 C 13  17.7  0.3 . . . . . . . . . . 6348 1 
+       40 . 1 1 10 10 VAL CG2 C 13  19.0  0.3 . . . . . . . . . . 6348 1 
+       41 . 1 1 11 11 ASN N   N 15 125.0  0.3 . . . . . . . . . . 6348 1 
+       42 . 1 1 11 11 ASN CA  C 13  48.0  0.3 . . . . . . . . . . 6348 1 
+       43 . 1 1 11 11 ASN C   C 13 173.6  0.3 . . . . . . . . . . 6348 1 
+       44 . 1 1 11 11 ASN CB  C 13  37.6  0.3 . . . . . . . . . . 6348 1 
+       45 . 1 1 11 11 ASN CG  C 13 176.3  0.3 . . . . . . . . . . 6348 1 
+       46 . 1 1 12 12 PRO N   N 15 144.8  0.3 . . . . . . . . . . 6348 1 
+       47 . 1 1 12 12 PRO CA  C 13  61.5  0.3 . . . . . . . . . . 6348 1 
+       48 . 1 1 12 12 PRO C   C 13 172.9  0.3 . . . . . . . . . . 6348 1 
+       49 . 1 1 12 12 PRO CB  C 13  28.6  0.3 . . . . . . . . . . 6348 1 
+       50 . 1 1 12 12 PRO CG  C 13  22.9  0.3 . . . . . . . . . . 6348 1 
+       51 . 1 1 12 12 PRO CD  C 13  47.5  0.3 . . . . . . . . . . 6348 1 
+       52 . 1 1 13 13 ALA N   N 15 115.3  0.3 . . . . . . . . . . 6348 1 
+       53 . 1 1 13 13 ALA CA  C 13  51.5  0.3 . . . . . . . . . . 6348 1 
+       54 . 1 1 13 13 ALA C   C 13 177.1  0.3 . . . . . . . . . . 6348 1 
+       55 . 1 1 13 13 ALA CB  C 13  14.7  0.3 . . . . . . . . . . 6348 1 
+       56 . 1 1 14 14 ILE N   N 15 119.7  0.3 . . . . . . . . . . 6348 1 
+       57 . 1 1 14 14 ILE CA  C 13  61.1  0.3 . . . . . . . . . . 6348 1 
+       58 . 1 1 14 14 ILE C   C 13 174.6  0.3 . . . . . . . . . . 6348 1 
+       59 . 1 1 14 14 ILE CB  C 13  33.6  0.3 . . . . . . . . . . 6348 1 
+       60 . 1 1 14 14 ILE CG2 C 13  14.5  0.3 . . . . . . . . . . 6348 1 
+       61 . 1 1 14 14 ILE CG1 C 13  22.6  0.3 . . . . . . . . . . 6348 1 
+       62 . 1 1 14 14 ILE CD1 C 13  12.0  0.3 . . . . . . . . . . 6348 1 
+       63 . 1 1 15 15 GLY N   N 15 105.0  0.3 . . . . . . . . . . 6348 1 
+       64 . 1 1 15 15 GLY CA  C 13  43.9  0.3 . . . . . . . . . . 6348 1 
+       65 . 1 1 15 15 GLY C   C 13 170.1  0.3 . . . . . . . . . . 6348 1 
+       66 . 1 1 16 16 ILE N   N 15 117.3  0.3 . . . . . . . . . . 6348 1 
+       67 . 1 1 16 16 ILE CA  C 13  62.9  0.3 . . . . . . . . . . 6348 1 
+       68 . 1 1 16 16 ILE C   C 13 171.4  0.3 . . . . . . . . . . 6348 1 
+       69 . 1 1 16 16 ILE CB  C 13  30.2  0.3 . . . . . . . . . . 6348 1 
+       70 . 1 1 16 16 ILE CG2 C 13  12.7  0.3 . . . . . . . . . . 6348 1 
+       71 . 1 1 16 16 ILE CG1 C 13  24.0  0.3 . . . . . . . . . . 6348 1 
+       72 . 1 1 16 16 ILE CD1 C 13   8.8  0.3 . . . . . . . . . . 6348 1 
+       73 . 1 1 17 17 PRO N   N 15 131.7  0.3 . . . . . . . . . . 6348 1 
+       74 . 1 1 17 17 PRO CA  C 13  62.5  0.3 . . . . . . . . . . 6348 1 
+       75 . 1 1 17 17 PRO C   C 13 173.9  0.3 . . . . . . . . . . 6348 1 
+       76 . 1 1 17 17 PRO CB  C 13  28.2  0.3 . . . . . . . . . . 6348 1 
+       77 . 1 1 17 17 PRO CG  C 13  25.4  0.3 . . . . . . . . . . 6348 1 
+       78 . 1 1 17 17 PRO CD  C 13  45.5  0.3 . . . . . . . . . . 6348 1 
+       79 . 1 1 18 18 ALA CA  C 13  51.3  0.3 . . . . . . . . . . 6348 1 
+       80 . 1 1 18 18 ALA CB  C 13  14.9  0.3 . . . . . . . . . . 6348 1 
+       81 . 1 1 19 19 LEU CB  C 13  37.2  0.3 . . . . . . . . . . 6348 1 
+       82 . 1 1 19 19 LEU CG  C 13  22.0  0.3 . . . . . . . . . . 6348 1 
+       83 . 1 1 19 19 LEU CD1 C 13  20.0  0.3 . . . . . . . . . . 6348 1 
+       84 . 1 1 19 19 LEU CD2 C 13  18.5  0.3 . . . . . . . . . . 6348 1 
+       85 . 1 1 20 20 LEU N   N 15 120.2  0.3 . . . . . . . . . . 6348 1 
+       86 . 1 1 20 20 LEU CA  C 13  49.6  0.3 . . . . . . . . . . 6348 1 
+       87 . 1 1 20 20 LEU C   C 13 174.5  0.3 . . . . . . . . . . 6348 1 
+       88 . 1 1 20 20 LEU CB  C 13  41.5  0.3 . . . . . . . . . . 6348 1 
+       89 . 1 1 20 20 LEU CG  C 13  23.6  0.3 . . . . . . . . . . 6348 1 
+       90 . 1 1 20 20 LEU CD1 C 13  23.6  0.3 . . . . . . . . . . 6348 1 
+       91 . 1 1 20 20 LEU CD2 C 13  18.6  0.3 . . . . . . . . . . 6348 1 
+       92 . 1 1 21 21 GLY N   N 15 108.8  0.3 . . . . . . . . . . 6348 1 
+       93 . 1 1 21 21 GLY CA  C 13  44.3  0.3 . . . . . . . . . . 6348 1 
+       94 . 1 1 21 21 GLY C   C 13 172.1  0.3 . . . . . . . . . . 6348 1 
+       95 . 1 1 22 22 SER N   N 15 118.8  0.3 . . . . . . . . . . 6348 1 
+       96 . 1 1 22 22 SER CA  C 13  59.8  0.3 . . . . . . . . . . 6348 1 
+       97 . 1 1 22 22 SER C   C 13 171.5  0.3 . . . . . . . . . . 6348 1 
+       98 . 1 1 22 22 SER CB  C 13  60.7  0.3 . . . . . . . . . . 6348 1 
+       99 . 1 1 23 23 VAL N   N 15 120.6  0.3 . . . . . . . . . . 6348 1 
+      100 . 1 1 23 23 VAL CA  C 13  63.9  0.3 . . . . . . . . . . 6348 1 
+      101 . 1 1 23 23 VAL C   C 13 173.3  0.3 . . . . . . . . . . 6348 1 
+      102 . 1 1 23 23 VAL CB  C 13  29.1  0.3 . . . . . . . . . . 6348 1 
+      103 . 1 1 23 23 VAL CG1 C 13  18.3  0.3 . . . . . . . . . . 6348 1 
+      104 . 1 1 23 23 VAL CG2 C 13  19.1  0.3 . . . . . . . . . . 6348 1 
+      105 . 1 1 24 24 THR N   N 15 115.0  0.3 . . . . . . . . . . 6348 1 
+      106 . 1 1 24 24 THR CA  C 13  64.1  0.3 . . . . . . . . . . 6348 1 
+      107 . 1 1 24 24 THR CB  C 13  65.2  0.3 . . . . . . . . . . 6348 1 
+      108 . 1 1 25 25 VAL N   N 15 122.9  0.3 . . . . . . . . . . 6348 1 
+      109 . 1 1 25 25 VAL CA  C 13  62.7  0.3 . . . . . . . . . . 6348 1 
+      110 . 1 1 25 25 VAL C   C 13 175.3  0.3 . . . . . . . . . . 6348 1 
+      111 . 1 1 25 25 VAL CG1 C 13  17.6  0.3 . . . . . . . . . . 6348 1 
+      112 . 1 1 25 25 VAL CG2 C 13  19.1  0.3 . . . . . . . . . . 6348 1 
+      113 . 1 1 26 26 ILE N   N 15 124.0  0.3 . . . . . . . . . . 6348 1 
+      114 . 1 1 26 26 ILE CA  C 13  58.4  0.3 . . . . . . . . . . 6348 1 
+      115 . 1 1 26 26 ILE C   C 13 170.4  0.3 . . . . . . . . . . 6348 1 
+      116 . 1 1 26 26 ILE CB  C 13  33.4  0.3 . . . . . . . . . . 6348 1 
+      117 . 1 1 26 26 ILE CG2 C 13  12.3  0.3 . . . . . . . . . . 6348 1 
+      118 . 1 1 26 26 ILE CG1 C 13  25.2  0.3 . . . . . . . . . . 6348 1 
+      119 . 1 1 26 26 ILE CD1 C 13  10.45 0.3 . . . . . . . . . . 6348 1 
+      120 . 1 1 27 27 ALA N   N 15 120.8  0.3 . . . . . . . . . . 6348 1 
+      121 . 1 1 27 27 ALA CA  C 13  51.5  0.3 . . . . . . . . . . 6348 1 
+      122 . 1 1 27 27 ALA C   C 13 177.2  0.3 . . . . . . . . . . 6348 1 
+      123 . 1 1 27 27 ALA CB  C 13  15.3  0.3 . . . . . . . . . . 6348 1 
+      124 . 1 1 28 28 ILE N   N 15 119.3  0.3 . . . . . . . . . . 6348 1 
+      125 . 1 1 28 28 ILE CA  C 13  63.3  0.3 . . . . . . . . . . 6348 1 
+      126 . 1 1 28 28 ILE C   C 13 172.4  0.3 . . . . . . . . . . 6348 1 
+      127 . 1 1 28 28 ILE CB  C 13  34.3  0.3 . . . . . . . . . . 6348 1 
+      128 . 1 1 28 28 ILE CG2 C 13  13.0  0.3 . . . . . . . . . . 6348 1 
+      129 . 1 1 28 28 ILE CG1 C 13  26.3  0.3 . . . . . . . . . . 6348 1 
+      130 . 1 1 28 28 ILE CD1 C 13   9.0  0.3 . . . . . . . . . . 6348 1 
+      131 . 1 1 29 29 LEU N   N 15 120.5  0.3 . . . . . . . . . . 6348 1 
+      132 . 1 1 29 29 LEU CA  C 13  54.3  0.3 . . . . . . . . . . 6348 1 
+      133 . 1 1 29 29 LEU CB  C 13  37.5  0.3 . . . . . . . . . . 6348 1 
+      134 . 1 1 29 29 LEU CG  C 13  22.6  0.3 . . . . . . . . . . 6348 1 
+      135 . 1 1 29 29 LEU CD1 C 13  17.7  0.3 . . . . . . . . . . 6348 1 
+      136 . 1 1 29 29 LEU CD2 C 13  19.1  0.3 . . . . . . . . . . 6348 1 
+      137 . 1 1 30 30 VAL N   N 15 118.3  0.3 . . . . . . . . . . 6348 1 
+      138 . 1 1 30 30 VAL CA  C 13  63.2  0.3 . . . . . . . . . . 6348 1 
+      139 . 1 1 30 30 VAL C   C 13 173.5  0.3 . . . . . . . . . . 6348 1 
+      140 . 1 1 30 30 VAL CB  C 13  26.9  0.3 . . . . . . . . . . 6348 1 
+      141 . 1 1 30 30 VAL CG1 C 13  15.1  0.3 . . . . . . . . . . 6348 1 
+      142 . 1 1 30 30 VAL CG2 C 13  17.4  0.3 . . . . . . . . . . 6348 1 
+      143 . 1 1 31 31 HIS N   N 15 112.4  0.3 . . . . . . . . . . 6348 1 
+      144 . 1 1 31 31 HIS CA  C 13  58.5  0.3 . . . . . . . . . . 6348 1 
+      145 . 1 1 31 31 HIS C   C 13 173.0  0.3 . . . . . . . . . . 6348 1 
+      146 . 1 1 31 31 HIS CB  C 13  23.4  0.3 . . . . . . . . . . 6348 1 
+      147 . 1 1 31 31 HIS CG  C 13 125.1  0.3 . . . . . . . . . . 6348 1 
+      148 . 1 1 31 31 HIS CD2 C 13 118.2  0.3 . . . . . . . . . . 6348 1 
+      149 . 1 1 31 31 HIS NE2 N 15 168.1  0.3 . . . . . . . . . . 6348 1 
+      150 . 1 1 32 32 LEU CA  C 13  53.8  0.3 . . . . . . . . . . 6348 1 
+      151 . 1 1 32 32 LEU C   C 13 173.7  0.3 . . . . . . . . . . 6348 1 
+      152 . 1 1 32 32 LEU CB  C 13  38.0  0.3 . . . . . . . . . . 6348 1 
+      153 . 1 1 32 32 LEU CG  C 13  23.2  0.3 . . . . . . . . . . 6348 1 
+      154 . 1 1 32 32 LEU CD1 C 13  16.5  0.3 . . . . . . . . . . 6348 1 
+      155 . 1 1 32 32 LEU CD2 C 13  21.6  0.3 . . . . . . . . . . 6348 1 
+      156 . 1 1 33 33 ALA N   N 15 120.4  0.3 . . . . . . . . . . 6348 1 
+      157 . 1 1 33 33 ALA CA  C 13  51.6  0.3 . . . . . . . . . . 6348 1 
+      158 . 1 1 33 33 ALA C   C 13 176.4  0.3 . . . . . . . . . . 6348 1 
+      159 . 1 1 33 33 ALA CB  C 13  13.2  0.3 . . . . . . . . . . 6348 1 
+      160 . 1 1 34 34 ILE N   N 15 121.4  0.3 . . . . . . . . . . 6348 1 
+      161 . 1 1 34 34 ILE CA  C 13  62.4  0.3 . . . . . . . . . . 6348 1 
+      162 . 1 1 34 34 ILE C   C 13 172.9  0.3 . . . . . . . . . . 6348 1 
+      163 . 1 1 34 34 ILE CB  C 13  33.7  0.3 . . . . . . . . . . 6348 1 
+      164 . 1 1 34 34 ILE CG2 C 13  13.3  0.3 . . . . . . . . . . 6348 1 
+      165 . 1 1 34 34 ILE CG1 C 13  25.3  0.3 . . . . . . . . . . 6348 1 
+      166 . 1 1 34 34 ILE CD1 C 13  10.6  0.3 . . . . . . . . . . 6348 1 
+      167 . 1 1 35 35 LEU N   N 15 119.0  0.3 . . . . . . . . . . 6348 1 
+      168 . 1 1 35 35 LEU CA  C 13  54.4  0.3 . . . . . . . . . . 6348 1 
+      169 . 1 1 35 35 LEU CB  C 13  37.9  0.3 . . . . . . . . . . 6348 1 
+      170 . 1 1 35 35 LEU CG  C 13  22.7  0.3 . . . . . . . . . . 6348 1 
+      171 . 1 1 35 35 LEU CD1 C 13  17.8  0.3 . . . . . . . . . . 6348 1 
+      172 . 1 1 35 35 LEU CD2 C 13  20.6  0.3 . . . . . . . . . . 6348 1 
+      173 . 1 1 36 36 SER N   N 15 114.9  0.3 . . . . . . . . . . 6348 1 
+      174 . 1 1 36 36 SER CA  C 13  58.3  0.3 . . . . . . . . . . 6348 1 
+      175 . 1 1 36 36 SER C   C 13 173.1  0.3 . . . . . . . . . . 6348 1 
+      176 . 1 1 36 36 SER CB  C 13  59.8  0.3 . . . . . . . . . . 6348 1 
+      177 . 1 1 38 38 THR N   N 15 105.0  0.3 . . . . . . . . . . 6348 1 
+      178 . 1 1 38 38 THR CA  C 13  56.1  0.3 . . . . . . . . . . 6348 1 
+      179 . 1 1 38 38 THR C   C 13 170.6  0.3 . . . . . . . . . . 6348 1 
+      180 . 1 1 38 38 THR CB  C 13  70.6  0.3 . . . . . . . . . . 6348 1 
+      181 . 1 1 39 39 THR N   N 15 107.2  0.3 . . . . . . . . . . 6348 1 
+      182 . 1 1 39 39 THR CA  C 13  56.0  0.3 . . . . . . . . . . 6348 1 
+      183 . 1 1 39 39 THR C   C 13 169.0  0.3 . . . . . . . . . . 6348 1 
+      184 . 1 1 39 39 THR CB  C 13  64.1  0.3 . . . . . . . . . . 6348 1 
+      185 . 1 1 40 40 TRP N   N 15 118.6  0.3 . . . . . . . . . . 6348 1 
+      186 . 1 1 40 40 TRP CA  C 13  53.5  0.3 . . . . . . . . . . 6348 1 
+      187 . 1 1 40 40 TRP C   C 13 173.7  0.3 . . . . . . . . . . 6348 1 
+      188 . 1 1 40 40 TRP CB  C 13  25.9  0.3 . . . . . . . . . . 6348 1 
+      189 . 1 1 40 40 TRP CG  C 13 108.9  0.3 . . . . . . . . . . 6348 1 
+      190 . 1 1 40 40 TRP CD1 C 13 119.7  0.3 . . . . . . . . . . 6348 1 
+      191 . 1 1 40 40 TRP NE1 N 15 125.2  0.3 . . . . . . . . . . 6348 1 
+      192 . 1 1 40 40 TRP CE2 C 13 134.9  0.3 . . . . . . . . . . 6348 1 
+      193 . 1 1 41 41 PHE N   N 15 122.4  0.3 . . . . . . . . . . 6348 1 
+      194 . 1 1 41 41 PHE CA  C 13  54.9  0.3 . . . . . . . . . . 6348 1 
+      195 . 1 1 41 41 PHE C   C 13 169.9  0.3 . . . . . . . . . . 6348 1 
+      196 . 1 1 41 41 PHE CB  C 13  30.8  0.3 . . . . . . . . . . 6348 1 
+      197 . 1 1 41 41 PHE CG  C 13 134.7  0.3 . . . . . . . . . . 6348 1 
+      198 . 1 1 42 42 PRO N   N 15 135.3  0.3 . . . . . . . . . . 6348 1 
+      199 . 1 1 42 42 PRO CA  C 13  63.0  0.3 . . . . . . . . . . 6348 1 
+      200 . 1 1 42 42 PRO C   C 13 174.5  0.3 . . . . . . . . . . 6348 1 
+      201 . 1 1 42 42 PRO CB  C 13  28.0  0.3 . . . . . . . . . . 6348 1 
+      202 . 1 1 42 42 PRO CG  C 13  25.0  0.3 . . . . . . . . . . 6348 1 
+      203 . 1 1 42 42 PRO CD  C 13  46.1  0.3 . . . . . . . . . . 6348 1 
+      204 . 1 1 43 43 ALA N   N 15 120.8  0.3 . . . . . . . . . . 6348 1 
+      205 . 1 1 43 43 ALA CA  C 13  50.4  0.3 . . . . . . . . . . 6348 1 
+      206 . 1 1 43 43 ALA C   C 13 178.8  0.3 . . . . . . . . . . 6348 1 
+      207 . 1 1 43 43 ALA CB  C 13  14.9  0.3 . . . . . . . . . . 6348 1 
+      208 . 1 1 44 44 TYR N   N 15 124.1  0.3 . . . . . . . . . . 6348 1 
+      209 . 1 1 44 44 TYR CA  C 13  51.6  0.3 . . . . . . . . . . 6348 1 
+      210 . 1 1 44 44 TYR C   C 13 177.2  0.3 . . . . . . . . . . 6348 1 
+      211 . 1 1 44 44 TYR CB  C 13  44.2  0.3 . . . . . . . . . . 6348 1 
+      212 . 1 1 45 45 TRP N   N 15 118.6  0.3 . . . . . . . . . . 6348 1 
+      213 . 1 1 45 45 TRP CA  C 13  54.0  0.3 . . . . . . . . . . 6348 1 
+      214 . 1 1 45 45 TRP C   C 13 173.6  0.3 . . . . . . . . . . 6348 1 
+      215 . 1 1 45 45 TRP CB  C 13  25.8  0.3 . . . . . . . . . . 6348 1 
+      216 . 1 1 45 45 TRP CG  C 13 105.3  0.3 . . . . . . . . . . 6348 1 
+      217 . 1 1 45 45 TRP CD1 C 13 126.1  0.3 . . . . . . . . . . 6348 1 
+      218 . 1 1 45 45 TRP NE1 N 15 133.7  0.3 . . . . . . . . . . 6348 1 
+      219 . 1 1 45 45 TRP CE2 C 13 136.3  0.3 . . . . . . . . . . 6348 1 
+
+   stop_
+
+save_
+
+
+save_assigned_chemical_shifts_2
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chemical_shifts_2
+   _Assigned_chem_shift_list.Entry_ID                      6348
+   _Assigned_chem_shift_list.ID                            2
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                      'sequence B-subunit ATLTAEQSEELHKYVIDGTRVFLGLALVAHFLAFSATPWLH'
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      . . 1 $sample_1 . 6348 2 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 2 2  1  1 ALA N   N 15  77.1 0.3 . . . . . . . . . . 6348 2 
+        2 . 2 2  1  1 ALA CA  C 13  47.5 0.3 . . . . . . . . . . 6348 2 
+        3 . 2 2  1  1 ALA C   C 13 171.2 0.3 . . . . . . . . . . 6348 2 
+        4 . 2 2  1  1 ALA CB  C 13  16.3 0.3 . . . . . . . . . . 6348 2 
+        5 . 2 2  2  2 THR N   N 15 108.9 0.3 . . . . . . . . . . 6348 2 
+        6 . 2 2  2  2 THR CA  C 13  58.8 0.3 . . . . . . . . . . 6348 2 
+        7 . 2 2  2  2 THR C   C 13 170.3 0.3 . . . . . . . . . . 6348 2 
+        8 . 2 2  2  2 THR CB  C 13  66.0 0.3 . . . . . . . . . . 6348 2 
+        9 . 2 2  2  2 THR CG2 C 13  17.1 0.3 . . . . . . . . . . 6348 2 
+       10 . 2 2  3  3 LEU N   N 15 115.9 0.3 . . . . . . . . . . 6348 2 
+       11 . 2 2  3  3 LEU CA  C 13  54.4 0.3 . . . . . . . . . . 6348 2 
+       12 . 2 2  3  3 LEU C   C 13 177.1 0.3 . . . . . . . . . . 6348 2 
+       13 . 2 2  3  3 LEU CB  C 13  38.3 0.3 . . . . . . . . . . 6348 2 
+       14 . 2 2  3  3 LEU CG  C 13  24.1 0.3 . . . . . . . . . . 6348 2 
+       15 . 2 2  3  3 LEU CD1 C 13  22.1 0.3 . . . . . . . . . . 6348 2 
+       16 . 2 2  3  3 LEU CD2 C 13  18.4 0.3 . . . . . . . . . . 6348 2 
+       17 . 2 2  4  4 THR N   N 15 106.1 0.3 . . . . . . . . . . 6348 2 
+       18 . 2 2  4  4 THR CA  C 13  58.7 0.3 . . . . . . . . . . 6348 2 
+       19 . 2 2  4  4 THR C   C 13 170.6 0.3 . . . . . . . . . . 6348 2 
+       20 . 2 2  4  4 THR CB  C 13  66.8 0.3 . . . . . . . . . . 6348 2 
+       21 . 2 2  4  4 THR CG2 C 13  16.8 0.3 . . . . . . . . . . 6348 2 
+       22 . 2 2  5  5 ALA N   N 15 118.0 0.3 . . . . . . . . . . 6348 2 
+       23 . 2 2  5  5 ALA CA  C 13  51.5 0.3 . . . . . . . . . . 6348 2 
+       24 . 2 2  5  5 ALA CB  C 13  14.3 0.3 . . . . . . . . . . 6348 2 
+       25 . 2 2  6  6 GLU N   N 15 118.1 0.3 . . . . . . . . . . 6348 2 
+       26 . 2 2  6  6 GLU CA  C 13  54.1 0.3 . . . . . . . . . . 6348 2 
+       27 . 2 2  6  6 GLU C   C 13 176.1 0.3 . . . . . . . . . . 6348 2 
+       28 . 2 2  6  6 GLU CB  C 13  25.9 0.3 . . . . . . . . . . 6348 2 
+       29 . 2 2  6  6 GLU CG  C 13  30.5 0.3 . . . . . . . . . . 6348 2 
+       30 . 2 2  7  7 GLN N   N 15 120.9 0.3 . . . . . . . . . . 6348 2 
+       31 . 2 2  7  7 GLN CA  C 13  48.2 0.3 . . . . . . . . . . 6348 2 
+       32 . 2 2  7  7 GLN C   C 13 174.0 0.3 . . . . . . . . . . 6348 2 
+       33 . 2 2  7  7 GLN CB  C 13  21.8 0.3 . . . . . . . . . . 6348 2 
+       34 . 2 2  7  7 GLN CG  C 13  26.8 0.3 . . . . . . . . . . 6348 2 
+       35 . 2 2  8  8 SER N   N 15 110.2 0.3 . . . . . . . . . . 6348 2 
+       36 . 2 2  8  8 SER CA  C 13  57.3 0.3 . . . . . . . . . . 6348 2 
+       37 . 2 2  8  8 SER C   C 13 173.6 0.3 . . . . . . . . . . 6348 2 
+       38 . 2 2  8  8 SER CB  C 13  59.6 0.3 . . . . . . . . . . 6348 2 
+       39 . 2 2 10 10 GLU N   N 15 117.2 0.3 . . . . . . . . . . 6348 2 
+       40 . 2 2 10 10 GLU CA  C 13  55.1 0.3 . . . . . . . . . . 6348 2 
+       41 . 2 2 10 10 GLU C   C 13 178.3 0.3 . . . . . . . . . . 6348 2 
+       42 . 2 2 10 10 GLU CB  C 13  25.2 0.3 . . . . . . . . . . 6348 2 
+       43 . 2 2 10 10 GLU CG  C 13  30.8 0.3 . . . . . . . . . . 6348 2 
+       44 . 2 2 12 12 HIS N   N 15 119.4 0.3 . . . . . . . . . . 6348 2 
+       45 . 2 2 12 12 HIS CA  C 13  56.0 0.3 . . . . . . . . . . 6348 2 
+       46 . 2 2 12 12 HIS C   C 13 173.8 0.3 . . . . . . . . . . 6348 2 
+       47 . 2 2 12 12 HIS CB  C 13  27.6 0.3 . . . . . . . . . . 6348 2 
+       48 . 2 2 12 12 HIS CG  C 13 132.9 0.3 . . . . . . . . . . 6348 2 
+       49 . 2 2 12 12 HIS CD2 C 13 113.5 0.3 . . . . . . . . . . 6348 2 
+       50 . 2 2 12 12 HIS NE2 N 15 166.4 0.3 . . . . . . . . . . 6348 2 
+       51 . 2 2 13 13 LYS N   N 15 114.5 0.3 . . . . . . . . . . 6348 2 
+       52 . 2 2 13 13 LYS CA  C 13  50.4 0.3 . . . . . . . . . . 6348 2 
+       53 . 2 2 13 13 LYS C   C 13 170.7 0.3 . . . . . . . . . . 6348 2 
+       54 . 2 2 13 13 LYS CB  C 13  31.0 0.3 . . . . . . . . . . 6348 2 
+       55 . 2 2 13 13 LYS CG  C 13  23.4 0.3 . . . . . . . . . . 6348 2 
+       56 . 2 2 13 13 LYS CD  C 13  27.8 0.3 . . . . . . . . . . 6348 2 
+       57 . 2 2 15 15 VAL N   N 15 114.2 0.3 . . . . . . . . . . 6348 2 
+       58 . 2 2 15 15 VAL CA  C 13  62.1 0.3 . . . . . . . . . . 6348 2 
+       59 . 2 2 15 15 VAL CB  C 13  27.7 0.3 . . . . . . . . . . 6348 2 
+       60 . 2 2 15 15 VAL CG1 C 13  19.0 0.3 . . . . . . . . . . 6348 2 
+       61 . 2 2 15 15 VAL CG2 C 13  17.1 0.3 . . . . . . . . . . 6348 2 
+       62 . 2 2 16 16 ILE N   N 15 123.6 0.3 . . . . . . . . . . 6348 2 
+       63 . 2 2 16 16 ILE CA  C 13  57.6 0.3 . . . . . . . . . . 6348 2 
+       64 . 2 2 16 16 ILE C   C 13 174.8 0.3 . . . . . . . . . . 6348 2 
+       65 . 2 2 16 16 ILE CB  C 13  31.1 0.3 . . . . . . . . . . 6348 2 
+       66 . 2 2 16 16 ILE CG2 C 13  22.1 0.3 . . . . . . . . . . 6348 2 
+       67 . 2 2 16 16 ILE CG1 C 13  12.9 0.3 . . . . . . . . . . 6348 2 
+       68 . 2 2 16 16 ILE CD1 C 13   2.7 0.3 . . . . . . . . . . 6348 2 
+       69 . 2 2 17 17 ASP N   N 15 115.6 0.3 . . . . . . . . . . 6348 2 
+       70 . 2 2 17 17 ASP CA  C 13  50.0 0.3 . . . . . . . . . . 6348 2 
+       71 . 2 2 17 17 ASP C   C 13 173.6 0.3 . . . . . . . . . . 6348 2 
+       72 . 2 2 17 17 ASP CB  C 13  37.6 0.3 . . . . . . . . . . 6348 2 
+       73 . 2 2 18 18 GLY N   N 15 105.5 0.3 . . . . . . . . . . 6348 2 
+       74 . 2 2 18 18 GLY CA  C 13  44.2 0.3 . . . . . . . . . . 6348 2 
+       75 . 2 2 18 18 GLY C   C 13 170.8 0.3 . . . . . . . . . . 6348 2 
+       76 . 2 2 19 19 THR N   N 15 106.4 0.3 . . . . . . . . . . 6348 2 
+       77 . 2 2 19 19 THR CA  C 13  58.0 0.3 . . . . . . . . . . 6348 2 
+       78 . 2 2 19 19 THR C   C 13 176.0 0.3 . . . . . . . . . . 6348 2 
+       79 . 2 2 19 19 THR CB  C 13  65.8 0.3 . . . . . . . . . . 6348 2 
+       80 . 2 2 19 19 THR CG2 C 13  17.5 0.3 . . . . . . . . . . 6348 2 
+       81 . 2 2 20 20 ARG CA  C 13  56.9 0.3 . . . . . . . . . . 6348 2 
+       82 . 2 2 20 20 ARG C   C 13 171.4 0.3 . . . . . . . . . . 6348 2 
+       83 . 2 2 20 20 ARG CB  C 13  26.8 0.3 . . . . . . . . . . 6348 2 
+       84 . 2 2 20 20 ARG CG  C 13  25.5 0.3 . . . . . . . . . . 6348 2 
+       85 . 2 2 20 20 ARG CD  C 13  41.1 0.3 . . . . . . . . . . 6348 2 
+       86 . 2 2 20 20 ARG NE  N 15  81.2 0.3 . . . . . . . . . . 6348 2 
+       87 . 2 2 20 20 ARG CZ  C 13 156.2 0.3 . . . . . . . . . . 6348 2 
+       88 . 2 2 20 20 ARG NH1 N 15  76.6 0.3 . . . . . . . . . . 6348 2 
+       89 . 2 2 20 20 ARG NH2 N 15  70.1 0.3 . . . . . . . . . . 6348 2 
+       90 . 2 2 22 22 PHE N   N 15 120.6 0.3 . . . . . . . . . . 6348 2 
+       91 . 2 2 22 22 PHE CA  C 13  54.4 0.3 . . . . . . . . . . 6348 2 
+       92 . 2 2 22 22 PHE CB  C 13  36.2 0.3 . . . . . . . . . . 6348 2 
+       93 . 2 2 23 23 LEU CA  C 13  53.9 0.3 . . . . . . . . . . 6348 2 
+       94 . 2 2 23 23 LEU C   C 13 174.5 0.3 . . . . . . . . . . 6348 2 
+       95 . 2 2 23 23 LEU CB  C 13  37.4 0.3 . . . . . . . . . . 6348 2 
+       96 . 2 2 23 23 LEU CG  C 13  23.9 0.3 . . . . . . . . . . 6348 2 
+       97 . 2 2 23 23 LEU CD1 C 13  22.9 0.3 . . . . . . . . . . 6348 2 
+       98 . 2 2 23 23 LEU CD2 C 13  18.8 0.3 . . . . . . . . . . 6348 2 
+       99 . 2 2 24 24 GLY N   N 15 106.3 0.3 . . . . . . . . . . 6348 2 
+      100 . 2 2 24 24 GLY CA  C 13  44.0 0.3 . . . . . . . . . . 6348 2 
+      101 . 2 2 24 24 GLY C   C 13 171.9 0.3 . . . . . . . . . . 6348 2 
+      102 . 2 2 25 25 LEU N   N 15 119.2 0.3 . . . . . . . . . . 6348 2 
+      103 . 2 2 25 25 LEU CA  C 13  54.0 0.3 . . . . . . . . . . 6348 2 
+      104 . 2 2 25 25 LEU CB  C 13  37.4 0.3 . . . . . . . . . . 6348 2 
+      105 . 2 2 25 25 LEU CG  C 13  23.6 0.3 . . . . . . . . . . 6348 2 
+      106 . 2 2 25 25 LEU CD1 C 13  22.1 0.3 . . . . . . . . . . 6348 2 
+      107 . 2 2 25 25 LEU CD2 C 13  19.5 0.3 . . . . . . . . . . 6348 2 
+      108 . 2 2 26 26 ALA N   N 15 120.8 0.3 . . . . . . . . . . 6348 2 
+      109 . 2 2 26 26 ALA CA  C 13  50.9 0.3 . . . . . . . . . . 6348 2 
+      110 . 2 2 26 26 ALA CB  C 13  13.9 0.3 . . . . . . . . . . 6348 2 
+      111 . 2 2 27 27 LEU CA  C 13  54.1 0.3 . . . . . . . . . . 6348 2 
+      112 . 2 2 27 27 LEU CB  C 13  37.5 0.3 . . . . . . . . . . 6348 2 
+      113 . 2 2 28 28 VAL N   N 15 120.2 0.3 . . . . . . . . . . 6348 2 
+      114 . 2 2 28 28 VAL CA  C 13  63.7 0.3 . . . . . . . . . . 6348 2 
+      115 . 2 2 28 28 VAL C   C 13 173.1 0.3 . . . . . . . . . . 6348 2 
+      116 . 2 2 28 28 VAL CB  C 13  27.4 0.3 . . . . . . . . . . 6348 2 
+      117 . 2 2 28 28 VAL CG1 C 13  20.5 0.3 . . . . . . . . . . 6348 2 
+      118 . 2 2 28 28 VAL CG2 C 13  17.6 0.3 . . . . . . . . . . 6348 2 
+      119 . 2 2 29 29 ALA N   N 15 120.3 0.3 . . . . . . . . . . 6348 2 
+      120 . 2 2 29 29 ALA CA  C 13  51.4 0.3 . . . . . . . . . . 6348 2 
+      121 . 2 2 29 29 ALA C   C 13 176.1 0.3 . . . . . . . . . . 6348 2 
+      122 . 2 2 29 29 ALA CB  C 13  14.4 0.3 . . . . . . . . . . 6348 2 
+      123 . 2 2 30 30 HIS N   N 15 113.1 0.3 . . . . . . . . . . 6348 2 
+      124 . 2 2 30 30 HIS CA  C 13  57.8 0.3 . . . . . . . . . . 6348 2 
+      125 . 2 2 30 30 HIS C   C 13 173.2 0.3 . . . . . . . . . . 6348 2 
+      126 . 2 2 30 30 HIS CB  C 13  23.4 0.3 . . . . . . . . . . 6348 2 
+      127 . 2 2 30 30 HIS CG  C 13 125.2 0.3 . . . . . . . . . . 6348 2 
+      128 . 2 2 30 30 HIS CD2 C 13 118.8 0.3 . . . . . . . . . . 6348 2 
+      129 . 2 2 30 30 HIS NE2 N 15 169.0 0.3 . . . . . . . . . . 6348 2 
+      130 . 2 2 31 31 PHE N   N 15 120.7 0.3 . . . . . . . . . . 6348 2 
+      131 . 2 2 31 31 PHE CA  C 13  59.6 0.3 . . . . . . . . . . 6348 2 
+      132 . 2 2 31 31 PHE C   C 13 173.5 0.3 . . . . . . . . . . 6348 2 
+      133 . 2 2 31 31 PHE CB  C 13  36.0 0.3 . . . . . . . . . . 6348 2 
+      134 . 2 2 31 31 PHE CG  C 13 136.2 0.3 . . . . . . . . . . 6348 2 
+      135 . 2 2 32 32 LEU N   N 15 117.4 0.3 . . . . . . . . . . 6348 2 
+      136 . 2 2 32 32 LEU CA  C 13  53.7 0.3 . . . . . . . . . . 6348 2 
+      137 . 2 2 32 32 LEU CB  C 13  38.3 0.3 . . . . . . . . . . 6348 2 
+      138 . 2 2 32 32 LEU CG  C 13  22.6 0.3 . . . . . . . . . . 6348 2 
+      139 . 2 2 32 32 LEU CD1 C 13  20.4 0.3 . . . . . . . . . . 6348 2 
+      140 . 2 2 32 32 LEU CD2 C 13  19.1 0.3 . . . . . . . . . . 6348 2 
+      141 . 2 2 33 33 ALA N   N 15 120.5 0.3 . . . . . . . . . . 6348 2 
+      142 . 2 2 33 33 ALA CB  C 13  15.5 0.3 . . . . . . . . . . 6348 2 
+      143 . 2 2 33 33 ALA CA  C 13  51.5 0.3 . . . . . . . . . . 6348 2 
+      144 . 2 2 34 34 PHE N   N 15 121.5 0.3 . . . . . . . . . . 6348 2 
+      145 . 2 2 34 34 PHE CA  C 13  58.3 0.3 . . . . . . . . . . 6348 2 
+      146 . 2 2 34 34 PHE C   C 13 175.8 0.3 . . . . . . . . . . 6348 2 
+      147 . 2 2 34 34 PHE CB  C 13  34.9 0.3 . . . . . . . . . . 6348 2 
+      148 . 2 2 34 34 PHE CG  C 13 134.7 0.3 . . . . . . . . . . 6348 2 
+      149 . 2 2 35 35 SER N   N 15 105.0 0.3 . . . . . . . . . . 6348 2 
+      150 . 2 2 35 35 SER CA  C 13  55.9 0.3 . . . . . . . . . . 6348 2 
+      151 . 2 2 35 35 SER CB  C 13  59.7 0.3 . . . . . . . . . . 6348 2 
+      152 . 2 2 36 36 ALA N   N 15 120.5 0.3 . . . . . . . . . . 6348 2 
+      153 . 2 2 36 36 ALA CA  C 13  50.5 0.3 . . . . . . . . . . 6348 2 
+      154 . 2 2 36 36 ALA C   C 13 173.8 0.3 . . . . . . . . . . 6348 2 
+      155 . 2 2 36 36 ALA CB  C 13  16.8 0.3 . . . . . . . . . . 6348 2 
+      156 . 2 2 37 37 THR N   N 15 108.6 0.3 . . . . . . . . . . 6348 2 
+      157 . 2 2 37 37 THR CA  C 13  57.3 0.3 . . . . . . . . . . 6348 2 
+      158 . 2 2 37 37 THR C   C 13 170.5 0.3 . . . . . . . . . . 6348 2 
+      159 . 2 2 37 37 THR CB  C 13  67.4 0.3 . . . . . . . . . . 6348 2 
+      160 . 2 2 37 37 THR CG2 C 13  17.3 0.3 . . . . . . . . . . 6348 2 
+      161 . 2 2 38 38 PRO N   N 15 126.5 0.3 . . . . . . . . . . 6348 2 
+      162 . 2 2 38 38 PRO CA  C 13  58.9 0.3 . . . . . . . . . . 6348 2 
+      163 . 2 2 38 38 PRO CB  C 13  28.4 0.3 . . . . . . . . . . 6348 2 
+      164 . 2 2 38 38 PRO CG  C 13  25.2 0.3 . . . . . . . . . . 6348 2 
+      165 . 2 2 38 38 PRO CD  C 13  46.6 0.3 . . . . . . . . . . 6348 2 
+      166 . 2 2 39 39 TRP N   N 15 120.5 0.3 . . . . . . . . . . 6348 2 
+      167 . 2 2 39 39 TRP CA  C 13  55.0 0.3 . . . . . . . . . . 6348 2 
+      168 . 2 2 39 39 TRP CB  C 13  25.0 0.3 . . . . . . . . . . 6348 2 
+      169 . 2 2 39 39 TRP CG  C 13 108.5 0.3 . . . . . . . . . . 6348 2 
+      170 . 2 2 39 39 TRP CD1 C 13 123.0 0.3 . . . . . . . . . . 6348 2 
+      171 . 2 2 39 39 TRP NE1 N 15 128.2 0.3 . . . . . . . . . . 6348 2 
+      172 . 2 2 39 39 TRP CE2 C 13 135.4 0.3 . . . . . . . . . . 6348 2 
+
+   stop_
+
+save_
+

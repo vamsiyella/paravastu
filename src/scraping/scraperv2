@@ -1,0 +1,507 @@
+#!/usr/bin/env python3
+# scrape_bmrb_solidstate_v2.py
+
+import os
+import re
+import json
+import time
+import math
+import queue
+import logging
+import argparse
+import threading
+from dataclasses import dataclass, field
+from typing import List, Dict, Optional, Set, Tuple, Any
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+import requests
+import numpy as np
+import pandas as pd
+from bs4 import BeautifulSoup
+from tqdm import tqdm
+import gemmi
+
+
+BMRB_SOLIDSTATE_URL = "https://bmrb.io/search/solid_state_grid.php"
+RCSB_SEARCH_URL = "https://search.rcsb.org/rcsbsearch/v2/query"
+RCSB_ENTRY_URL = "https://data.rcsb.org/rest/v1/core/entry"
+RCSB_DOWNLOAD_URL = "https://files.rcsb.org/download"
+
+CACHE_DIR = "cache"
+BMRB_CACHE = os.path.join(CACHE_DIR, "bmrb")
+PDB_CACHE = os.path.join(CACHE_DIR, "pdb")
+RCSB_CACHE = os.path.join(CACHE_DIR, "rcsb")
+
+os.makedirs(BMRB_CACHE, exist_ok=True)
+os.makedirs(PDB_CACHE, exist_ok=True)
+os.makedirs(RCSB_CACHE, exist_ok=True)
+
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s"
+)
+logger = logging.getLogger("bmrb_ssnmr_v2")
+
+
+def safe_write(path: str, content: bytes):
+    tmp = path + ".tmp"
+    with open(tmp, "wb") as f:
+        f.write(content)
+    os.replace(tmp, path)
+
+
+def read_file(path: str) -> bytes:
+    with open(path, "rb") as f:
+        return f.read()
+
+
+@dataclass
+class BMRBEntry:
+    bmrb_id: str
+    pdb_ids: List[str] = field(default_factory=list)
+    selected_pdb: Optional[str] = None
+
+    best_chain: Optional[str] = None
+    best_chain_length: int = 0
+
+    total_residues: int = 0
+    protein_residues: int = 0
+
+    helix_count: int = 0
+    sheet_count: int = 0
+    helix_fraction: float = 0.0
+    sheet_fraction: float = 0.0
+
+    experimental_method: str = ""
+    resolution: Optional[float] = None
+
+    passed_filter: bool = False
+    failure_reason: str = ""
+
+
+class SessionManager:
+    def __init__(self, workers: int = 8):
+        self.session = requests.Session()
+        adapter = requests.adapters.HTTPAdapter(
+            pool_connections=workers,
+            pool_maxsize=workers,
+            max_retries=0
+        )
+        self.session.mount("https://", adapter)
+        self.session.mount("http://", adapter)
+
+
+class RetryClient:
+    def __init__(self, session: requests.Session, retries: int = 4):
+        self.session = session
+        self.retries = retries
+
+    def get(self, url: str, timeout: int = 30) -> Optional[requests.Response]:
+        delay = 1.0
+        for i in range(self.retries):
+            try:
+                r = self.session.get(url, timeout=timeout)
+                if r.status_code == 200:
+                    return r
+            except Exception:
+                pass
+            time.sleep(delay)
+            delay *= 2
+        return None
+
+    def post(self, url: str, json_data: dict, timeout: int = 30) -> Optional[requests.Response]:
+        delay = 1.0
+        for _ in range(self.retries):
+            try:
+                r = self.session.post(url, json=json_data, timeout=timeout)
+                if r.status_code == 200:
+                    return r
+            except Exception:
+                pass
+            time.sleep(delay)
+            delay *= 2
+        return None
+
+
+def scrape_bmrb_ids(session: requests.Session) -> List[str]:
+    logger.info("Scraping BMRB solid-state grid")
+    r = session.get(BMRB_SOLIDSTATE_URL, timeout=30)
+    r.raise_for_status()
+
+    soup = BeautifulSoup(r.text, "html.parser")
+    text = soup.get_text(" ")
+
+    ids = set(re.findall(r"\b\d{4,6}\b", text))
+    filtered = sorted({f"{i}" for i in ids})
+
+    logger.info(f"Found {len(filtered)} candidate BMRB IDs")
+    return filtered
+
+
+def cache_path_bmrb(bmrb_id: str) -> str:
+    return os.path.join(BMRB_CACHE, f"{bmrb_id}.nmrstar")
+
+
+def cache_path_pdb(pdb_id: str) -> str:
+    return os.path.join(PDB_CACHE, f"{pdb_id}.cif")
+
+
+def download_bmrb_entry(client: RetryClient, bmrb_id: str) -> Optional[str]:
+    path = cache_path_bmrb(bmrb_id)
+    if os.path.exists(path):
+        return path
+
+    urls = [
+        f"https://bmrb.io/ftp/pub/bmrb/entry_directories/bmr{bmrb_id}/bmr{bmrb_id}.str",
+        f"https://bmrb.io/ftp/pub/bmrb/entry_directories/bmr{bmrb_id}/bmr{bmrb_id}.nmr-star3",
+        f"https://bmrb.io/ftp/pub/bmrb/entry_directories/bmr{bmrb_id}/bmr{bmrb_id}.nmrstar3",
+        f"https://bmrb.io/data_library/summary/index.php?bmrbId={bmrb_id}"
+    ]
+
+    for url in urls:
+        r = client.get(url)
+        if r:
+            safe_write(path, r.content)
+            return path
+
+    return None
+
+
+def extract_pdb_from_cif_block(block: gemmi.cif.Block) -> Set[str]:
+    pdbs = set()
+
+    for item in block:
+        name = item[0]
+        val = str(item[1]).upper()
+
+        if "PDB" in name.upper() or "DATABASE" in name.upper():
+            matches = re.findall(r"\b[0-9][A-Z0-9]{3}\b", val)
+            pdbs.update(matches)
+
+    for tag in block.find_values("database_id"):
+        if isinstance(tag, str):
+            m = re.findall(r"\b[0-9][A-Z0-9]{3}\b", tag.upper())
+            pdbs.update(m)
+
+    return {p for p in pdbs if len(p) == 4}
+
+
+def download_rcsb_cif(client: RetryClient, pdb_id: str) -> Optional[str]:
+    path = cache_path_pdb(pdb_id)
+    if os.path.exists(path):
+        return path
+
+    url = f"{RCSB_DOWNLOAD_URL}/{pdb_id}.cif"
+    r = client.get(url)
+    if r:
+        safe_write(path, r.content)
+        return path
+
+    return None
+
+
+def query_rcsb_by_bmrb(client: RetryClient, bmrb_id: str) -> List[str]:
+    cache_file = os.path.join(RCSB_CACHE, f"{bmrb_id}.json")
+    if os.path.exists(cache_file):
+        with open(cache_file, "r") as f:
+            return json.load(f)
+
+    query = {
+        "query": {
+            "type": "terminal",
+            "service": "text",
+            "parameters": {
+                "attribute": "rcsb_accession_info.bmrb_accession_code",
+                "operator": "exact_match",
+                "value": bmrb_id
+            }
+        },
+        "return_type": "entry"
+    }
+
+    r = client.post(RCSB_SEARCH_URL, query)
+    if not r:
+        return []
+
+    try:
+        data = r.json()
+        ids = [item["identifier"] for item in data.get("result_set", [])]
+    except Exception:
+        ids = []
+
+    with open(cache_file, "w") as f:
+        json.dump(ids, f)
+
+    return ids
+
+
+def validate_pdb(client: RetryClient, pdb_id: str) -> bool:
+    url = f"{RCSB_ENTRY_URL}/{pdb_id}"
+    r = client.get(url)
+    return r is not None
+
+
+def parse_structure(cif_path: str) -> Optional[gemmi.Structure]:
+    try:
+        return gemmi.read_structure(cif_path)
+    except Exception:
+        return None
+
+
+def extract_secondary_structure(structure: gemmi.Structure) -> Tuple[int, int]:
+    helix = 0
+    sheet = 0
+
+    for model in structure:
+        for chain in model:
+            for residue in chain:
+                ss = residue.label_seq
+                _ = ss
+
+    st = structure.make_all_assembly()
+    for model in st:
+        for chain in model:
+            for residue in chain:
+                if residue.name in {"ALA", "LEU"}:
+                    pass
+
+    try:
+        cif = structure.make_mmcif_document()
+        block = cif.sole_block()
+
+        for row in block.find("_struct_conf.conf_type_id"):
+            if "HELX" in str(row).upper():
+                helix += 1
+
+        for row in block.find("_struct_sheet_range.sheet_id"):
+            sheet += 1
+    except Exception:
+        pass
+
+    return helix, sheet
+
+
+def chain_analysis(structure: gemmi.Structure) -> Dict[str, int]:
+    chain_lengths = {}
+
+    for model in structure:
+        for chain in model:
+            length = len([r for r in chain])
+            chain_lengths[chain.name] = length
+
+    return chain_lengths
+
+
+def select_best_chain(chain_lengths: Dict[str, int], target: Optional[int]) -> Tuple[str, int]:
+    if not chain_lengths:
+        return "", 0
+
+    if target:
+        best = min(chain_lengths.items(), key=lambda x: abs(x[1] - target))
+    else:
+        best = max(chain_lengths.items(), key=lambda x: x[1])
+
+    return best[0], best[1]
+
+
+def extract_structure_features(pdb_id: str, cif_path: str, bmrb_target: Optional[int]) -> Dict[str, Any]:
+    structure = parse_structure(cif_path)
+    if not structure:
+        return {}
+
+    chain_lengths = chain_analysis(structure)
+
+    best_chain, best_len = select_best_chain(chain_lengths, bmrb_target)
+
+    total_res = sum(chain_lengths.values())
+
+    helix, sheet = extract_secondary_structure(structure)
+
+    helix_frac = helix / max(total_res, 1)
+    sheet_frac = sheet / max(total_res, 1)
+
+    return {
+        "pdb_id": pdb_id,
+        "best_chain": best_chain,
+        "best_chain_length": best_len,
+        "total_residues": total_res,
+        "helix": helix,
+        "sheet": sheet,
+        "helix_fraction": helix_frac,
+        "sheet_fraction": sheet_frac
+    }
+
+
+def process_entry(
+    bmrb_id: str,
+    session: RetryClient
+) -> BMRBEntry:
+
+    entry = BMRBEntry(bmrb_id=bmrb_id)
+
+    logger.info(f"[{bmrb_id}] processing")
+
+    bmrb_file = download_bmrb_entry(session, bmrb_id)
+    if not bmrb_file:
+        entry.failure_reason = "BMRB download failed"
+        return entry
+
+    pdb_candidates = set()
+
+    try:
+        doc = gemmi.cif.read(bmrb_file)
+        for block in doc:
+            pdb_candidates |= extract_pdb_from_cif_block(block)
+    except Exception:
+        pass
+
+    rcsb_hits = query_rcsb_by_bmrb(session, bmrb_id)
+    pdb_candidates.update(rcsb_hits)
+
+    valid_pdbs = []
+
+    for pdb in pdb_candidates:
+        if validate_pdb(session, pdb):
+            valid_pdbs.append(pdb)
+
+    entry.pdb_ids = valid_pdbs
+
+    if not valid_pdbs:
+        entry.failure_reason = "No PDB found"
+        return entry
+
+    for pdb in valid_pdbs:
+        cif_path = download_rcsb_cif(session, pdb)
+        if not cif_path:
+            continue
+
+        features = extract_structure_features(pdb, cif_path, None)
+        if not features:
+            continue
+
+        entry.selected_pdb = pdb
+        entry.best_chain = features["best_chain"]
+        entry.best_chain_length = features["best_chain_length"]
+        entry.total_residues = features["total_residues"]
+        entry.helix_count = features["helix"]
+        entry.sheet_count = features["sheet"]
+        entry.helix_fraction = features["helix_fraction"]
+        entry.sheet_fraction = features["sheet_fraction"]
+
+        entry.experimental_method = "NMR"
+
+        break
+
+    if not entry.selected_pdb:
+        entry.failure_reason = "No valid structure parsed"
+        return entry
+
+    if entry.total_residues < 40:
+        entry.failure_reason = "Below residue threshold"
+        return entry
+
+    if (entry.helix_fraction + entry.sheet_fraction) < 0.20:
+        entry.failure_reason = "Low secondary structure content"
+        return entry
+
+    entry.passed_filter = True
+
+    logger.info(
+        f"[{bmrb_id}] Selected {entry.selected_pdb} | "
+        f"Chain {entry.best_chain} | residues {entry.total_residues} | PASS"
+    )
+
+    return entry
+
+
+def process_all(bmrb_ids: List[str], workers: int) -> List[BMRBEntry]:
+    session = SessionManager(workers).session
+    client = RetryClient(session)
+
+    results = []
+
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = {
+            executor.submit(process_entry, bid, client): bid
+            for bid in bmrb_ids
+        }
+
+        for i, fut in enumerate(tqdm(as_completed(futures), total=len(futures))):
+            try:
+                results.append(fut.result())
+            except Exception as e:
+                logger.error(f"Error: {e}")
+
+    return results
+
+
+def summarize(results: List[BMRBEntry]):
+    total = len(results)
+    passed = sum(r.passed_filter for r in results)
+    failed = total - passed
+
+    pdb_direct = sum(1 for r in results if r.pdb_ids)
+    rcsb_recovered = sum(1 for r in results if len(r.pdb_ids) > 1)
+
+    failure_counts = {}
+
+    for r in results:
+        if not r.passed_filter:
+            failure_counts[r.failure_reason] = failure_counts.get(r.failure_reason, 0) + 1
+
+    print("\nFINAL REPORT")
+    print(f"Total BMRB entries: {total}")
+    print(f"PDB recovered directly: {pdb_direct}")
+    print(f"PDB recovered through RCSB: {rcsb_recovered}")
+    print(f"Passed filters: {passed}")
+    print(f"Failed filters: {failed}")
+
+    print("\nFailure breakdown:")
+    for k, v in failure_counts.items():
+        print(f"{k}: {v}")
+
+
+def export_csv(results: List[BMRBEntry], path: str):
+    rows = []
+
+    for r in results:
+        rows.append({
+            "bmrb_id": r.bmrb_id,
+            "pdb_ids": ",".join(r.pdb_ids),
+            "selected_pdb": r.selected_pdb,
+            "best_chain": r.best_chain,
+            "best_chain_length": r.best_chain_length,
+            "total_residues": r.total_residues,
+            "protein_residues": r.protein_residues,
+            "helix_count": r.helix_count,
+            "sheet_count": r.sheet_count,
+            "helix_fraction": r.helix_fraction,
+            "sheet_fraction": r.sheet_fraction,
+            "experimental_method": r.experimental_method,
+            "resolution": r.resolution,
+            "passed_filter": r.passed_filter,
+            "failure_reason": r.failure_reason
+        })
+
+    df = pd.DataFrame(rows)
+    df.to_csv(path, index=False)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--workers", type=int, default=8)
+    parser.add_argument("--output", type=str, default="bmrb_ssNMR_candidates_v2.csv")
+    args = parser.parse_args()
+
+    session = requests.Session()
+    ids = scrape_bmrb_ids(session)
+
+    results = process_all(ids, args.workers)
+
+    export_csv(results, args.output)
+    summarize(results)
+
+
+if __name__ == "__main__":
+    main()

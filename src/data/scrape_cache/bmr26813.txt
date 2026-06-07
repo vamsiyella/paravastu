@@ -1,0 +1,1897 @@
+data_26813
+
+#######################
+#  Entry information  #
+#######################
+
+
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             26813
+   _Entry.Title
+;
+13C Chemical Shifts - Metarhodopsin II
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2016-06-12
+   _Entry.Accession_date                 2016-06-12
+   _Entry.Last_release_date              2016-06-16
+   _Entry.Original_release_date          2016-06-16
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.2.6
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1    Naoki       Kimata       .   .    .   .   26813
+      2    Andreyah    Pope         .   .    .   .   26813
+      3    Markus      Eilers       .   .    .   .   26813
+      4    Chikwado    Opefi        .   A.   .   .   26813
+      5    Martine     Ziliox       .   .    .   .   26813
+      6    Amiram      Hirschfeld   .   .    .   .   26813
+      7    Ekaterina   Zaitseva     .   .    .   .   26813
+      8    Reiner      Vogel        .   .    .   .   26813
+      9    Mordechai   Sheves       .   .    .   .   26813
+      10   Philip      Reeves       .   J.   .   .   26813
+      11   Steven      Smith        .   O.   .   .   26813
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1   .   'Stony Brook University'   .   26813
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   26813
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   36   26813
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      2   .   .   2016-10-26   2016-06-12   update     BMRB     'update entry citation'   26813
+      1   .   .   2016-06-16   2016-06-12   original   author   'original release'        26813
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB   26811   rhodopsin                              26813
+      BMRB   26812   'Complex I of Retinal and rhodopsin'   26813
+   stop_
+save_
+
+###############
+#  Citations  #
+###############
+
+
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     26813
+   _Citation.ID                           1
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    27585742
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Retinal orientation and interactions in rhodopsin reveal a two-stage trigger mechanism for activation
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'Nat. Commun.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               7
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   12683
+   _Citation.Page_last                    12683
+   _Citation.Year                         2016
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1    Naoki       Kimata       .   .    .   .   26813   1
+      2    Andreyah    Pope         .   .    .   .   26813   1
+      3    Markus      Eilers       .   .    .   .   26813   1
+      4    Chikwado    Opefi        .   A.   .   .   26813   1
+      5    Martine     Ziliox       .   .    .   .   26813   1
+      6    Amiram      Hirschfeld   .   .    .   .   26813   1
+      7    Ekaterina   Zaitseva     .   .    .   .   26813   1
+      8    Reiner      Vogel        .   .    .   .   26813   1
+      9    Mordechai   Sheves       .   .    .   .   26813   1
+      10   Philip      Reeves       .   J.   .   .   26813   1
+      11   Steven      Smith        .   O.   .   .   26813   1
+   stop_
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          26813
+   _Assembly.ID                                1
+   _Assembly.Name                              Rhodopsin
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              2
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                yes
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   Opsin     1   $Opsin        A   .   yes   native   no    no   .   .   .   26813   1
+      2   Retinal   2   $entity_RET   A   .   yes   native   yes   no   .   .   .   26813   1
+   stop_
+
+   loop_
+      _Bond.ID
+      _Bond.Type
+      _Bond.Value_order
+      _Bond.Assembly_atom_ID_1
+      _Bond.Entity_assembly_ID_1
+      _Bond.Entity_assembly_name_1
+      _Bond.Entity_ID_1
+      _Bond.Comp_ID_1
+      _Bond.Comp_index_ID_1
+      _Bond.Seq_ID_1
+      _Bond.Atom_ID_1
+      _Bond.Assembly_atom_ID_2
+      _Bond.Entity_assembly_ID_2
+      _Bond.Entity_assembly_name_2
+      _Bond.Entity_ID_2
+      _Bond.Comp_ID_2
+      _Bond.Comp_index_ID_2
+      _Bond.Seq_ID_2
+      _Bond.Atom_ID_2
+      _Bond.Auth_entity_assembly_ID_1
+      _Bond.Auth_entity_assembly_name_1
+      _Bond.Auth_seq_ID_1
+      _Bond.Auth_comp_ID_1
+      _Bond.Auth_atom_ID_1
+      _Bond.Auth_entity_assembly_ID_2
+      _Bond.Auth_entity_assembly_name_2
+      _Bond.Auth_seq_ID_2
+      _Bond.Auth_comp_ID_2
+      _Bond.Auth_atom_ID_2
+      _Bond.Entry_ID
+      _Bond.Assembly_ID
+
+      1   covalent    single   .   1   .   1   LYS   296   296   NZ   .   2   .   2   RET   1     1     C15   .   Opsin   296   LYS   NZ   .   Retinal   RET   RET   C15   26813   1
+      2   disulfide   single   .   1   .   1   CYS   110   110   SG   .   1   .   1   CYS   187   187   SG    .   .       .     .     .    .   .         .     .     .     26813   1
+   stop_
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+
+
+save_Opsin
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      Opsin
+   _Entity.Entry_ID                          26813
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              Rhodopsin
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+MNGTEGPNFYVPFSNKTGVV
+RSPFEAPQYYLAEPWQFSML
+AAYMFLLIMLGFPINFLTLY
+VTVQHKKLRTPLNYILLNLA
+VADLFMVFGGFTTTLYTSLH
+GYFVFGPTGCNLEGFFATLG
+GEIALWSLVVLAIERYVVVC
+KPMSNFRFGENHAIMGVAFT
+WVMALACAAPPLVGWSRYIP
+EGMQCSCGIDYYTPHEETNN
+ESFVIYMFVVHFIIPLIVIF
+FCYGQLVFTVKEAAAQQQES
+ATTQKAEKEVTRMVIIMVIA
+FLICWLPYAGVAFYIFTHQG
+SDFGPIFMTIPAFFAKTSSV
+YNPVIYIMMNKQFRNCMVTT
+LCCGKNPLGDDEASTTVSKT
+ETSQVAPA
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                348
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'free and disulfide bound'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           'Cys110-Cys187 disulfide bond'
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1     .   MET   .   26813   1
+      2     .   ASN   .   26813   1
+      3     .   GLY   .   26813   1
+      4     .   THR   .   26813   1
+      5     .   GLU   .   26813   1
+      6     .   GLY   .   26813   1
+      7     .   PRO   .   26813   1
+      8     .   ASN   .   26813   1
+      9     .   PHE   .   26813   1
+      10    .   TYR   .   26813   1
+      11    .   VAL   .   26813   1
+      12    .   PRO   .   26813   1
+      13    .   PHE   .   26813   1
+      14    .   SER   .   26813   1
+      15    .   ASN   .   26813   1
+      16    .   LYS   .   26813   1
+      17    .   THR   .   26813   1
+      18    .   GLY   .   26813   1
+      19    .   VAL   .   26813   1
+      20    .   VAL   .   26813   1
+      21    .   ARG   .   26813   1
+      22    .   SER   .   26813   1
+      23    .   PRO   .   26813   1
+      24    .   PHE   .   26813   1
+      25    .   GLU   .   26813   1
+      26    .   ALA   .   26813   1
+      27    .   PRO   .   26813   1
+      28    .   GLN   .   26813   1
+      29    .   TYR   .   26813   1
+      30    .   TYR   .   26813   1
+      31    .   LEU   .   26813   1
+      32    .   ALA   .   26813   1
+      33    .   GLU   .   26813   1
+      34    .   PRO   .   26813   1
+      35    .   TRP   .   26813   1
+      36    .   GLN   .   26813   1
+      37    .   PHE   .   26813   1
+      38    .   SER   .   26813   1
+      39    .   MET   .   26813   1
+      40    .   LEU   .   26813   1
+      41    .   ALA   .   26813   1
+      42    .   ALA   .   26813   1
+      43    .   TYR   .   26813   1
+      44    .   MET   .   26813   1
+      45    .   PHE   .   26813   1
+      46    .   LEU   .   26813   1
+      47    .   LEU   .   26813   1
+      48    .   ILE   .   26813   1
+      49    .   MET   .   26813   1
+      50    .   LEU   .   26813   1
+      51    .   GLY   .   26813   1
+      52    .   PHE   .   26813   1
+      53    .   PRO   .   26813   1
+      54    .   ILE   .   26813   1
+      55    .   ASN   .   26813   1
+      56    .   PHE   .   26813   1
+      57    .   LEU   .   26813   1
+      58    .   THR   .   26813   1
+      59    .   LEU   .   26813   1
+      60    .   TYR   .   26813   1
+      61    .   VAL   .   26813   1
+      62    .   THR   .   26813   1
+      63    .   VAL   .   26813   1
+      64    .   GLN   .   26813   1
+      65    .   HIS   .   26813   1
+      66    .   LYS   .   26813   1
+      67    .   LYS   .   26813   1
+      68    .   LEU   .   26813   1
+      69    .   ARG   .   26813   1
+      70    .   THR   .   26813   1
+      71    .   PRO   .   26813   1
+      72    .   LEU   .   26813   1
+      73    .   ASN   .   26813   1
+      74    .   TYR   .   26813   1
+      75    .   ILE   .   26813   1
+      76    .   LEU   .   26813   1
+      77    .   LEU   .   26813   1
+      78    .   ASN   .   26813   1
+      79    .   LEU   .   26813   1
+      80    .   ALA   .   26813   1
+      81    .   VAL   .   26813   1
+      82    .   ALA   .   26813   1
+      83    .   ASP   .   26813   1
+      84    .   LEU   .   26813   1
+      85    .   PHE   .   26813   1
+      86    .   MET   .   26813   1
+      87    .   VAL   .   26813   1
+      88    .   PHE   .   26813   1
+      89    .   GLY   .   26813   1
+      90    .   GLY   .   26813   1
+      91    .   PHE   .   26813   1
+      92    .   THR   .   26813   1
+      93    .   THR   .   26813   1
+      94    .   THR   .   26813   1
+      95    .   LEU   .   26813   1
+      96    .   TYR   .   26813   1
+      97    .   THR   .   26813   1
+      98    .   SER   .   26813   1
+      99    .   LEU   .   26813   1
+      100   .   HIS   .   26813   1
+      101   .   GLY   .   26813   1
+      102   .   TYR   .   26813   1
+      103   .   PHE   .   26813   1
+      104   .   VAL   .   26813   1
+      105   .   PHE   .   26813   1
+      106   .   GLY   .   26813   1
+      107   .   PRO   .   26813   1
+      108   .   THR   .   26813   1
+      109   .   GLY   .   26813   1
+      110   .   CYS   .   26813   1
+      111   .   ASN   .   26813   1
+      112   .   LEU   .   26813   1
+      113   .   GLU   .   26813   1
+      114   .   GLY   .   26813   1
+      115   .   PHE   .   26813   1
+      116   .   PHE   .   26813   1
+      117   .   ALA   .   26813   1
+      118   .   THR   .   26813   1
+      119   .   LEU   .   26813   1
+      120   .   GLY   .   26813   1
+      121   .   GLY   .   26813   1
+      122   .   GLU   .   26813   1
+      123   .   ILE   .   26813   1
+      124   .   ALA   .   26813   1
+      125   .   LEU   .   26813   1
+      126   .   TRP   .   26813   1
+      127   .   SER   .   26813   1
+      128   .   LEU   .   26813   1
+      129   .   VAL   .   26813   1
+      130   .   VAL   .   26813   1
+      131   .   LEU   .   26813   1
+      132   .   ALA   .   26813   1
+      133   .   ILE   .   26813   1
+      134   .   GLU   .   26813   1
+      135   .   ARG   .   26813   1
+      136   .   TYR   .   26813   1
+      137   .   VAL   .   26813   1
+      138   .   VAL   .   26813   1
+      139   .   VAL   .   26813   1
+      140   .   CYS   .   26813   1
+      141   .   LYS   .   26813   1
+      142   .   PRO   .   26813   1
+      143   .   MET   .   26813   1
+      144   .   SER   .   26813   1
+      145   .   ASN   .   26813   1
+      146   .   PHE   .   26813   1
+      147   .   ARG   .   26813   1
+      148   .   PHE   .   26813   1
+      149   .   GLY   .   26813   1
+      150   .   GLU   .   26813   1
+      151   .   ASN   .   26813   1
+      152   .   HIS   .   26813   1
+      153   .   ALA   .   26813   1
+      154   .   ILE   .   26813   1
+      155   .   MET   .   26813   1
+      156   .   GLY   .   26813   1
+      157   .   VAL   .   26813   1
+      158   .   ALA   .   26813   1
+      159   .   PHE   .   26813   1
+      160   .   THR   .   26813   1
+      161   .   TRP   .   26813   1
+      162   .   VAL   .   26813   1
+      163   .   MET   .   26813   1
+      164   .   ALA   .   26813   1
+      165   .   LEU   .   26813   1
+      166   .   ALA   .   26813   1
+      167   .   CYS   .   26813   1
+      168   .   ALA   .   26813   1
+      169   .   ALA   .   26813   1
+      170   .   PRO   .   26813   1
+      171   .   PRO   .   26813   1
+      172   .   LEU   .   26813   1
+      173   .   VAL   .   26813   1
+      174   .   GLY   .   26813   1
+      175   .   TRP   .   26813   1
+      176   .   SER   .   26813   1
+      177   .   ARG   .   26813   1
+      178   .   TYR   .   26813   1
+      179   .   ILE   .   26813   1
+      180   .   PRO   .   26813   1
+      181   .   GLU   .   26813   1
+      182   .   GLY   .   26813   1
+      183   .   MET   .   26813   1
+      184   .   GLN   .   26813   1
+      185   .   CYS   .   26813   1
+      186   .   SER   .   26813   1
+      187   .   CYS   .   26813   1
+      188   .   GLY   .   26813   1
+      189   .   ILE   .   26813   1
+      190   .   ASP   .   26813   1
+      191   .   TYR   .   26813   1
+      192   .   TYR   .   26813   1
+      193   .   THR   .   26813   1
+      194   .   PRO   .   26813   1
+      195   .   HIS   .   26813   1
+      196   .   GLU   .   26813   1
+      197   .   GLU   .   26813   1
+      198   .   THR   .   26813   1
+      199   .   ASN   .   26813   1
+      200   .   ASN   .   26813   1
+      201   .   GLU   .   26813   1
+      202   .   SER   .   26813   1
+      203   .   PHE   .   26813   1
+      204   .   VAL   .   26813   1
+      205   .   ILE   .   26813   1
+      206   .   TYR   .   26813   1
+      207   .   MET   .   26813   1
+      208   .   PHE   .   26813   1
+      209   .   VAL   .   26813   1
+      210   .   VAL   .   26813   1
+      211   .   HIS   .   26813   1
+      212   .   PHE   .   26813   1
+      213   .   ILE   .   26813   1
+      214   .   ILE   .   26813   1
+      215   .   PRO   .   26813   1
+      216   .   LEU   .   26813   1
+      217   .   ILE   .   26813   1
+      218   .   VAL   .   26813   1
+      219   .   ILE   .   26813   1
+      220   .   PHE   .   26813   1
+      221   .   PHE   .   26813   1
+      222   .   CYS   .   26813   1
+      223   .   TYR   .   26813   1
+      224   .   GLY   .   26813   1
+      225   .   GLN   .   26813   1
+      226   .   LEU   .   26813   1
+      227   .   VAL   .   26813   1
+      228   .   PHE   .   26813   1
+      229   .   THR   .   26813   1
+      230   .   VAL   .   26813   1
+      231   .   LYS   .   26813   1
+      232   .   GLU   .   26813   1
+      233   .   ALA   .   26813   1
+      234   .   ALA   .   26813   1
+      235   .   ALA   .   26813   1
+      236   .   GLN   .   26813   1
+      237   .   GLN   .   26813   1
+      238   .   GLN   .   26813   1
+      239   .   GLU   .   26813   1
+      240   .   SER   .   26813   1
+      241   .   ALA   .   26813   1
+      242   .   THR   .   26813   1
+      243   .   THR   .   26813   1
+      244   .   GLN   .   26813   1
+      245   .   LYS   .   26813   1
+      246   .   ALA   .   26813   1
+      247   .   GLU   .   26813   1
+      248   .   LYS   .   26813   1
+      249   .   GLU   .   26813   1
+      250   .   VAL   .   26813   1
+      251   .   THR   .   26813   1
+      252   .   ARG   .   26813   1
+      253   .   MET   .   26813   1
+      254   .   VAL   .   26813   1
+      255   .   ILE   .   26813   1
+      256   .   ILE   .   26813   1
+      257   .   MET   .   26813   1
+      258   .   VAL   .   26813   1
+      259   .   ILE   .   26813   1
+      260   .   ALA   .   26813   1
+      261   .   PHE   .   26813   1
+      262   .   LEU   .   26813   1
+      263   .   ILE   .   26813   1
+      264   .   CYS   .   26813   1
+      265   .   TRP   .   26813   1
+      266   .   LEU   .   26813   1
+      267   .   PRO   .   26813   1
+      268   .   TYR   .   26813   1
+      269   .   ALA   .   26813   1
+      270   .   GLY   .   26813   1
+      271   .   VAL   .   26813   1
+      272   .   ALA   .   26813   1
+      273   .   PHE   .   26813   1
+      274   .   TYR   .   26813   1
+      275   .   ILE   .   26813   1
+      276   .   PHE   .   26813   1
+      277   .   THR   .   26813   1
+      278   .   HIS   .   26813   1
+      279   .   GLN   .   26813   1
+      280   .   GLY   .   26813   1
+      281   .   SER   .   26813   1
+      282   .   ASP   .   26813   1
+      283   .   PHE   .   26813   1
+      284   .   GLY   .   26813   1
+      285   .   PRO   .   26813   1
+      286   .   ILE   .   26813   1
+      287   .   PHE   .   26813   1
+      288   .   MET   .   26813   1
+      289   .   THR   .   26813   1
+      290   .   ILE   .   26813   1
+      291   .   PRO   .   26813   1
+      292   .   ALA   .   26813   1
+      293   .   PHE   .   26813   1
+      294   .   PHE   .   26813   1
+      295   .   ALA   .   26813   1
+      296   .   LYS   .   26813   1
+      297   .   THR   .   26813   1
+      298   .   SER   .   26813   1
+      299   .   SER   .   26813   1
+      300   .   VAL   .   26813   1
+      301   .   TYR   .   26813   1
+      302   .   ASN   .   26813   1
+      303   .   PRO   .   26813   1
+      304   .   VAL   .   26813   1
+      305   .   ILE   .   26813   1
+      306   .   TYR   .   26813   1
+      307   .   ILE   .   26813   1
+      308   .   MET   .   26813   1
+      309   .   MET   .   26813   1
+      310   .   ASN   .   26813   1
+      311   .   LYS   .   26813   1
+      312   .   GLN   .   26813   1
+      313   .   PHE   .   26813   1
+      314   .   ARG   .   26813   1
+      315   .   ASN   .   26813   1
+      316   .   CYS   .   26813   1
+      317   .   MET   .   26813   1
+      318   .   VAL   .   26813   1
+      319   .   THR   .   26813   1
+      320   .   THR   .   26813   1
+      321   .   LEU   .   26813   1
+      322   .   CYS   .   26813   1
+      323   .   CYS   .   26813   1
+      324   .   GLY   .   26813   1
+      325   .   LYS   .   26813   1
+      326   .   ASN   .   26813   1
+      327   .   PRO   .   26813   1
+      328   .   LEU   .   26813   1
+      329   .   GLY   .   26813   1
+      330   .   ASP   .   26813   1
+      331   .   ASP   .   26813   1
+      332   .   GLU   .   26813   1
+      333   .   ALA   .   26813   1
+      334   .   SER   .   26813   1
+      335   .   THR   .   26813   1
+      336   .   THR   .   26813   1
+      337   .   VAL   .   26813   1
+      338   .   SER   .   26813   1
+      339   .   LYS   .   26813   1
+      340   .   THR   .   26813   1
+      341   .   GLU   .   26813   1
+      342   .   THR   .   26813   1
+      343   .   SER   .   26813   1
+      344   .   GLN   .   26813   1
+      345   .   VAL   .   26813   1
+      346   .   ALA   .   26813   1
+      347   .   PRO   .   26813   1
+      348   .   ALA   .   26813   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   MET   1     1     26813   1
+      .   ASN   2     2     26813   1
+      .   GLY   3     3     26813   1
+      .   THR   4     4     26813   1
+      .   GLU   5     5     26813   1
+      .   GLY   6     6     26813   1
+      .   PRO   7     7     26813   1
+      .   ASN   8     8     26813   1
+      .   PHE   9     9     26813   1
+      .   TYR   10    10    26813   1
+      .   VAL   11    11    26813   1
+      .   PRO   12    12    26813   1
+      .   PHE   13    13    26813   1
+      .   SER   14    14    26813   1
+      .   ASN   15    15    26813   1
+      .   LYS   16    16    26813   1
+      .   THR   17    17    26813   1
+      .   GLY   18    18    26813   1
+      .   VAL   19    19    26813   1
+      .   VAL   20    20    26813   1
+      .   ARG   21    21    26813   1
+      .   SER   22    22    26813   1
+      .   PRO   23    23    26813   1
+      .   PHE   24    24    26813   1
+      .   GLU   25    25    26813   1
+      .   ALA   26    26    26813   1
+      .   PRO   27    27    26813   1
+      .   GLN   28    28    26813   1
+      .   TYR   29    29    26813   1
+      .   TYR   30    30    26813   1
+      .   LEU   31    31    26813   1
+      .   ALA   32    32    26813   1
+      .   GLU   33    33    26813   1
+      .   PRO   34    34    26813   1
+      .   TRP   35    35    26813   1
+      .   GLN   36    36    26813   1
+      .   PHE   37    37    26813   1
+      .   SER   38    38    26813   1
+      .   MET   39    39    26813   1
+      .   LEU   40    40    26813   1
+      .   ALA   41    41    26813   1
+      .   ALA   42    42    26813   1
+      .   TYR   43    43    26813   1
+      .   MET   44    44    26813   1
+      .   PHE   45    45    26813   1
+      .   LEU   46    46    26813   1
+      .   LEU   47    47    26813   1
+      .   ILE   48    48    26813   1
+      .   MET   49    49    26813   1
+      .   LEU   50    50    26813   1
+      .   GLY   51    51    26813   1
+      .   PHE   52    52    26813   1
+      .   PRO   53    53    26813   1
+      .   ILE   54    54    26813   1
+      .   ASN   55    55    26813   1
+      .   PHE   56    56    26813   1
+      .   LEU   57    57    26813   1
+      .   THR   58    58    26813   1
+      .   LEU   59    59    26813   1
+      .   TYR   60    60    26813   1
+      .   VAL   61    61    26813   1
+      .   THR   62    62    26813   1
+      .   VAL   63    63    26813   1
+      .   GLN   64    64    26813   1
+      .   HIS   65    65    26813   1
+      .   LYS   66    66    26813   1
+      .   LYS   67    67    26813   1
+      .   LEU   68    68    26813   1
+      .   ARG   69    69    26813   1
+      .   THR   70    70    26813   1
+      .   PRO   71    71    26813   1
+      .   LEU   72    72    26813   1
+      .   ASN   73    73    26813   1
+      .   TYR   74    74    26813   1
+      .   ILE   75    75    26813   1
+      .   LEU   76    76    26813   1
+      .   LEU   77    77    26813   1
+      .   ASN   78    78    26813   1
+      .   LEU   79    79    26813   1
+      .   ALA   80    80    26813   1
+      .   VAL   81    81    26813   1
+      .   ALA   82    82    26813   1
+      .   ASP   83    83    26813   1
+      .   LEU   84    84    26813   1
+      .   PHE   85    85    26813   1
+      .   MET   86    86    26813   1
+      .   VAL   87    87    26813   1
+      .   PHE   88    88    26813   1
+      .   GLY   89    89    26813   1
+      .   GLY   90    90    26813   1
+      .   PHE   91    91    26813   1
+      .   THR   92    92    26813   1
+      .   THR   93    93    26813   1
+      .   THR   94    94    26813   1
+      .   LEU   95    95    26813   1
+      .   TYR   96    96    26813   1
+      .   THR   97    97    26813   1
+      .   SER   98    98    26813   1
+      .   LEU   99    99    26813   1
+      .   HIS   100   100   26813   1
+      .   GLY   101   101   26813   1
+      .   TYR   102   102   26813   1
+      .   PHE   103   103   26813   1
+      .   VAL   104   104   26813   1
+      .   PHE   105   105   26813   1
+      .   GLY   106   106   26813   1
+      .   PRO   107   107   26813   1
+      .   THR   108   108   26813   1
+      .   GLY   109   109   26813   1
+      .   CYS   110   110   26813   1
+      .   ASN   111   111   26813   1
+      .   LEU   112   112   26813   1
+      .   GLU   113   113   26813   1
+      .   GLY   114   114   26813   1
+      .   PHE   115   115   26813   1
+      .   PHE   116   116   26813   1
+      .   ALA   117   117   26813   1
+      .   THR   118   118   26813   1
+      .   LEU   119   119   26813   1
+      .   GLY   120   120   26813   1
+      .   GLY   121   121   26813   1
+      .   GLU   122   122   26813   1
+      .   ILE   123   123   26813   1
+      .   ALA   124   124   26813   1
+      .   LEU   125   125   26813   1
+      .   TRP   126   126   26813   1
+      .   SER   127   127   26813   1
+      .   LEU   128   128   26813   1
+      .   VAL   129   129   26813   1
+      .   VAL   130   130   26813   1
+      .   LEU   131   131   26813   1
+      .   ALA   132   132   26813   1
+      .   ILE   133   133   26813   1
+      .   GLU   134   134   26813   1
+      .   ARG   135   135   26813   1
+      .   TYR   136   136   26813   1
+      .   VAL   137   137   26813   1
+      .   VAL   138   138   26813   1
+      .   VAL   139   139   26813   1
+      .   CYS   140   140   26813   1
+      .   LYS   141   141   26813   1
+      .   PRO   142   142   26813   1
+      .   MET   143   143   26813   1
+      .   SER   144   144   26813   1
+      .   ASN   145   145   26813   1
+      .   PHE   146   146   26813   1
+      .   ARG   147   147   26813   1
+      .   PHE   148   148   26813   1
+      .   GLY   149   149   26813   1
+      .   GLU   150   150   26813   1
+      .   ASN   151   151   26813   1
+      .   HIS   152   152   26813   1
+      .   ALA   153   153   26813   1
+      .   ILE   154   154   26813   1
+      .   MET   155   155   26813   1
+      .   GLY   156   156   26813   1
+      .   VAL   157   157   26813   1
+      .   ALA   158   158   26813   1
+      .   PHE   159   159   26813   1
+      .   THR   160   160   26813   1
+      .   TRP   161   161   26813   1
+      .   VAL   162   162   26813   1
+      .   MET   163   163   26813   1
+      .   ALA   164   164   26813   1
+      .   LEU   165   165   26813   1
+      .   ALA   166   166   26813   1
+      .   CYS   167   167   26813   1
+      .   ALA   168   168   26813   1
+      .   ALA   169   169   26813   1
+      .   PRO   170   170   26813   1
+      .   PRO   171   171   26813   1
+      .   LEU   172   172   26813   1
+      .   VAL   173   173   26813   1
+      .   GLY   174   174   26813   1
+      .   TRP   175   175   26813   1
+      .   SER   176   176   26813   1
+      .   ARG   177   177   26813   1
+      .   TYR   178   178   26813   1
+      .   ILE   179   179   26813   1
+      .   PRO   180   180   26813   1
+      .   GLU   181   181   26813   1
+      .   GLY   182   182   26813   1
+      .   MET   183   183   26813   1
+      .   GLN   184   184   26813   1
+      .   CYS   185   185   26813   1
+      .   SER   186   186   26813   1
+      .   CYS   187   187   26813   1
+      .   GLY   188   188   26813   1
+      .   ILE   189   189   26813   1
+      .   ASP   190   190   26813   1
+      .   TYR   191   191   26813   1
+      .   TYR   192   192   26813   1
+      .   THR   193   193   26813   1
+      .   PRO   194   194   26813   1
+      .   HIS   195   195   26813   1
+      .   GLU   196   196   26813   1
+      .   GLU   197   197   26813   1
+      .   THR   198   198   26813   1
+      .   ASN   199   199   26813   1
+      .   ASN   200   200   26813   1
+      .   GLU   201   201   26813   1
+      .   SER   202   202   26813   1
+      .   PHE   203   203   26813   1
+      .   VAL   204   204   26813   1
+      .   ILE   205   205   26813   1
+      .   TYR   206   206   26813   1
+      .   MET   207   207   26813   1
+      .   PHE   208   208   26813   1
+      .   VAL   209   209   26813   1
+      .   VAL   210   210   26813   1
+      .   HIS   211   211   26813   1
+      .   PHE   212   212   26813   1
+      .   ILE   213   213   26813   1
+      .   ILE   214   214   26813   1
+      .   PRO   215   215   26813   1
+      .   LEU   216   216   26813   1
+      .   ILE   217   217   26813   1
+      .   VAL   218   218   26813   1
+      .   ILE   219   219   26813   1
+      .   PHE   220   220   26813   1
+      .   PHE   221   221   26813   1
+      .   CYS   222   222   26813   1
+      .   TYR   223   223   26813   1
+      .   GLY   224   224   26813   1
+      .   GLN   225   225   26813   1
+      .   LEU   226   226   26813   1
+      .   VAL   227   227   26813   1
+      .   PHE   228   228   26813   1
+      .   THR   229   229   26813   1
+      .   VAL   230   230   26813   1
+      .   LYS   231   231   26813   1
+      .   GLU   232   232   26813   1
+      .   ALA   233   233   26813   1
+      .   ALA   234   234   26813   1
+      .   ALA   235   235   26813   1
+      .   GLN   236   236   26813   1
+      .   GLN   237   237   26813   1
+      .   GLN   238   238   26813   1
+      .   GLU   239   239   26813   1
+      .   SER   240   240   26813   1
+      .   ALA   241   241   26813   1
+      .   THR   242   242   26813   1
+      .   THR   243   243   26813   1
+      .   GLN   244   244   26813   1
+      .   LYS   245   245   26813   1
+      .   ALA   246   246   26813   1
+      .   GLU   247   247   26813   1
+      .   LYS   248   248   26813   1
+      .   GLU   249   249   26813   1
+      .   VAL   250   250   26813   1
+      .   THR   251   251   26813   1
+      .   ARG   252   252   26813   1
+      .   MET   253   253   26813   1
+      .   VAL   254   254   26813   1
+      .   ILE   255   255   26813   1
+      .   ILE   256   256   26813   1
+      .   MET   257   257   26813   1
+      .   VAL   258   258   26813   1
+      .   ILE   259   259   26813   1
+      .   ALA   260   260   26813   1
+      .   PHE   261   261   26813   1
+      .   LEU   262   262   26813   1
+      .   ILE   263   263   26813   1
+      .   CYS   264   264   26813   1
+      .   TRP   265   265   26813   1
+      .   LEU   266   266   26813   1
+      .   PRO   267   267   26813   1
+      .   TYR   268   268   26813   1
+      .   ALA   269   269   26813   1
+      .   GLY   270   270   26813   1
+      .   VAL   271   271   26813   1
+      .   ALA   272   272   26813   1
+      .   PHE   273   273   26813   1
+      .   TYR   274   274   26813   1
+      .   ILE   275   275   26813   1
+      .   PHE   276   276   26813   1
+      .   THR   277   277   26813   1
+      .   HIS   278   278   26813   1
+      .   GLN   279   279   26813   1
+      .   GLY   280   280   26813   1
+      .   SER   281   281   26813   1
+      .   ASP   282   282   26813   1
+      .   PHE   283   283   26813   1
+      .   GLY   284   284   26813   1
+      .   PRO   285   285   26813   1
+      .   ILE   286   286   26813   1
+      .   PHE   287   287   26813   1
+      .   MET   288   288   26813   1
+      .   THR   289   289   26813   1
+      .   ILE   290   290   26813   1
+      .   PRO   291   291   26813   1
+      .   ALA   292   292   26813   1
+      .   PHE   293   293   26813   1
+      .   PHE   294   294   26813   1
+      .   ALA   295   295   26813   1
+      .   LYS   296   296   26813   1
+      .   THR   297   297   26813   1
+      .   SER   298   298   26813   1
+      .   SER   299   299   26813   1
+      .   VAL   300   300   26813   1
+      .   TYR   301   301   26813   1
+      .   ASN   302   302   26813   1
+      .   PRO   303   303   26813   1
+      .   VAL   304   304   26813   1
+      .   ILE   305   305   26813   1
+      .   TYR   306   306   26813   1
+      .   ILE   307   307   26813   1
+      .   MET   308   308   26813   1
+      .   MET   309   309   26813   1
+      .   ASN   310   310   26813   1
+      .   LYS   311   311   26813   1
+      .   GLN   312   312   26813   1
+      .   PHE   313   313   26813   1
+      .   ARG   314   314   26813   1
+      .   ASN   315   315   26813   1
+      .   CYS   316   316   26813   1
+      .   MET   317   317   26813   1
+      .   VAL   318   318   26813   1
+      .   THR   319   319   26813   1
+      .   THR   320   320   26813   1
+      .   LEU   321   321   26813   1
+      .   CYS   322   322   26813   1
+      .   CYS   323   323   26813   1
+      .   GLY   324   324   26813   1
+      .   LYS   325   325   26813   1
+      .   ASN   326   326   26813   1
+      .   PRO   327   327   26813   1
+      .   LEU   328   328   26813   1
+      .   GLY   329   329   26813   1
+      .   ASP   330   330   26813   1
+      .   ASP   331   331   26813   1
+      .   GLU   332   332   26813   1
+      .   ALA   333   333   26813   1
+      .   SER   334   334   26813   1
+      .   THR   335   335   26813   1
+      .   THR   336   336   26813   1
+      .   VAL   337   337   26813   1
+      .   SER   338   338   26813   1
+      .   LYS   339   339   26813   1
+      .   THR   340   340   26813   1
+      .   GLU   341   341   26813   1
+      .   THR   342   342   26813   1
+      .   SER   343   343   26813   1
+      .   GLN   344   344   26813   1
+      .   VAL   345   345   26813   1
+      .   ALA   346   346   26813   1
+      .   PRO   347   347   26813   1
+      .   ALA   348   348   26813   1
+   stop_
+save_
+
+save_entity_RET
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_RET
+   _Entity.Entry_ID                          26813
+   _Entity.ID                                2
+   _Entity.BMRB_code                         RET
+   _Entity.Name                              entity_RET
+   _Entity.Type                              non-polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      .
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code       .
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                RET
+   _Entity.Nonpolymer_comp_label             $chem_comp_RET
+   _Entity.Number_of_monomers                .
+   _Entity.Number_of_nonpolymer_components   1
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                       .
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  2
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    284.436
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      RETINAL   BMRB   26813   2
+   stop_
+
+   loop_
+      _Entity_systematic_name.Name
+      _Entity_systematic_name.Naming_system
+      _Entity_systematic_name.Entry_ID
+      _Entity_systematic_name.Entity_ID
+
+      RETINAL   BMRB                  26813   2
+      RET       'Three letter code'   26813   2
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1   1   RET   $chem_comp_RET   26813   2
+   stop_
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       26813
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $Opsin   .   9913   organism   .   'Bos taurus'   cow   .   .   Eukaryota   Metazoa   Bos   taurus   .   .   .   .   .   .   .   .   .   .   .   .   .   26813   1
+   stop_
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       26813
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $Opsin   .   'recombinant technology'   .   .   .   .   .   .   .   .   .   .   .   .   pACHrhoC   .   .   'Human embryonic kidney cells'   26813   1
+   stop_
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+
+
+save_chem_comp_RET
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_RET
+   _Chem_comp.Entry_ID                          26813
+   _Chem_comp.ID                                RET
+   _Chem_comp.Provenance                        PDB
+   _Chem_comp.Name                              RETINAL
+   _Chem_comp.Type                              NON-POLYMER
+   _Chem_comp.BMRB_code                         RET
+   _Chem_comp.PDB_code                          RET
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      2012-11-20
+   _Chem_comp.Modified_date                     2012-11-20
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 RET
+   _Chem_comp.Number_atoms_all                  49
+   _Chem_comp.Number_atoms_nh                   21
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code
+;
+InChI=1S/C20H28O/c1-16(8-6-9-17(2)13-15-21)11-12-19-18(3)10-7-14-20(19,4)5/h6,8-9,11-13,15H,7,10,14H2,1-5H3/b9-6+,12-11+,16-8+,17-13+
+;
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                           'C20 H28 O'
+   _Chem_comp.Formula_weight                    284.436
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         Corina
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         1OPB
+   _Chem_comp.Processing_site                   EBI
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      CC(=CC=O)C=CC=C(C)C=CC1=C(C)CCCC1(C)C            SMILES             CACTVS                 3.370   26813   RET
+      CC(=C\C=O)/C=C/C=C(C)/C=C/C1=C(C)CCCC1(C)C       SMILES_CANONICAL   CACTVS                 3.370   26813   RET
+      CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/C=O)/C)/C   SMILES_CANONICAL   'OpenEye OEToolkits'   1.7.0   26813   RET
+      CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=O)C)C          SMILES             'OpenEye OEToolkits'   1.7.0   26813   RET
+
+;
+InChI=1S/C20H28O/c1-16(8-6-9-17(2)13-15-21)11-12-19-18(3)10-7-14-20(19,4)5/h6,8-9,11-13,15H,7,10,14H2,1-5H3/b9-6+,12-11+,16-8+,17-13+
+;
+                                                       InChI              InChI                  1.03    26813   RET
+      NCYCYZXNIZJOKI-OVSJKPMPSA-N                      InChIKey           InChI                  1.03    26813   RET
+      O=C\C=C(\C=C\C=C(\C=C\C1=C(C)CCCC1(C)C)C)C       SMILES             ACDLabs                12.01   26813   RET
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      (2E,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraenal   'SYSTEMATIC NAME'   'OpenEye OEToolkits'   1.7.0   26813   RET
+      retinal                                                                               'SYSTEMATIC NAME'   ACDLabs                12.01   26813   RET
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      C1     C1     C1     C1     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -5.590    .   13.158   .   53.080   .   -4.327   0.909    -0.480   1    .   26813   RET
+      C2     C2     C2     C2     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -4.929    .   11.803   .   53.442   .   -5.466   0.132    -1.143   2    .   26813   RET
+      C3     C3     C3     C3     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -3.621    .   11.861   .   53.982   .   -5.998   -0.901   -0.142   3    .   26813   RET
+      C4     C4     C4     C4     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -2.648    .   12.661   .   53.187   .   -4.921   -1.966   0.075    4    .   26813   RET
+      C5     C5     C5     C5     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -3.256    .   13.719   .   52.298   .   -3.604   -1.314   0.380    5    .   26813   RET
+      C6     C6     C6     C6     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -4.574    .   14.002   .   52.251   .   -3.340   -0.042   0.131    6    .   26813   RET
+      C7     C7     C7     C7     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -5.044    .   15.082   .   51.321   .   -2.051   0.450    0.458    7    .   26813   RET
+      C8     C8     C8     C8     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -6.101    .   15.895   .   51.358   .   -0.944   -0.145   -0.059   8    .   26813   RET
+      C9     C9     C9     C9     .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -6.459    .   16.916   .   50.367   .   0.334    0.315    0.300    9    .   26813   RET
+      C10    C10    C10    C10    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -7.569    .   17.648   .   50.602   .   1.446    -0.283   -0.220   10   .   26813   RET
+      C11    C11    C11    C11    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -8.141    .   18.699   .   49.798   .   2.720    0.176    0.138    11   .   26813   RET
+      C12    C12    C12    C12    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -9.328    .   19.245   .   50.048   .   3.842    -0.427   -0.387   12   .   26813   RET
+      C13    C13    C13    C13    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -10.012   .   20.306   .   49.302   .   5.115    0.031    -0.030   13   .   26813   RET
+      C14    C14    C14    C14    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -11.232   .   20.649   .   49.763   .   6.238    -0.573   -0.555   14   .   26813   RET
+      C15    C15    C15    C15    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -12.134   .   21.659   .   49.229   .   7.510    -0.115   -0.198   15   .   26813   RET
+      O1     O1     O1     O1     .   O   .   .   N   0   .   .   .   1   no   yes   .   .   .   .   -13.374   .   21.346   .   48.614   .   8.500    -0.648   -0.661   16   .   26813   RET
+      C16    C16    C16    C16    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -6.839    .   12.703   .   52.333   .   -3.620   1.768    -1.531   17   .   26813   RET
+      C17    C17    C17    C17    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -6.072    .   13.878   .   54.344   .   -4.899   1.816    0.611    18   .   26813   RET
+      C18    C18    C18    C18    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -2.187    .   14.357   .   51.431   .   -2.522   -2.155   1.006    19   .   26813   RET
+      C19    C19    C19    C19    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -5.585    .   17.081   .   49.160   .   0.478    1.469    1.259    20   .   26813   RET
+      C20    C20    C20    C20    .   C   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -9.562    .   20.581   .   47.903   .   5.259    1.185    0.929    21   .   26813   RET
+      H21    H21    H21    H21    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -5.570    .   11.320   .   54.194   .   -6.266   0.819    -1.419   22   .   26813   RET
+      H22    H22    H22    H22    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -4.872    .   11.212   .   52.516   .   -5.093   -0.377   -2.032   23   .   26813   RET
+      H31    H31    H31    H31    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -3.692    .   12.317   .   54.981   .   -6.225   -0.411   0.804    24   .   26813   RET
+      H32    H32    H32    H32    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -3.238    .   10.832   .   54.041   .   -6.898   -1.368   -0.542   25   .   26813   RET
+      H41    H41    H41    H41    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -1.977    .   13.168   .   53.896   .   -5.209   -2.606   0.910    26   .   26813   RET
+      H42    H42    H42    H42    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -2.094    .   11.964   .   52.542   .   -4.824   -2.572   -0.825   27   .   26813   RET
+      H7     H7     H7     H7     .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -4.407    .   15.228   .   50.461   .   -1.949   1.298    1.119    28   .   26813   RET
+      H8     H8     H8     H8     .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -6.762    .   15.791   .   52.206   .   -1.047   -0.972   -0.747   29   .   26813   RET
+      H10    H10    H10    H10    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -8.099    .   17.415   .   51.514   .   1.343    -1.109   -0.908   30   .   26813   RET
+      H11    H11    H11    H11    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -7.578    .   19.061   .   48.951   .   2.823    1.003    0.825    31   .   26813   RET
+      H12    H12    H12    H12    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -9.854    .   18.858   .   50.908   .   3.740    -1.254   -1.074   32   .   26813   RET
+      H14    H14    H14    H14    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -11.581   .   20.110   .   50.632   .   6.135    -1.400   -1.242   33   .   26813   RET
+      H15    H15    H15    H15    .   H   .   .   N   0   .   .   .   1   no   no    .   .   .   .   -11.846   .   22.697   .   49.305   .   7.613    0.712    0.489    34   .   26813   RET
+      H161   H161   H161   H161   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -7.415    .   13.583   .   52.011   .   -4.351   2.401    -2.035   35   .   26813   RET
+      H162   H162   H162   H162   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -6.545    .   12.115   .   51.451   .   -2.872   2.394    -1.045   36   .   26813   RET
+      H163   H163   H163   H163   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -7.458    .   12.083   .   52.998   .   -3.134   1.122    -2.262   37   .   26813   RET
+      H171   H171   H171   H171   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -6.537    .   14.835   .   54.066   .   -5.409   1.209    1.359    38   .   26813   RET
+      H172   H172   H172   H172   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -6.809    .   13.250   .   54.865   .   -4.089   2.371    1.084    39   .   26813   RET
+      H173   H173   H173   H173   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -5.215    .   14.066   .   55.008   .   -5.608   2.516    0.167    40   .   26813   RET
+      H181   H181   H181   H181   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -2.644    .   15.125   .   50.790   .   -2.917   -3.145   1.234    41   .   26813   RET
+      H182   H182   H182   H182   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -1.424    .   14.822   .   52.073   .   -1.686   -2.248   0.312    42   .   26813   RET
+      H183   H183   H183   H183   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -1.717    .   13.586   .   50.802   .   -2.179   -1.681   1.926    43   .   26813   RET
+      H191   H191   H191   H191   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -5.988    .   17.881   .   48.521   .   0.528    1.089    2.279    44   .   26813   RET
+      H192   H192   H192   H192   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -4.566    .   17.345   .   49.479   .   1.391    2.019    1.031    45   .   26813   RET
+      H193   H193   H193   H193   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -5.560    .   16.138   .   48.594   .   -0.381   2.133    1.160    46   .   26813   RET
+      H201   H201   H201   H201   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -10.165   .   21.397   .   47.477   .   5.309    0.805    1.950    47   .   26813   RET
+      H202   H202   H202   H202   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -8.502    .   20.874   .   47.910   .   6.172    1.735    0.701    48   .   26813   RET
+      H203   H203   H203   H203   .   H   .   .   N   0   .   .   .   0   no   no    .   .   .   .   -9.688    .   19.675   .   47.293   .   4.400    1.849    0.830    49   .   26813   RET
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1    .   SING   C1    C2     no   N   1    .   26813   RET
+      2    .   SING   C1    C6     no   N   2    .   26813   RET
+      3    .   SING   C1    C16    no   N   3    .   26813   RET
+      4    .   SING   C1    C17    no   N   4    .   26813   RET
+      5    .   SING   C2    C3     no   N   5    .   26813   RET
+      6    .   SING   C2    H21    no   N   6    .   26813   RET
+      7    .   SING   C2    H22    no   N   7    .   26813   RET
+      8    .   SING   C3    C4     no   N   8    .   26813   RET
+      9    .   SING   C3    H31    no   N   9    .   26813   RET
+      10   .   SING   C3    H32    no   N   10   .   26813   RET
+      11   .   SING   C4    C5     no   N   11   .   26813   RET
+      12   .   SING   C4    H41    no   N   12   .   26813   RET
+      13   .   SING   C4    H42    no   N   13   .   26813   RET
+      14   .   DOUB   C5    C6     no   N   14   .   26813   RET
+      15   .   SING   C5    C18    no   N   15   .   26813   RET
+      16   .   SING   C6    C7     no   N   16   .   26813   RET
+      17   .   DOUB   C7    C8     no   E   17   .   26813   RET
+      18   .   SING   C7    H7     no   N   18   .   26813   RET
+      19   .   SING   C8    C9     no   N   19   .   26813   RET
+      20   .   SING   C8    H8     no   N   20   .   26813   RET
+      21   .   DOUB   C9    C10    no   E   21   .   26813   RET
+      22   .   SING   C9    C19    no   N   22   .   26813   RET
+      23   .   SING   C10   C11    no   N   23   .   26813   RET
+      24   .   SING   C10   H10    no   N   24   .   26813   RET
+      25   .   DOUB   C11   C12    no   E   25   .   26813   RET
+      26   .   SING   C11   H11    no   N   26   .   26813   RET
+      27   .   SING   C12   C13    no   N   27   .   26813   RET
+      28   .   SING   C12   H12    no   N   28   .   26813   RET
+      29   .   DOUB   C13   C14    no   E   29   .   26813   RET
+      30   .   SING   C13   C20    no   N   30   .   26813   RET
+      31   .   SING   C14   C15    no   N   31   .   26813   RET
+      32   .   SING   C14   H14    no   N   32   .   26813   RET
+      33   .   DOUB   C15   O1     no   N   33   .   26813   RET
+      34   .   SING   C15   H15    no   N   34   .   26813   RET
+      35   .   SING   C16   H161   no   N   35   .   26813   RET
+      36   .   SING   C16   H162   no   N   36   .   26813   RET
+      37   .   SING   C16   H163   no   N   37   .   26813   RET
+      38   .   SING   C17   H171   no   N   38   .   26813   RET
+      39   .   SING   C17   H172   no   N   39   .   26813   RET
+      40   .   SING   C17   H173   no   N   40   .   26813   RET
+      41   .   SING   C18   H181   no   N   41   .   26813   RET
+      42   .   SING   C18   H182   no   N   42   .   26813   RET
+      43   .   SING   C18   H183   no   N   43   .   26813   RET
+      44   .   SING   C19   H191   no   N   44   .   26813   RET
+      45   .   SING   C19   H192   no   N   45   .   26813   RET
+      46   .   SING   C19   H193   no   N   46   .   26813   RET
+      47   .   SING   C20   H201   no   N   47   .   26813   RET
+      48   .   SING   C20   H202   no   N   48   .   26813   RET
+      49   .   SING   C20   H203   no   N   49   .   26813   RET
+   stop_
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         26813
+   _Sample.ID                               1
+   _Sample.Type                             micelle
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '100% H20'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   Rhodopsin            'Specific 13C'        .   .   1   $Opsin        .   .   5      .   .   mg   .   .   .   .   26813   1
+      2   Retinal              'Specific 13C'        .   .   2   $entity_RET   .   .   50     .   .   ug   .   .   .   .   26813   1
+      3   'sodium phosphate'   'natural abundance'   .   .   .   .             .   .   2      .   .   mM   .   .   .   .   26813   1
+      4   DDM                  'natural abundance'   .   .   .   .             .   .   0.02   .   .   %    .   .   .   .   26813   1
+   stop_
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       26813
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   2     .   mM    26813   1
+      pH                 6     .   pH    26813   1
+      pressure           1     .   atm   26813   1
+      temperature        190   .   K     26813   1
+   stop_
+save_
+
+############################
+#  Computer software used  #
+############################
+
+
+
+save_TOPSPIN
+   _Software.Sf_category    software
+   _Software.Sf_framecode   TOPSPIN
+   _Software.Entry_ID       26813
+   _Software.ID             1
+   _Software.Name           TOPSPIN
+   _Software.Version        .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Bruker Biospin'   .   .   26813   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      processing   26813   1
+   stop_
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         26813
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       26813
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1   spectrometer_1   Bruker   Avance   .   600   .   .   .   26813   1
+   stop_
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       26813
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   '2D 13C DARR'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   26813   1
+   stop_
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       26813
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   glycine   carbonyl   .   .   .   .   ppm   176.46   external   direct   1   .   .   .   .   .   26813   1
+   stop_
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      26813
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1   '2D 13C DARR'   .   .   .   26813   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1    .   1   1   44    44    MET   CE    C   13   19.4    0.2   .   1   .   .   .   .   44    MET   CE    .   26813   1
+      2    .   1   1   86    86    MET   CE    C   13   15.0    0.2   .   1   .   .   .   .   86    MET   CE    .   26813   1
+      3    .   1   1   110   110   CYS   C     C   13   171.3   0.2   .   1   .   .   .   .   110   CYS   C     .   26813   1
+      4    .   1   1   114   114   GLY   CA    C   13   44.5    0.2   .   1   .   .   .   .   114   GLY   CA    .   26813   1
+      5    .   1   1   121   121   GLY   CA    C   13   46.5    0.2   .   1   .   .   .   .   121   GLY   CA    .   26813   1
+      6    .   1   1   178   178   TYR   CZ    C   13   156.5   0.2   .   1   .   .   .   .   178   TYR   CZ    .   26813   1
+      7    .   1   1   186   186   SER   CB    C   13   60.8    0.2   .   1   .   .   .   .   186   SER   CB    .   26813   1
+      8    .   1   1   187   187   CYS   C     C   13   172.5   0.2   .   1   .   .   .   .   187   CYS   C     .   26813   1
+      9    .   1   1   188   188   GLY   CA    C   13   43.1    0.2   .   1   .   .   .   .   188   GLY   CA    .   26813   1
+      10   .   1   1   191   191   TYR   CZ    C   13   159.3   0.2   .   1   .   .   .   .   191   TYR   CZ    .   26813   1
+      11   .   1   1   206   206   TYR   CZ    C   13   153.6   0.2   .   1   .   .   .   .   206   TYR   CZ    .   26813   1
+      12   .   1   1   207   207   MET   C     C   13   175.8   0.2   .   1   .   .   .   .   207   MET   C     .   26813   1
+      13   .   1   1   207   207   MET   CE    C   13   13.8    0.2   .   1   .   .   .   .   207   MET   CE    .   26813   1
+      14   .   1   1   211   211   HIS   C     C   13   170.2   0.2   .   1   .   .   .   .   211   HIS   C     .   26813   1
+      15   .   1   1   257   257   MET   CE    C   13   14.7    0.2   .   1   .   .   .   .   257   MET   CE    .   26813   1
+      16   .   1   1   261   261   PHE   CG    C   13   137.0   0.2   .   1   .   .   .   .   261   PHE   CG    .   26813   1
+      17   .   1   1   261   261   PHE   CD1   C   13   129.0   0.2   .   3   .   .   .   .   261   PHE   CD1   .   26813   1
+      18   .   1   1   261   261   PHE   CD2   C   13   129.0   0.2   .   3   .   .   .   .   261   PHE   CD2   .   26813   1
+      19   .   1   1   261   261   PHE   CE1   C   13   129.0   0.2   .   3   .   .   .   .   261   PHE   CE1   .   26813   1
+      20   .   1   1   261   261   PHE   CE2   C   13   129.0   0.2   .   3   .   .   .   .   261   PHE   CE2   .   26813   1
+      21   .   1   1   261   261   PHE   CZ    C   13   129.0   0.2   .   1   .   .   .   .   261   PHE   CZ    .   26813   1
+      22   .   1   1   268   268   TYR   CZ    C   13   156.1   0.2   .   1   .   .   .   .   268   TYR   CZ    .   26813   1
+      23   .   1   1   288   288   MET   CE    C   13   12.8    0.2   .   1   .   .   .   .   288   MET   CE    .   26813   1
+      24   .   1   1   298   298   SER   CB    C   13   60.0    0.2   .   1   .   .   .   .   298   SER   CB    .   26813   1
+      25   .   2   2   1     1     RET   C5    C   13   126.0   0.1   .   1   .   .   .   .   5     RET   C     .   26813   1
+      26   .   2   2   1     1     RET   C8    C   13   139.6   0.1   .   1   .   .   .   .   8     RET   C     .   26813   1
+      27   .   2   2   1     1     RET   C10   C   13   131.4   0.1   .   1   .   .   .   .   10    RET   C     .   26813   1
+      28   .   2   2   1     1     RET   C11   C   13   127.8   0.1   .   1   .   .   .   .   11    RET   C     .   26813   1
+      29   .   2   2   1     1     RET   C12   C   13   137.9   0.1   .   1   .   .   .   .   12    RET   C     .   26813   1
+      30   .   2   2   1     1     RET   C14   C   13   126.9   0.1   .   1   .   .   .   .   14    RET   C     .   26813   1
+      31   .   2   2   1     1     RET   C15   C   13   163.1   0.1   .   1   .   .   .   .   15    RET   C     .   26813   1
+      32   .   2   2   1     1     RET   C16   C   13   28.6    0.1   .   1   .   .   .   .   16    RET   C     .   26813   1
+      33   .   2   2   1     1     RET   C17   C   13   33.4    0.1   .   1   .   .   .   .   17    RET   C     .   26813   1
+      34   .   2   2   1     1     RET   C18   C   13   20.9    0.1   .   1   .   .   .   .   18    RET   C     .   26813   1
+      35   .   2   2   1     1     RET   C19   C   13   13.8    0.1   .   1   .   .   .   .   19    RET   C     .   26813   1
+      36   .   2   2   1     1     RET   C20   C   13   13.7    0.1   .   1   .   .   .   .   20    RET   C     .   26813   1
+   stop_
+save_
+

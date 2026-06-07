@@ -1,0 +1,1339 @@
+data_15818
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             15818
+   _Entry.Title                         
+;
+Type III antifreeze protein isoform HPLC-12
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2008-06-23
+   _Entry.Accession_date                 2008-06-23
+   _Entry.Last_release_date              2009-02-03
+   _Entry.Original_release_date          2009-02-03
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.1.61
+   _Entry.Original_NMR_STAR_version      3.0.8.116
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solid-state
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 Ansgar Siemer    . B. . 15818 
+      2 Ann    McDermott . E. . 15818 
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1 . 'McDermott group, Columbia University' . 15818 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 15818 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts' 219 15818 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 . . 2009-02-03 2008-06-23 original author . 15818 
+
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB 15817 HPLC-12 15818 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     15818
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    19053456
+   _Citation.Full_citation                .
+   _Citation.Title                       'Solid-State NMR on a Type III Antifreeze Protein in the Presence of Ice'
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'J. Am. Chem. Soc.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               130
+   _Citation.Journal_issue                51
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   17394
+   _Citation.Page_last                    17399
+   _Citation.Year                         2008
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 Ansgar Siemer    . B. . 15818 1 
+      2 Ann    McDermott . E. . 15818 1 
+
+   stop_
+
+   loop_
+      _Citation_keyword.Keyword
+      _Citation_keyword.Entry_ID
+      _Citation_keyword.Citation_ID
+
+      'antifreeze proteins'         15818 1 
+      'chemical-shift perturbation' 15818 1 
+      'frozen solution'             15818 1 
+      'solid-state NMR'             15818 1 
+      'type III AFP'                15818 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          15818
+   _Assembly.ID                                1
+   _Assembly.Name                              HPLC-12
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                no
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    8083.4
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                          'type III AFP isoform HPLC-12'
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 monomer 1 $type_III_AFP_isoform_HPLC-12 A . yes native no no . . . 15818 1 
+
+   stop_
+
+   loop_
+      _Assembly_db_link.Author_supplied
+      _Assembly_db_link.Database_code
+      _Assembly_db_link.Accession_code
+      _Assembly_db_link.Entry_mol_code
+      _Assembly_db_link.Entry_mol_name
+      _Assembly_db_link.Entry_experimental_method
+      _Assembly_db_link.Entry_structure_resolution
+      _Assembly_db_link.Entry_relation_type
+      _Assembly_db_link.Entry_details
+      _Assembly_db_link.Entry_ID
+      _Assembly_db_link.Assembly_ID
+
+      yes PDB 1hg7 . .  X-ray         1.15 . . 15818 1 
+      yes PDB 1kdf . . 'solution NMR'  .   . . 15818 1 
+      yes PDB 1msi . .  X-ray         1.25 . . 15818 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_type_III_AFP_isoform_HPLC-12
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      type_III_AFP_isoform_HPLC-12
+   _Entity.Entry_ID                          15818
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              type_III_AFP_isoform_HPLC-12
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+MNQASVVANQLIPINTALTL
+VMMRSEVVTPVGIPAEDIPR
+LVSMQVNRAVPLGTTLMPDM
+VKGYAALEHHHHHH
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                74
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2015-11-26
+
+   loop_
+      _Entity_db_link.Ordinal
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+       1 yes UniProt P19614    .  .                                                                                                                                . . . . .    .      .    .      .   .        . . . . 15818 1 
+       2 no  BMRB       15817 .  type_III_AFP_isoform_HPLC-12                                                                                                     . . . . . 100.00  74 100.00 100.00 3.94e-44 . . . . 15818 1 
+       3 no  PDB     1AME      . "Crystal Structure Of Type Iii Antifreeze Protein At 4 C"                                                                         . . . . .  87.84  67 100.00 100.00 8.05e-37 . . . . 15818 1 
+       4 no  PDB     1B7I      . "Type Iii Antifreeze Protein Isoform Hplc 12 K61r"                                                                                . . . . .  87.84  66  98.46 100.00 2.59e-36 . . . . 15818 1 
+       5 no  PDB     1B7J      . "Type Iii Antifreeze Protein Isoform Hplc 12 V20a"                                                                                . . . . .  87.84  66  98.46  98.46 2.89e-36 . . . . 15818 1 
+       6 no  PDB     1B7K      . "Type Iii Antifreeze Protein Isoform Hplc 12 R47h"                                                                                . . . . .  87.84  66  98.46  98.46 2.43e-35 . . . . 15818 1 
+       7 no  PDB     1EKL      . "Type Iii Antifreeze Protein Isoform Hplc 12 E35k"                                                                                . . . . .  87.84  66  98.46 100.00 3.09e-36 . . . . 15818 1 
+       8 no  PDB     1GZI      . "Crystal Structure Of Type Iii Antifreeze Protein From Ocean Pout, At 1.8 Angstrom Resolution"                                    . . . . .  87.84  65 100.00 100.00 8.44e-37 . . . . 15818 1 
+       9 no  PDB     1HG7      . "High Resolution Structure Of Hplc-12 Type Iii Antifreeze Protein From Ocean Pout Macrozoarces Americanus"                        . . . . .  89.19  66 100.00 100.00 1.52e-37 . . . . 15818 1 
+      10 no  PDB     1JAB      . "Type Iii Antifreeze Protein Isoform Hplc 12 T18s"                                                                                . . . . .  87.84  66  98.46 100.00 2.25e-36 . . . . 15818 1 
+      11 no  PDB     1MSJ      . "Type Iii Antifreeze Protein Isoform Hplc 12 T15v"                                                                                . . . . .  87.84  66  98.46  98.46 5.37e-36 . . . . 15818 1 
+      12 no  PDB     2AME      . "Type Iii Antifreeze Protein Isoform Hplc 12 N14q"                                                                                . . . . .  87.84  66  98.46  98.46 5.67e-36 . . . . 15818 1 
+      13 no  PDB     2JIA      . "Type Iii Antifreeze Protein Isoform Hplc 12 K61i"                                                                                . . . . .  87.84  66  98.46  98.46 1.72e-35 . . . . 15818 1 
+      14 no  PDB     2MSI      . "Type Iii Antifreeze Protein Isoform Hplc 12"                                                                                     . . . . .  89.19  66  96.97  96.97 1.68e-35 . . . . 15818 1 
+      15 no  PDB     2MSJ      . "Type Iii Antifreeze Protein Isoform Hplc 12 N46s"                                                                                . . . . .  87.84  66  98.46 100.00 3.75e-36 . . . . 15818 1 
+      16 no  PDB     2SPG      . "Type Iii Antifreeze Protein Isoform Hplc 12 T15s"                                                                                . . . . .  87.84  66  98.46 100.00 2.25e-36 . . . . 15818 1 
+      17 no  PDB     3AME      . "Type Iii Antifreeze Protein Isoform Hplc 12 Q9tq44t"                                                                             . . . . .  87.84  66  96.92  96.92 6.25e-35 . . . . 15818 1 
+      18 no  PDB     3MSI      . "Type Iii Antifreeze Protein Isoform Hplc 12"                                                                                     . . . . .  89.19  66  96.97  96.97 5.92e-35 . . . . 15818 1 
+      19 no  PDB     3QF6      . "Neutron Structure Of Type-Iii Antifreeze Protein Allows The Reconstruction Of Afp-Ice Interface"                                 . . . . .  83.78  66  98.39 100.00 7.51e-34 . . . . 15818 1 
+      20 no  PDB     4AME      . "Type Iii Antifreeze Protein Isoform Hplc 12 T18a"                                                                                . . . . .  87.84  66  98.46  98.46 4.18e-36 . . . . 15818 1 
+      21 no  PDB     4MSI      . "Type Iii Antifreeze Protein Isoform Hplc 12"                                                                                     . . . . .  89.19  66  96.97  96.97 9.34e-36 . . . . 15818 1 
+      22 no  PDB     5C7R      . "Revealing Surface Waters On An Antifreeze Protein By Fusion Protein Crystallography"                                             . . . . .  98.65 444 100.00 100.00 1.77e-41 . . . . 15818 1 
+      23 no  PDB     5MSI      . "Type Iii Antifreeze Protein Isoform Hplc 12"                                                                                     . . . . .  89.19  66  96.97  96.97 6.12e-36 . . . . 15818 1 
+      24 no  PDB     6AME      . "Type Iii Antifreeze Protein Isoform Hplc 12 M21a"                                                                                . . . . .  87.84  66  98.46  98.46 6.75e-36 . . . . 15818 1 
+      25 no  PDB     7AME      . "Type Iii Antifreeze Protein Isoform Hplc 12 T15a"                                                                                . . . . .  87.84  66  98.46  98.46 4.18e-36 . . . . 15818 1 
+      26 no  PDB     7MSI      . "Type Iii Antifreeze Protein Isoform Hplc 12"                                                                                     . . . . .  89.19  66  96.97  96.97 1.61e-35 . . . . 15818 1 
+      27 no  PDB     8AME      . "Type Iii Antifreeze Protein Isoform Hplc 12 N14sa16h"                                                                            . . . . .  87.84  66  96.92  98.46 1.19e-34 . . . . 15818 1 
+      28 no  PDB     8MSI      . "Type Iii Antifreeze Protein Isoform Hplc 12 N14sq44t"                                                                            . . . . .  87.84  66  96.92  98.46 3.22e-35 . . . . 15818 1 
+      29 no  PDB     9AME      . "Type Iii Antifreeze Protein Isoform Hplc 12 S42g"                                                                                . . . . .  87.84  66  98.46  98.46 4.71e-36 . . . . 15818 1 
+      30 no  PDB     9MSI      . "Type Iii Antifreeze Protein Isoform Hplc 12 T18n"                                                                                . . . . .  87.84  66  98.46  98.46 5.79e-36 . . . . 15818 1 
+      31 no  GB      ALL26675  . "type 3 antifreeze protein QAE, partial [Zoarces americanus]"                                                                     . . . . .  85.14  74 100.00 100.00 3.37e-35 . . . . 15818 1 
+      32 no  SP      P19614    . "RecName: Full=Type-3 ice-structuring protein HPLC 12; AltName: Full=Antifreeze protein QAE(HPLC 12); AltName: Full=ISP type III" . . . . .  85.14  66 100.00 100.00 3.12e-35 . . . . 15818 1 
+
+   stop_
+
+   loop_
+      _Entity_biological_function.Biological_function
+      _Entity_biological_function.Entry_ID
+      _Entity_biological_function.Entity_ID
+
+      'antifreeze protein' 15818 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1  0 MET . 15818 1 
+       2  1 ASN . 15818 1 
+       3  2 GLN . 15818 1 
+       4  3 ALA . 15818 1 
+       5  4 SER . 15818 1 
+       6  5 VAL . 15818 1 
+       7  6 VAL . 15818 1 
+       8  7 ALA . 15818 1 
+       9  8 ASN . 15818 1 
+      10  9 GLN . 15818 1 
+      11 10 LEU . 15818 1 
+      12 11 ILE . 15818 1 
+      13 12 PRO . 15818 1 
+      14 13 ILE . 15818 1 
+      15 14 ASN . 15818 1 
+      16 15 THR . 15818 1 
+      17 16 ALA . 15818 1 
+      18 17 LEU . 15818 1 
+      19 18 THR . 15818 1 
+      20 19 LEU . 15818 1 
+      21 20 VAL . 15818 1 
+      22 21 MET . 15818 1 
+      23 22 MET . 15818 1 
+      24 23 ARG . 15818 1 
+      25 24 SER . 15818 1 
+      26 25 GLU . 15818 1 
+      27 26 VAL . 15818 1 
+      28 27 VAL . 15818 1 
+      29 28 THR . 15818 1 
+      30 29 PRO . 15818 1 
+      31 30 VAL . 15818 1 
+      32 31 GLY . 15818 1 
+      33 32 ILE . 15818 1 
+      34 33 PRO . 15818 1 
+      35 34 ALA . 15818 1 
+      36 35 GLU . 15818 1 
+      37 36 ASP . 15818 1 
+      38 37 ILE . 15818 1 
+      39 38 PRO . 15818 1 
+      40 39 ARG . 15818 1 
+      41 40 LEU . 15818 1 
+      42 41 VAL . 15818 1 
+      43 42 SER . 15818 1 
+      44 43 MET . 15818 1 
+      45 44 GLN . 15818 1 
+      46 45 VAL . 15818 1 
+      47 46 ASN . 15818 1 
+      48 47 ARG . 15818 1 
+      49 48 ALA . 15818 1 
+      50 49 VAL . 15818 1 
+      51 50 PRO . 15818 1 
+      52 51 LEU . 15818 1 
+      53 52 GLY . 15818 1 
+      54 53 THR . 15818 1 
+      55 54 THR . 15818 1 
+      56 55 LEU . 15818 1 
+      57 56 MET . 15818 1 
+      58 57 PRO . 15818 1 
+      59 58 ASP . 15818 1 
+      60 59 MET . 15818 1 
+      61 60 VAL . 15818 1 
+      62 61 LYS . 15818 1 
+      63 62 GLY . 15818 1 
+      64 63 TYR . 15818 1 
+      65 64 ALA . 15818 1 
+      66 65 ALA . 15818 1 
+      67 66 LEU . 15818 1 
+      68 67 GLU . 15818 1 
+      69 68 HIS . 15818 1 
+      70 69 HIS . 15818 1 
+      71 70 HIS . 15818 1 
+      72 71 HIS . 15818 1 
+      73 72 HIS . 15818 1 
+      74 73 HIS . 15818 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . MET  1  1 15818 1 
+      . ASN  2  2 15818 1 
+      . GLN  3  3 15818 1 
+      . ALA  4  4 15818 1 
+      . SER  5  5 15818 1 
+      . VAL  6  6 15818 1 
+      . VAL  7  7 15818 1 
+      . ALA  8  8 15818 1 
+      . ASN  9  9 15818 1 
+      . GLN 10 10 15818 1 
+      . LEU 11 11 15818 1 
+      . ILE 12 12 15818 1 
+      . PRO 13 13 15818 1 
+      . ILE 14 14 15818 1 
+      . ASN 15 15 15818 1 
+      . THR 16 16 15818 1 
+      . ALA 17 17 15818 1 
+      . LEU 18 18 15818 1 
+      . THR 19 19 15818 1 
+      . LEU 20 20 15818 1 
+      . VAL 21 21 15818 1 
+      . MET 22 22 15818 1 
+      . MET 23 23 15818 1 
+      . ARG 24 24 15818 1 
+      . SER 25 25 15818 1 
+      . GLU 26 26 15818 1 
+      . VAL 27 27 15818 1 
+      . VAL 28 28 15818 1 
+      . THR 29 29 15818 1 
+      . PRO 30 30 15818 1 
+      . VAL 31 31 15818 1 
+      . GLY 32 32 15818 1 
+      . ILE 33 33 15818 1 
+      . PRO 34 34 15818 1 
+      . ALA 35 35 15818 1 
+      . GLU 36 36 15818 1 
+      . ASP 37 37 15818 1 
+      . ILE 38 38 15818 1 
+      . PRO 39 39 15818 1 
+      . ARG 40 40 15818 1 
+      . LEU 41 41 15818 1 
+      . VAL 42 42 15818 1 
+      . SER 43 43 15818 1 
+      . MET 44 44 15818 1 
+      . GLN 45 45 15818 1 
+      . VAL 46 46 15818 1 
+      . ASN 47 47 15818 1 
+      . ARG 48 48 15818 1 
+      . ALA 49 49 15818 1 
+      . VAL 50 50 15818 1 
+      . PRO 51 51 15818 1 
+      . LEU 52 52 15818 1 
+      . GLY 53 53 15818 1 
+      . THR 54 54 15818 1 
+      . THR 55 55 15818 1 
+      . LEU 56 56 15818 1 
+      . MET 57 57 15818 1 
+      . PRO 58 58 15818 1 
+      . ASP 59 59 15818 1 
+      . MET 60 60 15818 1 
+      . VAL 61 61 15818 1 
+      . LYS 62 62 15818 1 
+      . GLY 63 63 15818 1 
+      . TYR 64 64 15818 1 
+      . ALA 65 65 15818 1 
+      . ALA 66 66 15818 1 
+      . LEU 67 67 15818 1 
+      . GLU 68 68 15818 1 
+      . HIS 69 69 15818 1 
+      . HIS 70 70 15818 1 
+      . HIS 71 71 15818 1 
+      . HIS 72 72 15818 1 
+      . HIS 73 73 15818 1 
+      . HIS 74 74 15818 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       15818
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $type_III_AFP_isoform_HPLC-12 . 8199 organism . 'Macrozoarces americanus' 'ocean pout' . . Eukaryota Metazoa Macrozoarces americanus . . . . . . . . . . . . . . . . . . . . . 15818 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       15818
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $type_III_AFP_isoform_HPLC-12 . 'recombinant technology' 'Escherichia coli' . . . Escherichia coli BL21(DE3)pLysS . . . . . . . . . . . . . . . pET-20b . . . . . . 15818 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         15818
+   _Sample.ID                               1
+   _Sample.Type                            'frozen solution'
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                  '100% H2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1  H2O                           'natural abundance'        . .  .  .                            . . 100   . . %  . . . . 15818 1 
+      2 'type III AFP isoform HPLC-12' '[U-100% 13C; U-100% 15N]' . . 1 $type_III_AFP_isoform_HPLC-12 . .   1.4 . . mg . . . . 15818 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       15818
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pressure      1 . atm 15818 1 
+      temperature 258 . K   15818 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_TOPSPIN
+   _Software.Sf_category    software
+   _Software.Sf_framecode   TOPSPIN
+   _Software.Entry_ID       15818
+   _Software.ID             1
+   _Software.Name           TOPSPIN
+   _Software.Version        1.3
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Bruker Biospin' . . 15818 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      collection 15818 1 
+      processing 15818 1 
+
+   stop_
+
+save_
+
+
+save_CARA
+   _Software.Sf_category    software
+   _Software.Sf_framecode   CARA
+   _Software.Entry_ID       15818
+   _Software.ID             2
+   _Software.Name           CARA
+   _Software.Version        1.8.4
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Keller and Wuthrich' . . 15818 2 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis' 15818 2 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         15818
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details         'Wide bore'
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            Avance
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   750
+
+save_
+
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       15818
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 spectrometer_1 Bruker Avance . 750 'Wide bore' . . 15818 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       15818
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 '2D 13C - 13C DARR' no 1 $2D_13C_-_13C_DARR . . . . . . . . 1 $sample_1 isotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . . . . . . . . . . . . . 15818 1 
+
+   stop_
+
+save_
+
+
+save_2D_13C_-_13C_DARR
+   _NMR_spec_expt.Sf_category                     NMR_spectrometer_expt
+   _NMR_spec_expt.Sf_framecode                    2D_13C_-_13C_DARR
+   _NMR_spec_expt.Entry_ID                        15818
+   _NMR_spec_expt.ID                              1
+   _NMR_spec_expt.Name                            2D_13C_-_13C_DARR
+   _NMR_spec_expt.Type                            .
+   _NMR_spec_expt.Sample_volume                   .
+   _NMR_spec_expt.Sample_volume_units             .
+   _NMR_spec_expt.NMR_tube_type                   .
+   _NMR_spec_expt.Sample_spinning_rate            .
+   _NMR_spec_expt.Sample_angle                    .
+   _NMR_spec_expt.NMR_spectrometer_ID             1
+   _NMR_spec_expt.NMR_spectrometer_label         $spectrometer_1
+   _NMR_spec_expt.NMR_spectrometer_probe_ID       .
+   _NMR_spec_expt.NMR_spectrometer_probe_label    .
+   _NMR_spec_expt.Carrier_freq_switch_time        .
+   _NMR_spec_expt.Software_ID                     .
+   _NMR_spec_expt.Software_label                  .
+   _NMR_spec_expt.Method_ID                       .
+   _NMR_spec_expt.Method_label                    .
+   _NMR_spec_expt.Pulse_seq_accession_BMRB_code   .
+   _NMR_spec_expt.Details                        '12kHz MAS, 20ms mixing time'
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       15818
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details       'external 13C referencing using adamantane relative to DSS'
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C 13 adamantane 'methyl carbon' . . . . ppm 40.48 external direct 1.0 'separate tube (no insert) similar to the experimental sample tube' cylindrical . . . . . . . 15818 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      15818
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            0.3
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 '2D 13C - 13C DARR' . . . 15818 1 
+
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+      2 $CARA . . 15818 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1  2  2 ASN CA  C 13 53.000 0.3 . 1 . . . .  1 ASN CA  . 15818 1 
+        2 . 1 1  2  2 ASN CB  C 13 39.100 0.3 . 1 . . . .  1 ASN CB  . 15818 1 
+        3 . 1 1  3  3 GLN CA  C 13 55.900 0.3 . 1 . . . .  2 GLN CA  . 15818 1 
+        4 . 1 1  3  3 GLN CB  C 13 30.300 0.3 . 1 . . . .  2 GLN CB  . 15818 1 
+        5 . 1 1  3  3 GLN CG  C 13 34.000 0.3 . 1 . . . .  2 GLN CG  . 15818 1 
+        6 . 1 1  4  4 ALA CA  C 13 52.000 0.3 . 1 . . . .  3 ALA CA  . 15818 1 
+        7 . 1 1  4  4 ALA CB  C 13 20.000 0.3 . 1 . . . .  3 ALA CB  . 15818 1 
+        8 . 1 1  5  5 SER CA  C 13 57.600 0.3 . 1 . . . .  4 SER CA  . 15818 1 
+        9 . 1 1  5  5 SER CB  C 13 66.600 0.3 . 1 . . . .  4 SER CB  . 15818 1 
+       10 . 1 1  6  6 VAL CA  C 13 63.200 0.3 . 1 . . . .  5 VAL CA  . 15818 1 
+       11 . 1 1  6  6 VAL CB  C 13 32.000 0.3 . 1 . . . .  5 VAL CB  . 15818 1 
+       12 . 1 1  6  6 VAL CG1 C 13 23.000 0.3 . 2 . . . .  5 VAL CG1 . 15818 1 
+       13 . 1 1  6  6 VAL CG2 C 13 23.200 0.3 . 2 . . . .  5 VAL CG2 . 15818 1 
+       14 . 1 1  7  7 VAL CA  C 13 59.900 0.3 . 1 . . . .  6 VAL CA  . 15818 1 
+       15 . 1 1  7  7 VAL CB  C 13 35.900 0.3 . 1 . . . .  6 VAL CB  . 15818 1 
+       16 . 1 1  7  7 VAL CG1 C 13 22.500 0.3 . 2 . . . .  6 VAL CG1 . 15818 1 
+       17 . 1 1  7  7 VAL CG2 C 13 20.700 0.3 . 2 . . . .  6 VAL CG2 . 15818 1 
+       18 . 1 1  8  8 ALA CA  C 13 53.000 0.3 . 1 . . . .  7 ALA CA  . 15818 1 
+       19 . 1 1  8  8 ALA CB  C 13 19.400 0.3 . 1 . . . .  7 ALA CB  . 15818 1 
+       20 . 1 1  9  9 ASN CA  C 13 52.200 0.3 . 1 . . . .  8 ASN CA  . 15818 1 
+       21 . 1 1  9  9 ASN CB  C 13 40.800 0.3 . 1 . . . .  8 ASN CB  . 15818 1 
+       22 . 1 1 10 10 GLN CA  C 13 53.300 0.3 . 1 . . . .  9 GLN CA  . 15818 1 
+       23 . 1 1 10 10 GLN CB  C 13 32.900 0.3 . 1 . . . .  9 GLN CB  . 15818 1 
+       24 . 1 1 10 10 GLN CG  C 13 32.900 0.3 . 1 . . . .  9 GLN CG  . 15818 1 
+       25 . 1 1 11 11 LEU CA  C 13 56.400 0.3 . 1 . . . . 10 LEU CA  . 15818 1 
+       26 . 1 1 11 11 LEU CB  C 13 40.500 0.3 . 1 . . . . 10 LEU CB  . 15818 1 
+       27 . 1 1 11 11 LEU CD1 C 13 22.100 0.3 . 2 . . . . 10 LEU CD1 . 15818 1 
+       28 . 1 1 11 11 LEU CD2 C 13 25.200 0.3 . 2 . . . . 10 LEU CD2 . 15818 1 
+       29 . 1 1 11 11 LEU CG  C 13 28.100 0.3 . 1 . . . . 10 LEU CG  . 15818 1 
+       30 . 1 1 12 12 ILE CA  C 13 59.200 0.3 . 1 . . . . 11 ILE CA  . 15818 1 
+       31 . 1 1 12 12 ILE CB  C 13 39.200 0.3 . 1 . . . . 11 ILE CB  . 15818 1 
+       32 . 1 1 12 12 ILE CD1 C 13 13.800 0.3 . 1 . . . . 11 ILE CD1 . 15818 1 
+       33 . 1 1 12 12 ILE CG1 C 13 26.000 0.3 . 1 . . . . 11 ILE CG1 . 15818 1 
+       34 . 1 1 12 12 ILE CG2 C 13 19.900 0.3 . 1 . . . . 11 ILE CG2 . 15818 1 
+       35 . 1 1 13 13 PRO CA  C 13 61.900 0.3 . 1 . . . . 12 PRO CA  . 15818 1 
+       36 . 1 1 13 13 PRO CB  C 13 32.500 0.3 . 1 . . . . 12 PRO CB  . 15818 1 
+       37 . 1 1 13 13 PRO CD  C 13 51.000 0.3 . 1 . . . . 12 PRO CD  . 15818 1 
+       38 . 1 1 13 13 PRO CG  C 13 27.400 0.3 . 1 . . . . 12 PRO CG  . 15818 1 
+       39 . 1 1 14 14 ILE CA  C 13 63.800 0.3 . 1 . . . . 13 ILE CA  . 15818 1 
+       40 . 1 1 14 14 ILE CB  C 13 38.300 0.3 . 1 . . . . 13 ILE CB  . 15818 1 
+       41 . 1 1 14 14 ILE CD1 C 13 14.300 0.3 . 1 . . . . 13 ILE CD1 . 15818 1 
+       42 . 1 1 14 14 ILE CG1 C 13 29.200 0.3 . 1 . . . . 13 ILE CG1 . 15818 1 
+       43 . 1 1 14 14 ILE CG2 C 13 15.300 0.3 . 1 . . . . 13 ILE CG2 . 15818 1 
+       44 . 1 1 15 15 ASN CA  C 13 55.300 0.3 . 1 . . . . 14 ASN CA  . 15818 1 
+       45 . 1 1 15 15 ASN CB  C 13 36.900 0.3 . 1 . . . . 14 ASN CB  . 15818 1 
+       46 . 1 1 16 16 THR CA  C 13 65.300 0.3 . 1 . . . . 15 THR CA  . 15818 1 
+       47 . 1 1 16 16 THR CB  C 13 68.700 0.3 . 1 . . . . 15 THR CB  . 15818 1 
+       48 . 1 1 16 16 THR CG2 C 13 22.500 0.3 . 1 . . . . 15 THR CG2 . 15818 1 
+       49 . 1 1 17 17 ALA CA  C 13 50.800 0.3 . 1 . . . . 16 ALA CA  . 15818 1 
+       50 . 1 1 17 17 ALA CB  C 13 19.700 0.3 . 1 . . . . 16 ALA CB  . 15818 1 
+       51 . 1 1 18 18 LEU CA  C 13 56.000 0.3 . 1 . . . . 17 LEU CA  . 15818 1 
+       52 . 1 1 18 18 LEU CB  C 13 42.800 0.3 . 1 . . . . 17 LEU CB  . 15818 1 
+       53 . 1 1 18 18 LEU CD1 C 13 25.800 0.3 . 1 . . . . 17 LEU CD1 . 15818 1 
+       54 . 1 1 18 18 LEU CD2 C 13 25.800 0.3 . 1 . . . . 17 LEU CD2 . 15818 1 
+       55 . 1 1 18 18 LEU CG  C 13 27.800 0.3 . 1 . . . . 17 LEU CG  . 15818 1 
+       56 . 1 1 19 19 THR CA  C 13 59.200 0.3 . 1 . . . . 18 THR CA  . 15818 1 
+       57 . 1 1 19 19 THR CB  C 13 71.600 0.3 . 1 . . . . 18 THR CB  . 15818 1 
+       58 . 1 1 19 19 THR CG2 C 13 21.200 0.3 . 1 . . . . 18 THR CG2 . 15818 1 
+       59 . 1 1 20 20 LEU CA  C 13 59.400 0.3 . 1 . . . . 19 LEU CA  . 15818 1 
+       60 . 1 1 20 20 LEU CB  C 13 41.000 0.3 . 1 . . . . 19 LEU CB  . 15818 1 
+       61 . 1 1 20 20 LEU CD1 C 13 25.100 0.3 . 2 . . . . 19 LEU CD1 . 15818 1 
+       62 . 1 1 20 20 LEU CD2 C 13 23.800 0.3 . 2 . . . . 19 LEU CD2 . 15818 1 
+       63 . 1 1 20 20 LEU CG  C 13 26.800 0.3 . 1 . . . . 19 LEU CG  . 15818 1 
+       64 . 1 1 21 21 VAL CA  C 13 63.500 0.3 . 1 . . . . 20 VAL CA  . 15818 1 
+       65 . 1 1 21 21 VAL CB  C 13 31.400 0.3 . 1 . . . . 20 VAL CB  . 15818 1 
+       66 . 1 1 21 21 VAL CG1 C 13 20.400 0.3 . 1 . . . . 20 VAL CG1 . 15818 1 
+       67 . 1 1 21 21 VAL CG2 C 13 20.400 0.3 . 1 . . . . 20 VAL CG2 . 15818 1 
+       68 . 1 1 22 22 MET CA  C 13 58.000 0.3 . 1 . . . . 21 MET CA  . 15818 1 
+       69 . 1 1 22 22 MET CB  C 13 33.300 0.3 . 1 . . . . 21 MET CB  . 15818 1 
+       70 . 1 1 23 23 MET CA  C 13 55.300 0.3 . 1 . . . . 22 MET CA  . 15818 1 
+       71 . 1 1 23 23 MET CB  C 13 38.500 0.3 . 1 . . . . 22 MET CB  . 15818 1 
+       72 . 1 1 23 23 MET CG  C 13 31.700 0.3 . 1 . . . . 22 MET CG  . 15818 1 
+       73 . 1 1 24 24 ARG CA  C 13 53.900 0.3 . 1 . . . . 23 ARG CA  . 15818 1 
+       74 . 1 1 24 24 ARG CB  C 13 33.300 0.3 . 1 . . . . 23 ARG CB  . 15818 1 
+       75 . 1 1 24 24 ARG CD  C 13 43.500 0.3 . 1 . . . . 23 ARG CD  . 15818 1 
+       76 . 1 1 24 24 ARG CG  C 13 27.200 0.3 . 1 . . . . 23 ARG CG  . 15818 1 
+       77 . 1 1 25 25 SER CA  C 13 56.000 0.3 . 1 . . . . 24 SER CA  . 15818 1 
+       78 . 1 1 25 25 SER CB  C 13 64.500 0.3 . 1 . . . . 24 SER CB  . 15818 1 
+       79 . 1 1 26 26 GLU CA  C 13 55.600 0.3 . 1 . . . . 25 GLU CA  . 15818 1 
+       80 . 1 1 26 26 GLU CB  C 13 35.000 0.3 . 1 . . . . 25 GLU CB  . 15818 1 
+       81 . 1 1 26 26 GLU CG  C 13 36.400 0.3 . 1 . . . . 25 GLU CG  . 15818 1 
+       82 . 1 1 27 27 VAL CA  C 13 64.200 0.3 . 1 . . . . 26 VAL CA  . 15818 1 
+       83 . 1 1 27 27 VAL CB  C 13 30.100 0.3 . 1 . . . . 26 VAL CB  . 15818 1 
+       84 . 1 1 27 27 VAL CG1 C 13 21.300 0.3 . 2 . . . . 26 VAL CG1 . 15818 1 
+       85 . 1 1 27 27 VAL CG2 C 13 20.800 0.3 . 2 . . . . 26 VAL CG2 . 15818 1 
+       86 . 1 1 28 28 VAL CA  C 13 59.200 0.3 . 1 . . . . 27 VAL CA  . 15818 1 
+       87 . 1 1 28 28 VAL CB  C 13 36.200 0.3 . 1 . . . . 27 VAL CB  . 15818 1 
+       88 . 1 1 28 28 VAL CG1 C 13 22.300 0.3 . 2 . . . . 27 VAL CG1 . 15818 1 
+       89 . 1 1 28 28 VAL CG2 C 13 17.700 0.3 . 2 . . . . 27 VAL CG2 . 15818 1 
+       90 . 1 1 29 29 THR CA  C 13 59.000 0.3 . 1 . . . . 28 THR CA  . 15818 1 
+       91 . 1 1 29 29 THR CB  C 13 71.100 0.3 . 1 . . . . 28 THR CB  . 15818 1 
+       92 . 1 1 29 29 THR CG2 C 13 20.900 0.3 . 1 . . . . 28 THR CG2 . 15818 1 
+       93 . 1 1 30 30 PRO CA  C 13 62.400 0.3 . 1 . . . . 29 PRO CA  . 15818 1 
+       94 . 1 1 30 30 PRO CB  C 13 34.700 0.3 . 1 . . . . 29 PRO CB  . 15818 1 
+       95 . 1 1 30 30 PRO CD  C 13 50.300 0.3 . 1 . . . . 29 PRO CD  . 15818 1 
+       96 . 1 1 30 30 PRO CG  C 13 25.400 0.3 . 1 . . . . 29 PRO CG  . 15818 1 
+       97 . 1 1 31 31 VAL CA  C 13 62.500 0.3 . 1 . . . . 30 VAL CA  . 15818 1 
+       98 . 1 1 31 31 VAL CB  C 13 32.100 0.3 . 1 . . . . 30 VAL CB  . 15818 1 
+       99 . 1 1 31 31 VAL CG1 C 13 21.400 0.3 . 2 . . . . 30 VAL CG1 . 15818 1 
+      100 . 1 1 31 31 VAL CG2 C 13 19.900 0.3 . 2 . . . . 30 VAL CG2 . 15818 1 
+      101 . 1 1 32 32 GLY CA  C 13 45.100 0.3 . 1 . . . . 31 GLY CA  . 15818 1 
+      102 . 1 1 33 33 ILE CA  C 13 61.300 0.3 . 1 . . . . 32 ILE CA  . 15818 1 
+      103 . 1 1 33 33 ILE CB  C 13 39.700 0.3 . 1 . . . . 32 ILE CB  . 15818 1 
+      104 . 1 1 33 33 ILE CD1 C 13 13.900 0.3 . 1 . . . . 32 ILE CD1 . 15818 1 
+      105 . 1 1 33 33 ILE CG1 C 13 28.700 0.3 . 1 . . . . 32 ILE CG1 . 15818 1 
+      106 . 1 1 33 33 ILE CG2 C 13 15.900 0.3 . 1 . . . . 32 ILE CG2 . 15818 1 
+      107 . 1 1 34 34 PRO CA  C 13 63.100 0.3 . 1 . . . . 33 PRO CA  . 15818 1 
+      108 . 1 1 34 34 PRO CB  C 13 32.700 0.3 . 1 . . . . 33 PRO CB  . 15818 1 
+      109 . 1 1 34 34 PRO CD  C 13 51.100 0.3 . 1 . . . . 33 PRO CD  . 15818 1 
+      110 . 1 1 34 34 PRO CG  C 13 27.700 0.3 . 1 . . . . 33 PRO CG  . 15818 1 
+      111 . 1 1 35 35 ALA CA  C 13 54.800 0.3 . 1 . . . . 34 ALA CA  . 15818 1 
+      112 . 1 1 35 35 ALA CB  C 13 18.500 0.3 . 1 . . . . 34 ALA CB  . 15818 1 
+      113 . 1 1 36 36 GLU CA  C 13 59.200 0.3 . 1 . . . . 35 GLU CA  . 15818 1 
+      114 . 1 1 36 36 GLU CB  C 13 28.900 0.3 . 1 . . . . 35 GLU CB  . 15818 1 
+      115 . 1 1 36 36 GLU CG  C 13 36.800 0.3 . 1 . . . . 35 GLU CG  . 15818 1 
+      116 . 1 1 37 37 ASP CA  C 13 54.900 0.3 . 1 . . . . 36 ASP CA  . 15818 1 
+      117 . 1 1 37 37 ASP CB  C 13 40.700 0.3 . 1 . . . . 36 ASP CB  . 15818 1 
+      118 . 1 1 38 38 ILE CA  C 13 69.100 0.3 . 1 . . . . 37 ILE CA  . 15818 1 
+      119 . 1 1 38 38 ILE CB  C 13 36.200 0.3 . 1 . . . . 37 ILE CB  . 15818 1 
+      120 . 1 1 38 38 ILE CD1 C 13 12.400 0.3 . 1 . . . . 37 ILE CD1 . 15818 1 
+      121 . 1 1 38 38 ILE CG1 C 13 33.300 0.3 . 1 . . . . 37 ILE CG1 . 15818 1 
+      122 . 1 1 38 38 ILE CG2 C 13 16.800 0.3 . 1 . . . . 37 ILE CG2 . 15818 1 
+      123 . 1 1 39 39 PRO CA  C 13 65.900 0.3 . 1 . . . . 38 PRO CA  . 15818 1 
+      124 . 1 1 39 39 PRO CB  C 13 31.200 0.3 . 1 . . . . 38 PRO CB  . 15818 1 
+      125 . 1 1 39 39 PRO CD  C 13 49.000 0.3 . 1 . . . . 38 PRO CD  . 15818 1 
+      126 . 1 1 39 39 PRO CG  C 13 28.500 0.3 . 1 . . . . 38 PRO CG  . 15818 1 
+      127 . 1 1 40 40 ARG CA  C 13 57.300 0.3 . 1 . . . . 39 ARG CA  . 15818 1 
+      128 . 1 1 40 40 ARG CB  C 13 30.800 0.3 . 1 . . . . 39 ARG CB  . 15818 1 
+      129 . 1 1 40 40 ARG CD  C 13 44.100 0.3 . 1 . . . . 39 ARG CD  . 15818 1 
+      130 . 1 1 40 40 ARG CG  C 13 27.500 0.3 . 1 . . . . 39 ARG CG  . 15818 1 
+      131 . 1 1 41 41 LEU CA  C 13 55.500 0.3 . 1 . . . . 40 LEU CA  . 15818 1 
+      132 . 1 1 41 41 LEU CB  C 13 42.700 0.3 . 1 . . . . 40 LEU CB  . 15818 1 
+      133 . 1 1 41 41 LEU CD1 C 13 24.400 0.3 . 2 . . . . 40 LEU CD1 . 15818 1 
+      134 . 1 1 41 41 LEU CD2 C 13 25.000 0.3 . 2 . . . . 40 LEU CD2 . 15818 1 
+      135 . 1 1 41 41 LEU CG  C 13 26.800 0.3 . 1 . . . . 40 LEU CG  . 15818 1 
+      136 . 1 1 42 42 VAL CA  C 13 65.000 0.3 . 1 . . . . 41 VAL CA  . 15818 1 
+      137 . 1 1 42 42 VAL CB  C 13 31.600 0.3 . 1 . . . . 41 VAL CB  . 15818 1 
+      138 . 1 1 42 42 VAL CG1 C 13 23.100 0.3 . 2 . . . . 41 VAL CG1 . 15818 1 
+      139 . 1 1 42 42 VAL CG2 C 13 21.400 0.3 . 2 . . . . 41 VAL CG2 . 15818 1 
+      140 . 1 1 43 43 SER CA  C 13 58.200 0.3 . 1 . . . . 42 SER CA  . 15818 1 
+      141 . 1 1 43 43 SER CB  C 13 63.800 0.3 . 1 . . . . 42 SER CB  . 15818 1 
+      142 . 1 1 44 44 MET CA  C 13 57.000 0.3 . 1 . . . . 43 MET CA  . 15818 1 
+      143 . 1 1 44 44 MET CB  C 13 32.800 0.3 . 1 . . . . 43 MET CB  . 15818 1 
+      144 . 1 1 44 44 MET CG  C 13 31.100 0.3 . 1 . . . . 43 MET CG  . 15818 1 
+      145 . 1 1 45 45 GLN CA  C 13 54.500 0.3 . 1 . . . . 44 GLN CA  . 15818 1 
+      146 . 1 1 45 45 GLN CB  C 13 32.300 0.3 . 1 . . . . 44 GLN CB  . 15818 1 
+      147 . 1 1 45 45 GLN CG  C 13 34.100 0.3 . 1 . . . . 44 GLN CG  . 15818 1 
+      148 . 1 1 46 46 VAL CA  C 13 59.600 0.3 . 1 . . . . 45 VAL CA  . 15818 1 
+      149 . 1 1 46 46 VAL CB  C 13 33.500 0.3 . 1 . . . . 45 VAL CB  . 15818 1 
+      150 . 1 1 46 46 VAL CG1 C 13 22.400 0.3 . 2 . . . . 45 VAL CG1 . 15818 1 
+      151 . 1 1 46 46 VAL CG2 C 13 20.700 0.3 . 2 . . . . 45 VAL CG2 . 15818 1 
+      152 . 1 1 47 47 ASN CA  C 13 51.600 0.3 . 1 . . . . 46 ASN CA  . 15818 1 
+      153 . 1 1 47 47 ASN CB  C 13 39.000 0.3 . 1 . . . . 46 ASN CB  . 15818 1 
+      154 . 1 1 48 48 ARG CA  C 13 53.700 0.3 . 1 . . . . 47 ARG CA  . 15818 1 
+      155 . 1 1 48 48 ARG CB  C 13 32.000 0.3 . 1 . . . . 47 ARG CB  . 15818 1 
+      156 . 1 1 48 48 ARG CD  C 13 44.000 0.3 . 1 . . . . 47 ARG CD  . 15818 1 
+      157 . 1 1 48 48 ARG CG  C 13 24.000 0.3 . 1 . . . . 47 ARG CG  . 15818 1 
+      158 . 1 1 49 49 ALA CA  C 13 52.200 0.3 . 1 . . . . 48 ALA CA  . 15818 1 
+      159 . 1 1 49 49 ALA CB  C 13 17.800 0.3 . 1 . . . . 48 ALA CB  . 15818 1 
+      160 . 1 1 50 50 VAL CA  C 13 59.600 0.3 . 1 . . . . 49 VAL CA  . 15818 1 
+      161 . 1 1 50 50 VAL CB  C 13 33.700 0.3 . 1 . . . . 49 VAL CB  . 15818 1 
+      162 . 1 1 50 50 VAL CG1 C 13 22.400 0.3 . 2 . . . . 49 VAL CG1 . 15818 1 
+      163 . 1 1 50 50 VAL CG2 C 13 20.400 0.3 . 2 . . . . 49 VAL CG2 . 15818 1 
+      164 . 1 1 51 51 PRO CA  C 13 62.400 0.3 . 1 . . . . 50 PRO CA  . 15818 1 
+      165 . 1 1 51 51 PRO CB  C 13 32.500 0.3 . 1 . . . . 50 PRO CB  . 15818 1 
+      166 . 1 1 51 51 PRO CD  C 13 51.200 0.3 . 1 . . . . 50 PRO CD  . 15818 1 
+      167 . 1 1 51 51 PRO CG  C 13 27.500 0.3 . 1 . . . . 50 PRO CG  . 15818 1 
+      168 . 1 1 52 52 LEU CA  C 13 57.800 0.3 . 1 . . . . 51 LEU CA  . 15818 1 
+      169 . 1 1 52 52 LEU CB  C 13 42.700 0.3 . 1 . . . . 51 LEU CB  . 15818 1 
+      170 . 1 1 52 52 LEU CD1 C 13 25.200 0.3 . 2 . . . . 51 LEU CD1 . 15818 1 
+      171 . 1 1 52 52 LEU CD2 C 13 24.800 0.3 . 2 . . . . 51 LEU CD2 . 15818 1 
+      172 . 1 1 52 52 LEU CG  C 13 27.200 0.3 . 1 . . . . 51 LEU CG  . 15818 1 
+      173 . 1 1 53 53 GLY CA  C 13 45.400 0.3 . 1 . . . . 52 GLY CA  . 15818 1 
+      174 . 1 1 54 54 THR CA  C 13 63.200 0.3 . 1 . . . . 53 THR CA  . 15818 1 
+      175 . 1 1 54 54 THR CB  C 13 69.300 0.3 . 1 . . . . 53 THR CB  . 15818 1 
+      176 . 1 1 54 54 THR CG2 C 13 21.600 0.3 . 1 . . . . 53 THR CG2 . 15818 1 
+      177 . 1 1 55 55 THR CA  C 13 63.200 0.3 . 1 . . . . 54 THR CA  . 15818 1 
+      178 . 1 1 55 55 THR CB  C 13 68.700 0.3 . 1 . . . . 54 THR CB  . 15818 1 
+      179 . 1 1 55 55 THR CG2 C 13 22.600 0.3 . 1 . . . . 54 THR CG2 . 15818 1 
+      180 . 1 1 56 56 LEU CA  C 13 55.600 0.3 . 1 . . . . 55 LEU CA  . 15818 1 
+      181 . 1 1 56 56 LEU CB  C 13 42.300 0.3 . 1 . . . . 55 LEU CB  . 15818 1 
+      182 . 1 1 56 56 LEU CD1 C 13 26.200 0.3 . 2 . . . . 55 LEU CD1 . 15818 1 
+      183 . 1 1 56 56 LEU CD2 C 13 25.300 0.3 . 2 . . . . 55 LEU CD2 . 15818 1 
+      184 . 1 1 56 56 LEU CG  C 13 28.500 0.3 . 1 . . . . 55 LEU CG  . 15818 1 
+      185 . 1 1 57 57 MET CA  C 13 51.200 0.3 . 1 . . . . 56 MET CA  . 15818 1 
+      186 . 1 1 57 57 MET CB  C 13 32.000 0.3 . 1 . . . . 56 MET CB  . 15818 1 
+      187 . 1 1 58 58 PRO CA  C 13 66.100 0.3 . 1 . . . . 57 PRO CA  . 15818 1 
+      188 . 1 1 58 58 PRO CB  C 13 32.800 0.3 . 1 . . . . 57 PRO CB  . 15818 1 
+      189 . 1 1 58 58 PRO CD  C 13 50.600 0.3 . 1 . . . . 57 PRO CD  . 15818 1 
+      190 . 1 1 58 58 PRO CG  C 13 27.800 0.3 . 1 . . . . 57 PRO CG  . 15818 1 
+      191 . 1 1 59 59 ASP CA  C 13 54.700 0.3 . 1 . . . . 58 ASP CA  . 15818 1 
+      192 . 1 1 59 59 ASP CB  C 13 39.900 0.3 . 1 . . . . 58 ASP CB  . 15818 1 
+      193 . 1 1 60 60 MET CA  C 13 57.100 0.3 . 1 . . . . 59 MET CA  . 15818 1 
+      194 . 1 1 60 60 MET CB  C 13 33.900 0.3 . 1 . . . . 59 MET CB  . 15818 1 
+      195 . 1 1 60 60 MET CG  C 13 30.300 0.3 . 1 . . . . 59 MET CG  . 15818 1 
+      196 . 1 1 61 61 VAL CA  C 13 61.300 0.3 . 1 . . . . 60 VAL CA  . 15818 1 
+      197 . 1 1 61 61 VAL CB  C 13 33.400 0.3 . 1 . . . . 60 VAL CB  . 15818 1 
+      198 . 1 1 61 61 VAL CG1 C 13 21.300 0.3 . 2 . . . . 60 VAL CG1 . 15818 1 
+      199 . 1 1 61 61 VAL CG2 C 13 22.100 0.3 . 2 . . . . 60 VAL CG2 . 15818 1 
+      200 . 1 1 62 62 LYS CA  C 13 58.200 0.3 . 1 . . . . 61 LYS CA  . 15818 1 
+      201 . 1 1 62 62 LYS CB  C 13 31.600 0.3 . 1 . . . . 61 LYS CB  . 15818 1 
+      202 . 1 1 62 62 LYS CD  C 13 26.000 0.3 . 1 . . . . 61 LYS CD  . 15818 1 
+      203 . 1 1 62 62 LYS CE  C 13 42.700 0.3 . 1 . . . . 61 LYS CE  . 15818 1 
+      204 . 1 1 62 62 LYS CG  C 13 30.500 0.3 . 1 . . . . 61 LYS CG  . 15818 1 
+      205 . 1 1 63 63 GLY CA  C 13 45.600 0.3 . 1 . . . . 62 GLY CA  . 15818 1 
+      206 . 1 1 64 64 TYR CA  C 13 62.300 0.3 . 1 . . . . 63 TYR CA  . 15818 1 
+      207 . 1 1 64 64 TYR CB  C 13 39.100 0.3 . 1 . . . . 63 TYR CB  . 15818 1 
+      208 . 1 1 65 65 ALA CA  C 13 53.400 0.3 . 1 . . . . 64 ALA CA  . 15818 1 
+      209 . 1 1 65 65 ALA CB  C 13 18.900 0.3 . 1 . . . . 64 ALA CB  . 15818 1 
+      210 . 1 1 66 66 ALA CA  C 13 52.400 0.3 . 1 . . . . 65 ALA CA  . 15818 1 
+      211 . 1 1 66 66 ALA CB  C 13 19.000 0.3 . 1 . . . . 65 ALA CB  . 15818 1 
+      212 . 1 1 67 67 LEU CA  C 13 55.300 0.3 . 1 . . . . 66 LEU CA  . 15818 1 
+      213 . 1 1 67 67 LEU CB  C 13 41.900 0.3 . 1 . . . . 66 LEU CB  . 15818 1 
+      214 . 1 1 67 67 LEU CD1 C 13 24.800 0.3 . 2 . . . . 66 LEU CD1 . 15818 1 
+      215 . 1 1 67 67 LEU CD2 C 13 23.200 0.3 . 2 . . . . 66 LEU CD2 . 15818 1 
+      216 . 1 1 67 67 LEU CG  C 13 26.900 0.3 . 1 . . . . 66 LEU CG  . 15818 1 
+      217 . 1 1 68 68 GLU CA  C 13 56.700 0.3 . 1 . . . . 67 GLU CA  . 15818 1 
+      218 . 1 1 68 68 GLU CB  C 13 30.200 0.3 . 1 . . . . 67 GLU CB  . 15818 1 
+      219 . 1 1 68 68 GLU CG  C 13 36.200 0.3 . 1 . . . . 67 GLU CG  . 15818 1 
+
+   stop_
+
+save_
+

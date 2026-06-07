@@ -1,0 +1,646 @@
+"""
+scrape_bmrb_solidstate.py — Fixed BMRB solid-state scraper.
+
+Fixes vs v1 (per code review):
+  1. PDB ID extraction now scans ALL saveframes and loops using PDB_RE pattern
+     (not just 3 hardcoded tags)
+  2. PDB_RE matches real PDB IDs: start with digit, 4 alphanum chars
+     e.g. 1UBQ, 2M02, 7N4I — not UUID/BMRB/NMR etc.
+  3. API fallback uses the same robust regex, not first-match of any 4-char string
+  4. CIF parsing uses Bio.PDB.MMCIF2Dict for robustness on quoted fields
+  5. Diagnostic mode: set DIAG_ID to inspect any failing entry's raw API response
+
+Run LOCALLY (~15-30 min):
+    conda activate nmr
+    cd C:\\Users\\vamsi\\.vscode\\paravastu
+    python src/scrape_bmrb_solidstate.py
+
+Output: data/bmrb_ssNMR_candidates.csv
+"""
+
+import sys
+import re
+import time
+import json
+import requests
+import pynmrstar
+import pandas as pd
+from pathlib import Path
+
+# ---------------------------------------------------------------------------
+# Config
+# ---------------------------------------------------------------------------
+ROOT_DIR  = Path(__file__).resolve().parent.parent
+CACHE_DIR = ROOT_DIR / "data" / "scrape_cache"
+OUT_CSV   = ROOT_DIR / "data" / "bmrb_ssNMR_candidates.csv"
+CACHE_DIR.mkdir(parents=True, exist_ok=True)
+
+ALREADY_HAVE = {25123, 15156, 15283, 19025, 15380, 17561, 11512, 16327,
+                18024, 18397, 19031, 25005}
+SKIP         = {15409, 15865, 6838, 17557, 16299}
+REQUEST_DELAY = 0.4
+
+# Set to a BMRB ID to print its raw API JSON and exit — for debugging
+DIAG_ID = None  # e.g. 53519
+
+# ---------------------------------------------------------------------------
+# PDB ID pattern: starts with digit, exactly 4 alphanumeric chars
+# This matches real PDB IDs (1UBQ, 2M02, 7N4I) and rejects UUID/BMRB/NMR etc.
+# ---------------------------------------------------------------------------
+PDB_RE = re.compile(r'\b([0-9][A-Za-z0-9]{3})\b')
+
+# Strings that look like PDB IDs but aren't
+PDB_BLACKLIST = {
+    'UUID', 'BMRB', 'NMR', 'CYSA', 'HTTP', 'HTML', 'JSON',
+    'TRUE', 'NULL', 'NONE', 'N/A', 'YES', 'NO',
+}
+
+
+def is_valid_pdb_id(s: str) -> bool:
+    s = s.upper().strip()
+    if s in PDB_BLACKLIST:
+        return False
+    if not PDB_RE.match(s):
+        return False
+    if s.isdigit():
+        return False
+    return True
+
+
+# ---------------------------------------------------------------------------
+# Network helpers with caching
+# ---------------------------------------------------------------------------
+
+def get_json(url: str, cache_key: str) -> dict | None:
+    cached = CACHE_DIR / f"{cache_key}.json"
+    if cached.exists():
+        try:
+            return json.loads(cached.read_text())
+        except Exception:
+            pass
+    try:
+        time.sleep(REQUEST_DELAY)
+        r = requests.get(url, timeout=30)
+        if r.ok:
+            data = r.json()
+            cached.write_text(json.dumps(data))
+            return data
+    except Exception as e:
+        pass
+    return None
+
+
+def get_text(url: str, cache_key: str) -> str | None:
+    cached = CACHE_DIR / f"{cache_key}.txt"
+    if cached.exists():
+        t = cached.read_text(errors='replace')
+        if t.strip():
+            return t
+    try:
+        time.sleep(REQUEST_DELAY)
+        r = requests.get(url, timeout=45)
+        if r.ok and r.text.strip():
+            cached.write_text(r.text)
+            return r.text
+    except Exception:
+        pass
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Robust PDB ID extraction from BMRB entry
+# Scans ALL saveframes and ALL loops — not just 3 hardcoded tags
+# ---------------------------------------------------------------------------
+
+def extract_pdb_ids_from_entry(entry) -> list[str]:
+    """
+    Scan entire BMRB entry for PDB cross-reference IDs.
+    Returns list of candidate PDB IDs, best candidates first.
+    """
+    hits_explicit = []   # from database_2 loop — most reliable
+    hits_general  = []   # from any other field
+
+    for sf in entry.frame_list:
+        # Method 1: Check _Database_2 loop (BMRB standard cross-reference)
+        for loop in sf.loops:
+            tags_lower = [t.lower() for t in loop.tags]
+            
+            # Look for database_2 style loops
+            db_name_col  = next((i for i, t in enumerate(tags_lower)
+                                 if 'database_name' in t or 'database_id' in t), None)
+            db_code_col  = next((i for i, t in enumerate(tags_lower)
+                                 if 'accession_code' in t or 'database_code' in t), None)
+            
+            if db_name_col is not None and db_code_col is not None:
+                for row in loop.data:
+                    try:
+                        db_name = str(row[db_name_col]).upper()
+                        db_code = str(row[db_code_col]).strip()
+                        if 'PDB' in db_name and is_valid_pdb_id(db_code):
+                            hits_explicit.append(db_code.upper())
+                    except (IndexError, TypeError):
+                        pass
+
+        # Method 2: Scan all tag values in this saveframe
+        for tag in sf.tags:
+            try:
+                vals = sf.get_tag(tag)
+                for v in vals:
+                    if isinstance(v, str):
+                        for match in PDB_RE.findall(v):
+                            if is_valid_pdb_id(match):
+                                hits_general.append(match.upper())
+            except Exception:
+                pass
+
+        # Method 3: Scan all loop cell values
+        for loop in sf.loops:
+            for row in loop.data:
+                for cell in row:
+                    if isinstance(cell, str) and len(cell) == 4:
+                        if is_valid_pdb_id(cell):
+                            hits_general.append(cell.upper())
+
+    # Deduplicate, prefer explicit hits
+    seen = set()
+    result = []
+    for h in hits_explicit + hits_general:
+        if h not in seen:
+            seen.add(h)
+            result.append(h)
+
+    return result
+
+
+def extract_pdb_ids_from_api(api_data: dict) -> list[str]:
+    """
+    Extract PDB IDs from BMRB API JSON response.
+    Handles nested structures properly.
+    """
+    hits = []
+    api_str = json.dumps(api_data)
+    
+    # Look for explicit PDB database references
+    # Common patterns: {"database": "PDB", "accession": "1UBQ"}
+    #                  {"related_entries": [{"database_name": "PDB", "accession_code": "2M02"}]}
+    try:
+        # Recursive search for PDB-tagged accessions
+        def search(obj, parent_key=""):
+            if isinstance(obj, dict):
+                has_pdb = any('pdb' in str(k).lower() or 
+                             ('database' in str(k).lower() and 'PDB' in str(v).upper())
+                             for k, v in obj.items())
+                for k, v in obj.items():
+                    if ('accession' in str(k).lower() or 'code' in str(k).lower()):
+                        if isinstance(v, str) and is_valid_pdb_id(v):
+                            hits.append(v.upper())
+                    search(v, str(k))
+            elif isinstance(obj, list):
+                for item in obj:
+                    search(item, parent_key)
+        search(api_data)
+    except Exception:
+        pass
+
+    # Fallback: regex on full JSON string, but filter strictly
+    for match in PDB_RE.findall(api_str):
+        if is_valid_pdb_id(match):
+            hits.append(match.upper())
+
+    # Deduplicate
+    seen, result = set(), []
+    for h in hits:
+        if h not in seen:
+            seen.add(h)
+            result.append(h)
+    return result
+
+
+# ---------------------------------------------------------------------------
+# BMRB entry parsing
+# ---------------------------------------------------------------------------
+
+def parse_bmrb_entry(bmrb_id: int) -> dict:
+    result = {
+        'bmrb_id': bmrb_id, 'n_residues': 0,
+        'ca_count': 0, 'cb_count': 0, 'n_count': 0, 'ha_count': 0,
+        'pdb_candidates': [], 'pdb_id': None, 'fetch_ok': False,
+    }
+
+    text = None
+    for url in [
+        f"https://bmrb.io/ftp/pub/bmrb/entry_directories/bmr{bmrb_id}/bmr{bmrb_id}_3.str",
+        f"https://bmrb.io/ftp/pub/bmrb/entry_directories/bmr{bmrb_id}/bmr{bmrb_id}.str",
+    ]:
+        text = get_text(url, f"bmr{bmrb_id}")
+        if text and text.strip().startswith("data_"):
+            break
+        text = None
+
+    if not text:
+        return result
+
+    result['fetch_ok'] = True
+
+    try:
+        entry = pynmrstar.Entry.from_string(text)
+    except Exception:
+        return result
+
+    # Count shifts
+    seq_ids = set()
+    atom_counts = {}
+    for loop in entry.get_loops_by_category('Atom_chem_shift'):
+        tags = loop.tags
+        if 'Seq_ID' not in tags or 'Atom_ID' not in tags:
+            continue
+        si, ai = tags.index('Seq_ID'), tags.index('Atom_ID')
+        for row in loop.data:
+            try:
+                seq_ids.add(int(row[si]))
+                atom = str(row[ai]).strip().upper()
+                atom_counts[atom] = atom_counts.get(atom, 0) + 1
+            except Exception:
+                pass
+
+    result['n_residues'] = len(seq_ids)
+    result['ca_count']   = atom_counts.get('CA', 0)
+    result['cb_count']   = atom_counts.get('CB', 0)
+    result['n_count']    = atom_counts.get('N', 0)
+    result['ha_count']   = atom_counts.get('HA', 0)
+
+    # Extract PDB candidates using robust method
+    pdb_candidates = extract_pdb_ids_from_entry(entry)
+    result['pdb_candidates'] = pdb_candidates
+    result['pdb_id'] = pdb_candidates[0] if pdb_candidates else None
+
+    return result
+
+
+# ---------------------------------------------------------------------------
+# PDB CIF parsing using BioPython's MMCIF2Dict for robustness
+# ---------------------------------------------------------------------------
+
+def parse_pdb_cif(pdb_id: str) -> dict:
+    result = {
+        'pdb_id': pdb_id, 'chain_a_residues': 0, 'n_chains': 0,
+        'helix_segs': 0, 'sheet_segs': 0,
+        'helix_residues': 0, 'strand_residues': 0, 'fetch_ok': False,
+    }
+
+    cif_text = get_text(
+        f"https://files.rcsb.org/download/{pdb_id}.cif",
+        f"pdb_{pdb_id}"
+    )
+    if not cif_text:
+        return result
+
+    result['fetch_ok'] = True
+
+    # Try BioPython MMCIF2Dict first (handles quoted strings correctly)
+    try:
+        from Bio.PDB.MMCIF2Dict import MMCIF2Dict
+        import tempfile, os
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.cif',
+                                         delete=False, encoding='utf-8') as f:
+            f.write(cif_text)
+            tmp = f.name
+        try:
+            mmcif = MMCIF2Dict(tmp)
+        finally:
+            os.unlink(tmp)
+
+        # Count residues per chain
+        group_pdb  = mmcif.get('_atom_site.group_PDB', [])
+        chain_ids  = mmcif.get('_atom_site.label_asym_id', [])
+        seq_ids    = mmcif.get('_atom_site.label_seq_id', [])
+
+        residues = set()
+        for g, c, s in zip(group_pdb, chain_ids, seq_ids):
+            if g == 'ATOM':
+                try:
+                    residues.add((c, int(s)))
+                except ValueError:
+                    pass
+
+        chains = sorted(set(c for c, _ in residues))
+        result['n_chains'] = len(chains)
+        if chains:
+            first = chains[0]
+            result['chain_a_residues'] = len(set(s for c, s in residues if c == first))
+
+        # Parse SS from _struct_conf (helices)
+        conf_types  = mmcif.get('_struct_conf.conf_type_id', [])
+        conf_starts = mmcif.get('_struct_conf.beg_label_seq_id', [])
+        conf_ends   = mmcif.get('_struct_conf.end_label_seq_id', [])
+        for t, s, e in zip(conf_types, conf_starts, conf_ends):
+            if 'HELX' in t.upper():
+                result['helix_segs'] += 1
+                try:
+                    result['helix_residues'] += int(e) - int(s) + 1
+                except ValueError:
+                    pass
+
+        # Parse SS from _struct_sheet_range (strands)
+        sheet_starts = mmcif.get('_struct_sheet_range.beg_label_seq_id', [])
+        sheet_ends   = mmcif.get('_struct_sheet_range.end_label_seq_id', [])
+        result['sheet_segs'] = len(sheet_starts)
+        for s, e in zip(sheet_starts, sheet_ends):
+            try:
+                result['strand_residues'] += int(e) - int(s) + 1
+            except ValueError:
+                pass
+
+        return result
+
+    except Exception as bio_err:
+        pass
+
+    # Fallback to manual parsing if BioPython fails
+    residues = set()
+    atom_cols: list = []
+    in_atom = False
+    helix_ranges, sheet_ranges = [], []
+    conf_cols, sheet_cols = [], []
+    in_conf = in_sheet = False
+
+    for line in cif_text.splitlines():
+        s = line.strip()
+        if s.startswith('_atom_site.'):
+            atom_cols.append(s.split('.')[1].split()[0])
+            in_atom = True; continue
+        if in_atom:
+            if s.startswith('_') or s.startswith('#') or s == 'loop_':
+                in_atom = False; continue
+            if not s: continue
+            parts = s.split()
+            ci = {c: i for i, c in enumerate(atom_cols)}
+            try:
+                if parts[ci.get('group_PDB', 0)] == 'ATOM':
+                    residues.add((parts[ci['label_asym_id']], int(parts[ci['label_seq_id']])))
+            except Exception:
+                pass
+
+        if s.startswith('_struct_conf.'):
+            conf_cols.append(s.split('.')[1].split()[0]); in_conf=True; in_sheet=False; continue
+        if s.startswith('_struct_sheet_range.'):
+            sheet_cols.append(s.split('.')[1].split()[0]); in_sheet=True; in_conf=False; continue
+        if s.startswith('_') or s == 'loop_': in_conf = in_sheet = False
+
+        if in_conf and conf_cols and s and not s.startswith('_'):
+            if 'HELX' in s.upper():
+                result['helix_segs'] += 1
+                ci = {c: i for i, c in enumerate(conf_cols)}
+                try:
+                    result['helix_residues'] += (int(s.split()[ci['end_label_seq_id']]) -
+                                                  int(s.split()[ci['beg_label_seq_id']]) + 1)
+                except Exception: pass
+        if in_sheet and sheet_cols and s and not s.startswith('_'):
+            p = s.split()
+            if p and not p[0].startswith('_') and p[0] != 'loop_':
+                result['sheet_segs'] += 1
+                ci = {c: i for i, c in enumerate(sheet_cols)}
+                try:
+                    result['strand_residues'] += int(p[ci['end_label_seq_id']]) - int(p[ci['beg_label_seq_id']]) + 1
+                except Exception: pass
+
+    chains = sorted(set(c for c, _ in residues))
+    result['n_chains'] = len(chains)
+    if chains:
+        result['chain_a_residues'] = len(set(s for c, s in residues if c == chains[0]))
+
+    return result
+
+
+# ---------------------------------------------------------------------------
+# Scoring
+# ---------------------------------------------------------------------------
+
+def compute_score(row: dict) -> tuple[bool, str, float]:
+    b_res = row['n_residues']
+    ca, cb = row['ca_count'], row['cb_count']
+    p_res = row['chain_a_residues']
+    h_segs, s_segs = row['helix_segs'], row['sheet_segs']
+    h_res = row['helix_residues']
+
+    if not row['fetch_ok']:        return False, "BMRB fetch failed", 0.0
+    if not row['pdb_fetch_ok']:    return False, "PDB fetch failed", 0.0
+    if b_res == 0:                 return False, "no residues in BMRB", 0.0
+    if p_res == 0:                 return False, "no residues in PDB", 0.0
+    if ca < 15:                    return False, f"CA too low ({ca})", 0.0
+    if cb < 8:                    return False, f"CB too low ({cb})", 0.0
+    if h_segs + s_segs < 2:       return False, "no SS annotations in CIF", 0.0
+    delta = abs(b_res - p_res)
+    if delta > 15:                 return False, f"residue mismatch Δ={delta}", 0.0
+
+    score = 0.0
+    score += min(ca, 150) / 150 * 30
+    score += min(cb, 150) / 150 * 30
+    score += (1 - delta / 15) * 10
+    score += min(h_segs, 5) * 3
+    score += min(s_segs, 5) * 3
+    h_frac = h_res / max(p_res, 1)
+    if 0.15 < h_frac < 0.85:
+        score += 10
+
+    issues = []
+    if delta > 5:   issues.append(f"Δ={delta}")
+    if h_segs == 0: issues.append("no helix")
+    if s_segs == 0: issues.append("no strand")
+
+    return True, "; ".join(issues), round(score, 1)
+
+
+# ---------------------------------------------------------------------------
+# Entry list
+# ---------------------------------------------------------------------------
+
+def get_solidstate_ids() -> list[int]:
+    url  = "https://bmrb.io/data_library/solidstate.shtml"
+    text = get_text(url, "bmrb_solidstate_page")
+    if not text:
+        return [5757,6348,7111,11512,15138,15156,15226,15283,15380,15546,
+                15818,15955,16060,16254,16327,16391,16448,16565,16566,16873,
+                16939,16964,17064,17214,17361,17498,17499,17570,17700,17710,
+                17727,17728,17744,17810,17817,17910,17937,17944,18024,18108,
+                18127,18128,18129,18131,18170,18207,18208,18232,18243,18276,
+                18396,18397,18406,18407,18493,18543,18544,18595,18651,18808,
+                18860,19009,19025,19031,19194,19393,19575,19747,19754,19767,
+                19831,19867,20074,25004,25005,25076,25123,25290,25334,25413,
+                25429,25518,25535,25642,25788,26307,26548,26550,26604,26614,
+                26692,26715,26805,26879,26883,26890,26900,26910,26913,26924,
+                26925,26926,27039,27059,27065,27099,27201,27212,27219,27220,
+                27232,27244,27317,27346,27402,27437,27457,27468,27555,27556,
+                27562,27570,27572,27589,27590,27602,27635,27676,27678,27679,
+                27680,27776,27845,27879,27959,27980,28029,28035,28122,30035,
+                30088,30094,30121,30273,30304,34012,34088,50026,50089,50110,
+                50123,50135,50192,50275,50312,50380,50411,50423,50428,50541,
+                50550,50585,50785,50852,50950,50951,50952,50959,51008,51009,
+                51166,51180,51181,51228,51284,51285,51331,51391,51402,51483,
+                51506,51584,51639,51678,51706,51779,51785,51788,51820,51825,
+                51865,51866,51867,51880,51928,51993,52006,52012,52014,52070,
+                52090,52099,52104,52197,52223,52252,52337,52338,52340,52380,
+                52400,52468,52512,52584,52628,52654,52793,52969,53129,53314,
+                53315,53330,53519,53571]
+    import re as re2
+    ids = list(set(int(x) for x in re2.findall(r'bmrbId=(\d+)', text)))
+    return sorted(ids)
+
+
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
+
+def main():
+    print("=" * 65)
+    print("  BMRB SOLID-STATE SCRAPER (v2 — fixed PDB extraction)")
+    print("=" * 65)
+
+    # Diagnostic mode
+    if DIAG_ID:
+        print(f"\n[DIAG] Inspecting BMRB {DIAG_ID}")
+        text = get_text(
+            f"https://bmrb.io/ftp/pub/bmrb/entry_directories/bmr{DIAG_ID}/bmr{DIAG_ID}_3.str",
+            f"bmr{DIAG_ID}"
+        )
+        if text:
+            entry = pynmrstar.Entry.from_string(text)
+            pdb_ids = extract_pdb_ids_from_entry(entry)
+            print(f"  Found PDB candidates: {pdb_ids}")
+        api = get_json(f"https://api.bmrb.io/v2/entry/{DIAG_ID}?format=json", f"api_{DIAG_ID}")
+        if api:
+            print(f"\n  API response (first 3000 chars):")
+            print(json.dumps(api, indent=2)[:3000])
+        sys.exit(0)
+
+    bmrb_ids = get_solidstate_ids()
+    bmrb_ids = [x for x in bmrb_ids if x not in SKIP]
+    print(f"  Candidates: {len(bmrb_ids)}\n")
+
+    rows = []
+    n_pass = n_fail = n_no_pdb = 0
+
+    for i, bmrb_id in enumerate(bmrb_ids):
+        print(f"[{i+1:3d}/{len(bmrb_ids)}] BMRB {bmrb_id}", end="  ", flush=True)
+
+        bmrb = parse_bmrb_entry(bmrb_id)
+        if not bmrb['fetch_ok']:
+            print("BMRB fetch failed")
+            n_fail += 1
+            continue
+
+        ca, cb = bmrb['ca_count'], bmrb['cb_count']
+        print(f"res={bmrb['n_residues']} CA={ca} CB={cb}", end="  ")
+
+        if ca < 20 or cb < 10:
+            print("→ skip (low CA/CB)")
+            n_fail += 1
+            continue
+
+        # Try all PDB candidates until one validates
+        pdb_candidates = bmrb['pdb_candidates']
+
+        # Also try BMRB API if no candidates from .str
+        if not pdb_candidates:
+            api = get_json(f"https://api.bmrb.io/v2/entry/{bmrb_id}?format=json",
+                           f"api_{bmrb_id}")
+            if api:
+                pdb_candidates = extract_pdb_ids_from_api(api)
+
+        if not pdb_candidates:
+            print("→ no PDB link")
+            n_no_pdb += 1
+            rows.append({**bmrb, 'pdb_id': None, 'chain_a_residues': 0,
+                         'n_chains': 0, 'helix_segs': 0, 'sheet_segs': 0,
+                         'helix_residues': 0, 'strand_residues': 0,
+                         'pdb_fetch_ok': False, 'delta_res': 999,
+                         'helix_pct': 0, 'strand_pct': 0,
+                         'passes': False, 'fail_reason': 'no PDB link',
+                         'score': 0, 'already_have': bmrb_id in ALREADY_HAVE,
+                         'pdb_candidates_tried': []})
+            continue
+
+        print(f"PDB candidates: {pdb_candidates[:4]}", end="  ")
+
+        # Try each candidate and keep the best match
+        best_row = None
+        best_score = -1
+
+        for pdb_id in pdb_candidates[:5]:  # try up to 5 candidates
+            pdb = parse_pdb_cif(pdb_id)
+            if not pdb['fetch_ok']:
+                continue
+            delta = abs(bmrb['n_residues'] - pdb['chain_a_residues'])
+            h_pct = round(100 * pdb['helix_residues'] / max(pdb['chain_a_residues'], 1), 1)
+            s_pct = round(100 * pdb['strand_residues'] / max(pdb['chain_a_residues'], 1), 1)
+            row = {**bmrb, 'pdb_id': pdb_id,
+                   'chain_a_residues': pdb['chain_a_residues'],
+                   'n_chains': pdb['n_chains'],
+                   'helix_segs': pdb['helix_segs'],
+                   'sheet_segs': pdb['sheet_segs'],
+                   'helix_residues': pdb['helix_residues'],
+                   'strand_residues': pdb['strand_residues'],
+                   'pdb_fetch_ok': True,
+                   'delta_res': delta, 'helix_pct': h_pct, 'strand_pct': s_pct,
+                   'pdb_candidates_tried': pdb_candidates[:5]}
+            passes, reason, score = compute_score(row)
+            row.update({'passes': passes, 'fail_reason': reason, 'score': score,
+                        'already_have': bmrb_id in ALREADY_HAVE})
+            if score > best_score:
+                best_score = score
+                best_row = row
+
+        if best_row is None:
+            print("→ all PDB candidates failed CIF fetch")
+            n_fail += 1
+            rows.append({**bmrb, 'pdb_id': pdb_candidates[0] if pdb_candidates else None,
+                         'chain_a_residues': 0, 'n_chains': 0, 'helix_segs': 0,
+                         'sheet_segs': 0, 'helix_residues': 0, 'strand_residues': 0,
+                         'pdb_fetch_ok': False, 'delta_res': 999, 'helix_pct': 0,
+                         'strand_pct': 0, 'passes': False,
+                         'fail_reason': 'all PDB CIF fetches failed',
+                         'score': 0, 'already_have': bmrb_id in ALREADY_HAVE,
+                         'pdb_candidates_tried': pdb_candidates[:5]})
+            continue
+
+        rows.append(best_row)
+        if best_row['passes']:
+            n_pass += 1
+            flag = f"✓ PASS (score={best_score})"
+        else:
+            n_fail += 1
+            flag = f"✗ {best_row['fail_reason']}"
+        print(f"best={best_row['pdb_id']} Δ={best_row['delta_res']} H={best_row['helix_pct']}% → {flag}")
+
+    # Save
+    df = pd.DataFrame(rows)
+    if not df.empty:
+        df = df.sort_values(['passes', 'score'], ascending=[False, False]).reset_index(drop=True)
+        df.to_csv(OUT_CSV, index=False)
+
+    # Summary
+    print(f"\n\n{'='*65}")
+    print(f"  RESULTS")
+    print(f"{'='*65}")
+    print(f"  PASS: {n_pass}  FAIL: {n_fail}  No PDB: {n_no_pdb}")
+    print(f"  Full results → {OUT_CSV}")
+
+    if not df.empty:
+        passing_new = df[df['passes'] & ~df['already_have']]
+        print(f"\n  NEW passing entries ({len(passing_new)}):")
+        print(f"  {'BMRB':>6}  {'PDB':>6}  {'Bres':>4}  {'CA':>4}  {'CB':>4}  {'Δ':>3}  {'H%':>5}  {'S%':>5}  Score")
+        for _, r in passing_new.iterrows():
+            print(f"  {int(r['bmrb_id']):>6}  {str(r['pdb_id']):>6}  "
+                  f"{r['n_residues']:>4}  {r['ca_count']:>4}  {r['cb_count']:>4}  "
+                  f"{r['delta_res']:>3}  {r['helix_pct']:>5}  {r['strand_pct']:>5}  {r['score']}")
+
+        print(f"\n  SUGGESTED SOLID_STATE_ENTRIES additions:")
+        for _, r in passing_new.head(15).iterrows():
+            h = r['helix_pct']
+            note = f"H={h}%" if h > 15 else "strand/coil"
+            warn = "  # WARN: " + r['fail_reason'] if r['fail_reason'] else ""
+            print(f"  ({int(r['bmrb_id'])}, \"{r['pdb_id']}\", \"protein\"),{warn}  # Δ={r['delta_res']} CA={r['ca_count']} CB={r['cb_count']} {note}")
+
+
+if __name__ == "__main__":
+    main()

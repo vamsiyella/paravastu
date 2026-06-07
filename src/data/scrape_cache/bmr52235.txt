@@ -1,0 +1,1186 @@
+data_52235
+
+
+#######################
+#  Entry information  #
+#######################
+save_entry_information_1
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information_1
+   _Entry.ID                             52235
+   _Entry.Title
+;
+DNP ssNMR data of E.coli DHFR
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2023-12-06
+   _Entry.Accession_date                 2023-12-06
+   _Entry.Last_release_date              2023-12-07
+   _Entry.Original_release_date          2023-12-07
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.14.0
+   _Entry.NMR_STAR_dict_location         .
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solid-state
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          1
+   _Entry.Generated_software_label       $software_1
+   _Entry.Generated_date                 .
+   _Entry.DOI                            .
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        'DNP ssNMR data of selectively labeled E.coli DHFR at cryogenic temperature'
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Xu    Yi          .   .   .   .   52235
+      2   Ann   McDermott   .   .   .   .   52235
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1   .   .   2024-01-06   .   original   BMRB   .   52235
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+save_citations_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citations_1
+   _Citation.Entry_ID                     52235
+   _Citation.ID                           1
+   _Citation.Name                         .
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.PubMed_ID                    .
+   _Citation.DOI                          .
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Contribution of protein conformational heterogeneity to NMR lineshapes at cryogenic temperatures
+;
+   _Citation.Status                       'in preparation'
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'Proc. Natl. Acad. Sci. U.S.A.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               .
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   .
+   _Citation.Page_last                    .
+   _Citation.Year                         .
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Xu   Yi   .   .   .   .   52235   1
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+save_assembly_1
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly_1
+   _Assembly.Entry_ID                          52235
+   _Assembly.ID                                1
+   _Assembly.Name                              'E.coli DHFR with Trimethoprim'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              2
+   _Assembly.Organic_ligands                   1
+   _Assembly.Metal_ions                        0
+   _Assembly.Non_standard_bonds                no
+   _Assembly.Ambiguous_conformational_states   yes
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    yes
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   'E.coli DHFR'   1   $entity_1     .   .   yes   native   yes   yes   .   .   .   52235   1
+      2   Trimethoprim    2   $entity_TOP   .   .   no    native   yes   yes   .   .   .   52235   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+save_entity_1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_1
+   _Entity.Entry_ID                          52235
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              entity_1
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+MISLIAALAVDRVIGMENAM
+PWNLPADLAWFKRNTLNKPV
+IMGRHTWESIGRPLPGRKNI
+ILSSQPGTDDRVTWVKSVDE
+AIAACGDVPEIMVIGGGRVY
+EQFLPKAQKLYLTHIDAEVE
+GDTHFPDYEPDDWESVFSEF
+HDADAQNSHSYCFEILERR
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   yes
+   _Entity.Ambiguous_chem_comp_sites         yes
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                159
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       unknown
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1     .   MET   .   52235   1
+      2     .   ILE   .   52235   1
+      3     .   SER   .   52235   1
+      4     .   LEU   .   52235   1
+      5     .   ILE   .   52235   1
+      6     .   ALA   .   52235   1
+      7     .   ALA   .   52235   1
+      8     .   LEU   .   52235   1
+      9     .   ALA   .   52235   1
+      10    .   VAL   .   52235   1
+      11    .   ASP   .   52235   1
+      12    .   ARG   .   52235   1
+      13    .   VAL   .   52235   1
+      14    .   ILE   .   52235   1
+      15    .   GLY   .   52235   1
+      16    .   MET   .   52235   1
+      17    .   GLU   .   52235   1
+      18    .   ASN   .   52235   1
+      19    .   ALA   .   52235   1
+      20    .   MET   .   52235   1
+      21    .   PRO   .   52235   1
+      22    .   TRP   .   52235   1
+      23    .   ASN   .   52235   1
+      24    .   LEU   .   52235   1
+      25    .   PRO   .   52235   1
+      26    .   ALA   .   52235   1
+      27    .   ASP   .   52235   1
+      28    .   LEU   .   52235   1
+      29    .   ALA   .   52235   1
+      30    .   TRP   .   52235   1
+      31    .   PHE   .   52235   1
+      32    .   LYS   .   52235   1
+      33    .   ARG   .   52235   1
+      34    .   ASN   .   52235   1
+      35    .   THR   .   52235   1
+      36    .   LEU   .   52235   1
+      37    .   ASN   .   52235   1
+      38    .   LYS   .   52235   1
+      39    .   PRO   .   52235   1
+      40    .   VAL   .   52235   1
+      41    .   ILE   .   52235   1
+      42    .   MET   .   52235   1
+      43    .   GLY   .   52235   1
+      44    .   ARG   .   52235   1
+      45    .   HIS   .   52235   1
+      46    .   THR   .   52235   1
+      47    .   TRP   .   52235   1
+      48    .   GLU   .   52235   1
+      49    .   SER   .   52235   1
+      50    .   ILE   .   52235   1
+      51    .   GLY   .   52235   1
+      52    .   ARG   .   52235   1
+      53    .   PRO   .   52235   1
+      54    .   LEU   .   52235   1
+      55    .   PRO   .   52235   1
+      56    .   GLY   .   52235   1
+      57    .   ARG   .   52235   1
+      58    .   LYS   .   52235   1
+      59    .   ASN   .   52235   1
+      60    .   ILE   .   52235   1
+      61    .   ILE   .   52235   1
+      62    .   LEU   .   52235   1
+      63    .   SER   .   52235   1
+      64    .   SER   .   52235   1
+      65    .   GLN   .   52235   1
+      66    .   PRO   .   52235   1
+      67    .   GLY   .   52235   1
+      68    .   THR   .   52235   1
+      69    .   ASP   .   52235   1
+      70    .   ASP   .   52235   1
+      71    .   ARG   .   52235   1
+      72    .   VAL   .   52235   1
+      73    .   THR   .   52235   1
+      74    .   TRP   .   52235   1
+      75    .   VAL   .   52235   1
+      76    .   LYS   .   52235   1
+      77    .   SER   .   52235   1
+      78    .   VAL   .   52235   1
+      79    .   ASP   .   52235   1
+      80    .   GLU   .   52235   1
+      81    .   ALA   .   52235   1
+      82    .   ILE   .   52235   1
+      83    .   ALA   .   52235   1
+      84    .   ALA   .   52235   1
+      85    .   CYS   .   52235   1
+      86    .   GLY   .   52235   1
+      87    .   ASP   .   52235   1
+      88    .   VAL   .   52235   1
+      89    .   PRO   .   52235   1
+      90    .   GLU   .   52235   1
+      91    .   ILE   .   52235   1
+      92    .   MET   .   52235   1
+      93    .   VAL   .   52235   1
+      94    .   ILE   .   52235   1
+      95    .   GLY   .   52235   1
+      96    .   GLY   .   52235   1
+      97    .   GLY   .   52235   1
+      98    .   ARG   .   52235   1
+      99    .   VAL   .   52235   1
+      100   .   TYR   .   52235   1
+      101   .   GLU   .   52235   1
+      102   .   GLN   .   52235   1
+      103   .   PHE   .   52235   1
+      104   .   LEU   .   52235   1
+      105   .   PRO   .   52235   1
+      106   .   LYS   .   52235   1
+      107   .   ALA   .   52235   1
+      108   .   GLN   .   52235   1
+      109   .   LYS   .   52235   1
+      110   .   LEU   .   52235   1
+      111   .   TYR   .   52235   1
+      112   .   LEU   .   52235   1
+      113   .   THR   .   52235   1
+      114   .   HIS   .   52235   1
+      115   .   ILE   .   52235   1
+      116   .   ASP   .   52235   1
+      117   .   ALA   .   52235   1
+      118   .   GLU   .   52235   1
+      119   .   VAL   .   52235   1
+      120   .   GLU   .   52235   1
+      121   .   GLY   .   52235   1
+      122   .   ASP   .   52235   1
+      123   .   THR   .   52235   1
+      124   .   HIS   .   52235   1
+      125   .   PHE   .   52235   1
+      126   .   PRO   .   52235   1
+      127   .   ASP   .   52235   1
+      128   .   TYR   .   52235   1
+      129   .   GLU   .   52235   1
+      130   .   PRO   .   52235   1
+      131   .   ASP   .   52235   1
+      132   .   ASP   .   52235   1
+      133   .   TRP   .   52235   1
+      134   .   GLU   .   52235   1
+      135   .   SER   .   52235   1
+      136   .   VAL   .   52235   1
+      137   .   PHE   .   52235   1
+      138   .   SER   .   52235   1
+      139   .   GLU   .   52235   1
+      140   .   PHE   .   52235   1
+      141   .   HIS   .   52235   1
+      142   .   ASP   .   52235   1
+      143   .   ALA   .   52235   1
+      144   .   ASP   .   52235   1
+      145   .   ALA   .   52235   1
+      146   .   GLN   .   52235   1
+      147   .   ASN   .   52235   1
+      148   .   SER   .   52235   1
+      149   .   HIS   .   52235   1
+      150   .   SER   .   52235   1
+      151   .   TYR   .   52235   1
+      152   .   CYS   .   52235   1
+      153   .   PHE   .   52235   1
+      154   .   GLU   .   52235   1
+      155   .   ILE   .   52235   1
+      156   .   LEU   .   52235   1
+      157   .   GLU   .   52235   1
+      158   .   ARG   .   52235   1
+      159   .   ARG   .   52235   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   MET   1     1     52235   1
+      .   ILE   2     2     52235   1
+      .   SER   3     3     52235   1
+      .   LEU   4     4     52235   1
+      .   ILE   5     5     52235   1
+      .   ALA   6     6     52235   1
+      .   ALA   7     7     52235   1
+      .   LEU   8     8     52235   1
+      .   ALA   9     9     52235   1
+      .   VAL   10    10    52235   1
+      .   ASP   11    11    52235   1
+      .   ARG   12    12    52235   1
+      .   VAL   13    13    52235   1
+      .   ILE   14    14    52235   1
+      .   GLY   15    15    52235   1
+      .   MET   16    16    52235   1
+      .   GLU   17    17    52235   1
+      .   ASN   18    18    52235   1
+      .   ALA   19    19    52235   1
+      .   MET   20    20    52235   1
+      .   PRO   21    21    52235   1
+      .   TRP   22    22    52235   1
+      .   ASN   23    23    52235   1
+      .   LEU   24    24    52235   1
+      .   PRO   25    25    52235   1
+      .   ALA   26    26    52235   1
+      .   ASP   27    27    52235   1
+      .   LEU   28    28    52235   1
+      .   ALA   29    29    52235   1
+      .   TRP   30    30    52235   1
+      .   PHE   31    31    52235   1
+      .   LYS   32    32    52235   1
+      .   ARG   33    33    52235   1
+      .   ASN   34    34    52235   1
+      .   THR   35    35    52235   1
+      .   LEU   36    36    52235   1
+      .   ASN   37    37    52235   1
+      .   LYS   38    38    52235   1
+      .   PRO   39    39    52235   1
+      .   VAL   40    40    52235   1
+      .   ILE   41    41    52235   1
+      .   MET   42    42    52235   1
+      .   GLY   43    43    52235   1
+      .   ARG   44    44    52235   1
+      .   HIS   45    45    52235   1
+      .   THR   46    46    52235   1
+      .   TRP   47    47    52235   1
+      .   GLU   48    48    52235   1
+      .   SER   49    49    52235   1
+      .   ILE   50    50    52235   1
+      .   GLY   51    51    52235   1
+      .   ARG   52    52    52235   1
+      .   PRO   53    53    52235   1
+      .   LEU   54    54    52235   1
+      .   PRO   55    55    52235   1
+      .   GLY   56    56    52235   1
+      .   ARG   57    57    52235   1
+      .   LYS   58    58    52235   1
+      .   ASN   59    59    52235   1
+      .   ILE   60    60    52235   1
+      .   ILE   61    61    52235   1
+      .   LEU   62    62    52235   1
+      .   SER   63    63    52235   1
+      .   SER   64    64    52235   1
+      .   GLN   65    65    52235   1
+      .   PRO   66    66    52235   1
+      .   GLY   67    67    52235   1
+      .   THR   68    68    52235   1
+      .   ASP   69    69    52235   1
+      .   ASP   70    70    52235   1
+      .   ARG   71    71    52235   1
+      .   VAL   72    72    52235   1
+      .   THR   73    73    52235   1
+      .   TRP   74    74    52235   1
+      .   VAL   75    75    52235   1
+      .   LYS   76    76    52235   1
+      .   SER   77    77    52235   1
+      .   VAL   78    78    52235   1
+      .   ASP   79    79    52235   1
+      .   GLU   80    80    52235   1
+      .   ALA   81    81    52235   1
+      .   ILE   82    82    52235   1
+      .   ALA   83    83    52235   1
+      .   ALA   84    84    52235   1
+      .   CYS   85    85    52235   1
+      .   GLY   86    86    52235   1
+      .   ASP   87    87    52235   1
+      .   VAL   88    88    52235   1
+      .   PRO   89    89    52235   1
+      .   GLU   90    90    52235   1
+      .   ILE   91    91    52235   1
+      .   MET   92    92    52235   1
+      .   VAL   93    93    52235   1
+      .   ILE   94    94    52235   1
+      .   GLY   95    95    52235   1
+      .   GLY   96    96    52235   1
+      .   GLY   97    97    52235   1
+      .   ARG   98    98    52235   1
+      .   VAL   99    99    52235   1
+      .   TYR   100   100   52235   1
+      .   GLU   101   101   52235   1
+      .   GLN   102   102   52235   1
+      .   PHE   103   103   52235   1
+      .   LEU   104   104   52235   1
+      .   PRO   105   105   52235   1
+      .   LYS   106   106   52235   1
+      .   ALA   107   107   52235   1
+      .   GLN   108   108   52235   1
+      .   LYS   109   109   52235   1
+      .   LEU   110   110   52235   1
+      .   TYR   111   111   52235   1
+      .   LEU   112   112   52235   1
+      .   THR   113   113   52235   1
+      .   HIS   114   114   52235   1
+      .   ILE   115   115   52235   1
+      .   ASP   116   116   52235   1
+      .   ALA   117   117   52235   1
+      .   GLU   118   118   52235   1
+      .   VAL   119   119   52235   1
+      .   GLU   120   120   52235   1
+      .   GLY   121   121   52235   1
+      .   ASP   122   122   52235   1
+      .   THR   123   123   52235   1
+      .   HIS   124   124   52235   1
+      .   PHE   125   125   52235   1
+      .   PRO   126   126   52235   1
+      .   ASP   127   127   52235   1
+      .   TYR   128   128   52235   1
+      .   GLU   129   129   52235   1
+      .   PRO   130   130   52235   1
+      .   ASP   131   131   52235   1
+      .   ASP   132   132   52235   1
+      .   TRP   133   133   52235   1
+      .   GLU   134   134   52235   1
+      .   SER   135   135   52235   1
+      .   VAL   136   136   52235   1
+      .   PHE   137   137   52235   1
+      .   SER   138   138   52235   1
+      .   GLU   139   139   52235   1
+      .   PHE   140   140   52235   1
+      .   HIS   141   141   52235   1
+      .   ASP   142   142   52235   1
+      .   ALA   143   143   52235   1
+      .   ASP   144   144   52235   1
+      .   ALA   145   145   52235   1
+      .   GLN   146   146   52235   1
+      .   ASN   147   147   52235   1
+      .   SER   148   148   52235   1
+      .   HIS   149   149   52235   1
+      .   SER   150   150   52235   1
+      .   TYR   151   151   52235   1
+      .   CYS   152   152   52235   1
+      .   PHE   153   153   52235   1
+      .   GLU   154   154   52235   1
+      .   ILE   155   155   52235   1
+      .   LEU   156   156   52235   1
+      .   GLU   157   157   52235   1
+      .   ARG   158   158   52235   1
+      .   ARG   159   159   52235   1
+   stop_
+save_
+
+save_entity_TOP
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_TOP
+   _Entity.Entry_ID                          52235
+   _Entity.ID                                2
+   _Entity.BMRB_code                         TOP
+   _Entity.Name                              entity_TOP
+   _Entity.Type                              non-polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      .
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code       .
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                TOP
+   _Entity.Nonpolymer_comp_label             $chem_comp_TOP
+   _Entity.Number_of_monomers                .
+   _Entity.Number_of_nonpolymer_components   1
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                       .
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  2
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    290.318
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      TRIMETHOPRIM   BMRB   52235   2
+   stop_
+
+   loop_
+      _Entity_systematic_name.Name
+      _Entity_systematic_name.Naming_system
+      _Entity_systematic_name.Entry_ID
+      _Entity_systematic_name.Entity_ID
+
+      TRIMETHOPRIM   BMRB                  52235   2
+      TOP            'Three letter code'   52235   2
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1   1   TOP   $chem_comp_TOP   52235   2
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+save_natural_source_1
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source_1
+   _Entity_natural_src_list.Entry_ID       52235
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $entity_1   .   562   organism   .   'Escherichia coli'   'E. coli'   .   .   Bacteria   .   Escherichia   coli   .   .   .   .   .   .   .   .   .   .   .   .   .   52235   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+save_experimental_source_1
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source_1
+   _Entity_experimental_src_list.Entry_ID       52235
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $entity_1   .   'purified from the natural source'   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52235   1
+   stop_
+save_
+
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+save_chem_comp_TOP
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_TOP
+   _Chem_comp.Entry_ID                          52235
+   _Chem_comp.ID                                TOP
+   _Chem_comp.Provenance                        PDB
+   _Chem_comp.Name                              TRIMETHOPRIM
+   _Chem_comp.Type                              NON-POLYMER
+   _Chem_comp.BMRB_code                         TOP
+   _Chem_comp.PDB_code                          TOP
+   _Chem_comp.Ambiguous_flag                    no
+   _Chem_comp.Initial_date                      2020-07-10
+   _Chem_comp.Modified_date                     2020-07-10
+   _Chem_comp.Release_status                    REL
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 TOP
+   _Chem_comp.Number_atoms_all                  39
+   _Chem_comp.Number_atoms_nh                   21
+   _Chem_comp.Atom_nomenclature_source          .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code                        InChI=1S/C14H18N4O3/c1-19-10-5-8(6-11(20-2)12(10)21-3)4-9-7-17-14(16)18-13(9)15/h5-7H,4H2,1-3H3,(H4,15,16,17,18)
+   _Chem_comp.Mon_nstd_flag                     no
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      .
+   _Chem_comp.Aromatic                          no
+   _Chem_comp.Formula                           'C14 H18 N4 O3'
+   _Chem_comp.Formula_weight                    290.318
+   _Chem_comp.Formula_mono_iso_wt_nat           .
+   _Chem_comp.Formula_mono_iso_wt_13C           .
+   _Chem_comp.Formula_mono_iso_wt_15N           .
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       .
+   _Chem_comp.Image_file_name                   .
+   _Chem_comp.Image_file_format                 .
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  .
+   _Chem_comp.Struct_file_format                .
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    no
+   _Chem_comp.Ideal_coordinates_details         .
+   _Chem_comp.Ideal_coordinates_missing_flag    no
+   _Chem_comp.Model_coordinates_db_code         1DYR
+   _Chem_comp.Processing_site                   EBI
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC                                                                                    SMILES             CACTVS                 3.341   52235   TOP
+      COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC                                                                                    SMILES_CANONICAL   CACTVS                 3.341   52235   TOP
+      COc1cc(cc(c1OC)OC)Cc2cnc(nc2N)N                                                                                    SMILES             'OpenEye OEToolkits'   1.5.0   52235   TOP
+      COc1cc(cc(c1OC)OC)Cc2cnc(nc2N)N                                                                                    SMILES_CANONICAL   'OpenEye OEToolkits'   1.5.0   52235   TOP
+      IEDVJHCEMCRBQM-UHFFFAOYSA-N                                                                                        InChIKey           InChI                  1.03    52235   TOP
+      InChI=1S/C14H18N4O3/c1-19-10-5-8(6-11(20-2)12(10)21-3)4-9-7-17-14(16)18-13(9)15/h5-7H,4H2,1-3H3,(H4,15,16,17,18)   InChI              InChI                  1.03    52235   TOP
+      n1c(N)c(cnc1N)Cc2cc(OC)c(OC)c(OC)c2                                                                                SMILES             ACDLabs                10.04   52235   TOP
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      5-(3,4,5-trimethoxybenzyl)pyrimidine-2,4-diamine           'SYSTEMATIC NAME'   ACDLabs                10.04   52235   TOP
+      5-[(3,4,5-trimethoxyphenyl)methyl]pyrimidine-2,4-diamine   'SYSTEMATIC NAME'   'OpenEye OEToolkits'   1.5.0   52235   TOP
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      C1     C1     C1     C1     .   C   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   16.577   .   4.023   .   -5.254    .   -1.424   -0.480   2.568    1    .   52235   TOP
+      N2     N2     N2     N2     .   N   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   15.914   .   2.958   .   -4.788    .   -1.498   0.402    3.552    2    .   52235   TOP
+      C3     C3     C3     C3     .   C   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   16.103   .   2.647   .   -3.538    .   -0.401   0.909    4.097    3    .   52235   TOP
+      N4     N4     N4     N4     .   N   .   .   N   0   .   .   .   1   N   N   .   .   .   .   15.422   .   1.596   .   -2.999    .   -0.520   1.829    5.123    4    .   52235   TOP
+      N5     N5     N5     N5     .   N   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   16.873   .   3.282   .   -2.623    .   0.806    0.557    3.683    5    .   52235   TOP
+      C6     C6     C6     C6     .   C   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   17.514   .   4.358   .   -3.090    .   0.954    -0.328   2.702    6    .   52235   TOP
+      N7     N7     N7     N7     .   N   .   .   N   0   .   .   .   1   N   N   .   .   .   .   18.277   .   5.090   .   -2.249    .   2.218    -0.694   2.271    7    .   52235   TOP
+      C8     C8     C8     C8     .   C   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   17.353   .   4.769   .   -4.403    .   -0.183   -0.875   2.105    8    .   52235   TOP
+      C9     C9     C9     C9     .   C   .   .   N   0   .   .   .   1   N   N   .   .   .   .   18.101   .   6.012   .   -4.909    .   -0.061   -1.877   0.987    9    .   52235   TOP
+      C10    C10    C10    C10    .   C   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   17.980   .   6.391   .   -6.387    .   -0.038   -1.155   -0.334   10   .   52235   TOP
+      C11    C11    C11    C11    .   C   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   19.128   .   6.284   .   -7.163    .   1.166    -0.748   -0.877   11   .   52235   TOP
+      C12    C12    C12    C12    .   C   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   19.110   .   6.637   .   -8.517    .   1.192    -0.083   -2.093   12   .   52235   TOP
+      O13    O13    O13    O13    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   20.213   .   6.499   .   -9.320    .   2.377    0.316    -2.626   13   .   52235   TOP
+      C14    C14    C14    C14    .   C   .   .   N   0   .   .   .   1   N   N   .   .   .   .   21.464   .   6.362   .   -8.690    .   3.398    -0.088   -1.711   14   .   52235   TOP
+      C15    C15    C15    C15    .   C   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   17.905   .   7.114   .   -9.067    .   0.003    0.179    -2.764   15   .   52235   TOP
+      O16    O16    O16    O16    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   17.827   .   7.494   .   -10.423   .   0.024    0.833    -3.958   16   .   52235   TOP
+      C17    C17    C17    C17    .   C   .   .   N   0   .   .   .   1   N   N   .   .   .   .   16.651   .   6.953   .   -10.933   .   -0.085   2.227    -3.667   17   .   52235   TOP
+      C18    C18    C18    C18    .   C   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   16.760   .   7.254   .   -8.290    .   -1.204   -0.235   -2.218   18   .   52235   TOP
+      O19    O19    O19    O19    .   O   .   .   N   0   .   .   .   1   N   N   .   .   .   .   15.630   .   7.745   .   -8.949    .   -2.370   0.014    -2.873   19   .   52235   TOP
+      C20    C20    C20    C20    .   C   .   .   N   0   .   .   .   1   N   N   .   .   .   .   14.648   .   8.167   .   -7.997    .   -3.420   -0.521   -2.067   20   .   52235   TOP
+      C21    C21    C21    C21    .   C   .   .   N   0   .   .   .   1   Y   N   .   .   .   .   16.772   .   6.898   .   -6.932    .   -1.221   -0.900   -1.001   21   .   52235   TOP
+      H1     H1     H1     H1     .   H   .   .   N   0   .   .   .   1   N   N   .   .   .   .   16.485   .   4.281   .   -6.322    .   -2.324   -0.887   2.131    22   .   52235   TOP
+      HN41   HN41   HN41   1HN4   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   15.570   .   1.352   .   -2.019    .   -1.399   2.095    5.436    23   .   52235   TOP
+      HN42   HN42   HN42   2HN4   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   15.594   .   0.768   .   -3.570    .   0.274    2.208    5.530    24   .   52235   TOP
+      HN71   HN71   HN71   1HN7   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   18.766   .   5.911   .   -2.605    .   3.004    -0.304   2.685    25   .   52235   TOP
+      HN72   HN72   HN72   2HN7   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   18.956   .   4.473   .   -1.803    .   2.318    -1.341   1.554    26   .   52235   TOP
+      H91    H91    H91    1H9    .   H   .   .   N   0   .   .   .   1   N   N   .   .   .   .   17.806   .   6.888   .   -4.286    .   -0.912   -2.558   1.015    27   .   52235   TOP
+      H92    H92    H92    2H9    .   H   .   .   N   0   .   .   .   1   N   N   .   .   .   .   19.180   .   5.914   .   -4.648    .   0.861    -2.445   1.107    28   .   52235   TOP
+      H11    H11    H11    H11    .   H   .   .   N   0   .   .   .   1   N   N   .   .   .   .   20.059   .   5.916   .   -6.701    .   2.089    -0.949   -0.353   29   .   52235   TOP
+      H141   H141   H141   1H14   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   22.360   .   6.249   .   -9.342    .   4.372    0.212    -2.098   30   .   52235   TOP
+      H142   H142   H142   2H14   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   21.620   .   7.217   .   -7.992    .   3.229    0.386    -0.745   31   .   52235   TOP
+      H143   H143   H143   3H14   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   21.423   .   5.510   .   -7.971    .   3.372    -1.171   -1.594   32   .   52235   TOP
+      H171   H171   H171   1H17   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   16.589   .   7.253   .   -12.005   .   -0.073   2.795    -4.598   33   .   52235   TOP
+      H172   H172   H172   2H17   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   16.575   .   5.850   .   -10.782   .   -1.020   2.416    -3.139   34   .   52235   TOP
+      H173   H173   H173   3H17   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   15.747   .   7.239   .   -10.346   .   0.752    2.536    -3.043   35   .   52235   TOP
+      H201   H201   H201   1H20   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   13.746   .   8.558   .   -8.522    .   -4.379   -0.343   -2.554   36   .   52235   TOP
+      H202   H202   H202   2H20   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   14.390   .   7.356   .   -7.276    .   -3.271   -1.593   -1.940   37   .   52235   TOP
+      H203   H203   H203   3H20   .   H   .   .   N   0   .   .   .   0   N   N   .   .   .   .   15.061   .   8.906   .   -7.271    .   -3.413   -0.035   -1.091   38   .   52235   TOP
+      H21    H21    H21    H21    .   H   .   .   N   0   .   .   .   1   N   N   .   .   .   .   15.864   .   7.012   .   -6.315    .   -2.161   -1.220   -0.575   39   .   52235   TOP
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1    .   DOUB   C1    N2     Y   N   1    .   52235   TOP
+      2    .   SING   C1    C8     Y   N   2    .   52235   TOP
+      3    .   SING   C1    H1     N   N   3    .   52235   TOP
+      4    .   SING   N2    C3     Y   N   4    .   52235   TOP
+      5    .   SING   C3    N4     N   N   5    .   52235   TOP
+      6    .   DOUB   C3    N5     Y   N   6    .   52235   TOP
+      7    .   SING   N4    HN41   N   N   7    .   52235   TOP
+      8    .   SING   N4    HN42   N   N   8    .   52235   TOP
+      9    .   SING   N5    C6     Y   N   9    .   52235   TOP
+      10   .   SING   C6    N7     N   N   10   .   52235   TOP
+      11   .   DOUB   C6    C8     Y   N   11   .   52235   TOP
+      12   .   SING   N7    HN71   N   N   12   .   52235   TOP
+      13   .   SING   N7    HN72   N   N   13   .   52235   TOP
+      14   .   SING   C8    C9     N   N   14   .   52235   TOP
+      15   .   SING   C9    C10    N   N   15   .   52235   TOP
+      16   .   SING   C9    H91    N   N   16   .   52235   TOP
+      17   .   SING   C9    H92    N   N   17   .   52235   TOP
+      18   .   DOUB   C10   C11    Y   N   18   .   52235   TOP
+      19   .   SING   C10   C21    Y   N   19   .   52235   TOP
+      20   .   SING   C11   C12    Y   N   20   .   52235   TOP
+      21   .   SING   C11   H11    N   N   21   .   52235   TOP
+      22   .   SING   C12   O13    N   N   22   .   52235   TOP
+      23   .   DOUB   C12   C15    Y   N   23   .   52235   TOP
+      24   .   SING   O13   C14    N   N   24   .   52235   TOP
+      25   .   SING   C14   H141   N   N   25   .   52235   TOP
+      26   .   SING   C14   H142   N   N   26   .   52235   TOP
+      27   .   SING   C14   H143   N   N   27   .   52235   TOP
+      28   .   SING   C15   O16    N   N   28   .   52235   TOP
+      29   .   SING   C15   C18    Y   N   29   .   52235   TOP
+      30   .   SING   O16   C17    N   N   30   .   52235   TOP
+      31   .   SING   C17   H171   N   N   31   .   52235   TOP
+      32   .   SING   C17   H172   N   N   32   .   52235   TOP
+      33   .   SING   C17   H173   N   N   33   .   52235   TOP
+      34   .   SING   C18   O19    N   N   34   .   52235   TOP
+      35   .   DOUB   C18   C21    Y   N   35   .   52235   TOP
+      36   .   SING   O19   C20    N   N   36   .   52235   TOP
+      37   .   SING   C20   H201   N   N   37   .   52235   TOP
+      38   .   SING   C20   H202   N   N   38   .   52235   TOP
+      39   .   SING   C20   H203   N   N   39   .   52235   TOP
+      40   .   SING   C21   H21    N   N   40   .   52235   TOP
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         52235
+   _Sample.ID                               1
+   _Sample.Name                             'I-DHFR, IG-DHFR'
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          1
+   _Sample.Solvent_system                   '100% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'E. coli DHFR'   '13C, 15N-Ile'        .   .   1   $entity_1     .   .   5    .   .   mM   .   .   .   .   52235   1
+      2   Trimethoprim     'natural abundance'   .   .   2   $entity_TOP   .   .   10   .   .   mM   .   .   .   .   52235   1
+      3   D2O              [U-2H]                .   .   .   .             .   .   60   .   .   %    .   .   .   .   52235   1
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       52235
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Name           'cryogenic temperature'
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   0.22      .   M     52235   1
+      pH                 7.5-8     .   pH    52235   1
+      pressure           1         .   atm   52235   1
+      temperature        100-110   .   K     52235   1
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+save_software_1
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_1
+   _Software.Entry_ID       52235
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           CcpNMR
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis'   .   52235   1
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID         52235
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Name             '14.1-T Bruker AVANCE-III 600/89 spectrometer (600-MHz 1H field)'
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            'AVANCE III'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+save_experiment_list_1
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list_1
+   _Experiment_list.Entry_ID       52235
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NUS_flag
+      _Experiment.Interleaved_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Details
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   NCOCX   yes   .   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $NMR_spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   52235   1
+   stop_
+
+   loop_
+      _Experiment_file.Experiment_ID
+      _Experiment_file.Experiment_name
+      _Experiment_file.Name
+      _Experiment_file.Type
+      _Experiment_file.Content
+      _Experiment_file.Directory_path
+      _Experiment_file.Details
+      _Experiment_file.Entry_ID
+      _Experiment_file.Experiment_list_ID
+
+      1   NCOCX   NMRData_pnas.zip   .   'Time-domain (raw spectral data)'   .   .   52235   1
+   stop_
+save_
+

@@ -1,0 +1,1152 @@
+data_17649
+
+
+#######################
+#  Entry information  #
+#######################
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             17649
+   _Entry.Title
+;
+Partial 13C, 15N chemical shift assignments of A53T alpha-synuclein fibrils
+;
+   _Entry.Type                           macromolecule
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2011-05-13
+   _Entry.Accession_date                 2011-05-13
+   _Entry.Last_release_date              2011-05-13
+   _Entry.Original_release_date          2011-05-13
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.14.0
+   _Entry.NMR_STAR_dict_location         .
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    SOLID-STATE
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          .
+   _Entry.Generated_software_label       .
+   _Entry.Generated_date                 .
+   _Entry.DOI                            .
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1    Gemma     Comellas    .   .    .   .   17649
+      2    Luisel    Lemkau      .   R.   .   .   17649
+      3    Andrew    Nieuwkoop   .   J.   .   .   17649
+      4    Kathryn   Kloepper    .   D.   .   .   17649
+      5    Daniel    Ladror      .   T.   .   .   17649
+      6    Reika     Ebisu       .   .    .   .   17649
+      7    Wendy     Woods       .   S.   .   .   17649
+      8    Andrew    Lipton      .   S.   .   .   17649
+      9    Julia     George      .   M.   .   .   17649
+      10   Chad      Rienstra    .   M.   .   .   17649
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   17649
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   44   17649
+      '15N chemical shifts'   14   17649
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      4   .   .   2011-12-15   2011-05-13   update     author   'update chemical shifts'   17649
+      3   .   .   2011-09-15   2011-05-13   update     author   'update entry authors'     17649
+      2   .   .   2011-09-06   2011-05-13   update     author   'update entry citation'    17649
+      1   .   .   2011-07-07   2011-05-13   original   author   'original release'         17649
+   stop_
+
+   loop_
+      _Related_entries.Database_name
+      _Related_entries.Database_accession_code
+      _Related_entries.Relationship
+      _Related_entries.Entry_ID
+
+      BMRB   16939   'WT alpha-synuclein fibrils'     17649
+      BMRB   17648   'A30P alpha-synuclein fibrils'   17649
+      BMRB   17654   'E46K alpha-synuclein fibrils'   17649
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     17649
+   _Citation.ID                           1
+   _Citation.Name                         .
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.PubMed_ID                    21718702
+   _Citation.DOI                          .
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Structured Regions of -Synuclein Fibrils Include the Early-Onset Parkinson's Disease Mutation Sites.
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'J. Mol. Biol.'
+   _Citation.Journal_name_full            'Journal of molecular biology'
+   _Citation.Journal_volume               411
+   _Citation.Journal_issue                4
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   881
+   _Citation.Page_last                    895
+   _Citation.Year                         2011
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1    Gemma     Comellas    .   .    .   .   17649   1
+      2    Luisel    Lemkau      .   R.   .   .   17649   1
+      3    Andrew    Nieuwkoop   .   J.   .   .   17649   1
+      4    Kathryn   Kloepper    .   D.   .   .   17649   1
+      5    Daniel    Ladror      .   T.   .   .   17649   1
+      6    Reika     Ebisu       .   .    .   .   17649   1
+      7    Wendy     Woods       .   S.   .   .   17649   1
+      8    Andrew    Lipton      .   S.   .   .   17649   1
+      9    Julia     George      .   M.   .   .   17649   1
+      10   Chad      Rienstra    .   M.   .   .   17649   1
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          17649
+   _Assembly.ID                                1
+   _Assembly.Name                              'A53T alpha-synuclein fibrils'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   'A53T alpha-synuclein'   1   $A53T_alpha-synuclein_fibrils   A   .   yes   unfolded   no   no   .   .   .   17649   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+save_A53T_alpha-synuclein_fibrils
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      A53T_alpha-synuclein_fibrils
+   _Entity.Entry_ID                          17649
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              A53T_alpha-synuclein_fibrils
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code
+;
+MDVFMKGKSKAKEGVVAAAE
+KTKQGVAEAAGKTKEGVLYV
+GSKTKEGVVHGVTTVAEKTK
+EQVTNVGGAVVTGVTAVAQK
+TVEGAGSIAAATGFVKKDQL
+GKNEEGAPQEGILEDMPVDP
+DNEAYEMPSEEGYQDYEPEA
+
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                140
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1     .   MET   .   17649   1
+      2     .   ASP   .   17649   1
+      3     .   VAL   .   17649   1
+      4     .   PHE   .   17649   1
+      5     .   MET   .   17649   1
+      6     .   LYS   .   17649   1
+      7     .   GLY   .   17649   1
+      8     .   LYS   .   17649   1
+      9     .   SER   .   17649   1
+      10    .   LYS   .   17649   1
+      11    .   ALA   .   17649   1
+      12    .   LYS   .   17649   1
+      13    .   GLU   .   17649   1
+      14    .   GLY   .   17649   1
+      15    .   VAL   .   17649   1
+      16    .   VAL   .   17649   1
+      17    .   ALA   .   17649   1
+      18    .   ALA   .   17649   1
+      19    .   ALA   .   17649   1
+      20    .   GLU   .   17649   1
+      21    .   LYS   .   17649   1
+      22    .   THR   .   17649   1
+      23    .   LYS   .   17649   1
+      24    .   GLN   .   17649   1
+      25    .   GLY   .   17649   1
+      26    .   VAL   .   17649   1
+      27    .   ALA   .   17649   1
+      28    .   GLU   .   17649   1
+      29    .   ALA   .   17649   1
+      30    .   ALA   .   17649   1
+      31    .   GLY   .   17649   1
+      32    .   LYS   .   17649   1
+      33    .   THR   .   17649   1
+      34    .   LYS   .   17649   1
+      35    .   GLU   .   17649   1
+      36    .   GLY   .   17649   1
+      37    .   VAL   .   17649   1
+      38    .   LEU   .   17649   1
+      39    .   TYR   .   17649   1
+      40    .   VAL   .   17649   1
+      41    .   GLY   .   17649   1
+      42    .   SER   .   17649   1
+      43    .   LYS   .   17649   1
+      44    .   THR   .   17649   1
+      45    .   LYS   .   17649   1
+      46    .   GLU   .   17649   1
+      47    .   GLY   .   17649   1
+      48    .   VAL   .   17649   1
+      49    .   VAL   .   17649   1
+      50    .   HIS   .   17649   1
+      51    .   GLY   .   17649   1
+      52    .   VAL   .   17649   1
+      53    .   THR   .   17649   1
+      54    .   THR   .   17649   1
+      55    .   VAL   .   17649   1
+      56    .   ALA   .   17649   1
+      57    .   GLU   .   17649   1
+      58    .   LYS   .   17649   1
+      59    .   THR   .   17649   1
+      60    .   LYS   .   17649   1
+      61    .   GLU   .   17649   1
+      62    .   GLN   .   17649   1
+      63    .   VAL   .   17649   1
+      64    .   THR   .   17649   1
+      65    .   ASN   .   17649   1
+      66    .   VAL   .   17649   1
+      67    .   GLY   .   17649   1
+      68    .   GLY   .   17649   1
+      69    .   ALA   .   17649   1
+      70    .   VAL   .   17649   1
+      71    .   VAL   .   17649   1
+      72    .   THR   .   17649   1
+      73    .   GLY   .   17649   1
+      74    .   VAL   .   17649   1
+      75    .   THR   .   17649   1
+      76    .   ALA   .   17649   1
+      77    .   VAL   .   17649   1
+      78    .   ALA   .   17649   1
+      79    .   GLN   .   17649   1
+      80    .   LYS   .   17649   1
+      81    .   THR   .   17649   1
+      82    .   VAL   .   17649   1
+      83    .   GLU   .   17649   1
+      84    .   GLY   .   17649   1
+      85    .   ALA   .   17649   1
+      86    .   GLY   .   17649   1
+      87    .   SER   .   17649   1
+      88    .   ILE   .   17649   1
+      89    .   ALA   .   17649   1
+      90    .   ALA   .   17649   1
+      91    .   ALA   .   17649   1
+      92    .   THR   .   17649   1
+      93    .   GLY   .   17649   1
+      94    .   PHE   .   17649   1
+      95    .   VAL   .   17649   1
+      96    .   LYS   .   17649   1
+      97    .   LYS   .   17649   1
+      98    .   ASP   .   17649   1
+      99    .   GLN   .   17649   1
+      100   .   LEU   .   17649   1
+      101   .   GLY   .   17649   1
+      102   .   LYS   .   17649   1
+      103   .   ASN   .   17649   1
+      104   .   GLU   .   17649   1
+      105   .   GLU   .   17649   1
+      106   .   GLY   .   17649   1
+      107   .   ALA   .   17649   1
+      108   .   PRO   .   17649   1
+      109   .   GLN   .   17649   1
+      110   .   GLU   .   17649   1
+      111   .   GLY   .   17649   1
+      112   .   ILE   .   17649   1
+      113   .   LEU   .   17649   1
+      114   .   GLU   .   17649   1
+      115   .   ASP   .   17649   1
+      116   .   MET   .   17649   1
+      117   .   PRO   .   17649   1
+      118   .   VAL   .   17649   1
+      119   .   ASP   .   17649   1
+      120   .   PRO   .   17649   1
+      121   .   ASP   .   17649   1
+      122   .   ASN   .   17649   1
+      123   .   GLU   .   17649   1
+      124   .   ALA   .   17649   1
+      125   .   TYR   .   17649   1
+      126   .   GLU   .   17649   1
+      127   .   MET   .   17649   1
+      128   .   PRO   .   17649   1
+      129   .   SER   .   17649   1
+      130   .   GLU   .   17649   1
+      131   .   GLU   .   17649   1
+      132   .   GLY   .   17649   1
+      133   .   TYR   .   17649   1
+      134   .   GLN   .   17649   1
+      135   .   ASP   .   17649   1
+      136   .   TYR   .   17649   1
+      137   .   GLU   .   17649   1
+      138   .   PRO   .   17649   1
+      139   .   GLU   .   17649   1
+      140   .   ALA   .   17649   1
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      .   MET   1     1     17649   1
+      .   ASP   2     2     17649   1
+      .   VAL   3     3     17649   1
+      .   PHE   4     4     17649   1
+      .   MET   5     5     17649   1
+      .   LYS   6     6     17649   1
+      .   GLY   7     7     17649   1
+      .   LYS   8     8     17649   1
+      .   SER   9     9     17649   1
+      .   LYS   10    10    17649   1
+      .   ALA   11    11    17649   1
+      .   LYS   12    12    17649   1
+      .   GLU   13    13    17649   1
+      .   GLY   14    14    17649   1
+      .   VAL   15    15    17649   1
+      .   VAL   16    16    17649   1
+      .   ALA   17    17    17649   1
+      .   ALA   18    18    17649   1
+      .   ALA   19    19    17649   1
+      .   GLU   20    20    17649   1
+      .   LYS   21    21    17649   1
+      .   THR   22    22    17649   1
+      .   LYS   23    23    17649   1
+      .   GLN   24    24    17649   1
+      .   GLY   25    25    17649   1
+      .   VAL   26    26    17649   1
+      .   ALA   27    27    17649   1
+      .   GLU   28    28    17649   1
+      .   ALA   29    29    17649   1
+      .   ALA   30    30    17649   1
+      .   GLY   31    31    17649   1
+      .   LYS   32    32    17649   1
+      .   THR   33    33    17649   1
+      .   LYS   34    34    17649   1
+      .   GLU   35    35    17649   1
+      .   GLY   36    36    17649   1
+      .   VAL   37    37    17649   1
+      .   LEU   38    38    17649   1
+      .   TYR   39    39    17649   1
+      .   VAL   40    40    17649   1
+      .   GLY   41    41    17649   1
+      .   SER   42    42    17649   1
+      .   LYS   43    43    17649   1
+      .   THR   44    44    17649   1
+      .   LYS   45    45    17649   1
+      .   GLU   46    46    17649   1
+      .   GLY   47    47    17649   1
+      .   VAL   48    48    17649   1
+      .   VAL   49    49    17649   1
+      .   HIS   50    50    17649   1
+      .   GLY   51    51    17649   1
+      .   VAL   52    52    17649   1
+      .   THR   53    53    17649   1
+      .   THR   54    54    17649   1
+      .   VAL   55    55    17649   1
+      .   ALA   56    56    17649   1
+      .   GLU   57    57    17649   1
+      .   LYS   58    58    17649   1
+      .   THR   59    59    17649   1
+      .   LYS   60    60    17649   1
+      .   GLU   61    61    17649   1
+      .   GLN   62    62    17649   1
+      .   VAL   63    63    17649   1
+      .   THR   64    64    17649   1
+      .   ASN   65    65    17649   1
+      .   VAL   66    66    17649   1
+      .   GLY   67    67    17649   1
+      .   GLY   68    68    17649   1
+      .   ALA   69    69    17649   1
+      .   VAL   70    70    17649   1
+      .   VAL   71    71    17649   1
+      .   THR   72    72    17649   1
+      .   GLY   73    73    17649   1
+      .   VAL   74    74    17649   1
+      .   THR   75    75    17649   1
+      .   ALA   76    76    17649   1
+      .   VAL   77    77    17649   1
+      .   ALA   78    78    17649   1
+      .   GLN   79    79    17649   1
+      .   LYS   80    80    17649   1
+      .   THR   81    81    17649   1
+      .   VAL   82    82    17649   1
+      .   GLU   83    83    17649   1
+      .   GLY   84    84    17649   1
+      .   ALA   85    85    17649   1
+      .   GLY   86    86    17649   1
+      .   SER   87    87    17649   1
+      .   ILE   88    88    17649   1
+      .   ALA   89    89    17649   1
+      .   ALA   90    90    17649   1
+      .   ALA   91    91    17649   1
+      .   THR   92    92    17649   1
+      .   GLY   93    93    17649   1
+      .   PHE   94    94    17649   1
+      .   VAL   95    95    17649   1
+      .   LYS   96    96    17649   1
+      .   LYS   97    97    17649   1
+      .   ASP   98    98    17649   1
+      .   GLN   99    99    17649   1
+      .   LEU   100   100   17649   1
+      .   GLY   101   101   17649   1
+      .   LYS   102   102   17649   1
+      .   ASN   103   103   17649   1
+      .   GLU   104   104   17649   1
+      .   GLU   105   105   17649   1
+      .   GLY   106   106   17649   1
+      .   ALA   107   107   17649   1
+      .   PRO   108   108   17649   1
+      .   GLN   109   109   17649   1
+      .   GLU   110   110   17649   1
+      .   GLY   111   111   17649   1
+      .   ILE   112   112   17649   1
+      .   LEU   113   113   17649   1
+      .   GLU   114   114   17649   1
+      .   ASP   115   115   17649   1
+      .   MET   116   116   17649   1
+      .   PRO   117   117   17649   1
+      .   VAL   118   118   17649   1
+      .   ASP   119   119   17649   1
+      .   PRO   120   120   17649   1
+      .   ASP   121   121   17649   1
+      .   ASN   122   122   17649   1
+      .   GLU   123   123   17649   1
+      .   ALA   124   124   17649   1
+      .   TYR   125   125   17649   1
+      .   GLU   126   126   17649   1
+      .   MET   127   127   17649   1
+      .   PRO   128   128   17649   1
+      .   SER   129   129   17649   1
+      .   GLU   130   130   17649   1
+      .   GLU   131   131   17649   1
+      .   GLY   132   132   17649   1
+      .   TYR   133   133   17649   1
+      .   GLN   134   134   17649   1
+      .   ASP   135   135   17649   1
+      .   TYR   136   136   17649   1
+      .   GLU   137   137   17649   1
+      .   PRO   138   138   17649   1
+      .   GLU   139   139   17649   1
+      .   ALA   140   140   17649   1
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       17649
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $A53T_alpha-synuclein_fibrils   .   562   plasmid   .   'Escherichia coli'   'E. coli'   .   .   Bacteria   .   Escherichia   coli   .   .   .   .   .   .   .   .   .   .   .   .   .   17649   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       17649
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $A53T_alpha-synuclein_fibrils   .   'recombinant technology'   'Escherichia coli'   .   .   .   Escherichia   coli   .   .   .   .   .   .   'BL21 DE3 peT28'   .   .   .   17649   1
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         17649
+   _Sample.ID                               1
+   _Sample.Name                             .
+   _Sample.Type                             solid
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   '36% water by mass'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'A53T alpha-synuclein fibrils'   '[U-13C; U-15N]'      .   .   1   $A53T_alpha-synuclein_fibrils   .   .   .    .   .   mM   .   .   .   .   17649   1
+      2   H2O                              'natural abundance'   .   .   .   .                               .   .   36   .   .   %    .   .   .   .   17649   1
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       17649
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Name           .
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'   0.05   .   M     17649   1
+      pH                 7.5    .   pH    17649   1
+      pressure           1      .   atm   17649   1
+      temperature        283    .   K     17649   1
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+save_NMRPipe
+   _Software.Sf_category    software
+   _Software.Sf_framecode   NMRPipe
+   _Software.Entry_ID       17649
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           NMRPipe
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Delaglio, Grzesiek, Vuister, Zhu, Pfeifer and Bax'   .   .   17649   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      processing   .   17649   1
+   stop_
+save_
+
+save_SPARKY
+   _Software.Sf_category    software
+   _Software.Sf_framecode   SPARKY
+   _Software.Entry_ID       17649
+   _Software.ID             2
+   _Software.Type           .
+   _Software.Name           SPARKY
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      Goddard   .   .   17649   2
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Software_module
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'data analysis'   .   17649   2
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         17649
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Name             .
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Varian
+   _NMR_spectrometer.Model            UnityPlus
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+save_
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       17649
+   _NMR_spectrometer_list.ID             1
+   _NMR_spectrometer_list.Name           .
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1   spectrometer_1   Varian   UnityPlus   .   600   .   .   .   17649   1
+   stop_
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       17649
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NUS_flag
+      _Experiment.Interleaved_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Details
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   'NCACX 50 ms DARR'     no   .   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   17649   1
+      2   'NCOCX 50 ms DARR'     no   .   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   17649   1
+      3   'CANcoCX 50 ms DARR'   no   .   .   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_1   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   17649   1
+   stop_
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       17649
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Name           .
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   adamantane   'alkane carbons'   .   .   .   .   ppm   40.48   external   indirect   1.0   .   .   .   .   .   17649   1
+      N   15   adamantane   'alkane carbons'   .   .   .   .   ppm   40.48   external   indirect   .     .   .   .   .   .   17649   1
+   stop_
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      17649
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Name                          .
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1   'NCACX 50 ms DARR'     .   .   .   17649   1
+      2   'NCOCX 50 ms DARR'     .   .   .   17649   1
+      3   'CANcoCX 50 ms DARR'   .   .   .   17649   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_assembly_asym_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1    .   1   .   1   64   64   THR   C     C   13   172.923   0.148   .   .   .   .   .   .   .   64   THR   C     .   17649   1
+      2    .   1   .   1   64   64   THR   CA    C   13   62.514    0.049   .   .   .   .   .   .   .   64   THR   CA    .   17649   1
+      3    .   1   .   1   64   64   THR   CB    C   13   69.631    0.201   .   .   .   .   .   .   .   64   THR   CB    .   17649   1
+      4    .   1   .   1   64   64   THR   CG2   C   13   21.719    0.033   .   .   .   .   .   .   .   64   THR   CG2   .   17649   1
+      5    .   1   .   1   64   64   THR   N     N   15   126.817   0.242   .   .   .   .   .   .   .   64   THR   N     .   17649   1
+      6    .   1   .   1   65   65   ASN   C     C   13   172.882   0.16    .   .   .   .   .   .   .   65   ASN   C     .   17649   1
+      7    .   1   .   1   65   65   ASN   CA    C   13   51.619    0.155   .   .   .   .   .   .   .   65   ASN   CA    .   17649   1
+      8    .   1   .   1   65   65   ASN   CB    C   13   43.664    0.186   .   .   .   .   .   .   .   65   ASN   CB    .   17649   1
+      9    .   1   .   1   65   65   ASN   CG    C   13   174.904   0.109   .   .   .   .   .   .   .   65   ASN   CG    .   17649   1
+      10   .   1   .   1   65   65   ASN   N     N   15   125.540   0.176   .   .   .   .   .   .   .   65   ASN   N     .   17649   1
+      11   .   1   .   1   65   65   ASN   ND2   N   15   113.390   0.138   .   .   .   .   .   .   .   65   ASN   ND2   .   17649   1
+      12   .   1   .   1   66   66   VAL   C     C   13   178.007   0.202   .   .   .   .   .   .   .   66   VAL   C     .   17649   1
+      13   .   1   .   1   66   66   VAL   CA    C   13   60.897    0.13    .   .   .   .   .   .   .   66   VAL   CA    .   17649   1
+      14   .   1   .   1   66   66   VAL   CB    C   13   33.680    0.06    .   .   .   .   .   .   .   66   VAL   CB    .   17649   1
+      15   .   1   .   1   66   66   VAL   CG1   C   13   21.611    0.097   .   .   .   .   .   .   .   66   VAL   CG1   .   17649   1
+      16   .   1   .   1   66   66   VAL   CG2   C   13   19.597    0.083   .   .   .   .   .   .   .   66   VAL   CG2   .   17649   1
+      17   .   1   .   1   66   66   VAL   N     N   15   127.498   0.152   .   .   .   .   .   .   .   66   VAL   N     .   17649   1
+      18   .   1   .   1   67   67   GLY   C     C   13   172.609   0.087   .   .   .   .   .   .   .   67   GLY   C     .   17649   1
+      19   .   1   .   1   67   67   GLY   CA    C   13   46.922    0.138   .   .   .   .   .   .   .   67   GLY   CA    .   17649   1
+      20   .   1   .   1   67   67   GLY   N     N   15   111.609   0.251   .   .   .   .   .   .   .   67   GLY   N     .   17649   1
+      21   .   1   .   1   68   68   GLY   C     C   13   172.620   0.165   .   .   .   .   .   .   .   68   GLY   C     .   17649   1
+      22   .   1   .   1   68   68   GLY   CA    C   13   43.704    0.161   .   .   .   .   .   .   .   68   GLY   CA    .   17649   1
+      23   .   1   .   1   68   68   GLY   N     N   15   103.400   0.127   .   .   .   .   .   .   .   68   GLY   N     .   17649   1
+      24   .   1   .   1   69   69   ALA   C     C   13   175.625   0.039   .   .   .   .   .   .   .   69   ALA   C     .   17649   1
+      25   .   1   .   1   69   69   ALA   CA    C   13   50.611    0.103   .   .   .   .   .   .   .   69   ALA   CA    .   17649   1
+      26   .   1   .   1   69   69   ALA   CB    C   13   23.691    0.151   .   .   .   .   .   .   .   69   ALA   CB    .   17649   1
+      27   .   1   .   1   69   69   ALA   N     N   15   126.768   0.119   .   .   .   .   .   .   .   69   ALA   N     .   17649   1
+      28   .   1   .   1   75   75   THR   C     C   13   172.188   0.208   .   .   .   .   .   .   .   75   THR   C     .   17649   1
+      29   .   1   .   1   75   75   THR   CA    C   13   62.082    0.136   .   .   .   .   .   .   .   75   THR   CA    .   17649   1
+      30   .   1   .   1   75   75   THR   CB    C   13   70.557    0.196   .   .   .   .   .   .   .   75   THR   CB    .   17649   1
+      31   .   1   .   1   75   75   THR   CG2   C   13   21.597    0.087   .   .   .   .   .   .   .   75   THR   CG2   .   17649   1
+      32   .   1   .   1   75   75   THR   N     N   15   127.835   0.184   .   .   .   .   .   .   .   75   THR   N     .   17649   1
+      33   .   1   .   1   76   76   ALA   C     C   13   174.445   0.147   .   .   .   .   .   .   .   76   ALA   C     .   17649   1
+      34   .   1   .   1   76   76   ALA   CA    C   13   50.054    0.148   .   .   .   .   .   .   .   76   ALA   CA    .   17649   1
+      35   .   1   .   1   76   76   ALA   CB    C   13   21.517    0.085   .   .   .   .   .   .   .   76   ALA   CB    .   17649   1
+      36   .   1   .   1   76   76   ALA   N     N   15   130.574   0.17    .   .   .   .   .   .   .   76   ALA   N     .   17649   1
+      37   .   1   .   1   77   77   VAL   C     C   13   173.401   0.225   .   .   .   .   .   .   .   77   VAL   C     .   17649   1
+      38   .   1   .   1   77   77   VAL   CA    C   13   60.914    0.069   .   .   .   .   .   .   .   77   VAL   CA    .   17649   1
+      39   .   1   .   1   77   77   VAL   CB    C   13   36.098    0.073   .   .   .   .   .   .   .   77   VAL   CB    .   17649   1
+      40   .   1   .   1   77   77   VAL   CG1   C   13   21.473    0       .   .   .   .   .   .   .   77   VAL   CG1   .   17649   1
+      41   .   1   .   1   77   77   VAL   CG2   C   13   20.609    0.166   .   .   .   .   .   .   .   77   VAL   CG2   .   17649   1
+      42   .   1   .   1   77   77   VAL   N     N   15   124.102   0.18    .   .   .   .   .   .   .   77   VAL   N     .   17649   1
+      43   .   1   .   1   78   78   ALA   C     C   13   176.306   0.043   .   .   .   .   .   .   .   78   ALA   C     .   17649   1
+      44   .   1   .   1   78   78   ALA   CA    C   13   50.234    0.197   .   .   .   .   .   .   .   78   ALA   CA    .   17649   1
+      45   .   1   .   1   78   78   ALA   CB    C   13   24.943    0.101   .   .   .   .   .   .   .   78   ALA   CB    .   17649   1
+      46   .   1   .   1   78   78   ALA   N     N   15   130.383   0.166   .   .   .   .   .   .   .   78   ALA   N     .   17649   1
+      47   .   1   .   1   91   91   ALA   C     C   13   175.698   0.041   .   .   .   .   .   .   .   91   ALA   C     .   17649   1
+      48   .   1   .   1   91   91   ALA   CA    C   13   49.946    0.14    .   .   .   .   .   .   .   91   ALA   CA    .   17649   1
+      49   .   1   .   1   91   91   ALA   CB    C   13   23.317    0.062   .   .   .   .   .   .   .   91   ALA   CB    .   17649   1
+      50   .   1   .   1   91   91   ALA   N     N   15   127.608   0.115   .   .   .   .   .   .   .   91   ALA   N     .   17649   1
+      51   .   1   .   1   92   92   THR   C     C   13   174.822   0.101   .   .   .   .   .   .   .   92   THR   C     .   17649   1
+      52   .   1   .   1   92   92   THR   CA    C   13   61.324    0.101   .   .   .   .   .   .   .   92   THR   CA    .   17649   1
+      53   .   1   .   1   92   92   THR   CB    C   13   70.341    0.121   .   .   .   .   .   .   .   92   THR   CB    .   17649   1
+      54   .   1   .   1   92   92   THR   CG2   C   13   22.006    0       .   .   .   .   .   .   .   92   THR   CG2   .   17649   1
+      55   .   1   .   1   92   92   THR   N     N   15   125.662   0.112   .   .   .   .   .   .   .   92   THR   N     .   17649   1
+      56   .   1   .   1   93   93   GLY   C     C   13   170.237   0.129   .   .   .   .   .   .   .   93   GLY   C     .   17649   1
+      57   .   1   .   1   93   93   GLY   CA    C   13   47.835    0.195   .   .   .   .   .   .   .   93   GLY   CA    .   17649   1
+      58   .   1   .   1   93   93   GLY   N     N   15   115.136   0.064   .   .   .   .   .   .   .   93   GLY   N     .   17649   1
+   stop_
+save_
+
