@@ -345,40 +345,49 @@ def run_pipeline(
 # Curated solid-state NMR BMRB entries with linked PDB structures.
 # Selection criteria: ssNMR, 13C/15N shifts deposited, PDB structure available.
 SOLID_STATE_ENTRIES = [
-    
-
-    # ── Confirmed working from --batch ────────────────────────────────────
-
-    
-
-    # TIER 1 additions — new protein families from scraper v3
-    (27059, "1OPB"),   # HlyE pore-forming toxin, mixed alpha/beta, score 97
-    (18493, "2ZUQ"),   # Mixed secondary structure, score 85
-    (18108, "2LME"),   # Helix-rich, score 61
-    (25642, "2N3D"),   # Pure strand/coil, fills strand gap, score 60
-    (6351,  "3ODV"),   # Mixed helix/strand, score 55
-    (16060, "1NOR"),   # Pure strand, fills strand gap, score 48
-    (12019, "1ED7"),   # Pure strand, score 42
-    # ── From scraper — validate first with validate_pairs.py ─────────────
-    # (18808, "2M0G",  "ssNMR protein Δ=13, H=59%"),   # promising helix entry
-
-        # New from literature search
-    (34178, "6EKA"),   # HELLF prion amyloid — genuinely new
-    (25334, "2N7H"),   # FimA pilus — scraper missed PDB link
-    (19747, "2MJZ"),   # M13 phage G8P — better PDB than scraper found
-
-    # Scraper passes not yet in batch
-    (25076, "2MS8"),   # MAVS CARD domain
-    (25788, "2N70"),   # M2 influenza channel
-    (30121, "5KK3"),   # Amyloid-beta 42
-    (30304, "5W3N"),   # FUS LC fibrils
-    (18170, "2LNL"),   # Helix-rich large
-    (50411, "7JK8"),   # Recent deposit
-
-    (30094, "5JZR")
+    # ── Original confirmed working entries ────────────────────────────────
+    (25123, "1UBQ",  "Ubiquitin MPD crystal"),
+    (15156, "2LGI",  "GB1 MAS structure"),
+    (15283, "2OED",  "GB3 domain"),
+    (19025, "1TXQ",  "CAP-Gly 19.9T dataset"),
+    (15380, "1PGB",  "GB1 crystal form B1"),
+    (17561, "2LBH",  "EETI-II knottin"),
+    (11512, "3ONS",  "Ubiquitin alt dataset"),
+    (16327, "1FVK",  "DsbA oxidized"),
+    (18024, "2K0G",  "CNBD domain"),
+    (18397, "1GB1",  "GB1 proton-detected"),
+    (19031, "2MPX",  "CAP-Gly+EB1 complex"),
+    (25005, "2MPX",  "CAP-Gly on microtubule"),
+    # ── Added from scraper v1/v2 ──────────────────────────────────────────
+    (5757,  "2AK7",  "Crh-HPr mixed alpha/beta"),
+    (17700, "1KEB",  "Thioredoxin"),
+    (16964, "2WVN",  "ssNMR helical protein"),
+    (50110, "4NUT",  "Snu13p RNA-binding protein"),
+    (18808, "2M0G",  "ssNMR mixed alpha/coil"),
+    (53330, "9I2I",  "ssNMR mixed strand/coil"),
+    (15818, "1HG7",  "Antifreeze protein"),
+    (16448, "1PKS",  "BPTI Kunitz domain"),
+    (16318, "2JWU",  "Ubiquitin microcrystals"),
+    # ── New entries from scraper v3 and literature ────────────────────────
+    (27059, "1OPB",  "HlyE pore-forming toxin — mixed alpha/beta"),
+    (18493, "2ZUQ",  "ssNMR mixed repeat protein"),
+    (18108, "2LME",  "ssNMR helix-rich protein"),
+    (25642, "2N3D",  "Bactofilin BacA — pure beta-helix"),
+    (6351,  "3ODV",  "ssNMR mixed helix/strand peptide"),
+    (16060, "1NOR",  "NOR1 — pure strand/coil"),
+    (12019, "1ED7",  "ssNMR pure strand protein"),
+    (34178, "6EKA",  "HELLF prion amyloid — new from literature"),
+    (25334, "2N7H",  "FimA pilus subunit — Ig-like all-beta"),
+    (19747, "2MJZ",  "M13 bacteriophage G8P — helix-rich capsid"),
+    (25076, "2MS8",  "MAVS CARD domain — 90% helix"),
+    (25788, "2N70",  "Influenza M2 transmembrane helix"),
+    (30121, "5KK3",  "Amyloid-beta 42 fibril"),
+    (30304, "5W3N",  "FUS LC domain fibril"),
+    (18170, "2LNL",  "ssNMR large helix-rich protein"),
+    (50411, "7JK8",  "ssNMR recent helix-rich deposit"),
+    (30094, "5JZR",  "AP205 phage coat protein"),
 ]
 SKIP_ENTRIES: set = set()
-
 
 
 def run_pipeline_batch(

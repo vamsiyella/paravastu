@@ -88,18 +88,31 @@ except ImportError:
 # ============================================================================
 
 PROTEIN_GROUPS = {
-
-
-    # Tier 1 additions
+    # ── Original entries ──────────────────────────────────────────────────
+    15156: "GB1",       15283: "GB1",       15380: "GB1",
+    18397: "GB1",       16873: "GB1",       30088: "GB1",
+    19025: "CAP-Gly",   19031: "CAP-Gly",   25005: "CAP-Gly",
+    17937: "CAP-Gly",
+    25123: "Ubiquitin", 11512: "Ubiquitin", 16318: "Ubiquitin",
+    17561: "EETI-II",
+    16327: "DsbA",      18543: "DsbA",
+    18024: "CNBD",
+    5757:  "Crh-HPr",
+    17700: "Thioredoxin",
+    16964: "ssNMR-helical",
+    50110: "Snu13p",
+    18808: "ssNMR-mixed-1",
+    53330: "ssNMR-mixed-2",
+    15818: "Antifreeze",
+    16448: "BPTI",
+    # ── New entries from scraper v3 and literature ────────────────────────
     27059: "HlyE-pore",
     18493: "ssNMR-repeat",
     18108: "ssNMR-helix2",
-    25642: "ssNMR-strand2",
+    25642: "BactofilinBacA",
     6351:  "ssNMR-mixed3",
     16060: "ssNMR-strand3",
     12019: "ssNMR-strand4",
-
-
     34178: "HELLF-prion",
     25334: "FimA-pilus",
     19747: "M13-G8P",
@@ -109,8 +122,7 @@ PROTEIN_GROUPS = {
     30304: "FUS-LC",
     18170: "ssNMR-helix3",
     50411: "ssNMR-helix5",
-
-    30094: "AP205-capsid"
+    30094: "AP205-capsid",
 }
 
 # Included in training but skipped as test folds (pathological SS composition)
