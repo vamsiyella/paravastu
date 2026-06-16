@@ -369,7 +369,7 @@ SOLID_STATE_ENTRIES = [
     (16448, "1PKS",  "BPTI Kunitz domain"),
     (16318, "2JWU",  "Ubiquitin microcrystals"),
     # ── New entries from scraper v3 and literature ────────────────────────
-    (27059, "1OPB",  "HlyE pore-forming toxin — mixed alpha/beta"),
+    
     (18493, "2ZUQ",  "ssNMR mixed repeat protein"),
     (18108, "2LME",  "ssNMR helix-rich protein"),
     (25642, "2N3D",  "Bactofilin BacA — pure beta-helix"),

@@ -106,7 +106,7 @@ PROTEIN_GROUPS = {
     15818: "Antifreeze",
     16448: "BPTI",
     # ── New entries from scraper v3 and literature ────────────────────────
-    27059: "HlyE-pore",
+    
     18493: "ssNMR-repeat",
     18108: "ssNMR-helix2",
     25642: "BactofilinBacA",
